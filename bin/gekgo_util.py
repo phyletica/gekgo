@@ -9,13 +9,25 @@ import stat
 BIN_DIR = os.path.abspath(os.path.dirname(__file__))
 PROJECT_DIR = os.path.abspath(os.path.dirname(BIN_DIR))
 DATA_DIR = os.path.abspath(os.path.join(PROJECT_DIR, 'data'))
-SEQS_DIR = os.path.abspath(os.path.join(DATA_DIR, 'seqs'))
-ALN_DIR = os.path.abspath(os.path.join(SEQS_DIR, 'aln'))
+LOCI_DIR = os.path.abspath(os.path.join(DATA_DIR, 'loci'))
+CONCAT_DIR = os.path.abspath(os.path.join(DATA_DIR, 'concat'))
 LOCI = [os.path.basename(os.path.dirname(x)) for x in glob.glob(
-        os.path.join(ALN_DIR, "*/"))]
-FASTA_ALNS = glob.glob(os.path.join(ALN_DIR, '*', 'final', '*.fasta'))
-PHY_ALNS = glob.glob(os.path.join(ALN_DIR, '*', 'final', '*.phy'))
-NEX_ALNS = glob.glob(os.path.join(ALN_DIR, '*', 'final', '*.nex'))
+        os.path.join(LOCI_DIR, "*/"))]
+LOCI_ALNS_FASTA = {}
+LOCI_ALNS_PHY = {}
+LOCI_ALNS_NEX = {}
+for i in LOCI:
+    x = glob.glob(os.path.join(LOCI_DIR, i, 'aln', 'final', '*.fasta'))
+    assert(len(x) == 1)
+    LOCI_ALNS_FASTA[i] = x[0]
+    x = glob.glob(os.path.join(LOCI_DIR, i, 'aln', 'final', '*.phy'))
+    assert(len(x) == 1)
+    LOCI_ALNS_PHY[i] = x[0]
+    x = glob.glob(os.path.join(LOCI_DIR, i, 'aln', 'final', '*.nex'))
+    assert(len(x) == 1)
+    LOCI_ALNS_NEX[i] = x[0]
+CONCAT_ALNS_NEX = {'all': os.path.join(CONCAT_DIR, 'all.nex'),
+                   'nuc': os.path.join(CONCAT_DIR, 'nuc.nex')}
 
 def whereis(file_name):
     """
