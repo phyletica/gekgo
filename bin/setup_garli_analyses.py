@@ -57,7 +57,8 @@ def get_garli_conf(datafname,
                    bootstrapreps="0"):
     conf = StringIO()
     conf.write(
-"""datafname = %s
+"""[general]
+datafname = %s
 constraintfile = %s
 streefname = %s
 attachmentspertaxon = 100
