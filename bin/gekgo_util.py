@@ -69,6 +69,20 @@ def is_executable(path):
         return False
     return True
 
+def get_qsub_preamble(memory = "2G", queue = "general.q"):
+    return """#! /bin/sh
+#$ -S /bin/bash
+#$ -cwd
+#$ -V
+#$ -l h_vmem=%s
+#$ -l vf=%s
+#$ -q %s
+
+source ~/.bash_profile
+cd /share/work1
+cd $SGE_O_WORKDIR
+""" % (memory, memory, queue)
+
 class RunLogger(object):
     def __init__(self, **kwargs):
         self.name = kwargs.get("name", "RunLog")
