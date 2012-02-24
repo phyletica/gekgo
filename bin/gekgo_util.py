@@ -11,6 +11,7 @@ PROJECT_DIR = os.path.abspath(os.path.dirname(BIN_DIR))
 DATA_DIR = os.path.abspath(os.path.join(PROJECT_DIR, 'data'))
 LOCI_DIR = os.path.abspath(os.path.join(DATA_DIR, 'loci'))
 CONCAT_DIR = os.path.abspath(os.path.join(DATA_DIR, 'concat'))
+GARLI_DIR = os.path.abspath(os.path.join(DATA_DIR, 'garli'))
 LOCI = [os.path.basename(os.path.dirname(x)) for x in glob.glob(
         os.path.join(LOCI_DIR, "*/"))]
 LOCI_ALNS_FASTA = {}
