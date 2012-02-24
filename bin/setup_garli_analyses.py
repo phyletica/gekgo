@@ -9,7 +9,8 @@ import gekgo_util
 
 def main():
     locus_dirs = set_up_dirs()
-    set_up_mlflex_confs(locus_dirs)
+    set_up_mlflex_confs(locus_dirs, numratecats = "6")
+    set_up_mlflex_confs(locus_dirs, numratecats = "4")
 
 def set_up_dirs():
     garli_dirs = {}
@@ -20,9 +21,9 @@ def set_up_dirs():
             gekgo_util.mkdr(gdir)
     return garli_dirs
 
-def set_up_mlflex_confs(locus_dirs):
+def set_up_mlflex_confs(locus_dirs, ratehetmodel = "flex", numratecats = "6"):
     for locus, dr in locus_dirs.iteritems():
-        ml_dir = os.path.join(dr, 'ml_gtr_flex')
+        ml_dir = os.path.join(dr, 'ml_gtr_' + ratehetmodel + str(numratecats))
         if not os.path.exists(ml_dir):
             gekgo_util.mkdr(ml_dir)
         conf_path = os.path.join(ml_dir, 'garli.conf')
@@ -31,8 +32,8 @@ def set_up_mlflex_confs(locus_dirs):
             conf = get_garli_conf(
                     datafname = os.path.relpath(gekgo_util.ALNS_NEX[locus],
                             os.path.dirname(conf_path)),
-                    ratehetmodel = "flex",
-                    numratecats = "6")
+                    ratehetmodel = ratehetmodel,
+                    numratecats = numratecats)
             cfile = open(conf_path, 'w')
             cfile.write(conf.getvalue())
             cfile.close()
