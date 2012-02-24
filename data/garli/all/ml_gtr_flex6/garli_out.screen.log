@@ -1,0 +1,2037 @@
+Running GARLI Version 2.0.1038 (15 Jun 2011)
+->Single processor version for 64-bit OS<-
+##############################################################
+ This is GARLI 2.0, the first "official" release including 
+          partitioned models.  It is a merging of
+   official release 1.0 and beta version GARLI-PART 0.97
+  Briefly, it includes models for nucleotides, amino acids,
+ codons, and morphology-like characters, any of which can be 
+  mixed together and applied to different subsets of data.
+
+    General program usage is extensively documented here:
+            http://www.nescent.org/wg/garli/
+      see this page for details on partitioned usage:
+  http://www.nescent.org/wg/garli/Partition_testing_version
+   and this page for details on Mkv mophology model usage:
+    http://www.nescent.org/wg/garli/Mkv_morphology_model
+         PLEASE LET ME KNOW OF ANY PROBLEMS AT:
+                garli.support@gmail.com
+##############################################################
+Compiled Feb 23 2012 22:22:12 using GNU gcc compiler version 4.1.2
+Using NCL version 2.1.17
+
+#######################################################
+Reading config file garli.conf
+###################################################
+READING OF DATA
+Attempting to read data file in Nexus format (using NCL):
+	../../../concat/all.nex ...
+Reading TAXA block... successful
+Reading CHARACTERS block... found dna data... successful
+Reading SETS block... successful
+
+###################################################
+PARTITIONING OF DATA AND MODELS
+GARLI data subset 1
+	CHARACTERS block #1 ("Untitled CHARACTERS Block 1")
+	Data read as Nucleotide data,
+	modeled as Nucleotide data
+	Summary of data:
+	  199 sequences.
+	  1055 constant characters.
+	  1004 parsimony-informative characters.
+	  75 uninformative variable characters.
+	  2134 total characters.
+	  1207 unique patterns in compressed data matrix.
+	Pattern processing required < 1 second
+
+
+###################################################
+NOTE: Unlike many programs, the amount of system memory that Garli will
+use can be controlled by the user.
+(This comes from the availablememory setting in the configuration file.
+Availablememory should NOT be set to more than the actual amount of 
+physical memory that your computer has installed)
+
+For this dataset:
+ Mem level		availablememory setting
+  great			    >= 445 MB
+  good			approx 444 MB to 281 MB
+  low			approx 280 MB to 114 MB
+  very low		approx 113 MB to 85 MB
+the minimum required availablememory is 85 MB
+
+You specified that Garli should use at most 1024.0 MB of memory.
+
+Garli will actually use approx. 666.7 MB of memory
+**Your memory level is: great (you don't need to change anything)**
+
+#######################################################
+Found outgroup specification:  1
+
+#######################################################
+STARTING RUN
+
+>>>Search rep 1 (of 10)<<<
+MODEL REPORT - Parameters are at their INITIAL values (not yet optimized)
+Model 1
+  Number of states = 4 (nucleotide data)
+  Nucleotide Relative Rate Matrix: 
+    User specified matrix type: ( 0 1 2 3 4 5 ) 
+    AC = 1.000, AG = 4.000, AT = 1.000, CG = 1.000, CT = 4.000, GT = 1.000
+  Equilibrium State Frequencies: empirical (observed) values, fixed:
+    (ACGT) 0.3145 0.2733 0.1532 0.2590 
+  Rate Heterogeneity Model:
+    6 FLEX rate categories, rate and proportion of each estimated
+      Estimated substitution rate categories:
+      rate	proportion
+      0.0147	0.1667
+      0.1060	0.1667
+      0.3073	0.1667
+      0.6715	0.1667
+      1.3562	0.1667
+      3.5444	0.1667
+
+Starting with seed=638612
+
+creating random starting tree...
+Initial ln Likelihood: -165543.0000
+optimizing: starting branch lengths, rel rates...
+pass 1:+36061.167 (branch=32906.70 scale=1470.35 rel rates=491.58 flex=1192.53)
+pass 2:+ 7749.046 (branch=7110.63 scale=  7.39 rel rates=112.34 flex=518.69)
+pass 3:+ 1669.068 (branch=1395.35 scale= 14.78 rel rates= 36.67 flex=222.26)
+pass 4:+  345.039 (branch= 105.62 scale= 20.30 rel rates= 22.09 flex=197.03)
+pass 5:+  135.869 (branch=  27.50 scale=  5.29 rel rates=  7.44 flex= 95.64)
+pass 6:+   74.437 (branch=  12.32 scale=  5.58 rel rates=  8.06 flex= 48.48)
+pass 7:+   41.905 (branch=   7.80 scale=  3.64 rel rates=  4.50 flex= 25.97)
+pass 8:+   28.368 (branch=   7.45 scale=  2.12 rel rates=  3.06 flex= 15.74)
+pass 9:+   20.191 (branch=   7.59 scale=  1.29 rel rates=  1.80 flex=  9.51)
+pass10:+   11.463 (branch=   3.64 scale=  0.00 rel rates=  4.36 flex=  3.46)
+pass11:+   10.068 (branch=   4.40 scale=  0.00 rel rates=  3.09 flex=  2.58)
+pass12:+    8.130 (branch=   2.46 scale=  0.00 rel rates=  4.93 flex=  0.74)
+pass13:+    5.996 (branch=   1.82 scale=  0.00 rel rates=  3.69 flex=  0.49)
+pass14:+    4.571 (branch=   0.43 scale=  0.00 rel rates=  3.80 flex=  0.34)
+pass15:+    3.271 (branch=   1.00 scale=  0.00 rel rates=  1.44 flex=  0.83)
+pass16:+    4.404 (branch=   3.49 scale=  0.00 rel rates=  0.73 flex=  0.19)
+pass17:+    2.402 (branch=   0.91 scale=  0.00 rel rates=  1.22 flex=  0.27)
+pass18:+    4.429 (branch=   0.89 scale=  0.00 rel rates=  3.35 flex=  0.19)
+pass19:+    2.907 (branch=   0.00 scale=  0.00 rel rates=  2.74 flex=  0.17)
+pass20:+    0.239 (branch=   0.00 scale=  0.00 rel rates=  0.08 flex=  0.16)
+lnL after optimization: -119360.0301
+gen      current_lnL    precision  last_tree_imp  
+0        -119360.0301     0.500           0 
+100      -113564.9801     0.500          98 
+200      -107464.9399     0.500         200 
+300      -103290.3495     0.500         299 
+400      -94868.6228      0.500         400 
+500      -87370.9152      0.500         499 
+600      -84842.2491      0.500         600 
+700      -82181.6657      0.500         697 
+800      -78653.5276      0.500         793 
+900      -76540.1060      0.500         900 
+1000     -75268.1378      0.500         998 
+1100     -73326.5635      0.500        1100 
+1200     -69960.5584      0.500        1200 
+1300     -68064.7722      0.500        1296 
+1400     -66554.2555      0.500        1386 
+1500     -64777.8619      0.500        1496 
+1600     -63706.2111      0.500        1599 
+1700     -61918.9558      0.500        1699 
+1800     -60853.0404      0.500        1799 
+1900     -59308.1177      0.500        1897 
+2000     -57204.7006      0.500        1999 
+2100     -56234.1527      0.500        2099 
+2200     -55387.1943      0.500        2200 
+2300     -54547.5103      0.500        2297 
+2400     -53355.5423      0.500        2398 
+2500     -51936.9464      0.500        2496 
+2600     -50820.7322      0.500        2600 
+2700     -50162.7881      0.500        2700 
+2800     -49153.5094      0.500        2799 
+2900     -48401.5215      0.500        2896 
+3000     -47520.8212      0.500        2992 
+3100     -47209.8444      0.500        3096 
+3200     -46629.2759      0.500        3199 
+3300     -46109.7857      0.500        3300 
+3400     -45571.2706      0.500        3398 
+3500     -44504.5886      0.500        3478 
+3600     -44309.2651      0.500        3594 
+3700     -43664.3204      0.500        3684 
+3800     -43437.7431      0.500        3799 
+3900     -42852.1871      0.500        3900 
+4000     -42453.6478      0.500        3992 
+4100     -42258.9593      0.500        4090 
+4200     -41937.5228      0.500        4194 
+4300     -41319.7523      0.500        4294 
+4400     -40652.2959      0.500        4400 
+4500     -39867.0995      0.500        4491 
+4600     -39369.3511      0.500        4598 
+4700     -39184.3757      0.500        4698 
+4800     -38830.5385      0.500        4800 
+4900     -38512.8930      0.500        4899 
+5000     -38239.8107      0.500        4999 
+5100     -37666.7716      0.500        5098 
+5200     -37461.8524      0.500        5198 
+5300     -37216.0001      0.500        5298 
+5400     -36950.5703      0.500        5380 
+5500     -36630.3939      0.500        5497 
+5600     -36523.0632      0.500        5595 
+5700     -36503.3567      0.500        5683 
+5800     -36316.7045      0.500        5775 
+5900     -36312.9050      0.500        5866 
+6000     -36306.5623      0.500        5948 
+6100     -36238.4369      0.500        6048 
+6200     -36237.2296      0.500        6048 
+6300     -36219.5702      0.500        6240 
+6400     -36216.2150      0.500        6374 
+6500     -36162.5756      0.500        6484 
+6600     -36140.7820      0.500        6550 
+6700     -36139.3151      0.500        6635 
+6800     -36138.1975      0.500        6635 
+6900     -36136.9160      0.500        6867 
+7000     -36135.7520      0.500        6867 
+7100     -36134.2466      0.500        6867 
+7200     -36132.5249      0.500        6867 
+7300     -36130.9554      0.500        6867 
+7400     -36129.7999      0.500        6867 
+Optimization precision reduced 
+   Optimizing parameters...    improved    1.048 lnL
+   Optimizing branchlengths... improved    3.998 lnL
+7500     -36123.1485      0.451        6867 
+7600     -36121.3789      0.451        6867 
+7700     -36120.4447      0.451        6867 
+7800     -36119.5461      0.451        6867 
+7900     -36116.9730      0.451        7867 
+8000     -36115.9698      0.451        7867 
+8100     -36115.1307      0.451        7867 
+8200     -36114.2338      0.451        7867 
+8300     -36112.0581      0.451        8207 
+8400     -36110.9637      0.451        8207 
+8500     -36110.3080      0.451        8420 
+8600     -36093.4239      0.451        8552 
+8700     -36092.8587      0.451        8665 
+8800     -36019.2703      0.451        8792 
+8900     -36018.9614      0.451        8792 
+9000     -36018.6881      0.451        8792 
+9100     -35964.3062      0.451        9064 
+9200     -35960.6744      0.451        9182 
+9300     -35960.3856      0.451        9182 
+9400     -35951.9799      0.451        9311 
+9500     -35951.6993      0.451        9465 
+9600     -35951.4198      0.451        9465 
+9700     -35950.9849      0.451        9465 
+9800     -35950.5757      0.451        9465 
+9900     -35950.1035      0.451        9809 
+10000    -35949.0108      0.451        9916 
+10100    -35948.4504      0.451        9916 
+10200    -35947.6420      0.451        9916 
+10300    -35947.1088      0.451        9916 
+10400    -35946.1993      0.451        9916 
+10500    -35945.4236      0.451        9916 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.017 lnL
+   Optimizing branchlengths... improved    0.637 lnL
+10600    -35943.9772      0.402        9916 
+10700    -35943.4825      0.402        9916 
+10800    -35942.6483      0.402        9916 
+10900    -35942.0390      0.402        9916 
+11000    -35941.7553      0.402        9916 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.020 lnL
+   Optimizing branchlengths... improved    1.283 lnL
+11100    -35939.9717      0.353        9916 
+11200    -35939.5296      0.353        9916 
+11300    -35939.2456      0.353        9916 
+11400    -35938.9682      0.353        9916 
+11500    -35938.5214      0.353       11452 
+11600    -35938.0963      0.353       11556 
+11700    -35937.7793      0.353       11556 
+11800    -35937.3632      0.353       11772 
+11900    -35936.9627      0.353       11772 
+12000    -35936.5720      0.353       11772 
+12100    -35936.1606      0.353       11772 
+12200    -35935.7133      0.353       11772 
+12300    -35935.4678      0.353       11772 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.012 lnL
+   Optimizing branchlengths... improved    1.372 lnL
+12400    -35933.8016      0.304       11772 
+12500    -35933.5777      0.304       11772 
+12600    -35933.3287      0.304       11772 
+12700    -35933.1621      0.304       11772 
+12800    -35933.0299      0.304       11772 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.007 lnL
+   Optimizing branchlengths... improved    1.768 lnL
+12900    -35931.2192      0.255       11772 
+13000    -35931.0056      0.255       12964 
+13100    -35930.8809      0.255       12964 
+13200    -35930.7014      0.255       13104 
+13300    -35917.2549      0.255       13264 
+13400    -35917.1479      0.255       13264 
+13500    -35916.9911      0.255       13264 
+13600    -35907.9674      0.255       13579 
+13700    -35907.7491      0.255       13579 
+13800    -35907.5575      0.255       13579 
+13900    -35907.3425      0.255       13888 
+14000    -35907.2410      0.255       13927 
+14100    -35906.9614      0.255       14093 
+14200    -35906.6382      0.255       14093 
+14300    -35906.3430      0.255       14093 
+14400    -35906.2512      0.255       14093 
+14500    -35906.0620      0.255       14093 
+14600    -35905.9830      0.255       14093 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.006 lnL
+   Optimizing branchlengths... improved    1.755 lnL
+14700    -35904.0306      0.206       14093 
+14800    -35903.9069      0.206       14093 
+14900    -35903.7690      0.206       14093 
+15000    -35903.5492      0.206       14093 
+15100    -35903.4428      0.206       14093 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.003 lnL
+   Optimizing branchlengths... improved    6.649 lnL
+15200    -35896.5952      0.157       14093 
+15300    -35896.4971      0.157       14093 
+15400    -35896.3703      0.157       14093 
+15500    -35896.2180      0.157       14093 
+15600    -35896.1576      0.157       14093 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.003 lnL
+   Optimizing branchlengths... improved    3.295 lnL
+15700    -35892.7919      0.108       14093 
+15800    -35892.6302      0.108       15795 
+15900    -35892.5488      0.108       15795 
+16000    -35892.4296      0.108       15795 
+16100    -35892.3529      0.108       16006 
+16200    -35892.2925      0.108       16006 
+16300    -35892.1732      0.108       16006 
+16400    -35892.0480      0.108       16006 
+16500    -35892.0295      0.108       16006 
+16600    -35891.9421      0.108       16006 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.002 lnL
+   Optimizing branchlengths... improved    2.248 lnL
+16700    -35889.6297      0.059       16630 
+16800    -35889.5749      0.059       16630 
+16900    -35889.5267      0.059       16630 
+17000    -35889.4101      0.059       16928 
+17100    -35889.3385      0.059       17077 
+17200    -35889.3006      0.059       17077 
+17300    -35889.2178      0.059       17077 
+17400    -35889.1499      0.059       17358 
+17500    -35889.1254      0.059       17358 
+17600    -35889.0582      0.059       17358 
+17700    -35889.0284      0.059       17358 
+17800    -35888.9238      0.059       17752 
+17900    -35888.8092      0.059       17752 
+18000    -35888.7697      0.059       17752 
+18100    -35888.7234      0.059       17752 
+18200    -35888.7029      0.059       17752 
+18300    -35888.6697      0.059       17752 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.001 lnL
+   Optimizing branchlengths... improved    1.871 lnL
+18400    -35886.7787      0.010       17752 
+18500    -35886.7553      0.010       17752 
+18600    -35886.7336      0.010       17752 
+18700    -35886.7249      0.010       17752 
+18800    -35886.6689      0.010       17752 
+18900    -35886.5466      0.010       18826 
+19000    -35886.5336      0.010       18826 
+19100    -35886.5260      0.010       18826 
+19200    -35886.5160      0.010       18826 
+19300    -35886.4879      0.010       18826 
+19400    -35886.4760      0.010       18826 
+19500    -35886.4714      0.010       18826 
+19600    -35886.4514      0.010       18826 
+19700    -35886.4480      0.010       18826 
+19800    -35886.4371      0.010       18826 
+19900    -35886.4299      0.010       18826 
+20000    -35886.4219      0.010       18826 
+20100    -35886.4198      0.010       18826 
+20200    -35886.4111      0.010       18826 
+20300    -35886.4047      0.010       18826 
+20400    -35886.3952      0.010       18826 
+20500    -35886.3916      0.010       18826 
+20600    -35886.3867      0.010       18826 
+20700    -35886.3665      0.010       18826 
+20800    -35886.3627      0.010       18826 
+20900    -35886.3587      0.010       18826 
+21000    -35886.3391      0.010       18826 
+21100    -35886.3367      0.010       18826 
+21200    -35886.3202      0.010       18826 
+21300    -35886.3193      0.010       18826 
+21400    -35886.3189      0.010       18826 
+21500    -35886.3171      0.010       18826 
+21600    -35886.3154      0.010       18826 
+21700    -35886.3128      0.010       18826 
+21800    -35886.3081      0.010       18826 
+21900    -35886.3004      0.010       18826 
+22000    -35886.2873      0.010       18826 
+22100    -35886.2871      0.010       18826 
+22200    -35886.2802      0.010       18826 
+22300    -35886.2755      0.010       18826 
+22400    -35886.2658      0.010       18826 
+22500    -35886.2634      0.010       18826 
+22600    -35886.2533      0.010       18826 
+22700    -35886.2078      0.010       22630 
+22800    -35886.2009      0.010       22630 
+22900    -35886.2007      0.010       22630 
+23000    -35886.2000      0.010       22630 
+23100    -35886.1986      0.010       22630 
+23200    -35886.1966      0.010       22630 
+23300    -35886.1850      0.010       22630 
+23400    -35886.1820      0.010       22630 
+23500    -35886.1769      0.010       22630 
+23600    -35886.1748      0.010       22630 
+23700    -35886.1670      0.010       22630 
+23800    -35886.1643      0.010       22630 
+23900    -35886.1588      0.010       22630 
+24000    -35886.1503      0.010       22630 
+24100    -35886.1477      0.010       22630 
+24200    -35886.1387      0.010       22630 
+24300    -35886.1308      0.010       22630 
+24400    -35886.1287      0.010       22630 
+24500    -35886.1254      0.010       22630 
+24600    -35886.1238      0.010       22630 
+24700    -35886.1170      0.010       22630 
+24800    -35886.1143      0.010       22630 
+24900    -35886.1069      0.010       22630 
+25000    -35886.1066      0.010       22630 
+   Optimizing parameters...    improved    0.000 lnL
+   Optimizing branchlengths... improved    0.011 lnL
+25100    -35886.0924      0.010       22630 
+25200    -35886.0885      0.010       22630 
+25300    -35886.0842      0.010       22630 
+25400    -35886.0826      0.010       22630 
+25500    -35886.0798      0.010       22630 
+25600    -35886.0686      0.010       22630 
+25700    -35886.0668      0.010       22630 
+25800    -35886.0649      0.010       22630 
+25900    -35886.0607      0.010       22630 
+26000    -35886.0581      0.010       22630 
+26100    -35886.0532      0.010       22630 
+26200    -35886.0532      0.010       22630 
+26300    -35886.0532      0.010       22630 
+26400    -35886.0532      0.010       22630 
+26500    -35886.0521      0.010       22630 
+26600    -35886.0450      0.010       22630 
+26700    -35886.0437      0.010       22630 
+26800    -35886.0391      0.010       22630 
+26900    -35886.0285      0.010       22630 
+27000    -35886.0212      0.010       22630 
+27100    -35886.0108      0.010       22630 
+27200    -35886.0099      0.010       22630 
+27300    -35886.0099      0.010       22630 
+27400    -35886.0059      0.010       22630 
+27500    -35886.0059      0.010       22630 
+27600    -35885.9994      0.010       22630 
+27700    -35885.9948      0.010       22630 
+27800    -35885.9910      0.010       22630 
+27900    -35885.9861      0.010       22630 
+28000    -35885.9861      0.010       22630 
+28100    -35885.9861      0.010       22630 
+28200    -35885.9802      0.010       22630 
+28300    -35885.9793      0.010       22630 
+28400    -35885.9756      0.010       22630 
+28500    -35885.9722      0.010       22630 
+28600    -35885.9714      0.010       22630 
+28700    -35885.9712      0.010       22630 
+28800    -35885.9712      0.010       22630 
+28900    -35885.9689      0.010       22630 
+29000    -35885.9644      0.010       22630 
+29100    -35885.9643      0.010       22630 
+29200    -35885.9612      0.010       22630 
+29300    -35885.9604      0.010       22630 
+29400    -35885.9603      0.010       22630 
+29500    -35885.9588      0.010       22630 
+29600    -35885.9581      0.010       22630 
+29700    -35885.9559      0.010       22630 
+29800    -35885.9544      0.010       22630 
+29900    -35885.9544      0.010       22630 
+30000    -35885.9542      0.010       22630 
+   Optimizing parameters...    improved    0.000 lnL
+   Optimizing branchlengths... improved    0.000 lnL
+30100    -35885.9510      0.010       22630 
+30200    -35885.9490      0.010       22630 
+30300    -35885.9474      0.010       22630 
+30400    -35885.9474      0.010       22630 
+30500    -35885.9474      0.010       22630 
+30600    -35885.9473      0.010       22630 
+30700    -35885.9444      0.010       22630 
+30800    -35885.9438      0.010       22630 
+30900    -35885.9434      0.010       22630 
+31000    -35885.9408      0.010       22630 
+31100    -35885.9358      0.010       22630 
+31200    -35885.9321      0.010       22630 
+31300    -35885.9312      0.010       22630 
+31400    -35885.9293      0.010       22630 
+31500    -35885.9279      0.010       22630 
+31600    -35885.9279      0.010       22630 
+31700    -35885.9273      0.010       22630 
+31800    -35885.9271      0.010       22630 
+31900    -35885.9264      0.010       22630 
+32000    -35885.9234      0.010       22630 
+32100    -35885.9222      0.010       22630 
+32200    -35885.9190      0.010       22630 
+32300    -35885.9186      0.010       22630 
+32400    -35885.9162      0.010       22630 
+32500    -35885.9157      0.010       22630 
+32600    -35885.9157      0.010       22630 
+32700    -35885.9129      0.010       22630 
+32800    -35885.9118      0.010       22630 
+32900    -35885.9061      0.010       22630 
+33000    -35885.9041      0.010       22630 
+33100    -35885.9041      0.010       22630 
+33200    -35885.9011      0.010       22630 
+33300    -35885.9001      0.010       22630 
+33400    -35885.8999      0.010       22630 
+33500    -35885.8999      0.010       22630 
+33600    -35885.8998      0.010       22630 
+33700    -35885.8996      0.010       22630 
+33800    -35885.8994      0.010       22630 
+Reached termination condition!
+last topological improvement at gen 22630
+Improvement over last 500 gen = 0.00063
+Current score = -35885.8994
+Performing final optimizations...
+pass 1 : -35885.8730   (branch= 0.0263  flex rates= 0.0001  rel rates= 0.0000)
+pass 2 : -35885.8174   (branch= 0.0555  flex rates= 0.0001  rel rates= 0.0001)
+pass 3 : -35885.7643   (branch= 0.0530  flex rates= 0.0001  rel rates= 0.0000)
+pass 4 : -35885.7286   (branch= 0.0356  flex rates= 0.0001  rel rates= 0.0000)
+pass 5 : -35885.7061   (branch= 0.0224  flex rates= 0.0001  rel rates= 0.0000)
+pass 6 : -35885.6930   (branch= 0.0128  flex rates= 0.0003  rel rates= 0.0000)
+pass 7 : -35885.6871   (branch= 0.0050  flex rates= 0.0009  rel rates= 0.0000)
+pass 8 : -35885.6840   (branch= 0.0023  flex rates= 0.0009  rel rates= 0.0000)
+pass 9 : -35885.6819   (branch= 0.0011  flex rates= 0.0010  rel rates= 0.0000)
+pass 10: -35885.6780   (branch= 0.0006  flex rates= 0.0033  rel rates= 0.0000)
+pass 11: -35885.6760   (branch= 0.0004  flex rates= 0.0016  rel rates= 0.0000)
+pass 12: -35885.6743   (branch= 0.0002  flex rates= 0.0015  rel rates= 0.0000)
+pass 13: -35885.6734   (branch= 0.0001  flex rates= 0.0009  rel rates= 0.0000)
+pass 14: -35885.6731   (branch= 0.0001  flex rates= 0.0002  rel rates= 0.0000)
+pass 15: -35885.6727   (branch= 0.0001  flex rates= 0.0003  rel rates= 0.0000)
+pass 16: -35885.6724   (branch= 0.0001  flex rates= 0.0002  rel rates= 0.0000)
+pass 17: -35885.6722   (branch= 0.0000  flex rates= 0.0002  rel rates= 0.0000)
+pass 18: -35885.6721   (branch= 0.0000  flex rates= 0.0001  rel rates= 0.0000)
+pass 19: -35885.6720   (branch= 0.0000  flex rates= 0.0001  rel rates= 0.0000)
+pass 20: -35885.6719   (branch= 0.0000  flex rates= 0.0001  rel rates= 0.0000)
+ optimization up to ...
+pass 30: -35885.6715   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 40: -35885.6712   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 50: -35885.6709   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 60: -35885.6706   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 70: -35885.6704   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 80: -35885.6701   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 90: -35885.6698   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 100: -35885.6696   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 110: -35885.6693   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 120: -35885.6690   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 130: -35885.6687   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 140: -35885.6685   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 150: -35885.6682   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 160: -35885.6679   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 170: -35885.6676   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 180: -35885.6673   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 190: -35885.6670   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 200: -35885.6667   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 210: -35885.6664   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 220: -35885.6661   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 230: -35885.6658   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 240: -35885.6654   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 250: -35885.6651   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 260: -35885.6648   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 270: -35885.6645   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 280: -35885.6641   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 290: -35885.6638   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 300: -35885.6635   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 310: -35885.6631   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 320: -35885.6628   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 330: -35885.6624   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 340: -35885.6621   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 350: -35885.6617   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 360: -35885.6613   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 370: -35885.6610   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 380: -35885.6606   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 390: -35885.6602   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 400: -35885.6598   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 410: -35885.6594   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 420: -35885.6590   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 430: -35885.6586   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 440: -35885.6581   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 450: -35885.6576   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 460: -35885.6572   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 470: -35885.6567   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 480: -35885.6562   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 490: -35885.6557   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 500: -35885.6552   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 510: -35885.6547   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 520: -35885.6541   (branch= 0.0000  flex rates= 0.0006  rel rates= 0.0000)
+ optimization up to ...
+pass 530: -35885.6534   (branch= 0.0000  flex rates= 0.0006  rel rates= 0.0000)
+ optimization up to ...
+pass 540: -35885.6528   (branch= 0.0000  flex rates= 0.0006  rel rates= 0.0000)
+ optimization up to ...
+pass 550: -35885.6522   (branch= 0.0000  flex rates= 0.0007  rel rates= 0.0000)
+ optimization up to ...
+pass 560: -35885.6514   (branch= 0.0000  flex rates= 0.0007  rel rates= 0.0000)
+ optimization up to ...
+pass 570: -35885.6506   (branch= 0.0000  flex rates= 0.0008  rel rates= 0.0000)
+ optimization up to ...
+pass 580: -35885.6499   (branch= 0.0000  flex rates= 0.0008  rel rates= 0.0000)
+ optimization up to ...
+pass 590: -35885.6490   (branch= 0.0000  flex rates= 0.0008  rel rates= 0.0000)
+ optimization up to ...
+pass 600: -35885.6482   (branch= 0.0000  flex rates= 0.0008  rel rates= 0.0000)
+ optimization up to ...
+pass 610: -35885.6474   (branch= 0.0000  flex rates= 0.0008  rel rates= 0.0000)
+ optimization up to ...
+pass 620: -35885.6465   (branch= 0.0000  flex rates= 0.0009  rel rates= 0.0000)
+ optimization up to ...
+pass 630: -35885.6455   (branch= 0.0000  flex rates= 0.0010  rel rates= 0.0000)
+ optimization up to ...
+pass 640: -35885.6443   (branch= 0.0000  flex rates= 0.0012  rel rates= 0.0000)
+ optimization up to ...
+pass 650: -35885.6430   (branch= 0.0000  flex rates= 0.0013  rel rates= 0.0000)
+ optimization up to ...
+pass 660: -35885.6416   (branch= 0.0000  flex rates= 0.0014  rel rates= 0.0000)
+ optimization up to ...
+pass 670: -35885.6396   (branch= 0.0000  flex rates= 0.0020  rel rates= 0.0000)
+ optimization up to ...
+pass 680: -35885.6371   (branch= 0.0000  flex rates= 0.0025  rel rates= 0.0000)
+ optimization up to ...
+pass 690: -35885.6338   (branch= 0.0000  flex rates= 0.0033  rel rates= 0.0000)
+ optimization up to ...
+pass 700: -35885.6295   (branch= 0.0000  flex rates= 0.0043  rel rates= 0.0000)
+ optimization up to ...
+pass 710: -35885.6236   (branch= 0.0000  flex rates= 0.0059  rel rates= 0.0000)
+ optimization up to ...
+pass 720: -35885.6147   (branch= 0.0000  flex rates= 0.0089  rel rates= 0.0000)
+ optimization up to ...
+pass 730: -35885.5986   (branch= 0.0000  flex rates= 0.0161  rel rates= 0.0000)
+ optimization up to ...
+pass 740: -35885.5733   (branch= 0.0000  flex rates= 0.0252  rel rates= 0.0000)
+ optimization up to ...
+pass 750: -35885.5442   (branch= 0.0000  flex rates= 0.0291  rel rates= 0.0000)
+ optimization up to ...
+pass 760: -35885.5118   (branch= 0.0000  flex rates= 0.0324  rel rates= 0.0000)
+ optimization up to ...
+pass 770: -35885.4699   (branch= 0.0000  flex rates= 0.0419  rel rates= 0.0000)
+ optimization up to ...
+pass 780: -35885.4095   (branch= 0.0000  flex rates= 0.0603  rel rates= 0.0000)
+ optimization up to ...
+pass 790: -35885.3657   (branch= 0.0000  flex rates= 0.0437  rel rates= 0.0000)
+ optimization up to ...
+pass 800: -35885.3541   (branch= 0.0000  flex rates= 0.0116  rel rates= 0.0000)
+ optimization up to ...
+pass 810: -35885.3511   (branch= 0.0000  flex rates= 0.0031  rel rates= 0.0000)
+ optimization up to ...
+pass 820: -35885.3499   (branch= 0.0000  flex rates= 0.0012  rel rates= 0.0000)
+ optimization up to ...
+pass 830: -35885.3494   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 840: -35885.3492   (branch= 0.0000  flex rates= 0.0002  rel rates= 0.0000)
+Looking for minimum length branches...
+Final score = -35885.3491
+Time used so far = 4 hours, 51 minutes and 27 seconds
+
+MODEL REPORT - Parameter values are FINAL
+Model 1
+  Number of states = 4 (nucleotide data)
+  Nucleotide Relative Rate Matrix: 
+    User specified matrix type: ( 0 1 2 3 4 5 ) 
+    AC = 1.763, AG = 8.225, AT = 0.730, CG = 0.914, CT = 8.133, GT = 1.000
+  Equilibrium State Frequencies: empirical (observed) values, fixed:
+    (ACGT) 0.3145 0.2733 0.1532 0.2590 
+  Rate Heterogeneity Model:
+    6 FLEX rate categories, rate and proportion of each estimated
+      Estimated substitution rate categories:
+      rate	proportion
+      0.0345	0.5498
+      0.5202	0.1690
+      1.5407	0.0901
+      2.7399	0.1064
+      4.7766	0.0703
+      8.8256	0.0144
+
+NOTE: Collapsing of minimum length branches was requested (collapsebranches = 1)
+    10 branches were collapsed.
+
+>>>Completed Search rep 1 (of 10)<<<
+
+>>>Search rep 2 (of 10)<<<
+MODEL REPORT - Parameters are at their INITIAL values (not yet optimized)
+Model 1
+  Number of states = 4 (nucleotide data)
+  Nucleotide Relative Rate Matrix: 
+    User specified matrix type: ( 0 1 2 3 4 5 ) 
+    AC = 1.000, AG = 4.000, AT = 1.000, CG = 1.000, CT = 4.000, GT = 1.000
+  Equilibrium State Frequencies: empirical (observed) values, fixed:
+    (ACGT) 0.3145 0.2733 0.1532 0.2590 
+  Rate Heterogeneity Model:
+    6 FLEX rate categories, rate and proportion of each estimated
+      Estimated substitution rate categories:
+      rate	proportion
+      0.0147	0.1667
+      0.1060	0.1667
+      0.3073	0.1667
+      0.6715	0.1667
+      1.3562	0.1667
+      3.5444	0.1667
+
+Starting with seed=1111420503
+
+creating random starting tree...
+Initial ln Likelihood: -164898.5824
+optimizing: starting branch lengths, rel rates...
+pass 1:+39999.140 (branch=36938.00 scale=1412.93 rel rates=499.18 flex=1149.03)
+pass 2:+ 7951.834 (branch=7231.27 scale= 15.62 rel rates=168.83 flex=536.12)
+pass 3:+ 1344.828 (branch=1037.16 scale= 17.81 rel rates= 30.14 flex=259.71)
+pass 4:+  383.443 (branch= 216.70 scale= 16.04 rel rates= 12.14 flex=138.57)
+pass 5:+  112.887 (branch=  20.84 scale=  8.16 rel rates=  9.99 flex= 73.90)
+pass 6:+   77.855 (branch=  19.19 scale=  7.44 rel rates= 10.08 flex= 41.14)
+pass 7:+   44.827 (branch=  12.36 scale=  4.66 rel rates=  5.90 flex= 21.90)
+pass 8:+   25.110 (branch=   5.52 scale=  2.94 rel rates=  4.25 flex= 12.40)
+pass 9:+   19.580 (branch=   5.45 scale=  1.75 rel rates=  5.88 flex=  6.50)
+pass10:+   12.137 (branch=   2.16 scale=  1.07 rel rates=  4.68 flex=  4.22)
+pass11:+   13.262 (branch=   3.86 scale=  0.00 rel rates=  7.40 flex=  2.01)
+pass12:+   11.996 (branch=   5.29 scale=  0.00 rel rates=  6.21 flex=  0.50)
+pass13:+    7.433 (branch=   1.06 scale=  0.00 rel rates=  6.05 flex=  0.32)
+pass14:+    7.200 (branch=   1.27 scale=  0.00 rel rates=  4.95 flex=  0.98)
+pass15:+    4.785 (branch=   0.40 scale=  0.00 rel rates=  4.15 flex=  0.23)
+pass16:+    5.095 (branch=   0.38 scale=  0.00 rel rates=  4.59 flex=  0.13)
+pass17:+    4.351 (branch=   0.41 scale=  0.00 rel rates=  3.82 flex=  0.12)
+pass18:+    3.495 (branch=   0.37 scale=  0.00 rel rates=  3.02 flex=  0.11)
+pass19:+    3.239 (branch=   0.00 scale=  0.00 rel rates=  3.12 flex=  0.11)
+pass20:+    1.009 (branch=   0.84 scale=  0.00 rel rates=  0.07 flex=  0.10)
+pass21:+    0.558 (branch=   0.42 scale=  0.00 rel rates=  0.07 flex=  0.07)
+pass22:+    0.116 (branch=   0.00 scale=  0.00 rel rates=  0.06 flex=  0.05)
+lnL after optimization: -114864.4032
+gen      current_lnL    precision  last_tree_imp  
+0        -114864.4032     0.500           0 
+100      -109088.3607     0.500         100 
+200      -103267.6534     0.500         199 
+300      -97504.3816      0.500         300 
+400      -90732.3161      0.500         400 
+500      -87327.0947      0.500         500 
+600      -83858.3918      0.500         600 
+700      -78395.3063      0.500         700 
+800      -75603.3041      0.500         800 
+900      -72429.6559      0.500         900 
+1000     -71547.1745      0.500        1000 
+1100     -68126.4246      0.500        1100 
+1200     -66226.2299      0.500        1200 
+1300     -65259.6891      0.500        1295 
+1400     -64117.3521      0.500        1400 
+1500     -62684.0535      0.500        1500 
+1600     -61502.4303      0.500        1597 
+1700     -57986.5583      0.500        1697 
+1800     -56997.1482      0.500        1800 
+1900     -56501.7931      0.500        1900 
+2000     -55584.6453      0.500        1999 
+2100     -54822.1698      0.500        2100 
+2200     -54095.0831      0.500        2200 
+2300     -53006.0154      0.500        2300 
+2400     -52370.3454      0.500        2398 
+2500     -52040.1569      0.500        2499 
+2600     -51602.9406      0.500        2589 
+2700     -51122.6678      0.500        2700 
+2800     -50365.6798      0.500        2800 
+2900     -49328.8028      0.500        2897 
+3000     -48916.6999      0.500        2996 
+3100     -47956.9385      0.500        3099 
+3200     -47141.0573      0.500        3194 
+3300     -46494.0023      0.500        3297 
+3400     -46003.4152      0.500        3393 
+3500     -45543.1108      0.500        3499 
+3600     -44893.0816      0.500        3600 
+3700     -43887.5535      0.500        3685 
+3800     -43097.5016      0.500        3788 
+3900     -42620.6939      0.500        3897 
+4000     -42414.1455      0.500        3995 
+4100     -41997.0924      0.500        4099 
+4200     -41443.0376      0.500        4200 
+4300     -41243.7237      0.500        4291 
+4400     -41211.1590      0.500        4387 
+4500     -40901.6150      0.500        4496 
+4600     -40752.8744      0.500        4598 
+4700     -40705.1527      0.500        4700 
+4800     -40604.5688      0.500        4800 
+4900     -40410.6421      0.500        4890 
+5000     -39640.7864      0.500        4993 
+5100     -39458.8437      0.500        5093 
+5200     -39396.9344      0.500        5198 
+5300     -39033.7024      0.500        5300 
+5400     -38710.9932      0.500        5390 
+5500     -38624.2602      0.500        5483 
+5600     -38470.3039      0.500        5580 
+5700     -38439.0004      0.500        5658 
+5800     -38437.7395      0.500        5778 
+5900     -38424.3884      0.500        5850 
+6000     -38399.7946      0.500        5992 
+6100     -38396.8246      0.500        5992 
+6200     -38390.6898      0.500        5992 
+6300     -38322.6879      0.500        6296 
+6400     -38317.7733      0.500        6386 
+6500     -38315.8141      0.500        6386 
+6600     -38314.4644      0.500        6532 
+6700     -38297.1081      0.500        6609 
+6800     -38085.1872      0.500        6784 
+6900     -38080.9301      0.500        6805 
+7000     -38080.1047      0.500        6955 
+7100     -38079.4235      0.500        6955 
+7200     -37967.0962      0.500        7133 
+7300     -37966.9205      0.500        7237 
+7400     -37965.2795      0.500        7237 
+7500     -37590.6833      0.500        7487 
+7600     -37585.7643      0.500        7586 
+7700     -37584.5902      0.500        7586 
+7800     -37583.0027      0.500        7586 
+7900     -37582.5139      0.500        7824 
+8000     -37581.4695      0.500        7909 
+8100     -37579.8997      0.500        7909 
+8200     -37577.6692      0.500        7909 
+8300     -37575.7396      0.500        7909 
+8400     -37573.1449      0.500        7909 
+8500     -37571.4283      0.500        7909 
+Optimization precision reduced 
+   Optimizing parameters...    improved    2.052 lnL
+   Optimizing branchlengths... improved    4.155 lnL
+8600     -37563.4618      0.451        7909 
+8700     -37562.3939      0.451        7909 
+8800     -37559.4233      0.451        8726 
+8900     -37557.9631      0.451        8726 
+9000     -37556.6942      0.451        8726 
+9100     -37553.4763      0.451        9033 
+9200     -37552.3854      0.451        9033 
+9300     -37551.7999      0.451        9033 
+9400     -37551.1228      0.451        9033 
+9500     -37549.7762      0.451        9033 
+9600     -37459.3389      0.451        9557 
+9700     -37379.8532      0.451        9640 
+9800     -37378.9868      0.451        9640 
+9900     -37354.6742      0.451        9825 
+10000    -37307.7254      0.451        9970 
+10100    -37307.1097      0.451        9970 
+10200    -37034.6391      0.451       10182 
+10300    -36982.6011      0.451       10287 
+10400    -36955.8432      0.451       10379 
+10500    -36806.4129      0.451       10493 
+10600    -36490.5642      0.451       10585 
+10700    -36395.3771      0.451       10700 
+10800    -36315.0709      0.451       10790 
+10900    -36040.4254      0.451       10887 
+11000    -35989.8539      0.451       10994 
+11100    -35980.4562      0.451       11061 
+11200    -35978.5917      0.451       11190 
+11300    -35977.7249      0.451       11248 
+11400    -35977.5264      0.451       11358 
+11500    -35977.1183      0.451       11358 
+11600    -35976.4861      0.451       11358 
+11700    -35975.8419      0.451       11358 
+11800    -35975.0266      0.451       11358 
+11900    -35974.4765      0.451       11358 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.037 lnL
+   Optimizing branchlengths... improved    1.377 lnL
+12000    -35962.2210      0.402       11966 
+12100    -35961.4785      0.402       11966 
+12200    -35961.2679      0.402       11966 
+12300    -35960.7582      0.402       12234 
+12400    -35958.3629      0.402       12305 
+12500    -35947.3136      0.402       12464 
+12600    -35944.5091      0.402       12507 
+12700    -35943.9987      0.402       12654 
+12800    -35943.0278      0.402       12654 
+12900    -35942.5845      0.402       12654 
+13000    -35941.9032      0.402       12654 
+13100    -35940.9502      0.402       12654 
+13200    -35940.1446      0.402       12654 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.026 lnL
+   Optimizing branchlengths... improved    0.581 lnL
+13300    -35939.1593      0.353       12654 
+13400    -35938.6973      0.353       12654 
+13500    -35938.1973      0.353       12654 
+13600    -35937.8805      0.353       12654 
+13700    -35937.5464      0.353       12654 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.015 lnL
+   Optimizing branchlengths... improved    0.982 lnL
+13800    -35936.1636      0.304       12654 
+13900    -35935.8801      0.304       12654 
+14000    -35935.5225      0.304       12654 
+14100    -35935.1615      0.304       14080 
+14200    -35934.9433      0.304       14080 
+14300    -35934.5446      0.304       14080 
+14400    -35934.2805      0.304       14080 
+14500    -35934.0303      0.304       14080 
+14600    -35933.7416      0.304       14080 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.013 lnL
+   Optimizing branchlengths... improved    0.992 lnL
+14700    -35932.3247      0.255       14080 
+14800    -35931.9975      0.255       14080 
+14900    -35931.8020      0.255       14080 
+15000    -35931.5054      0.255       14080 
+15100    -35931.2205      0.255       15031 
+15200    -35931.0324      0.255       15031 
+15300    -35930.8338      0.255       15031 
+15400    -35930.6035      0.255       15031 
+15500    -35924.2914      0.255       15470 
+15600    -35924.0221      0.255       15470 
+15700    -35923.7923      0.255       15470 
+15800    -35923.4128      0.255       15705 
+15900    -35923.2471      0.255       15705 
+16000    -35922.7874      0.255       15938 
+16100    -35922.5367      0.255       15938 
+16200    -35922.3851      0.255       15938 
+16300    -35922.0515      0.255       15938 
+16400    -35921.8780      0.255       15938 
+16500    -35921.7145      0.255       15938 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.011 lnL
+   Optimizing branchlengths... improved    1.125 lnL
+16600    -35920.4365      0.206       16560 
+16700    -35920.2112      0.206       16560 
+16800    -35920.1250      0.206       16560 
+16900    -35919.9500      0.206       16864 
+17000    -35919.8882      0.206       16864 
+17100    -35919.7578      0.206       16864 
+17200    -35919.6445      0.206       16864 
+17300    -35919.5640      0.206       16864 
+17400    -35919.3739      0.206       16864 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.006 lnL
+   Optimizing branchlengths... improved    6.589 lnL
+17500    -35912.4085      0.157       17418 
+17600    -35912.3012      0.157       17418 
+17700    -35912.2168      0.157       17418 
+17800    -35912.0027      0.157       17418 
+17900    -35911.8368      0.157       17883 
+18000    -35911.6851      0.157       17883 
+18100    -35911.4415      0.157       17883 
+18200    -35902.1459      0.157       18198 
+18300    -35901.9305      0.157       18198 
+18400    -35901.6852      0.157       18198 
+18500    -35901.5548      0.157       18198 
+18600    -35901.3110      0.157       18525 
+18700    -35901.1800      0.157       18525 
+18800    -35900.9933      0.157       18525 
+18900    -35900.8708      0.157       18525 
+19000    -35900.6385      0.157       18525 
+19100    -35900.5768      0.157       19045 
+19200    -35900.5022      0.157       19045 
+19300    -35900.3312      0.157       19286 
+19400    -35900.2867      0.157       19286 
+19500    -35900.2251      0.157       19286 
+19600    -35900.2071      0.157       19286 
+19700    -35900.1411      0.157       19286 
+19800    -35900.0934      0.157       19286 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.003 lnL
+   Optimizing branchlengths... improved    2.356 lnL
+19900    -35897.6743      0.108       19286 
+20000    -35897.6314      0.108       19286 
+20100    -35897.4518      0.108       19286 
+20200    -35897.3646      0.108       19286 
+20300    -35897.3227      0.108       19286 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.003 lnL
+   Optimizing branchlengths... improved    2.820 lnL
+20400    -35894.4786      0.059       19286 
+20500    -35894.4335      0.059       20421 
+20600    -35894.3720      0.059       20421 
+20700    -35894.2939      0.059       20421 
+20800    -35894.2334      0.059       20421 
+20900    -35894.1035      0.059       20872 
+21000    -35894.0565      0.059       20872 
+21100    -35894.0216      0.059       20872 
+21200    -35893.9573      0.059       21156 
+21300    -35893.9183      0.059       21156 
+21400    -35893.8871      0.059       21156 
+21500    -35893.8477      0.059       21156 
+21600    -35893.8266      0.059       21156 
+21700    -35893.7290      0.059       21156 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.001 lnL
+   Optimizing branchlengths... improved    2.304 lnL
+21800    -35891.4138      0.010       21156 
+21900    -35891.3853      0.010       21156 
+22000    -35891.3600      0.010       21156 
+22100    -35891.3445      0.010       21156 
+22200    -35891.3284      0.010       21156 
+22300    -35891.3199      0.010       21156 
+22400    -35891.3004      0.010       21156 
+22500    -35891.2983      0.010       21156 
+22600    -35891.2698      0.010       21156 
+22700    -35891.2605      0.010       21156 
+22800    -35891.2438      0.010       21156 
+22900    -35891.2358      0.010       21156 
+23000    -35891.2226      0.010       21156 
+23100    -35891.2183      0.010       21156 
+23200    -35891.2162      0.010       21156 
+23300    -35891.2029      0.010       21156 
+23400    -35891.1985      0.010       21156 
+23500    -35891.1845      0.010       21156 
+23600    -35891.1702      0.010       21156 
+23700    -35891.1628      0.010       21156 
+23800    -35891.1500      0.010       21156 
+23900    -35891.1443      0.010       21156 
+24000    -35891.1324      0.010       21156 
+24100    -35891.1256      0.010       21156 
+24200    -35891.1202      0.010       21156 
+24300    -35891.0960      0.010       21156 
+24400    -35891.0876      0.010       21156 
+24500    -35891.0861      0.010       21156 
+24600    -35891.0809      0.010       21156 
+24700    -35891.0777      0.010       21156 
+24800    -35891.0693      0.010       21156 
+24900    -35891.0618      0.010       21156 
+25000    -35890.9902      0.010       24932 
+25100    -35890.9893      0.010       24932 
+25200    -35890.9796      0.010       24932 
+25300    -35890.9751      0.010       24932 
+25400    -35890.9718      0.010       24932 
+25500    -35890.8867      0.010       25497 
+25600    -35890.8784      0.010       25497 
+25700    -35890.8608      0.010       25497 
+25800    -35890.8572      0.010       25497 
+25900    -35890.8450      0.010       25497 
+26000    -35890.8430      0.010       25497 
+26100    -35890.8400      0.010       25497 
+26200    -35890.8384      0.010       25497 
+26300    -35890.8354      0.010       25497 
+26400    -35890.8298      0.010       25497 
+26500    -35890.8246      0.010       25497 
+26600    -35890.8235      0.010       25497 
+26700    -35890.8218      0.010       25497 
+26800    -35890.8196      0.010       25497 
+26900    -35890.8077      0.010       25497 
+27000    -35890.8010      0.010       25497 
+27100    -35890.7994      0.010       25497 
+27200    -35890.7968      0.010       25497 
+27300    -35890.7895      0.010       25497 
+27400    -35890.7825      0.010       25497 
+27500    -35890.7824      0.010       25497 
+27600    -35890.7786      0.010       25497 
+27700    -35890.7773      0.010       25497 
+27800    -35890.7754      0.010       25497 
+27900    -35890.7746      0.010       25497 
+28000    -35890.7066      0.010       27965 
+28100    -35890.7045      0.010       27965 
+28200    -35890.6939      0.010       27965 
+28300    -35890.6877      0.010       27965 
+28400    -35890.6743      0.010       27965 
+28500    -35890.6664      0.010       27965 
+28600    -35890.6612      0.010       27965 
+28700    -35890.6516      0.010       27965 
+28800    -35890.6482      0.010       27965 
+28900    -35890.6436      0.010       27965 
+29000    -35890.6384      0.010       27965 
+29100    -35890.6360      0.010       27965 
+29200    -35890.6353      0.010       27965 
+29300    -35890.6220      0.010       27965 
+29400    -35890.6193      0.010       27965 
+29500    -35890.5964      0.010       27965 
+29600    -35890.5901      0.010       27965 
+29700    -35890.5863      0.010       27965 
+29800    -35890.5844      0.010       27965 
+29900    -35886.3434      0.010       29834 
+30000    -35886.3396      0.010       29834 
+   Optimizing parameters...    improved    0.013 lnL
+   Optimizing branchlengths... improved    0.051 lnL
+30100    -35886.2699      0.010       29834 
+30200    -35886.2562      0.010       29834 
+30300    -35886.2515      0.010       29834 
+30400    -35886.2494      0.010       29834 
+30500    -35886.2446      0.010       29834 
+30600    -35886.2409      0.010       29834 
+30700    -35886.2377      0.010       29834 
+30800    -35886.2354      0.010       29834 
+30900    -35886.2343      0.010       29834 
+31000    -35886.2337      0.010       29834 
+31100    -35886.2251      0.010       29834 
+31200    -35886.2228      0.010       29834 
+31300    -35886.2194      0.010       29834 
+31400    -35886.2176      0.010       29834 
+31500    -35886.2106      0.010       29834 
+31600    -35886.2100      0.010       29834 
+31700    -35886.2070      0.010       29834 
+31800    -35886.2055      0.010       29834 
+31900    -35886.2048      0.010       29834 
+32000    -35886.2040      0.010       29834 
+32100    -35886.2004      0.010       29834 
+32200    -35886.2004      0.010       29834 
+32300    -35886.2000      0.010       29834 
+32400    -35886.1941      0.010       29834 
+32500    -35886.1926      0.010       29834 
+32600    -35886.1924      0.010       29834 
+32700    -35886.1857      0.010       29834 
+32800    -35886.1838      0.010       29834 
+32900    -35886.1837      0.010       29834 
+33000    -35886.1818      0.010       29834 
+33100    -35886.1807      0.010       29834 
+33200    -35886.1759      0.010       29834 
+33300    -35886.1735      0.010       29834 
+33400    -35886.1689      0.010       29834 
+33500    -35886.1657      0.010       29834 
+33600    -35886.1642      0.010       29834 
+33700    -35886.1619      0.010       29834 
+33800    -35886.1613      0.010       29834 
+33900    -35886.1607      0.010       29834 
+34000    -35886.1572      0.010       29834 
+34100    -35886.1531      0.010       29834 
+34200    -35886.1449      0.010       29834 
+34300    -35886.1428      0.010       29834 
+34400    -35886.1416      0.010       29834 
+34500    -35886.1405      0.010       29834 
+34600    -35886.1394      0.010       29834 
+34700    -35886.1387      0.010       29834 
+34800    -35886.1380      0.010       29834 
+34900    -35886.1349      0.010       29834 
+35000    -35886.1327      0.010       29834 
+   Optimizing parameters...    improved    0.000 lnL
+   Optimizing branchlengths... improved    0.000 lnL
+35100    -35886.1305      0.010       29834 
+35200    -35886.1284      0.010       29834 
+35300    -35886.1244      0.010       29834 
+35400    -35886.1233      0.010       29834 
+35500    -35886.1227      0.010       29834 
+35600    -35886.1212      0.010       29834 
+35700    -35886.1212      0.010       29834 
+35800    -35886.1188      0.010       29834 
+35900    -35886.1188      0.010       29834 
+36000    -35886.1180      0.010       29834 
+36100    -35886.1180      0.010       29834 
+36200    -35886.1178      0.010       29834 
+36300    -35886.1133      0.010       29834 
+36400    -35886.1133      0.010       29834 
+36500    -35886.1113      0.010       29834 
+36600    -35886.1080      0.010       29834 
+36700    -35886.1076      0.010       29834 
+36800    -35886.1045      0.010       29834 
+36900    -35886.1044      0.010       29834 
+37000    -35886.1031      0.010       29834 
+37100    -35886.1031      0.010       29834 
+37200    -35886.1023      0.010       29834 
+37300    -35886.1011      0.010       29834 
+37400    -35886.1008      0.010       29834 
+37500    -35886.1003      0.010       29834 
+37600    -35886.0965      0.010       29834 
+37700    -35886.0965      0.010       29834 
+37800    -35886.0943      0.010       29834 
+37900    -35886.0942      0.010       29834 
+38000    -35886.0942      0.010       29834 
+38100    -35886.0938      0.010       29834 
+38200    -35886.0906      0.010       29834 
+38300    -35886.0904      0.010       29834 
+38400    -35886.0874      0.010       29834 
+38500    -35886.0854      0.010       29834 
+38600    -35886.0839      0.010       29834 
+38700    -35886.0839      0.010       29834 
+38800    -35886.0838      0.010       29834 
+38900    -35886.0832      0.010       29834 
+39000    -35886.0817      0.010       29834 
+39100    -35886.0817      0.010       29834 
+39200    -35886.0789      0.010       29834 
+39300    -35886.0780      0.010       29834 
+39400    -35886.0774      0.010       29834 
+39500    -35886.0743      0.010       29834 
+39600    -35886.0719      0.010       29834 
+39700    -35886.0701      0.010       29834 
+39800    -35886.0686      0.010       29834 
+39900    -35886.0686      0.010       29834 
+40000    -35886.0674      0.010       29834 
+   Optimizing parameters...    improved    0.000 lnL
+   Optimizing branchlengths... improved    0.000 lnL
+40100    -35886.0669      0.010       29834 
+40200    -35886.0667      0.010       29834 
+40300    -35886.0651      0.010       29834 
+40400    -35886.0651      0.010       29834 
+40500    -35886.0651      0.010       29834 
+40600    -35886.0651      0.010       29834 
+40700    -35886.0649      0.010       29834 
+40800    -35886.0632      0.010       29834 
+40900    -35886.0622      0.010       29834 
+41000    -35886.0596      0.010       29834 
+41100    -35886.0596      0.010       29834 
+41200    -35886.0594      0.010       29834 
+41300    -35886.0586      0.010       29834 
+41400    -35886.0571      0.010       29834 
+41500    -35886.0551      0.010       29834 
+41600    -35886.0537      0.010       29834 
+41700    -35886.0531      0.010       29834 
+41800    -35886.0531      0.010       29834 
+41900    -35886.0517      0.010       29834 
+42000    -35886.0515      0.010       29834 
+42100    -35886.0515      0.010       29834 
+42200    -35886.0515      0.010       29834 
+42300    -35886.0515      0.010       29834 
+42400    -35886.0503      0.010       29834 
+42500    -35886.0483      0.010       29834 
+42600    -35886.0483      0.010       29834 
+42700    -35886.0480      0.010       29834 
+42800    -35886.0463      0.010       29834 
+42900    -35886.0463      0.010       29834 
+43000    -35886.0445      0.010       29834 
+43100    -35886.0441      0.010       29834 
+43200    -35886.0439      0.010       29834 
+43300    -35886.0431      0.010       29834 
+43400    -35886.0417      0.010       29834 
+43500    -35886.0401      0.010       29834 
+43600    -35886.0401      0.010       29834 
+43700    -35886.0397      0.010       29834 
+43800    -35886.0397      0.010       29834 
+43900    -35886.0393      0.010       29834 
+44000    -35886.0393      0.010       29834 
+Reached termination condition!
+last topological improvement at gen 29834
+Improvement over last 500 gen = 0.00081
+Current score = -35886.0393
+Performing final optimizations...
+pass 1 : -35886.0389   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0001)
+pass 2 : -35886.0321   (branch= 0.0067  flex rates= 0.0000  rel rates= 0.0000)
+pass 3 : -35886.0092   (branch= 0.0228  flex rates= 0.0001  rel rates= 0.0000)
+pass 4 : -35885.9875   (branch= 0.0216  flex rates= 0.0001  rel rates= 0.0000)
+pass 5 : -35885.9642   (branch= 0.0232  flex rates= 0.0001  rel rates= 0.0000)
+pass 6 : -35885.9544   (branch= 0.0097  flex rates= 0.0001  rel rates= 0.0000)
+pass 7 : -35885.9492   (branch= 0.0051  flex rates= 0.0002  rel rates= 0.0000)
+pass 8 : -35885.9460   (branch= 0.0027  flex rates= 0.0005  rel rates= 0.0000)
+pass 9 : -35885.9443   (branch= 0.0011  flex rates= 0.0005  rel rates= 0.0000)
+pass 10: -35885.9433   (branch= 0.0006  flex rates= 0.0005  rel rates= 0.0000)
+pass 11: -35885.9412   (branch= 0.0003  flex rates= 0.0018  rel rates= 0.0000)
+pass 12: -35885.9399   (branch= 0.0001  flex rates= 0.0012  rel rates= 0.0000)
+pass 13: -35885.9391   (branch= 0.0001  flex rates= 0.0007  rel rates= 0.0000)
+pass 14: -35885.9386   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+pass 15: -35885.9385   (branch= 0.0000  flex rates= 0.0001  rel rates= 0.0000)
+pass 16: -35885.9383   (branch= 0.0000  flex rates= 0.0002  rel rates= 0.0000)
+pass 17: -35885.9382   (branch= 0.0000  flex rates= 0.0001  rel rates= 0.0000)
+pass 18: -35885.9382   (branch= 0.0000  flex rates= 0.0000  rel rates= 0.0000)
+pass 19: -35885.9381   (branch= 0.0000  flex rates= 0.0001  rel rates= 0.0000)
+pass 20: -35885.9380   (branch= 0.0000  flex rates= 0.0001  rel rates= 0.0000)
+ optimization up to ...
+pass 30: -35885.9376   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 40: -35885.9373   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 50: -35885.9369   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 60: -35885.9366   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 70: -35885.9363   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 80: -35885.9359   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 90: -35885.9356   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 100: -35885.9352   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 110: -35885.9349   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 120: -35885.9345   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 130: -35885.9342   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 140: -35885.9338   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 150: -35885.9334   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 160: -35885.9331   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 170: -35885.9327   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 180: -35885.9323   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 190: -35885.9319   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 200: -35885.9315   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 210: -35885.9311   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 220: -35885.9308   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 230: -35885.9303   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 240: -35885.9299   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 250: -35885.9295   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 260: -35885.9291   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 270: -35885.9286   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 280: -35885.9282   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 290: -35885.9277   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 300: -35885.9273   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 310: -35885.9268   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 320: -35885.9263   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 330: -35885.9257   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 340: -35885.9252   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 350: -35885.9246   (branch= 0.0000  flex rates= 0.0006  rel rates= 0.0000)
+ optimization up to ...
+pass 360: -35885.9240   (branch= 0.0000  flex rates= 0.0006  rel rates= 0.0000)
+ optimization up to ...
+pass 370: -35885.9234   (branch= 0.0000  flex rates= 0.0006  rel rates= 0.0000)
+ optimization up to ...
+pass 380: -35885.9227   (branch= 0.0000  flex rates= 0.0007  rel rates= 0.0000)
+ optimization up to ...
+pass 390: -35885.9220   (branch= 0.0000  flex rates= 0.0007  rel rates= 0.0000)
+ optimization up to ...
+pass 400: -35885.9212   (branch= 0.0000  flex rates= 0.0008  rel rates= 0.0000)
+ optimization up to ...
+pass 410: -35885.9204   (branch= 0.0000  flex rates= 0.0008  rel rates= 0.0000)
+ optimization up to ...
+pass 420: -35885.9196   (branch= 0.0000  flex rates= 0.0008  rel rates= 0.0000)
+ optimization up to ...
+pass 430: -35885.9187   (branch= 0.0000  flex rates= 0.0009  rel rates= 0.0000)
+ optimization up to ...
+pass 440: -35885.9178   (branch= 0.0000  flex rates= 0.0009  rel rates= 0.0000)
+ optimization up to ...
+pass 450: -35885.9169   (branch= 0.0000  flex rates= 0.0009  rel rates= 0.0000)
+ optimization up to ...
+pass 460: -35885.9160   (branch= 0.0000  flex rates= 0.0009  rel rates= 0.0000)
+ optimization up to ...
+pass 470: -35885.9149   (branch= 0.0000  flex rates= 0.0010  rel rates= 0.0000)
+ optimization up to ...
+pass 480: -35885.9138   (branch= 0.0000  flex rates= 0.0012  rel rates= 0.0000)
+ optimization up to ...
+pass 490: -35885.9125   (branch= 0.0000  flex rates= 0.0012  rel rates= 0.0000)
+ optimization up to ...
+pass 500: -35885.9111   (branch= 0.0000  flex rates= 0.0015  rel rates= 0.0000)
+ optimization up to ...
+pass 510: -35885.9093   (branch= 0.0000  flex rates= 0.0017  rel rates= 0.0000)
+ optimization up to ...
+pass 520: -35885.9072   (branch= 0.0000  flex rates= 0.0021  rel rates= 0.0000)
+ optimization up to ...
+pass 530: -35885.9046   (branch= 0.0000  flex rates= 0.0026  rel rates= 0.0000)
+ optimization up to ...
+pass 540: -35885.9013   (branch= 0.0000  flex rates= 0.0033  rel rates= 0.0000)
+ optimization up to ...
+pass 550: -35885.8968   (branch= 0.0000  flex rates= 0.0044  rel rates= 0.0000)
+ optimization up to ...
+pass 560: -35885.8902   (branch= 0.0000  flex rates= 0.0067  rel rates= 0.0000)
+ optimization up to ...
+pass 570: -35885.8802   (branch= 0.0000  flex rates= 0.0099  rel rates= 0.0000)
+ optimization up to ...
+pass 580: -35885.8613   (branch= 0.0000  flex rates= 0.0189  rel rates= 0.0000)
+ optimization up to ...
+pass 590: -35885.8290   (branch= 0.0000  flex rates= 0.0324  rel rates= 0.0000)
+ optimization up to ...
+pass 600: -35885.7875   (branch= 0.0000  flex rates= 0.0415  rel rates= 0.0000)
+ optimization up to ...
+pass 610: -35885.7356   (branch= 0.0000  flex rates= 0.0519  rel rates= 0.0000)
+ optimization up to ...
+pass 620: -35885.6541   (branch= 0.0001  flex rates= 0.0814  rel rates= 0.0000)
+ optimization up to ...
+pass 630: -35885.5803   (branch= 0.0001  flex rates= 0.0737  rel rates= 0.0000)
+ optimization up to ...
+pass 640: -35885.5643   (branch= 0.0000  flex rates= 0.0160  rel rates= 0.0000)
+ optimization up to ...
+pass 650: -35885.5614   (branch= 0.0000  flex rates= 0.0028  rel rates= 0.0000)
+ optimization up to ...
+pass 660: -35885.5607   (branch= 0.0000  flex rates= 0.0008  rel rates= 0.0000)
+ optimization up to ...
+pass 670: -35885.5603   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 673: -35885.5603   (branch= 0.0000  flex rates= 0.0000  rel rates= 0.0000)
+Looking for minimum length branches...
+Final score = -35885.5602
+Time used so far = 6 hours, 59 minutes and 53 seconds
+
+MODEL REPORT - Parameter values are FINAL
+Model 1
+  Number of states = 4 (nucleotide data)
+  Nucleotide Relative Rate Matrix: 
+    User specified matrix type: ( 0 1 2 3 4 5 ) 
+    AC = 1.763, AG = 8.220, AT = 0.731, CG = 0.914, CT = 8.136, GT = 1.000
+  Equilibrium State Frequencies: empirical (observed) values, fixed:
+    (ACGT) 0.3145 0.2733 0.1532 0.2590 
+  Rate Heterogeneity Model:
+    6 FLEX rate categories, rate and proportion of each estimated
+      Estimated substitution rate categories:
+      rate	proportion
+      0.0345	0.5495
+      0.5190	0.1689
+      1.5455	0.0923
+      2.7781	0.1069
+      4.8285	0.0685
+      8.8918	0.0138
+
+NOTE: Collapsing of minimum length branches was requested (collapsebranches = 1)
+    9 branches were collapsed.
+
+>>>Completed Search rep 2 (of 10)<<<
+
+>>>Search rep 3 (of 10)<<<
+MODEL REPORT - Parameters are at their INITIAL values (not yet optimized)
+Model 1
+  Number of states = 4 (nucleotide data)
+  Nucleotide Relative Rate Matrix: 
+    User specified matrix type: ( 0 1 2 3 4 5 ) 
+    AC = 1.000, AG = 4.000, AT = 1.000, CG = 1.000, CT = 4.000, GT = 1.000
+  Equilibrium State Frequencies: empirical (observed) values, fixed:
+    (ACGT) 0.3145 0.2733 0.1532 0.2590 
+  Rate Heterogeneity Model:
+    6 FLEX rate categories, rate and proportion of each estimated
+      Estimated substitution rate categories:
+      rate	proportion
+      0.0147	0.1667
+      0.1060	0.1667
+      0.3073	0.1667
+      0.6715	0.1667
+      1.3562	0.1667
+      3.5444	0.1667
+
+Starting with seed=1346101920
+
+creating random starting tree...
+Initial ln Likelihood: -161192.5401
+optimizing: starting branch lengths, rel rates...
+pass 1:+37725.765 (branch=34796.80 scale=1270.01 rel rates=516.06 flex=1142.89)
+pass 2:+ 7059.908 (branch=6378.66 scale= 25.40 rel rates=134.76 flex=521.10)
+pass 3:+ 1116.746 (branch= 833.86 scale= 33.20 rel rates= 32.12 flex=217.56)
+pass 4:+  256.452 (branch= 107.52 scale= 16.60 rel rates= 12.25 flex=120.08)
+pass 5:+  113.286 (branch=  23.41 scale= 11.55 rel rates=  9.53 flex= 68.79)
+pass 6:+   63.544 (branch=  11.14 scale=  5.57 rel rates=  6.65 flex= 40.19)
+pass 7:+   40.415 (branch=   9.02 scale=  3.25 rel rates=  3.63 flex= 24.52)
+pass 8:+   27.892 (branch=   5.98 scale=  1.47 rel rates=  5.82 flex= 14.63)
+pass 9:+   17.089 (branch=   3.87 scale=  0.76 rel rates=  4.41 flex=  8.05)
+pass10:+    8.997 (branch=   1.38 scale=  0.00 rel rates=  5.27 flex=  2.35)
+pass11:+    9.268 (branch=   2.24 scale=  0.00 rel rates=  6.13 flex=  0.90)
+pass12:+    5.443 (branch=   0.85 scale=  0.00 rel rates=  4.34 flex=  0.25)
+pass13:+    5.214 (branch=   0.69 scale=  0.00 rel rates=  4.32 flex=  0.20)
+pass14:+    4.434 (branch=   0.86 scale=  0.00 rel rates=  3.42 flex=  0.16)
+pass15:+    4.066 (branch=   0.87 scale=  0.00 rel rates=  3.10 flex=  0.10)
+pass16:+    3.757 (branch=   0.43 scale=  0.00 rel rates=  3.24 flex=  0.09)
+pass17:+    1.467 (branch=   1.30 scale=  0.00 rel rates=  0.08 flex=  0.09)
+pass18:+    0.151 (branch=   0.00 scale=  0.00 rel rates=  0.08 flex=  0.07)
+lnL after optimization: -114728.6475
+gen      current_lnL    precision  last_tree_imp  
+0        -114728.6475     0.500           0 
+100      -108464.8510     0.500          99 
+200      -105686.0070     0.500         199 
+300      -98888.9597      0.500         299 
+400      -90999.2783      0.500         400 
+500      -86976.2091      0.500         499 
+600      -82401.3934      0.500         600 
+700      -79267.7094      0.500         700 
+800      -75814.5217      0.500         800 
+900      -72882.8364      0.500         900 
+1000     -70678.7213      0.500         999 
+1100     -67890.0459      0.500        1091 
+1200     -65574.5743      0.500        1198 
+1300     -64508.5664      0.500        1293 
+1400     -63653.6030      0.500        1399 
+1500     -62211.6756      0.500        1499 
+1600     -61046.2003      0.500        1600 
+1700     -60279.0877      0.500        1700 
+1800     -58216.2251      0.500        1800 
+1900     -57098.7337      0.500        1898 
+2000     -56169.8490      0.500        2000 
+2100     -55790.4828      0.500        2096 
+2200     -55079.1441      0.500        2199 
+2300     -53905.2244      0.500        2299 
+2400     -53435.8856      0.500        2394 
+2500     -52550.5117      0.500        2499 
+2600     -51758.4898      0.500        2600 
+2700     -51138.1335      0.500        2699 
+2800     -50331.3769      0.500        2793 
+2900     -49623.7900      0.500        2899 
+3000     -47626.3851      0.500        3000 
+3100     -47417.0945      0.500        3094 
+3200     -46332.3218      0.500        3199 
+3300     -45805.4186      0.500        3300 
+3400     -45312.8292      0.500        3399 
+3500     -44384.2646      0.500        3496 
+3600     -43683.3843      0.500        3598 
+3700     -43247.1276      0.500        3698 
+3800     -42823.4383      0.500        3800 
+3900     -41815.6843      0.500        3897 
+4000     -40917.3816      0.500        3993 
+4100     -40475.6352      0.500        4093 
+4200     -40088.3779      0.500        4198 
+4300     -39723.8535      0.500        4295 
+4400     -39601.1751      0.500        4389 
+4500     -39337.0274      0.500        4500 
+4600     -39125.3745      0.500        4598 
+4700     -39109.5796      0.500        4671 
+4800     -38940.6847      0.500        4799 
+4900     -38691.5301      0.500        4895 
+5000     -38670.0856      0.500        4996 
+5100     -38502.3646      0.500        5093 
+5200     -38300.8640      0.500        5189 
+5300     -38262.9193      0.500        5293 
+5400     -38232.5944      0.500        5390 
+5500     -38208.8920      0.500        5496 
+5600     -38197.9106      0.500        5579 
+5700     -38148.4877      0.500        5667 
+5800     -37980.6217      0.500        5762 
+5900     -37651.8847      0.500        5900 
+6000     -37521.1285      0.500        5990 
+6100     -37431.5549      0.500        6065 
+6200     -36889.4790      0.500        6161 
+6300     -36820.4314      0.500        6295 
+6400     -36609.9028      0.500        6397 
+6500     -36555.0405      0.500        6487 
+6600     -36420.1309      0.500        6599 
+6700     -36400.8544      0.500        6688 
+6800     -36350.3100      0.500        6766 
+6900     -36314.2481      0.500        6852 
+7000     -36313.1064      0.500        6905 
+7100     -36311.8671      0.500        7013 
+7200     -36285.0135      0.500        7187 
+7300     -36284.0052      0.500        7210 
+7400     -36282.9454      0.500        7210 
+7500     -36281.9375      0.500        7210 
+7600     -36271.7652      0.500        7551 
+7700     -36270.8612      0.500        7551 
+7800     -36269.6071      0.500        7551 
+7900     -36238.4309      0.500        7871 
+8000     -36237.5035      0.500        7871 
+8100     -36162.2138      0.500        8098 
+8200     -36161.4277      0.500        8098 
+8300     -36126.9435      0.500        8250 
+8400     -36126.5387      0.500        8250 
+8500     -36124.0839      0.500        8435 
+8600     -36116.0854      0.500        8575 
+8700     -36109.7512      0.500        8689 
+8800     -36109.3992      0.500        8689 
+8900     -36108.2942      0.500        8689 
+9000     -36107.1264      0.500        8924 
+9100     -36106.2159      0.500        8924 
+9200     -36105.1015      0.500        8924 
+9300     -36102.2289      0.500        9298 
+9400     -36089.3360      0.500        9389 
+9500     -36073.5091      0.500        9485 
+9600     -36073.1664      0.500        9575 
+9700     -36047.1053      0.500        9669 
+9800     -36041.9744      0.500        9771 
+9900     -36041.1318      0.500        9858 
+10000    -36040.4342      0.500        9858 
+10100    -36039.8161      0.500        9858 
+10200    -36039.5405      0.500        9858 
+10300    -36038.1785      0.500        9858 
+10400    -36036.6018      0.500        9858 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.103 lnL
+   Optimizing branchlengths... improved    1.778 lnL
+10500    -36033.8943      0.451        9858 
+10600    -36033.3352      0.451        9858 
+10700    -36032.6260      0.451        9858 
+10800    -36032.2407      0.451        9858 
+10900    -36031.4794      0.451        9858 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.043 lnL
+   Optimizing branchlengths... improved    0.565 lnL
+11000    -36030.5127      0.402        9858 
+11100    -36029.7785      0.402        9858 
+11200    -36028.7656      0.402        9858 
+11300    -36028.5413      0.402        9858 
+11400    -36027.9948      0.402        9858 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.045 lnL
+   Optimizing branchlengths... improved    2.081 lnL
+11500    -36025.3288      0.353        9858 
+11600    -36024.9332      0.353        9858 
+11700    -36024.5812      0.353        9858 
+11800    -36024.2326      0.353        9858 
+11900    -36023.9630      0.353        9858 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.042 lnL
+   Optimizing branchlengths... improved    0.879 lnL
+12000    -36022.7324      0.304        9858 
+12100    -36022.1501      0.304        9858 
+12200    -35994.4924      0.304       12157 
+12300    -35994.3099      0.304       12157 
+12400    -35994.1442      0.304       12157 
+12500    -35993.8726      0.304       12455 
+12600    -35993.6131      0.304       12455 
+12700    -35993.1326      0.304       12455 
+12800    -35992.8009      0.304       12455 
+12900    -35992.4311      0.304       12455 
+13000    -35991.9568      0.304       12965 
+13100    -35991.5111      0.304       12965 
+13200    -35991.1157      0.304       12965 
+13300    -35990.9894      0.304       12965 
+13400    -35990.5746      0.304       12965 
+13500    -35990.2820      0.304       12965 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.014 lnL
+   Optimizing branchlengths... improved    2.219 lnL
+13600    -35987.7573      0.255       12965 
+13700    -35987.6035      0.255       12965 
+13800    -35986.6668      0.255       13772 
+13900    -35986.3686      0.255       13772 
+14000    -35986.1573      0.255       13772 
+14100    -35985.8807      0.255       13772 
+14200    -35985.4220      0.255       13772 
+14300    -35985.2183      0.255       13772 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.012 lnL
+   Optimizing branchlengths... improved    2.445 lnL
+14400    -35982.3103      0.206       14366 
+14500    -35982.0425      0.206       14366 
+14600    -35981.7933      0.206       14366 
+14700    -35981.6049      0.206       14366 
+14800    -35981.4437      0.206       14366 
+14900    -35981.3096      0.206       14366 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.006 lnL
+   Optimizing branchlengths... improved    6.261 lnL
+15000    -35974.6583      0.157       14963 
+15100    -35974.3842      0.157       14963 
+15200    -35974.1371      0.157       14963 
+15300    -35973.9823      0.157       14963 
+15400    -35973.8348      0.157       14963 
+15500    -35973.6613      0.157       14963 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.006 lnL
+   Optimizing branchlengths... improved    3.559 lnL
+15600    -35969.9110      0.108       15539 
+15700    -35969.7611      0.108       15630 
+15800    -35969.6781      0.108       15630 
+15900    -35969.4984      0.108       15870 
+16000    -35969.4708      0.108       15870 
+16100    -35969.3909      0.108       15870 
+16200    -35969.2815      0.108       15870 
+16300    -35969.2198      0.108       15870 
+16400    -35969.1250      0.108       15870 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.003 lnL
+   Optimizing branchlengths... improved    2.368 lnL
+16500    -35966.7012      0.059       15870 
+16600    -35966.6074      0.059       16535 
+16700    -35966.5001      0.059       16535 
+16800    -35966.4525      0.059       16535 
+16900    -35966.3404      0.059       16535 
+17000    -35966.2944      0.059       16535 
+17100    -35966.2507      0.059       16535 
+Optimization precision reduced 
+   Optimizing parameters...    improved    0.001 lnL
+   Optimizing branchlengths... improved    2.778 lnL
+17200    -35963.4533      0.010       16535 
+17300    -35963.4261      0.010       16535 
+17400    -35963.4126      0.010       16535 
+17500    -35963.3885      0.010       16535 
+17600    -35963.3423      0.010       16535 
+17700    -35963.3195      0.010       16535 
+17800    -35963.3087      0.010       16535 
+17900    -35963.3037      0.010       16535 
+18000    -35963.2851      0.010       16535 
+18100    -35963.2703      0.010       16535 
+18200    -35963.2666      0.010       16535 
+18300    -35963.2622      0.010       16535 
+18400    -35963.2369      0.010       16535 
+18500    -35963.2221      0.010       16535 
+18600    -35963.2027      0.010       16535 
+18700    -35963.1955      0.010       16535 
+18800    -35963.1916      0.010       16535 
+18900    -35963.1757      0.010       16535 
+19000    -35957.9179      0.010       18959 
+19100    -35957.9139      0.010       18959 
+19200    -35954.6239      0.010       19116 
+19300    -35948.9923      0.010       19233 
+19400    -35948.9889      0.010       19233 
+19500    -35948.8085      0.010       19493 
+19600    -35912.7981      0.010       19582 
+19700    -35886.8467      0.010       19656 
+19800    -35886.7444      0.010       19656 
+19900    -35886.7347      0.010       19656 
+20000    -35886.7331      0.010       19656 
+20100    -35886.7312      0.010       19656 
+20200    -35886.7289      0.010       19656 
+20300    -35886.6959      0.010       19656 
+20400    -35886.6878      0.010       19656 
+20500    -35886.6805      0.010       19656 
+20600    -35886.6586      0.010       19656 
+20700    -35886.6443      0.010       19656 
+20800    -35886.6384      0.010       19656 
+20900    -35886.6275      0.010       19656 
+21000    -35886.6194      0.010       19656 
+21100    -35886.6030      0.010       19656 
+21200    -35886.5951      0.010       19656 
+21300    -35886.5851      0.010       19656 
+21400    -35886.5757      0.010       19656 
+21500    -35886.5706      0.010       19656 
+21600    -35886.5576      0.010       19656 
+21700    -35886.5532      0.010       19656 
+21800    -35886.5430      0.010       19656 
+21900    -35886.5392      0.010       19656 
+22000    -35886.5378      0.010       19656 
+22100    -35886.5300      0.010       19656 
+22200    -35886.5270      0.010       19656 
+22300    -35886.5035      0.010       19656 
+22400    -35886.4538      0.010       22318 
+22500    -35886.4469      0.010       22318 
+22600    -35886.4381      0.010       22318 
+22700    -35886.4339      0.010       22318 
+22800    -35886.4244      0.010       22318 
+22900    -35886.4211      0.010       22318 
+23000    -35886.4207      0.010       22318 
+23100    -35886.4206      0.010       22318 
+23200    -35886.4097      0.010       22318 
+23300    -35886.3957      0.010       22318 
+23400    -35886.3939      0.010       22318 
+23500    -35886.3922      0.010       22318 
+23600    -35886.3915      0.010       22318 
+23700    -35886.3870      0.010       22318 
+23800    -35886.3856      0.010       22318 
+23900    -35886.3668      0.010       22318 
+24000    -35886.3619      0.010       22318 
+24100    -35886.3602      0.010       22318 
+24200    -35886.3549      0.010       22318 
+24300    -35886.3543      0.010       22318 
+24400    -35886.3517      0.010       22318 
+24500    -35886.3517      0.010       22318 
+24600    -35886.3514      0.010       22318 
+24700    -35886.3482      0.010       22318 
+24800    -35886.3394      0.010       22318 
+24900    -35886.3360      0.010       22318 
+25000    -35886.3337      0.010       22318 
+   Optimizing parameters...    improved    0.000 lnL
+   Optimizing branchlengths... improved    0.042 lnL
+25100    -35886.2918      0.010       22318 
+25200    -35886.2917      0.010       22318 
+25300    -35886.2900      0.010       22318 
+25400    -35886.2889      0.010       22318 
+25500    -35886.2846      0.010       22318 
+25600    -35886.2830      0.010       22318 
+25700    -35886.2807      0.010       22318 
+25800    -35886.2800      0.010       22318 
+25900    -35886.2781      0.010       22318 
+26000    -35886.2728      0.010       22318 
+26100    -35886.2715      0.010       22318 
+26200    -35886.2682      0.010       22318 
+26300    -35886.2646      0.010       22318 
+26400    -35886.2554      0.010       22318 
+26500    -35886.2502      0.010       22318 
+26600    -35886.2457      0.010       22318 
+26700    -35886.2427      0.010       22318 
+26800    -35886.2401      0.010       22318 
+26900    -35886.2401      0.010       22318 
+27000    -35886.2375      0.010       22318 
+27100    -35886.2340      0.010       22318 
+27200    -35886.2339      0.010       22318 
+27300    -35886.2313      0.010       22318 
+27400    -35886.2310      0.010       22318 
+27500    -35886.2293      0.010       22318 
+27600    -35886.2281      0.010       22318 
+27700    -35886.2270      0.010       22318 
+27800    -35886.2208      0.010       22318 
+27900    -35886.2196      0.010       22318 
+28000    -35886.2149      0.010       22318 
+28100    -35886.2104      0.010       22318 
+28200    -35886.2054      0.010       22318 
+28300    -35886.2042      0.010       22318 
+28400    -35886.2040      0.010       22318 
+28500    -35886.2018      0.010       22318 
+28600    -35886.2002      0.010       22318 
+28700    -35886.1996      0.010       22318 
+28800    -35886.1982      0.010       22318 
+28900    -35886.1980      0.010       22318 
+29000    -35886.1966      0.010       22318 
+29100    -35886.1914      0.010       22318 
+29200    -35886.1903      0.010       22318 
+29300    -35886.1880      0.010       22318 
+29400    -35886.1850      0.010       22318 
+29500    -35886.1810      0.010       22318 
+29600    -35886.1763      0.010       22318 
+29700    -35886.1737      0.010       22318 
+29800    -35886.1726      0.010       22318 
+29900    -35886.1680      0.010       22318 
+30000    -35886.1677      0.010       22318 
+   Optimizing parameters...    improved    0.000 lnL
+   Optimizing branchlengths... improved    0.011 lnL
+30100    -35886.1528      0.010       22318 
+30200    -35886.1518      0.010       22318 
+30300    -35886.1506      0.010       22318 
+30400    -35886.1491      0.010       22318 
+30500    -35886.1486      0.010       22318 
+30600    -35886.1486      0.010       22318 
+30700    -35886.1486      0.010       22318 
+30800    -35886.1481      0.010       22318 
+30900    -35886.1472      0.010       22318 
+31000    -35886.1472      0.010       22318 
+31100    -35886.1463      0.010       22318 
+31200    -35886.1461      0.010       22318 
+31300    -35886.1461      0.010       22318 
+31400    -35886.1453      0.010       22318 
+31500    -35886.1426      0.010       22318 
+31600    -35886.1408      0.010       22318 
+31700    -35886.1398      0.010       22318 
+31800    -35886.1379      0.010       22318 
+31900    -35886.1375      0.010       22318 
+32000    -35886.1354      0.010       22318 
+32100    -35886.1314      0.010       22318 
+32200    -35886.1293      0.010       22318 
+32300    -35886.1287      0.010       22318 
+32400    -35886.1236      0.010       22318 
+32500    -35886.1227      0.010       22318 
+32600    -35886.1219      0.010       22318 
+32700    -35886.1203      0.010       22318 
+32800    -35886.1203      0.010       22318 
+32900    -35886.1193      0.010       22318 
+33000    -35886.1193      0.010       22318 
+33100    -35886.1193      0.010       22318 
+33200    -35886.1148      0.010       22318 
+33300    -35886.1137      0.010       22318 
+33400    -35886.1122      0.010       22318 
+33500    -35886.1111      0.010       22318 
+33600    -35886.1092      0.010       22318 
+33700    -35886.1090      0.010       22318 
+33800    -35886.1090      0.010       22318 
+33900    -35886.1090      0.010       22318 
+34000    -35886.1089      0.010       22318 
+34100    -35886.1079      0.010       22318 
+34200    -35886.1075      0.010       22318 
+34300    -35886.1075      0.010       22318 
+34400    -35886.1075      0.010       22318 
+34500    -35886.1058      0.010       22318 
+34600    -35886.1012      0.010       22318 
+34700    -35886.0993      0.010       22318 
+34800    -35886.0989      0.010       22318 
+34900    -35886.0989      0.010       22318 
+35000    -35886.0989      0.010       22318 
+   Optimizing parameters...    improved    0.000 lnL
+   Optimizing branchlengths... improved    0.000 lnL
+35100    -35886.0979      0.010       22318 
+35200    -35886.0969      0.010       22318 
+35300    -35886.0966      0.010       22318 
+35400    -35886.0965      0.010       22318 
+35500    -35886.0965      0.010       22318 
+35600    -35886.0965      0.010       22318 
+35700    -35886.0951      0.010       22318 
+35800    -35886.0938      0.010       22318 
+35900    -35886.0930      0.010       22318 
+36000    -35886.0925      0.010       22318 
+36100    -35886.0920      0.010       22318 
+36200    -35886.0917      0.010       22318 
+36300    -35886.0916      0.010       22318 
+36400    -35886.0912      0.010       22318 
+36500    -35886.0906      0.010       22318 
+36600    -35886.0903      0.010       22318 
+36700    -35886.0891      0.010       22318 
+36800    -35886.0854      0.010       22318 
+36900    -35886.0822      0.010       22318 
+37000    -35886.0820      0.010       22318 
+37100    -35886.0820      0.010       22318 
+37200    -35886.0819      0.010       22318 
+37300    -35886.0819      0.010       22318 
+37400    -35886.0816      0.010       22318 
+Reached termination condition!
+last topological improvement at gen 22318
+Improvement over last 500 gen = 0.00068
+Current score = -35886.0816
+Performing final optimizations...
+pass 1 : -35886.0695   (branch= 0.0120  flex rates= 0.0001  rel rates= 0.0000)
+pass 2 : -35886.0494   (branch= 0.0199  flex rates= 0.0001  rel rates= 0.0000)
+pass 3 : -35886.0196   (branch= 0.0298  flex rates= 0.0001  rel rates= 0.0000)
+pass 4 : -35885.9824   (branch= 0.0372  flex rates= 0.0001  rel rates= 0.0000)
+pass 5 : -35885.9621   (branch= 0.0202  flex rates= 0.0001  rel rates= 0.0000)
+pass 6 : -35885.9543   (branch= 0.0078  flex rates= 0.0000  rel rates= 0.0000)
+pass 7 : -35885.9493   (branch= 0.0045  flex rates= 0.0004  rel rates= 0.0000)
+pass 8 : -35885.9459   (branch= 0.0031  flex rates= 0.0003  rel rates= 0.0000)
+pass 9 : -35885.9441   (branch= 0.0015  flex rates= 0.0003  rel rates= 0.0000)
+pass 10: -35885.9431   (branch= 0.0007  flex rates= 0.0003  rel rates= 0.0000)
+pass 11: -35885.9418   (branch= 0.0002  flex rates= 0.0011  rel rates= 0.0000)
+pass 12: -35885.9409   (branch= 0.0002  flex rates= 0.0007  rel rates= 0.0000)
+pass 13: -35885.9401   (branch= 0.0001  flex rates= 0.0007  rel rates= 0.0000)
+pass 14: -35885.9397   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+pass 15: -35885.9396   (branch= 0.0000  flex rates= 0.0001  rel rates= 0.0000)
+pass 16: -35885.9395   (branch= 0.0000  flex rates= 0.0001  rel rates= 0.0000)
+pass 17: -35885.9393   (branch= 0.0000  flex rates= 0.0002  rel rates= 0.0000)
+pass 18: -35885.9392   (branch= 0.0000  flex rates= 0.0000  rel rates= 0.0000)
+pass 19: -35885.9392   (branch= 0.0000  flex rates= 0.0000  rel rates= 0.0000)
+pass 20: -35885.9391   (branch= 0.0000  flex rates= 0.0001  rel rates= 0.0000)
+ optimization up to ...
+pass 30: -35885.9387   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 40: -35885.9384   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 50: -35885.9380   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 60: -35885.9377   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 70: -35885.9374   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 80: -35885.9371   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 90: -35885.9368   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 100: -35885.9365   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 110: -35885.9362   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 120: -35885.9358   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 130: -35885.9355   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 140: -35885.9352   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 150: -35885.9348   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 160: -35885.9345   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 170: -35885.9342   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 180: -35885.9338   (branch= 0.0000  flex rates= 0.0003  rel rates= 0.0000)
+ optimization up to ...
+pass 190: -35885.9335   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 200: -35885.9331   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 210: -35885.9327   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 220: -35885.9324   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 230: -35885.9320   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 240: -35885.9316   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 250: -35885.9313   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 260: -35885.9309   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 270: -35885.9305   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 280: -35885.9301   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 290: -35885.9297   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 300: -35885.9293   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 310: -35885.9289   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 320: -35885.9285   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 330: -35885.9280   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 340: -35885.9276   (branch= 0.0000  flex rates= 0.0004  rel rates= 0.0000)
+ optimization up to ...
+pass 350: -35885.9272   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 360: -35885.9267   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 370: -35885.9262   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 380: -35885.9257   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 390: -35885.9253   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 400: -35885.9248   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 410: -35885.9243   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 420: -35885.9238   (branch= 0.0000  flex rates= 0.0005  rel rates= 0.0000)
+ optimization up to ...
+pass 430: -35885.9232   (branch= 0.0000  flex rates= 0.0006  rel rates= 0.0000)
+ optimization up to ...
+pass 440: -35885.9226   (branch= 0.0000  flex rates= 0.0006  rel rates= 0.0000)
+ optimization up to ...
+pass 450: -35885.9220   (branch= 0.0000  flex rates= 0.0006  rel rates= 0.0000)
+ optimization up to ...
+pass 460: -35885.9213   (branch= 0.0000  flex rates= 0.0007  rel rates= 0.0000)
+ optimization up to ...
+pass 470: -35885.9206   (branch= 0.0000  flex rates= 0.0007  rel rates= 0.0000)
+ optimization up to ...
+pass 480: -35885.9198   (branch= 0.0000  flex rates= 0.0008  rel rates= 0.0000)
+ optimization up to ...
+pass 490: -35885.9190   (branch= 0.0000  flex rates= 0.0008  rel rates= 0.0000)
+ optimization up to ...
+pass 500: -35885.9182   (branch= 0.0000  flex rates= 0.0008  rel rates= 0.0000)
+ optimization up to ...
+pass 510: -35885.9173   (branch= 0.0000  flex rates= 0.0009  rel rates= 0.0000)
+ optimization up to ...
+pass 520: -35885.9164   (branch= 0.0000  flex rates= 0.0009  rel rates= 0.0000)
+ optimization up to ...
+pass 530: -35885.9155   (branch= 0.0000  flex rates= 0.0009  rel rates= 0.0000)
+ optimization up to ...
+pass 540: -35885.9146   (branch= 0.0000  flex rates= 0.0010  rel rates= 0.0000)
+ optimization up to ...
+pass 550: -35885.9135   (branch= 0.0000  flex rates= 0.0011  rel rates= 0.0000)
+ optimization up to ...
+pass 560: -35885.9124   (branch= 0.0000  flex rates= 0.0011  rel rates= 0.0000)
+ optimization up to ...
+pass 570: -35885.9111   (branch= 0.0000  flex rates= 0.0012  rel rates= 0.0000)
+ optimization up to ...
+pass 580: -35885.9098   (branch= 0.0000  flex rates= 0.0014  rel rates= 0.0000)
+ optimization up to ...
+pass 590: -35885.9080   (branch= 0.0000  flex rates= 0.0018  rel rates= 0.0000)
+ optimization up to ...
+pass 600: -35885.9058   (branch= 0.0000  flex rates= 0.0022  rel rates= 0.0000)
+ optimization up to ...
+pass 610: -35885.9031   (branch= 0.0000  flex rates= 0.0028  rel rates= 0.0000)
+ optimization up to ...
+pass 620: -35885.8994   (branch= 0.0000  flex rates= 0.0037  rel rates= 0.0000)
+ optimization up to ...
+pass 630: -35885.8946   (branch= 0.0000  flex rates= 0.0048  rel rates= 0.0000)
+ optimization up to ...
+pass 640: -35885.8878   (branch= 0.0000  flex rates= 0.0069  rel rates= 0.0000)
+ optimization up to ...
+pass 650: -35885.8764   (branch= 0.0000  flex rates= 0.0113  rel rates= 0.0000)
+ optimization up to ...
+pass 660: -35885.8553   (branch= 0.0000  flex rates= 0.0211  rel rates= 0.0000)
+ optimization up to ...
+pass 670: -35885.8207   (branch= 0.0000  flex rates= 0.0346  rel rates= 0.0000)
+ optimization up to ...
+pass 680: -35885.7778   (branch= 0.0000  flex rates= 0.0428  rel rates= 0.0000)
+ optimization up to ...
+pass 690: -35885.7221   (branch= 0.0000  flex rates= 0.0557  rel rates= 0.0000)
