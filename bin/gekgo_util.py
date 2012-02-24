@@ -29,6 +29,9 @@ for i in LOCI:
     LOCI_ALNS_NEX[i] = x[0]
 CONCAT_ALNS_NEX = {'all': os.path.join(CONCAT_DIR, 'all.nex'),
                    'nuc': os.path.join(CONCAT_DIR, 'nuc.nex')}
+ALNS_NEX = {}
+ALNS_NEX.update(LOCI_ALNS_NEX)
+ALNS_NEX.update(CONCAT_ALNS_NEX)
 
 def whereis(file_name):
     """

@@ -13,7 +13,7 @@ def main():
 
 def set_up_dirs():
     garli_dirs = {}
-    for locus in gekgo_util.LOCI:
+    for locus in gekgo_util.ALNS_NEX.keys():
         gdir = os.path.join(gekgo_util.GARLI_DIR, locus)
         garli_dirs[locus] = gdir
         if not os.path.exists(gdir):
@@ -29,7 +29,7 @@ def set_up_mlflex_confs(locus_dirs):
         qsub_path = os.path.join(ml_dir, 'garli.sh')
         if not os.path.isfile(conf_path):
             conf = get_garli_conf(
-                    datafname = os.path.relpath(gekgo_util.LOCI_ALNS_NEX[locus],
+                    datafname = os.path.relpath(gekgo_util.ALNS_NEX[locus],
                             os.path.dirname(conf_path)),
                     ratehetmodel = "flex",
                     numratecats = "6")
