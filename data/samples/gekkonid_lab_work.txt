@@ -1,97 +1,97 @@
 Extn Box	Ext Cell	Field#	Genus	Species	Country	Island	GLOR52	Glor78	Glor145
-1	A1	RMB4456	CYRT	sp	Subic		1	1	1
-1	A6	CDS014	CYRT	sp	Zambales		1	1	1
-1	A7	RMB5184	CYRT	philippinicus	Sibuyan		1	1	1
-1	A8	ACD1267	CYRT	tautbatorum	Palawan		1	1	1
-1	B1	RMB4091	CYRT	philippinicus	Quezon		1	1	1
-1	B2	ACD1017	CYRT	philippinicus	Banahaw		1	1	1
-1	B5	RMB942	CYRT	philippinicus	Luzon		1	1	1
-1	B7	RMB3093	CYRT	tautbatorum	Palawan		1	1	1
-1	B9	ACD2014	CYRT	philippinicus	Luzon		1	1	1
-1	C3	CDS1442	CYRT	philippinicus	Sibuyan		1	1	1
-1	C7	CDS280	CYRT	philippinicus	Negros		1	1	1
-1	C8	RMB943	CYRT	philippinicus	Luzon		1	1	1
-1	D1	ACD1018	CYRT	philippinicus	Banahaw		1	1	1
-1	D2	RMB5114	CYRT	philippinicus	Romblon		1	1	1
-1	D5	RMB4924	CYRT	philippinicus	Mindoro		1	1	1
+1	A1	RMB4456	CYRT	sp	Philippines	Subic	1	1	1
+1	A6	CDS014	CYRT	sp	Philippines	Zambales	1	1	1
+1	A7	RMB5184	CYRT	philippinicus	Philippines	Sibuyan	1	1	1
+1	A8	ACD1267	CYRT	tautbatorum	Philippines	Palawan	1	1	1
+1	B1	RMB4091	CYRT	philippinicus	Philippines	Quezon	1	1	1
+1	B2	ACD1017	CYRT	philippinicus	Philippines	Banahaw	1	1	1
+1	B5	RMB942	CYRT	philippinicus	Philippines	Luzon	1	1	1
+1	B7	RMB3093	CYRT	tautbatorum	Philippines	Palawan	1	1	1
+1	B9	ACD2014	CYRT	philippinicus	Philippines	Luzon	1	1	1
+1	C3	CDS1442	CYRT	philippinicus	Philippines	Sibuyan	1	1	1
+1	C7	CDS280	CYRT	philippinicus	Philippines	Negros	1	1	1
+1	C8	RMB943	CYRT	philippinicus	Philippines	Luzon	1	1	1
+1	D1	ACD1018	CYRT	philippinicus	Philippines	Banahaw	1	1	1
+1	D2	RMB5114	CYRT	philippinicus	Philippines	Romblon	1	1	1
+1	D5	RMB4924	CYRT	philippinicus	Philippines	Mindoro	1	1	1
 1	D6	FRIM1142	CYRT	consobrinus			1	1	1
-1	D7	RMB4094	CYRT	philippinicus	Luzon		1	1	1
-1	E4	RMB4498	CYRT	sp	Subic		1	1	1
-1	E6	GVAG226	CYRT	philippinicus	Sibalom		1	1	1
-1	E7	RMB4858	CYRT	philippinicus	Mindoro		1	1	1
-1	E8	CDS001	CYRT	sp	Zambales		1	1	1
-1	E9	RMB1023	CYRT	philippinicus	Panay		1	1	1
-1	F2	GVAG257	CYRT	philippinicus	Sibalom		1	1	1
-1	F3	JAM1879	CYRT	tiomanensis	Tioman		1	1	1
-1	F4	ACD2636	CYRT	annulatus	EMindanaoCorr		1	1	1
+1	D7	RMB4094	CYRT	philippinicus	Philippines	Luzon	1	1	1
+1	E4	RMB4498	CYRT	sp	Philippines	Subic	1	1	1
+1	E6	GVAG226	CYRT	philippinicus	Philippines	Sibalom	1	1	1
+1	E7	RMB4858	CYRT	philippinicus	Philippines	Mindoro	1	1	1
+1	E8	CDS001	CYRT	sp	Philippines	Zambales	1	1	1
+1	E9	RMB1023	CYRT	philippinicus	Philippines	Panay	1	1	1
+1	F2	GVAG257	CYRT	philippinicus	Philippines	Sibalom	1	1	1
+1	F3	JAM1879	CYRT	tiomanensis	Malaysia	Tioman	1	1	1
+1	F4	ACD2636	CYRT	annulatus	Philippines	EMindanaoCorr	1	1	1
 1	G1	DSM1085	CYRT	intermedius	Thailand		1	F	1
-1	G6	CDSGS42	CYRT	philippinicus	Sipalay		1	1	1
-1	G7	CDSGS43	CYRT	philippinicus	Sipalay		1	1	F
-1	G8	ACD2711	CYRT	annulatus	EMindanaoCorr		1	1	1
-1	H1	RMB3468	CYRT	philippinicus	Isarog		1	1	1
-1	H2	RMB3251	CYRT	philippinicus	Negros		1	1	1
-1	H3	RMB3630	CYRT	philippinicus	Banahao		1	1	1
-1	H4	RMB3974	CYRT	philippinicus	Bulusan		1	1	F
-1	H6	RMB3864	CYRT	philippinicus	Malinao		1	1	1
-1	H8	RMB4003	CYRT	philippinicus	Bulusan		1	1	1
-1	H9	CDS1511	CYRT	philippinicus	Pandan		1	1	1
-1	I1	CDS1558	CYRT	philippinicus	Pandan		1	1	1
-1	I3	RMB5349	CYRT	sp	Lubang		1	1	1
-1	I9	RMB5905	CYRT	philippinicus	BabuyanClaro		1	1	1
-2	A2	RMB5907	CYRT	philippinicus	BabuyanClaro		1	1	1
+1	G6	CDSGS42	CYRT	philippinicus	Philippines	Sipalay	1	1	1
+1	G7	CDSGS43	CYRT	philippinicus	Philippines	Sipalay	1	1	F
+1	G8	ACD2711	CYRT	annulatus	Philippines	EMindanaoCorr	1	1	1
+1	H1	RMB3468	CYRT	philippinicus	Philippines	Isarog	1	1	1
+1	H2	RMB3251	CYRT	philippinicus	Philippines	Negros	1	1	1
+1	H3	RMB3630	CYRT	philippinicus	Philippines	Banahao	1	1	1
+1	H4	RMB3974	CYRT	philippinicus	Philippines	Bulusan	1	1	F
+1	H6	RMB3864	CYRT	philippinicus	Philippines	Malinao	1	1	1
+1	H8	RMB4003	CYRT	philippinicus	Philippines	Bulusan	1	1	1
+1	H9	CDS1511	CYRT	philippinicus	Philippines	Pandan	1	1	1
+1	I1	CDS1558	CYRT	philippinicus	Philippines	Pandan	1	1	1
+1	I3	RMB5349	CYRT	sp	Philippines	Lubang	1	1	1
+1	I9	RMB5905	CYRT	philippinicus	Philippines	BabuyanClaro	1	1	1
+2	A2	RMB5907	CYRT	philippinicus	Philippines	BabuyanClaro	1	1	1
 2	A8	FRIM1923	CYRT	consobrinus			1	F	1
-2	B5	RMB3095	CYRT	tautbatorum	Palawan		1	F	1
-2	C2	ACD1857	CYRT	philippinicus	Luzon		1	1	1
-2	C3	RMB5185	CYRT	philippinicus	Sibuyan		1	1	1
-2	C7	CDS1005	CYRT	philippinicus	Polillo		1	1	1
-2	C8	CDS1111	CYRT	philippinicus	Polillo		1	1	1
-2	D3	RMB3549	CYRT	philippinicus	Malinao		1	1	1
-2	D4	RMB3584	CYRT	philippinicus	Bicol		1	1	1
-2	D9	CDS1559	CYRT	philippinicus	Pandan		1	1	1
-2	E4	RMB5351	CYRT	sp	Lubang		1	1	1
-2	E8	RMB5752	CYRT	philippinicus	CamiguinNorte		1	1	1
-2	F2	ELR328	CYRT	philippinicus	Mindoro		1	1	1
-2	F6	CDS1834	CYRT	agusanensis	Samar		1	1	1
-2	F8	CDS2038	CYRT	philippinicus	Naga		1	1	1
-2	F9	CWL052	CYRT	philippinicus	Dumgte		1	1	1
-2	G9	RMB6332	CYRT	philippinicus	Polillo		1	1	1
-2	H1	RMB1672	CYRT	jellesme	Sulawesi		1	1	1
-2	H2	RMB1692	CYRT	jellesme	Sulawesi		1	1	1
-2	H6	ELR0639	CYRT	philippinicus	Mindoro		1	1	1
-2	H7	RMB6447	CYRT	philippinicus	Aningalan		1	1	1
-2	I1	ACD1858	CYRT	philippinicus	Luzon		1	1	1
-2	I4	RMB3585	CYRT	philippinicus	Bicol		1	1	1
-2	I7	RMB5501	CYRT	sp	Lubang		1	1	1
+2	B5	RMB3095	CYRT	tautbatorum	Philippines	Palawan	1	F	1
+2	C2	ACD1857	CYRT	philippinicus	Philippines	Luzon	1	1	1
+2	C3	RMB5185	CYRT	philippinicus	Philippines	Sibuyan	1	1	1
+2	C7	CDS1005	CYRT	philippinicus	Philippines	Polillo	1	1	1
+2	C8	CDS1111	CYRT	philippinicus	Philippines	Polillo	1	1	1
+2	D3	RMB3549	CYRT	philippinicus	Philippines	Malinao	1	1	1
+2	D4	RMB3584	CYRT	philippinicus	Philippines	Bicol	1	1	1
+2	D9	CDS1559	CYRT	philippinicus	Philippines	Pandan	1	1	1
+2	E4	RMB5351	CYRT	sp	Philippines	Lubang	1	1	1
+2	E8	RMB5752	CYRT	philippinicus	Philippines	CamiguinNorte	1	1	1
+2	F2	ELR328	CYRT	philippinicus	Philippines	Mindoro	1	1	1
+2	F6	CDS1834	CYRT	agusanensis	Philippines	Samar	1	1	1
+2	F8	CDS2038	CYRT	philippinicus	Philippines	Naga	1	1	1
+2	F9	CWL052	CYRT	philippinicus	Philippines	Dumgte	1	1	1
+2	G9	RMB6332	CYRT	philippinicus	Philippines	Polillo	1	1	1
+2	H1	RMB1672	CYRT	jellesme	Indonesia	Sulawesi	1	1	1
+2	H2	RMB1692	CYRT	jellesme	Indonesia	Sulawesi	1	1	1
+2	H6	ELR0639	CYRT	philippinicus	Philippines	Mindoro	1	1	1
+2	H7	RMB6447	CYRT	philippinicus	Philippines	Aningalan	1	1	1
+2	I1	ACD1858	CYRT	philippinicus	Philippines	Luzon	1	1	1
+2	I4	RMB3585	CYRT	philippinicus	Philippines	Bicol	1	1	1
+2	I7	RMB5501	CYRT	sp	Philippines	Lubang	1	1	1
 3	C3	LG4062	CYRT	consobrinus	EMalaysia		1	1	1
 3	C5	LG4018	CYRT	quadrivirgatus	WMalaysia		1	F	1
 3	C7	LG3771	CYRT	tiomanensis	WMalaysia		1	1	1
-3	D5	ELR0909	CYRT	philippinicus	Dayog		1	1	1
-3	D6	ELR0980	CYRT	philippinicus	Dayog		1	1	1
-3	D7	ELR1279	CYRT	philippinicus	Dayog		1	1	1
-3	D8	ELR1280	CYRT	philippinicus	Dayog		1	1	1
-3	D9	CDS2384	CYRT	philippinicus	Catanduanes		1	1	1
-3	E4	RMB7364	CYRT	philippinicus	CamiguinNorte		1	1	1
+3	D5	ELR0909	CYRT	philippinicus	Philippines	Dayog	1	1	1
+3	D6	ELR0980	CYRT	philippinicus	Philippines	Dayog	1	1	1
+3	D7	ELR1279	CYRT	philippinicus	Philippines	Dayog	1	1	1
+3	D8	ELR1280	CYRT	philippinicus	Philippines	Dayog	1	1	1
+3	D9	CDS2384	CYRT	philippinicus	Philippines	Catanduanes	1	1	1
+3	E4	RMB7364	CYRT	philippinicus	Philippines	CamiguinNorte	1	1	1
 3	E6	FMNH230113	CYRT	consobrinus	Malaysia		1	1	1
 3	E7	FMNH263234	CYRT	intermedius	Cambodia		1	1	1
-3	G8	RMB7760	CYRT	redimiculus	Samarinana		1	1	1
-3	G9	RMB7829	CYRT	redimiculus	Samarinana		1	1	1
-3	H1	RMB7842	CYRT	redimiculus	Samarinana		1	1	1
-3	I5	RMB8761	CYRT	philippinicus	Tablas		1	1	1
-3	I7	RMB8763	CYRT	philippinicus	Tablas		1	1	1
-3	I8	RMB8764	CYRT	philippinicus	Tablas		1	1	1
-4	A3	CDS2844	CYRT	agusanensis	Taft		1	1	
-4	A4	CDS2967	CYRT	agusanensis	Taft		1	1	1
-4	B2	CDS3175	CYRT	agusanensis	Baybay		1	1	1
-4	B3	CDS3176	CYRT	agusanensis	Baybay		1	1	1
-4	B4	CDS3179	CYRT	agusanensis	Baybay		1	1	1
-4	E9	RMB8381	CYRT	agusanensis	Dinagat		1	1	1
-4	F9	RMB8382	CYRT	agusanensis	Dinagat		1	1	1
-4	H1	SP06892	CYRT	baluensis	Kinabalu		1	F	1
-4	H2	SP06906	CYRT	baluensis	Kinabalu		1	1	1
-4	H3	RMB9437	CYRT	annulatus	Mindanao		1	1	1
-4	H4	RMB9459	CYRT	annulatus	Mindanao		1	1	1
-		RMB9437	CYRT	annulatus	Mindanao		1	1	1
-		RMB9459	CYRT	annulatus	Mindanao		1	1	1
+3	G8	RMB7760	CYRT	redimiculus	Philippines	Samarinana	1	1	1
+3	G9	RMB7829	CYRT	redimiculus	Philippines	Samarinana	1	1	1
+3	H1	RMB7842	CYRT	redimiculus	Philippines	Samarinana	1	1	1
+3	I5	RMB8761	CYRT	philippinicus	Philippines	Tablas	1	1	1
+3	I7	RMB8763	CYRT	philippinicus	Philippines	Tablas	1	1	1
+3	I8	RMB8764	CYRT	philippinicus	Philippines	Tablas	1	1	1
+4	A3	CDS2844	CYRT	agusanensis	Philippines	Taft	1	1	
+4	A4	CDS2967	CYRT	agusanensis	Philippines	Taft	1	1	1
+4	B2	CDS3175	CYRT	agusanensis	Philippines	Baybay	1	1	1
+4	B3	CDS3176	CYRT	agusanensis	Philippines	Baybay	1	1	1
+4	B4	CDS3179	CYRT	agusanensis	Philippines	Baybay	1	1	1
+4	E9	RMB8381	CYRT	agusanensis	Philippines	Dinagat	1	1	1
+4	F9	RMB8382	CYRT	agusanensis	Philippines	Dinagat	1	1	1
+4	H1	SP06892	CYRT	baluensis	Malaysia	Kinabalu	1	F	1
+4	H2	SP06906	CYRT	baluensis	Malaysia	Kinabalu	1	1	1
+4	H3	RMB9437	CYRT	annulatus	Philippines	Mindanao	1	1	1
+4	H4	RMB9459	CYRT	annulatus	Philippines	Mindanao	1	1	1
+		RMB9437	CYRT	annulatus	Philippines	Mindanao	1	1	1
+		RMB9459	CYRT	annulatus	Philippines	Mindanao	1	1	1
 1	A1	CDS1229	GEKKO	mindorensis	Philippines	Mindoro	1	1	1
 1	A2	CDS591	GEKKO	cf mindorensis	Philippines	Caluya	1	1	1
 1	A3	CDS787	GEKKO	cf romblon	Philippines	Romblon	1	1	1
@@ -129,10 +129,10 @@ Extn Box	Ext Cell	Field#	Genus	Species	Country	Island	GLOR52	Glor78	Glor145
 1	H2	BSI1140	GEKKO				1	1	1
 1	H3	BSI787	GEKKO				1	1	1
 1	H4	BSI819	GEKKO				1	1	1
-1	H5	BSI339	GEKKO	monarchus	tangkoke?		1	1	1
-1	H6	BSI338	GEKKO	monarchus	tangkoke?		1	1	1
-1	H8	JAM1337	GEKKO	monarchus	palawan		1	1	
-1	H9	JAM1712	GEKKO	smithi	gombak		1	1	1
+1	H5	BSI339	GEKKO	monarchus		tangkoke?	1	1	1
+1	H6	BSI338	GEKKO	monarchus		tangkoke?	1	1	1
+1	H8	JAM1337	GEKKO	monarchus	Philippines	palawan	1	1	
+1	H9	JAM1712	GEKKO	smithi	Malaysia	gombak	1	1	1
 1	I1	ACD1235	GEKKO		Philippines	Luzon	1	1	1
 1	I2	RMB2961	GEKKO	romblon	Philippines	Sibuyan	1	1	1
 1	I4	CDS758	GEKKO	cf monarchus	Philippines	Masbate	1	1	1
@@ -206,28 +206,28 @@ Extn Box	Ext Cell	Field#	Genus	Species	Country	Island	GLOR52	Glor78	Glor145
 4	G5	HOFH89053103	GEKKO	hokouensis			1	1	F
 4	G6	HOFH10061401	GEKKO	japonicus			1	1	1
 4	G7	HOFH10061402	GEKKO	japonicus			1	1	
-4	G8	LSUHC4413	GEKKO	monarchus	Pahang		1	1	1
-4	G9	LSUHC4469	GEKKO	monarchus	Johor		1	1	1
-4	H1	LSUHC4692	GEKKO	monarchus	Pahang		1	1	1
-4	H3	LSUHC4824	GEKKO	monarchus	Selangor		1	1	1
-4	H6	LSUHC5710	GEKKO	monarchus	Pahang		1	1	1
-4	H8	LSUHC5840	GEKKO	monarchus	Johor		1	1	
-4	I3	LSUHC6370	GEKKO	monarchus	Johor		1	1	1
-4	I5	LSUHC6459	GEKKO	monarchus	Pahang		1	1	
-4	I7	LSUHC6665	GEKKO	monarchus	Selangor		1	1	1
-5	A1	LSUHC6946	GEKKO	monarchus	Pahang		1	1	1
-5	A3	LSUHC6967	GEKKO	monarchus	Pahang		1	1	
-5	A6	LSUHC7007	GEKKO	monarchus	Johor		1	1	1
-5	B1	LSUHC8020	GEKKO	monarchus	Johor		1		
-5	B2	LSUHC8691	GEKKO	monarchus	Terengganu		1	1	1
-5	B3	LSUHC8914	GEKKO	monarchus	Johor		1	1	1
-5	B5	LSUHC9364	GEKKO	monarchus	Terengganu		1	1	1
-5	B6	RMB13588	GEKKO	carusadensis	Biak		1	1	1
-5	B7	RMB13589	GEKKO	carusadensis	Biak		1	1	1
-5	B8	RMB13590	GEKKO	carusadensis	Biak		1	1	1
-5	B9	RMB8754	GEKKO	romblon	Tablas		1	1	1
-5	C1	RMB8766	GEKKO	romblon	Tablas		1	1	1
-5	C2	RMB8789	GEKKO	romblon	Tablas		1	1	1
+4	G8	LSUHC4413	GEKKO	monarchus	Malaysia	Pahang	1	1	1
+4	G9	LSUHC4469	GEKKO	monarchus	Malaysia	Johor	1	1	1
+4	H1	LSUHC4692	GEKKO	monarchus	Malaysia	Pahang	1	1	1
+4	H3	LSUHC4824	GEKKO	monarchus	Malaysia	Selangor	1	1	1
+4	H6	LSUHC5710	GEKKO	monarchus	Malaysia	Pahang	1	1	1
+4	H8	LSUHC5840	GEKKO	monarchus	Malaysia	Johor	1	1	
+4	I3	LSUHC6370	GEKKO	monarchus	Malaysia	Johor	1	1	1
+4	I5	LSUHC6459	GEKKO	monarchus	Malaysia	Pahang	1	1	
+4	I7	LSUHC6665	GEKKO	monarchus	Malaysia	Selangor	1	1	1
+5	A1	LSUHC6946	GEKKO	monarchus	Malaysia	Pahang	1	1	1
+5	A3	LSUHC6967	GEKKO	monarchus	Malaysia	Pahang	1	1	
+5	A6	LSUHC7007	GEKKO	monarchus	Malaysia	Johor	1	1	1
+5	B1	LSUHC8020	GEKKO	monarchus	Malaysia	Johor	1		
+5	B2	LSUHC8691	GEKKO	monarchus	Malaysia	Terengganu	1	1	1
+5	B3	LSUHC8914	GEKKO	monarchus	Malaysia	Johor	1	1	1
+5	B5	LSUHC9364	GEKKO	monarchus	Malaysia	Terengganu	1	1	1
+5	B6	RMB13588	GEKKO	carusadensis	Philippines	Biak	1	1	1
+5	B7	RMB13589	GEKKO	carusadensis	Philippines	Biak	1	1	1
+5	B8	RMB13590	GEKKO	carusadensis	Philippines	Biak	1	1	1
+5	B9	RMB8754	GEKKO	romblon	Philippines	Tablas	1	1	1
+5	C1	RMB8766	GEKKO	romblon	Philippines	Tablas	1	1	1
+5	C2	RMB8789	GEKKO	romblon	Philippines	Tablas	1	1	1
 5	C3	RMB7531	GEKKO	palawanensis			1	1	1
 5	C4	RMB7562	GEKKO	palawanensis			1	1	1
 5	C9	RMB7792	GEKKO	athymus			1	1	1
@@ -235,6 +235,6 @@ Extn Box	Ext Cell	Field#	Genus	Species	Country	Island	GLOR52	Glor78	Glor145
 5	D2	RMB7828	GEKKO	athymus			1	1	1
 5	D9	LG4210	GEKKO	chinensis	China	Hainan Is.	1		1
 5	E8	LG6542	GEKKO	smithii	West malaysia	Selangor	1	1	1
-		RMB7561	GEKKO	Gekko	palawanensis		1	1	1
-		RMB7561	GEKKO	Gekko	palawanensis		1	1	1
-		RMB7588	GEKKO	Gekko	palawanensis		1	1	1
+		RMB7561	GEKKO	palawanensis	Philippines	Palawan	1	1	1
+		RMB7561	GEKKO	palawanensis	Philippines	Palawan	1	1	1
+		RMB7588	GEKKO	palawanensis	Philippines	Palawan	1	1	1
