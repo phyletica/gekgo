@@ -18,7 +18,7 @@ class GekkonidSamples(dict):
     A dictionary of Gekkonid Sample instances.
     """
     def __init__(self):
-        dict.__init__()
+        dict.__init__(self)
         self._species_set = set()
         self._update_species_set()
 
@@ -33,8 +33,8 @@ class GekkonidSamples(dict):
 
     species = property(_get_species_set)
 
-    def add(sample_object):
-        if not isintance(sample_object, Sample):
+    def add(self, sample_object):
+        if not isinstance(sample_object, Sample):
             raise Exception("GekkonidSamples dict only holds Sample objects.")
         if not sample_object.field_id:
             raise Exception("Sample does not have field id; cannot add.")
@@ -67,6 +67,7 @@ class Sample(object):
         self._catalog_number = None
         self._genus = None
         self._epithet = None
+        self._country = None
         self._island = None
         self._extract_cell = None
         self._day = None
@@ -79,6 +80,7 @@ class Sample(object):
         self.catalog_number = kwargs.pop('catalog_number', None)
         self.genus = kwargs.pop('genus', None)
         self.epithet = kwargs.pop('epithet', None)
+        self.country = kwargs.pop('country', None)
         self.island = kwargs.pop('island', None)
         self.extract_cell = kwargs.pop('extract_cell', None)
         self.extract = kwargs.pop('extract', False)
@@ -93,7 +95,7 @@ class Sample(object):
                           self.field_id + \
                       "\t%s" % ", ".join([str(x) for x in kwargs.keys()]))
 
-    def update(sample_object):
+    def update(self, sample_object):
         if not isinstance(sample_object, Sample):
             raise ValueError("argument to update must be Sample object.")
         if not self.field_id or not sample_object.field_id:
@@ -108,7 +110,8 @@ class Sample(object):
         if not self.catalog_series and sample_object.catalog_series:
             self.catalog_series = sample_object.catalog_series
         if self.catalog_number and sample_object.catalog_number:
-            assert self.catalog_number == sample_object.catalog_number
+            assert self.catalog_number == sample_object.catalog_number, \
+                    "two catalog numbers given for '%s'." % self.field_id
         if not self.catalog_number and sample_object.catalog_number:
             self.catalog_number = sample_object.catalog_number
         if self.date != '' and sample_object.date != '':
@@ -127,6 +130,7 @@ class Sample(object):
             self.year = sample_object.year
         self.genus = sample_object.genus
         self.epithet = sample_object.epithet
+        self.country = sample_object.country
         self.island = sample_object.island
         self.extract_cell = sample_object.extract_cell
         self.source = sample_object.source
@@ -247,6 +251,21 @@ class Sample(object):
 
     species = property(_get_species)
 
+    def _get_country(self):
+        if self._country:
+            return ",".join(self._country)
+        else:
+            return None
+
+    def _set_country(self, country):
+        if country:
+            if self._country:
+                self._country.add(country.capitalize())
+            else:
+                self._country = set([country.capitalize()])
+
+    country = property(_get_country, _set_country)
+
     def _get_island(self):
         if self._island:
             return ",".join(self._island)
@@ -304,15 +323,19 @@ class Sample(object):
             raise Exception("collection day already set.")
         if day:
             if isinstance(day, str):
-                m = self.day_pattern.match(day.strip())
-                if not m:
-                    raise ValueError("'%s' is not a valid day." % str(day))
-                self._day = int(m.groups()[0])
+                d = day.strip()
+                if d == '' or d == '--' or d == '__' or d == '00':
+                    self._day = None
+                else:
+                    m = self.day_pattern.match(d)
+                    if not m:
+                        raise ValueError("'%s' is not a valid day." % str(day))
+                    self._day = int(m.groups()[0])
             elif isinstance(day, int):
                 self._day = day
             else:
                 raise ValueError("'%s' is not a valid day." % str(day))
-            if (self._day) > 31 or (self._day < 1):
+            if self._day and ((self._day > 31) or (self._day < 0)):
                 raise ValueError("'%s' is not a valid day." % str(day))
 
     day = property(_get_day, _set_day)
@@ -336,19 +359,30 @@ class Sample(object):
             raise Exception("collection month already set.")
         if month:
             if isinstance(month, str):
-                md = self.month_digit_pattern.match(month.strip())
-                ml = self.month_letter_pattern.match(month.strip())
-                if md:
-                    self._month = int(md.groups()[0])
-                elif ml:
-                    self._month = self.months[ml.groups()[0].lower()]
+                mnth = month.strip()
+                if mnth == '' or \
+                        mnth == '--' or \
+                        mnth == '---' or \
+                        mnth == '__' or \
+                        mnth == '___' or \
+                        mnth == '00' or \
+                        mnth == '000':
+                    self._month = None
                 else:
-                    raise ValueError("'%s' is not a valid month." % str(month))
+                    md = self.month_digit_pattern.match(mnth)
+                    ml = self.month_letter_pattern.match(mnth)
+                    if md:
+                        self._month = int(md.groups()[0])
+                    elif ml:
+                        self._month = self.months[ml.groups()[0].lower()]
+                    else:
+                        raise ValueError("'%s' is not a valid month." % \
+                                str(month))
             elif isinstance(month, int):
                 self._month = month
             else:
                 raise ValueError("'%s' is not a valid month." % str(month))
-            if (self._month > 12) or (self._month < 1):
+            if self._month and ((self._month > 12) or (self._month < 1)):
                 raise ValueError("'%s' is not a valid month." % str(month))
 
     month = property(_get_month, _set_month)
@@ -372,15 +406,21 @@ class Sample(object):
             raise Exception("collection year already set.")
         if year:
             if isinstance(year, str):
-                m = self.year_pattern.match(year.strip())
-                if not m:
-                    raise ValueError("'%s' is not a valid year." % str(year))
-                self._year = int(m.groups()[0])
+                y = year.strip()
+                if y == '' or y == '----' or y == '____' or y == '0000':
+                    self._year = None
+                else:
+                    m = self.year_pattern.match(y)
+                    if not m:
+                        raise ValueError("'%s' is not a valid year." % \
+                                str(year))
+                    self._year = int(m.groups()[0])
             elif isinstance(year, int):
                 self._year = year
             else:
                 raise ValueError("'%s' is not a valid year." % str(year))
-            if (self._year > datetime.datetime.now().year) or (self._year < 1900):
+            if self._year and ((self._year > datetime.datetime.now().year) or \
+                    (self._year < 1900)):
                 raise ValueError("'%s' is not a valid year." % str(year))
 
     year = property(_get_year, _set_year)
