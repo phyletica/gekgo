@@ -1,0 +1,174 @@
+field_series	field_number	genus	epithet	country	island
+CDS	3179	Cyrtodactylus	gubaot
+CDS	3175	Cyrtodactylus	gubaot
+CDS	3176	Cyrtodactylus	gubaot
+RMB	8382	Cyrtodactylus	mamanwa
+RMB	8381	Cyrtodactylus	mamanwa
+CDS	1834	Cyrtodactylus	sumuroi
+CDS	2967	Cyrtodactylus	sumuroi
+CDS	2844	Cyrtodactylus	sumuroi
+CWL	88	Cyrtodactylus	annulatus
+CWL	89	Cyrtodactylus	annulatus
+CWL	90	Cyrtodactylus	annulatus
+RMB	5501	Cyrtodactylus	philippinicus
+RMB	5351	Cyrtodactylus	philippinicus
+RMB	5349	Cyrtodactylus	philippinicus
+RMB	4498	Cyrtodactylus	philippinicus
+RMB	4456	Cyrtodactylus	philippinicus
+CDS	14	Cyrtodactylus	philippinicus
+CDS	1	Cyrtodactylus	philippinicus
+RMB	8931	Cyrtodactylus	gubaot
+RMB	8933	Cyrtodactylus	gubaot
+RMB	8932	Cyrtodactylus	gubaot
+RMB	8935	Cyrtodactylus	gubaot
+RMB	8936	Cyrtodactylus	gubaot
+RMB	8934	Cyrtodactylus	gubaot
+RMB	8937	Cyrtodactylus	gubaot
+CDSGS	39	Gekko	mindorensis
+CDSGS	40	Gekko	mindorensis
+CDSGS	41	Gekko	mindorensis
+CDS	548	Gekko	mindorensis
+CDS	382	Gekko	mindorensis
+RMB	5568	Gekko	mindorensis
+RMB	5220	Gekko	mindorensis
+CDS	757	Gekko	mindorensis
+CDS	755	Gekko	mindorensis
+CDS	758	Gekko	mindorensis
+CDS	277	Gekko	mindorensis
+CDS	278	Gekko	mindorensis
+CDS	279	Gekko	mindorensis
+CDS	591	Gekko	mindorensis
+CDS	590	Gekko	mindorensis
+CDS	607	Gekko	mindorensis
+CDS	609	Gekko	mindorensis
+CDS	610	Gekko	mindorensis
+CDS	212	Gekko	ernstkelleri
+CDS	102	Gekko	mindorensis	Philippines	Camiguin Sur
+CDS	100	Gekko	mindorensis	Philippines	Camiguin Sur
+CDS	101	Gekko	mindorensis	Philippines	Camiguin Sur
+CDS	99	Gekko	mindorensis	Philippines	Camiguin Sur
+CDS	593	Gekko	mindorensis
+CDS	592	Gekko	mindorensis
+CDS	594	Gekko	mindorensis
+CDS	643	Gekko	mindorensis
+CDS	608	Gekko	mindorensis
+CDS	611	Gekko	mindorensis
+CDS	1461	Gekko	mindorensis
+CDS	1463	Gekko	mindorensis
+CDS	1462	Gekko	mindorensis
+CDS	48	Gekko	gigante	Philippines	North Gigante
+CDS	51	Gekko	gigante	Philippines	North Gigante
+CDS	49	Gekko	gigante	Philippines	North Gigante
+CDS	50	Gekko	gigante	Philippines	North Gigante
+CDS	53	Gekko	gigante	Philippines	North Gigante
+CDS	31	Gekko	gigante/cf mindorensis	Philippines	South Gigante
+CDS	46	Gekko	gigante/cf mindorensis	Philippines	South Gigante
+CDS	55	Gekko	gigante	Philippines	South Gigante
+RMB	5286	Gekko	mindorensis
+RMB	7589	Gekko	monarchus
+RMB	7562	Gekko	monarchus
+RMB	7531	Gekko	monarchus
+RMB	7460	Gekko	monarchus
+RMB	7937	Gekko	monarchus
+RMB	7930	Gekko	monarchus
+RMB	7931	Gekko	monarchus
+RMB	7938	Gekko	monarchus
+RMB	7924	Gekko	monarchus
+RMB	7923	Gekko	monarchus
+RMB	7922	Gekko	monarchus
+RMB	7878	Gekko	monarchus
+RMB	7780	Gekko	monarchus
+RMB	7727	Gekko	monarchus
+RMB	7726	Gekko	monarchus
+RMB	7642	Gekko	monarchus
+RMB	7615	Gekko	monarchus
+RMB	7590	Gekko	monarchus
+RMB	7588	Gekko	palawanensis
+RMB	7561	Gekko	palawanensis
+ACD	1295	Gekko	monarchus
+RMB	2961	Gekko	coi
+CDS	792	Gekko	romblon
+CDS	791	Gekko	romblon
+CDS	786	Gekko	romblon
+CDS	787	Gekko	romblon
+RMB	6337	Gekko	sp. A
+RMB	6338	Gekko	sp. A
+RMB	7363	Gekko	sp. B
+RMB	5851	Gekko	sp. B
+RMB	5850	Gekko	sp. B
+RMB	5853	Gekko	sp. B
+RMB	5852	Gekko	sp. B
+RMB	5854	Gekko	sp. B
+RMB	5849	Gekko	sp. B
+RMB	5793	Gekko	sp. B
+RMB	5758	Gekko	sp. B
+RMB	5737	Gekko	sp. B
+RMB	5730	Gekko	sp. B
+RMB	5731	Gekko	sp. B
+RMB	5727	Gekko	sp. B
+RMB	5726	Gekko	sp. B
+RMB	5725	Gekko	sp. B
+RMB	5729	Gekko	sp. B
+RMB	5728	Gekko	sp. B
+RMB	5708	Gekko	sp. B
+RMB	5705	Gekko	sp. B
+RMB	5706	Gekko	sp. B
+RMB	5703	Gekko	sp. B
+RMB	6387	Gekko	sp. A
+RMB	6389	Gekko	sp. A
+RMB	6390	Gekko	sp. A
+RMB	6366	Gekko	sp. A
+RMB	6367	Gekko	sp. A
+RMB	6364	Gekko	sp. A
+RMB	6365	Gekko	sp. A
+RMB	6363	Gekko	sp. A
+RMB	6368	Gekko	sp. A
+RMB	6369	Gekko	sp. A
+RMB	6371	Gekko	sp. A
+RMB	6370	Gekko	sp. A
+RMB	6373	Gekko	sp. A
+RMB	6372	Gekko	sp. A
+RMB	6375	Gekko	sp. A
+RMB	6374	Gekko	sp. A
+RMB	6385	Gekko	sp. A
+RMB	6346	Gekko	sp. A
+RMB	6347	Gekko	sp. A
+RMB	6348	Gekko	sp. A
+RMB	6349	Gekko	sp. A
+RMB	6353	Gekko	sp. A
+RMB	6352	Gekko	sp. A
+RMB	6351	Gekko	sp. A
+RMB	6350	Gekko	sp. A
+RMB	6345	Gekko	sp. A
+RMB	6336	Gekko	sp. A
+RMB	6339	Gekko	sp. A
+RMB	6340	Gekko	sp. A
+RMB	6341	Gekko	sp. A
+RMB	6342	Gekko	sp. A
+RMB	6343	Gekko	sp. A
+RMB	6344	Gekko	sp. A
+CDS	1459	Gekko	mindorensis
+CDS	754	Gekko	mindorensis
+ELR	729	Gekko	mindorensis
+RMB	6386	Gekko	sp. A
+RMB	6059	Gekko	rossi
+RMB	6056	Gekko	rossi
+RMB	6037	Gekko	rossi
+RMB	6038	Gekko	rossi
+RMB	7310	Gekko	sp. B
+RMB	5951	Gekko	crombota
+RMB	5942	Gekko	crombota
+RMB	5930	Gekko	crombota
+RMB	4093	Gekko	mindorensis
+RMB	4090	Gekko	mindorensis
+CDS	157	Gekko	ernstkelleri
+CDS	213	Gekko	ernstkelleri
+CDS	64	Gekko	mindorensis
+CDS	65	Gekko	mindorensis
+CDS	66	Gekko	mindorensis
+RMB	5998	Gekko	rossi
+RMB	5997	Gekko	rossi
+ACD	1454	Gekko	mindorensis
+ACD	1445	Gekko	mindorensis
+ACD	1661	Gekko	mindorensis
+ELR	1579	Luperosaurus	gulat

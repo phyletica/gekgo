@@ -1,0 +1,1565 @@
+Tower	Box	Cell	Field Number	Genus	Species	Country	Island	Province	Municipality	Barangay	Local Area Name	Column1	Column2														
+A	5	C4	ACD 1513	Cyrtodactylus	agusanensis	Philippines	Leyte		Baybay																		
+Z	390	B5	ACD 5401	Cyrtodactylus	agusanensis	Philippines	Mindanao	Cotabato	Tampakan																		
+Z	388	E1	ACD 6300	Cyrtodactylus	agusanensis	Philippines	Mindanao	Siargao	Burgos																		
+Z	388	E2	ACD 6301	Cyrtodactylus	agusanensis	Philippines	Mindanao	Siargao	Burgos																		
+Z	389	A1	ACD 6346	Cyrtodactylus	agusanensis	Philippines	Mindanao	Siargao	Burgos																		
+AD	449	B9	ACD 7247	Cyrtodactylus	agusanensis	Philippines	Leyte Isl.	Southern Leyte Prov.	Sogud																		
+AD	449	D3	ACD 7254	Cyrtodactylus	agusanensis	Philippines	Leyte Isl.	Southern Leyte Prov.	Sogud																		
+Q	249	C4	CDS 2703	Cyrtodactylus	agusanensis	Philippines	Samar	Eastern Samar	Taft	San Rafael																	
+Q	251	A1	CDS 2844	Cyrtodactylus	agusanensis	Philippines	Samar	Eastern Samar	Taft	San Rafael																	
+Q	252	E7	CDS 2967	Cyrtodactylus	agusanensis	Philippines	Samar	Eastern Samar	Taft	San Rafael																	
+Q	252	G6	CDS 2984	Cyrtodactylus	agusanensis	Philippines	Samar	Eastern Samar	Taft	San Rafael																	
+Q	253	C7	CDS 3030	Cyrtodactylus	agusanensis	Philippines	Samar	Eastern Samar	Taft	San Rafael																	
+Q	253	E6	CDS 3047	Cyrtodactylus	agusanensis	Philippines	Samar	Eastern Samar	Taft	San Rafael																	
+Q	254	D5	CDS 3118	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	254	F4	CDS 3135	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	A7	CDS 3174	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	A8	CDS 3175	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	A9	CDS 3176	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	B1	CDS 3177	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	B2	CDS 3178	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	B3	CDS 3179	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	B4	CDS 3180	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	B5	CDS 3181	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	B8	CDS 3184	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	B9	CDS 3185	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	C1	CDS 3186	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	C2	CDS 3187	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	C3	CDS 3188	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	C4	CDS 3189	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	C5	CDS 3190	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	C6	CDS 3191	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	C7	CDS 3192	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	C8	CDS 3193	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	C9	CDS 3194	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	D1	CDS 3195	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	D2	CDS 3196	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	D3	CDS 3197	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	D4	CDS 3198	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	D5	CDS 3199	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	D6	CDS 3200	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	D7	CDS 3201	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	D8	CDS 3202	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	D9	CDS 3203	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	E1	CDS 3204	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	E2	CDS 3205	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	E3	CDS 3206	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	E4	CDS 3207	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	E5	CDS 3208	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	E6	CDS 3209	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	E7	CDS 3210	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	E8	CDS 3211	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	H1	CDS 3231	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	H2	CDS 3232	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	H3	CDS 3233	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	H4	CDS 3234	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	H5	CDS 3235	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	H7	CDS 3237	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	H8	CDS 3238	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	H9	CDS 3239	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	I1	CDS 3240	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+Q	255	I2	CDS 3241	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	B3	CDS 3260	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	B4	CDS 3261	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	B5	CDS 3262	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	B6	CDS 3263	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	B7	CDS 3264	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	B8	CDS 3265	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	B9	CDS 3266	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	C1	CDS 3267	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	C2	CDS 3268	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	C3	CDS 3269	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	C4	CDS 3270	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	C5	CDS 3271	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	C6	CDS 3272	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	C7	CDS 3273	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	C8	CDS 3274	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	C9	CDS 3275	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	D1	CDS 3276	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	D2	CDS 3277	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	D3	CDS 3278	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	D4	CDS 3279	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	D5	CDS 3280	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	D6	CDS 3281	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	D7	CDS 3282	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	D8	CDS 3283	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	D9	CDS 3284	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	E1	CDS 3285	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	E2	CDS 3286	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	E3	CDS 3287	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	E4	CDS 3288	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	E5	CDS 3289	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	E6	CDS 3290	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	E7	CDS 3291	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	E8	CDS 3292	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	E9	CDS 3293	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	F1	CDS 3294	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	F2	CDS 3295	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	F3	CDS 3296	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	F4	CDS 3297	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	F5	CDS 3298	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	256	F6	CDS 3299	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	257	G8	CDS 3391	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	257	G9	CDS 3392	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	257	H1	CDS 3393	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	258	B6	CDS 3425	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	258	F7	CDS 3462	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+R	258	F8	CDS 3463	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Pilim	San Vicente																
+H	119	E4	CDS1834	Cyrtodactylus	agusanensis	Philippines	Samar	Eastern Samar	Taft	Taft Forest																	
+I	121	E9	CDS2000	Cyrtodactylus	agusanensis	Philippines	Dinagat	Surigao	Loredo	Esperanza																	
+I	128	63	CWL 326	Cyrtodactylus	agusanensis	Philippines	Dinagat Is.	Surigao del Norte	Loredo	Esperanza																	
+A	2	B3	RMB 4353	Cyrtodactylus	agusanensis	Philippines	Leyte 		Baybay																		
+A	2	E6	RMB 4353	Cyrtodactylus	agusanensis	Philippines	Leyte 		Baybay																		
+O	220	F2	RMB 4353	Cyrtodactylus	agusanensis	Philippines																					
+R	263	H1	RMB 8931	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Visayas State University Campus																	
+R	263	H2	RMB 8932	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Visayas State University Campus																	
+R	263	H3	RMB 8933	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Visayas State University Campus																	
+R	263	H4	RMB 8934	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Visayas State University Campus																	
+R	263	H5	RMB 8935	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Visayas State University Campus																	
+R	263	H6	RMB 8936	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Visayas State University Campus																	
+R	263	H7	RMB 8937	Cyrtodactylus	agusanensis	Philippines	Leyte	Leyte	Baybay	Visayas State University Campus																	
+G	97	6D	PNM/CMNH H 1602	Cyrtodactylus	agusanensis																						
+N	210	D1	DSM 1327L	Cyrtodactylus	angularis	Thailand					"SERS, Nakhon Ratchasima"																
+B	20	B4	ACD 1017	Cyrtodactylus	annulatus	Philippines	Luzon		Mt. Banahaw																		
+A	6	C2	ACD 1280	Cyrtodactylus	annulatus	Philippines	Palawan		Mt. Mantalingahan																		
+AD	446	I4	ACD 7195	Cyrtodactylus	annulatus	Philippines	Leyte Isl.	Southern Leyte Prov.	Sogud																		
+X	356	B1	ACD4937	Cyrtodactylus	annulatus	Philippines	Mindanao		South Cotabato	Tampakan	"Tablu, Sitio Datal Mangisi, Mining site of Sagitarrius Mines Inc."																
+X	356	I9	ACD5168	Cyrtodactylus	annulatus	Philippines	Mindanao		South Cotabato	Tampakan	"Tablu, Sitio Datal Mangisi, Mining site of Sagitarrius Mines Inc."																
+X	357	B7	ACD5184	Cyrtodactylus	annulatus	Philippines	Mindanao		South Cotabato	Tampakan	"Tablu, Sitio Datal Mangisi, Mining site of Sagitarrius Mines Inc."																
+X	357	B8	ACD5185	Cyrtodactylus	annulatus	Philippines	Mindanao		South Cotabato	Tampakan	"Tablu, Sitio Datal Mangisi, Mining site of Sagitarrius Mines Inc."																
+X	357	C7	ACD5193	Cyrtodactylus	annulatus	Philippines	Mindanao		South Cotabato	Tampakan	"Tablu, Sitio Datal Mangisi, Mining site of Sagitarrius Mines Inc."																
+X	357	D8	ACD5203	Cyrtodactylus	annulatus	Philippines	Mindanao		South Cotabato	Tampakan	"Tablu, Sitio Datal Mangisi, Mining site of Sagitarrius Mines Inc."																
+W	338	G4	CDS 4482	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol	Bilar	"Riverside, Magsaysay Park, Raja Sikatuna Protected Landscape"																	
+W	338	G5	CDS 4483	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol	Bilar	"Riverside, Magsaysay Park, Raja Sikatuna Protected Landscape"																	
+W	338	G6	CDS 4484	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol	Bilar	"Riverside, Magsaysay Park, Raja Sikatuna Protected Landscape"																	
+W	338	G7	CDS 4485	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol	Bilar	"Riverside, Magsaysay Park, Raja Sikatuna Protected Landscape"																	
+W	339	I6	CDS 4583	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol	Bilar	"Riverside, Magsaysay Park, Raja Sikatuna Protected Landscape"																	
+X	346	D8	CDS4622	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol	Bilar	"Riverside, Magsaysay Park, Raja Sikatuna Protected Landscape"	9.70551	124.12344															
+X	346	H8	CDS4658	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol	Bilar	"Riverside, Magsaysay Park, Raja Sikatuna Protected Landscape"	9.70551	124.12344															
+X	346	H9	CDS4659	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol	Bilar	"Riverside, Magsaysay Park, Raja Sikatuna Protected Landscape"	9.70551	124.12344															
+X	346	I1	CDS4660	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol	Bilar	"Riverside, Magsaysay Park, Raja Sikatuna Protected Landscape"	9.70551	124.12344															
+X	346	I2	CDS4661	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol	Bilar	"Riverside, Magsaysay Park, Raja Sikatuna Protected Landscape"	9.70551	124.12344															
+X	348	B5	CDS4763	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol	Bilar	"Riverside, Magsaysay Park, Raja Sikatuna Protected Landscape"	9.70551	124.12344															
+X	349	C1	CDS4850	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol	Sierra Bullones	"Danicop, Raja Sikatuna Protected Landscape"	9.76116	124.28882															
+X	350	G5	CDS4971	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol	Sierra Bullones	"Danicop, Raja Sikatuna Protected Landscape"	9.76116	124.28882															
+X	352	C5	CDS5097	Cyrtodactylus	annulatus	Philippines	Mindanao	South Cotabato	Tampakan	"Tablu, Sitio Datal Mangisi, Mining site of Sagitarrius Mines Inc."																	
+X	354	I1	CDS5512	Cyrtodactylus	annulatus	Philippines	Mindanao	South Cotabato	Tampakan	Kimlawis																	
+S	276	E7	RMB 10003	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	276	E8	RMB 10004	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	276	E9	RMB 10005	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	276	F1	RMB 10006	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	277	A9	RMB 10050	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	277	B1	RMB 10051	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	277	E7	RMB 10084	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	278	F6	RMB 10173	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	279	E6	RMB 10245	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	279	E7	RMB 10246	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	279	G3	RMB 10259	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	279	G4	RMB 10260	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	279	H1	RMB 10266	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	279	H2	RMB 10267	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	280	B6	RMB 10298	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	280	B7	RMB 10299	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	280	B8	RMB 10300	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	280	B9	RMB 10301	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	280	C1	RMB 10302	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	280	C2	RMB 10303	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	282	E6	RMB 10492	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	282	E7	RMB 10493	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	282	E8	RMB 10494	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+S	282	E9	RMB 10495	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+B	20	B8	RMB 3092	Cyrtodactylus	annulatus	Philippines	Palawan		Brooke's Point																		
+B	20	B2	RMB 3093	Cyrtodactylus	annulatus	Philippines	Palawan		Brooke's Point																		
+B	20	A7	RMB 3094	Cyrtodactylus	annulatus	Philippines	Palawan		Brooke's Point																		
+B	20	B3	RMB 3095	Cyrtodactylus	annulatus	Philippines	Palawan		Brooke's Point																		
+F	87	2	RMB 3974	Cyrtodactylus	annulatus	Philippines	Luzon		Bulusan																		
+A	7	E1	RMB 4455	Cyrtodactylus	annulatus	Philippines	Luzon		Subic Bay																		
+A	7	A1	RMB 4456	Cyrtodactylus	annulatus	Philippines	Luzon		Subic Bay																		
+H	106	G4	RMB 5593	Cyrtodactylus	annulatus	Philippines	Polillo																				
+H	106	G7	RMB 5596	Cyrtodactylus	annulatus	Philippines	Polillo																				
+H	106	G8	RMB 5597	Cyrtodactylus	annulatus	Philippines	Polillo																				
+H	107	D8	RMB 5654	Cyrtodactylus	annulatus	Philippines	Polillo																				
+M	189	H5	RMB 7644	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	189	H6	RMB 7645	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	189	H7	RMB 7646	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	189	H8	RMB 7647	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	189	H9	RMB 7648	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	189	I1	RMB 7649	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	189	I2	RMB 7650	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	190	G5	RMB 7716	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	190	G6	RMB 7717	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	190	G7	RMB 7718	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	190	G8	RMB 7719	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	190	G9	RMB 7720	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	190	H1	RMB 7721	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	190	H2	RMB 7722	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	190	H3	RMB 7723	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	190	H4	RMB 7724	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+M	190	H5	RMB 7725	Cyrtodactylus	annulatus	Philippines	Palawan			Mainit																	
+S	283	D1	RMB 9084	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	283	D2	RMB 9085	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	283	D3	RMB 9086	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	283	D4	RMB 9087	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	283	D5	RMB 9088	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	283	D6	RMB 9089	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	283	D7	RMB 9090	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	283	D9	RMB 9092	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	283	E1	RMB 9093	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	283	E2	RMB 9094	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	283	H1	RMB 9120	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	284	A2	RMB 9139	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	284	A4	RMB 9141	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	284	A5	RMB 9142	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	284	A6	RMB 9143	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	284	A7	RMB 9144	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	284	A8	RMB 9145	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	284	G5	RMB 9195	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	284	G6	RMB 9196	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	284	H8	RMB 9207	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+S	285	A3	RMB 9223	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+R	266	F1	RMB 9391	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga del Sur 	Zamboanga City	Pasanonca	Sitio Canucutan																
+R	266	F2	RMB 9392	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga del Sur 	Zamboanga City	Pasanonca	Sitio Canucutan																
+R	266	F3	RMB 9393	Cyrtodactylus	annulatus	Philippines	Mindanao	Zamboanga del Sur 	Zamboanga City	Pasanonca	Sitio Canucutan																
+Z	378	E6	CAS 216446	Cyrtodactylus	ayeyarwadyensis																						
+Z	378	E7	CAS 222812	Cyrtodactylus	ayeyarwadyensis																						
+R	259	I3	NO NUMBER	Cyrtodactylus	baluensis	Malaysia	Borneo	Sabah																			
+R	259	I4	NO NUMBER	Cyrtodactylus	baluensis	Malaysia	Borneo	Sabah																			
+R	259	I5	NO NUMBER	Cyrtodactylus	baluensis	Malaysia	Borneo	Sabah																			
+R	270	A8	SP 06891	Cyrtodactylus	baluensis	Malaysia	Kinabalu	Mt. Kinabalu Park	Kinabalu headquarters		CDS3506																
+R	270	A9	SP 06892	Cyrtodactylus	baluensis	Malaysia	Kinabalu	Mt. Kinabalu Park	Kinabalu headquarters		CDS3507																
+R	270	B1	SP 06906	Cyrtodactylus	baluensis	Malaysia	Kinabalu	Mt. Kinabalu Park	Kinabalu headquarters		CDS3539																
+Z	378	E4	CAS 214104	Cyrtodactylus	brevidactylus																						
+Z	378	E5	CAS 214105	Cyrtodactylus	brevidactylus																						
+Z	378	C4	LSUHC 4055	Cyrtodactylus	cavernicola	Malaysia																					
+R	267	F3	ACD 3755	Cyrtodactylus	cf. annulatus	Philippines	Mindanao	Zamboanga del Sur 	Zamboanga City	Pasanonca	Sitio Canucutan																
+R	267	F4	ACD 3756	Cyrtodactylus	cf. annulatus	Philippines	Mindanao	Zamboanga del Sur 	Zamboanga City	Pasanonca	Sitio Canucutan																
+Y	370	C4	CDS5293	Cyrtodactylus	cf. annulatus	Philippines	Mindanao	South Cotabato	Cotabato	Tampakan	Kimlawis																
+D	47	8	ELR 167A	Cyrtodactylus	cf. annulatus	Philippines	Tawi-Tawi	Sulu																			
+D	47	9	ELR 167B	Cyrtodactylus	cf. annulatus	Philippines	Tawi-Tawi	Sulu																			
+V	323	C3	RMB 11670	Cyrtodactylus	cf. annulatus	Philippines	Mindanao	Zamboanga City	Pasanonca	Tulosa	Sitio Santa Clara Cabo Negro Outpost; Pasonanca Natural Park																
+V	323	G9	RMB 11712	Cyrtodactylus	cf. annulatus	Philippines	Mindanao	Zamboanga City	Pasanonca	Pasanoca	"Intake Station, Pasonanca Natural Park"																
+V	323	H2	RMB 11714	Cyrtodactylus	cf. annulatus	Philippines	Mindanao	Zamboanga City	Pasanonca	Pasanoca	"Intake Station, Pasonanca Natural Park"																
+R	270	D6	RMB 9437	Cyrtodactylus	cf. annulatus	Philippines	Mindanao	Agusan del Sur	San Francisco	Kaimpugan	Agusan Marsh	"N 08deg24' 11.6"", E125deg53'49.0"""															
+R	270	G1	RMB 9459	Cyrtodactylus	cf. annulatus	Philippines	Mindanao	Agusan del Sur	San Francisco	Kaimpugan	Agusan Marsh	"N 08deg24' 11.6"", E125deg53'49.0"""															
+R	270	G2	RMB 9460	Cyrtodactylus	cf. annulatus	Philippines	Mindanao	Agusan del Sur	San Francisco	Kaimpugan	Agusan Marsh	"N 08deg24' 11.6"", E125deg53'49.0"""															
+F	80	Loose	CDSGS 42	Cyrtodactylus	cf. Philippinicus	Philippines	Negros	Occidental	Sipalay City	Camindangan	"9deg47.182N, 122deg30.640E"																
+F	80	Loose	CDSGS 43	Cyrtodactylus	cf. Philippinicus	Philippines	Negros	Occidental	Sipalay City	Camindangan	"9deg47.182N, 122deg30.640E"																
+H	106	D7	RMB 5569	Cyrtodactylus	cf. philippinicus	Philippines	Lubang																				
+H	106	D8	RMB 5570	Cyrtodactylus	cf. philippinicus	Philippines	Lubang																				
+L	180	H2	ELR 1279	Cyrtodactylus	cf. philippinious	Philippines	Dayog																				
+L	180	H3	ELR 1280	Cyrtodactylus	cf. philippinious	Philippines	Dayog																				
+Z	379	H2	FMNH 230113	Cyrtodactylus	consobrinus	Sabah																					
+D	58	Loose	FRIM 1142	Cyrtodactylus	consobrinus																						
+Z	378	C2	LSUHC 3937	Cyrtodactylus	consobrinus	Malaysia																					
+Z	378	C3	LSUHC4062	Cyrtodactylus	consobrinus	Malaysia																					
+M	192	A6	RMB 7829	Cyrtodactylus	fedimiculus		Samarinana																				
+N	205	I2	DSM 1085L	Cyrtodactylus	intermedius	Thailand					"SERS, Nakhon Ratchasima"																
+N	209	A5	DSM 1252L	Cyrtodactylus	intermedius	Thailand					"SERS, Nakhon Ratchasima"																
+Z	379	H1	FMNH 263234	Cyrtodactylus	intermedius	Cambodia																					
+Z	379	G9	FMNH 263240	Cyrtodactylus	intermedius	Cambodia																					
+O	220	I7	JAM 2535	Cyrtodactylus	jallosme						Peleng																
+V	317	G9	RMB 11229	Cyrtodactylus	jambangan	Philippines	Mindanao	Zambonga City	Municipality of Pasonanca	"Barangay La Paz, Sitio Nancy (1200 m)"	Pasonanca Natural Park																
+V	318	F5	RMB 11297	Cyrtodactylus	jambangan	Philippines	Mindanao	Zambonga City	Municipality of Pasonanca	"Barangay La Paz, Sitio Nancy (1200 m)"	Pasonanca Natural Park																
+V	318	G1	RMB 11302	Cyrtodactylus	jambangan	Philippines	Mindanao	Zambonga City	Municipality of Pasonanca	"Barangay La Paz, Sitio Nancy (1200 m)"	Pasonanca Natural Park																
+V	318	G2	RMB 11303	Cyrtodactylus	jambangan	Philippines	Mindanao	Zambonga City	Municipality of Pasonanca	"Barangay La Paz, Sitio Nancy (1200 m)"	Pasonanca Natural Park																
+V	318	G3	RMB 11304	Cyrtodactylus	jambangan	Philippines	Mindanao	Zambonga City	Municipality of Pasonanca	"Barangay La Paz, Sitio Nancy (1200 m)"	Pasonanca Natural Park																
+V	318	H9	RMB 11321	Cyrtodactylus	jambangan	Philippines	Mindanao	Zambonga City	Municipality of Pasonanca	"Barangay La Paz, Sitio Nancy (1200 m)"	Pasonanca Natural Park																
+V	319	I2	RMB 11404	Cyrtodactylus	jambangan	Philippines	Mindanao	Zamboanga City	Pasonanca	Tulosa	"Pasonanca Natural Park, Sitio Santa Clara, Cabo Negro Outpost"																
+V	322	C5	RMB 11591	Cyrtodactylus	jambangan	Philippines	Mindanao	Zambonga City	Municipality of Pasonanca	"Barangay Tulosa, Sitio Canta Clara, Cabonegros Outpost (800 m)"	Pasonanca Natural Park																
+V	324	B5	RMB 11745	Cyrtodactylus	jambangan	Philippines	Mindanao	Zamboanga City	Pasonanca	Pasonanca	"Pasonanca Natural Park, Intake station"																
+V	324	B6	RMB 11746	Cyrtodactylus	jambangan	Philippines	Mindanao	Zamboanga City	Pasonanca	Pasonanca	"Pasonanca Natural Park, Intake station"																
+V	324	B7	RMB 11747	Cyrtodactylus	jambangan	Philippines	Mindanao	Zamboanga City	Pasonanca	Pasonanca	"Pasonanca Natural Park, Intake station"																
+C	39	B9	RMB 1685	Cyrtodactylus	jellesme	Indonesia	Sulawesi	Siuna																			
+R	259	F8	RMBR 00866	Cyrtodactylus	malaya	Indonesia	Borneo	Kalimantan																			
+R	259	G7	RMBR 00867	Cyrtodactylus	malaya	Indonesia	Borneo	Kalimantan																			
+AD	448	C1	ACD 6481 	Cyrtodactylus	mamanwa	Philippines	Siargao Isl.	Siargao Del Norte	Bilar																		
+AD	448	G8	ACD 6915	Cyrtodactylus	mamanwa	Philippines	Siargao Isl.	Siargao Del Norte	Bilar																		
+AD	448	G1	ACD 6922	Cyrtodactylus	mamanwa	Philippines	Siargao Isl.	Siargao Del Norte	Bilar																		
+AD	448	I2	ACD 6939	Cyrtodactylus	mamanwa	Philippines	Siargao Isl.	Siargao Del Norte	Bilar																		
+N	202	I5	DSM 911L	Cyrtodactylus	peguensis	Thailand					"Khao Luang NP, Nakhon Si Thammarat"																
+N	203	B2	DSM 921L	Cyrtodactylus	peguensis	Thailand					"Khao Luang NP, Nakhon Si Thammarat"																
+M	185	E3	RMB 7282	Cyrtodactylus	philippinicus	Philippines	Camiguin																				
+M	185	H6	RMB 7311	Cyrtodactylus	philippinicus	Philippines	Camiguin																				
+F	83	47	ACD 2711	Cyrtodactylus	philippinicus	Philippines	Mindanao	E. Mindanao Corridor			Mt. Hamigitan																
+K	159	A4	ACD 2763	Cyrtodactylus	philippinicus	Philippines	Luzon	Isabella?			Dibanti River																
+K	159	H9	ACD 2828	Cyrtodactylus	philippinicus	Philippines	Luzon	Isabella?			Dibanti River																
+R	267	B1	ACD 3697	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora																			
+AA	391	G6	ACD 5879	Cyrtodactylus	philippinicus	Philippines	Luzon	Batangas			Mt. Malarayat																
+Z	390	D2	ACD 5915	Cyrtodactylus	philippinicus	Philippines	Luzon	Batangas			Mt. Malarayat																
+Z	390	D3	ACD 5916	Cyrtodactylus	philippinicus	Philippines	Luzon	Batangas			Mt. Malarayat																
+Z	390	D4	ACD 5917	Cyrtodactylus	philippinicus	Philippines	Luzon	Batangas			Mt. Malarayat																
+Z	390	D5	ACD 5918	Cyrtodactylus	philippinicus	Philippines	Luzon	Batangas			Mt. Malarayat																
+Z	390	D6	ACD 5919	Cyrtodactylus	philippinicus	Philippines	Luzon	Batangas			Mt. Malarayat																
+Z	390	G1	ACD 5941	Cyrtodactylus	philippinicus	Philippines	Luzon	Batangas			Mt. Malarayat																
+AA	391	A1	ACD 5970	Cyrtodactylus	philippinicus	Philippines	Luzon	Batangas			Mt. Malarayat																
+AA	392	F7	ACD 6074	Cyrtodactylus	philippinicus	Philippines			Cabangaan																		
+Z	384	B3	ACD 6196	Cyrtodactylus	philippinicus	Philippines	Luzon 	Bulacan 	Norzagaray 	"Barangay San Lorenzo, Sitio Iligan (Iligan Creek Area), Angat Watershed "																	
+Z	384	G9	ACD 6249	Cyrtodactylus	philippinicus	Philippines	Luzon 	Bulacan 	Norzagaray 	"Barangay San Lorenzo, Sitio Iligan (Iligan Creek Area), Angat Watershed "																	
+Z	384	H1	ACD 6250	Cyrtodactylus	philippinicus	Philippines	Luzon 	Bulacan 	Norzagaray 	"Barangay San Lorenzo, Sitio Iligan (Iligan Creek Area), Angat Watershed "																	
+T	295	B1	ACD 768	Cyrtodactylus	philippinicus	Philippines	Luzon	Kalinga Prov	Balbalan																		
+G	99	B9	CDS 1511	Cyrtodactylus	philippinicus	Philippines	Panay		Pandan																		
+G	99	G9	CDS 1558	Cyrtodactylus	philippinicus	Philippines	Panay		Pandan																		
+G	99	H1	CDS 1559	Cyrtodactylus	philippinicus	Philippines	Panay		Pandan																		
+G	99	H2	CDS 1560	Cyrtodactylus	philippinicus	Philippines	Panay		Pandan																		
+G	99	H8	CDS 1566	Cyrtodactylus	philippinicus	Philippines	Panay		Pandan																		
+U	311	B8	CDS 3749	Cyrtodactylus	philippinicus	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	B9	CDS 3750	Cyrtodactylus	philippinicus	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	C1	CDS 3751	Cyrtodactylus	philippinicus	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	C2	CDS 3752	Cyrtodactylus	philippinicus	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	F1	CDS 3781	Cyrtodactylus	philippinicus	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	G4	CDS 3793	Cyrtodactylus	philippinicus	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	F9	CDS 3869	Cyrtodactylus	philippinicus	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	313	D8	CDS 3932	Cyrtodactylus	philippinicus	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	313	D9	CDS 3933	Cyrtodactylus	philippinicus	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+AA	395	A4	CDS 5544	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	395	E4	CDS 5580	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	395	E5	CDS 5581	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	395	E6	CDS 5582	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	395	E7	CDS 5583	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	395	E8	CDS 5584	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	396	A6	CDS 5627	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	396	H2	CDS 5686	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	397	C5	CDS 5724	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	397	C7	CDS 5727	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	398	E3	CDS 5822	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	398	E4	CDS 5823	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	398	E5	CDS 5824	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	398	I5	CDS 5860	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	398	I6	CDS 5861	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	398	I7	CDS 5862	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	398	I8	CDS 5863	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	398	I9	CDS 5864	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	399	A1	CDS 5865	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	399	A2	CDS 5866	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	399	A3	CDS 5867	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	399	A4	CDS 5868	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	399	A5	CDS 5869	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	399	B7	CDS 5880	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	399	B8	CDS 5881	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	399	I9	CDS 5945	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	400	A1	CDS 5946	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+AA	401	D1	CDS 6055	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	D2	CDS 6056	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	D3	CDS 6057	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	D4	CDS 6058	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	D5	CDS 6059	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	D6	CDS 6060	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	D7	CDS 6061	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	D8	CDS 6062	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+H	118	G1	CDS1768	Cyrtodactylus	philippinicus	Philippines	Cebu	Cebu	Alcoy	Nug-as																	
+I	122	A2	CDS2038	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines del Sur	Naga																		
+M	184	C3	CDS2384	Cyrtodactylus	philippinicus	Philippines	Catanduanes	Catanduanes	Gigmoto	San Pedro																	
+M	184	C4	CDS2385	Cyrtodactylus	philippinicus	Philippines	Catanduanes	Catanduanes	Gigmoto	San Pedro																	
+X	358	F4	CDS4384	Cyrtodactylus	philippinicus	Philippines	Negros	Negros Occidental	Silay City	"Patag, Mt. Bungol"																	
+I	125	27	CWL 052	Cyrtodactylus	philippinicus	Philippines	Negros Is.	Negros Oriental	Dumagete	Valencia																	
+I	125	65	CWL 088	Cyrtodactylus	philippinicus	Philippines	Cebu Is.	Cebu	Alcoy																		
+I	125	66	CWL 089	Cyrtodactylus	philippinicus	Philippines	Cebu Is.	Cebu	Alcoy																		
+I	125	67	CWL 090	Cyrtodactylus	philippinicus	Philippines	Cebu Is.	Cebu	Alcoy																		
+AD	437	H8	DSM 1791	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	Doña Remedios Trinidad (DRT)	Barangay Kabayunan; Langud River; Angat Waterched	Sitio Talagyo																
+AD	437	I6	DSM 1800	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	Doña Remedios Trinidad (DRT)	Barangay Kabayunan; Langud River; Angat Waterched	Sitio Talagyo																
+AA	394	F6	DSM 1886	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	Doña Remedios Trinidad (DRT)	Barangay Kabayunan; Angat Waterched	Sitio Talagyo																
+S	285	D8	RMB 10529	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Batong Malake	Mt. Makiling																
+S	285	I5	RMB 10571	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna	Los Banos	Batong Malake	Mt. Makiling																
+W	336	C2	RMB 10596	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	San Luis	Lipimiental	34.65366																
+W	336	C3	RMB 10597	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	San Luis	Lipimiental	35.65366																
+W	341	F1	RMB 10705	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	San Luis	Lipimiental	15.65366	121.50734	543														
+W	342	D4	RMB 10771	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	Casiguran	IDC Forestry Site	16.29316																
+W	342	F3	RMB 10788	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	Casiguran	IDC Forestry Site	16.29316																
+T	297	I2	RMB 11778	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	Maria Aurora	Villa Aurora	Dimani																
+T	297	I3	RMB 11779	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	Maria Aurora	Villa Aurora	Dimani																
+T	297	I4	RMB 11780	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	Maria Aurora	Villa Aurora	Dimani																
+T	299	C5	RMB 11889	Cyrtodactylus	philippinicus	Philippines	Luzon	Auroa	Maria Aurora 	Villa Aurora	Dimani																
+T	300	E4	RMB 11987	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	Maria Aurora	Villa Aurora	Dimani																
+T	300	E5	RMB 11988	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	Maria Aurora	Villa Aurora	Dimani																
+T	300	E6	RMB 11989	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	Maria Aurora	Villa Aurora	Dimani																
+T	300	E7	RMB 11990	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	Maria Aurora	Villa Aurora	Dimani																
+U	304	B8	RMB 12262	Cyrtodactylus	philippinicus	Philippines	Luzon	Auroa	Maria Aurora 	Villa Aurora	Mt. Dayap																
+U	304	B9	RMB 12263	Cyrtodactylus	philippinicus	Philippines	Luzon	Auroa	Maria Aurora 	Villa Aurora	Mt. Dayap																
+U	304	C1	RMB 12264	Cyrtodactylus	philippinicus	Philippines	Luzon	Auroa	Maria Aurora 	Villa Aurora	Mt. Dayap																
+U	306	B5	RMB 12418	Cyrtodactylus	philippinicus	Philippines	Luzon	Auroa	Maria Aurora 	Villa Aurora	Mt. Dayap																
+U	306	B6	RMB 12419	Cyrtodactylus	philippinicus	Philippines	Luzon	Auroa	Maria Aurora 	Villa Aurora	Mt. Dayap																
+U	306	B7	RMB 12420	Cyrtodactylus	philippinicus	Philippines	Luzon	Auroa	Maria Aurora 	Villa Aurora	Mt. Dayap																
+U	308	A1	RMB 12567	Cyrtodactylus	philippinicus	Philippines	Luzon	Auroa	Baher	Zabali	ASCOT																
+U	308	G1	RMB 12622	Cyrtodactylus	philippinicus	Philippines	Luzon	Auroa	Baher	Zabali	ASCOT																
+U	309	B9	RMB 12667	Cyrtodactylus	philippinicus	Philippines	Luzon	Auroa	Baher	Zabali	ASCOT																
+U	310	G4	RMB 12788	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	San Luis	Real	Minoli																
+U	310	G5	RMB 12789	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	San Luis	Real	Minoli																
+U	310	G6	RMB 12790	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora	San Luis	Real	Minoli																
+W	343	C5	RMB 12834	Cyrtodactylus	philippinicus	Philippines																					
+W	343	C6	RMB 12835	Cyrtodactylus	philippinicus	Philippines																					
+W	343	C7	RMB 12836	Cyrtodactylus	philippinicus	Philippines																					
+W	343	C8	RMB 12837	Cyrtodactylus	philippinicus	Philippines																					
+W	343	C9	RMB 12838	Cyrtodactylus	philippinicus	Philippines																					
+W	343	D7	RMB 12845	Cyrtodactylus	philippinicus	Philippines																					
+Z	380	G6	RMB 13651	Cyrtodactylus	philippinicus	Philippines	Luzon	Quezon	Atimonan																		
+Z	380	G7	RMB 13652	Cyrtodactylus	philippinicus	Philippines	Luzon	Quezon	Atimonan																		
+Z	380	G8	RMB 13653	Cyrtodactylus	philippinicus	Philippines	Luzon	Quezon	Atimonan																		
+Z	380	G9	RMB 13654	Cyrtodactylus	philippinicus	Philippines	Luzon	Quezon	Atimonan																		
+Z	380	I1	RMB 13664	Cyrtodactylus	philippinicus	Philippines	Luzon	Quezon	Atimonan																		
+Z	380	I6	RMB 13669	Cyrtodactylus	philippinicus	Philippines	Luzon	Albay	Malinao	Sugcad																	
+Z	380	I7	RMB 13670	Cyrtodactylus	philippinicus	Philippines	Luzon	Albay	Malinao	Sugcad																	
+Z	381	E5	RMB 13713	Cyrtodactylus	philippinicus	Philippines	Luzon	Albay	Malinao	Sugcad																	
+Z	381	F2	RMB 13719	Cyrtodactylus	philippinicus	Philippines	Luzon	Albay	Malinao	Sugcad																	
+Z	381	F3	RMB 13720	Cyrtodactylus	philippinicus	Philippines	Luzon	Albay	Malinao	Sugcad																	
+Z	381	F4	RMB 13721	Cyrtodactylus	philippinicus	Philippines	Luzon	Albay	Malinao	Sugcad																	
+AB	417	A4	RMB 13855	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	"Doña Remedios Trinidada (""DRT"")"	Kabayunan	"Angt Watershed, Sitio Talagyo"																
+AB	417	A5	RMB 13856	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	"Doña Remedios Trinidada (""DRT"")"	Kabayunan	"Angt Watershed, Sitio Talagyo"																
+AB	417	A9	RMB 13860	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	"Doña Remedios Trinidada (""DRT"")"	Kabayunan	"Angt Watershed, Sitio Talagyo"																
+AB	417	F4	RMB 13900	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	"Doña Remedios Trinidada (""DRT"")"	Kabayunan	"Angt Watershed, Sitio Talagyo"																
+AB	417	F5	RMB 13901	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	"Doña Remedios Trinidada (""DRT"")"	Kabayunan	"Angt Watershed, Sitio Talagyo"																
+AB	417	F6	RMB 13902	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	"Doña Remedios Trinidada (""DRT"")"	Kabayunan	"Angt Watershed, Sitio Talagyo"																
+AB	418	A6	RMB 13940	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	"Doña Remedios Trinidada (""DRT"")"	Kabayunan	"Angt Watershed, Sitio Talagyo"																
+AB	418	C9	RMB 13961	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	"Doña Remedios Trinidada (""DRT"")"	Kabayunan	"Angt Watershed, Sitio Talagyo"																
+AB	418	D1	RMB 13962	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	"Doña Remedios Trinidada (""DRT"")"	Kabayunan	"Angt Watershed, Sitio Talagyo"																
+AB	418	D2	RMB 13963	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	"Doña Remedios Trinidada (""DRT"")"	Kabayunan	"Angt Watershed, Sitio Talagyo"																
+AB	418	D3	RMB 13964	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	"Doña Remedios Trinidada (""DRT"")"	Kabayunan	"Angt Watershed, Sitio Talagyo"																
+AB	418	D4	RMB 13965	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	"Doña Remedios Trinidada (""DRT"")"	Kabayunan	"Angt Watershed, Sitio Talagyo"																
+AB	418	D5	RMB 13966	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan	"Doña Remedios Trinidada (""DRT"")"	Kabayunan	"Angt Watershed, Sitio Talagyo"																
+AA	403	G6	RMB 14180	Cyrtodactylus	philippinicus	Philippines	Luzon	Ilocos Norte	Adams	Adams	"Pao Mt., 730 m"																
+AA	404	F1	RMB 14248	Cyrtodactylus	philippinicus	Philippines	Luzon	Ilocos Norte	Adams	Adams	"Pao Mt., 730 m"																
+AA	404	F2	RMB 14249	Cyrtodactylus	philippinicus	Philippines	Luzon	Ilocos Norte	Adams	Adams	"Pao Mt., 730 m"																
+AA	405	C9	RMB 14310	Cyrtodactylus	philippinicus	Philippines	Luzon	Ilocos Norte	Adams	Adams	"Pao Mt., 730 m"																
+AB	407	A9	RMB 14453	Cyrtodactylus	philippinicus	Philippines	Luzon	Ilocos Norte	Adams	Adams	"Pao Mt., 375 m"																
+AB	409	B8	RMB 14621	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 1, 783 m"																
+AB	409	F5	RMB 14654	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 1, 783 m"																
+AB	409	F6	RMB 14655	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 1, 783 m"																
+AB	409	F7	RMB 14656	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 1, 783 m"																
+AB	409	F8	RMB 14657	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 1, 783 m"																
+AB	409	I9	RMB 14685	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 1, 783 m"																
+AB	410	F4	RMB 14733	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 1, 783 m"																
+AB	410	F5	RMB 14734	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 1, 783 m"																
+AB	410	F6	RMB 14735	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 1, 783 m"																
+AB	411	F9	RMB 14818	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 1, 783 m"																
+AB	412	C2	RMB 14865	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 1, 783 m"																
+AB	412	E2	RMB 14883	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	412	E3	RMB 14884	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	412	E4	RMB 14885	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	412	F1	RMB 14890	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	412	F6	RMB 14895	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	412	G1	RMB 14899	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	412	G2	RMB 14900	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	412	G3	RMB 14901	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	412	G4	RMB 14902	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	413	C9	RMB 14953	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	413	D1	RMB 14954	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	413	D2	RMB 14955	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	413	D3	RMB 14956	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	414	E8	RMB 15052	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	414	E9	RMB 15053	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	414	G6	RMB 15068	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	415	C8	RMB 15119	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	416	E4	RMB 15211	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AB	416	E5	RMB 15212	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+F	87	12	RMB 3251	Cyrtodactylus	philippinicus				Negros																		
+F	89	13	RMB 3263	Cyrtodactylus	philippinicus				Negros																		
+F	89	5	RMB 3843	Cyrtodactylus	philippinicus	Philippines	Luzon		Mt Malinao																		
+F	89	10	RMB 3864	Cyrtodactylus	philippinicus	Philippines	Luzon		Mt Malinao																		
+A	7	B3	RMB 4498	Cyrtodactylus	philippinicus	Philippines	Luzon		Subic Bay																		
+G	103	F4	RMB 5348	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+G	103	F5	RMB 5349	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+G	103	F6	RMB 5350	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+G	103	F7	RMB 5351	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+G	103	G7	RMB 5359	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+G	103	G8	RMB 5360	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+G	103	G9	RMB 5361	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+G	103	H1	RMB 5362	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+G	103	H2	RMB 5363	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+G	103	H3	RMB 5364	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+G	103	H4	RMB 5365	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+G	103	H5	RMB 5366	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+H	105	E9	RMB 5500	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+H	105	F1	RMB 5501	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+H	105	F2	RMB 5502	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+H	105	F3	RMB 5503	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+H	105	I3	RMB 5529	Cyrtodactylus	philippinicus	Philippines	Lubang																				
+I	135	9	RMB 6259	Cyrtodactylus	philippinicus	Philippines	Luzon	Quezon	Polillo	Pinaglubayan																	
+I	135	10	RMB 6260	Cyrtodactylus	philippinicus	Philippines	Luzon	Quezon	Polillo	Pinaglubayan																	
+I	135	11	RMB 6261	Cyrtodactylus	philippinicus	Philippines	Luzon	Quezon	Polillo	Pinaglubayan																	
+I	135	23	RMB 6273	Cyrtodactylus	philippinicus	Philippines	Luzon	Quezon	Polillo	Salipsip																	
+I	135	81	RMB 6332	Cyrtodactylus	philippinicus	Philippines	Luzon	Quezon	Polillo	Salipsip																	
+R	261	B9	RMB 8761	Cyrtodactylus	philippinicus	Philippines	Tablas	Romblon	Calatrava	Balogo	Piqueno																
+R	261	C1	RMB 8762	Cyrtodactylus	philippinicus	Philippines	Tablas	Romblon	Calatrava	Balogo	Piqueno																
+R	261	C2	RMB 8763	Cyrtodactylus	philippinicus	Philippines	Tablas	Romblon	Calatrava	Balogo	Piqueno																
+R	261	C3	RMB 8764	Cyrtodactylus	philippinicus	Philippines	Tablas	Romblon	Calatrava	Balogo	Piqueno																
+R	261	C4	RMB 8765	Cyrtodactylus	philippinicus	Philippines	Tablas	Romblon	Calatrava	Balogo	Piqueno																
+R	261	F1	RMB 8790	Cyrtodactylus	philippinicus	Philippines	Tablas	Romblon	Calatrava	Balogo	Piqueno																
+R	263	A2	RMB 8870	Cyrtodactylus	philippinicus	Philippines	Polillo	Quezon	Polillo	Poblacion																	
+R	263	E2	RMB 8905	Cyrtodactylus	philippinicus	Philippines	Polillo	Quezon	Burdeos	Aluyon	Sitio Malinao																
+C	36	Loose	RMB 942	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora																			
+C	36	Loose	RMB 943	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora																			
+S	271	G2	RMB 9613	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines Norte	Labo	Tulay Na Lupa	Mt. Labo camp 1																
+S	271	G3	RMB 9614	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines Norte	Labo	Tulay Na Lupa	Mt. Labo camp 1																
+S	272	F3	RMB 9686	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines Norte	Labo	Tulay Na Lupa	Mt. Labo camp 1																
+S	272	F9	RMB 9692	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines Norte	Labo	Tulay Na Lupa	Mt. Labo camp 1																
+S	272	G1	RMB 9693	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines Norte	Labo	Tulay Na Lupa	Mt. Labo camp 1																
+S	272	H4	RMB 9705	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines Norte	Labo	Tulay Na Lupa	Mt. Labo camp 1																
+S	273	C2	RMB 9739	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines Norte	Labo	Tulay Na Lupa	Mt. Labo camp 1																
+S	273	C3	RMB 9740	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines Norte	Labo	Tulay Na Lupa	Mt. Labo camp 1																
+S	273	C8	RMB 9745	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines Norte	Labo	Tulay Na Lupa	Mt. Labo camp 1																
+S	273	D2	RMB 9748	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines Norte	Labo	Tulay Na Lupa	Mt. Labo camp 1																
+S	273	D3	RMB 9749	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines Norte	Labo	Tulay Na Lupa	Mt. Labo camp 1																
+S	274	A4	RMB 9804	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines Norte	Labo	Tulay Na Lupa	Mt. Labo camp 1																
+Y	367	B7	RMB13366	Cyrtodactylus	philippinicus	Philippines	Luzon	Nueva Viscaya	Quezon	Maddiangat	"Mt. Palali, 720m"																
+Y	367	B8	RMB13367	Cyrtodactylus	philippinicus	Philippines	Luzon	Nueva Viscaya	Quezon	Maddiangat	"Mt. Palali, 720m"																
+Y	368	I7	RMB13510	Cyrtodactylus	philippinicus	Philippines	Luzon	Nueva Viscaya	Quezon	Maddiangat	"Mt. Palali, 720m"																
+Y	369	G5	RMB13571	Cyrtodactylus	philippinicus	Philippines	Luzon	Nueva Viscaya	Quezon	Maddiangat	"Mt. Palali, low elev."																
+T	289	G4	ACD 3918	Cyrtodactylus	philippinicus?	Philippines	Mindanao	Agusan Del Sur Prov	Municipality of San Francisco	Barangay Bagusan II	Mt. Magdiwata 418 masl	Philippines															
+T	289	G5	ACD 3919	Cyrtodactylus	philippinicus?	Philippines	Mindanao	Agusan Del Sur Prov	Municipality of San Francisco	Barangay Bagusan II	Mt. Magdiwata 418 masl	Philippines															
+T	289	G6	ACD 3920	Cyrtodactylus	philippinicus?	Philippines	Mindanao	Agusan Del Sur Prov	Municipality of San Francisco	Barangay Bagusan II	Mt. Magdiwata 418 masl	Philippines															
+T	289	G7	ACD 3921	Cyrtodactylus	philippinicus?	Philippines	Mindanao	Agusan Del Sur Prov	Municipality of San Francisco	Barangay Bagusan II	Mt. Magdiwata 418 masl	Philippines															
+T	289	G8	ACD 3922	Cyrtodactylus	philippinicus?	Philippines	Mindanao	Agusan Del Sur Prov	Municipality of San Francisco	Barangay Bagusan II	Mt. Magdiwata 418 masl	Philippines															
+T	289	G9	ACD 3923	Cyrtodactylus	philippinicus?	Philippines	Mindanao	Agusan Del Sur Prov	Municipality of San Francisco	Barangay Bagusan II	Mt. Magdiwata 418 masl	Philippines															
+V	330	A3	DSB 4310	Cyrtodactylus	phillpinicus	Philippines	Luzon	Aurora	Dingalan?		Mingan Mt.																
+W	331	B2	DSB 4324	Cyrtodactylus	phillpinicus	Philippines	Luzon	Aurora	Dingalan		Mingan Mt.																
+W	331	C6	DSB 4332	Cyrtodactylus	phillpinicus	Philippines	Luzon	Aurora	Dingalan		Mingan Mt.																
+V	330	D1	DSB 4342	Cyrtodactylus	phillpinicus	Philippines	Luzon	Aurora	Dingalan?		Mingan Mt.																
+O	213	E6	DSM 809L	Cyrtodactylus	pulchelus	Thailand					"Khao Luang NP, Nakhon Si Thammarat"																
+O	213	E7	DSM 809M	Cyrtodactylus	pulchelus	Thailand					"Khao Luang NP, Nakhon Si Thammarat"																
+Z	378	C7	LSUHC 4813	Cyrtodactylus	quadrivirgatus	Malaysia																					
+A	6	C3	ACD 1279	Cyrtodactylus	redimiculus	Philippines	Palawan		Mt. Mantalingahan																		
+M	191	C1	RMB 7757	Cyrtodactylus	redimiculus		Samarinana																				
+M	191	C4	RMB 7760	Cyrtodactylus	redimiculus		Samarinana																				
+M	192	C1	RMB 7842	Cyrtodactylus	redimiculus		Samarinana																				
+M	192	D9	RMB 7859	Cyrtodactylus	redimiculus		Samarinana																				
+M	192	F4	RMB 7873	Cyrtodactylus	redimiculus		Samarinana																				
+A	2	B2	ACD 1478	Cyrtodactylus	sp	Philippines	Leyte 		Lake Danao																		
+A	2	F8	ACD 1478	Cyrtodactylus	sp	Philippines	Leyte 		Lake Danao																		
+K	153	C2	ELR 655	Cyrtodactylus	sp					Malate																	
+K	153	C3	ELR 656	Cyrtodactylus	sp					Malate																	
+K	153	C4	ELR 657	Cyrtodactylus	sp					Malate																	
+K	153	E7	ELR 678	Cyrtodactylus	sp					Malate																	
+J	143	H8	PNM/CMNH H1289	Cyrtodactylus	sp	Philippines	Mindanao Island	Davao City Province	Municipality of Calinan	Barangay Malagos	Malagos Eagle Station																
+J	143	C9	PNM/CMNH H1290	Cyrtodactylus	sp	Philippines	Mindanao Island	Davao City Province	Municipality of Calinan	Barangay Malagos	Malagos Eagle Station																
+J	143	B5	PNM/CMNH H1291	Cyrtodactylus	sp	Philippines	Mindanao Island	Davao City Province	Municipality of Calinan	Barangay Malagos	Malagos Eagle Station																
+J	145	F9	PNM/CMNH H1292	Cyrtodactylus	sp	Philippines	Mindanao Island	Davao City Province	Municipality of Calinan	Barangay Malagos	Malagos Eagle Station																
+J	143	D7	PNM/CMNH H1293	Cyrtodactylus	sp	Philippines	Mindanao Island	Davao City Province	Municipality of Calinan	Barangay Malagos	Malagos Eagle Station																
+J	144	A4	PNM/CMNH H1298	Cyrtodactylus	sp	Philippines	Mindanao Island	Davao City Province	Municipality of Calinan	Barangay Malagos	Malagos Eagle Station																
+J	143	B4	PNM/CMNH H1352	Cyrtodactylus	sp	Philippines	Mindanao Island	North Cotabato Province	Municipality of Kidapawan	Barangay Ilomavis	Mt Apo	Site 3															
+J	141	F9	PNM/CMNH H1459	Cyrtodactylus	sp	Philippines	Mindanao Island	South Cotabato Province	Municipality of Kiamba	Barangay Binati	Mt Busa	Site 1															
+J	143	E6	PNM/CMNH H1601	Cyrtodactylus	sp	Philippines	Mindanao Island	South Cotobato Province	Municipality of Kiamba	Barangay Banate	Mt Busa	Site 1															
+J	143	F3	PNM/CMNH H1646	Cyrtodactylus	sp	Philippines	Mindanao Island	South Cotobato Province	Municipality of Kiamba	Barangay Banate	Mt Busa	Site 1															
+A	3	A2	RMB 4091	Cyrtodactylus	sp	Philippines	Luzon		Quezon Nat. Park																		
+A	3	B1	RMB 4094	Cyrtodactylus	sp	Philippines	Luzon		Quezon Nat. Park																		
+K	150	D7	RMB 6447	Cyrtodactylus	sp	Philippines	Panay			Aningalan																	
+K	150	E6	RMB 6455	Cyrtodactylus	sp	Philippines	Panay			Aningalan																	
+K	152	F8	RMB 6628	Cyrtodactylus	sp	Philippines	Panay			Alunipan																	
+R	259	G3	RMBR 00321	Cyrtodactylus	sp		Sumatra																				
+R	259	F6	RMBR 00343	Cyrtodactylus	sp		Sumatra																				
+E	74	26	CDS 042	Cyrtodactylus	sp.	Philippines	S. Gigante	Iloilo	Carles	Gabi	30m																
+E	74	27	CDS 043	Cyrtodactylus	sp.	Philippines	S. Gigante	Iloilo	Carles	Gabi	30m																
+E	74	28	CDS 044	Cyrtodactylus	sp.	Philippines	S. Gigante	Iloilo	Carles	Gabi	30m																
+E	74	29	CDS 045	Cyrtodactylus	sp.	Philippines	S. Gigante	Iloilo	Carles	Gabi	30m																
+E	74	38	CDS 054	Cyrtodactylus	sp.	Philippines	S. Gigante	Iloilo	Carles	Gabi	30m																
+E	72	1	CDS 1002	Cyrtodactylus	sp.	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	72	2	CDS 1003	Cyrtodactylus	sp.	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	72	4	CDS 1005	Cyrtodactylus	sp.	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	73	30	CDS 1111	Cyrtodactylus	sp.	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	73	31	CDS 1112	Cyrtodactylus	sp.	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	75	43	CDS 1442	Cyrtodactylus	sp.	Philippines	Sibuyan	Romblon	Magdiwang	Talaba	"Mt. Guiting-Guiting natural park, 0m elev, 12deg27.673N, 122deg39.861E"																
+E	62	40	CDS 280	Cyrtodactylus	sp.	Philippines	Negros	Negros Occidental	Cauayan	Camalandaan	"320m, 09deg50.272N, 122deg30.322E"																
+W	340	G4	CDS 4341	Cyrtodactylus	sp.	Philippines	Philippines	Negros	Negros Occidental	Silay City	"Patag, Mt. Bungol"																
+H	113	F7	ELR 325	Cyrtodactylus	sp.	Philippines																					
+H	113	F8	ELR 326	Cyrtodactylus	sp.	Philippines																					
+H	113	F9	ELR 327	Cyrtodactylus	sp.	Philippines																					
+H	113	G1	ELR 328	Cyrtodactylus	sp.	Philippines																					
+H	113	G2	ELR 329	Cyrtodactylus	sp.	Philippines																					
+H	113	G3	ELR 330	Cyrtodactylus	sp.	Philippines																					
+H	113	G4	ELR 331	Cyrtodactylus	sp.	Philippines																					
+H	113	G5	ELR 332	Cyrtodactylus	sp.	Philippines																					
+H	113	G6	ELR 333	Cyrtodactylus	sp.	Philippines																					
+H	113	G7	ELR 334	Cyrtodactylus	sp.	Philippines																					
+H	113	G8	ELR 335	Cyrtodactylus	sp.	Philippines																					
+H	113	G9	ELR 336	Cyrtodactylus	sp.	Philippines																					
+H	113	H1	ELR 337	Cyrtodactylus	sp.	Philippines																					
+H	113	H2	ELR 338	Cyrtodactylus	sp.	Philippines																					
+H	113	H3	ELR 339	Cyrtodactylus	sp.	Philippines																					
+H	113	H4	ELR 340	Cyrtodactylus	sp.	Philippines																					
+H	114	C8	ELR 379	Cyrtodactylus	sp.	Philippines																					
+H	114	C9	ELR 380	Cyrtodactylus	sp.	Philippines																					
+H	114	D1	ELR 381	Cyrtodactylus	sp.	Philippines																					
+H	114	D2	ELR 382	Cyrtodactylus	sp.	Philippines																					
+H	114	D3	ELR 383	Cyrtodactylus	sp.	Philippines																					
+H	114	D4	ELR 384	Cyrtodactylus	sp.	Philippines																					
+H	114	D5	ELR 385	Cyrtodactylus	sp.	Philippines																					
+H	114	D6	ELR 386	Cyrtodactylus	sp.	Philippines																					
+H	114	D7	ELR 387	Cyrtodactylus	sp.	Philippines																					
+H	114	I8	ELR 434	Cyrtodactylus	sp.	Philippines																					
+H	115	A9	ELR 444	Cyrtodactylus	sp.	Philippines																					
+H	115	H7	ELR 524	Cyrtodactylus	sp.	Philippines																					
+H	115	H8	ELR 525	Cyrtodactylus	sp.	Philippines																					
+H	115	H9	ELR 526	Cyrtodactylus	sp.	Philippines																					
+H	115	I1	ELR 527	Cyrtodactylus	sp.	Philippines																					
+H	115	I2	ELR 528	Cyrtodactylus	sp.	Philippines																					
+H	116	A1	ELR 536	Cyrtodactylus	sp.	Philippines																					
+H	116	A2	ELR 537	Cyrtodactylus	sp.	Philippines																					
+H	116	C4	ELR 554	Cyrtodactylus	sp.	Philippines																					
+H	116	C5	ELR 555	Cyrtodactylus	sp.	Philippines																					
+H	116	C6	ELR 556	Cyrtodactylus	sp.	Philippines																					
+H	117	B3	ELR 625	Cyrtodactylus	sp.	Philippines																					
+H	117	B4	ELR 626	Cyrtodactylus	sp.	Philippines																					
+H	117	B5	ELR 627	Cyrtodactylus	sp.	Philippines																					
+H	117	B6	ELR 628	Cyrtodactylus	sp.	Philippines																					
+H	117	B7	ELR 629	Cyrtodactylus	sp.	Philippines																					
+H	117	B8	ELR 630	Cyrtodactylus	sp.	Philippines																					
+H	117	B9	ELR 631	Cyrtodactylus	sp.	Philippines																					
+H	117	C1	ELR 632	Cyrtodactylus	sp.	Philippines																					
+H	117	C2	ELR 633	Cyrtodactylus	sp.	Philippines																					
+P	231	C1	EMD 258	Cyrtodactylus	sp.	Philippines	Mindanao	Surigao del Sur	Cantilan	Cabangahan	"Sipangpang Falls, Nangka, Mt. Hilong-Hilong Range"																
+D	49	42	RMB 4858	Cyrtodactylus	sp.	Philippines			Nikolas																		
+D	49	43	RMB 4859	Cyrtodactylus	sp.	Philippines			Nikolas																		
+D	52	38	RMB 5114	Cyrtodactylus	sp.	Philippines	Romblon	Romblon	Lunas																		
+D	49	21	RMB 5184	Cyrtodactylus	sp.	Philippines	Sibuyan	Romblon		Mt. Guiting Park																	
+D	49	22	RMB 5185	Cyrtodactylus	sp.	Philippines	Sibuyan	Romblon		Mt. Guiting Park																	
+H	108	E2	RMB 5707	Cyrtodactylus	sp.	Philippines	Camiguin Norte Is.																				
+H	108	G3	RMB 5724	Cyrtodactylus	sp.	Philippines	Camiguin Norte Is.																				
+H	109	F8	RMB 5792	Cyrtodactylus	sp.	Philippines	Camiguin Norte Is.																				
+H	109	H9	RMB 5811	Cyrtodactylus	sp.	Philippines	Camiguin Norte Is.																				
+M	186	E5	RMB 7364	Cyrtodactylus	sp.		Camiguin																				
+D	60	57	CDS 143	Cyrtodactylus	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+D	60	66	CDS 152	Cyrtodactylus	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+D	60	67	CDS 153	Cyrtodactylus	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+E	61	6	CDS 172	Cyrtodactylus	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+E	61	7	CDS 173	Cyrtodactylus	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+V	330	I5	DSB 4323	Cyrtodactylus		Philippines	Luzon	Aurora	Dingalan		Mingan Mt.																
+Z	378	C8	LSUHC 3771	Cyrtodactylus	tiomanensis	Malaysia	Tioman																				
+R	259	G9	RMBR 00847	Cyrtodactylus	yoshi	Indonesia	Borneo	Kalimantan																			
+R	259	G2	RMBR 01200	Cyrtodactylus	yoshi	Indonesia	Borneo	Kalimantan																			
+Z	379	H3	FMNH 230087	Cyrtodactylus	yoshi	Malaysia	Borneo	Sabah																			
+B	20	A9	ACD 1018	Cyrtodactylus		Philippines	Luzon		Mt. Banahaw																		
+A	6	G6	ACD 1267	Cyrtodactylus		Philippines	Palawan		Mt. Mantalingahan																		
+C	43	56	ACD 1857	Cyrtodactylus		Philippines	Luzon	Apaya																			
+C	43	51	ACD 1858	Cyrtodactylus		Philippines	Luzon	Apaya																			
+C	41	3	ACD 1864	Cyrtodactylus		Philippines	Luzon	Apaya																			
+C	44	41	ACD 1866	Cyrtodactylus		Philippines	Luzon	Apaya																			
+C	40	15	ACD 1960	Cyrtodactylus		Philippines	Luzon	Apaya																			
+C	40	10	ACD 1976	Cyrtodactylus		Philippines	Luzon	Apaya																			
+C	42	67	ACD 2013	Cyrtodactylus		Philippines	Luzon																				
+C	41	33	ACD 2014	Cyrtodactylus		Philippines	Luzon																				
+C	40	54	ACD 2015	Cyrtodactylus		Philippines	Luzon																				
+C	42	33	ACD 2094	Cyrtodactylus		Philippines	Luzon																				
+F	84	22	ACD 2636	Cyrtodactylus		Philippines	Mindanao	E. Mindanao Corridor			Mt. Hamigitan																
+F	84	18	ACD 2637	Cyrtodactylus		Philippines	Mindanao	E. Mindanao Corridor			Mt. Hamigitan																
+F	83	72	ACD 2661	Cyrtodactylus		Philippines	Mindanao	E. Mindanao Corridor			Mt. Hamigitan																
+T	290	G6	ACD 4018	Cyrtodactylus		Philippines	Mindanao	Agusan Del Sur Prov	Municipality of San Francisco	Barangay Bagusan II	Mt. Magdiwata 418 masl																
+T	291	A9	ACD 4080	Cyrtodactylus		Philippines	Mindanao	Agusan Del Sur Prov	Municipality of San Francisco	Barangay Bagusan II	Mt. Magdiwata 418 masl																
+T	291	B1	ACD 4081	Cyrtodactylus		Philippines	Mindanao	Agusan Del Sur Prov	Municipality of San Francisco	Barangay Bagusan II	Mt. Magdiwata 418 masl																
+T	291	B3	ACD 4083	Cyrtodactylus		Philippines	Mindanao	Agusan Del Sur Prov	Municipality of San Francisco	Barangay Bagusan II	Mt. Magdiwata 418 masl																
+AD	550	C3	ACD 7515	Cyrtodactylus		Philippines	Leyte Isl.	Southern Leyte Prov.	Sogud																		
+AD	550	C7	ACD 7526	Cyrtodactylus		Philippines	Leyte Isl.	Southern Leyte Prov.	Sogud																		
+AE	552	I3	ACD 7547	Cyrtodactylus		Philippines	Leyte Isl.	Southern Leyte Prov.																			
+AE	552	I2	ACD 7548	Cyrtodactylus		Philippines	Leyte Isl.	Southern Leyte Prov.																			
+B	21	G7	ACD 768	Cyrtodactylus		Philippines	Luzon		Balbalan																		
+AE	551	I4	ACD 7701	Cyrtodactylus		Philippines	Leyte Isl.	Southern Leyte Prov.																			
+Y	373	B7	ACD5401	Cyrtodactylus		Philippines	Mindanao	South Cotabato	Cotabato	Tampakan	Kimlawis																
+Y	375	I9	ACD5626	Cyrtodactylus		Philippines	Mindanao	South Cotabato	Cotabato	Tampakan	Kimlawis																
+Z	376	A5	ACD5639	Cyrtodactylus		Philippines	Mindanao	South Cotabato	Cotabato	Tampakan	Kimlawis																
+Z	376	B2	ACD5651	Cyrtodactylus		Philippines	Mindanao	South Cotabato	Cotabato	Tampakan	Kimlawis																
+D	56	35	CDS 001	Cyrtodactylus		Philippines	Luzon	Zambales																			
+D	56	39	CDS 014	Cyrtodactylus		Philippines	Luzon	Zambales																			
+T	288	E3	CDS 2645	Cyrtodactylus		Philippines	Samar	Eastern Samar	Taft			"***PRESUMED FIELD NUMBER, J. FERNANDEZ MISTAKES POSSIBLE, SEE CDS"															
+W	340	G5	CDS 4342	Cyrtodactylus		Philippines	Negros	Negros Occidental		Silay City	"Patag, Mt. Bungol"																
+P	237	G2	ELR 1541	Cyrtodactylus		Philippines	Palawan																				
+K	153	A1	ELR 636	Cyrtodactylus						Malate																	
+K	153	A2	ELR 637	Cyrtodactylus						Malate																	
+K	153	A3	ELR 638	Cyrtodactylus						Malate																	
+K	153	A4	ELR 639	Cyrtodactylus						Malate																	
+K	153	F1	ELR 681	Cyrtodactylus						Malate																	
+K	153	F2	ELR 682	Cyrtodactylus						Malate																	
+L	175	D2	ELR 817	Cyrtodactylus		Matingaram																					
+L	175	H3	ELR 854	Cyrtodactylus		Ulasan																					
+L	176	C4	ELR 909	Cyrtodactylus		Ulasan																					
+L	177	B2	ELR 980	Cyrtodactylus		Ulasan																					
+A	13	D9	GVAG 226	Cyrtodactylus		Philippines	Panay	Antique	Sibalom																		
+A	13	I2	GVAG 227	Cyrtodactylus		Philippines	Panay	Antique	Sibalom																		
+A	13	D4	GVAG 257	Cyrtodactylus		Philippines	Panay	Antique	Sibalom																		
+A	6	F8	HFT 020	Cyrtodactylus		Philippines	Mindoro		Sablayan																		
+B	20	G7	JAM 1879	Cyrtodactylus		Malaysia	Tioman																				
+G	97	1E	PNM/CMNH H 1544	Cyrtodactylus				Frozen Tissues																			
+G	97	3E	PNM/CMNH H 1639	Cyrtodactylus				Frozen Tissues																			
+J	143	C4	PNM/CMNH H1458	Cyrtodactylus		Philippines	Mindanao Island	South Cotabato Province	Municipality of Kiamba	Barangay Binati	Mt Busa	Site 1															
+G	93	30	PNM/CMNH H1503	Cyrtodactylus				Frozen Tissues																			
+J	143	B1	PNM/CMNH H1638	Cyrtodactylus		Philippines	Mindanao Island	South Cotabato Province	Municipality of Kiamba	Barangay Banate	Mt Busa	Site 1	Field notes say: Draco sp														
+C	36	Loose	RMB 1023	Cyrtodactylus		Philippines	Bohol																				
+C	36	Loose	RMB 1086	Cyrtodactylus		Philippines	Bohol																				
+C	36	Loose	RMB 1129	Cyrtodactylus		Philippines	Siquijor																				
+F	87	70	RMB 1672	Cyrtodactylus		Indonesia	Sulawesi	Siuna																			
+F	88	69	RMB 1692	Cyrtodactylus		Indonesia	Sulawesi	Siuna																			
+J	143	I1	RMB 190	Cyrtodactylus																							
+B	20	A8	RMB 2881	Cyrtodactylus		Philippines	Bohol		Bilar																		
+B	20	B5	RMB 2892	Cyrtodactylus		Philippines	Bohol		Bilar																		
+B	20	B6	RMB 2962	Cyrtodactylus		Philippines	Sibuyan		sibuyan																		
+F	87	11	RMB 3468	Cyrtodactylus		Philippines	Luzon		Mt Isarog																		
+F	87	9	RMB 3549	Cyrtodactylus		Philippines	Luzon		Mt Malinao																		
+F	87	15	RMB 3584	Cyrtodactylus		Philippines	Luzon		Mt Malinao																		
+F	87	10	RMB 3585	Cyrtodactylus		Philippines	Luzon		Mt Malinao																		
+F	87	17	RMB 3630	Cyrtodactylus		Philippines	Luzon		Mt Banahao																		
+F	89	7	RMB 4003	Cyrtodactylus					Bulusan																		
+D	50	53	RMB 4924	Cyrtodactylus		Philippines	Mindoro		Formon																		
+H	109	A9	RMB 5751	Cyrtodactylus		Philippines	Camiguin Norte Is.																				
+H	109	B1	RMB 5752	Cyrtodactylus		Philippines	Camiguin Norte Is.																				
+H	109	B3	RMB 5754	Cyrtodactylus		Philippines	Camiguin Norte Is.																				
+H	109	B4	RMB 5755	Cyrtodactylus		Philippines	Camiguin Norte Is.																				
+H	109	B5	RMB 5756	Cyrtodactylus		Philippines	Camiguin Norte Is.																				
+H	109	B6	RMB 5757	Cyrtodactylus		Philippines	Camiguin Norte Is.																				
+H	109	F7	RMB 5791	Cyrtodactylus		Philippines	Camiguin Norte Is.																				
+H	111	A3	RMB 5905	Cyrtodactylus		Philippines	Babuyan Claro																				
+H	111	A4	RMB 5906	Cyrtodactylus		Philippines	Babuyan Claro																				
+H	111	A5	RMB 5907	Cyrtodactylus		Philippines	Babuyan Claro																				
+P	239	B3	RMB 8043	Cyrtodactylus		Philippines	Camiguin Sur	Camiguin	Mambajao	Pandan	Kampara																
+Q	241	B1	RMB 8201	Cyrtodactylus		Philippines	Camiguin Sur	Camiguin	Mambajao	Pandan	Pamahawan																
+Q	241	D2	RMB 8220	Cyrtodactylus		Philippines	Camiguin Sur	Camiguin	Mambajao	Pandan	Pamahawan																
+Q	241	E5	RMB 8232	Cyrtodactylus		Philippines	Camiguin Sur	Camiguin	Mambajao	Pandan	Pamahawan																
+Q	242	F2	RMB 8321	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	242	F3	RMB 8322	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	242	F4	RMB 8323	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	242	F6	RMB 8325	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	242	H3	RMB 8340	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	242	H4	RMB 8341	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	243	C2	RMB 8375	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	243	C3	RMB 8376	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	243	C7	RMB 8380	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	243	C8	RMB 8381	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	243	C9	RMB 8382	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	243	G7	RMB 8416	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	243	G8	RMB 8417	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	243	G9	RMB 8418	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	243	H9	RMB 8427	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	243	I9	RMB 8436	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	244	A8	RMB 8444	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	244	A9	RMB 8445	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+Q	244	G2	RMB 8492	Cyrtodactylus		Philippines	Dinagat	Surigao del Norte	Loreto	Santiago	"Cambinliw, Sudlon"																
+R	265	A6	RMB 9270	Cyrtodactylus		Philippines	Mindanao	Zamboanga del Sur 	Zamboanga City	Pasanonca	Sitio Canucutan																
+R	265	A9	RMB 9273	Cyrtodactylus		Philippines	Mindanao	Zamboanga del Sur 	Zamboanga City	Pasanonca	Sitio Canucutan																
+R	265	H6	RMB 9333	Cyrtodactylus		Philippines	Mindanao	Zamboanga del Sur 	Zamboanga City	Pasanonca	Sitio Canucutan																
+R	265	I3	RMB 9339	Cyrtodactylus		Philippines	Mindanao	Zamboanga del Sur 	Zamboanga City	Pasanonca	Sitio Canucutan																
+B	20	A5	RMB 3118	Gekko	athymus	Philippines	Palawan		Brooke's Point																		
+B	20	A6	RMB 3118	Gekko	athymus	Philippines	Palawan		Brooke's Point																		
+O	220	F5	RMB 3118	Gekko	athymus	Philippines	Palawan		Brooke's Point																		
+M	192	A5	RMB 7828	Gekko	athymus	Philippines	Palawan		Brooke's Point																		
+Z	389	C3	ACD 5100	Gekko	carusadensis	Philippines	Luzon	Bulakan	Biak na Bato																		
+Z	389	C4	ACD 5100	Gekko	carusadensis	Philippines	Luzon	Bulakan	Biak na Bato																		
+X	355	I7	ACD4824	Gekko	carusadensis	Philippines	Luzon	Bulacan		Biak na Bato???																	
+X	355	I8	ACD4825	Gekko	carusadensis	Philippines	Luzon	Bulacan		Biak na Bato???																	
+Z	388	C9	RMB 13587	Gekko	carusadensis	Philippines	Luzon	Bulakan	Biak na Bato																		
+Z	378	H3	RMB 13588	Gekko	carusadensis	Philippines	Luzon	Biak Na Bato																			
+Z	378	H4	RMB 13589	Gekko	carusadensis	Philippines	Luzon	Biak Na Bato																			
+Z	378	H5	RMB 13590	Gekko	carusadensis	Philippines	Luzon	Biak Na Bato																			
+Z	388	D2	RMB 13591	Gekko	carusadensis	Philippines	Luzon	Bulakan	Biak na Bato																		
+A	6	D8	ACD 1312	Gekko	cf mindorensis	Philippines	Palawan		Mt. Mantalingahan																		
+E	74	15	CDS 031	Gekko	cf mindorensis	Philippines	N. Gigante	Iloilo	Carles	Asloman	0m																
+E	74	30	CDS 046	Gekko	cf mindorensis	Philippines	S. Gigante	Iloilo	Carles	Gabi	30m																
+E	74	39	CDS 055	Gekko	cf mindorensis	Philippines	S. Gigante	Iloilo	Carles	Gabi	30m																
+E	66	36	CDS 590	Gekko	cf mindorensis	Philippines	Caluya	Antique	Caluya	Poblacion	"cave system, 15m"																
+E	66	37	CDS 591	Gekko	cf mindorensis	Philippines	Caluya	Antique	Caluya	Poblacion	"cave system, 15m"																
+E	66	38	CDS 592	Gekko	cf mindorensis	Philippines	Caluya	Antique	Caluya	Poblacion	"cave system, 15m"																
+E	66	39	CDS 593	Gekko	cf mindorensis	Philippines	Caluya	Antique	Caluya	Poblacion	"cave system, 15m"																
+E	66	40	CDS 594	Gekko	cf mindorensis	Philippines	Caluya	Antique	Caluya	Poblacion	"cave system, 15m"																
+E	66	54	CDS 607	Gekko	cf mindorensis	Philippines	Caluya	Antique	Caluya	Poblacion	"cave system, 15m"																
+E	66	55	CDS 608	Gekko	cf mindorensis	Philippines	Caluya	Antique	Caluya	Poblacion	"cave system, 15m"																
+E	66	56	CDS 609	Gekko	cf mindorensis	Philippines	Caluya	Antique	Caluya	Poblacion	"cave system, 15m"																
+E	66	57	CDS 610	Gekko	cf mindorensis	Philippines	Caluya	Antique	Caluya	Poblacion	"cave system, 15m"																
+E	66	58	CDS 611	Gekko	cf mindorensis	Philippines	Caluya	Antique	Caluya	Poblacion	"cave system, 15m"																
+E	67	9	CDS 643	Gekko	cf mindorensis	Philippines	Caluya	Antique	Caluya	Poblacion	"cave system, 15m"																
+F	80	Loose	CDSGS 38	Gekko	cf mindorensis	Philippines	Negros	Occidental	Sipalay City	Camindangan	"9deg47.182N, 122deg30.640E"																
+F	80	Loose	CDSGS 39	Gekko	cf mindorensis	Philippines	Negros	Occidental	Sipalay City	Camindangan	"9deg47.182N, 122deg30.640E"																
+F	81	Loose	CDSGS 40	Gekko	cf mindorensis	Philippines	Negros	Occidental	Sipalay City	Camindangan	"9deg47.182N, 122deg30.640E"																
+F	80	Loose	CDSGS 41	Gekko	cf mindorensis	Philippines	Negros	Occidental	Sipalay City	Camindangan	"9deg47.182N, 122deg30.640E"																
+A	13	D3	GVAG 260	Gekko	cf mindorensis	Philippines	Panay	Antique	Sibalom																		
+G	103	E7	RMB 5342	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	E8	RMB 5343	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	E9	RMB 5344	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	F1	RMB 5345	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	F2	RMB 5346	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	F3	RMB 5347	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	F8	RMB 5352	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	H6	RMB 5367	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	H7	RMB 5368	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	H8	RMB 5369	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	H9	RMB 5370	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	I1	RMB 5371	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	I2	RMB 5372	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	I3	RMB 5373	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	I4	RMB 5374	Gekko	cf mindorensis	Philippines	Lubang																				
+G	103	I5	RMB 5375	Gekko	cf mindorensis	Philippines	Lubang																				
+H	105	D8	RMB 5490	Gekko	cf mindorensis	Philippines	Lubang																				
+H	105	D9	RMB 5491	Gekko	cf mindorensis	Philippines	Lubang																				
+H	105	E1	RMB 5492	Gekko	cf mindorensis	Philippines	Lubang																				
+H	105	E2	RMB 5493	Gekko	cf mindorensis	Philippines	Lubang																				
+H	105	E3	RMB 5494	Gekko	cf mindorensis	Philippines	Lubang																				
+H	105	E4	RMB 5495	Gekko	cf mindorensis	Philippines	Lubang																				
+H	105	E5	RMB 5496	Gekko	cf mindorensis	Philippines	Lubang																				
+H	105	E6	RMB 5497	Gekko	cf mindorensis	Philippines	Lubang																				
+H	105	E7	RMB 5498	Gekko	cf mindorensis	Philippines	Lubang																				
+H	105	E8	RMB 5499	Gekko	cf mindorensis	Philippines	Lubang																				
+D	60	12	CDS 099	Gekko	cf monarchus	Philippines	Camiguin Sur	Camiguin	Guinsiliban	Cabuan																	
+D	60	13	CDS 100	Gekko	cf monarchus	Philippines	Camiguin Sur	Camiguin	Guinsiliban	Cabuan																	
+D	60	14	CDS 101	Gekko	cf monarchus	Philippines	Camiguin Sur	Camiguin	Guinsiliban	Cabuan																	
+D	60	15	CDS 102	Gekko	cf monarchus	Philippines	Camiguin Sur	Camiguin	Guinsiliban	Cabuan																	
+E	62	37	CDS 277	Gekko	cf monarchus	Philippines	Negros	Negros Occidental	Cauayan	Camalandaan	"320m, 09deg50.272N, 122deg30.322E"																
+E	62	38	CDS 278	Gekko	cf monarchus	Philippines	Negros	Negros Occidental	Cauayan	Camalandaan	"320m, 09deg50.272N, 122deg30.322E"																
+E	62	39	CDS 279	Gekko	cf monarchus	Philippines	Negros	Negros Occidental	Cauayan	Camalandaan	"320m, 09deg50.272N, 122deg30.322E"																
+E	63	70	CDS 382	Gekko	cf monarchus	Philippines	Guimaras	Guimaras	Buenavista	Old poblacion	"Daliran Cave, 30m"																
+E	65	74	CDS 548	Gekko	cf monarchus	Philippines	Guimaras	Guimaras	Jordon	Rizal	" 83m, 10deg40.802N, 122deg36.948E"																
+E	68	47	CDS 755	Gekko	cf monarchus	Philippines	Masbate	Masbate	Mandaon	Poblacion	 0m-20m 																
+E	68	49	CDS 757	Gekko	cf monarchus	Philippines	Masbate	Masbate	Mandaon	Poblacion	 0m-20m 																
+E	68	50	CDS 758	Gekko	cf monarchus	Philippines	Masbate	Masbate	Mandaon	Poblacion	 0m-20m 																
+G	102	A3	RMB 5220	Gekko	cf monarchus	Philippines	Lubang																				
+G	102	I2	RMB 5291	Gekko	cf monarchus	Philippines	Lubang																				
+G	102	I3	RMB 5292	Gekko	cf monarchus	Philippines	Lubang																				
+H	106	A6	RMB 5541	Gekko	cf monarchus	Philippines	Lubang																				
+H	106	A7	RMB 5542	Gekko	cf monarchus	Philippines	Lubang																				
+H	106	A8	RMB 5543	Gekko	cf monarchus	Philippines	Lubang																				
+H	106	D1	RMB 5563	Gekko	cf monarchus	Philippines	Lubang																				
+H	106	D2	RMB 5564	Gekko	cf monarchus	Philippines	Lubang																				
+H	106	D3	RMB 5565	Gekko	cf monarchus	Philippines	Lubang																				
+H	106	D4	RMB 5566	Gekko	cf monarchus	Philippines	Lubang																				
+H	106	D5	RMB 5567	Gekko	cf monarchus	Philippines	Lubang																				
+H	106	D6	RMB 5568	Gekko	cf monarchus	Philippines	Lubang																				
+E	68	80	CDS 786	Gekko	cf romblon	Philippines	Romblon	Romblon	Romblon	Li-O	"Takot Cave, 10m-37m, 25degC @1900hrs, 12deg34.446N, 122deg17.640E"																
+E	68	81	CDS 787	Gekko	cf romblon	Philippines	Romblon	Romblon	Romblon	Li-O	"Takot Cave, 10m-37m, 25degC @1900hrs, 12deg34.446N, 122deg17.640E"																
+E	69	1	CDS 788	Gekko	cf romblon	Philippines	Romblon	Romblon	Romblon	Li-O	"Takot Cave, 10m-37m, 25degC @1900hrs, 12deg34.446N, 122deg17.640E"																
+E	69	2	CDS 789	Gekko	cf romblon	Philippines	Romblon	Romblon	Romblon	Li-O	"Takot Cave, 10m-37m, 25degC @1900hrs, 12deg34.446N, 122deg17.640E"																
+E	69	3	CDS 790	Gekko	cf romblon	Philippines	Romblon	Romblon	Romblon	Li-O	"Takot Cave, 10m-37m, 25degC @1900hrs, 12deg34.446N, 122deg17.640E"																
+E	69	4	CDS 791	Gekko	cf romblon	Philippines	Romblon	Romblon	Romblon	Li-O	"Takot Cave, 10m-37m, 25degC @1900hrs, 12deg34.446N, 122deg17.640E"																
+E	69	5	CDS 792	Gekko	cf romblon	Philippines	Romblon	Romblon	Romblon	Li-O	"Takot Cave, 10m-37m, 25degC @1900hrs, 12deg34.446N, 122deg17.640E"																
+AA	401	B2	CDS 6038	Gekko	cf. mindorensis	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	B3	CDS 6039	Gekko	cf. mindorensis	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+L	166	B2	ACD 3021	Gekko	cf. monarchus		San Jose																				
+R	261	B2	RMB 8754	Gekko	cf. romblon	Philippines	Tablas	Romblon	Calatrava	Balogo	Piqueno																
+R	261	C5	RMB 8766	Gekko	cf. romblon	Philippines	Tablas	Romblon	Calatrava	Balogo	Piqueno																
+R	261	E9	RMB 8789	Gekko	cf. romblon	Philippines	Tablas	Romblon	Calatrava	Balogo	Piqueno																
+F	83	65	ACD 2598	Gekko	gecko	Philippines	Luzon		"Arbismen, Quezon Province"																		
+Z	385	I9	ACD 4536	Gekko	gecko	Philippines	Luzon	Bulakan	Biak na Bato																		
+Z	386	C6	ACD 4561	Gekko	gecko	Philippines	Luzon	Bulakan	Biak na Bato																		
+AA	393	E4	ACD 5977	Gekko	gecko	Philippines			Rizal?																		
+E	74	36	CDS 052	Gekko	gecko	Philippines	N. Gigante	Iloilo	Carles	Asloman	0m																
+E	74	44	CDS 060	Gekko	gecko	Philippines	Camiguin Sur	Camiguin	Mambajao	Balbagon	0m																
+E	74	51	CDS 067	Gekko	gecko	Philippines	Panay	Capiz	Pilar	Natividad	0m																
+E	74	52	CDS 067	Gekko	gecko	Philippines	Panay	Capiz	Pilar	Natividad	0m																
+E	74	73	CDS 087	Gekko	gecko	Philippines	Camiguin Sur	Camiguin	Mambajao	Balbagon	0m																
+E	75	14	CDS 1236	Gekko	gecko	Philippines	Mindoro	Mindoro Oriental	Gloria	Malamig	"Sitio tipulo, Balite River, 60m elev, 12deg57.903N, 121deg22.943E"																
+D	60	51	CDS 137	Gekko	gecko	Philippines	Panay	Antique	Pandan	Duyong																	
+D	47	68	CDS 1372	Gekko	gecko	Philippines	Sibuyan	Romblon		Mt. Guiting Park																	
+D	60	52	CDS 138	Gekko	gecko	Philippines	Panay	Antique	Pandan	Duyong																	
+D	49	8	CDS 1416	Gekko	gecko	Philippines	Sibuyan	Romblon		Mt. Guiting Park																	
+D	49	9	CDS 1417	Gekko	gecko	Philippines	Sibuyan	Romblon		Mt. Guiting Park																	
+D	49	10	CDS 1418	Gekko	gecko	Philippines	Sibuyan	Romblon		Mt. Guiting Park																	
+D	49	11	CDS 1419	Gekko	gecko	Philippines	Sibuyan	Romblon		Mt. Guiting Park																	
+E	75	62	CDS 1464	Gekko	gecko	Philippines	Maestre de Campo	Romblon	Concepcion	San Vicente	"0m elev, 12deg54.935N, 121deg43.493E"																
+E	75	67	CDS 1469	Gekko	gecko	Philippines	Maestre de Campo	Romblon	Concepcion	San Vicente	"0m elev, 12deg54.935N, 121deg43.493E"																
+G	99	C2	CDS 1513	Gekko	gecko	Philippines	Panay		Pandan																		
+G	99	C3	CDS 1514	Gekko	gecko	Philippines	Panay		Pandan																		
+G	99	C4	CDS 1515	Gekko	gecko	Philippines	Panay		Pandan																		
+G	99	C5	CDS 1516	Gekko	gecko	Philippines	Panay		Pandan																		
+G	99	G6	CDS 1555	Gekko	gecko	Philippines	Panay		Pandan																		
+G	100	D2	CDS 1605	Gekko	gecko	Philippines	Panay		Culasi	Alojipan																	
+G	100	E6	CDS 1618	Gekko	gecko	Philippines	Panay		Culasi	Alojipan																	
+G	100	F9	CDS 1630	Gekko	gecko	Philippines	Panay		Culasi	Alojipan																	
+G	100	I4	CDS 1652	Gekko	gecko	Philippines	Panay		Culasi	Alojipan																	
+E	61	44	CDS 208	Gekko	gecko	Philippines	Panay	Antique	Pandan	Duyong																	
+E	61	45	CDS 209	Gekko	gecko	Philippines	Panay	Antique	Pandan	Duyong																	
+E	61	46	CDS 210	Gekko	gecko	Philippines	Panay	Antique	Pandan	Duyong																	
+E	61	47	CDS 211	Gekko	gecko	Philippines	Panay	Antique	Pandan	Duyong																	
+E	62	64	CDS 303	Gekko	gecko	Philippines	Negros	Negros Occidental	Cauayan	Camalandaan	"320m, 09deg50.272N, 122deg30.322E"																
+E	62	65	CDS 303	Gekko	gecko	Philippines	Negros	Negros Occidental	Cauayan	Camalandaan	"320m, 09deg50.272N, 122deg30.322E"																
+V	325	H6	CDS 3627	Gekko	gecko	Philippines	Negros	Bacong	Liptong																		
+V	325	H7	CDS 3628	Gekko	gecko	Philippines	Negros	Bacong	Liptong																		
+V	325	H8	CDS 3629	Gekko	gecko	Philippines	Negros	Bacong	Liptong																		
+V	325	H9	CDS 3630	Gekko	gecko	Philippines	Negros	Bacong	Liptong																		
+V	325	I1	CDS 3631	Gekko	gecko	Philippines	Negros	Bacong	Liptong																		
+V	325	I2	CDS 3632	Gekko	gecko	Philippines	Negros	Bacong	Liptong																		
+E	63	53	CDS 365	Gekko	gecko	Philippines	Guimaras	Guimaras	Buenavista	McLain	"100m, 10deg41.548N, 122deg39.337E"																
+E	63	55	CDS 367	Gekko	gecko	Philippines	Guimaras	Guimaras	Buenavista	McLain	"100m, 10deg41.548N, 122deg39.337E"																
+E	63	56	CDS 368	Gekko	gecko	Philippines	Guimaras	Guimaras	Buenavista	McLain	"100m, 10deg41.548N, 122deg39.337E"																
+U	311	E6	CDS 3777	Gekko	gecko	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	H9	CDS 3807	Gekko	gecko	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+W	333	D5	CDS 4072	Gekko	gecko	Philippines	Luzon	Albay	Bacacay	Sugod																	
+W	333	D6	CDS 4073	Gekko	gecko	Philippines	Luzon	Albay	Bacacay	Sugod																	
+W	338	E5	CDS 4465	Gekko	gecko	Phillipines	Bohol	Bohol	Bilar	"Riverside, Magsaysay Park, Raja Sikatuna Protected Landscape"																	
+E	65	23	CDS 498	Gekko	gecko	Philippines	Masbate	Masbate	Mobo	Tugbo	0m																
+E	65	24	CDS 499	Gekko	gecko	Philippines	Masbate	Masbate	Mobo	Tugbo	0m																
+E	65	25	CDS 500	Gekko	gecko	Philippines	Masbate	Masbate	Mobo	Tugbo	0m																
+E	65	38	CDS 512	Gekko	gecko	Philippines	Masbate	Masbate	Masbate City	Malinta	"47m, 12deg18.719N, 123deg32.798E"																
+E	65	39	CDS 513	Gekko	gecko	Philippines	Masbate	Masbate	Masbate City	Malinta	"47m, 12deg18.719N, 123deg32.798E"																
+E	65	79	CDS 553	Gekko	gecko	Philippines	Guimaras	Guimaras	Buenavista	McLain	"100m, 10deg41.548N, 122deg39.337E"																
+E	66	35	CDS 589	Gekko	gecko	Philippines	Caluya	Antique	Caluya	Poblacion	"cave system, 15m"																
+E	66	81	CDS 634	Gekko	gecko	Philippines	Semirara	Antique	Caluya	Tinogboc	0m																
+E	67	1	CDS 635	Gekko	gecko	Philippines	Semirara	Antique	Caluya	Tinogboc	0m																
+E	67	2	CDS 636	Gekko	gecko	Philippines	Semirara	Antique	Caluya	Tinogboc	0m																
+E	67	3	CDS 637	Gekko	gecko	Philippines	Semirara	Antique	Caluya	Tinogboc	0m																
+E	67	5	CDS 639	Gekko	gecko	Philippines	Semirara	Antique	Caluya	Tinogboc	0m																
+E	67	55	CDS 684	Gekko	gecko	Philippines	Semirara	Antique	Caluya	Tinogboc	" 0m-15m, 12deg01.368N, 121deg24.848E"																
+E	67	56	CDS 685	Gekko	gecko	Philippines	Semirara	Antique	Caluya	Tinogboc	0m																
+E	67	57	CDS 686	Gekko	gecko	Philippines	Semirara	Antique	Caluya	Tinogboc	0m																
+E	67	58	CDS 687	Gekko	gecko	Philippines	Semirara	Antique	Caluya	Tinogboc	0m																
+E	68	9	CDS 718	Gekko	gecko	Philippines	Semirara	Antique	Caluya	Tinogboc	0m																
+E	68	10	CDS 719	Gekko	gecko	Philippines	Semirara	Antique	Caluya	Tinogboc	0m																
+E	68	11	CDS 720	Gekko	gecko	Philippines	Semirara	Antique	Caluya	Tinogboc	0m																
+E	70	31	CDS 898	Gekko	gecko	Philippines	Negros	Oriental	Valencia	Bongbong	"Mt. Talinis, 800m"																
+E	71	42	CDS 963	Gekko	gecko	Philippines	Negros	Oriental	Valencia	Bongbong	"Mt. Talinis, 500-800m"																
+X	348	C3	CDS4769	Gekko	gecko	Philippines	Bohol	Bohol	Sierra Bullones	"Danicop, Raja Sikatuna Protected Landscape"	9.76116	124.28882															
+X	349	B2	CDS4842	Gekko	gecko	Philippines	Bohol	Bohol	Sierra Bullones	"Danicop, Raja Sikatuna Protected Landscape"	9.76116	124.28882															
+X	350	C5	CDS4935	Gekko	gecko	Philippines	Bohol	Bohol	Sierra Bullones	"Danicop, Raja Sikatuna Protected Landscape"	9.76116	124.28882															
+X	350	C6	CDS4936	Gekko	gecko	Philippines	Bohol	Bohol	Sierra Bullones	"Danicop, Raja Sikatuna Protected Landscape"	9.76116	124.28882															
+X	351	D4	CDS5024	Gekko	gecko	Philippines	Bohol	Bohol	Sierra Bullones	"Danicop, Raja Sikatuna Protected Landscape"	9.76116	124.28882															
+X	352	G7	CDS5129	Gekko	gecko	Philippines	Masbate	Masbate	Masbate City		12.34729	123.63828															
+X	355	C3	CDS5531	Gekko	gecko	Philippines	Mindanao	South Cotabato	Tampakan	Kimlawis																	
+E	70	77	CDSGS 53	Gekko	gecko	Philippines	Sibuyan	Romblon	Magdiwang	Poblacion	0-30m																
+E	70	80	CDSGS 56	Gekko	gecko	Philippines	Romblon	Romblon	Romblon	Li-O	"Takot Cave, 10m-37m, 25degC @1900hrs, 12deg34.446N, 122deg17.640E"																
+E	70	81	CDSGS 57	Gekko	gecko	Philippines	Romblon	Romblon	Romblon	Li-O	"Takot Cave, 10m-37m, 25degC @1900hrs, 12deg34.446N, 122deg17.640E"																
+I	125	25	CWL 050	Gekko	gecko	Philippines	Negros Is.	Negros Oriental	Dumagete	Valencia																	
+I	125	49	CWL 074	Gekko	gecko	Philippines	Cebu Is.	Cebu	Alcoy																		
+I	125	59	CWL 082	Gekko	gecko	Philippines	Cebu Is.	Cebu	Alcoy																		
+I	125	60	CWL 083	Gekko	gecko	Philippines	Cebu Is.	Cebu	Alcoy																		
+I	125	61	CWL 084	Gekko	gecko	Philippines	Cebu Is.	Cebu	Alcoy																		
+AD	436	C3	DSM 1635	Gekko	gecko	Philippines	Luzon	Bulacan	Doña Remedios Trinidad (DRT)	Barangay Norzagaray; AWAT Office; Angat Waterched																	
+AD	436	C4	DSM 1636	Gekko	gecko	Philippines	Luzon	Bulacan	Doña Remedios Trinidad (DRT)	Barangay Norzagaray; AWAT Office; Angat Waterched																	
+AD	436	C5	DSM 1637	Gekko	gecko	Philippines	Luzon	Bulacan	Doña Remedios Trinidad (DRT)	Barangay Norzagaray; AWAT Office; Angat Waterched																	
+AD	436	C6	DSM 1638	Gekko	gecko	Philippines	Luzon	Bulacan	Doña Remedios Trinidad (DRT)	Barangay Norzagaray; AWAT Office; Angat Waterched																	
+AD	436	D3	DSM 1644	Gekko	gecko	Philippines	Luzon	Bulacan	Doña Remedios Trinidad (DRT)	Barangay Norzagaray; AWAT Office; Angat Waterched																	
+K	154	B2	ELR 727	Gekko	gecko	Philippines				Malpalon																	
+K	154	B3	ELR 728	Gekko	gecko	Philippines				Malpalon																	
+K	154	C3	ELR 737	Gekko	gecko	Philippines				Malpalon																	
+S	285	G3	RMB 10551	Gekko	gecko	Philippines	Luzon	Laguna	Los Banos	Batong Malake	Mt. Makiling																
+V	323	G8	RMB 11711	Gekko	gecko	Philippines	Mindanao	Zamboanga City	Pasanonca	Pasanoca	"Intake Station, Pasonanca Natural Park"																
+V	323	H7	RMB 11719	Gekko	gecko	Philippines	Mindanao	Zamboanga City	Pasanonca	Pasanoca	"Intake Station, Pasonanca Natural Park"																
+Z	382	B1	RMB 13762	Gekko	gecko	Philippines	Luzon	Albay	Malinao	Tanawan																	
+Z	382	B2	RMB 13763	Gekko	gecko	Philippines	Luzon	Albay	Malinao	Tanawan																	
+Z	382	B3	RMB 13764	Gekko	gecko	Philippines	Luzon	Albay	Malinao	Tanawan																	
+Z	382	B5	RMB 13766	Gekko	gecko	Philippines	Luzon	Albay	Malinao	Tanawan																	
+Z	382	B6	RMB 13767	Gekko	gecko	Philippines	Luzon	Albay	Malinao	Tanawan																	
+Z	382	B7	RMB 13768	Gekko	gecko	Philippines	Luzon	Albay	Malinao	Tanawan																	
+Z	382	B8	RMB 13769	Gekko	gecko	Philippines	Luzon	Albay	Malinao	Tanawan																	
+Z	382	B9	RMB 13770	Gekko	gecko	Philippines	Luzon	Albay	Malinao	Tanawan																	
+AB	415	C1	RMB 15112	Gekko	gecko	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+AD	445	D1	RMB 15322	Gekko	gecko	Philippines	Cebu Isl.	Cebu	Argao		Mt. Lantoy; N 9.901°; E: 123.530°; 400 masl																
+AD	445	E4	RMB 15334	Gekko	gecko	Philippines	Cebu Isl.	Cebu	Argao		Mt. Lantoy; N 9.901°; E: 123.530°; 400 masl																
+B	20	B1	RMB 3016	Gekko	gecko	Philippines	Palawan	Nara	estrella falls																		
+B	20	A3	RMB 3024	Gekko	gecko	Philippines	Palawan	Nara	estrella falls																		
+F	89	51	RMB 3213	Gekko	gecko				Negros																		
+F	89	63	RMB 3231	Gekko	gecko				Negros																		
+J	143	F4	RMB 335	Gekko	gecko																						
+F	87	50	RMB 3409	Gekko	gecko	Philippines	Luzon		Mt Isarog																		
+A	1	E5	RMB 4210	Gekko	gecko	Philippines	Luzon		Callao Caves																		
+A	5	F4	RMB 4372	Gekko	gecko	Philippines	Leyte		Baybay																		
+A	7	F5	RMB 4410	Gekko	gecko	Philippines	Luzon		Subic Bay																		
+D	56	48	RMB 4623	Gekko	gecko	Philippines	Luzon	Zambales																			
+D	48	33	RMB 5034	Gekko	gecko	Philippines			Dubduban																		
+D	48	43	RMB 5038	Gekko	gecko	Philippines			Dubduban																		
+D	48	40	RMB 5039	Gekko	gecko	Philippines			Dubduban																		
+D	51	11	RMB 5135	Gekko	gecko	Philippines	Romblon	Romblon	Cajimos																		
+C	35	Loose	RMB 517	Gekko	gecko	Philippines	Mindoro			Tamaraw Falls																	
+C	35	Loose	RMB 518	Gekko	gecko	Philippines	Mindoro			Tamaraw Falls																	
+G	102	B7	RMB 5233	Gekko	gecko	Philippines	Lubang																				
+G	102	B8	RMB 5234	Gekko	gecko	Philippines	Lubang																				
+G	102	B9	RMB 5235	Gekko	gecko	Philippines	Lubang																				
+G	102	C1	RMB 5236	Gekko	gecko	Philippines	Lubang																				
+G	102	C2	RMB 5237	Gekko	gecko	Philippines	Lubang																				
+G	102	E5	RMB 5258	Gekko	gecko	Philippines	Lubang																				
+G	102	E6	RMB 5259	Gekko	gecko	Philippines	Lubang																				
+G	102	E7	RMB 5260	Gekko	gecko	Philippines	Lubang																				
+G	102	G8	RMB 5279	Gekko	gecko	Philippines	Lubang																				
+G	102	G9	RMB 5280	Gekko	gecko	Philippines	Lubang																				
+G	102	H1	RMB 5281	Gekko	gecko	Philippines	Lubang																				
+G	102	H2	RMB 5282	Gekko	gecko	Philippines	Lubang																				
+G	103	E1	RMB 5336	Gekko	gecko	Philippines	Lubang																				
+G	103	E2	RMB 5337	Gekko	gecko	Philippines	Lubang																				
+M	187	G9	RMB 7467	Gekko	gecko		Irawan																				
+M	192	F5	RMB 7874	Gekko	gecko																						
+M	192	F6	RMB 7875	Gekko	gecko																						
+M	193	B6	RMB 7920	Gekko	gecko		Quezon																				
+M	193	B7	RMB 7921	Gekko	gecko		Quezon																				
+Q	241	H6	RMB 8260	Gekko	gecko	Philippines	Camiguin Sur	Camiguin	Mambajao	Balintawak	Hotsprings																
+Q	241	H7	RMB 8261	Gekko	gecko	Philippines	Camiguin Sur	Camiguin	Mambajao	Balintawak	Hotsprings																
+Q	241	H8	RMB 8262	Gekko	gecko	Philippines	Camiguin Sur	Camiguin	Mambajao	Balintawak	Hotsprings																
+Q	241	H9	RMB 8263	Gekko	gecko	Philippines	Camiguin Sur	Camiguin	Mambajao	Balintawak	Hotsprings																
+R	261	A1	RMB 8744	Gekko	gecko	Philippines	Tablas	Romblon	Odiongan	Hinagoman	Durubiutana																
+S	283	F7	RMB 9108	Gekko	gecko	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Tumaga River"																	
+E	74	32	CDS 048	Gekko	gigante	Philippines	N. Gigante	Iloilo	Carles	Granada	"Bakwitan Cave, 20m"																
+E	74	33	CDS 049	Gekko	gigante	Philippines	N. Gigante	Iloilo	Carles	Granada	"Bakwitan Cave, 20m"																
+E	74	34	CDS 050	Gekko	gigante	Philippines	N. Gigante	Iloilo	Carles	Asluman	"Langub Cave, 5m"																
+E	74	35	CDS 051	Gekko	gigante	Philippines	N. Gigante	Iloilo	Carles	Asluman	"Langub Cave, 5m"																
+E	74	37	CDS 053	Gekko	gigante	Philippines	N. Gigante	Iloilo	Carles	Asluman	"Langub Cave, 5m"																
+B	20	C6	RMB 2245	Gekko	gigante	Philippines	Gigante																				
+B	20	A1	RMB 2246	Gekko	gigante	Philippines	Gigante																				
+B	20	C5	RMB 2247	Gekko	gigante	Philippines	Gigante																				
+B	20	A2	RMB 2248	Gekko	gigante	Philippines	Gigante																				
+Z	378	F2	HOFH 89053103	Gekko	hokouensis																						
+Z	378	F1	HOFH 10061401	Gekko	japonicus	Japan																					
+Z	378	E9	HOFH 10061402	Gekko	japonicus	Japan																					
+Z	378	F4	HOFH 89053101	Gekko	kikuchii																						
+Z	378	F3	HOFH 89053102	Gekko	kikuchii																						
+O	220	I6	USNM 222793	Gekko	mindorensis																						
+AA	392	F8	ACD 6075	Gekko	mindorensis	Philippines			Cabangaan																		
+AA	392	F9	ACD 6076	Gekko	mindorensis	Philippines			Cabangaan																		
+D	51	71	CDS 1228	Gekko	mindorensis	Philippines			Formon																		
+D	51	72	CDS 1229	Gekko	mindorensis	Philippines			Formon																		
+D	51	73	CDS 1230	Gekko	mindorensis	Philippines			Formon																		
+D	51	74	CDS 1231	Gekko	mindorensis	Philippines			Formon																		
+E	75	13	CDS 1235	Gekko	mindorensis	Philippines	Mindoro	Mindoro Oriental	Roxas City	Bagumbayan	"0m, LYF Hotel and restaurant"																
+U	311	A2	CDS 3734	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	F3	CDS 3783	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	G5	CDS 3794	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	G6	CDS 3795	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	G7	CDS 3796	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	G8	CDS 3797	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	G9	CDS 3798	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	H1	CDS 3799	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	H2	CDS 3800	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	H3	CDS 3801	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	H4	CDS 3802	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	H5	CDS 3803	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	H6	CDS 3804	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	H7	CDS 3805	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	311	H8	CDS 3806	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	B7	CDS 3831	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	B8	CDS 3832	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	B9	CDS 3833	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	C1	CDS 3834	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	C2	CDS 3835	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	C3	CDS 3836	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	C4	CDS 3837	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	C5	CDS 3838	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	F1	CDS 3861	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	F2	CDS 3862	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	F3	CDS 3863	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	F4	CDS 3864	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	F5	CDS 3865	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	F6	CDS 3866	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	F7	CDS 3867	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	F8	CDS 3868	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	I6	CDS 3894	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	312	I7	CDS 3895	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	313	E2	CDS 3935	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+U	313	E3	CDS 3936	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro	Lubang	Vigo	Dangay																
+AA	401	B1	CDS 6037	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	B8	CDS 6044	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	B9	CDS 6045	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	C1	CDS 6046	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	C2	CDS 6047	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	C4	CDS 6049	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	C5	CDS 6050	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	C6	CDS 6051	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	C7	CDS 6052	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	C8	CDS 6053	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AA	401	C9	CDS 6054	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos		"University of the Philippines - Los Banos Campus, Flat Rocks Area"																
+AD	437	I5	DSM 1799	Gekko	mindorensis	Philippines	Luzon	Bulacan	Doña Remedios Trinidad (DRT)	Barangay Kabayunan; Langud River; Angat Waterched	Sitio Talagyo																
+H	114	C2	ELR 373	Gekko	mindorensis	Philippines																					
+H	114	D8	ELR 388	Gekko	mindorensis	Philippines																					
+H	114	D9	ELR 389	Gekko	mindorensis	Philippines																					
+H	114	E1	ELR 390	Gekko	mindorensis	Philippines																					
+H	114	E2	ELR 391	Gekko	mindorensis	Philippines																					
+H	114	E4	ELR 393	Gekko	mindorensis	Philippines																					
+H	114	E5	ELR 394	Gekko	mindorensis	Philippines																					
+H	114	E6	ELR 395	Gekko	mindorensis	Philippines																					
+S	285	D6	RMB 10527	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos	Batong Malake	Mt. Makiling																
+S	285	D7	RMB 10528	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos	Batong Malake	Mt. Makiling																
+S	285	I2	RMB 10568	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos	Batong Malake	Mt. Makiling																
+S	285	I3	RMB 10569	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos	Batong Malake	Mt. Makiling																
+S	285	I4	RMB 10570	Gekko	mindorensis	Philippines	Luzon	Laguna	Los Banos	Batong Malake	Mt. Makiling																
+U	307	E3	RMB 12524	Gekko	mindorensis	Philippines	Luzon	Aurora	Baler	Zabali	ASCOT																
+Z	380	H1	RMB 13655	Gekko	mindorensis	Philippines	Luzon	Quezon	Atimonan																		
+Z	380	H2	RMB 13656	Gekko	mindorensis	Philippines	Luzon	Quezon	Atimonan																		
+Z	380	H3	RMB 13657	Gekko	mindorensis	Philippines	Luzon	Quezon	Atimonan																		
+Z	380	H4	RMB 13658	Gekko	mindorensis	Philippines	Luzon	Quezon	Atimonan																		
+Z	380	H5	RMB 13659	Gekko	mindorensis	Philippines	Luzon	Quezon	Atimonan																		
+Z	380	H6	RMB 13660	Gekko	mindorensis	Philippines	Luzon	Quezon	Atimonan																		
+Z	380	H7	RMB 13661	Gekko	mindorensis	Philippines	Luzon	Quezon	Atimonan																		
+Z	380	H8	RMB 13662	Gekko	mindorensis	Philippines	Luzon	Quezon	Atimonan																		
+Z	380	H9	RMB 13663	Gekko	mindorensis	Philippines	Luzon	Quezon	Atimonan																		
+AD	445	E7	RMB 15337	Gekko	mindorensis	Philippines	Cebu Isl.	Cebu	Argao		Mt. Lantoy; N 9.901°; E: 123.530°; 400 masl																
+AD	445	E8	RMB 15338	Gekko	mindorensis	Philippines	Cebu Isl.	Cebu	Argao		Mt. Lantoy; N 9.901°; E: 123.530°; 400 masl																
+F	89	8	RMB 3252	Gekko	mindorensis				Negros																		
+F	76	6	RMB 4981	Gekko	mindorensis	Philippines	Mindoro		Formon																		
+F	76	7	RMB 4982	Gekko	mindorensis	Philippines	Mindoro		Formon																		
+F	76	25	RMB 5005	Gekko	mindorensis	Philippines	Mindoro		Formon																		
+F	76	26	RMB 5006	Gekko	mindorensis	Philippines	Mindoro		FRIM Campus																		
+C	35	Loose	RMB 502	Gekko	mindorensis	Philippines	Mindoro			Tamaraw Falls																	
+C	35	Loose	RMB 514	Gekko	mindorensis	Philippines	Mindoro			Tamaraw Falls																	
+C	35	Loose	RMB 515	Gekko	mindorensis	Philippines	Mindoro			Tamaraw Falls																	
+Y	369	G8	RMB13574	Gekko	mindorensis	Philippines	Luzon	Nueva Viscaya	Quezon	Maddiangat	"Mt. Palali, low elev."																
+Y	369	G9	RMB13575	Gekko	mindorensis	Philippines	Luzon	Nueva Viscaya	Quezon	Maddiangat	"Mt. Palali, low elev."																
+AD	447	A6	AC D 7354	Gekko	monarchus	Philippines	Palawan	Palawan	El Nido																		
+AD	447	A7	AC D 7355	Gekko	monarchus	Philippines	Palawan	Palawan	El Nido																		
+AD	447	B2	AC D 7359	Gekko	monarchus	Philippines	Palawan	Palawan	El Nido																		
+AD	447	B3	AC D 7360	Gekko	monarchus	Philippines	Palawan	Palawan	El Nido																		
+AD	447	B4	AC D 7361	Gekko	monarchus	Philippines	Palawan	Palawan	El Nido																		
+AD	447	B6	AC D 7363	Gekko	monarchus	Philippines	Palawan	Palawan	El Nido																		
+L	166	B1	ACD 3020	Gekko	monarchus		San Jose																				
+J	136	55	ACD 3077	Gekko	monarchus	Philippines	Luzon	Isabela	San Mariano	Binatug																	
+J	138	23	ACD 3210	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	138	24	ACD 3211	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	138	25	ACD 3212	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	138	26	ACD 3213	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	138	27	ACD 3214	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	138	28	ACD 3215	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	138	29	ACD 3216	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	138	30	ACD 3217	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	138	54	ACD 3243	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	138	55	ACD 3244	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	138	56	ACD 3245	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	139	51	ACD 3321	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	139	52	ACD 3322	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	140	39	ACD 3390	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	140	40	ACD 3391	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	140	41	ACD 3392	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	140	42	ACD 3393	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+J	140	50	ACD 3401	Gekko	monarchus	Philippines	Luzon	Cagayan	Gattaran	Nassiping																	
+O	220	H8	BSI 1140	Gekko	monarchus																						
+O	220	I2	BSI 317	Gekko	monarchus						Tangkoko																
+O	220	H3	BSI 338	Gekko	monarchus						Tangkoko																
+O	220	H2	BSI 339	Gekko	monarchus						Tangkoko																
+O	220	H4	BSI 340	Gekko	monarchus						Tangkoko																
+O	220	H5	BSI 787	Gekko	monarchus						Lombong																
+E	75	59	CDS 1461	Gekko	monarchus	Philippines	Maestre de Campo	Romblon	Concepcion	San Vicente	"0m elev, 12deg54.935N, 121deg43.493E"																
+E	75	60	CDS 1462	Gekko	monarchus	Philippines	Maestre de Campo	Romblon	Concepcion	San Vicente	"0m elev, 12deg54.935N, 121deg43.493E"																
+E	75	61	CDS 1463	Gekko	monarchus	Philippines	Maestre de Campo	Romblon	Concepcion	San Vicente	"0m elev, 12deg54.935N, 121deg43.493E"																
+O	220	H7	ISB 749	Gekko	monarchus						Puladu																
+O	220	H6	ISB 819	Gekko	monarchus						Lombong																
+O	220	H9	JAM 1337	Gekko	monarchus						Palawan																
+O	220	I1	JAM 1338	Gekko	monarchus						Palawan																
+O	220	I9	JAM 2558	Gekko	monarchus						Peleng																
+O	220	I3	JAM 4827	Gekko	monarchus						Fotamebago																
+Z	378	H6	LSUHC 4413	Gekko	monarchus	West Malaysia	Pulau Tioman	Pahang																			
+Z	378	H7	LSUHC 4469	Gekko	monarchus	West Malaysia	Pulau Pemanggil	Johor																			
+Z	378	H8	LSUHC 4692	Gekko	monarchus	West Malaysia	Pulau Tulai	Pahang																			
+Z	378	H9	LSUHC 4737	Gekko	monarchus	West Malaysia	Pulau Aur	Johor																			
+Z	378	I1	LSUHC 4824	Gekko	monarchus	West Malaysia		Selangor	Kepong																		
+Z	378	I2	LSUHC 5215	Gekko	monarchus	West Malaysia	Pulau Seribuat	Pahang																			
+Z	378	I3	LSUHC 5598	Gekko	monarchus	West Malaysia	Pulau Sembilang	Pahang																			
+Z	378	I4	LSUHC 5710	Gekko	monarchus	West Malaysia	Pualu Aceh	Pahang																			
+Z	378	I5	LSUHC 5742	Gekko	monarchus	West Malaysia	Pulau Bai Hujung	Johor																			
+Z	378	I6	LSUHC 5840	Gekko	monarchus	West Malaysia	Pulau Lima Besar	Johor																			
+Z	378	I7	LSUHC 6286	Gekko	monarchus	West Malaysia	Pulau Jahat	Pahang																			
+Z	378	I8	LSUHC 6339	Gekko	monarchus	West Malaysia	Pulau Mentigi	Johor																			
+Z	378	I9	LSUHC 6360	Gekko	monarchus	West Malaysia	Pulau Nangka Kecil	Johor																			
+Z	379	A1	LSUHC 6370	Gekko	monarchus	West Malaysia	Pulau Simbang	Johor																			
+Z	379	A2	LSUHC 6385	Gekko	monarchus	West Malaysia	Pulau Ibol	Johor																			
+Z	379	A3	LSUHC 6459	Gekko	monarchus	West Malaysia		Pahang	Fraizer's Hill																		
+Z	379	A4	LSUHC 6522	Gekko	monarchus	West Malaysia		Selangor	Kuala Selangor Natur Park																		
+Z	379	A5	LSUHC 6665	Gekko	monarchus	West Malaysia		Selangor	Ampang Reservoir																		
+Z	379	A6	LSUHC 6731	Gekko	monarchus	West Malaysia	Pulau Pinang	Pulau Pinang																			
+Z	379	A7	LSUHC 6911	Gekko	monarchus	West Malaysia	Pulau Cebeh	Pahang																			
+Z	379	A8	LSUHC 6946	Gekko	monarchus	West Malaysia	Pulau Mertang Timur	Pahang																			
+Z	379	A9	LSUHC 6950	Gekko	monarchus	West Malaysia	Pulau Mertang Tengah	Pahang																			
+Z	379	B1	LSUHC 6967	Gekko	monarchus	West Malaysia	Pulau Tunas Selatan	Pahang																			
+Z	379	B2	LSUHC 6976	Gekko	monarchus	West Malaysia	Pulau Layak	Pahang																			
+Z	379	B3	LSUHC 6982	Gekko	monarchus	West Malaysia	Pulau Pelanduk	Pahang																			
+Z	379	B4	LSUHC 7007	Gekko	monarchus	West Malaysia	Pulau Penyambong	Johor																			
+Z	379	B5	LSUHC 7056	Gekko	monarchus	West Malaysia		Pahang	Fraizer's Hill																		
+Z	379	B6	LSUHC 7289	Gekko	monarchus	West Malaysia	Pulau Aur	Johor																			
+Z	379	B7	LSUHC 7639	Gekko	monarchus	West Malaysia		Johor	Enau-Rompin																		
+Z	379	B8	LSUHC 8020	Gekko	monarchus	West Malaysia		Johor	Pulau Pemanggil																		
+Z	379	B9	LSUHC 8691	Gekko	monarchus	West Malaysia	Pulau Perhentian Besar	Terengganu																			
+Z	379	C1	LSUHC 8914	Gekko	monarchus	West Malaysia		Johor	Gunung Panti Hutan Lipur																		
+Z	379	C2	LSUHC 8952	Gekko	monarchus	West Malaysia	Pulau Besar	Melaka																			
+Z	379	C3	LSUHC 9364	Gekko	monarchus	West Malaysia	Pulau Tenggol	Terengganu																			
+G	102	H6	RMB 5286	Gekko	monarchus	Philippines	Lubang																				
+I	133	21	RMB 6138	Gekko	monarchus	Philippines	Luzon	Isabela	Cabagan	Garita																	
+AD	447	A5	AC D 7353	Gekko	palawanensis	Philippines	Palawan	Palawan	El Nido																		
+AD	447	A8	AC D 7356	Gekko	palawanensis	Philippines	Palawan	Palawan	El Nido																		
+A	6	F7	ACD 1278	Gekko	palawanensis	Philippines	Palawan	Palawan	Mt. Mantalingahan																		
+A	6	C5	ACD 1295	Gekko	palawanensis	Philippines	Palawan		Victoria																		
+M	187	G2	RMB 7460	Gekko	palawanensis	Philippines	Palawan																				
+M	192	F9	RMB 7878	Gekko	palawanensis	Philippines	Palawan																				
+M	193	B8	RMB 7922	Gekko	palawanensis	Philippines	Palawan	Quezon																			
+M	193	B9	RMB 7923	Gekko	palawanensis	Philippines	Palawan	Quezon																			
+M	193	C1	RMB 7924	Gekko	palawanensis	Philippines	Palawan	Quezon																			
+M	193	C6	RMB 7929	Gekko	palawanensis	Philippines	Palawan	Quezon																			
+M	193	C7	RMB 7930	Gekko	palawanensis	Philippines	Palawan	Quezon																			
+M	193	C8	RMB 7931	Gekko	palawanensis	Philippines	Palawan	Quezon																			
+M	193	D2	RMB 7937	Gekko	palawanensis	Philippines	Palawan	Quezon																			
+M	193	D3	RMB 7938	Gekko	palawanensis	Philippines	Palawan	Quezon																			
+M	182	E4	RMB 7605	Gekko	porosus	Philippines	Batan																				
+M	182	E5	RMB 7606	Gekko	porosus	Philippines	Batan																				
+M	182	E6	RMB 7607	Gekko	porosus	Philippines	Batan																				
+M	182	E7	RMB 7608	Gekko	porosus	Philippines	Batan																				
+M	182	E8	RMB 7609	Gekko	porosus	Philippines	Batan																				
+T	286	D8	RMB 9011	Gekko	porosus	Philippines	Batan	Batanes	Ivana	San Vicente	Sitio Chyaten																
+T	286	D9	RMB 9012	Gekko	porosus	Philippines	Batan	Batanes	Ivana	San Vicente	Sitio Chyaten																
+T	286	H7	RMB 9046	Gekko	porosus	Philippines	Batan	Batanes	Basco	San Antonio	Chadpidan																
+T	287	B7	RMB 9524	Gekko	porosus	Philippines	Batan	Batanes	Basco	San Antonio	Chadpidan																
+T	287	D3	RMB 9538	Gekko	porosus	Philippines	Batan	Batanes	Basco	San Antonio	Chadpidan																
+B	19	H5	RMB 2961	Gekko	romblon	Philippines	Sibuyan		sibuyan																		
+B	19	H6	RMB 2961	Gekko	romblon	Philippines	Sibuyan		sibuyan																		
+O	220	F4	RMB 2961	Gekko	romblon	Philippines	Sibuyan		sibuyan																		
+D	50	70	RMB 5124	Gekko	romblon	Philippines	Romblon	Romblon	Lunas																		
+D	50	69	RMB 5125	Gekko	romblon	Philippines	Romblon	Romblon	Lunas																		
+A	1	I5	JAM 1712	Gekko	smithi						Gomisak																
+E	74	47	CDS 063	Gekko	sp	Philippines	Panay	Capiz	Pilar	Natividad	0m																
+E	74	48	CDS 064	Gekko	sp	Philippines	Panay	Capiz	Pilar	Natividad	0m																
+E	74	49	CDS 065	Gekko	sp	Philippines	Panay	Capiz	Pilar	Natividad	0m																
+E	74	50	CDS 066	Gekko	sp	Philippines	Panay	Capiz	Pilar	Natividad	0m																
+G	99	G1	CDS 1550	Gekko	sp	Philippines	Panay		Pandan																		
+G	99	G5	CDS 1554	Gekko	sp	Philippines	Panay		Pandan																		
+G	101	A5	CDS 1662	Gekko	sp	Philippines	Panay		Culasi	Alojipan																	
+E	74	80	CDSGS 02	Gekko	sp	Philippines	Panay	Capiz	Pilar	Natividad	0m																
+E	74	81	CDSGS 03	Gekko	sp	Philippines	Panay	Capiz	Pilar	Natividad	0m																
+E	75	1	CDSGS 04	Gekko	sp	Philippines	Panay	Capiz	Pilar	Natividad	0m																
+A	3	C6	RMB 4090	Gekko	sp	Philippines	Luzon		Quezon Nat. Park																		
+A	3	A9	RMB 4093	Gekko	sp	Philippines	Luzon		Quezon Nat. Park																		
+H	108	D7	RMB 5703	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	108	D9	RMB 5705	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	108	E1	RMB 5706	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	108	E3	RMB 5708	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	108	G4	RMB 5725	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	108	G5	RMB 5726	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	108	G6	RMB 5727	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	108	G7	RMB 5728	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	108	G8	RMB 5729	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	108	G9	RMB 5730	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	108	H1	RMB 5731	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	108	H7	RMB 5737	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	109	B2	RMB 5753	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	109	B7	RMB 5758	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	109	F9	RMB 5793	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	110	D1	RMB 5849	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	110	D2	RMB 5850	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	110	D3	RMB 5851	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	110	D4	RMB 5852	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	110	D5	RMB 5853	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	110	D6	RMB 5854	Gekko	sp	Philippines	Camiguin Norte Is.																				
+H	111	C7	RMB 5928	Gekko	sp	Philippines	Babuyan Claro																				
+H	111	C8	RMB 5929	Gekko	sp	Philippines	Babuyan Claro																				
+H	111	C9	RMB 5930	Gekko	sp	Philippines	Babuyan Claro																				
+H	111	D5	RMB 5935	Gekko	sp	Philippines	Babuyan Claro																				
+H	111	E3	RMB 5942	Gekko	sp	Philippines	Babuyan Claro																				
+H	111	E7	RMB 5946	Gekko	sp	Philippines	Babuyan Claro																				
+H	111	E8	RMB 5947	Gekko	sp	Philippines	Babuyan Claro																				
+H	111	F2	RMB 5950	Gekko	sp	Philippines	Babuyan Claro																				
+H	111	F3	RMB 5951	Gekko	sp	Philippines	Babuyan Claro																				
+H	111	F5	RMB 5953	Gekko	sp	Philippines	Babuyan Claro																				
+H	111	F6	RMB 5954	Gekko	sp	Philippines	Babuyan Claro																				
+H	111	F9	RMB 5957	Gekko	sp	Philippines	Babuyan Claro																				
+H	111	G9	RMB 5966	Gekko	sp	Philippines	Baboyau Claro																				
+H	111	H2	RMB 5968	Gekko	sp	Philippines	Baboyau Claro																				
+H	111	H3	RMB 5969	Gekko	sp	Philippines	Baboyau Claro																				
+H	111	H4	RMB 5970	Gekko	sp	Philippines	Baboyau Claro																				
+H	112	B8	RMB 5997	Gekko	sp	Philippines	Calayan																				
+H	112	B9	RMB 5998	Gekko	sp	Philippines	Calayan																				
+H	112	D2	RMB 6006	Gekko	sp	Philippines	Calayan																				
+Z	386	A1	ACD 4537	Gekko	sp.	Philippines	Luzon	Bulakan	Biak na Bato																		
+Z	386	A2	ACD 4538	Gekko	sp.	Philippines	Luzon	Bulakan	Biak na Bato																		
+Z	386	C7	ACD 4562	Gekko	sp.	Philippines	Luzon	Bulakan	Biak na Bato																		
+Z	386	C8	ACD 4563	Gekko	sp.	Philippines	Luzon	Bulakan	Biak na Bato																		
+Z	386	C9	ACD 4564	Gekko	sp.	Philippines	Luzon	Bulakan	Biak na Bato																		
+Z	386	D1	ACD 4565	Gekko	sp.	Philippines	Luzon	Bulakan	Biak na Bato																		
+Z	385	E1	ACD 4684	Gekko	sp.	Philippines	Luzon	Bulakan	Biak na Bato																		
+Z	385	E2	ACD 4685	Gekko	sp.	Philippines	Luzon	Bulakan	Biak na Bato																		
+M	185	H5	RMB 7310	Gekko	sp.	Philippines	Camiguin																				
+M	186	E4	RMB 7363	Gekko	sp.	Philippines	Camiguin																				
+D	60	68	CDS 154	Gekko	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+D	60	69	CDS 155	Gekko	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+D	60	70	CDS 156	Gekko	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+D	60	71	CDS 157	Gekko	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+D	60	72	CDS 158	Gekko	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+D	60	73	CDS 159	Gekko	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+D	60	74	CDS 160	Gekko	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+D	60	75	CDS 161	Gekko	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+D	60	76	CDS 162	Gekko	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+D	60	77	CDS 163	Gekko	sp. 1	Philippines	Panay	Antique	Pandan	Duyong	Mt. Lihidan	"300m camp, 11deg45.655N, 122deg02.471E"															
+G	101	C1	CDS 1676	Gekko	sp. 2	Philippines	Panay		Culasi	Alojipan																	
+G	101	C2	CDS 1677	Gekko	sp. 2	Philippines	Panay		Culasi	Alojipan																	
+G	101	C3	CDS 1678	Gekko	sp. 2	Philippines	Panay		Culasi	Alojipan																	
+G	101	C4	CDS 1679	Gekko	sp. 2	Philippines	Panay		Culasi	Alojipan																	
+E	61	48	CDS 212	Gekko	sp. 2	Philippines	Panay	Antique	Pandan	Duyong																	
+E	61	49	CDS 213	Gekko	sp. 2	Philippines	Panay	Antique	Pandan	Duyong																	
+O	220	I4	JAM 2171	Gekko	vittatus						Haruku Id.																
+O	220	I5	JAM 2183	Gekko	vittatus						Ambon																
+A	4	H3	ACD 1235	Gekko		Philippines	Luzon		Cavite	Mt. Palaypalay																	
+A	6	F2	ACD 1383	Gekko		Philippines	Palawan		Estrella Fallsd																		
+A	4	B1	ACD 1445	Gekko		Philippines	Luzon		Guttaran																		
+A	4	C9	ACD 1454	Gekko		Philippines	Luzon		Palaui Isl.																		
+F	84	42	ACD 1546	Gekko		Philippines	Palawan		"Bunton River, Puerto Princesa"																		
+F	84	65	ACD 1546	Gekko		Philippines	Palawan		"Bunton River, Puerto Princesa"																		
+F	84	48	ACD 1611	Gekko		Philippines	Mindanao		"Lake Agco, Mt Apo, Davao Prov"																		
+F	83	4	ACD 1618	Gekko		Philippines	Mindanao		"Malagos, Calinan,Davao Province"																		
+D	56	81	ACD 1661	Gekko		Philippines	Verde																				
+F	83	13	ACD 2462	Gekko		Philippines	Luzon		"Del Pilar, Isabela Province, Sierra Madres Mts."																		
+K	163	A8	ACD 3519	Gekko							Kent Ridge																
+AD	446	H2	ACD 6448	Gekko				Rizal 	Tanay																		
+AD	446	H3	ACD 6449	Gekko				Rizal 	Tanay																		
+AD	446	H4	ACD 6450	Gekko				Rizal 	Tanay																		
+AD	446	H5	ACD 6451	Gekko				Rizal 	Tanay																		
+AD	446	H6	ACD 6454	Gekko				Rizal 	Tanay																		
+AD	447	A3	ACD 7121	Gekko		Philippines	Luzon Isl. 	Rizal 	Tanay																		
+B	20	B7	ACD 899	Gekko		Philippines	Luzon		Mt. Makiling																		
+P	237	B6	ELR 1500	Gekko		Philippines	Palawan																				
+P	237	C5	ELR 1508	Gekko		Philippines	Palawan																				
+P	237	C6	ELR 1509	Gekko		Philippines	Palawan																				
+P	237	F5	ELR 1535	Gekko		Philippines	Palawan																				
+P	237	F6	ELR 1536	Gekko		Philippines	Palawan																				
+P	237	F7	ELR 1537	Gekko		Philippines	Palawan																				
+P	237	F8	ELR 1538	Gekko		Philippines	Palawan																				
+P	237	F9	ELR 1539	Gekko		Philippines	Palawan																				
+P	236	C5	ELR 1589	Gekko		Philippines	Palawan																				
+P	236	C6	ELR 1590	Gekko		Philippines	Palawan																				
+P	236	C7	ELR 1591	Gekko		Philippines	Palawan																				
+P	236	C8	ELR 1592	Gekko		Philippines	Palawan																				
+P	236	C9	ELR 1593	Gekko		Philippines	Palawan																				
+P	236	D1	ELR 1594	Gekko		Philippines	Palawan																				
+P	236	D2	ELR 1595	Gekko		Philippines	Palawan																				
+P	236	D3	ELR 1596	Gekko		Philippines	Palawan																				
+P	236	D4	ELR 1597	Gekko		Philippines	Palawan																				
+P	236	E4	ELR 1606	Gekko		Philippines	Palawan																				
+P	236	F7	ELR 1618	Gekko		Philippines	Palawan																				
+B	19	I1	RMB 2831	Gekko		Philippines	Bohol		Antequera																		
+B	19	H9	RMB 2870	Gekko		Philippines	Panglao		Panglao																		
+B	19	H8	RMB 2990	Gekko		Philippines	Palawan	Nara	estrella falls																		
+B	20	A4	RMB 2991	Gekko		Philippines	Palawan	Nara	estrella falls																		
+B	20	B9	RMB 2992	Gekko		Philippines	Palawan	Nara	estrella falls																		
+B	19	H7	RMB 2993	Gekko		Philippines	Palawan	Nara	estrella falls																		
+B	19	I7	RMB 3096	Gekko		Philippines	Palawan		Brooke's Point																		
+B	19	I4	RMB 3107	Gekko		Philippines	Palawan		Brooke's Point																		
+B	19	I9	RMB 3115	Gekko		Philippines	Palawan		Brooke's Point																		
+F	87	47	RMB 3933	Gekko		Philippines	Luzon		Lake Bulusan																		
+F	87	43	RMB 3969	Gekko		Philippines	Luzon		Lake Bulusan																		
+F	87	42	RMB 3984	Gekko		Philippines	Luzon		Lake Bulusan																		
+H	117	E5	RMB 6037	Gekko		Philippines	Calayan Is.																				
+H	117	E6	RMB 6038	Gekko		Philippines	Calayan Is.																				
+H	117	E7	RMB 6039	Gekko		Philippines	Calayan Is.																				
+H	117	E8	RMB 6040	Gekko		Philippines	Calayan Is.																				
+H	117	F4	RMB 6044	Gekko		Philippines	Calayan Is.																				
+H	117	F5	RMB 6045	Gekko		Philippines	Calayan Is.																				
+H	117	F8	RMB 6048	Gekko		Philippines	Calayan Is.																				
+H	117	G3	RMB 6052	Gekko		Philippines	Calayan Is.																				
+H	117	G5	RMB 6054	Gekko		Philippines	Calayan Is.																				
+H	117	G6	RMB 6055	Gekko		Philippines	Calayan Is.																				
+H	117	G7	RMB 6056	Gekko		Philippines	Calayan Is.																				
+H	117	G8	RMB 6057	Gekko		Philippines	Calayan Is.																				
+H	117	G9	RMB 6058	Gekko		Philippines	Calayan Is.																				
+H	117	H1	RMB 6059	Gekko		Philippines	Calayan Is.																				
+H	117	H2	RMB 6060	Gekko		Philippines	Calayan Is.																				
+T	286	H8	RMB 9047	Gekko		Philippines	Batan	Batanes	Basco	San Antonio	Chadpidan																
+T	286	H9	RMB 9048	Gekko		Philippines	Batan	Batanes	Basco	San Antonio	Chadpidan																
+T	287	E7	RMB 9551	Gekko		Philippines	Sabtang	Batanes	Sabtang	Chavayan																	
+T	287	E8	RMB 9552	Gekko		Philippines	Sabtang	Batanes	Sabtang	Chavayan																	
+T	287	F1	RMB 9554	Gekko		Philippines	Sabtang	Batanes	Sabtang	Chavayan																	
+T	287	F2	RMB 9555	Gekko		Philippines	Sabtang	Batanes	Sabtang	Chavayan																	
+T	287	F5	RMB 9558	Gekko		Philippines	Sabtang	Batanes	Sabtang	Chavayan																	
+T	287	F7	RMB 9560	Gekko		Philippines	Sabtang	Batanes	Sabtang	Chavayan																	
+T	287	F8	RMB 9561	Gekko		Philippines	Sabtang	Batanes	Sabtang	Chavayan																	
+T	287	H4	RMB 9575	Gekko		Philippines	Batan	Batanes	Ivana	Salagao	Sitio Imnadyed																
+T	287	H5	RMB 9576	Gekko		Philippines	Batan	Batanes	Ivana	Salagao	Sitio Imnadyed																
+T	287	H7	RMB 9578	Gekko		Philippines	Batan	Batanes	Ivana	Salagao	Sitio Imnadyed																
+T	287	I2	RMB 9582	Gekko		Philippines	Batan	Batanes	Ivana	Salagao	Sitio Imnadyed																
+T	287	I4	RMB 9584	Gekko		Philippines	Batan	Batanes	Ivana	Salagao	Sitio Imnadyed																
+T	287	I5	RMB 9585	Gekko		Philippines	Batan	Batanes	Ivana	Salagao	Sitio Imnadyed																
+T	287	I6	RMB 9586	Gekko		Philippines	Batan	Batanes	Ivana	Salagao	Sitio Imnadyed																
+K	152	I9	ELR 635	Gekko 	gecko	Philippines	Mindoro			Malate																	
+K	153	I4	ELR 711	Gekko 	gecko	Philippines	Mindoro			Malpalon																	
+K	153	I5	ELR 712	Gekko 	gecko	Philippines	Mindoro			Malpalon																	
+K	153	I6	ELR 713	Gekko 	gecko	Philippines	Mindoro			Malpalon																	
+K	153	I8	ELR 715	Gekko 	gecko	Philippines	Mindoro			Malpalon																	
+K	153	I9	ELR 716	Gekko 	gecko	Philippines	Mindoro			Malpalon																	
+AD	445	I9	RMB 15375	Gekko 	gecko	Philippines	Cebu Isl.	Cebu	Argao		Mt. Suyak; N: 9.891°; E: 123.514°; 700 masl																
+J	149	H9	RMB 6404	Gekko 	gecko	Philippines	Panay			Laonion																	
+K	151	A5	RMB 6499	Gekko 	gecko	Philippines	Panay			Aningalan																	
+K	151	A8	RMB 6502	Gekko 	gecko	Philippines	Panay			Aningalan																	
+K	152	G5	RMB 6634	Gekko 	gecko	Philippines	Panay			Sn. Juan																	
+K	152	G6	RMB 6635	Gekko 	gecko	Philippines	Panay			Sn. Juan																	
+J	149	H8	RMB 6403	Gekko 	sp	Philippines	Panay			Laonion																	
+K	150	B3	RMB 6425	Gekko 	sp	Philippines	Panay			Aningalan																	
+K	150	B7	RMB 6429	Gekko 	sp	Philippines	Panay			Aningalan																	
+K	150	B8	RMB 6430	Gekko 	sp	Philippines	Panay			Aningalan																	
+K	150	B9	RMB 6431	Gekko 	sp	Philippines	Panay			Aningalan																	
+K	150	D8	RMB 6448	Gekko 	sp	Philippines	Panay			Aningalan																	
+K	150	D9	RMB 6449	Gekko 	sp	Philippines	Panay			Aningalan																	
+K	150	H3	RMB 6479	Gekko 	sp	Philippines	Panay			Aningalan																	
+J	149	B7	RMB 6351	Gekko 	sp 	Philippines	Dalupiri				Nipa Creek																
+J	149	A1	RMB 6336	Gekko 	sp 1	Philippines	Dalupiri			Visita																	
+J	149	A2	RMB 6337	Gekko 	sp 1	Philippines	Dalupiri			Visita																	
+J	149	A3	RMB 6338	Gekko 	sp 1	Philippines	Dalupiri			Visita																	
+J	149	A4	RMB 6339	Gekko 	sp 1	Philippines	Dalupiri			Visita																	
+J	149	A5	RMB 6340	Gekko 	sp 1	Philippines	Dalupiri			Visita																	
+J	149	A6	RMB 6341	Gekko 	sp 1	Philippines	Dalupiri			Visita																	
+J	149	A7	RMB 6342	Gekko 	sp 1	Philippines	Dalupiri			Visita																	
+J	149	A8	RMB 6343	Gekko 	sp 1	Philippines	Dalupiri			Visita																	
+J	149	A9	RMB 6344	Gekko 	sp 1	Philippines	Dalupiri			Visita																	
+J	149	B1	RMB 6345	Gekko 	sp 1	Philippines	Dalupiri			Visita																	
+J	149	B2	RMB 6346	Gekko 	sp 1	Philippines	Dalupiri				Nipa Creek																
+J	149	B3	RMB 6347	Gekko 	sp 1	Philippines	Dalupiri				Nipa Creek																
+J	149	B4	RMB 6348	Gekko 	sp 1	Philippines	Dalupiri				Nipa Creek																
+J	149	B5	RMB 6349	Gekko 	sp 1	Philippines	Dalupiri				Nipa Creek																
+J	149	B6	RMB 6350	Gekko 	sp 1	Philippines	Dalupiri				Nipa Creek																
+J	149	B8	RMB 6352	Gekko 	sp 1	Philippines	Dalupiri				Nipa Creek																
+J	149	B9	RMB 6353	Gekko 	sp 1	Philippines	Dalupiri				Nipa Creek																
+J	149	D7	RMB 6369	Gekko 	sp.	Philippines	Dalupiri				Nido Cave																
+J	149	D8	RMB 6370	Gekko 	sp.	Philippines	Dalupiri				Nido Cave																
+J	149	D9	RMB 6371	Gekko 	sp.	Philippines	Dalupiri				Nido Cave																
+J	149	E1	RMB 6372	Gekko 	sp.	Philippines	Dalupiri				Nido Cave																
+J	149	E2	RMB 6373	Gekko 	sp.	Philippines	Dalupiri				Nido Cave																
+J	149	E3	RMB 6374	Gekko 	sp.	Philippines	Dalupiri				Nido Cave																
+J	149	E4	RMB 6375	Gekko 	sp.	Philippines	Dalupiri				Nido Cave																
+J	149	D1	RMB 6363	Gekko 	sp. 1	Philippines	Dalupiri				Nido Cave																
+J	149	D2	RMB 6364	Gekko 	sp. 1	Philippines	Dalupiri				Nido Cave																
+J	149	D3	RMB 6365	Gekko 	sp. 1	Philippines	Dalupiri				Nido Cave																
+J	149	D4	RMB 6366	Gekko 	sp. 1	Philippines	Dalupiri				Nido Cave																
+J	149	D5	RMB 6367	Gekko 	sp. 1	Philippines	Dalupiri				Nido Cave																
+J	149	D6	RMB 6368	Gekko 	sp. 1	Philippines	Dalupiri				Nido Cave																
+J	149	F5	RMB 6385	Gekko 	sp. 1	Philippines	Dalupiri				Manolong Creek																
+J	149	F6	RMB 6386	Gekko 	sp. 1	Philippines	Dalupiri				Nido Cave																
+J	149	F7	RMB 6387	Gekko 	sp. 1	Philippines	Dalupiri				Nido Cave																
+J	149	F9	RMB 6389	Gekko 	sp. 1	Philippines	Dalupiri				Manolong Creek																
+J	149	G1	RMB 6390	Gekko 	sp. 1	Philippines	Dalupiri				Manolong Creek																
+C	38	H3	RMB 3269	Pseudogekko	brevipes	Philippines	Negros	Cuernos de Negros																			
+F	89	64	RMB 3282	Pseudogekko	brevipes	Philippines	Negros																				
+S	277	B5	RMB 10055	Pseudogekko	cf. compressicorpus	Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+A	5	D1	ACD 1523	Pseudogekko	compressicorpus	Philippines	Leyte		Baybay																		
+A	5	E4	RMB 4365	Pseudogekko	compressicorpus	Philippines	Leyte		Baybay																		
+R	267	H8	ACD 3784	Pseudogekko	compressicorpus	Philippines	Mindanao	Zamboanga del Sur 	Zamboanga City	Pasanonca	Sitio Canucutan																
+AA	393	E2	ACD 6098	Pseudogekko	compressicorpus	Philippines	Luzon	Cavite																			
+AA	395	I7	CDS 5619	Pseudogekko	compressicorpus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Camp Malaboo"																
+AA	399	A6	CDS 5870	Pseudogekko	compressicorpus	Philippines	Luzon	Laguna	Los Banos	Bagong Silang	"Mt. Makiling Forest Reserve, Sitio Purok Tres"																
+X	351	A7	CDS5000	Pseudogekko	compressicorpus	Philippines	Bohol	Bohol	Sierra Bullones	"Danicop, Raja Sikatuna Protected Landscape"	9.76116	124.28882															
+AB	415	F1	RMB 15139	Pseudogekko	compressicorpus	Philippines	Luzon	Cagayan	Gonzaga	Magrafil	"Mt. Cagua, Site 2, 680 m"																
+R	263	G9	RMB 8930	Pseudogekko	compressicorpus	Philippines	Polillo	Quezon	Polillo	Poblacion																	
+R	264	A7	RMB 8955	Pseudogekko	compressicorpus	Philippines	Leyte	Leyte	Baybay	Visayas State University Campus																	
+T	294	I9	JAM 973	Pseudogekko	smaragdinus	Philippines	Polillo																				
+R	263	G7	RMB 8928	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Poblacion																	
+R	263	G8	RMB 8929	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Poblacion																	
+S	273	D1	RMB 9747	Pseudogekko	smaragdinus	Philippines	Luzon	Camarines Norte	Labo	Tulay Na Lupa	Mt. Labo camp 1																
+E	72	50	CDS 1050	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	72	51	CDS 1051	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	72	52	CDS 1052	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	72	53	CDS 1053	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	72	54	CDS 1054	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	72	55	CDS 1055	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	72	56	CDS 1056	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	72	57	CDS 1057	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	72	58	CDS 1058	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	72	59	CDS 1059	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	72	60	CDS 1060	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	73	1	CDS 1082	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+E	73	2	CDS 1083	Pseudogekko	smaragdinus	Philippines	Polillo	Quezon	Polillo	Pinaglubayan	"62m elev, watershed, 14deg45.155N, 121deg58.092E"																
+H	106	G9	RMB 5598	Pseudogekko	smaragdinus	Philippines	Polillo																				
+H	107	C4	RMB 5641	Pseudogekko	smaragdinus	Philippines	Polillo																				
+H	107	C5	RMB 5642	Pseudogekko	smaragdinus	Philippines	Polillo																				
+H	107	C6	RMB 5643	Pseudogekko	smaragdinus	Philippines	Polillo																				
+H	107	C7	RMB 5644	Pseudogekko	smaragdinus	Philippines	Polillo																				
+H	107	C8	RMB 5645	Pseudogekko	smaragdinus	Philippines	Polillo																				
+H	107	C9	RMB 5646	Pseudogekko	smaragdinus	Philippines	Polillo																				
+H	107	E3	RMB 5658	Pseudogekko	smaragdinus	Philippines	Polillo																				
+I	134	22	RMB 6194	Pseudogekko	smaragdinus	Philippines	Luzon	Quezon	Polillo	Pinaglubayan																	
+I	134	23	RMB 6195	Pseudogekko	smaragdinus	Philippines	Luzon	Quezon	Polillo	Pinaglubayan																	
+I	134	24	RMB 6196	Pseudogekko	smaragdinus	Philippines	Luzon	Quezon	Polillo	Pinaglubayan																	
+I	135	63	RMB 6314	Pseudogekko	smaragdinus	Philippines	Luzon	Quezon	Polillo	Salipsip																	
+I	135	64	RMB 6315	Pseudogekko	smaragdinus	Philippines	Luzon	Quezon	Polillo	Salipsip																	
+I	135	65	RMB 6316	Pseudogekko	smaragdinus	Philippines	Luzon	Quezon	Polillo	Salipsip																	
+I	135	66	RMB 6317	Pseudogekko	smaragdinus	Philippines	Luzon	Quezon	Polillo	Salipsip																	
+I	135	67	RMB 6318	Pseudogekko	smaragdinus	Philippines	Luzon	Quezon	Polillo	Salipsip																	
+I	135	68	RMB 6319	Pseudogekko	smaragdinus	Philippines	Luzon	Quezon	Polillo	Salipsip																	
+I	135	69	RMB 6320	Pseudogekko	smaragdinus	Philippines	Luzon	Quezon	Polillo	Salipsip																	
+A	14	E1	PNM/CMNH H 1460	Pseudogekko	sp	Philippines	Mindanao Island	South Cotobato Province	Municipality of Kiamba	Barangay Binati	Mt Busa	Site 1															
+E	71	31	CDS 954	Pseudogekko	sp.	Philippines	Negros	Oriental	Valencia	Bongbong	"1000-1150m, GPS for 1150site: 09deg15.600N, 123deg12.196E"																
+R	270	B4	RMB 9417	Pseudogekko	sp.	Philippines	Mindanao	Agusan del Sur	San Francisco	Kaimpugan	Agusan Marsh	"N 08deg24' 11.6"", E125deg53'49.0"""															
+R	270	B5	RMB 9418	Pseudogekko	sp.	Philippines	Mindanao	Agusan del Sur	San Francisco	Kaimpugan	Agusan Marsh	"N 08deg24' 11.6"", E125deg53'49.0"""															
+AD	448	I5	ACD 6936	Pseudogekko		Philippines	Siargao Isl.	Siargao Del Norte	Bilar																		
+AD	449	D1	ACD 7255	Pseudogekko		Philippines	Leyte Isl.	Southern Leyte Prov.	Sogud																		
+AD	449	E7	ACD 7286	Pseudogekko		Philippines	Leyte Isl.	Southern Leyte Prov.	Sogud																		
+AE	552	F4	ACD 7577	Pseudogekko		Philippines	Leyte Isl.	Southern Leyte Prov.																			
+AE	551	G4	ACD 7637	Pseudogekko		Philippines	Leyte Isl.	Southern Leyte Prov.																			
+B	19	H4	ACD 903	Pseudogekko		Philippines	Luzon		"Mt. Makiling, UPLB"																		
+G	94	5	PNM/CMNH H1294	Pseudogekko				Frozen Tissues																			
+S	279	A4	RMB 10207	Pseudogekko		Philippines	Mindanao	Zamboanga	Pasonanca	"Pasonanca Natural Park, Barangay Baluno"																	
+A	5	F9	RMB 4365	Pseudogekko		Philippines	Leyte		Baybay																		
+A	5	A5	RMB 4392	Pseudogekko		Philippines	Leyte		Baybay																		
+R	266	I5	ACD 3678	Luperosaurus	cf cumingii	Philippines	Luzon	Aurora																			
+T	286	H3	RMB 9042	Luperosaurus	cf macgregori	Philippines	Batan	Batanes	Basco	San Antonio	Chadpidan																
+F	89	56	RMB 3546	Luperosaurus	cumingii	Philippines	Luzon		Mt Malinao																		
+P	236	B4	ELR 1579	Luperosaurus	gulat holotype	Philippines	Palawan																				
+C	39	B5	RMB 1653	Luperosaurus	iskandari	Indonesia	Sulawesi	Siuna																			
+C	39	I9	RMB 1653	Luperosaurus	iskandari	Indonesia	Sulawesi	siuna																			
+R	266	H8	RMB 9416	Luperosaurus	joloensis	Philippines	Mindanao	Zamboanga del Sur 	Zamboanga City	Pasanonca	Sitio Canucutan																
+AA	393	F9	ACD 6021	Luperosaurus	macgregori	Philippines	Calayan																				
+AA	393	G1	ACD 6022	Luperosaurus	macgregori	Philippines	Calayan																				
+AA	393	G2	ACD 6023	Luperosaurus	macgregori	Philippines	Calayan																				
+AA	393	G3	ACD 6023	Luperosaurus	macgregori	Philippines	Calayan																				
+AA	393	G4	ACD 6024	Luperosaurus	macgregori	Philippines	Calayan																				
+AA	393	G5	ACD 6026	Luperosaurus	macgregori	Philippines	Calayan																				
+AA	393	G6	ACD 6027	Luperosaurus	macgregori	Philippines	Calayan																				
+AA	393	G8	ACD 6029	Luperosaurus	macgregori	Philippines	Calayan																				
+H	111	B6	RMB 5917	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	B7	RMB 5918	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	B8	RMB 5919	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	C1	RMB 5921	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	C2	RMB 5922	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	C3	RMB 5923	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	C4	RMB 5925	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	C5	RMB 5926	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	D1	RMB 5931	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	D2	RMB 5932	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	D3	RMB 5933	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	D4	RMB 5934	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	D6	RMB 5936	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	D7	RMB 5937	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	E4	RMB 5943	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	E5	RMB 5944	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	E6	RMB 5945	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	F1	RMB 5949	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	F7	RMB 5955	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	F8	RMB 5956	Luperosaurus	macgregori	Philippines	Babuyan Claro																				
+H	111	H1	RMB 5967	Luperosaurus	macgregori	Philippines	Baboyau Claro																				
+H	111	H5	RMB 5971	Luperosaurus	macgregori	Philippines	Baboyau Claro																				
+H	111	H6	RMB 5972	Luperosaurus	macgregori	Philippines	Baboyau Claro																				
+AA	392	H7	ACD 4901	Luperosaurus		Philippines	Luzon	Aurora?	Casapsapan																		
+AA	392	H8	ACD 4902	Luperosaurus		Philippines	Luzon	Aurora?	Casapsapan																		
+Z	376	D1	LSUHC 8665	Luperosaurus 	browni	West Malaysia																					
+B	27	A1	RMB 3546	Luperosaurus 	cumingii	Philippines	Luzon		Mt. Malinao																		
+M	186	C2	RMB 7343	Luperusaurus	cf cumingii	Philippines	Camiguin																				
+J	141	D8	PNM/CMNH H1100	Ptychozoon	sp	Philippines	Mindanao Island	Davao City Province	Municipality of Toril	Barangay Baracatan																	
+J	141	H8	PNM/CMNH H1100	Ptychozoon	sp	Philippines	Mindanao Island	Davao City Province	Municipality of Toril	Barangay Baracatan																	
+B	27	B8	NS 116	Ptychozoon	horsfieldii	Malaysia			Malaysia																		
+G	97	7C	PNM/CMNH H 1904	Ptychozoon	intermedium			Frozen Tissues																			
+B	20	G4	PNM/CMNH H 1906	Ptychozoon	intermedium	Philippines	Mindanao Island	Davao City Province	Municipality of Calinan	Barangay Malagos	Malagos Eagle Station	Field notes say: D. intermedium															
+C	35	Loose	RMB 585	Ptychozoon	intermedium	Philippines	Mindanao	"Malagos, Davao City Prov."																			
+AC	430	F1	2645	Ptychozoon	kuhli																						
+AC	430	F2	2646	Ptychozoon	kuhli																						
+D	54	Loose	3835	Ptychozoon	kuhli	Malaysia	Pulau Tioman	"West Malaysia, Pahang, Pulau Tioman, Tekek-Juara Trail "																			
+D	54	Loose	4679	Ptychozoon	kuhli	Malaysia	Pulau Tioman	"West Malaysia, Pahang, Pulau Tioman, Tekek-Juara Trail "																			
+D	54	Loose	5055	Ptychozoon	kuhli	Malaysia	Pulau Tulai	"West Malaysia, Pahang, Pulau Tulai  "																			
+AC	430	F3	5249	Ptychozoon	kuhli																						
+AC	430	E9	5523	Ptychozoon	kuhli																						
+D	54	Loose	5646	Ptychozoon	kuhli	Malaysia		"West Malaysia, Perak, Temengor, PITC Logging Camp "																			
+D	54	Loose	5708	Ptychozoon	kuhli	Malaysia	Pulau Aceh	"West Malaysia, Pahang, Pulau Aceh"																			
+D	54	Loose	6321	Ptychozoon	kuhli	Malaysia	Pulau Tinggi	"West Malaysia, Johor, Pulau Tinggi; Pasir Panjang Waterfall Trail "																			
+D	54	Loose	6433	Ptychozoon	kuhli	Malaysia	Pulau Tioman	"West Malaysia, Pahang, Pulau Tioman, Tekek-Juara Trail "																			
+AC	430	G2	ID 7517	Ptychozoon	kuhli	Malaysia	Borneo	Sabah																			
+AC	430	G1	JAM 4087	Ptychozoon	kuhli	Indoneisa	Tuba																				
+AC	430	E5	JAM 4212	Ptychozoon	kuhli	Indoneisa	Enggano Isl																				
+AC	430	E6	JAM 4216	Ptychozoon	kuhli	Indoneisa	Enggano Isl																				
+AC	430	F4	JAM 4241	Ptychozoon	kuhli	Indoneisa	Enggano Isl																				
+AC	430	F8	JAM 6445	Ptychozoon	kuhli	Indoneisa	Takandlang																				
+AC	430	E8	JAM 6446	Ptychozoon	kuhli	Indoneisa	Takandlang																				
+AC	430	F9	JAM 6449	Ptychozoon	kuhli	Indoneisa	Takandlang																				
+B	24		LLG 5042	Ptychozoon	kuhli	Malaysia	Pulau Tioman	"West Malaysia, Pahang, Pulau Tioman, Sungai Mentawak"																			
+AC	430	F6	LSUHC 3518	Ptychozoon	kuhli	Malaysia		Ulu Gombak																			
+F	77	Loose	LSUHC 5587	Ptychozoon	kuhli	Malaysia	Pulau Babi Besar	"West Malaysia, Johor, Pulau Babi Besar "																			
+Z	376	C5	LSUHC 6273	Ptychozoon	kuhli	West Malaysia	Pulau Tuldi	Tuldi																			
+Z	376	C6	LSUHC 7141	Ptychozoon	kuhli	West Malaysia		Air	Terjum																		
+Z	376	C9	LSUHC 7640	Ptychozoon	kuhli	West Malaysia		"West Malaysia, Johor,"	"Johor, Endau-Rompin, "	"Peta, Visitor Center"																	
+Z	376	C7	LSUHC 8024	Ptychozoon	kuhli	West Malaysia	Pulau Pemanggill	"West Malaysia, Johor,"	Johor	"  Pemanggill Island, Kampung Buau"																	
+B	24		ND 7515	Ptychozoon	kuhli																						
+C	35	Loose	RMB 1134	Ptychozoon	kuhli	Malaysia		Taman Negara	Malaysia																		
+C	35	Loose	RMB 1134	Ptychozoon	kuhli	Malaysia		Taman Negara	Malaysia																		
+C	35	Loose	RMB 1134	Ptychozoon	kuhli	Malaysia		Taman Negara	Malaysia																		
+AC	430	E7	RMB XXX 	Ptychozoon	kuhli	Malaysia		Taman Neggara																			
+G	92	Loose		Ptychozoon	kuhli			Frozen Tissues																			
+D	54	Loose	5539	Ptychozoon	lionotum	West Malaysi	Pulau Sibu	"West Malaysia, Johor, Pulau Sibu "																			
+D	54	Loose	5610	Ptychozoon	lionotum	West Malaysi		"West Malaysia, Perak, Temengor, PITC Logging Camp "																			
+D	54	Loose	5783	Ptychozoon	lionotum	West Malaysi	Pulau Sibu	"West Malaysia, Johor, Pulau Sibu "																			
+D	58	Loose	LSUHC 6437	Ptychozoon	lionotum	West Malaysi	Pulau Tioman	"West Malaysia, Pahang, Pulau Tioman, Tekek-Juara Trail "																			
+R	262	E8	CAS 221168	Ptychozoon	lionotum	Myanmar		"Bago Division; Kyauk Taga Township; Yemwe Reserve Forest, Chaung Gwa Village"																			
+R	262	E9	CAS 238865	Ptychozoon	lionotum	Myanmar		"Bago Division; Kyauk Taga Township; Yemwe Reserve Forest, Chaung Gwa Village"																			
+Z	376	D2	FMNH 261851	Ptychozoon	lionotum	Cambodia		Kampong Speu Prov	Phnom Sruoch Dist	"Kirirom National Park, 11deg19min34secN, 104deg, 03min, 56sec E, 700m elev"	HKV 64636																
+Z	376	D3	FMNH 261852	Ptychozoon	lionotum	Cambodia		Kampong Speu Prov	Phnom Sruoch Dist	"Kirirom National Park, 11deg19min34secN, 104deg, 03min, 56sec E, 700m elev"	HKV 64637																
+AC	430	F5	JAM 1426	Ptychozoon	lionotum	Malaysia		Ulu Gombak																			
+AC	430	F7	JAM 1426	Ptychozoon	lionotum	Malaysia		Ulu Gombak																			
+R	262	E7	JBS 21351	Ptychozoon	lionotum	Myanmar		Yangon																			
+Z	376	C8	LSUHC 5597	Ptychozoon	lionotum	West Malaysia	Pulau Sibu																				
+AB	416	E7	P0500	Ptychozoon	rhacophorus			Mt. Penrissen																			
+C	39	A1	H 1907	Ptychozoon 	intermedium	Philippines	Mindanao	Malagos																			
+J	143	I9	PNM/CMNH H1903	Ptychozoon 	intermedium	Philippines	Mindanao Island	Davao City Province	Municipality of Calinan	Barangay Malagos	Malagos Eagle Station																
+B	24		LLG 4819	Ptychozoon 	kuhli																						
+C	36	Loose	RMB 1139	Ptychozoon 	kuhli	Malaysia		Taman Negara	Malaysia																		
