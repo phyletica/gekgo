@@ -33,7 +33,7 @@ class GekkonidSamples(dict):
 
     species = property(_get_species_set)
 
-    def add(self, sample_object):
+    def add(self, sample_object, overwrite=False):
         if not isinstance(sample_object, Sample):
             raise Exception("GekkonidSamples dict only holds Sample objects.")
         if not sample_object.field_id:
@@ -42,11 +42,16 @@ class GekkonidSamples(dict):
             _LOG.warning(
                     "'%s' already in dict; updating this sample" % \
                     sample_object.field_id)
-            self[sample_object.field_id].update(sample_object)
+            self[sample_object.field_id].update(sample_object,
+                    overwrite=overwrite)
             self._species_set.add(self[sample_object.field_id].species)
         else:
             self[sample_object.field_id] = sample_object
             self._species_set.add(self[sample_object.field_id].species)
+
+    def merge(self, gekkonid_samples_obj, overwrite=False):
+        for field_id, sample in gekkonid_samples_obj.iteritems():
+            self.add(sample, overwrite=overwrite)
 
 class Sample(object):
     """
@@ -159,7 +164,7 @@ class Sample(object):
                 "cannot have two longitudes for sample '%s'." % self.field_id
         if not self.long and sample_object.long:
             self.long = sample_object.long
-        if over_write:
+        if overwrite:
             if sample_object.genus:
                 del self.genus
             if sample_object.epithet:
@@ -175,11 +180,11 @@ class Sample(object):
             if sample_object.extract_cell:
                 del self.extract_cell
             if sample_object._tower:
-                del self._tower
+                del self.tower
             if sample_object._box:
-                del self._box
+                del self.box
             if sample_object._cell:
-                del self._cell
+                del self.cell
         self.genus = sample_object.genus
         self.epithet = sample_object.epithet
         self.country = sample_object.country
