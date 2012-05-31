@@ -1,0 +1,48 @@
+COSTS
+=====
+
+KU Med Genome Sequencing Facility Costs: 
+    TruSeq 100 bp paired-end cost per lane: $2303
+    TruSeq DNA prep: $225
+    
+Cost of whole genome sequencing with 2 insert sizes:
+    lane cost:           $ 2303
+    sample prep (2*225): $  450
+    total:               $ 2753
+
+Cost of RAD-sequencing for 96 samples:
+    lane cost: $ 2303
+
+Misc expenses:
+    Qiagen Gel extraction kit (50): $ 102
+    Phusion PCR kit (50):           $  65
+    Primer for Illumina paired-end: $  90
+    Other:                          $ 243
+    total:                          $ 500
+    
+SAMPLING STRATEGIES
+===================
+
+1) Focus on Cyrtodactylus only:
+   reference genome:    $ 2753
+   RAD-seq 192 samples: $ 4606
+   misc:                $  500
+   total:               $ 7859
+   
+2) Cyrtodactylus and Gekko with 96 samples each (including "outgroups"):
+   2 reference genomes: $  5506
+   RAD-seq 192 samples: $  4606
+   misc:                $   500
+   total:               $ 10612
+   
+3) Cyrtodactylus (192) and Gekko (96) including "outgroups":
+   2 reference genomes: $  5506
+   RAD-seq 288 samples: $  6909
+   misc:                $   500
+   total:               $ 12915
+
+4) Cyrtodactylus (192) and Gekko (192) including "outgroups":
+   2 reference genomes: $  5506
+   RAD-seq 384 samples: $  9212
+   misc:                $   500
+   total:               $ 15218

@@ -1,0 +1,356 @@
+Cosymbotus platyurus (166):
+	Cebu: 25
+	Dinagat: 2
+	Guimaras: 9
+	Leyte: 11
+	Lubang: 12
+	Luzon: 27
+	Maestre de campo: 7
+	Masbate: 16
+	Mindoro: 17
+	Panay: 6
+	Samar: 13
+	Semirara: 7
+	Sibuyan: 2
+	Tablas: 6
+	Ticao: 6
+Cyrtodactylus agusanensis (6):
+	Mindanao: 6
+Cyrtodactylus agusanensis/gubaot (3):
+	Baybay/Leyte: 3
+Cyrtodactylus agusanensis/mamanwa (2):
+	Dinagat: 2
+Cyrtodactylus agusanensis/sumuroi (3):
+	Samar: 1
+	Taft/Samar: 2
+Cyrtodactylus annulatus (39):
+	Bohol: 16
+	Camiguin sur: 4
+	Cebu: 1
+	Emindanaocorr: 2
+	Mindanao: 16
+Cyrtodactylus baluensis (2):
+	Kinabalu: 2
+Cyrtodactylus consobrinus (4):
+	other: 4
+Cyrtodactylus gubaot (91):
+	Leyte: 91
+Cyrtodactylus intermedius (2):
+	other: 2
+Cyrtodactylus jambangan (69):
+	Mindanao: 69
+Cyrtodactylus jellesme (2):
+	Sulawesi: 2
+Cyrtodactylus mamanwa (19):
+	Dinagat: 19
+Cyrtodactylus philippinicus (310):
+	Aningalan/Mindoro: 1
+	Babuyan claro: 3
+	Banahao: 1
+	Banahaw/Luzon: 2
+	Bicol: 2
+	Bulusan: 2
+	Camiguin norte: 15
+	Catanduanes: 2
+	Dayog/Luzon: 2
+	Dumgte/Negros: 1
+	Isarog: 1
+	Lubang: 25
+	Luzon: 139
+	Malinao: 2
+	Mindoro: 60
+	Mindoro/Dayog: 2
+	Naga/Luzon: 1
+	Negros: 6
+	Panay: 8
+	Pandan/Panay: 3
+	Polillo: 18
+	Quezon: 1
+	Romblon: 1
+	Sibalom: 2
+	Sibuyan: 3
+	Sipalay: 2
+	Tablas: 5
+Cyrtodactylus philippinicus/annulatus (3):
+	Cebu: 3
+Cyrtodactylus philippinicus/sp (3):
+	Lubang: 3
+Cyrtodactylus quadrivirgatus (1):
+	other: 1
+Cyrtodactylus redimiculus (22):
+	Palawan: 19
+	Palawan/Samarinana: 3
+Cyrtodactylus sp (16):
+	Leyte: 7
+	Mindanao: 4
+	Palawan: 1
+	Subic: 2
+	Zambales: 2
+Cyrtodactylus sumuroi (5):
+	Samar: 5
+Cyrtodactylus tautbatorum (13):
+	Palawan: 13
+Cyrtodactylus tiomanensis (2):
+	Tioman: 1
+	other: 1
+Cyrtopodion elongatus (6):
+	Luzon: 1
+	other: 5
+Gehyra lacerata (3):
+	other: 3
+Gehyra mutilata (88):
+	Camiguin sur: 2
+	Lubang: 3
+	Luzon: 24
+	Marinduque: 1
+	Masbate: 5
+	Mindanao: 18
+	Mindoro: 8
+	Negros: 4
+	Palawan: 2
+	Panay: 3
+	Polillo: 4
+	Samar: 1
+	Sibuyan: 2
+	Tablas: 1
+	Ticao: 3
+	other: 7
+Gehyra oceanica (3):
+	other: 3
+Gekko (15):
+	Luzon: 2
+	Palawan: 1
+	Verde: 1
+	other: 11
+Gekko athymus (7):
+	Palawan: 7
+Gekko athymus/gecko (1):
+	Palawan: 1
+Gekko carusadensis (8):
+	Biak/Luzon: 3
+	Luzon: 5
+Gekko cf mindorensis (3):
+	Negros: 3
+Gekko cf monarchus/mindorensis (10):
+	Guimaras: 2
+	Lubang: 2
+	Masbate: 3
+	Negros: 3
+Gekko cf. mindorensis (12):
+	Caluya/Semirara: 5
+	Camiguin sur: 1
+	Semirara: 6
+Gekko cf. mindorensis/cf monarchus (3):
+	Camiguin sur/Camiguin: 3
+Gekko cf. mindorensis/monarchus (3):
+	Maestre de campo: 3
+Gekko cf. monarchus (1):
+	Palawan: 1
+Gekko chinensis (8):
+	Hainan: 1
+	other: 7
+Gekko crombota (13):
+	Babuyan claro: 13
+Gekko ernstkelleri (8):
+	Panay: 8
+Gekko ernstkelleri/sp. 2 (1):
+	Panay: 1
+Gekko gecko (142):
+	Bohol: 6
+	Camiguin sur: 6
+	Cebu: 7
+	Guimaras: 4
+	Kampong speu province: 1
+	Kedah: 1
+	Lubang: 16
+	Luzon: 13
+	Maestre de campo: 2
+	Masbate: 6
+	Mindanao: 3
+	Mindoro: 14
+	Negros: 10
+	Palawan: 7
+	Panay: 22
+	Semirara: 13
+	Sibuyan: 6
+	Siquijor: 1
+	Tablas: 4
+Gekko gigante (6):
+	N gigante/Panay: 2
+	Panay: 4
+Gekko gigante/cf mindorensis (2):
+	S gigante/Panay: 2
+Gekko hokouensis (1):
+	other: 1
+Gekko japonicus (2):
+	other: 2
+Gekko kikuchii (2):
+	other: 2
+Gekko mindorensis (140):
+	Cebu: 2
+	Lubang: 71
+	Luzon: 34
+	Mindoro: 30
+	Panay: 1
+	Panglao: 1
+	Sabtang: 1
+Gekko mindorensis/monarchus (1):
+	Lubang: 1
+Gekko monarchus (36):
+	Johor: 7
+	Luzon: 6
+	Pahang: 6
+	Palawan: 9
+	Selangor: 2
+	Tangkoke?: 2
+	Terengganu: 2
+	other: 2
+Gekko palawanensis (21):
+	Palawan: 21
+Gekko palmatus (1):
+	other: 1
+Gekko porosus (25):
+	Batan: 19
+	Sabtang: 6
+Gekko romblon (9):
+	Romblon: 5
+	Sibuyan: 1
+	Tablas: 3
+Gekko romblon/cf romblon (4):
+	Romblon: 4
+Gekko rossi (11):
+	Calayan: 11
+Gekko smithi (1):
+	Gombak: 1
+Gekko smithii (2):
+	Pahang: 1
+	Selangor: 1
+Gekko sp 1/sp. (2):
+	Dalupiri: 2
+Gekko sp. (66):
+	Camiguin norte: 21
+	Dalupiri: 33
+	Maestre de campo: 1
+	Masbate: 1
+	Mindoro: 1
+	Panay: 9
+Gekko sp. 1/ernstkelleri (1):
+	Panay: 1
+Gekko sp. 1/sp. (1):
+	Dalupiri: 1
+Gekko sp. 2 (5):
+	Calayan: 4
+	Panay: 1
+Gekko sp. camiguin norte (1):
+	Camiguin norte: 1
+Gekko sp/crombota (3):
+	Babuyan claro: 3
+Gekko sp/mindorensis (5):
+	Luzon: 2
+	Panay: 3
+Gekko sp/rossi (2):
+	Calayan: 2
+Gekko/Cyrtodactylus philippinicus/romblon (1):
+	Tablas: 1
+Hemidactylus brookii (1):
+	Luzon: 1
+Hemidactylus craspedotus (2):
+	other: 2
+Hemidactylus frenatus (324):
+	Babuyan claro: 6
+	Batan: 7
+	Bohol: 15
+	Camiguin norte: 3
+	Camiguin sur: 3
+	Cebu: 8
+	Dalupiri: 4
+	Dinagat: 14
+	Guimaras: 6
+	Lapinig: 1
+	Leyte: 25
+	Lubang: 12
+	Luzon: 105
+	Maestre de campo: 6
+	Marinduque: 1
+	Masbate: 12
+	Mindanao: 7
+	Mindoro: 11
+	Negros: 6
+	Palawan: 2
+	Panay: 12
+	Polillo: 4
+	Samar: 4
+	Semirara: 13
+	Sibuyan: 13
+	Tablas: 8
+	other: 16
+Hemidactylus garnotii (2):
+	Sabtang: 2
+Hemidactylus mabouia (1):
+	other: 1
+Hemidactylus platyurus (36):
+	Bohol: 1
+	Cebu: 3
+	Lapinig: 2
+	Luzon: 19
+	Marinduque: 2
+	Mindanao: 1
+	Negros: 7
+	other: 1
+Hemiphyllodactylus typus (4):
+	Cebu: 1
+	Mindanao: 3
+Hemiphyllodactylus typus? (1):
+	Palawan: 1
+Lepidodactylus aureolineatus (1):
+	Mindanao: 1
+Lepidodactylus balioburius (22):
+	Batan: 12
+	Sabtang: 10
+Lepidodactylus cf. balioburius (4):
+	Camiguin norte: 2
+	Dalupiri: 2
+Lepidodactylus cf. planicaudus (2):
+	Luzon: 2
+Lepidodactylus lugubris (27):
+	Lubang: 2
+	Luzon: 21
+	Masbate: 1
+	Polillo: 1
+	Ticao: 1
+	other: 1
+Lepidodactylus planicaudus (1):
+	Luzon: 1
+Lepidodactylus sp (1):
+	Mindanao: 1
+Luperosaurus angliit (2):
+	Camiguin norte: 1
+	Luzon: 1
+Luperosaurus joloensis (1):
+	Mindanao: 1
+Luperosaurus macgregori (24):
+	Babuyan claro: 23
+	Batan: 1
+Luperosaurus n. sp. "gul" (1):
+	Palawan: 1
+Luperosaurus sp. (2):
+	Luzon: 2
+Lygodactylus conraui (1):
+	other: 1
+Phyllodactylus clinatus (1):
+	other: 1
+Phyllodactylus reissii (1):
+	other: 1
+Phyllodactylus tuberculosus (3):
+	other: 3
+Pseudogekko brevipes (2):
+	Negros: 2
+Pseudogekko compressicorpus (13):
+	Bohol: 1
+	Leyte: 4
+	Luzon: 4
+	Mindanao: 3
+	Polillo: 1
+Pseudogekko smaragdinus (35):
+	Luzon: 1
+	Polillo: 34
