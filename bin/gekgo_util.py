@@ -9,6 +9,7 @@ import stat
 BIN_DIR = os.path.abspath(os.path.dirname(__file__))
 PROJECT_DIR = os.path.abspath(os.path.dirname(BIN_DIR))
 DATA_DIR = os.path.abspath(os.path.join(PROJECT_DIR, 'data'))
+SAMPLE_DIR = os.path.abspath(os.path.join(DATA_DIR, 'samples'))
 LOCI_DIR = os.path.abspath(os.path.join(DATA_DIR, 'loci'))
 CONCAT_DIR = os.path.abspath(os.path.join(DATA_DIR, 'concat'))
 GARLI_DIR = os.path.abspath(os.path.join(DATA_DIR, 'garli'))
