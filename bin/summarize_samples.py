@@ -220,6 +220,7 @@ def parse_lsuhc_data(file_obj, delimiter='\t', samples=GekkonidSamples()):
                    epithet = epithet,
                    country = country,
                    island = island,
+                   locality = locality,
                    source = src)
         samples.add(s)
     return samples
