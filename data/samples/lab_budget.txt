@@ -20,6 +20,21 @@ Misc expenses:
     Other:                          $ 243
     total:                          $ 500
     
+ILLUMINA LANE COVERAGE
+======================
+
+number of fragments of size 200-400 from Anolis genome when digested with NdeI = 19899
+
+Anolis genome size = 1.08 Gb
+Gecko genome size ~ 2.8 Gb
+
+expected number of gecko fragments based on Anolis digest = 51590
+expected gecko read length per individual = 51590 * 200 = 10318000
+
+expected X coverage for 1 individual = 25e9 / 10318000 = 2423
+
+expected X coverage for 96 individuals: 2423 / 96 = 25
+
 SAMPLING STRATEGIES
 ===================
 
