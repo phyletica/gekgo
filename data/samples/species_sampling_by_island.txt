@@ -30,13 +30,13 @@ Cyrtodactylus agusanensis (15):
 	other: 1
 Cyrtodactylus angularis (1):
 	other: 1
-Cyrtodactylus annulatus (54):
+Cyrtodactylus annulatus (68):
 	Bohol: 16
 	Camiguin Sur: 4
 	Cebu: 4
 	Leyte: 1
 	Luzon: 1
-	Mindanao: 19
+	Mindanao: 33
 	Palawan: 9
 Cyrtodactylus asterum (4):
 	other: 4
@@ -172,9 +172,8 @@ Cyrtodactylus semenanjungensis (11):
 Cyrtodactylus seribuatensis (8):
 	Pulau Mentigi: 6
 	Pulau Nangka Kecil: 2
-Cyrtodactylus sp (18):
+Cyrtodactylus sp (4):
 	Leyte: 1
-	Mindanao: 14
 	Palawan: 1
 	Sumatra: 2
 Cyrtodactylus sp. (37):
@@ -287,7 +286,7 @@ Gekko gigante (10):
 	Gigante: 4
 	North Gigante: 5
 	South Gigante: 1
-Gekko gigante/cf mindorensis (2):
+Gekko gigante/gigante/cf mindorensis (2):
 	South Gigante: 2
 Gekko hokouensis (1):
 	other: 1
@@ -295,7 +294,7 @@ Gekko japonicus (2):
 	other: 2
 Gekko kikuchii (2):
 	other: 2
-Gekko mindorensis (188):
+Gekko mindorensis (196):
 	Caluya: 5
 	Camiguin Sur: 4
 	Cebu: 2
@@ -306,7 +305,7 @@ Gekko mindorensis (188):
 	Masbate: 4
 	Mindoro: 32
 	Negros: 6
-	Panay: 4
+	Panay: 12
 	Panglao: 1
 	Sabtang: 1
 	Semirara: 6
@@ -365,9 +364,9 @@ Gekko smithii (30):
 	other: 11
 Gekko sp (3):
 	Panay: 3
-Gekko sp. (40):
+Gekko sp. (32):
 	Luzon: 6
-	Panay: 9
+	Panay: 1
 	other: 25
 Gekko sp. 1 (3):
 	Panay: 3
