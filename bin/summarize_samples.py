@@ -137,11 +137,13 @@ def parse_extraction_data(file_obj, delimiter='\t', samples=GekkonidSamples()):
         samples.add(s)
     return samples
 
-def parse_freezer_data(file_obj, delimiter='\t', samples=GekkonidSamples()):
+def parse_freezer_data(file_obj, delimiter='\t', samples=GekkonidSamples(),
+                       skip_bad_field_ids=False):
     no_id_pattern = re.compile(r'\s*no\s*number\s*', re.IGNORECASE)
     no_field_series_pattern = re.compile(r'\s*([0-9]+)\s*')
     dr, src = get_dict_reader(file_obj, delimiter=delimiter)
     no_id_count = 0
+    rmb_x_count = 0
     for n, line_dict in enumerate(dr):
         m = FIELD_ID_PATTERN.match(line_dict['Field Number'])
         if not m:
@@ -157,10 +159,17 @@ def parse_freezer_data(file_obj, delimiter='\t', samples=GekkonidSamples()):
             elif line_dict['Field Number'].strip().lower().replace(' ', '') == \
                     'rmbxxx':
                 field_series = 'RMB'
-                field_number = 0
+                field_number = rmb_x_count
+                rmb_x_count += 1
             else:
-                raise Exception("could not parse field id '%s' at line '%d'" % \
-                    (line_dict['Field Number'], n+1))
+                if skip_bad_field_ids:
+                    _LOG.warning("could not parse field id {0!r} at line {1}"
+                              "... skipping!".format(
+                            line_dict['Field Number'], n+1))
+                else:
+                    raise Exception("could not parse field id {0!r} at "
+                                    "line {1}".format(
+                            line_dict['Field Number'], n+1))
         else:
             field_series, field_number = m.groups()
         catalog_series = None
@@ -250,6 +259,17 @@ def mark_candidates(samples, candidate_file_path):
     for id in candidates.keys():
         samples[id].use = True
 
+def get_missing_tissue_locations(gekkonid_samples, gekkonid_samples_db):
+    for id, sample in gekkonid_samples.iteritems():
+        if ((sample.tissue == None) and 
+            (gekkonid_samples_db.has_key(id)) and
+            (gekkonid_samples_db[id].tissue != None)):
+            _LOG.info('found tissue location for {0}: {1}'.format(id,
+                    gekkonid_samples_db[id].tissue))
+            sample.tower = gekkonid_samples_db[id].tower
+            sample.box = gekkonid_samples_db[id].box
+            sample.cell = gekkonid_samples_db[id].cell
+
 def write_data(samples, path, candidates_only=False, delimiter='\t'):
     out = open(path, 'w')
     fields = ['catalog_series', 
@@ -316,6 +336,7 @@ def main():
     path_to_lab_data = os.path.join(source_dir, "gekkonid_lab_work.txt")
     path_to_lsuhc_data = os.path.join(source_dir, "LSUHC_geckos.txt")
     path_to_freezer_data = os.path.join(source_dir, "ku_freezer.txt")
+    path_to_full_freezer_db = os.path.join(source_dir, "ku_freezer_all.txt")
     path_to_corrections = os.path.join(source_dir, "taxonomic_fixes.txt")
     path_to_candidates_in = os.path.join(source_dir, "candidate_samples.txt")
     # outputs
@@ -323,17 +344,31 @@ def main():
     path_to_all_data = os.path.join(sample_dir, "all_tissue_holdings.txt")
     path_to_candidates_out = os.path.join(sample_dir, "candidate_tissues.txt")
 
-    cat_data = parse_catalog_data(path_to_ku_data, delimiter='\t')
-    lab_data = parse_extraction_data(path_to_lab_data, delimiter='\t')
-    lsuhc_data = parse_lsuhc_data(path_to_lsuhc_data, delimiter='\t')
-    freezer_data = parse_freezer_data(path_to_freezer_data, delimiter='\t')
-    fix_data = parse_taxonomic_corrections(path_to_corrections, delimiter='\t')
+    cat_data = parse_catalog_data(path_to_ku_data, delimiter='\t',
+            samples=GekkonidSamples())
+    lab_data = parse_extraction_data(path_to_lab_data, delimiter='\t',
+            samples=GekkonidSamples())
+    lsuhc_data = parse_lsuhc_data(path_to_lsuhc_data, delimiter='\t',
+            samples=GekkonidSamples())
+    freezer_data = parse_freezer_data(path_to_freezer_data, delimiter='\t',
+            samples=GekkonidSamples())
+    fix_data = parse_taxonomic_corrections(path_to_corrections, delimiter='\t',
+            samples=GekkonidSamples())
 
     cat_data.merge(lab_data, overwrite=False)
     cat_data.merge(lsuhc_data, overwrite=True)
     freezer_data.merge(cat_data, overwrite=True)
     freezer_data.merge(fix_data, overwrite=True)
     apply_island_fixes(freezer_data)
+
+    _LOG.info('\nPARSING FREEZER DATABASE\n')
+    freezer_db = parse_freezer_data(path_to_full_freezer_db, delimiter='\t',
+            skip_bad_field_ids=True)
+    _LOG.info('\nCHECKING FOR MISSING TISSUE LOCATIONS\n')
+    _LOG.info('length of samples: {0}'.format(len(freezer_data)))
+    _LOG.info('length of data base: {0}'.format(len(freezer_db)))
+    get_missing_tissue_locations(gekkonid_samples=freezer_data,
+            gekkonid_samples_db=freezer_db)
 
     mark_candidates(freezer_data, path_to_candidates_in)
 
