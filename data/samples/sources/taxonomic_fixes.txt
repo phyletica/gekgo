@@ -172,3 +172,27 @@ ACD	1454	Gekko	mindorensis
 ACD	1445	Gekko	mindorensis
 ACD	1661	Gekko	mindorensis
 ELR	1579	Luperosaurus	gulat
+PNM/CMNH H	1289	Cyrtodactylus	annulatus	Philippines	Mindanao
+PNM/CMNH H	1290	Cyrtodactylus	annulatus	Philippines	Mindanao
+PNM/CMNH H	1291	Cyrtodactylus	annulatus	Philippines	Mindanao
+PNM/CMNH H	1292	Cyrtodactylus	annulatus	Philippines	Mindanao
+PNM/CMNH H	1293	Cyrtodactylus	annulatus	Philippines	Mindanao
+PNM/CMNH H	1298	Cyrtodactylus	annulatus	Philippines	Mindanao
+PNM/CMNH H	1352	Cyrtodactylus	annulatus	Philippines	Mindanao
+PNM/CMNH H	1459	Cyrtodactylus	annulatus	Philippines	Mindanao
+PNM/CMNH H	1601	Cyrtodactylus	annulatus	Philippines	Mindanao
+PNM/CMNH H	1646	Cyrtodactylus	annulatus	Philippines	Mindanao
+CDS	31	Gekko	gigante	Philippines	South Gigante
+CDS	46	Gekko	gigante	Philippines	South Gigante
+RMB	6425	Gekko	mindorensis	Philippines	Panay
+RMB	6429	Gekko	mindorensis	Philippines	Panay
+RMB	6430	Gekko	mindorensis	Philippines	Panay
+RMB	6431	Gekko	mindorensis	Philippines	Panay
+RMB	6448	Gekko	mindorensis	Philippines	Panay
+RMB	6449	Gekko	mindorensis	Philippines	Panay
+RMB	6479	Gekko	mindorensis	Philippines	Panay
+RMB	6403	Gekko	mindorensis	Philippines	Panay
+RMB	11229	Cyrtodactylus	annulatus	Philippines	Mindanao
+RMB	11302	Cyrtodactylus	annulatus	Philippines	Mindanao
+RMB	11309	Cyrtodactylus	annulatus	Philippines	Mindanao
+RMB	11714	Cyrtodactylus	annulatus	Philippines	Mindanao
