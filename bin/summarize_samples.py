@@ -237,7 +237,20 @@ def parse_taxonomic_corrections(file_obj, delimiter='\t', samples=GekkonidSample
         samples.add(s)
     return samples
 
-def write_data(samples, path, delimiter='\t'):
+def parse_candidates(file_obj, delimiter='\t', samples=GekkonidSamples()):
+    dr, src = get_dict_reader(file_obj, delimiter=delimiter)
+    for n, line_dict in enumerate(dr):
+        s = Sample(field_series = line_dict['field_series'],
+                   field_number = line_dict['field_number'])
+        samples.add(s)
+    return samples
+
+def mark_candidates(samples, candidate_file_path):
+    candidates = parse_candidates(candidate_file_path)
+    for id in candidates.keys():
+        samples[id].use = True
+
+def write_data(samples, path, candidates_only=False, delimiter='\t'):
     out = open(path, 'w')
     fields = ['catalog_series', 
               'catalog_number',
@@ -257,8 +270,14 @@ def write_data(samples, path, delimiter='\t'):
               'source',]
     out.write("%s\n" % delimiter.join(fields))
     for field_id, sample in samples.iteritems():
-        out.write("%s\n" % delimiter.join([my_str(getattr(sample, x, '')) for x in fields]))
-    out.close()
+        if candidates_only:
+            if sample.use:
+                out.write("%s\n" % delimiter.join([
+                        my_str(getattr(sample, x, '')) for x in fields]))
+        else:
+            out.write("%s\n" % delimiter.join([
+                    my_str(getattr(sample, x, '')) for x in fields]))
+    out.close()  
 
 def summarize_island_sampling_for_species(species, samples):
     islands = {}
@@ -298,9 +317,11 @@ def main():
     path_to_lsuhc_data = os.path.join(source_dir, "LSUHC_geckos.txt")
     path_to_freezer_data = os.path.join(source_dir, "ku_freezer.txt")
     path_to_corrections = os.path.join(source_dir, "taxonomic_fixes.txt")
+    path_to_candidates_in = os.path.join(source_dir, "candidate_samples.txt")
     # outputs
     path_to_island_summary = os.path.join(sample_dir, "species_sampling_by_island.txt")
     path_to_all_data = os.path.join(sample_dir, "all_tissue_holdings.txt")
+    path_to_candidates_out = os.path.join(sample_dir, "candidate_tissues.txt")
 
     cat_data = parse_catalog_data(path_to_ku_data, delimiter='\t')
     lab_data = parse_extraction_data(path_to_lab_data, delimiter='\t')
@@ -314,8 +335,15 @@ def main():
     freezer_data.merge(fix_data, overwrite=True)
     apply_island_fixes(freezer_data)
 
+    mark_candidates(freezer_data, path_to_candidates_in)
+
     write_island_sampling(samples=freezer_data, path=path_to_island_summary)
-    write_data(samples=freezer_data, path=path_to_all_data)
+    write_data(samples=freezer_data,
+               path=path_to_all_data,
+               candidates_only=False)
+    write_data(samples=freezer_data,
+               path=path_to_candidates_out, 
+               candidates_only=True)
 
 if __name__ == '__main__':
     main()
