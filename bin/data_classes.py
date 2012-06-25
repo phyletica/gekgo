@@ -109,6 +109,7 @@ class Sample(object):
         self.month = kwargs.pop('month', None)
         self.year = kwargs.pop('year', None)
         self.source = kwargs.pop('source', None)
+        self.use = kwargs.pop('use', False)
         if len(kwargs.keys()) > 0:
             _LOG.warning("Unused kwargs passed to Sample.__init__ for '%s':\n" % \
                           self.field_id + \
