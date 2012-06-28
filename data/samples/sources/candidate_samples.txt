@@ -1,0 +1,1346 @@
+field_series	field_number	genus	epithet	country	island	paic
+CDS	4763	Cyrtodactylus	annulatus	Philippines	Bohol	Mindanao
+CDS	4660	Cyrtodactylus	annulatus	Philippines	Bohol	Mindanao
+CDS	4661	Cyrtodactylus	annulatus	Philippines	Bohol	Mindanao
+CDS	4659	Cyrtodactylus	annulatus	Philippines	Bohol	Mindanao
+CDS	4658	Cyrtodactylus	annulatus	Philippines	Bohol	Mindanao
+CDS	4583	Cyrtodactylus	annulatus	Philippines	Bohol	Mindanao
+CDS	4484	Cyrtodactylus	annulatus	Philippines	Bohol	Mindanao
+CDS	4485	Cyrtodactylus	annulatus	Philippines	Bohol	Mindanao
+CDS	4482	Cyrtodactylus	annulatus	Philippines	Bohol	Mindanao
+CDS	4483	Cyrtodactylus	annulatus	Philippines	Bohol	Mindanao
+CDS	4622	Cyrtodactylus	annulatus	Philippines	Bohol	Mindanao
+RMB	8232	Cyrtodactylus	annulatus	Philippines	Camiguin Sur	Mindanao
+RMB	8220	Cyrtodactylus	annulatus	Philippines	Camiguin Sur	Mindanao
+RMB	8201	Cyrtodactylus	annulatus	Philippines	Camiguin Sur	Mindanao
+RMB	8043	Cyrtodactylus	annulatus	Philippines	Camiguin Sur	Mindanao
+CWL	88	Cyrtodactylus	annulatus	Philippines	Cebu	Visayan
+CWL	89	Cyrtodactylus	annulatus	Philippines	Cebu	Visayan
+CDS	1768	Cyrtodactylus	annulatus	Philippines	Cebu	Visayan
+CWL	90	Cyrtodactylus	annulatus	Philippines	Cebu	Visayan
+RMB	7644	Cyrtodactylus	annulatus	Philippines	Palawan	
+RMB	7716	Cyrtodactylus	annulatus	Philippines	Palawan	
+RMB	7718	Cyrtodactylus	annulatus	Philippines	Palawan	
+RMB	7719	Cyrtodactylus	annulatus	Philippines	Palawan	
+RMB	7720	Cyrtodactylus	annulatus	Philippines	Palawan	
+RMB	7722	Cyrtodactylus	annulatus	Philippines	Palawan	
+RMB	7725	Cyrtodactylus	annulatus	Philippines	Palawan	
+RMB	7724	Cyrtodactylus	annulatus	Philippines	Palawan	
+LSUHC	264	Cyrtodactylus	aurensis	Malaysia	Pulau Aur	
+LSUHC	265	Cyrtodactylus	aurensis	Malaysia	Pulau Aur	
+LSUHC	262	Cyrtodactylus	aurensis	Malaysia	Pulau Aur	
+LSUHC	263	Cyrtodactylus	aurensis	Malaysia	Pulau Aur	
+LSUHC	248	Cyrtodactylus	aurensis	Malaysia	Pulau Aur	
+LSUHC	247	Cyrtodactylus	aurensis	Malaysia	Pulau Aur	
+LSUHC	977	Cyrtodactylus	aurensis	Malaysia	Pulau Aur	
+LSUHC	978	Cyrtodactylus	aurensis	Malaysia	Pulau Aur	
+LSUHC	980	Cyrtodactylus	aurensis	Malaysia	Pulau Aur	
+LSUHC	979	Cyrtodactylus	aurensis	Malaysia	Pulau Aur	
+NOID	1	Cyrtodactylus	baluensis	Malaysia	Borneo	
+NOID	2	Cyrtodactylus	baluensis	Malaysia	Borneo	
+NOID		Cyrtodactylus	baluensis	Malaysia	Borneo	
+SP	6891	Cyrtodactylus	baluensis	Malaysia	Kinabalu	
+SP	6892	Cyrtodactylus	baluensis	Malaysia	Kinabalu	
+SP	6906	Cyrtodactylus	baluensis	Malaysia	Kinabalu	
+LSUHC	4869	Cyrtodactylus	batucolus	West Malaysia	Pulau Besar	
+LSUHC	4458	Cyrtodactylus	batucolus	West Malaysia	Pulau Besar	
+LSUHC	4459	Cyrtodactylus	batucolus	West Malaysia	Pulau Besar	
+LSUHC	4457	Cyrtodactylus	batucolus	West Malaysia	Pulau Besar	
+LSUHC	2288	Cyrtodactylus	brevipalmatus	Thailand	
+LSUHC	2286	Cyrtodactylus	brevipalmatus	Thailand	
+LSUHC	2290	Cyrtodactylus	brevipalmatus	Thailand	
+LSUHC	2291	Cyrtodactylus	brevipalmatus	Thailand	
+LSUHC	2289	Cyrtodactylus	brevipalmatus	Thailand	
+LSUHC	2283	Cyrtodactylus	brevipalmatus	Thailand	
+LSUHC	2287	Cyrtodactylus	brevipalmatus	Thailand	
+LSUHC	2285	Cyrtodactylus	brevipalmatus	Thailand	
+LSUHC	2284	Cyrtodactylus	brevipalmatus	Thailand	
+LSUHC	2487	Cyrtodactylus	brevipalmatus	Thailand	
+LSUHC	2978	Cyrtodactylus	cf. condorensis	Vietnam		
+LSUHC	2979	Cyrtodactylus	cf. condorensis	Vietnam		
+LSUHC	2980	Cyrtodactylus	cf. condorensis	Vietnam		
+LSUHC	5074	Cyrtodactylus	cf. paradoxus	Vietnam	Nam Du	
+LSUHC	5075	Cyrtodactylus	cf. paradoxus	Vietnam	Nam Du	
+LSUHC	5076	Cyrtodactylus	cf. paradoxus	Vietnam	Nam Du	
+LSUHC	5530	Cyrtodactylus	cf. quadrivirgatus	West Malaysia	
+LSUHC	5529	Cyrtodactylus	cf. quadrivirgatus	West Malaysia	
+LSUHC	5527	Cyrtodactylus	cf. quadrivirgatus	West Malaysia	
+LSUHC	5528	Cyrtodactylus	cf. quadrivirgatus	West Malaysia	
+LSUHC	3418	Cyrtodactylus	chuyangsinensis	Vietnam		
+LSUHC	3397	Cyrtodactylus	chuyangsinensis	Vietnam		
+LSUHC	3396	Cyrtodactylus	chuyangsinensis	Vietnam		
+LSUHC	3395	Cyrtodactylus	chuyangsinensis	Vietnam		
+LSUHC	3319	Cyrtodactylus	condorensis	Vietnam	Con Dao	
+LSUHC	3329	Cyrtodactylus	condorensis	Vietnam	Con Dao	
+LSUHC	3328	Cyrtodactylus	condorensis	Vietnam	Con Dao	
+LSUHC	3320	Cyrtodactylus	condorensis	Vietnam	Con Dao	
+LSUHC	3327	Cyrtodactylus	condorensis	Vietnam	Con Dao	
+LSUHC	3326	Cyrtodactylus	condorensis	Vietnam	Con Dao	
+LSUHC	3323	Cyrtodactylus	condorensis	Vietnam	Con Dao	
+LSUHC	3322	Cyrtodactylus	condorensis	Vietnam	Con Dao	
+LSUHC	3321	Cyrtodactylus	condorensis	Vietnam	Con Dao	
+LSUHC	3325	Cyrtodactylus	condorensis	Vietnam	Con Dao	
+LSUHC	3324	Cyrtodactylus	condorensis	Vietnam	Con Dao	
+LSUHC	2970	Cyrtodactylus	condorensis	Vietnam	Con Son	
+LSUHC	2972	Cyrtodactylus	condorensis	Vietnam	Con Son	
+LSUHC	2974	Cyrtodactylus	condorensis	Vietnam	Con Son	
+LSUHC	2967	Cyrtodactylus	condorensis	Vietnam	Con Son	
+LSUHC	2964	Cyrtodactylus	condorensis	Vietnam	Con Son	
+LSUHC	2965	Cyrtodactylus	condorensis	Vietnam	Con Son	
+LSUHC	2968	Cyrtodactylus	condorensis	Vietnam	Con Son	
+LSUHC	2969	Cyrtodactylus	condorensis	Vietnam	Con Son	
+LSUHC	2971	Cyrtodactylus	condorensis	Vietnam	Con Son	
+LSUHC	2973	Cyrtodactylus	condorensis	Vietnam	Con Son	
+LSUHC	2966	Cyrtodactylus	condorensis	Vietnam	Con Son	
+LSUHC	4465	Cyrtodactylus	consobrinus	West Malaysia		
+LSUHC	4464	Cyrtodactylus	consobrinus	West Malaysia		
+LSUHC	4467	Cyrtodactylus	consobrinus	West Malaysia		
+LSUHC	4466	Cyrtodactylus	consobrinus	West Malaysia		
+LSUHC	4461	Cyrtodactylus	consobrinus	West Malaysia		
+LSUHC	4460	Cyrtodactylus	consobrinus	West Malaysia		
+LSUHC	4463	Cyrtodactylus	consobrinus	West Malaysia		
+LSUHC	4462	Cyrtodactylus	consobrinus	West Malaysia		
+LSUHC	5365	Cyrtodactylus	durio	Malaysia		
+LSUHC	5364	Cyrtodactylus	durio	Malaysia		
+LSUHC	5366	Cyrtodactylus	durio	Malaysia		
+LSUHC	5363	Cyrtodactylus	durio	Malaysia		
+LSUHC	5362	Cyrtodactylus	durio	Malaysia		
+LSUHC	3158	Cyrtodactylus	eismannii	Vietnam		
+LSUHC	3156	Cyrtodactylus	eismannii	Vietnam		
+LSUHC	3157	Cyrtodactylus	eismannii	Vietnam		
+LSUHC	3051	Cyrtodactylus	eismannii	Vietnam		
+LSUHC	2599	Cyrtodactylus	elok	Malaysia		
+LSUHC	2598	Cyrtodactylus	elok	Malaysia		
+LSUHC	2593	Cyrtodactylus	elok	Malaysia		
+LSUHC	2592	Cyrtodactylus	elok	Malaysia		
+LSUHC	2591	Cyrtodactylus	elok	Malaysia		
+LSUHC	2590	Cyrtodactylus	elok	Malaysia		
+LSUHC	2597	Cyrtodactylus	elok	Malaysia		
+LSUHC	2596	Cyrtodactylus	elok	Malaysia		
+LSUHC	2595	Cyrtodactylus	elok	Malaysia		
+LSUHC	2594	Cyrtodactylus	elok	Malaysia		
+LSUHC	2587	Cyrtodactylus	elok	Malaysia		
+LSUHC	2601	Cyrtodactylus	elok	Malaysia		
+LSUHC	3161	Cyrtodactylus	grismeri	Vietnam		
+LSUHC	3160	Cyrtodactylus	grismeri	Vietnam		
+LSUHC	3163	Cyrtodactylus	grismeri	Vietnam		
+LSUHC	3162	Cyrtodactylus	grismeri	Vietnam		
+LSUHC	3159	Cyrtodactylus	grismeri	Vietnam		
+RMB	8933	Cyrtodactylus	gubaot	Philippines	Leyte	Mindanao
+RMB	8932	Cyrtodactylus	gubaot	Philippines	Leyte	Mindanao
+RMB	8935	Cyrtodactylus	gubaot	Philippines	Leyte	Mindanao
+RMB	8934	Cyrtodactylus	gubaot	Philippines	Leyte	Mindanao
+RMB	8937	Cyrtodactylus	gubaot	Philippines	Leyte	Mindanao
+RMB	8936	Cyrtodactylus	gubaot	Philippines	Leyte	Mindanao
+RMB	8931	Cyrtodactylus	gubaot	Philippines	Leyte	Mindanao
+LSUHC	3058	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3064	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3061	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3065	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3067	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3066	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3055	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3054	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3057	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3056	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3053	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3052	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3059	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3060	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3062	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	3063	Cyrtodactylus	hontreensis	Vietnam		
+LSUHC	6070	Cyrtodactylus	intermedius	Cambodia		
+LSUHC	6072	Cyrtodactylus	intermedius	Cambodia		
+LSUHC	6073	Cyrtodactylus	intermedius	Cambodia		
+LSUHC	6079	Cyrtodactylus	intermedius	Cambodia		
+LSUHC	6069	Cyrtodactylus	intermedius	Cambodia		
+LSUHC	6071	Cyrtodactylus	intermedius	Cambodia		
+LSUHC	3068	Cyrtodactylus	intermedius	Vietnam	Phu Quoc	
+LSUHC	3069	Cyrtodactylus	intermedius	Vietnam	Phu Quoc	
+LSUHC	3072	Cyrtodactylus	intermedius	Vietnam	Phu Quoc	
+LSUHC	3071	Cyrtodactylus	intermedius	Vietnam	Phu Quoc	
+LSUHC	3070	Cyrtodactylus	intermedius	Vietnam	Phu Quoc	
+RMB	11712	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	11747	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	11746	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	11745	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	11670	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	11591	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	11404	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	11321	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	11303	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	11297	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10492	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10493	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10494	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10495	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10267	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10266	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10298	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10299	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10300	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10301	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10302	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10303	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10084	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10245	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10246	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10259	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10260	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10173	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10003	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10050	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10051	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10006	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10005	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	10004	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9223	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9207	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9195	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9143	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9142	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9141	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9145	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9144	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9139	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9196	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9120	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9086	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9087	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9084	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9085	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9088	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9089	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9090	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9093	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9092	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+RMB	9094	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao
+LSUHC	5135	Cyrtodactylus	leegrismeri	West Malaysia	Pulau Tenggol	
+LSUHC	5136	Cyrtodactylus	leegrismeri	West Malaysia	Pulau Tenggol	
+LSUHC	5137	Cyrtodactylus	leegrismeri	West Malaysia	Pulau Tenggol	
+LSUHC	5138	Cyrtodactylus	leegrismeri	West Malaysia	Pulau Tenggol	
+LSUHC	5139	Cyrtodactylus	leegrismeri	West Malaysia	Pulau Tenggol	
+LSUHC	5141	Cyrtodactylus	leegrismeri	West Malaysia	Pulau Tenggol	
+LSUHC	5140	Cyrtodactylus	leegrismeri	West Malaysia	Pulau Tenggol	
+LSUHC	5142	Cyrtodactylus	leegrismeri	West Malaysia	Pulau Tenggol	
+LSUHC	6318	Cyrtodactylus	lekaguli	Thailand		
+LSUHC	6325	Cyrtodactylus	lekaguli	Thailand		
+LSUHC	6326	Cyrtodactylus	lekaguli	Thailand		
+LSUHC	6327	Cyrtodactylus	lekaguli	Thailand		
+LSUHC	6112	Cyrtodactylus	majula	Singapore		
+LSUHC	6111	Cyrtodactylus	majula	Singapore		
+LSUHC	6308	Cyrtodactylus	majula	Singapore		
+LSUHC	6309	Cyrtodactylus	majula	Singapore		
+LSUHC	6311	Cyrtodactylus	majula	Singapore		
+LSUHC	6313	Cyrtodactylus	majula	Singapore		
+LSUHC	6312	Cyrtodactylus	majula	Singapore		
+LSUHC	6310	Cyrtodactylus	majula	Singapore		
+RMB	8492	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8445	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8444	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8436	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8427	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8416	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8417	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8418	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8382	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8381	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8380	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8376	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8375	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8340	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8341	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8323	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8325	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8321	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+RMB	8322	Cyrtodactylus	mamanwa	Philippines	Dinagat	Mindanao
+LSUHC	4478	Cyrtodactylus	pantiensis	West Malaysia		
+LSUHC	4479	Cyrtodactylus	pantiensis	West Malaysia		
+LSUHC	4476	Cyrtodactylus	pantiensis	West Malaysia		
+LSUHC	4477	Cyrtodactylus	pantiensis	West Malaysia		
+LSUHC	4474	Cyrtodactylus	pantiensis	West Malaysia		
+LSUHC	4475	Cyrtodactylus	pantiensis	West Malaysia		
+LSUHC	4472	Cyrtodactylus	pantiensis	West Malaysia		
+LSUHC	4473	Cyrtodactylus	pantiensis	West Malaysia		
+LSUHC	4470	Cyrtodactylus	pantiensis	West Malaysia		
+LSUHC	4471	Cyrtodactylus	pantiensis	West Malaysia		
+LSUHC	5230	Cyrtodactylus	oldhami	Thailand		
+LSUHC	5229	Cyrtodactylus	oldhami	Thailand		
+LSUHC	5232	Cyrtodactylus	oldhami	Thailand		
+LSUHC	5231	Cyrtodactylus	oldhami	Thailand		
+RMB	5905	Cyrtodactylus	philippinicus	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5907	Cyrtodactylus	philippinicus	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5906	Cyrtodactylus	philippinicus	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5811	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5792	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5791	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5756	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5757	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5754	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5755	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5752	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5753	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5751	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5724	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5707	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5570	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5569	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5529	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5503	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5502	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5501	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5500	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5366	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5365	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5364	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5363	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5362	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5361	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5360	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5359	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5350	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5351	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5349	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	5348	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+CDS	3933	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+CDS	3932	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+CDS	3869	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+CDS	3781	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+CDS	3793	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+CDS	3749	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+CDS	3751	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+CDS	3750	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+CDS	3752	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang
+RMB	15211	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	15212	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	15119	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	15070	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	15053	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	15052	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14953	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14955	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14954	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14956	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14895	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14902	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14900	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14901	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14899	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14885	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14884	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14883	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14890	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14453	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14310	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14249	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14248	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	14180	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13965	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13964	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13966	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13961	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13963	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13962	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13938	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13902	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13901	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13900	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13855	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13856	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13860	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5880	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5823	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5822	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5824	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5727	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5724	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5686	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5627	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5584	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5582	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5583	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5580	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5581	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5544	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13670	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13669	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13719	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13713	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13721	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13720	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13664	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13653	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13652	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13651	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13654	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13571	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13510	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13367	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	13366	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	12834	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	12836	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	12837	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	12838	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	12835	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	12845	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	12788	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	12789	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	12790	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	9804	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	9745	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	9739	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	9705	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	9749	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	9748	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	9740	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	9693	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	9692	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	9686	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	9613	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+RMB	9614	Cyrtodactylus	philippinicus	Philippines	Luzon	Luzon
+CDS	5869	Cyrtodactylus	philippinicus	Philippines	Luzon	
+CDS	5868	Cyrtodactylus	philippinicus	Philippines	Luzon	
+CDS	5865	Cyrtodactylus	philippinicus	Philippines	Luzon	
+CDS	5864	Cyrtodactylus	philippinicus	Philippines	Luzon	
+CDS	5867	Cyrtodactylus	philippinicus	Philippines	Luzon	
+CDS	5866	Cyrtodactylus	philippinicus	Philippines	Luzon	
+CDS	5861	Cyrtodactylus	philippinicus	Philippines	Luzon	
+CDS	5860	Cyrtodactylus	philippinicus	Philippines	Luzon	
+CDS	5863	Cyrtodactylus	philippinicus	Philippines	Luzon	
+RMB	6628	Cyrtodactylus	philippinicus	Philippines	Mindoro	Mindoro
+RMB	6455	Cyrtodactylus	philippinicus	Philippines	Mindoro	Mindoro
+RMB	6447	Cyrtodactylus	philippinicus	Philippines	Mindoro	Mindoro
+ELR	682	Cyrtodactylus	philippinicus	Philippines	Mindoro	Mindoro
+ELR	681	Cyrtodactylus	philippinicus	Philippines	Mindoro	Mindoro
+CDS	4408	Cyrtodactylus	philippinicus	Philippines	Negros	Visayan
+CDS	4384	Cyrtodactylus	philippinicus	Philippines	Negros	Visayan
+CDS	4342	Cyrtodactylus	philippinicus	Philippines	Negros	Visayan
+CDS	4341	Cyrtodactylus	philippinicus	Philippines	Negros	Visayan
+CDS	1511	Cyrtodactylus	philippinicus	Philippines	Panay	Visayan
+CDS	1560	Cyrtodactylus	philippinicus	Philippines	Panay	Visayan
+CDS	1566	Cyrtodactylus	philippinicus	Philippines	Panay	Visayan
+CDS	1559	Cyrtodactylus	philippinicus	Philippines	Panay	Visayan
+CDS	1558	Cyrtodactylus	philippinicus	Philippines	Panay	Visayan
+CDS	1550	Cyrtodactylus	philippinicus	Philippines	Panay	Visayan
+CDS	173	Cyrtodactylus	philippinicus	Philippines	Panay	Visayan
+CDS	172	Cyrtodactylus	philippinicus	Philippines	Panay	Visayan
+CDS	153	Cyrtodactylus	philippinicus	Philippines	Panay	Visayan
+CDS	152	Cyrtodactylus	philippinicus	Philippines	Panay	Visayan
+RMB	10867	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+RMB	10866	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+RMB	8905	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+RMB	8870	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+RMB	6332	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+RMB	6273	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+RMB	6261	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+RMB	6260	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+RMB	6259	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+CDS	1111	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+CDS	1112	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+CDS	1005	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+CDS	1003	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+CDS	1002	Cyrtodactylus	philippinicus	Philippines	Polillo	Luzon
+RMB	8790	Cyrtodactylus	philippinicus	Philippines	Tablas	Romblon
+RMB	8764	Cyrtodactylus	philippinicus	Philippines	Tablas	Romblon
+RMB	8761	Cyrtodactylus	philippinicus	Philippines	Tablas	Romblon
+RMB	8762	Cyrtodactylus	philippinicus	Philippines	Tablas	Romblon
+RMB	8763	Cyrtodactylus	philippinicus	Philippines	Tablas	Romblon
+RMB	5185	Cyrtodactylus	philippinicus	Philippines	Sibuyan	Romblon
+RMB	5184	Cyrtodactylus	philippinicus	Philippines	Sibuyan	Romblon
+CDS	1442	Cyrtodactylus	philippinicus	Philippines	Sibuyan	Romblon
+LSUHC	1462	Cyrtodactylus	pulchellus	Malaysia	Pulau Langkawi	
+LSUHC	1463	Cyrtodactylus	pulchellus	Malaysia	Pulau Langkawi	
+LSUHC	1460	Cyrtodactylus	pulchellus	Malaysia	Pulau Langkawi	
+LSUHC	1461	Cyrtodactylus	pulchellus	Malaysia	Pulau Langkawi	
+LSUHC	1457	Cyrtodactylus	pulchellus	Malaysia	Pulau Langkawi	
+LSUHC	1456	Cyrtodactylus	pulchellus	Malaysia	Pulau Langkawi	
+LSUHC	1455	Cyrtodactylus	pulchellus	Malaysia	Pulau Langkawi	
+LSUHC	1454	Cyrtodactylus	pulchellus	Malaysia	Pulau Langkawi	
+LSUHC	1459	Cyrtodactylus	pulchellus	Malaysia	Pulau Langkawi	
+LSUHC	1458	Cyrtodactylus	pulchellus	Malaysia	Pulau Langkawi	
+LSUHC	124	Cyrtodactylus	pulchellus	Malaysia	Pulau Langkawi	
+LSUHC	123	Cyrtodactylus	pulchellus	Malaysia	Pulau Langkawi	
+LSUHC	5194	Cyrtodactylus	pulchellus	West Malaysia	Pulau Langkawi	
+LSUHC	5195	Cyrtodactylus	pulchellus	West Malaysia	Pulau Langkawi	
+LSUHC	4702	Cyrtodactylus	pulchellus	West Malaysia	Pulau Langkawi	
+LSUHC	4703	Cyrtodactylus	pulchellus	West Malaysia	Pulau Langkawi	
+LSUHC	4182	Cyrtodactylus	pulchellus	West Malaysia	Pulau Langkawi	
+LSUHC	4183	Cyrtodactylus	pulchellus	West Malaysia	Pulau Langkawi	
+LSUHC	4694	Cyrtodactylus	pulchellus	West Malaysia	Pulau Langkawi	
+LSUHC	4695	Cyrtodactylus	pulchellus	West Malaysia	Pulau Langkawi	
+LSUHC	5758	Cyrtodactylus	pulchellus	West Malaysia	Pulau Pinang	
+LSUHC	6316	Cyrtodactylus	pulchellus	West Malaysia	Pulau Pinang	
+LSUHC	5948	Cyrtodactylus	pulchellus	West Malaysia	Pulau Pinang	
+LSUHC	5345	Cyrtodactylus	pulchellus	Malaysia	Pulau Pinang
+LSUHC	410	Cyrtodactylus	pubisulcus	Malaysia		
+LSUHC	411	Cyrtodactylus	pubisulcus	Malaysia		
+LSUHC	4888	Cyrtodactylus	pubisulcus	East Malaysia		
+LSUHC	4889	Cyrtodactylus	pubisulcus	East Malaysia		
+LSUHC	4720	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	4721	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	4758	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	4759	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	4780	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	4994	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	5176	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	5177	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	5357	Cyrtodactylus	pulchellus	Malaysia		
+LSUHC	5358	Cyrtodactylus	pulchellus	Malaysia		
+LSUHC	4468	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	4241	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	5890	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	5891	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	5892	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	5942	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	5975	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	5976	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	5977	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	6198	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	6199	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	6200	Cyrtodactylus	pulchellus	West Malaysia		
+LSUHC	2606	LSUHC	2606	Cyrtodactylus	quadrivirgatus	Malaysia		
+LSUHC	2607	LSUHC	2607	Cyrtodactylus	quadrivirgatus	Malaysia		
+LSUHC	2608	LSUHC	2608	Cyrtodactylus	quadrivirgatus	Malaysia		
+LSUHC	2609	LSUHC	2609	Cyrtodactylus	quadrivirgatus	Malaysia		
+LSUHC	2610	LSUHC	2610	Cyrtodactylus	quadrivirgatus	Malaysia		
+LSUHC	2611	LSUHC	2611	Cyrtodactylus	quadrivirgatus	Malaysia		
+LSUHC	2612	LSUHC	2612	Cyrtodactylus	quadrivirgatus	Malaysia		
+LSUHC	2613	LSUHC	2613	Cyrtodactylus	quadrivirgatus	Malaysia		
+LSUHC	2614	LSUHC	2614	Cyrtodactylus	quadrivirgatus	Malaysia		
+LSUHC	4243	Cyrtodactylus	quadrivirgatus	West Malaysia		
+LSUHC	4455	Cyrtodactylus	quadrivirgatus	West Malaysia		
+LSUHC	4456	Cyrtodactylus	quadrivirgatus	West Malaysia		
+LSUHC	4779	Cyrtodactylus	quadrivirgatus	West Malaysia		
+LSUHC	5767	Cyrtodactylus	quadrivirgatus	West Malaysia		
+LSUHC	5776	Cyrtodactylus	quadrivirgatus	West Malaysia		
+RMB	7757	Cyrtodactylus	redimiculus	Philippines	Palawan	Palawan
+RMB	7760	Cyrtodactylus	redimiculus	Philippines	Palawan	Palawan
+RMB	7829	Cyrtodactylus	redimiculus	Philippines	Palawan	Palawan
+RMB	7842	Cyrtodactylus	redimiculus	Philippines	Palawan	Palawan
+RMB	7859	Cyrtodactylus	redimiculus	Philippines	Palawan	Palawan
+RMB	7873	Cyrtodactylus	redimiculus	Philippines	Palawan	Palawan
+LSUHC	1945	Cyrtodactylus	semenanjungensis	Malaysia		
+LSUHC	1946	Cyrtodactylus	semenanjungensis	Malaysia		
+LSUHC	2007	Cyrtodactylus	semenanjungensis	Malaysia		
+LSUHC	2008	Cyrtodactylus	semenanjungensis	Malaysia		
+LSUHC	2009	Cyrtodactylus	semenanjungensis	Malaysia		
+LSUHC	2010	Cyrtodactylus	semenanjungensis	Malaysia		
+LSUHC	2011	Cyrtodactylus	semenanjungensis	Malaysia		
+LSUHC	4450	Cyrtodactylus	semenanjungensis	West Malaysia		
+LSUHC	4451	Cyrtodactylus	semenanjungensis	West Malaysia		
+LSUHC	4452	Cyrtodactylus	semenanjungensis	West Malaysia		
+LSUHC	4453	Cyrtodactylus	semenanjungensis	West Malaysia		
+LSUHC	1513	Cyrtodactylus	seribuatensis	Malaysia	Pulau Mentigi	
+LSUHC	1514	Cyrtodactylus	seribuatensis	Malaysia	Pulau Mentigi	
+LSUHC	1515	Cyrtodactylus	seribuatensis	Malaysia	Pulau Mentigi	
+LSUHC	1516	Cyrtodactylus	seribuatensis	Malaysia	Pulau Mentigi	
+LSUHC	1517	Cyrtodactylus	seribuatensis	Malaysia	Pulau Mentigi	
+LSUHC	1518	Cyrtodactylus	seribuatensis	Malaysia	Pulau Mentigi	
+LSUHC	7	Cyrtodactylus	seribuatensis	Malaysia	Pulau Nangka Kecil	
+LSUHC	8	Cyrtodactylus	seribuatensis	Malaysia	Pulau Nangka Kecil	
+RMB	11229	Cyrtodactylus	sp	Philippines	Mindanao	Mindanao
+RMB	11302	Cyrtodactylus	sp	Philippines	Mindanao	Mindanao
+RMB	11309	Cyrtodactylus	sp	Philippines	Mindanao	Mindanao
+RMB	11714	Cyrtodactylus	sp	Philippines	Mindanao	Mindanao
+PNM/CMNH H	1289	Cyrtodactylus	sp	Philippines	Mindanao	
+PNM/CMNH H	1290	Cyrtodactylus	sp	Philippines	Mindanao	
+PNM/CMNH H	1291	Cyrtodactylus	sp	Philippines	Mindanao	
+PNM/CMNH H	1292	Cyrtodactylus	sp	Philippines	Mindanao	
+PNM/CMNH H	1293	Cyrtodactylus	sp	Philippines	Mindanao	
+PNM/CMNH H	1298	Cyrtodactylus	sp	Philippines	Mindanao	
+PNM/CMNH H	1352	Cyrtodactylus	sp	Philippines	Mindanao	
+PNM/CMNH H	1459	Cyrtodactylus	sp	Philippines	Mindanao	
+PNM/CMNH H	1601	Cyrtodactylus	sp	Philippines	Mindanao	
+PNM/CMNH H	1646	Cyrtodactylus	sp	Philippines	Mindanao	
+LSUHC	3073	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3074	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3075	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3076	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3077	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3164	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3165	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3166	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3167	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3168	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3169	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3170	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3171	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3172	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3173	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3174	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3175	Cyrtodactylus	sp.	Vietnam		
+LSUHC	3176	Cyrtodactylus	sp.	Vietnam		
+LSUHC	4016	Cyrtodactylus	sp.	Cambodia		
+LSUHC	4017	Cyrtodactylus	sp.	Cambodia		
+LSUHC	4018	Cyrtodactylus	sp.	Cambodia		
+LSUHC	4019	Cyrtodactylus	sp.	Cambodia		
+LSUHC	4020	Cyrtodactylus	sp.	Cambodia		
+LSUHC	4021	Cyrtodactylus	sp.	Cambodia		
+CDS	1834	Cyrtodactylus	sumuroi	Philippines	Samar	Mindanao
+CDS	2645	Cyrtodactylus	sumuroi	Philippines	Samar	Mindanao
+CDS	2703	Cyrtodactylus	sumuroi	Philippines	Samar	Mindanao
+CDS	2844	Cyrtodactylus	sumuroi	Philippines	Samar	Mindanao
+CDS	2967	Cyrtodactylus	sumuroi	Philippines	Samar	Mindanao
+CDS	2984	Cyrtodactylus	sumuroi	Philippines	Samar	Mindanao
+CDS	3030	Cyrtodactylus	sumuroi	Philippines	Samar	Mindanao
+CDS	3047	Cyrtodactylus	sumuroi	Philippines	Samar	Mindanao
+LSUHC	5867	Cyrtodactylus	sworderi	West Malaysia		
+LSUHC	5870	Cyrtodactylus	sworderi	West Malaysia		
+LSUHC	5871	Cyrtodactylus	sworderi	West Malaysia		
+LSUHC	5872	Cyrtodactylus	sworderi	West Malaysia		
+LSUHC	5875	Cyrtodactylus	sworderi	West Malaysia		
+RMB	7645	Cyrtodactylus	tautbatorum	Philippines	Palawan	Palawan
+RMB	7646	Cyrtodactylus	tautbatorum	Philippines	Palawan	Palawan
+RMB	7647	Cyrtodactylus	tautbatorum	Philippines	Palawan	Palawan
+RMB	7648	Cyrtodactylus	tautbatorum	Philippines	Palawan	Palawan
+RMB	7649	Cyrtodactylus	tautbatorum	Philippines	Palawan	Palawan
+RMB	7650	Cyrtodactylus	tautbatorum	Philippines	Palawan	Palawan
+RMB	7717	Cyrtodactylus	tautbatorum	Philippines	Palawan	Palawan
+RMB	7721	Cyrtodactylus	tautbatorum	Philippines	Palawan	Palawan
+LSUHC	5599	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5602	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5603	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5604	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5605	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5606	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5608	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5609	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5610	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5617	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5618	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5619	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5620	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5621	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5630	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5631	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5632	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+LSUHC	5633	Cyrtodactylus	tiomanensis	West Malaysia	Pulau Tioman	
+JAM	1879	Cyrtodactylus	tiomanensis	Malaysia	Tioman	
+LSUHC	3771	Cyrtodactylus	tiomanensis	Wmalaysia	Tioman	
+MEW	100	Cyrtopodion	elongatus	Mongolia		
+MEW	95	Cyrtopodion	elongatus	Mongolia		
+MEW	98	Cyrtopodion	elongatus	Mongolia		
+MEW	99	Cyrtopodion	elongatus	Mongolia		
+KUHFS	37	Cyrtopodion	elongatus	Mongolia		
+RMB	12164	Gehyra	mutilata	Philippines	Luzon	Luzon
+RMB	12165	Gehyra	mutilata	Philippines	Luzon	Luzon
+RMB	124444	Gehyra	mutilata	Philippines	Luzon	Luzon
+RMB	12532	Gehyra	mutilata	Philippines	Luzon	Luzon
+RMB	12536	Gehyra	mutilata	Philippines	Luzon	Luzon
+RMB	12578	Gehyra	mutilata	Philippines	Luzon	Luzon
+RMB	12582	Gehyra	mutilata	Philippines	Luzon	Luzon
+RMB	12584	Gehyra	mutilata	Philippines	Luzon	Luzon
+RMB	13605	Gehyra	mutilata	Philippines	Luzon	Luzon
+RMB	7798	Gekko	athymus	Philippines	Palawan	Palawan
+RMB	7828	Gekko	athymus	Philippines	Palawan	Palawan
+RMB	7830	Gekko	athymus	Philippines	Palawan	Palawan
+RMB	7831	Gekko	athymus	Philippines	Palawan	Palawan
+RMB	3118	Gekko	athymus	Philippines	Palawan	Palawan
+RMB	13587	Gekko	carusadensis	Philippines	Luzon	Luzon
+RMB	13588	Gekko	carusadensis	Philippines	Luzon	Luzon
+RMB	13589	Gekko	carusadensis	Philippines	Luzon	Luzon
+RMB	13590	Gekko	carusadensis	Philippines	Luzon	Luzon
+RMB	13591	Gekko	carusadensis	Philippines	Luzon	Luzon
+KU-FS	13	Gekko	chinensis	China		
+KU-FS	14	Gekko	chinensis	China		
+KU-FS	15	Gekko	chinensis	China		
+KU-FS	16	Gekko	chinensis	China		
+KU-FS	17	Gekko	chinensis	China		
+KU-FS	18	Gekko	chinensis	China		
+KU-FS	272	Gekko	chinensis	China		
+RMB	5928	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5929	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5930	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5935	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5942	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5946	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5947	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5950	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5951	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5953	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5954	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5957	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5966	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5968	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5969	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5970	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group
+CDS	143	Gekko	ernstkelleri	Philippines	Panay	Visayan
+CDS	1554	Gekko	ernstkelleri	Philippines	Panay	Visayan
+CDS	154	Gekko	ernstkelleri	Philippines	Panay	Visayan
+CDS	155	Gekko	ernstkelleri	Philippines	Panay	Visayan
+CDS	156	Gekko	ernstkelleri	Philippines	Panay	Visayan
+CDS	157	Gekko	ernstkelleri	Philippines	Panay	Visayan
+CDS	159	Gekko	ernstkelleri	Philippines	Panay	Visayan
+CDS	161	Gekko	ernstkelleri	Philippines	Panay	Visayan
+CDS	163	Gekko	ernstkelleri	Philippines	Panay	Visayan
+CDS	212	Gekko	ernstkelleri	Philippines	Panay	Visayan
+CDS	4465	Gekko	gecko	Philippines	Bohol	Mindanao
+CDS	4769	Gekko	gecko	Philippines	Bohol	Mindanao
+CDS	4842	Gekko	gecko	Philippines	Bohol	Mindanao
+CDS	4935	Gekko	gecko	Philippines	Bohol	Mindanao
+CDS	4936	Gekko	gecko	Philippines	Bohol	Mindanao
+CDS	5024	Gekko	gecko	Philippines	Bohol	Mindanao
+CDS	60	Gekko	gecko	Philippines	Camiguin Sur	Mindanao
+CDS	87	Gekko	gecko	Philippines	Camiguin Sur	Mindanao
+RMB	8260	Gekko	gecko	Philippines	Camiguin Sur	Mindanao
+RMB	8261	Gekko	gecko	Philippines	Camiguin Sur	Mindanao
+RMB	8262	Gekko	gecko	Philippines	Camiguin Sur	Mindanao
+RMB	8263	Gekko	gecko	Philippines	Camiguin Sur	Mindanao
+CWL	74	Gekko	gecko	Philippines	Cebu	Visayan
+CWL	82	Gekko	gecko	Philippines	Cebu	Visayan
+CWL	83	Gekko	gecko	Philippines	Cebu	Visayan
+CWL	84	Gekko	gecko	Philippines	Cebu	Visayan
+RMB	15322	Gekko	gecko	Philippines	Cebu	Visayan
+RMB	15334	Gekko	gecko	Philippines	Cebu	Visayan
+RMB	15375	Gekko	gecko	Philippines	Cebu	Visayan
+CDS	365	Gekko	gecko	Philippines	Guimaras	Visayan
+CDS	367	Gekko	gecko	Philippines	Guimaras	Visayan
+CDS	368	Gekko	gecko	Philippines	Guimaras	Visayan
+CDS	553	Gekko	gecko	Philippines	Guimaras	Visayan
+RMB	5233	Gekko	gecko	Philippines	Lubang	Lubang
+RMB	5234	Gekko	gecko	Philippines	Lubang	Lubang
+RMB	5235	Gekko	gecko	Philippines	Lubang	Lubang
+RMB	5236	Gekko	gecko	Philippines	Lubang	Lubang
+RMB	5237	Gekko	gecko	Philippines	Lubang	Lubang
+RMB	5258	Gekko	gecko	Philippines	Lubang	Lubang
+RMB	5259	Gekko	gecko	Philippines	Lubang	Lubang
+RMB	5260	Gekko	gecko	Philippines	Lubang	Lubang
+RMB	5279	Gekko	gecko	Philippines	Lubang	Lubang
+RMB	5280	Gekko	gecko	Philippines	Lubang	Lubang
+RMB	5281	Gekko	gecko	Philippines	Lubang	Lubang
+RMB	5282	Gekko	gecko	Philippines	Lubang	Lubang
+RMB	13762	Gekko	gecko	Philippines	Luzon	Luzon
+RMB	13763	Gekko	gecko	Philippines	Luzon	Luzon
+RMB	13764	Gekko	gecko	Philippines	Luzon	Luzon
+RMB	13766	Gekko	gecko	Philippines	Luzon	Luzon
+RMB	13767	Gekko	gecko	Philippines	Luzon	Luzon
+RMB	13768	Gekko	gecko	Philippines	Luzon	Luzon
+RMB	13769	Gekko	gecko	Philippines	Luzon	Luzon
+RMB	13770	Gekko	gecko	Philippines	Luzon	Luzon
+CDS	499	Gekko	gecko	Philippines	Masbate	Visayan
+CDS	498	Gekko	gecko	Philippines	Masbate	Visayan
+CDS	500	Gekko	gecko	Philippines	Masbate	Visayan
+CDS	512	Gekko	gecko	Philippines	Masbate	Visayan
+CDS	513	Gekko	gecko	Philippines	Masbate	Visayan
+CDS	5129	Gekko	gecko	Philippines	Masbate	Visayan
+RMB	9108	Gekko	gecko	Philippines	Mindanao	Mindanao
+RMB	11711	Gekko	gecko	Philippines	Mindanao	Mindanao
+RMB	11719	Gekko	gecko	Philippines	Mindanao	Mindanao
+ELR	635	Gekko	gecko	Philippines	Mindoro	Mindoro
+ELR	711	Gekko	gecko	Philippines	Mindoro	Mindoro
+ELR	712	Gekko	gecko	Philippines	Mindoro	Mindoro
+ELR	713	Gekko	gecko	Philippines	Mindoro	Mindoro
+ELR	714	Gekko	gecko	Philippines	Mindoro	Mindoro
+ELR	715	Gekko	gecko	Philippines	Mindoro	Mindoro
+ELR	716	Gekko	gecko	Philippines	Mindoro	Mindoro
+ELR	727	Gekko	gecko	Philippines	Mindoro	Mindoro
+ELR	728	Gekko	gecko	Philippines	Mindoro	Mindoro
+ELR	737	Gekko	gecko	Philippines	Mindoro	Mindoro
+ELR	1017	Gekko	gecko	Philippines	Mindoro	Mindoro
+ELR	1018	Gekko	gecko	Philippines	Mindoro	Mindoro
+ELR	818	Gekko	gecko	Philippines	Mindoro	Mindoro
+CWL	50	Gekko	gecko	Philippines	Negros	Visayan
+CDS	3627	Gekko	gecko	Philippines	Negros	Visayan
+CDS	3628	Gekko	gecko	Philippines	Negros	Visayan
+CDS	3629	Gekko	gecko	Philippines	Negros	Visayan
+CDS	3630	Gekko	gecko	Philippines	Negros	Visayan
+CDS	3631	Gekko	gecko	Philippines	Negros	Visayan
+CDS	3632	Gekko	gecko	Philippines	Negros	Visayan
+RMB	7920	Gekko	gecko	Philippines	Palawan	Palawan
+RMB	7921	Gekko	gecko	Philippines	Palawan	Palawan
+RMB	7929	Gekko	gecko	Philippines	Palawan	Palawan
+CDS	209	Gekko	gecko	Philippines	Panay	Visayan
+CDS	210	Gekko	gecko	Philippines	Panay	Visayan
+CDS	1630	Gekko	gecko	Philippines	Panay	Visayan
+RMB	6404	Gekko	gecko	Philippines	Panay	Visayan
+RMB	6499	Gekko	gecko	Philippines	Panay	Visayan
+RMB	6502	Gekko	gecko	Philippines	Panay	Visayan
+RMB	6634	Gekko	gecko	Philippines	Panay	Visayan
+RMB	6635	Gekko	gecko	Philippines	Panay	Visayan
+LSUHC	3431	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	3432	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	3433	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	3434	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	3435	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	3436	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	3437	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	3438	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	4744	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	4745	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	4746	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	4747	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	4748	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	4749	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	4750	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	4751	Gekko	gecko	West Malaysia	Pulau Langkawi	
+LSUHC	4752	Gekko	gecko	West Malaysia	Pulau Langkawi	
+CDS	634	Gekko	gecko	Philippines	Semirara	Mindoro
+CDS	639	Gekko	gecko	Philippines	Semirara	Mindoro
+CDS	684	Gekko	gecko	Philippines	Semirara	Mindoro
+CDS	686	Gekko	gecko	Philippines	Semirara	Mindoro
+CDS	687	Gekko	gecko	Philippines	Semirara	Mindoro
+CDS	720	Gekko	gecko	Philippines	Semirara	Mindoro
+CDS	554	Gekko	gecko	Philippines	Semirara	Mindoro
+CDS	636	Gekko	gecko	Philippines	Semirara	Mindoro
+CDS	637	Gekko	gecko	Philippines	Semirara	Mindoro
+CDS	685	Gekko	gecko	Philippines	Semirara	Mindoro
+CDS	718	Gekko	gecko	Philippines	Semirara	Mindoro
+CDS	719	Gekko	gecko	Philippines	Semirara	Mindoro
+CDS	1372	Gekko	gecko	Philippines	Sibuyan	Romblon
+CDS	1416	Gekko	gecko	Philippines	Sibuyan	Romblon
+CDS	1418	Gekko	gecko	Philippines	Sibuyan	Romblon
+CDS	1419	Gekko	gecko	Philippines	Sibuyan	Romblon
+RMB	5137	Gekko	gecko	Philippines	Sibuyan	Romblon
+CDS	1417	Gekko	gecko	Philippines	Sibuyan	Romblon
+RMB	5034	Gekko	gecko	Philippines	Tablas	Romblon
+RMB	5038	Gekko	gecko	Philippines	Tablas	Romblon
+RMB	5039	Gekko	gecko	Philippines	Tablas	Romblon
+RMB	8744	Gekko	gecko	Philippines	Tablas	Romblon
+LSUHC	4263	Gekko	gecko	West Malaysia		
+LSUHC	4264	Gekko	gecko	West Malaysia		
+LSUHC	4265	Gekko	gecko	West Malaysia		
+LSUHC	4266	Gekko	gecko	West Malaysia		
+LSUHC	4267	Gekko	gecko	West Malaysia		
+LSUHC	4268	Gekko	gecko	West Malaysia		
+LSUHC	4269	Gekko	gecko	West Malaysia		
+LSUHC	5004	Gekko	gecko	West Malaysia		
+LSUHC	5005	Gekko	gecko	West Malaysia		
+RMB	2245	Gekko	gigante	Philippines	Gigante	
+RMB	2246	Gekko	gigante	Philippines	Gigante	
+RMB	2247	Gekko	gigante	Philippines	Gigante	
+RMB	2248	Gekko	gigante	Philippines	Gigante	
+CDS	51	Gekko	gigante	Philippines	North Gigante	Visayan
+CDS	53	Gekko	gigante	Philippines	North Gigante	Visayan
+CDS	48	Gekko	gigante	Philippines	North Gigante	Visayan
+CDS	50	Gekko	gigante	Philippines	North Gigante	Visayan
+CDS	49	Gekko	gigante	Philippines	North Gigante	Visayan
+CDS	55	Gekko	gigante	Philippines	South Gigante	Visayan
+CDS	46	Gekko	gigante/cf mindorensis	Philippines	South Gigante	Visayan
+CDS	31	Gekko	gigante/cf mindorensis	Philippines	South Gigante	Visayan
+CDS	590	Gekko	mindorensis	Philippines	Caluya	Visayan
+CDS	591	Gekko	mindorensis	Philippines	Caluya	Visayan
+CDS	607	Gekko	mindorensis	Philippines	Caluya	Visayan
+CDS	609	Gekko	mindorensis	Philippines	Caluya	Visayan
+CDS	610	Gekko	mindorensis	Philippines	Caluya	Visayan
+CDS	100	Gekko	mindorensis	Philippines	Camiguin Sur	Mindanao
+CDS	101	Gekko	mindorensis	Philippines	Camiguin Sur	Mindanao
+CDS	102	Gekko	mindorensis	Philippines	Camiguin Sur	Mindanao
+CDS	99	Gekko	mindorensis	Philippines	Camiguin Sur	Mindanao
+CDS	3734	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3783	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3794	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3795	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3796	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3797	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3798	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3799	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3800	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3801	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3802	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3803	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3804	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3805	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3806	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3831	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3832	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3833	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3834	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3835	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3836	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3837	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3838	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3861	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3862	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3863	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3864	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3865	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3866	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3867	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3868	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3894	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3895	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3935	Gekko	mindorensis	Philippines	Lubang	Lubang
+CDS	3936	Gekko	mindorensis	Philippines	Lubang	Lubang
+RMB	13655	Gekko	mindorensis	Philippines	Luzon	Luzon
+RMB	13656	Gekko	mindorensis	Philippines	Luzon	Luzon
+RMB	13657	Gekko	mindorensis	Philippines	Luzon	Luzon
+RMB	13658	Gekko	mindorensis	Philippines	Luzon	Luzon
+RMB	13659	Gekko	mindorensis	Philippines	Luzon	Luzon
+RMB	13660	Gekko	mindorensis	Philippines	Luzon	Luzon
+RMB	13661	Gekko	mindorensis	Philippines	Luzon	Luzon
+RMB	13662	Gekko	mindorensis	Philippines	Luzon	Luzon
+RMB	13663	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	6037	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	6038	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	6039	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	6044	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	6045	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	6046	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	6047	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	6049	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	6050	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	6051	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	6052	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	6053	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	6054	Gekko	mindorensis	Philippines	Luzon	Luzon
+CDS	1461	Gekko	mindorensis	Philippines	Maestre De Campo	Romblon
+CDS	1462	Gekko	mindorensis	Philippines	Maestre De Campo	Romblon
+CDS	1463	Gekko	mindorensis	Philippines	Maestre De Campo	Romblon
+CDS	1459	Gekko	mindorensis	Philippines	Maestre De Campo	Romblon
+CDS	755	Gekko	mindorensis	Philippines	Masbate	Visayan
+CDS	757	Gekko	mindorensis	Philippines	Masbate	Visayan
+CDS	758	Gekko	mindorensis	Philippines	Masbate	Visayan
+CDS	754	Gekko	mindorensis	Philippines	Masbate	Visayan
+CDS	1228	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+CDS	1229	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+CDS	1230	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+CDS	1231	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+CDS	1235	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+RMB	4981	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+RMB	4982	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+RMB	5005	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+RMB	5006	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	338	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	340	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	373	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	388	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	389	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	390	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	391	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	393	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	394	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	395	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	910	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	911	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	1006	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	1007	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	1008	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	1009	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	1010	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	1013	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+ELR	854	Gekko	mindorensis	Philippines	Mindoro	Mindoro
+CDS	277	Gekko	mindorensis	Philippines	Negros	Visayan
+CDS	278	Gekko	mindorensis	Philippines	Negros	Visayan
+CDS	279	Gekko	mindorensis	Philippines	Negros	Visayan
+CDSGS	39	Gekko	mindorensis	Philippines	Negros	
+CDSGS	40	Gekko	mindorensis	Philippines	Negros	
+CDSGS	41	Gekko	mindorensis	Philippines	Negros	
+CDS	63	Gekko	mindorensis	Philippines	Panay	Visayan
+CDS	64	Gekko	mindorensis	Philippines	Panay	Visayan
+CDS	65	Gekko	mindorensis	Philippines	Panay	Visayan
+CDS	66	Gekko	mindorensis	Philippines	Panay	Visayan
+RMB	6403	Gekko	sp.	Philippines	Panay	Visayan
+RMB	6425	Gekko	sp.	Philippines	Panay	Visayan
+RMB	6429	Gekko	sp.	Philippines	Panay	Visayan
+RMB	6430	Gekko	sp.	Philippines	Panay	Visayan
+RMB	6431	Gekko	sp.	Philippines	Panay	Visayan
+RMB	6448	Gekko	sp.	Philippines	Panay	Visayan
+RMB	6449	Gekko	sp.	Philippines	Panay	Visayan
+RMB	6479	Gekko	sp.	Philippines	Panay	Visayan
+CDS	592	Gekko	mindorensis	Philippines	Semirara	Visayan
+CDS	593	Gekko	mindorensis	Philippines	Semirara	Visayan
+CDS	594	Gekko	mindorensis	Philippines	Semirara	Visayan
+CDS	608	Gekko	mindorensis	Philippines	Semirara	Visayan
+CDS	611	Gekko	mindorensis	Philippines	Semirara	Visayan
+CDS	643	Gekko	mindorensis	Philippines	Semirara	Visayan
+LSUHC	5840	Gekko	monarchus	Malaysia	Johor	
+LSUHC	6370	Gekko	monarchus	Malaysia	Johor	
+LSUHC	7007	Gekko	monarchus	Malaysia	Johor	
+LSUHC	7638	Gekko	monarchus	Malaysia	Johor	
+LSUHC	8020	Gekko	monarchus	Malaysia	Johor	
+LSUHC	8914	Gekko	monarchus	Malaysia	Johor	
+LSUHC	4413	Gekko	monarchus	Malaysia	Pahang	
+LSUHC	4692	Gekko	monarchus	Malaysia	Pahang	
+LSUHC	6459	Gekko	monarchus	Malaysia	Pahang	
+LSUHC	6946	Gekko	monarchus	Malaysia	Pahang	
+LSUHC	6967	Gekko	monarchus	Malaysia	Pahang	
+RMB	7460	Gekko	monarchus	Philippines	Palawan	Palawan
+RMB	7531	Gekko	monarchus	Philippines	Palawan	Palawan
+RMB	7562	Gekko	monarchus	Philippines	Palawan	Palawan
+RMB	7589	Gekko	monarchus	Philippines	Palawan	Palawan
+LSUHC	2916	Gekko	sp.	Vietnam		
+LSUHC	2917	Gekko	sp.	Vietnam		
+LSUHC	2918	Gekko	sp.	Vietnam		
+LSUHC	2919	Gekko	sp.	Vietnam		
+LSUHC	2920	Gekko	sp.	Vietnam		
+LSUHC	2921	Gekko	sp.	Vietnam		
+LSUHC	2922	Gekko	sp.	Vietnam		
+LSUHC	2923	Gekko	sp.	Vietnam		
+LSUHC	2924	Gekko	sp.	Vietnam		
+LSUHC	2925	Gekko	sp.	Vietnam		
+LSUHC	2926	Gekko	sp.	Vietnam		
+LSUHC	2927	Gekko	sp.	Vietnam		
+LSUHC	2928	Gekko	sp.	Vietnam		
+LSUHC	2929	Gekko	sp.	Vietnam		
+LSUHC	2930	Gekko	sp.	Vietnam		
+LSUHC	2931	Gekko	sp.	Vietnam		
+LSUHC	2932	Gekko	sp.	Vietnam		
+LSUHC	2933	Gekko	sp.	Vietnam		
+LSUHC	2934	Gekko	sp.	Vietnam		
+RMB	6336	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6337	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6338	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6339	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6340	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6341	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6342	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6343	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6344	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6345	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6346	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6347	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6348	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6349	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6350	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6351	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6352	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6353	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6363	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6364	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6365	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6366	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6367	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6368	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6369	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6370	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6371	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6372	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6373	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6374	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6375	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6385	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6386	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6387	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6389	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+RMB	6390	Gekko	sp. a	Philippines	Dalupiri	Babuyan Island Group
+LSUHC	3268	Gekko	sp. a	Vietnam		
+LSUHC	3269	Gekko	sp. a	Vietnam		
+LSUHC	3270	Gekko	sp. a	Vietnam		
+LSUHC	3271	Gekko	sp. a	Vietnam		
+LSUHC	3272	Gekko	sp. a	Vietnam		
+LSUHC	3273	Gekko	sp. a	Vietnam		
+LSUHC	3331	Gekko	sp. a	Vietnam		
+RMB	5703	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5705	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5706	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5708	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5725	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5726	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5727	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5728	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5729	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5730	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5731	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5737	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5758	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5793	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5849	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5850	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5851	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5852	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5853	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	5854	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	7310	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+RMB	7363	Gekko	sp. b	Philippines	Camiguin Norte	Babuyan Island Group
+LSUHC	3277	Gekko	sp. b	Vietnam		
+LSUHC	3282	Gekko	sp. b	Vietnam		
+LSUHC	3283	Gekko	sp. b	Vietnam		
+LSUHC	3284	Gekko	sp. b	Vietnam		
+LSUHC	3285	Gekko	sp. b	Vietnam		
+LSUHC	3286	Gekko	sp. b	Vietnam		
+LSUHC	3287	Gekko	sp. b	Vietnam		
+LSUHC	3288	Gekko	sp. b	Vietnam		
+LSUHC	3289	Gekko	sp. b	Vietnam		
+LSUHC	3290	Gekko	sp. b	Vietnam		
+LSUHC	3291	Gekko	sp. b	Vietnam		
+LSUHC	3292	Gekko	sp. b	Vietnam		
+LSUHC	3293	Gekko	sp. b	Vietnam		
+LSUHC	3294	Gekko	sp. b	Vietnam		
+LSUHC	3295	Gekko	sp. b	Vietnam		
+LSUHC	3296	Gekko	sp. b	Vietnam		
+LSUHC	3297	Gekko	sp. b	Vietnam		
+LSUHC	3298	Gekko	sp. b	Vietnam		
+LSUHC	3304	Gekko	sp. b	Vietnam		
+LSUHC	3309	Gekko	sp. b	Vietnam		
+RMB	12588	Hemidactylus	frenatus	Philippines	Luzon	Luzon
+RMB	13550	Hemidactylus	frenatus	Philippines	Luzon	Luzon
+RMB	13551	Hemidactylus	frenatus	Philippines	Luzon	Luzon
+RMB	13552	Hemidactylus	frenatus	Philippines	Luzon	Luzon
+RMB	13553	Hemidactylus	frenatus	Philippines	Luzon	Luzon
+RMB	13576	Hemidactylus	frenatus	Philippines	Luzon	Luzon
+RMB	13578	Hemidactylus	frenatus	Philippines	Luzon	Luzon
+RMB	13579	Hemidactylus	frenatus	Philippines	Luzon	Luzon
+RMB	7590	Gekko	monarchus	Philippines	Palawan	Palawan
+RMB	7615	Gekko	monarchus	Philippines	Palawan	Palawan
+LSUHC	1019	Gekko	monarchus	Malaysia	Pulau Aur	
+LSUHC	1020	Gekko	monarchus	Malaysia	Pulau Aur	
+LSUHC	1021	Gekko	monarchus	Malaysia	Pulau Aur	
+LSUHC	4737	Gekko	monarchus	West Malaysia	Pulau Aur	
+LSUHC	7289	Gekko	monarchus	West Malaysia	Pulau Aur	
+LSUHC	233	Gekko	monarchus	Malaysia	Pulau Mertang Timur	
+LSUHC	234	Gekko	monarchus	Malaysia	Pulau Mertang Timur	
+LSUHC	235	Gekko	monarchus	Malaysia	Pulau Mertang Timur	
+LSUHC	236	Gekko	monarchus	Malaysia	Pulau Mertang Timur	
+LSUHC	237	Gekko	monarchus	Malaysia	Pulau Mertang Timur	
+LSUHC	238	Gekko	monarchus	Malaysia	Pulau Mertang Timur	
+LSUHC	239	Gekko	monarchus	Malaysia	Pulau Mertang Timur	
+LSUHC	240	Gekko	monarchus	Malaysia	Pulau Mertang Timur	
+LSUHC	1022	Gekko	monarchus	Malaysia	Pulau Tioman	
+LSUHC	175	Gekko	monarchus	Malaysia	Pulau Tioman	
+LSUHC	5607	Gekko	monarchus	West Malaysia	Pulau Tioman	
+LSUHC	3223	Gekko	palmatus	Vietnam		
+LSUHC	3224	Gekko	palmatus	Vietnam		
+LSUHC	3225	Gekko	palmatus	Vietnam		
+RMB	9575	Gekko	porosus	Philippines	Batan	Batanes
+RMB	9576	Gekko	porosus	Philippines	Batan	Batanes
+RMB	9578	Gekko	porosus	Philippines	Batan	Batanes
+RMB	9582	Gekko	porosus	Philippines	Batan	Batanes
+RMB	9584	Gekko	porosus	Philippines	Batan	Batanes
+RMB	9585	Gekko	porosus	Philippines	Batan	Batanes
+RMB	9586	Gekko	porosus	Philippines	Batan	Batanes
+RMB	9552	Gekko	porosus	Philippines	Sabtang	Batanes
+RMB	9554	Gekko	porosus	Philippines	Sabtang	Batanes
+RMB	9555	Gekko	porosus	Philippines	Sabtang	Batanes
+RMB	9558	Gekko	porosus	Philippines	Sabtang	Batanes
+RMB	9560	Gekko	porosus	Philippines	Sabtang	Batanes
+RMB	9561	Gekko	porosus	Philippines	Sabtang	Batanes
+CDS	786	Gekko	romblon	Philippines	Romblon	Romblon
+CDS	787	Gekko	romblon	Philippines	Romblon	Romblon
+CDS	788	Gekko	romblon	Philippines	Romblon	Romblon
+CDS	789	Gekko	romblon	Philippines	Romblon	Romblon
+CDS	790	Gekko	romblon	Philippines	Romblon	Romblon
+CDS	791	Gekko	romblon	Philippines	Romblon	Romblon
+CDS	792	Gekko	romblon	Philippines	Romblon	Romblon
+RMB	5124	Gekko	romblon	Philippines	Romblon	Romblon
+RMB	5125	Gekko	romblon	Philippines	Romblon	Romblon
+RMB	8754	Gekko	romblon	Philippines	Tablas	Romblon
+RMB	8765	Gekko	romblon	Philippines	Tablas	Romblon
+RMB	8789	Gekko	romblon	Philippines	Tablas	Romblon
+RMB	5997	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	5998	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6006	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6037	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6038	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6039	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6040	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6044	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6045	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6048	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6052	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6055	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6056	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6057	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6058	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6059	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+RMB	6060	Gekko	rossi	Philippines	Calayan	Babuyan Island Group
+LSUHC	4270	Gekko	smithii	West Malaysia	Pulau Perhentian Besar	
+LSUHC	4271	Gekko	smithii	West Malaysia	Pulau Perhentian Besar	
+LSUHC	5161	Gekko	smithii	West Malaysia	Pulau Perhentian Besar	
+LSUHC	5162	Gekko	smithii	West Malaysia	Pulau Perhentian Besar	
+LSUHC	5163	Gekko	smithii	West Malaysia	Pulau Perhentian Besar	
+LSUHC	5164	Gekko	smithii	West Malaysia	Pulau Perhentian Besar	
+LSUHC	5165	Gekko	smithii	West Malaysia	Pulau Perhentian Besar	
+LSUHC	66	Gekko	smithii	West Malaysia	Pulau Perhentian Besar	
+LSUHC	183	Gekko	smithii	Malaysia	Pulau Tioman	
+LSUHC	184	Gekko	smithii	Malaysia	Pulau Tioman	
+LSUHC	185	Gekko	smithii	Malaysia	Pulau Tioman	
+LSUHC	186	Gekko	smithii	Malaysia	Pulau Tioman	
+LSUHC	1023	Gekko	smithii	Malaysia	Pulau Tulai	
+LSUHC	1024	Gekko	smithii	Malaysia	Pulau Tulai	
+LSUHC	1025	Gekko	smithii	Malaysia	Pulau Tulai	
+LSUHC	1026	Gekko	smithii	Malaysia	Pulau Tulai	
+LSUHC	4812	Gekko	smithii	West Malaysia		
+LSUHC	4813	Gekko	smithii	West Malaysia		
+LSUHC	4814	Gekko	smithii	West Malaysia		
+LSUHC	4815	Gekko	smithii	West Malaysia		
+LSUHC	4816	Gekko	smithii	West Malaysia		
+LSUHC	4817	Gekko	smithii	West Malaysia		
+CDS	4321	Hemidactylus	platyurus	Philippines	Negros	Visayan
+CDS	4326	Hemidactylus	platyurus	Philippines	Negros	Visayan
+CDS	4327	Hemidactylus	platyurus	Philippines	Negros	Visayan
+CDS	4328	Hemidactylus	platyurus	Philippines	Negros	Visayan
+CDS	4331	Hemidactylus	platyurus	Philippines	Negros	Visayan
+CDS	4336	Hemidactylus	platyurus	Philippines	Negros	Visayan
+CDS	4337	Hemidactylus	platyurus	Philippines	Negros	Visayan
+RMB	9417	Hemiphyllodactylus	typus	Philippines	Mindanao	Mindanao
+RMB	9418	Hemiphyllodactylus	typus	Philippines	Mindanao	Mindanao
+RMB	9525	Lepidodactylus	balioburius	Philippines	Batan	Batanes
+RMB	9526	Lepidodactylus	balioburius	Philippines	Batan	Batanes
+RMB	9527	Lepidodactylus	balioburius	Philippines	Batan	Batanes
+RMB	9528	Lepidodactylus	balioburius	Philippines	Batan	Batanes
+RMB	9529	Lepidodactylus	balioburius	Philippines	Batan	Batanes
+RMB	9530	Lepidodactylus	balioburius	Philippines	Batan	Batanes
+RMB	9531	Lepidodactylus	balioburius	Philippines	Batan	Batanes
+RMB	9532	Lepidodactylus	balioburius	Philippines	Batan	Batanes
+RMB	9533	Lepidodactylus	balioburius	Philippines	Batan	Batanes
+RMB	9556	Lepidodactylus	balioburius	Philippines	Sabtang	Batanes
+RMB	9565	Lepidodactylus	balioburius	Philippines	Sabtang	Batanes
+RMB	9566	Lepidodactylus	balioburius	Philippines	Sabtang	Batanes
+RMB	9567	Lepidodactylus	balioburius	Philippines	Sabtang	Batanes
+RMB	9568	Lepidodactylus	balioburius	Philippines	Sabtang	Batanes
+RMB	9569	Lepidodactylus	balioburius	Philippines	Sabtang	Batanes
+RMB	9570	Lepidodactylus	balioburius	Philippines	Sabtang	Batanes
+RMB	9571	Lepidodactylus	balioburius	Philippines	Sabtang	Batanes
+RMB	9572	Lepidodactylus	balioburius	Philippines	Sabtang	Batanes
+RMB	9574	Lepidodactylus	balioburius	Philippines	Sabtang	Batanes
+RMB	13775	Lepidodactylus	lugubris	Philippines	Luzon	Luzon
+RMB	13781	Lepidodactylus	lugubris	Philippines	Luzon	Luzon
+RMB	13782	Lepidodactylus	lugubris	Philippines	Luzon	Luzon
+LSUHC	3356	Luperosaurus	browni	West Malaysia		
+LSUHC	3357	Luperosaurus	browni	West Malaysia		
+LSUHC	3358	Luperosaurus	browni	West Malaysia		
+LSUHC	3359	Luperosaurus	browni	West Malaysia		
+LSUHC	3360	Luperosaurus	browni	West Malaysia		
+LSUHC	3361	Luperosaurus	browni	West Malaysia		
+LSUHC	3362	Luperosaurus	browni	West Malaysia		
+LSUHC	3363	Luperosaurus	browni	West Malaysia		
+LSUHC	3364	Luperosaurus	browni	West Malaysia		
+LSUHC	3365	Luperosaurus	browni	West Malaysia		
+LSUHC	3366	Luperosaurus	browni	West Malaysia		
+LSUHC	3367	Luperosaurus	browni	West Malaysia		
+LSUHC	3368	Luperosaurus	browni	West Malaysia		
+LSUHC	3369	Luperosaurus	browni	West Malaysia		
+LSUHC	3370	Luperosaurus	browni	West Malaysia		
+LSUHC	4597	Luperosaurus	browni	West Malaysia		
+LSUHC	4598	Luperosaurus	browni	West Malaysia		
+LSUHC	4630	Luperosaurus	browni	West Malaysia		
+RMB	5917	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5918	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5919	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5921	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5922	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5923	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5925	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5926	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5931	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5932	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5933	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5934	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5936	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5937	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5943	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5944	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5945	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5949	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5955	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5956	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5967	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5971	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+RMB	5972	Luperosaurus	macgregori	Philippines	Babuyan Claro	Babuyan Island Group
+EBG	203	Phyllodactylus	tuberculosus	El Salvador		
+JES	2389	Phyllodactylus	tuberculosus	El Salvador		
+JES	2390	Phyllodactylus	tuberculosus	El Salvador		
+CDS	954	Pseudogekko	brevipes	Philippines	Negros	Visayan
+RMB	3269	Pseudogekko	brevipes	Philippines	Negros	Visayan
+RMB	3282	Pseudogekko	brevipes	Philippines	Negros	
+RMB	4365	Pseudogekko	compressicorpus	Philippines	Leyte	Mindanao
+RMB	4392	Pseudogekko	compressicorpus	Philippines	Leyte	Mindanao
+RMB	8955	Pseudogekko	compressicorpus	Philippines	Leyte	Mindanao
+ACD	1523	Pseudogekko	compressicorpus	Philippines	Leyte	Mindanao
+CDS	1050	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+CDS	1051	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+CDS	1052	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+CDS	1053	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+CDS	1082	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+CDS	1083	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+CDS	1054	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+CDS	1055	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+CDS	1056	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+CDS	1057	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+CDS	1058	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+CDS	1059	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+CDS	1060	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+RMB	6194	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+RMB	6195	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+RMB	6196	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+RMB	6314	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+RMB	6315	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+RMB	6316	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+RMB	6317	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+RMB	6318	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+RMB	6319	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+RMB	6320	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+RMB	8928	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+RMB	8929	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+RMB	10870	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon
+LSUHC	4161	Ptychozoon	horsfieldii	West Malaysia		
+LSUHC	4162	Ptychozoon	horsfieldii	West Malaysia		
+LSUHC	5025	Ptychozoon	horsfieldii	West Malaysia		
+LSUHC	6280	Ptychozoon	horsfieldii	Malaysia		
+LSUHC	2154	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	2155	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	2156	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	2157	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	2158	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	2159	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	2160	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	2161	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	2162	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	2163	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	2164	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	3443	Ptychozoon	kuhli	West Malaysia	Pulau Langkawi	
+LSUHC	3444	Ptychozoon	kuhli	West Malaysia	Pulau Langkawi	
+LSUHC	3445	Ptychozoon	kuhli	West Malaysia	Pulau Langkawi	
+LSUHC	3446	Ptychozoon	kuhli	West Malaysia	Pulau Langkawi	
+LSUHC	3447	Ptychozoon	kuhli	West Malaysia	Pulau Langkawi	
+LSUHC	3448	Ptychozoon	kuhli	West Malaysia	Pulau Langkawi	
+LSUHC	3449	Ptychozoon	kuhli	West Malaysia	Pulau Langkawi	
+LSUHC	3450	Ptychozoon	kuhli	West Malaysia	Pulau Langkawi	
+LSUHC	3451	Ptychozoon	kuhli	West Malaysia	Pulau Langkawi	
+LSUHC	3452	Ptychozoon	kuhli	West Malaysia	Pulau Langkawi	
+LSUHC	3453	Ptychozoon	kuhli	West Malaysia	Pulau Langkawi	
+LSUHC	3454	Ptychozoon	kuhli	West Malaysia	Pulau Langkawi	
+LSUHC	615	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	616	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	617	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	618	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	619	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	620	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	621	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	622	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	623	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	624	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	625	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	626	Ptychozoon	kuhli	Malaysia	Pulau Langkawi	
+LSUHC	5587	Ptychozoon	kuhli	Malaysia	Pulau Babi Besar	
+LSUHC	4308	Ptychozoon	kuhli	West Malaysia	Pulau Perhentian Besar
+LSUHC	5152	Ptychozoon	kuhli	West Malaysia	Pulau Perhentian Besar
+LSUHC	5153	Ptychozoon	kuhli	West Malaysia	Pulau Perhentian Besar
+LSUHC	4293	Ptychozoon	lionotum	West Malaysia	Pulau Perhentian Besar
+LSUHC	4294	Ptychozoon	lionotum	West Malaysia	Pulau Perhentian Besar
+LSUHC	4295	Ptychozoon	lionotum	West Malaysia	Pulau Perhentian Besar
+LSUHC	4549	Ptychozoon	lionotum	West Malaysia	Pulau Perhentian Besar
+LSUHC	4550	Ptychozoon	lionotum	West Malaysia	Pulau Perhentian Besar
+LSUHC	3505	Ptychozoon	lionotum	West Malaysia		
+NOSERIES	3835	Ptychozoon	kuhli	Malaysia	Pulau Tioman
+NOSERIES	4679	Ptychozoon	kuhli	Malaysia	Pulau Tioman
+LSUHC	5042	Ptychozoon	kuhli	Malaysia	Pulau Tioman
+LSUHC	6182	Ptychozoon	kuhli	West Malaysia	Pulau Tioman
+LSUHC	6184	Ptychozoon	kuhli	West Malaysia	Pulau Tioman
+NOSERIES	6433	Ptychozoon	kuhli	Malaysia	Pulau Tioman
+LSUHC	1	Ptychozoon	lionotum	Malaysia	Pulau Tioman
+LSUHC	2	Ptychozoon	lionotum	Malaysia	Pulau Tioman
+LSUHC	6437	Ptychozoon	lionotum	West Malaysi	Pulau Tioman
+LSUHC	434	Ptychozoon	kuhli	Malaysia		
+LSUHC	435	Ptychozoon	kuhli	Malaysia		
+LSUHC	436	Ptychozoon	kuhli	Malaysia		
+LSUHC	437	Ptychozoon	kuhli	Malaysia		
+LSUHC	5741	Ptychozoon	lionotum	West Malaysia	Pulau Pinang
+LSUHC	5742	Ptychozoon	lionotum	West Malaysia	Pulau Pinang
+LSUHC	5743	Ptychozoon	lionotum	West Malaysia	Pulau Pinang
+LSUHC	5744	Ptychozoon	lionotum	West Malaysia	Pulau Pinang
+LSUHC	5150	Ptychozoon	lionotum	West Malaysia	Pulau Redang
+LSUHC	5151	Ptychozoon	lionotum	West Malaysia	Pulau Redang
+NOSERIES	5539	Ptychozoon	lionotum	West Malaysi	Pulau Sibu
+LSUHC	5597	Ptychozoon	lionotum	West Malaysia	Pulau Sibu
+NOSERIES	5783	Ptychozoon	lionotum	West Malaysi	Pulau Sibu
+LSUHC	6192	Ptychozoon	lionotum	West Malaysia	Pulau Sibu
+LSUHC	5946	Ptychozoon	kuhli	West Malaysia		
+LSUHC	5947	Ptychozoon	kuhli	West Malaysia		
+LSUHC	6008	Ptychozoon	kuhli	West Malaysia		
+LSUHC	6009	Ptychozoon	kuhli	West Malaysia		
+JBS	21351	Ptychozoon	lionotum	Myanmar		
+CAS	221168	Ptychozoon	lionotum	Myanmar		
+CAS	238865	Ptychozoon	lionotum	Myanmar		
+FMNH	261851	Ptychozoon	lionotum	Cambodia		
+FMNH	261852	Ptychozoon	lionotum	Cambodia		

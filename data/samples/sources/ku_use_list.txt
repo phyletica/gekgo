@@ -1,0 +1,323 @@
+catalog_series	catalog_number	field_series	field_number	genus	epithet	country	island
+KU	324369	CDS	4658	Cyrtodactylus	annulatus	Philippines	Bohol
+KU	324370	CDS	4659	Cyrtodactylus	annulatus	Philippines	Bohol
+KU	324371	CDS	4660	Cyrtodactylus	annulatus	Philippines	Bohol
+KU	324372	CDS	4661	Cyrtodactylus	annulatus	Philippines	Bohol
+KU	324373	CDS	4763	Cyrtodactylus	annulatus	Philippines	Bohol
+KU	309365	RMB	8043	Cyrtodactylus	annulatus	Philippines	Camiguin Sur
+KU	309363	RMB	8201	Cyrtodactylus	annulatus	Philippines	Camiguin Sur
+KU	309366	RMB	8220	Cyrtodactylus	annulatus	Philippines	Camiguin Sur
+KU	309364	RMB	8232	Cyrtodactylus	annulatus	Philippines	Camiguin Sur
+KU	305567	CDS	1768	Cyrtodactylus	annulatus	Philippines	Cebu
+KU	305568	CWL	88	Cyrtodactylus	annulatus	Philippines	Cebu
+KU	305569	CWL	89	Cyrtodactylus	annulatus	Philippines	Cebu
+KU	305570	CWL	90	Cyrtodactylus	annulatus	Philippines	Cebu
+		PNM/CMNH H	1290	Cyrtodactylus	annulatus	Philippines	Mindanao
+		PNM/CMNH H	1291	Cyrtodactylus	annulatus	Philippines	Mindanao
+		PNM/CMNH H	1292	Cyrtodactylus	annulatus	Philippines	Mindanao
+		PNM/CMNH H	1293	Cyrtodactylus	annulatus	Philippines	Mindanao
+		PNM/CMNH H	1298	Cyrtodactylus	annulatus	Philippines	Mindanao
+KU	319651	RMB	11229	Cyrtodactylus	annulatus	Philippines	Mindanao
+KU	319653	RMB	11302	Cyrtodactylus	annulatus	Philippines	Mindanao
+KU	319659	RMB	11309	Cyrtodactylus	annulatus	Philippines	Mindanao
+KU	319845	RMB	11714	Cyrtodactylus	annulatus	Philippines	Mindanao
+		RMB	7719	Cyrtodactylus	annulatus	Philippines	Palawan
+		RMB	7720	Cyrtodactylus	annulatus	Philippines	Palawan
+		RMB	7722	Cyrtodactylus	annulatus	Philippines	Palawan
+		RMB	7724	Cyrtodactylus	annulatus	Philippines	Palawan
+		RMB	7725	Cyrtodactylus	annulatus	Philippines	Palawan
+		NOID	2	Cyrtodactylus	baluensis	Malaysia	Borneo
+		NOID		Cyrtodactylus	baluensis	Malaysia	Borneo
+		SP	6891	Cyrtodactylus	baluensis	Malaysia	Kinabalu
+		SP	6892	Cyrtodactylus	baluensis	Malaysia	Kinabalu
+		SP	6906	Cyrtodactylus	baluensis	Malaysia	Kinabalu
+KU	326522	RMB	8933	Cyrtodactylus	gubaot	Philippines	Leyte
+KU	326523	RMB	8934	Cyrtodactylus	gubaot	Philippines	Leyte
+KU	326524	RMB	8935	Cyrtodactylus	gubaot	Philippines	Leyte
+KU	326525	RMB	8936	Cyrtodactylus	gubaot	Philippines	Leyte
+KU	326526	RMB	8937	Cyrtodactylus	gubaot	Philippines	Leyte
+KU	314836	RMB	9223	Cyrtodactylus	jambangan	Philippines	Mindanao
+KU	319660	RMB	11745	Cyrtodactylus	jambangan	Philippines	Mindanao
+KU	319661	RMB	11746	Cyrtodactylus	jambangan	Philippines	Mindanao
+KU	319662	RMB	11747	Cyrtodactylus	jambangan	Philippines	Mindanao
+KU	319658	RMB	11712	Cyrtodactylus	jambangan	Philippines	Mindanao
+KU	310099	RMB	8418	Cyrtodactylus	mamanwa	Philippines	Dinagat
+KU	310100	RMB	8427	Cyrtodactylus	mamanwa	Philippines	Dinagat
+KU	310101	RMB	8436	Cyrtodactylus	mamanwa	Philippines	Dinagat
+KU	310102	RMB	8444	Cyrtodactylus	mamanwa	Philippines	Dinagat
+KU	310103	RMB	8445	Cyrtodactylus	mamanwa	Philippines	Dinagat
+KU	304784	RMB	5905	Cyrtodactylus	philippinicus	Philippines	Babuyan Claro
+KU	304785	RMB	5906	Cyrtodactylus	philippinicus	Philippines	Babuyan Claro
+KU	304786	RMB	5907	Cyrtodactylus	philippinicus	Philippines	Babuyan Claro
+KU	304636	RMB	5756	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte
+KU	304637	RMB	5757	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte
+KU	304671	RMB	5791	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte
+KU	304672	RMB	5792	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte
+KU	304690	RMB	5811	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte
+KU	320348	CDS	3781	Cyrtodactylus	philippinicus	Philippines	Lubang
+KU	320349	CDS	3793	Cyrtodactylus	philippinicus	Philippines	Lubang
+KU	320350	CDS	3869	Cyrtodactylus	philippinicus	Philippines	Lubang
+KU	320351	CDS	3932	Cyrtodactylus	philippinicus	Philippines	Lubang
+KU	320352	CDS	3933	Cyrtodactylus	philippinicus	Philippines	Lubang
+KU	328805	RMB	13670	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	328806	RMB	13713	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	328807	RMB	13719	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	328808	RMB	13720	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	328809	RMB	13721	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	323190	RMB	12835	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	323191	RMB	12836	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	323192	RMB	12837	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	323193	RMB	12838	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	323194	RMB	12845	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	329349	RMB	13962	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	329350	RMB	13963	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	329351	RMB	13964	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	329352	RMB	13965	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	329353	RMB	13966	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	330192	RMB	15052	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	330193	RMB	15053	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	330195	RMB	15119	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	330196	RMB	15211	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	330197	RMB	15212	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	313817	RMB	9739	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	313818	RMB	9740	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	313820	RMB	9748	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	313821	RMB	9749	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	313819	RMB	9745	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	329530	RMB	14180	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	329531	RMB	14248	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	329532	RMB	14249	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	329533	RMB	14310	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	329534	RMB	14453	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	331667	CDS	5724	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	330796	CDS	5727	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	330797	CDS	5822	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	330798	CDS	5823	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	330799	CDS	5824	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	325814	RMB	13366	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	325815	RMB	13367	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	325816	RMB	13510	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	325817	RMB	13571	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	328799	RMB	13651	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	328800	RMB	13652	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	328801	RMB	13653	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	328802	RMB	13654	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	328803	RMB	13664	Cyrtodactylus	philippinicus	Philippines	Luzon
+KU	305430	ELR	681	Cyrtodactylus	philippinicus	Philippines	Mindoro
+KU	305431	ELR	682	Cyrtodactylus	philippinicus	Philippines	Mindoro
+KU	306613	RMB	6447	Cyrtodactylus	philippinicus	Philippines	Mindoro
+KU	306612	RMB	6455	Cyrtodactylus	philippinicus	Philippines	Mindoro
+KU	306614	RMB	6628	Cyrtodactylus	philippinicus	Philippines	Mindoro
+KU	324376	CDS	4341	Cyrtodactylus	philippinicus	Philippines	Negros
+KU	324377	CDS	4342	Cyrtodactylus	philippinicus	Philippines	Negros
+KU	324378	CDS	4384	Cyrtodactylus	philippinicus	Philippines	Negros
+KU	324379	CDS	4408	Cyrtodactylus	philippinicus	Philippines	Negros
+KU	302641	CDS	1550	Cyrtodactylus	philippinicus	Philippines	Panay
+KU	302642	CDS	1558	Cyrtodactylus	philippinicus	Philippines	Panay
+KU	302643	CDS	1559	Cyrtodactylus	philippinicus	Philippines	Panay
+KU	302644	CDS	1560	Cyrtodactylus	philippinicus	Philippines	Panay
+KU	302645	CDS	1566	Cyrtodactylus	philippinicus	Philippines	Panay
+KU	331723	RMB	10866	Cyrtodactylus	philippinicus	Philippines	Polillo
+KU	331724	RMB	10867	Cyrtodactylus	philippinicus	Philippines	Polillo
+KU	326518	RMB	8870	Cyrtodactylus	philippinicus	Philippines	Polillo
+KU	307454	RMB	6273	Cyrtodactylus	philippinicus	Philippines	Polillo
+KU	307455	RMB	6332	Cyrtodactylus	philippinicus	Philippines	Polillo
+KU	302635	CDS	1442	Cyrtodactylus	philippinicus	Philippines	Sibuyan
+KU	303848	RMB	5184	Cyrtodactylus	philippinicus	Philippines	Sibuyan
+KU	303849	RMB	5185	Cyrtodactylus	philippinicus	Philippines	Sibuyan
+KU	315340	RMB	8761	Cyrtodactylus	philippinicus	Philippines	Tablas
+KU	315341	RMB	8762	Cyrtodactylus	philippinicus	Philippines	Tablas
+KU	315342	RMB	8763	Cyrtodactylus	philippinicus	Philippines	Tablas
+KU	315343	RMB	8764	Cyrtodactylus	philippinicus	Philippines	Tablas
+KU	315345	RMB	8790	Cyrtodactylus	philippinicus	Philippines	Tablas
+KU	309327	RMB	7760	Cyrtodactylus	redimiculus	Philippines	Palawan
+KU	309328	RMB	7829	Cyrtodactylus	redimiculus	Philippines	Palawan
+KU	309329	RMB	7842	Cyrtodactylus	redimiculus	Philippines	Palawan
+KU	309330	RMB	7859	Cyrtodactylus	redimiculus	Philippines	Palawan
+KU	309627	RMB	7873	Cyrtodactylus	redimiculus	Philippines	Palawan
+KU	310798	CDS	2844	Cyrtodactylus	sumuroi	Philippines	Samar
+KU	310799	CDS	2967	Cyrtodactylus	sumuroi	Philippines	Samar
+KU	310800	CDS	2984	Cyrtodactylus	sumuroi	Philippines	Samar
+KU	310801	CDS	3030	Cyrtodactylus	sumuroi	Philippines	Samar
+KU	310802	CDS	3047	Cyrtodactylus	sumuroi	Philippines	Samar
+KU	309321	RMB	7648	Cyrtodactylus	tautbatorum	Philippines	Palawan
+KU	309322	RMB	7649	Cyrtodactylus	tautbatorum	Philippines	Palawan
+KU	309323	RMB	7650	Cyrtodactylus	tautbatorum	Philippines	Palawan
+KU	309324	RMB	7717	Cyrtodactylus	tautbatorum	Philippines	Palawan
+KU	309325	RMB	7721	Cyrtodactylus	tautbatorum	Philippines	Palawan
+KU	331233	MEW	100	Cyrtopodion	elongatus	Mongolia	
+KU	331230	MEW	95	Cyrtopodion	elongatus	Mongolia	
+KU	331231	MEW	98	Cyrtopodion	elongatus	Mongolia	
+KU	331232	MEW	99	Cyrtopodion	elongatus	Mongolia	
+KU	322258	RMB	12532	Gehyra	mutilata	Philippines	Luzon
+KU	322259	RMB	12536	Gehyra	mutilata	Philippines	Luzon
+KU	322254	RMB	12578	Gehyra	mutilata	Philippines	Luzon
+KU	322260	RMB	12582	Gehyra	mutilata	Philippines	Luzon
+KU	322261	RMB	12584	Gehyra	mutilata	Philippines	Luzon
+KU	309335	RMB	3118	Gekko	athymus	Philippines	Palawan
+KU	309331	RMB	7828	Gekko	athymus	Philippines	Palawan
+KU	309332	RMB	7830	Gekko	athymus	Philippines	Palawan
+KU	309333	RMB	7831	Gekko	athymus	Philippines	Palawan
+KU	309334	RMB	7798	Gekko	athymus	Philippines	Palawan
+KU	328370	RMB	13587	Gekko	carusadensis	Philippines	Luzon
+KU	328371	RMB	13588	Gekko	carusadensis	Philippines	Luzon
+KU	328372	RMB	13589	Gekko	carusadensis	Philippines	Luzon
+KU	328373	RMB	13590	Gekko	carusadensis	Philippines	Luzon
+KU	328374	RMB	13591	Gekko	carusadensis	Philippines	Luzon
+KU	311494	KU-FS	14	Gekko	chinensis	China	
+KU	311495	KU-FS	15	Gekko	chinensis	China	
+KU	311496	KU-FS	16	Gekko	chinensis	China	
+KU	311497	KU-FS	17	Gekko	chinensis	China	
+KU	311498	KU-FS	18	Gekko	chinensis	China	
+KU	304836	RMB	5957	Gekko	crombota	Philippines	Babuyan Claro
+KU	304845	RMB	5966	Gekko	crombota	Philippines	Babuyan Claro
+KU	304847	RMB	5968	Gekko	crombota	Philippines	Babuyan Claro
+KU	304848	RMB	5969	Gekko	crombota	Philippines	Babuyan Claro
+KU	304849	RMB	5970	Gekko	crombota	Philippines	Babuyan Claro
+KU	300199	CDS	157	Gekko	ernstkelleri	Philippines	Panay
+KU	300200	CDS	159	Gekko	ernstkelleri	Philippines	Panay
+KU	300201	CDS	161	Gekko	ernstkelleri	Philippines	Panay
+KU	300202	CDS	163	Gekko	ernstkelleri	Philippines	Panay
+KU	300203	CDS	212	Gekko	ernstkelleri	Philippines	Panay
+KU	328813	RMB	13766	Gekko	gecko	Philippines	Luzon
+KU	328814	RMB	13767	Gekko	gecko	Philippines	Luzon
+KU	328815	RMB	13768	Gekko	gecko	Philippines	Luzon
+KU	328816	RMB	13769	Gekko	gecko	Philippines	Luzon
+KU	328817	RMB	13770	Gekko	gecko	Philippines	Luzon
+KU	302716	CDS	51	Gekko	gigante	Philippines	North Gigante
+KU	302717	CDS	53	Gekko	gigante	Philippines	North Gigante
+KU	305140	CDS	50	Gekko	gigante	Philippines	North Gigante
+KU	302720	CDS	48	Gekko	gigante	Philippines	North Gigante
+KU	305139	CDS	49	Gekko	gigante	Philippines	North Gigante
+KU	305138	CDS	31	Gekko	gigante	Philippines	South Gigante
+KU	302718	CDS	46	Gekko	gigante	Philippines	South Gigante
+KU	302719	CDS	55	Gekko	gigante	Philippines	South Gigante
+KU	302672	CDS	590	Gekko	mindorensis	Philippines	Caluya
+KU	302673	CDS	591	Gekko	mindorensis	Philippines	Caluya
+KU	302677	CDS	607	Gekko	mindorensis	Philippines	Caluya
+KU	302679	CDS	609	Gekko	mindorensis	Philippines	Caluya
+KU	302680	CDS	610	Gekko	mindorensis	Philippines	Caluya
+KU	302684	CDS	100	Gekko	mindorensis	Philippines	Camiguin Sur
+KU	302685	CDS	101	Gekko	mindorensis	Philippines	Camiguin Sur
+KU	302686	CDS	102	Gekko	mindorensis	Philippines	Camiguin Sur
+KU	302683	CDS	99	Gekko	mindorensis	Philippines	Camiguin Sur
+KU	320392	CDS	3868	Gekko	mindorensis	Philippines	Lubang
+KU	320393	CDS	3894	Gekko	mindorensis	Philippines	Lubang
+KU	320394	CDS	3895	Gekko	mindorensis	Philippines	Lubang
+KU	320395	CDS	3935	Gekko	mindorensis	Philippines	Lubang
+KU	320396	CDS	3936	Gekko	mindorensis	Philippines	Lubang
+KU	330783	CDS	6050	Gekko	mindorensis	Philippines	Luzon
+KU	330784	CDS	6051	Gekko	mindorensis	Philippines	Luzon
+KU	330785	CDS	6052	Gekko	mindorensis	Philippines	Luzon
+KU	330786	CDS	6053	Gekko	mindorensis	Philippines	Luzon
+KU	330787	CDS	6054	Gekko	mindorensis	Philippines	Luzon
+KU	328822	RMB	13659	Gekko	mindorensis	Philippines	Luzon
+KU	328823	RMB	13660	Gekko	mindorensis	Philippines	Luzon
+KU	328824	RMB	13661	Gekko	mindorensis	Philippines	Luzon
+KU	328825	RMB	13662	Gekko	mindorensis	Philippines	Luzon
+KU	328826	RMB	13663	Gekko	mindorensis	Philippines	Luzon
+KU	302733	CDS	1461	Gekko	mindorensis	Philippines	Maestre De Campo
+KU	302734	CDS	1462	Gekko	mindorensis	Philippines	Maestre De Campo
+KU	302735	CDS	1463	Gekko	mindorensis	Philippines	Maestre De Campo
+KU	305137	CDS	1459	Gekko	mindorensis	Philippines	Maestre De Campo
+KU	302726	CDS	755	Gekko	mindorensis	Philippines	Masbate
+KU	302727	CDS	757	Gekko	mindorensis	Philippines	Masbate
+KU	302728	CDS	758	Gekko	mindorensis	Philippines	Masbate
+KU	305135	CDS	754	Gekko	mindorensis	Philippines	Masbate
+KU	308548	ELR	1006	Gekko	mindorensis	Philippines	Mindoro
+KU	308549	ELR	1007	Gekko	mindorensis	Philippines	Mindoro
+KU	308550	ELR	1008	Gekko	mindorensis	Philippines	Mindoro
+KU	308551	ELR	1009	Gekko	mindorensis	Philippines	Mindoro
+KU	308552	ELR	1010	Gekko	mindorensis	Philippines	Mindoro
+KU	302670	CDS	1231	Gekko	mindorensis	Philippines	Mindoro
+KU	303909	RMB	4981	Gekko	mindorensis	Philippines	Mindoro
+KU	303910	RMB	4982	Gekko	mindorensis	Philippines	Mindoro
+KU	303911	RMB	5005	Gekko	mindorensis	Philippines	Mindoro
+KU	303912	RMB	5006	Gekko	mindorensis	Philippines	Mindoro
+KU	302722	CDS	277	Gekko	mindorensis	Philippines	Negros
+KU	302723	CDS	278	Gekko	mindorensis	Philippines	Negros
+KU	302724	CDS	279	Gekko	mindorensis	Philippines	Negros
+		CDSGS	40	Gekko	mindorensis	Philippines	Negros
+		CDSGS	41	Gekko	mindorensis	Philippines	Negros
+KU	307061	RMB	6430	Gekko	mindorensis	Philippines	Panay
+KU	307062	RMB	6431	Gekko	mindorensis	Philippines	Panay
+KU	307063	RMB	6448	Gekko	mindorensis	Philippines	Panay
+KU	307064	RMB	6449	Gekko	mindorensis	Philippines	Panay
+KU	307065	RMB	6479	Gekko	mindorensis	Philippines	Panay
+KU	302729	CDS	63	Gekko	mindorensis	Philippines	Panay
+KU	302730	CDS	64	Gekko	mindorensis	Philippines	Panay
+KU	302731	CDS	65	Gekko	mindorensis	Philippines	Panay
+KU	302732	CDS	66	Gekko	mindorensis	Philippines	Panay
+KU	309289	RMB	7922	Gekko	monarchus	Philippines	Palawan
+KU	309290	RMB	7923	Gekko	monarchus	Philippines	Palawan
+KU	309291	RMB	7924	Gekko	monarchus	Philippines	Palawan
+KU	309294	RMB	7937	Gekko	monarchus	Philippines	Palawan
+KU	309295	RMB	7938	Gekko	monarchus	Philippines	Palawan
+LSUHC	4737	LSUHC	4737	Gekko	monarchus	West Malaysia	Pulau Aur
+LSUHC	7289	LSUHC	7289	Gekko	monarchus	West Malaysia	Pulau Aur
+KU	313985	RMB	9578	Gekko	porosus	Philippines	Batan
+KU	313986	RMB	9582	Gekko	porosus	Philippines	Batan
+KU	313987	RMB	9584	Gekko	porosus	Philippines	Batan
+KU	313988	RMB	9585	Gekko	porosus	Philippines	Batan
+KU	313989	RMB	9586	Gekko	porosus	Philippines	Batan
+KU	313978	RMB	9554	Gekko	porosus	Philippines	Sabtang
+KU	313979	RMB	9555	Gekko	porosus	Philippines	Sabtang
+KU	313980	RMB	9558	Gekko	porosus	Philippines	Sabtang
+KU	313981	RMB	9560	Gekko	porosus	Philippines	Sabtang
+KU	313982	RMB	9561	Gekko	porosus	Philippines	Sabtang
+KU	302740	CDS	790	Gekko	romblon	Philippines	Romblon
+KU	302741	CDS	791	Gekko	romblon	Philippines	Romblon
+KU	302742	CDS	792	Gekko	romblon	Philippines	Romblon
+KU	303977	RMB	5124	Gekko	romblon	Philippines	Romblon
+KU	303978	RMB	5125	Gekko	romblon	Philippines	Romblon
+KU	315346	RMB	8754	Gekko	romblon	Philippines	Tablas
+KU	315347	RMB	8765	Gekko	romblon	Philippines	Tablas
+KU	315348	RMB	8789	Gekko	romblon	Philippines	Tablas
+KU	304935	RMB	6056	Gekko	rossi	Philippines	Calayan
+KU	304936	RMB	6057	Gekko	rossi	Philippines	Calayan
+KU	304937	RMB	6058	Gekko	rossi	Philippines	Calayan
+KU	304938	RMB	6059	Gekko	rossi	Philippines	Calayan
+KU	304939	RMB	6060	Gekko	rossi	Philippines	Calayan
+KU	307048	RMB	6371	Gekko	sp. a	Philippines	Dalupiri
+KU	307049	RMB	6372	Gekko	sp. a	Philippines	Dalupiri
+KU	307050	RMB	6373	Gekko	sp. a	Philippines	Dalupiri
+KU	307051	RMB	6374	Gekko	sp. a	Philippines	Dalupiri
+KU	307052	RMB	6375	Gekko	sp. a	Philippines	Dalupiri
+KU	304610	RMB	5730	Gekko	sp. b	Philippines	Camiguin Norte
+KU	304611	RMB	5731	Gekko	sp. b	Philippines	Camiguin Norte
+KU	304617	RMB	5737	Gekko	sp. b	Philippines	Camiguin Norte
+KU	304638	RMB	5758	Gekko	sp. b	Philippines	Camiguin Norte
+KU	304673	RMB	5793	Gekko	sp. b	Philippines	Camiguin Norte
+KU	325832	RMB	13552	Hemidactylus	frenatus	Philippines	Luzon
+KU	325833	RMB	13553	Hemidactylus	frenatus	Philippines	Luzon
+KU	325834	RMB	13576	Hemidactylus	frenatus	Philippines	Luzon
+KU	325835	RMB	13578	Hemidactylus	frenatus	Philippines	Luzon
+KU	325836	RMB	13579	Hemidactylus	frenatus	Philippines	Luzon
+KU	314004	RMB	9529	Lepidodactylus	balioburius	Philippines	Batan
+KU	314005	RMB	9530	Lepidodactylus	balioburius	Philippines	Batan
+KU	314006	RMB	9531	Lepidodactylus	balioburius	Philippines	Batan
+KU	314007	RMB	9532	Lepidodactylus	balioburius	Philippines	Batan
+KU	314008	RMB	9533	Lepidodactylus	balioburius	Philippines	Batan
+KU	314014	RMB	9569	Lepidodactylus	balioburius	Philippines	Sabtang
+KU	314015	RMB	9570	Lepidodactylus	balioburius	Philippines	Sabtang
+KU	314016	RMB	9571	Lepidodactylus	balioburius	Philippines	Sabtang
+KU	314017	RMB	9572	Lepidodactylus	balioburius	Philippines	Sabtang
+KU	314018	RMB	9574	Lepidodactylus	balioburius	Philippines	Sabtang
+KU	304834	RMB	5955	Luperosaurus	macgregori	Philippines	Babuyan Claro
+KU	304835	RMB	5956	Luperosaurus	macgregori	Philippines	Babuyan Claro
+KU	304846	RMB	5967	Luperosaurus	macgregori	Philippines	Babuyan Claro
+KU	304850	RMB	5971	Luperosaurus	macgregori	Philippines	Babuyan Claro
+KU	304851	RMB	5972	Luperosaurus	macgregori	Philippines	Babuyan Claro
+KU	307643	RMB	6316	Pseudogekko	smaragdinus	Philippines	Polillo
+KU	307644	RMB	6317	Pseudogekko	smaragdinus	Philippines	Polillo
+KU	307645	RMB	6318	Pseudogekko	smaragdinus	Philippines	Polillo
+KU	307646	RMB	6319	Pseudogekko	smaragdinus	Philippines	Polillo
+KU	307647	RMB	6320	Pseudogekko	smaragdinus	Philippines	Polillo
+LSUHC	5042	LSUHC	5042	Ptychozoon	kuhli	Malaysia	Pulau Tioman
+		NOSERIES	3835	Ptychozoon	kuhli	Malaysia	Pulau Tioman
+		NOSERIES	4679	Ptychozoon	kuhli	Malaysia	Pulau Tioman
+		NOSERIES	6433	Ptychozoon	kuhli	Malaysia	Pulau Tioman
+LSUHC	5742	LSUHC	5742	Ptychozoon	lionotum	West Malaysia	Pulau Pinang
+		NOSERIES	5539	Ptychozoon	lionotum	West Malaysi	Pulau Sibu
+		NOSERIES	5783	Ptychozoon	lionotum	West Malaysi	Pulau Sibu
+LSUHC	5597	LSUHC	5597	Ptychozoon	lionotum	West Malaysia	Pulau Sibu
