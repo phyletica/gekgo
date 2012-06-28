@@ -61,8 +61,6 @@ CDS	51	Gekko	gigante	Philippines	North Gigante
 CDS	49	Gekko	gigante	Philippines	North Gigante
 CDS	50	Gekko	gigante	Philippines	North Gigante
 CDS	53	Gekko	gigante	Philippines	North Gigante
-CDS	31	Gekko	gigante/cf mindorensis	Philippines	South Gigante
-CDS	46	Gekko	gigante/cf mindorensis	Philippines	South Gigante
 CDS	55	Gekko	gigante	Philippines	South Gigante
 RMB	5286	Gekko	mindorensis
 RMB	7589	Gekko	monarchus
