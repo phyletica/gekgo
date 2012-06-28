@@ -6,6 +6,7 @@ import logging
 import re
 import csv
 import itertools
+import copy
 
 import gekgo_util
 from gekgo_util import RunLogger
@@ -254,10 +255,17 @@ def parse_candidates(file_obj, delimiter='\t', samples=GekkonidSamples()):
         samples.add(s)
     return samples
 
-def mark_candidates(samples, candidate_file_path):
-    candidates = parse_candidates(candidate_file_path)
+def mark_use(samples, candidate_file_path):
+    use_samples = GekkonidSamples()
+    candidates = parse_candidates(candidate_file_path, samples=GekkonidSamples())
     for id in candidates.keys():
-        samples[id].use = True
+        if not samples.has_key(id):
+            raise Exception('samples do not contain candidate {0}'.format(
+                    id))
+        new_sample = copy.deepcopy(samples[id])
+        new_sample.use = True
+        use_samples.add(new_sample)
+    return use_samples
 
 def get_missing_tissue_locations(gekkonid_samples, gekkonid_samples_db):
     for id, sample in gekkonid_samples.iteritems():
@@ -270,24 +278,24 @@ def get_missing_tissue_locations(gekkonid_samples, gekkonid_samples_db):
             sample.box = gekkonid_samples_db[id].box
             sample.cell = gekkonid_samples_db[id].cell
 
-def write_data(samples, path, candidates_only=False, delimiter='\t'):
+def write_data(samples, path, candidates_only=False, delimiter='\t',
+               fields=['catalog_series', 
+                       'catalog_number',
+                       'field_series',
+                       'field_number',
+                       'genus',
+                       'epithet',
+                       'country',
+                       'island',
+                       'paic',
+                       'locality',
+                       'lat',
+                       'long',
+                       'tissue',
+                       'extract',
+                       'date',
+                       'source',]):
     out = open(path, 'w')
-    fields = ['catalog_series', 
-              'catalog_number',
-              'field_series',
-              'field_number',
-              'genus',
-              'epithet',
-              'country',
-              'island',
-              'paic',
-              'locality',
-              'lat',
-              'long',
-              'tissue',
-              'extract',
-              'date',
-              'source',]
     out.write("%s\n" % delimiter.join(fields))
     for field_id, sample in samples.iteritems():
         if candidates_only:
@@ -339,10 +347,16 @@ def main():
     path_to_full_freezer_db = os.path.join(source_dir, "ku_freezer_all.txt")
     path_to_corrections = os.path.join(source_dir, "taxonomic_fixes.txt")
     path_to_candidates_in = os.path.join(source_dir, "candidate_samples.txt")
+    path_to_lee_in = os.path.join(source_dir, "lee_list.txt")
+    path_to_ku_pull_in = os.path.join(source_dir, "ku_pull_list.txt")
+    path_to_ku_use_in = os.path.join(source_dir, "ku_use_list.txt")
     # outputs
     path_to_island_summary = os.path.join(sample_dir, "species_sampling_by_island.txt")
     path_to_all_data = os.path.join(sample_dir, "all_tissue_holdings.txt")
     path_to_candidates_out = os.path.join(sample_dir, "candidate_tissues.txt")
+    path_to_lee_out = os.path.join(sample_dir, "lsuhc_request.txt")
+    path_to_ku_pull_out = os.path.join(sample_dir, "ku_freezer_pull.txt")
+    path_to_ku_use_out = os.path.join(sample_dir, "ku_freezer_use.txt")
 
     cat_data = parse_catalog_data(path_to_ku_data, delimiter='\t',
             samples=GekkonidSamples())
@@ -370,14 +384,50 @@ def main():
     get_missing_tissue_locations(gekkonid_samples=freezer_data,
             gekkonid_samples_db=freezer_db)
 
-    mark_candidates(freezer_data, path_to_candidates_in)
+    candidates = mark_use(freezer_data, path_to_candidates_in)
+    lsuhc = mark_use(freezer_data, path_to_lee_in)
+    ku_pull = mark_use(freezer_data, path_to_ku_pull_in)
+    ku_use = mark_use(freezer_data, path_to_ku_use_in)
 
     write_island_sampling(samples=freezer_data, path=path_to_island_summary)
+    # write all data
     write_data(samples=freezer_data,
                path=path_to_all_data,
                candidates_only=False)
-    write_data(samples=freezer_data,
+    # write all candidates
+    write_data(samples=candidates,
                path=path_to_candidates_out, 
+               candidates_only=True)
+    # write lsuhc request
+    write_data(samples=lsuhc,
+               path=path_to_lee_out, 
+               candidates_only=True)
+    # write ku freezer pull list
+    write_data(samples=ku_pull,
+               path=path_to_ku_pull_out, 
+               candidates_only=True,
+               fields=['tower',
+                       'box',
+                       'cell',
+                       'catalog_series', 
+                       'catalog_number',
+                       'field_series',
+                       'field_number',
+                       'genus',
+                       'epithet',
+                       'country',
+                       'island',
+                       'paic',
+                       'locality',
+                       'lat',
+                       'long',
+                       'tissue',
+                       'extract',
+                       'date',
+                       'source',])
+    # write ku freezer use list
+    write_data(samples=ku_use,
+               path=path_to_ku_use_out, 
                candidates_only=True)
 
 if __name__ == '__main__':
