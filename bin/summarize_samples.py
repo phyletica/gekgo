@@ -263,7 +263,6 @@ def mark_use(samples, candidate_file_path):
             raise Exception('samples do not contain candidate {0}'.format(
                     id))
         new_sample = copy.deepcopy(samples[id])
-        new_sample.use = True
         use_samples.add(new_sample)
     return use_samples
 
@@ -278,7 +277,7 @@ def get_missing_tissue_locations(gekkonid_samples, gekkonid_samples_db):
             sample.box = gekkonid_samples_db[id].box
             sample.cell = gekkonid_samples_db[id].cell
 
-def write_data(samples, path, candidates_only=False, delimiter='\t',
+def write_data(samples, path, delimiter='\t',
                fields=['catalog_series', 
                        'catalog_number',
                        'field_series',
@@ -298,13 +297,8 @@ def write_data(samples, path, candidates_only=False, delimiter='\t',
     out = open(path, 'w')
     out.write("%s\n" % delimiter.join(fields))
     for field_id, sample in samples.iteritems():
-        if candidates_only:
-            if sample.use:
-                out.write("%s\n" % delimiter.join([
-                        my_str(getattr(sample, x, '')) for x in fields]))
-        else:
-            out.write("%s\n" % delimiter.join([
-                    my_str(getattr(sample, x, '')) for x in fields]))
+        out.write("%s\n" % delimiter.join([
+                my_str(getattr(sample, x, '')) for x in fields]))
     out.close()  
 
 def summarize_island_sampling_for_species(species, samples):
@@ -392,20 +386,16 @@ def main():
     write_island_sampling(samples=freezer_data, path=path_to_island_summary)
     # write all data
     write_data(samples=freezer_data,
-               path=path_to_all_data,
-               candidates_only=False)
+               path=path_to_all_data)
     # write all candidates
     write_data(samples=candidates,
-               path=path_to_candidates_out, 
-               candidates_only=True)
+               path=path_to_candidates_out)
     # write lsuhc request
     write_data(samples=lsuhc,
-               path=path_to_lee_out, 
-               candidates_only=True)
+               path=path_to_lee_out)
     # write ku freezer pull list
     write_data(samples=ku_pull,
                path=path_to_ku_pull_out, 
-               candidates_only=True,
                fields=['box',
                        'cell',
                        'catalog_series', 
@@ -426,8 +416,7 @@ def main():
                        'source',])
     # write ku freezer use list
     write_data(samples=ku_use,
-               path=path_to_ku_use_out, 
-               candidates_only=True)
+               path=path_to_ku_use_out)
 
 if __name__ == '__main__':
     main()
