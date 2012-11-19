@@ -715,11 +715,11 @@ KU	310798	CDS	2844	Cyrtodactylus	sumuroi	Philippines	Samar	Mindanao	Eastern Sama
 KU	303889	ELR	556	Cyrtodactylus	philippinicus	Philippines	Mindoro	Mindoro	Occidental Mindoro Province; Municipality of Sablayan; Barangay Batong Buhay, Batulai, Mt. Siburan	13.7955000	120.1596500	H-116-C6	False	2006-02-19	ku_freezer.txt/ku_gekkonid_tissues.txt
 KU	303887	ELR	554	Cyrtodactylus	philippinicus	Philippines	Mindoro	Mindoro	Occidental Mindoro Province; Municipality of Sablayan; Barangay Batong Buhay, Batulai, Mt. Siburan	13.7955000	120.1596500	H-116-C4	False	2006-02-19	ku_freezer.txt/ku_gekkonid_tissues.txt
 KU	303888	ELR	555	Cyrtodactylus	philippinicus	Philippines	Mindoro	Mindoro	Occidental Mindoro Province; Municipality of Sablayan; Barangay Batong Buhay, Batulai, Mt. Siburan	13.7955000	120.1596500	H-116-C5	False	2006-02-19	ku_freezer.txt/ku_gekkonid_tissues.txt
-KU	311497	KU-FS	17	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park				False	2005-04-11	ku_gekkonid_tissues.txt
-KU	311496	KU-FS	16	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park				False	2005-04-11	ku_gekkonid_tissues.txt
-KU	311495	KU-FS	15	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park				False	2005-04-11	ku_gekkonid_tissues.txt
-KU	311494	KU-FS	14	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park				False	2005-04-11	ku_gekkonid_tissues.txt
-KU	311493	KU-FS	13	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park				False	2005-04-11	ku_gekkonid_tissues.txt
+KU	311497	KU-FS	17	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park			K-165-G3	False	2005-04-11	ku_gekkonid_tissues.txt
+KU	311496	KU-FS	16	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park			K-165-F8	False	2005-04-11	ku_gekkonid_tissues.txt
+KU	311495	KU-FS	15	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park			K-165-G2	False	2005-04-11	ku_gekkonid_tissues.txt
+KU	311494	KU-FS	14	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park			K-165-G1	False	2005-04-11	ku_gekkonid_tissues.txt
+KU	311493	KU-FS	13	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park			K-165-D8/F7	False	2005-04-11	ku_gekkonid_tissues.txt
 LSUHC	6950	LSUHC	6950	Gekko	monarchus	West Malaysia	Pulau Mertang Tengah		Pahang			Z-379-A9	False		ku_freezer.txt
 		NOSERIES	6433	Ptychozoon	kuhli	Malaysia	Pulau Tioman		West Malaysia, Pahang, Pulau Tioman, Tekek-Juara Trail			D-54-LOOSE	False		ku_freezer.txt
 		PNM/CMNH H	1459	Cyrtodactylus	annulatus	Philippines	Mindanao		South Cotabato Province; Municipality of Kiamba; Barangay Binati; Mt Busa; Site 1			J-141-F9	False		ku_freezer.txt
@@ -1224,7 +1224,7 @@ KU	303918	RMB	5343	Gekko	mindorensis	Philippines	Lubang	Lubang	Occidental Mindor
 KU	303917	RMB	5342	Gekko	mindorensis	Philippines	Lubang	Lubang	Occidental Mindoro Province; Municipality of Lubang; Barangay Vigo			G-103-E7	False	2005-12-07	ku_freezer.txt/ku_gekkonid_tissues.txt
 KU	303830	RMB	5349	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang	Occidental Mindoro Province; Municipality of Lubang; Barangay Vigo			G-103-F5	True	2005-12-07	ku_freezer.txt/ku_gekkonid_tissues.txt/gekkonid_lab_work.txt
 KU	303829	RMB	5348	Cyrtodactylus	philippinicus	Philippines	Lubang	Lubang	Occidental Mindoro Province; Municipality of Lubang; Barangay Vigo			G-103-F4	False	2005-12-07	ku_freezer.txt/ku_gekkonid_tissues.txt
-KU	305138	CDS	31	Gekko	gigante/gigante/cf mindorensis	Philippines	South Gigante	Visayan	Iloilo Province; Muncipality of Carles; Barangay Asluman			E-74-15	True	2004-09-06	ku_freezer.txt/ku_gekkonid_tissues.txt/gekkonid_lab_work.txt
+KU	305138	CDS	31	Gekko	gigante	Philippines	South Gigante	Visayan	Iloilo Province; Muncipality of Carles; Barangay Asluman			E-74-15	True	2004-09-06	ku_freezer.txt/ku_gekkonid_tissues.txt/gekkonid_lab_work.txt
 KU	320541	ELR	1579	Luperosaurus	gulat	Philippines	Palawan	Palawan	Palawan Province; Municipality of Rizal; 3.4 km W, 0.60 km S of Mt. Mantalingajan, Barangay Ransang, locally known as "Gunob"	8.8136111	117.6497222	P-236-B4	False	2007-07-05	ku_freezer.txt/ku_gekkonid_tissues.txt
 LSUHC	6080	LSUHC	6080	Cyrtodactylus	intermedius	Cambodia			Cambodia, Pursat Province, near O"Som				False		LSUHC_geckos.txt
 KU	327084	ACD	5193	Cyrtodactylus	annulatus	Philippines	Mindanao	Mindanao	South Cotobato Province; Municipality of Tampakan; Barangay Tablu, Sitio Datal Mangisi			X-357-C7	False	2009-08-22	ku_freezer.txt/ku_gekkonid_tissues.txt
@@ -1551,7 +1551,7 @@ KU	307286	RMB	7008	Hemidactylus	frenatus	Solomon Islands			Guadalcanal Island; G
 KU	307287	RMB	7009	Hemidactylus	frenatus	Solomon Islands			Guadalcanal Island; Guadalcanal Province; Honiara City District, Iron Bottom Sound Hotel	-9.4291833	159.9458500	K-156-I6	False	2006-07-26	ku_gekkonid_tissues.txt
 KU	307283	RMB	7005	Hemidactylus	frenatus	Solomon Islands			Guadalcanal Island; Guadalcanal Province; Honiara City District, Iron Bottom Sound Hotel	-9.4291833	159.9458500	K-156-I2	False	2006-07-26	ku_gekkonid_tissues.txt
 KU	307284	RMB	7006	Hemidactylus	frenatus	Solomon Islands			Guadalcanal Island; Guadalcanal Province; Honiara City District, Iron Bottom Sound Hotel	-9.4291833	159.9458500	K-156-I3	False	2006-07-26	ku_gekkonid_tissues.txt
-KU	311498	KU-FS	18	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park				False	2005-04-11	ku_gekkonid_tissues.txt
+KU	311498	KU-FS	18	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park			K-165-F9	False	2005-04-11	ku_gekkonid_tissues.txt
 KU	305448	ELR	737	Gekko	gecko	Philippines	Mindoro	Mindoro	Occidental Mindoro Province; Municipality of Calintaan; Barangay Malpalon			K-154-C3	False	2006-09-23	ku_freezer.txt/ku_gekkonid_tissues.txt
 KU	307280	RMB	7002	Gehyra	oceanica	Solomon Islands			Guadalcanal Island; Guadalcanal Province; Honiara City District, City Botanical Gardens	-9.4384167	159.9389667	K-156-H8	False	2006-07-26	ku_gekkonid_tissues.txt
 		ACD	7547	Cyrtodactylus		Philippines	Leyte		Southern Leyte Prov.			AE-552-I3	False		ku_freezer.txt
@@ -2772,7 +2772,7 @@ KU	330057	RMB	15112	Gekko	gecko	Philippines	Luzon	Luzon	Cagayan Province; Munici
 KU	302828	CDS	1059	Pseudogekko	smaragdinus	Philippines	Polillo	Luzon	Quezon Province; Municipality of Polillo; Barangay Pinaglubayan	14.7525833	121.9682000	E-72-59	False	2001-03-01	ku_freezer.txt/ku_gekkonid_tissues.txt
 LSUHC	2588	LSUHC	2588	Cyrtodactylus	elok	Malaysia			Malaysia, Pahang, Cameron Highlands				False		LSUHC_geckos.txt
 LSUHC	2589	LSUHC	2589	Cyrtodactylus	elok	Malaysia			Malaysia, Pahang, Cameron Highlands				False		LSUHC_geckos.txt
-KU	302718	CDS	46	Gekko	gigante/gigante/cf mindorensis	Philippines	South Gigante	Visayan	Iloilo Province; Muncipality of Carles; Sitio Antonia, Barangay Gabi			E-74-30	True	2000-09-06	ku_freezer.txt/ku_gekkonid_tissues.txt/gekkonid_lab_work.txt
+KU	302718	CDS	46	Gekko	gigante	Philippines	South Gigante	Visayan	Iloilo Province; Muncipality of Carles; Sitio Antonia, Barangay Gabi			E-74-30	True	2000-09-06	ku_freezer.txt/ku_gekkonid_tissues.txt/gekkonid_lab_work.txt
 KU	302564	CDS	44	Cosymbotus	platyurus	Philippines	Panay	Visayan	Iloilo Province; Muncipality of Carles; Sitio Antonia, Barangay Gabi			E-74-28	False	2000-09-06	ku_freezer.txt/ku_gekkonid_tissues.txt
 KU	302565	CDS	45	Cosymbotus	platyurus	Philippines	Panay	Visayan	Iloilo Province; Muncipality of Carles; Sitio Antonia, Barangay Gabi			E-74-29	False	2000-09-06	ku_freezer.txt/ku_gekkonid_tissues.txt
 KU	302562	CDS	42	Cosymbotus	platyurus	Philippines	Panay	Visayan	Iloilo Province; Muncipality of Carles; Sitio Antonia, Barangay Gabi			E-74-26	False	2000-09-06	ku_freezer.txt/ku_gekkonid_tissues.txt
