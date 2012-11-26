@@ -5,6 +5,10 @@ import sys
 import logging
 import re
 import datetime
+try:
+    import cPickle as pickle
+except ImportError:
+    import pickle
 
 import gekgo_util
 from gekgo_util import RunLogger
@@ -13,15 +17,65 @@ _LOG = RunLogger(name=__file__,
         log_to_stderr=True,
         log_to_file=False)
 
-class GekkonidSamples(dict):
+def my_str(x):
+    if x == None:
+        return ''
+    else:
+        return str(x)
+
+class SampleDatabase(dict):
     """
     A dictionary of Gekkonid Sample instances.
     """
-    def __init__(self):
-        dict.__init__(self)
+    def __init__(self, path=None):
+        self.path = path
         self._species_set = set()
+        if path and os.path.exists(self.path):
+            _LOG.info('Database {0!r} already exists... '
+                      'reading in data'.format(self.path))
+            stream = open(self.path, 'rb')
+            db = pickle.load(stream)
+            stream.close()
+            assert self.path == db.path
+            dict.__init__(self, db)
+            self._species_set = db._species_set
+        else:
+            _LOG.info('Starting new database')
+            dict.__init__(self)
         self._update_species_set()
 
+    def _get_directory(self):
+        if self.path:
+            return os.path.dirname(self.path)
+        else:
+            return None
+
+    directory = property(_get_directory)
+
+    def _get_flat_file_path(self):
+        if self.path:
+            return os.path.join(self.directory, 'flat_data.txt')
+        else:
+            return None
+
+    flat_file_path = property(_get_flat_file_path)
+
+    def commit(self):
+        if self.path:
+            _LOG.info('Writing database to {0!r}'.format(self.path))
+            try:
+                stream = open(self.path, 'wb')
+            except Exception:
+                _LOG.error('Cannot open path {0!r} to write database\n'
+                           'Update path attribute and try again!'.format(
+                                    self.path))
+                return
+            pickle.dump(self, stream)
+            stream.close()
+            self.write_flat_file(path=self.flat_file_path)
+        else:
+            _LOG.error('You must specify path attribute before commiting!')
+        
     def _update_species_set(self):
         self._species_set = set()
         for sample in self.itervalues():
@@ -35,7 +89,7 @@ class GekkonidSamples(dict):
 
     def add(self, sample_object, overwrite=False):
         if not isinstance(sample_object, Sample):
-            raise Exception("GekkonidSamples dict only holds Sample objects.")
+            raise Exception("SampleDatabase dict only holds Sample objects.")
         if not sample_object.field_id:
             raise Exception("Sample does not have field id; cannot add.")
         if sample_object.field_id in self.keys():
@@ -52,6 +106,33 @@ class GekkonidSamples(dict):
     def merge(self, gekkonid_samples_obj, overwrite=False):
         for field_id, sample in gekkonid_samples_obj.iteritems():
             self.add(sample, overwrite=overwrite)
+
+    def write_flat_file(self, path, delimiter='\t',
+                   fields=['catalog_series', 
+                           'catalog_number',
+                           'field_series',
+                           'field_number',
+                           'genus',
+                           'epithet',
+                           'country',
+                           'island',
+                           'paic',
+                           'locality',
+                           'lat',
+                           'long',
+                           'tissue',
+                           'cam_extract',
+                           'cam_extract_cell',
+                           'date',
+                           'source',]):
+        _LOG.info('Writing database flat file to {0!r}'.format(
+                path))
+        out = open(path, 'w')
+        out.write("%s\n" % delimiter.join(fields))
+        for field_id, sample in self.iteritems():
+            out.write("%s\n" % delimiter.join([
+                    my_str(getattr(sample, x, '')) for x in fields]))
+        out.close()  
 
 class Sample(object):
     """
@@ -78,7 +159,7 @@ class Sample(object):
         self._locality = None
         self._lat = None
         self._long = None
-        self._extract_cell = None
+        self._cam_extract_cell = None
         self._tower = None
         self._box = None
         self._cell = None
@@ -98,10 +179,10 @@ class Sample(object):
         self.locality = kwargs.pop('locality', None)
         self.lat = kwargs.pop('lat', None)
         self.long = kwargs.pop('long', None)
-        self.extract_cell = kwargs.pop('extract_cell', None)
-        self.extract = kwargs.pop('extract', False)
-        if self.extract_cell:
-            self.extract = True
+        self.cam_extract_cell = kwargs.pop('cam_extract_cell', None)
+        self.cam_extract = kwargs.pop('cam_extract', False)
+        if self.cam_extract_cell:
+            self.cam_extract = True
         self.tower = kwargs.pop('tower', None)
         self.box = kwargs.pop('box', None)
         self.cell = kwargs.pop('cell', None)
@@ -177,8 +258,8 @@ class Sample(object):
                 del self.paic
             if sample_object.locality:
                 del self.locality
-            if sample_object.extract_cell:
-                del self.extract_cell
+            if sample_object.cam_extract_cell:
+                del self.cam_extract_cell
             if sample_object._tower:
                 del self.tower
             if sample_object._box:
@@ -191,7 +272,7 @@ class Sample(object):
         self.island = sample_object.island
         self.paic = sample_object.paic
         self.locality = sample_object.locality
-        self.extract_cell = sample_object.extract_cell
+        self.cam_extract_cell = sample_object.cam_extract_cell
         self.tower = sample_object.tower
         self.box = sample_object.box
         self.cell = sample_object.cell
@@ -449,25 +530,25 @@ class Sample(object):
             
     long = property(_get_long, _set_long)
 
-    def _get_extract_cell(self):
-        if self._extract_cell:
-            return "/".join(self._extract_cell)
+    def _get_cam_extract_cell(self):
+        if self._cam_extract_cell:
+            return "/".join(self._cam_extract_cell)
         else:
             return None
 
-    def _set_extract_cell(self, extract_cell):
-        if extract_cell:
-            if self._extract_cell:
-                self._extract_cell.add(extract_cell.strip().upper())
+    def _set_cam_extract_cell(self, cam_extract_cell):
+        if cam_extract_cell:
+            if self._cam_extract_cell:
+                self._cam_extract_cell.add(cam_extract_cell.strip().upper())
             else:
-                self._extract_cell = set([extract_cell.strip().upper()])
-                self.extract = True
+                self._cam_extract_cell = set([cam_extract_cell.strip().upper()])
+                self.cam_extract = True
 
-    def _del_extract_cell(self):
-        self._extract_cell = None
-        self.extract = False
+    def _del_cam_extract_cell(self):
+        self._cam_extract_cell = None
+        self.cam_extract = False
 
-    extract_cell = property(_get_extract_cell, _set_extract_cell, _del_extract_cell)
+    cam_extract_cell = property(_get_cam_extract_cell, _set_cam_extract_cell, _del_cam_extract_cell)
 
     def _get_tower(self):
         if self._tower:
