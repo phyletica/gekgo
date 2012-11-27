@@ -5,6 +5,7 @@ import sys
 import logging
 import re
 import datetime
+import copy
 try:
     import cPickle as pickle
 except ImportError:
@@ -107,6 +108,16 @@ class SampleDatabase(dict):
         for field_id, sample in gekkonid_samples_obj.iteritems():
             self.add(sample, overwrite=overwrite)
 
+    def get_copy(self):
+        new_db = SampleDatabase()
+        for k, sample in self.iteritems():
+            new_sample = sample.get_copy()
+            new_db.add(new_sample)
+        assert self.species == new_db.species
+        assert len(self) == len(new_db)
+        assert sorted(self.keys()) == sorted(new_db.keys())
+        return new_db
+
     def write_flat_file(self, path, delimiter='\t',
                    fields=['catalog_series', 
                            'catalog_number',
@@ -133,6 +144,40 @@ class SampleDatabase(dict):
             out.write("%s\n" % delimiter.join([
                     my_str(getattr(sample, x, '')) for x in fields]))
         out.close()  
+
+class Tissue(object):
+    def __init__(self, **kwargs):
+        self.found = kwargs.pop('found', False)
+        self.material = kwargs.pop('material', None)
+        self.preservative = kwargs.pop('preservative', None)
+        self.tube_data = kwargs.pop('tube_data', {})
+        self.notes = kwargs.pop('notes', None)
+
+    def __nonzero__(self):
+        return self.found
+
+    def get_copy(self):
+        dc = copy.deepcopy(self)
+        return Tissue(**dc.__dict__)
+
+class DnaExtraction(Tissue):
+    def __init__(self, **kwargs):
+        self.extracted = kwargs.pop('extracted', False)
+        self.protocol = kwargs.pop('protocol', None)
+        self.rnase = kwargs.pop('rnase', False)
+        self.nanodrop_conc = kwargs.pop('nanodrop_conc', None)
+        self.nanodrop_a260 = kwargs.pop('nanodrop_a260', None)
+        self.nanodrop_260_280 = kwargs.pop('nanodrop_260_280', None)
+        self.nanodrop_260_230 = kwargs.pop('nanodrop_260_230', None)
+        self.qubit = kwargs.pop('qubit', None)
+        self.notes = kwargs.pop('notes', None)
+
+    def __nonzero__(self):
+        return self.extracted
+
+    def get_copy(self):
+        dc = copy.deepcopy(self)
+        return DnaExtraction(**dc.__dict__)
 
 class Sample(object):
     """
@@ -190,6 +235,10 @@ class Sample(object):
         self.month = kwargs.pop('month', None)
         self.year = kwargs.pop('year', None)
         self.source = kwargs.pop('source', None)
+        tissue_args = kwargs.pop('tissue', {})
+        self.tissue_sample = Tissue(**tissue_args)
+        extraction_args = kwargs.pop('extraction', {})
+        self.extraction = DnaExtraction(**extraction_args)
         if len(kwargs.keys()) > 0:
             _LOG.warning("Unused kwargs passed to Sample.__init__ for '%s':\n" % \
                           self.field_id + \
@@ -278,6 +327,16 @@ class Sample(object):
         self.cell = sample_object.cell
         self.source = sample_object.source
 
+    def get_copy(self):
+        new_sample = Sample(field_series = self.field_series,
+                field_number = self.field_number)
+        new_sample.update(self, overwrite=True)
+        if hasattr(self, 'tissue_sample'):
+            new_sample.tissue_sample = self.tissue_sample.get_copy()
+        if hasattr(self, 'extraction'):
+            new_sample.extraction = self.extraction.get_copy()
+        return new_sample
+
     def _get_field_series(self):
         if self._field_series:
             return self._field_series.upper()
@@ -354,7 +413,7 @@ class Sample(object):
 
     def _get_genus(self):
         if self._genus:
-            return "/".join(self._genus)
+            return "/".join(sorted(self._genus))
         else:
             return None
 
@@ -372,7 +431,7 @@ class Sample(object):
 
     def _get_epithet(self):
         if self._epithet:
-            return "/".join(self._epithet)
+            return "/".join(sorted(self._epithet))
         else:
             return None
 
@@ -408,7 +467,7 @@ class Sample(object):
 
     def _get_country(self):
         if self._country:
-            return "/".join(self._country)
+            return "/".join(sorted(self._country))
         else:
             return None
 
@@ -426,7 +485,7 @@ class Sample(object):
 
     def _get_island(self):
         if self._island:
-            return "/".join(self._island)
+            return "/".join(sorted(self._island))
         else:
             return None
 
@@ -450,7 +509,7 @@ class Sample(object):
 
     def _get_paic(self):
         if self._paic:
-            return "/".join(self._paic)
+            return "/".join(sorted(self._paic))
         else:
             return None
 
@@ -474,7 +533,7 @@ class Sample(object):
 
     def _get_locality(self):
         if self._locality:
-            return "/".join(self._locality)
+            return "/".join(sorted(self._locality))
         else:
             return None
 
@@ -532,7 +591,7 @@ class Sample(object):
 
     def _get_cam_extract_cell(self):
         if self._cam_extract_cell:
-            return "/".join(self._cam_extract_cell)
+            return "/".join(sorted(self._cam_extract_cell))
         else:
             return None
 
@@ -552,7 +611,7 @@ class Sample(object):
 
     def _get_tower(self):
         if self._tower:
-            return "/".join(self._tower)
+            return "/".join(sorted(self._tower))
         else:
             return None
 
@@ -570,7 +629,7 @@ class Sample(object):
 
     def _get_box(self):
         if self._box:
-            return "/".join(self._box)
+            return "/".join(sorted(self._box))
         else:
             return None
 
@@ -588,7 +647,7 @@ class Sample(object):
 
     def _get_cell(self):
         if self._cell:
-            return "/".join(self._cell)
+            return "/".join(sorted(self._cell))
         else:
             return None
 
@@ -614,7 +673,7 @@ class Sample(object):
 
     def _get_source(self):
         if self._source:
-            return "/".join(self._source)
+            return "/".join(sorted(self._source))
         else:
             return None
 
