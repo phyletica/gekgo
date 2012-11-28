@@ -9,8 +9,8 @@ import itertools
 import copy
 
 import gekgo_util
-from gekgo_util import RunLogger
-from data_classes import *
+from gekgo_util import RunLogger, get_dict_reader
+from data_classes import SampleDatabase, Sample
 
 _LOG = RunLogger(name=__file__,
         log_to_stderr=True,
@@ -42,14 +42,6 @@ ISLAND_FIXES = {'dayog/luzon': 'Luzon',
          'banahao': 'Luzon',
          'biak/luzon': 'Luzon',
          'naga/luzon': 'Luzon'}
-
-def get_dict_reader(file_obj, delimiter='\t'):
-    if isinstance(file_obj, str):
-        return (csv.DictReader(open(file_obj, 'rU'), delimiter=delimiter),
-                os.path.basename(file_obj))
-    else:
-        return (csv.DictReader(file_obj, delimiter=delimiter),
-                os.path.basename(file_obj.name))
 
 def apply_island_fixes(samples):
     for field_id, sample in samples.iteritems():
@@ -300,3 +292,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

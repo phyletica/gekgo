@@ -4,6 +4,7 @@ import os
 import sys
 import logging
 import glob
+import csv
 import stat
 
 BIN_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -16,6 +17,7 @@ DB_PATH = os.path.abspath(os.path.join(DB_DIR, 'data.pickle.db'))
 SUMMARIES_DIR = os.path.abspath(os.path.join(SAMPLE_DIR, 'summaries'))
 SUBSETS_DIR = os.path.abspath(os.path.join(SAMPLE_DIR, 'subsets'))
 SUBSET_SRC_DIR = os.path.abspath(os.path.join(SUBSETS_DIR, 'sources'))
+LABWORK_DIR = os.path.abspath(os.path.join(SAMPLE_DIR, 'labwork'))
 LOCI_DIR = os.path.abspath(os.path.join(DATA_DIR, 'loci'))
 CONCAT_DIR = os.path.abspath(os.path.join(DATA_DIR, 'concat'))
 GARLI_DIR = os.path.abspath(os.path.join(DATA_DIR, 'garli'))
@@ -39,6 +41,14 @@ CONCAT_ALNS_NEX = {'all': os.path.join(CONCAT_DIR, 'all.nex'),
 ALNS_NEX = {}
 ALNS_NEX.update(LOCI_ALNS_NEX)
 ALNS_NEX.update(CONCAT_ALNS_NEX)
+
+def get_dict_reader(file_obj, delimiter='\t'):
+    if isinstance(file_obj, str):
+        return (csv.DictReader(open(file_obj, 'rU'), delimiter=delimiter),
+                os.path.basename(file_obj))
+    else:
+        return (csv.DictReader(file_obj, delimiter=delimiter),
+                os.path.basename(file_obj.name))
 
 def whereis(file_name):
     """

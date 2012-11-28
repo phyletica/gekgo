@@ -9,20 +9,12 @@ import itertools
 import copy
 
 import gekgo_util
-from gekgo_util import RunLogger
+from gekgo_util import RunLogger, get_dict_reader
 from data_classes import *
 
 _LOG = RunLogger(name=__file__,
         log_to_stderr=True,
         log_to_file=False)
-
-def get_dict_reader(file_obj, delimiter='\t'):
-    if isinstance(file_obj, str):
-        return (csv.DictReader(open(file_obj, 'rU'), delimiter=delimiter),
-                os.path.basename(file_obj))
-    else:
-        return (csv.DictReader(file_obj, delimiter=delimiter),
-                os.path.basename(file_obj.name))
 
 def parse_candidates(file_obj, delimiter='\t', samples=SampleDatabase()):
     dr, src = get_dict_reader(file_obj, delimiter=delimiter)

@@ -24,6 +24,12 @@ def my_str(x):
     else:
         return str(x)
 
+def my_getattr(obj, string):
+    queries = string.split('.')
+    for q in queries:
+        obj = getattr(obj, q, None)
+    return obj
+
 class SampleDatabase(dict):
     """
     A dictionary of Gekkonid Sample instances.
@@ -132,6 +138,13 @@ class SampleDatabase(dict):
                            'lat',
                            'long',
                            'tissue',
+                           'tissue_sample.found',
+                           'tissue_sample.material',
+                           'tissue_sample.preservative',
+                           'tissue_sample.tube_data',
+                           'tissue_sample.notes',
+                           'extraction.protocol',
+                           'extraction.rnase',
                            'cam_extract',
                            'cam_extract_cell',
                            'date',
@@ -142,7 +155,7 @@ class SampleDatabase(dict):
         out.write("%s\n" % delimiter.join(fields))
         for field_id, sample in self.iteritems():
             out.write("%s\n" % delimiter.join([
-                    my_str(getattr(sample, x, '')) for x in fields]))
+                    my_str(my_getattr(sample, x)) for x in fields]))
         out.close()  
 
 class Tissue(object):
