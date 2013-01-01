@@ -1,4 +1,4 @@
-box	cell	catalog_series	catalog_number	field_series	field_number	genus	epithet	country	island	paic	locality	lat	long	tissue	extract	date	source
+box	cell	catalog_series	catalog_number	field_series	field_number	genus	epithet	country	island	paic	locality	lat	long	tissue	cam_extract	date	source
 285	A3	KU	314836	RMB	9223	Cyrtodactylus	jambangan	Philippines	Mindanao	Mindanao	Zamboanga City "Province"; Municipality of Pasonanca; Pasonanca Natural Park, Tumaga River	6.9922333	122.0604333	S-285-A3	False	2008-07-11	ku_freezer.txt/ku_gekkonid_tissues.txt
 143	B4			PNM/CMNH H	1352	Cyrtodactylus	annulatus	Philippines	Mindanao		North Cotabato Province; Municipality of Kidapawan; Barangay Ilomavis; Mt Apo; Site 3			J-143-B4	False		ku_freezer.txt
 241	E5	KU	309364	RMB	8232	Cyrtodactylus	annulatus	Philippines	Camiguin Sur	Mindanao	Camiguin Province; Municipality of Mambajao; Barangay Pandan, Sito Pamahawan			Q-241-E5	False	2007-06-19	ku_freezer.txt/ku_gekkonid_tissues.txt
@@ -134,7 +134,7 @@ box	cell	catalog_series	catalog_number	field_series	field_number	genus	epithet	c
 69	4	KU	302741	CDS	791	Gekko	romblon	Philippines	Romblon	Romblon	Romblon Province; Municipality of Romblon; Barangay Li-o	12.5741000	122.2940000	E-69-4	True	2001-01-27	ku_freezer.txt/ku_gekkonid_tissues.txt/gekkonid_lab_work.txt
 69	3	KU	302740	CDS	790	Gekko	romblon	Philippines	Romblon	Romblon	Romblon Province; Municipality of Romblon; Barangay Li-o	12.5741000	122.2940000	E-69-3	False	2001-01-27	ku_freezer.txt/ku_gekkonid_tissues.txt
 81	LOOSE			CDSGS	40	Gekko	mindorensis	Philippines	Negros		Occidental; Sipalay City; Camindangan; 9deg47.182N, 122deg30.640E			F-81-LOOSE	True		ku_freezer.txt/gekkonid_lab_work.txt
-80	LOOSE			CDSGS	41	Gekko	mindorensis	Philippines	Negros		Occidental; Sipalay City; Camindangan; 9deg47.182N, 122deg30.640E			F-80-LOOSE	True		ku_freezer.txt/gekkonid_lab_work.txt
+191	C1	KU	309326	RMB	7757	Cyrtodactylus	redimiculus	Philippines	Palawan	Palawan	Palawan Province; Municipality of Brooke's Point; Barangay Samarinana (Border with Barangay Saulog), Mt. Mantalingahan Range, Area "Pitang"	8.7503000	117.6896000	M-191-C1	False	2007-03-28	ku_freezer.txt/ku_gekkonid_tissues.txt
 117	G9	KU	304937	RMB	6058	Gekko	rossi	Philippines	Calayan	Babuyan Island Group	Cagayan Valley Province; ; Barangay Magsidel, Sitio Longog	19.3310000	121.4390000	H-117-G9	False	2006-03-21	ku_freezer.txt/ku_gekkonid_tissues.txt
 117	H1	KU	304938	RMB	6059	Gekko	rossi	Philippines	Calayan	Babuyan Island Group	Cagayan Valley Province; ; Barangay Magsidel, Sitio Longog	19.3310000	121.4390000	H-117-H1	False	2006-03-21	ku_freezer.txt/ku_gekkonid_tissues.txt
 117	G3	KU	304931	RMB	6052	Gekko	rossi	Philippines	Calayan	Babuyan Island Group	Cagayan Valley Province; ; Barangay Magsidel, Sitio Longog	19.3310000	121.4390000	H-117-G3	False	2006-03-21	ku_freezer.txt/ku_gekkonid_tissues.txt
@@ -276,7 +276,7 @@ box	cell	catalog_series	catalog_number	field_series	field_number	genus	epithet	c
 380	H7	KU	328824	RMB	13661	Gekko	mindorensis	Philippines	Luzon	Luzon	Quezon Province; Municipality of Atimonan; Exact locality unknown (coordinates at center of municipality)	13.9958300	121.9050000	Z-380-H7	False	2011-01-02	ku_freezer.txt/ku_gekkonid_tissues.txt
 259	I4			NOID	1	Cyrtodactylus	baluensis	Malaysia	Borneo		Sabah			R-259-I4	False		ku_freezer.txt
 259	I5			NOID	2	Cyrtodactylus	baluensis	Malaysia	Borneo		Sabah			R-259-I5	False		ku_freezer.txt
-191	C1	KU	309326	RMB	7757	Cyrtodactylus	redimiculus	Philippines	Palawan	Palawan	Palawan Province; Municipality of Brooke's Point; Barangay Samarinana (Border with Barangay Saulog), Mt. Mantalingahan Range, Area "Pitang"	8.7503000	117.6896000	M-191-C1	False	2007-03-28	ku_freezer.txt/ku_gekkonid_tissues.txt
+80	LOOSE			CDSGS	41	Gekko	mindorensis	Philippines	Negros		Occidental; Sipalay City; Camindangan; 9deg47.182N, 122deg30.640E			F-80-LOOSE	True		ku_freezer.txt/gekkonid_lab_work.txt
 68	49	KU	302727	CDS	757	Gekko	mindorensis	Philippines	Masbate	Visayan	Masbate Province; Municipality of Mandaon; Barangay Poblacion			E-68-49	True	2001-01-24	ku_freezer.txt/ku_gekkonid_tissues.txt/gekkonid_lab_work.txt
 68	47	KU	302726	CDS	755	Gekko	mindorensis	Philippines	Masbate	Visayan	Masbate Province; Municipality of Mandaon; Barangay Poblacion			E-68-47	True	2001-01-24	ku_freezer.txt/ku_gekkonid_tissues.txt/gekkonid_lab_work.txt
 68	46	KU	305135	CDS	754	Gekko	mindorensis	Philippines	Masbate	Visayan	Masbate Province; Municipality of Mandaon; Barangay Poblacion			E-68-46	False	2005-01-25	ku_gekkonid_tissues.txt

@@ -233,8 +233,6 @@ Gekko (19):
 	other: 9
 Gekko athymus (7):
 	Palawan: 7
-Gekko athymus/gecko (1):
-	Palawan: 1
 Gekko carusadensis (10):
 	Luzon: 10
 Gekko cf gecko (1):
@@ -282,6 +280,8 @@ Gekko gecko (217):
 	Siquijor: 1
 	Tablas: 4
 	other: 18
+Gekko gecko/athymus (1):
+	Palawan: 1
 Gekko gigante (12):
 	Gigante: 4
 	North Gigante: 5
