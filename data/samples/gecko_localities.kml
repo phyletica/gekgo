@@ -1,0 +1,3383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>gecko_localities.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>gecko_localities</name>
+		<open>1</open>
+		<Folder>
+			<name>Cyrtodactylus</name>
+			<open>1</open>
+			<Folder>
+				<name>Cyrtodactylus philippinicus</name>
+				<open>1</open>
+				<Placemark>
+					<name>Quezon Province; Municipality of Polillo; Barangay Salipsip, Sitio Kapilijan, 2</name>
+					<description>Quezon Province; Municipality of Polillo; Barangay Salipsip, Sitio Kapilijan, 2</description>
+					<LookAt>
+						<longitude>121.9193</longitude>
+						<latitude>14.8447333</latitude>
+						<altitude>0</altitude>
+						<heading>1.735335203582479</heading>
+						<tilt>0</tilt>
+						<range>311409.4905610716</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin10</styleUrl>
+					<Point>
+						<coordinates>121.9193,14.8447333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Quezon Province; Municipality of Polillo; Barangay Pinaglubayan; 8</name>
+					<description>Quezon Province; Municipality of Polillo; Barangay Pinaglubayan; 8</description>
+					<LookAt>
+						<longitude>121.9682</longitude>
+						<latitude>14.7525833</latitude>
+						<altitude>0</altitude>
+						<heading>1.735335179263783</heading>
+						<tilt>0</tilt>
+						<range>311412.2208485124</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin10</styleUrl>
+					<Point>
+						<coordinates>121.9682,14.7525833,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Polillo, Quezon Province, Municipality of Burdeos, Burdeos, 2</name>
+					<description>Quezon Province; Municipality of Burdeos; Burdeos; 2</description>
+					<LookAt>
+						<longitude>121.938</longitude>
+						<latitude>14.888</latitude>
+						<altitude>0</altitude>
+						<heading>1.735335120465439</heading>
+						<tilt>0</tilt>
+						<range>311492.8267104101</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin10</styleUrl>
+					<Point>
+						<coordinates>121.938,14.888,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Quezon Province, Municipality of Atimonan, 5</name>
+					<description>Quezon Province; Municipality of Atimonan; Exact locality unknown (coordinates at center of municipality); 5</description>
+					<LookAt>
+						<longitude>121.905</longitude>
+						<latitude>37.67084304837414</latitude>
+						<altitude>0</altitude>
+						<heading>0.007353334276750688</heading>
+						<tilt>0</tilt>
+						<range>11071504.49911095</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin10</styleUrl>
+					<Point>
+						<coordinates>121.905,13.99583,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Polillo, Quezon Province, Municipality of Burdeos, 1</name>
+					<description>Quezon Province; Municipality of Burdeos; Barangay Aluyon; Sitio Malinao; 1</description>
+					<LookAt>
+						<longitude>121.9437833</longitude>
+						<latitude>14.8671</latitude>
+						<altitude>0</altitude>
+						<heading>1.735335070781395</heading>
+						<tilt>0</tilt>
+						<range>311585.7242318408</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin10</styleUrl>
+					<Point>
+						<coordinates>121.9437833,14.8671,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sibuyan, Romblon Province, Municipaity of Magdiwang</name>
+					<description>Romblon Province; Municipaity of Magdiwang; Barangay Talaba, Mount Guiting-Guiting Natural Park</description>
+					<LookAt>
+						<longitude>122.66435</longitude>
+						<latitude>12.4612167</latitude>
+						<altitude>0</altitude>
+						<heading>1.927580767117547</heading>
+						<tilt>0</tilt>
+						<range>499663.0425409516</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin10</styleUrl>
+					<Point>
+						<coordinates>122.66435,12.4612167,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Tablas, Municipality of Calatrava</name>
+					<description>Romblon Province; Municipality of Calatrava; Barangay Balogo: Sitio Piqueno</description>
+					<LookAt>
+						<longitude>122.04552</longitude>
+						<latitude>12.60523</latitude>
+						<altitude>0</altitude>
+						<heading>1.927580966066856</heading>
+						<tilt>0</tilt>
+						<range>499669</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin10</styleUrl>
+					<Point>
+						<coordinates>122.04552,12.60523,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Quezon Province; Municipality of Polillo; Barangay Poblacion; 1</name>
+					<description>Quezon Province; Municipality of Polillo; Barangay Poblacion; 1</description>
+					<LookAt>
+						<longitude>121.9424056894997</longitude>
+						<latitude>14.71777594598587</latitude>
+						<altitude>0</altitude>
+						<heading>-7.8885089664252e-08</heading>
+						<tilt>0</tilt>
+						<range>198816.5025448249</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin10</styleUrl>
+					<Point>
+						<coordinates>121.9424056894997,14.71777594598587,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus pubisulcus</name>
+				<Placemark id="22">
+					<name>Gunung Gading, Lundu, Sarawak, Malaysia, 2</name>
+					<address>Gunung Gading, Lundu, Sarawak, Malaysia</address>
+					<styleUrl>#msn_ylw-pushpin2</styleUrl>
+					<MultiGeometry>
+						<Point>
+							<coordinates>109.833333,1.733333,0</coordinates>
+						</Point>
+						<LinearRing>
+							<coordinates>
+								109.7821094,1.6976434,0 109.7821094,1.7690226,0 109.8845566,1.7690226,0 109.8845566,1.6976434,0 109.7821094,1.6976434,0 
+							</coordinates>
+						</LinearRing>
+					</MultiGeometry>
+					<AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+          <AddressLines>
+            <AddressLine>Gunung Gading</AddressLine>
+          </AddressLines>
+        </AddressDetails>
+				</Placemark>
+				<Placemark>
+					<name>Malaysia, Sarawak, Matang, 2</name>
+					<description>Malaysia, Sarawak, Matang, 2</description>
+					<LookAt>
+						<longitude>110.2755185044542</longitude>
+						<latitude>1.556790735877692</latitude>
+						<altitude>0</altitude>
+						<heading>-1.259929599174042e-05</heading>
+						<tilt>0</tilt>
+						<range>49981.46604216146</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin2</styleUrl>
+					<Point>
+						<coordinates>110.2755185044542,1.556790735877692,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus annulatus</name>
+				<Placemark>
+					<name>Palawan, Mainit 8</name>
+					<open>1</open>
+					<description>Palawan; Palawan Province; Municipality of Brooke&apos;s Point; Barangay Mainit, Mainit Falls 8</description>
+					<LookAt>
+						<longitude>118.6416167</longitude>
+						<latitude>9.836733300000001</latitude>
+						<altitude>0</altitude>
+						<heading>-1.11338816725665e-08</heading>
+						<tilt>0</tilt>
+						<range>10135</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>118.6416167,9.836733300000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Bohol 11</name>
+					<description>Bohol Province; Municipality of Bilar; Barangay Riverside; Magsaysay Park; Raja Sikatuna Natural Park</description>
+					<LookAt>
+						<longitude>124.12344</longitude>
+						<latitude>9.70551</latitude>
+						<altitude>0</altitude>
+						<heading>-0.1195975546206344</heading>
+						<tilt>0</tilt>
+						<range>1350832.100743329</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin2</styleUrl>
+					<Point>
+						<coordinates>124.12344,9.70551,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Camiguin Sur 4</name>
+					<description>Camiguin Province; Municipality of Mambajao; Barangay Pandan, Sito Pamahawan</description>
+					<LookAt>
+						<longitude>124.7149802063971</longitude>
+						<latitude>9.243104424523406</latitude>
+						<altitude>0</altitude>
+						<heading>-0.08351877087217452</heading>
+						<tilt>0</tilt>
+						<range>9934.77217049775</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin2</styleUrl>
+					<Point>
+						<coordinates>124.7149802063971,9.243104424523406,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Cebu 4</name>
+					<description>Cebu Province; Municipality of Alcoy; Barangay Nug-as, CBCF field station</description>
+					<LookAt>
+						<longitude>124.7150325243293</longitude>
+						<latitude>9.71119</latitude>
+						<altitude>0</altitude>
+						<heading>-0.08350877926794416</heading>
+						<tilt>0</tilt>
+						<range>548512.6272377841</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin2</styleUrl>
+					<Point>
+						<coordinates>123.44884,9.71119,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mindanao, Pasonanca Natural Park, Sitio Nancy 3</name>
+					<description>Mindanao, Pasonanca Natural Park, Barangay La Paz, Sitio Nancy 3</description>
+					<LookAt>
+						<longitude>122.027</longitude>
+						<latitude>7.085</latitude>
+						<altitude>0</altitude>
+						<heading>1.359236722093198e-05</heading>
+						<tilt>0</tilt>
+						<range>281931.6927705951</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<coordinates>122.027,7.085,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mindanao; Pasonanca Natural Park, Tumaga River 1</name>
+					<description>Mindanao; Pasonanca Natural Park, Tumaga River 1</description>
+					<LookAt>
+						<longitude>122.0604333</longitude>
+						<latitude>6.9922333</latitude>
+						<altitude>0</altitude>
+						<heading>-2.947565971810327e-06</heading>
+						<tilt>0</tilt>
+						<range>11008029.13700933</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<coordinates>122.0604333,6.992233300000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mindanao, Malagos 6</name>
+					<description>Mindanao; Davao City Province; Municipality of Calinan; Barangay Malagos; Malagos Eagle Station 6</description>
+					<LookAt>
+						<longitude>125.6120096982822</longitude>
+						<latitude>7.079641398656181</latitude>
+						<altitude>0</altitude>
+						<heading>-5.675347736540689e-05</heading>
+						<tilt>0</tilt>
+						<range>26625.14880066123</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<coordinates>125.6120096982822,7.079641398656181,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mindanao, Mt. Apo 1</name>
+					<description>Mindanao; North Cotabato Province; Municipality of Kidapawan; Barangay Ilomavis; Mt Apo; Site 3; 1</description>
+					<LookAt>
+						<longitude>125.2725272724855</longitude>
+						<latitude>6.986462818427731</latitude>
+						<altitude>0</altitude>
+						<heading>7.34326617681951e-06</heading>
+						<tilt>0</tilt>
+						<range>349915.0220211609</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<coordinates>125.2725272724854,6.98646281842773,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mindanao, Mt. Busa 3</name>
+					<description>Mindanao; South Cotobato Province; Municipality of Kiamba; Barangay Banate; Mt Busa; Site 1; 3</description>
+					<LookAt>
+						<longitude>124.685833312401</longitude>
+						<latitude>6.109166859791858</latitude>
+						<altitude>0</altitude>
+						<heading>3.324286531719531e-08</heading>
+						<tilt>0</tilt>
+						<range>112656.8547592261</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<coordinates>124.6858333124011,6.109166859791858,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus aurensis</name>
+				<Placemark>
+					<name>Pulau Aur 10</name>
+					<description>Pulau Aur 10</description>
+					<LookAt>
+						<longitude>104.5196510391832</longitude>
+						<latitude>2.44861901747043</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0002581249690888306</heading>
+						<tilt>0</tilt>
+						<range>5380.977150307056</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>104.5196510391832,2.44861901747043,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus baluensis</name>
+				<Placemark>
+					<name>Sabah 3</name>
+					<description>Sabah, Borneo, Malaysia 3</description>
+					<LookAt>
+						<longitude>116.7979001329447</longitude>
+						<latitude>5.336409646517073</latitude>
+						<altitude>0</altitude>
+						<heading>0.03001439368495728</heading>
+						<tilt>0</tilt>
+						<range>192090.4528376832</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>116.7979001329447,5.336409646517073,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mt. Kinabalu Park 3</name>
+					<description>Mt. Kinabalu Park, Malaysia 3</description>
+					<LookAt>
+						<longitude>116.5687597472898</longitude>
+						<latitude>6.050363891733158</latitude>
+						<altitude>0</altitude>
+						<heading>0.003923748559423294</heading>
+						<tilt>0</tilt>
+						<range>32734.664663868</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>116.5687597472898,6.050363891733159,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus batucolus</name>
+				<Placemark>
+					<name>Pulau Besar, Melaka, Malaysia 4</name>
+					<description>Pulau Besar, Melaka, Malaysia 4</description>
+					<LookAt>
+						<longitude>102.3271750010746</longitude>
+						<latitude>2.108556001338771</latitude>
+						<altitude>0</altitude>
+						<heading>3.954224607729517e-11</heading>
+						<tilt>0</tilt>
+						<range>10868.32252756086</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>102.3271750010746,2.108556001338771,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus brevipalmatus</name>
+				<Placemark>
+					<name>Thailand 10</name>
+					<description>Thailand 10</description>
+					<LookAt>
+						<longitude>100.9371673589951</longitude>
+						<latitude>15.95512740181508</latitude>
+						<altitude>0</altitude>
+						<heading>0.1230919228682683</heading>
+						<tilt>0</tilt>
+						<range>780651.0789342236</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>100.9371673589951,15.95512740181508,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus cf. paradoxus</name>
+				<Placemark>
+					<name>Vietnam, Nam Du Island 3</name>
+					<description>Vietnam, Nam Du Island 3</description>
+					<LookAt>
+						<longitude>104.3499999369465</longitude>
+						<latitude>9.683332899327107</latitude>
+						<altitude>0</altitude>
+						<heading>-1.060574564778896e-08</heading>
+						<tilt>0</tilt>
+						<range>86636.90598495229</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>104.3499999369465,9.683332899327107,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus cf. condorensis</name>
+				<Placemark>
+					<name>Vietnam, Hon Son 3</name>
+					<description>Vietnam, Hon Son 3</description>
+					<LookAt>
+						<longitude>104.4992469898295</longitude>
+						<latitude>10.10720047107076</latitude>
+						<altitude>0</altitude>
+						<heading>-0.04976034691565821</heading>
+						<tilt>0</tilt>
+						<range>4464.018226985464</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>104.4992469898295,10.10720047107077,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus cf. quadrivirgatus</name>
+				<Placemark>
+					<name>West Malaysia, Selangor, Shah Alam 4</name>
+					<description>West Malaysia, Selangor, Shah Alam 4</description>
+					<LookAt>
+						<longitude>101.5295970008352</longitude>
+						<latitude>3.090606996502992</latitude>
+						<altitude>0</altitude>
+						<heading>4.504003362887244e-11</heading>
+						<tilt>0</tilt>
+						<range>21847.34343337664</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>101.5295970008352,3.090606996502991,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus chuyangsinensis</name>
+				<Placemark>
+					<name>Vietnam, Chu Yang Sin National Park 4</name>
+					<description>Vietnam, Chu Yang Sin National Park 4</description>
+					<LookAt>
+						<longitude>108.428203212063</longitude>
+						<latitude>12.30943909394197</latitude>
+						<altitude>0</altitude>
+						<heading>4.521000803702055e-08</heading>
+						<tilt>0</tilt>
+						<range>44941.44691108291</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>108.428203212063,12.30943909394196,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus condorensis</name>
+				<Placemark>
+					<name>Vietnam, Con Son Island 22</name>
+					<description>Vietnam, Ba Ria Vung Tau, Con Dao, Con Son Island 22</description>
+					<LookAt>
+						<longitude>106.6009065051893</longitude>
+						<latitude>8.677315012742358</latitude>
+						<altitude>0</altitude>
+						<heading>9.759732462724054e-07</heading>
+						<tilt>0</tilt>
+						<range>10475.93667619799</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>106.6009065051893,8.677315012742358,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus consobrinus</name>
+				<Placemark>
+					<name>West Malaysia, Johor 8</name>
+					<description>West Malaysia, Johor, Bunker Trail 8</description>
+					<LookAt>
+						<longitude>103.861822</longitude>
+						<latitude>1.833412</latitude>
+						<altitude>0</altitude>
+						<heading>-1.476346343613885e-09</heading>
+						<tilt>0</tilt>
+						<range>173101.3417318531</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>103.861822,1.833412,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus durio</name>
+				<Placemark>
+					<name>Sungai Sedim, Kedah, Malaysia 5</name>
+					<description>Sungai Sedim, Kedah, Malaysia 5</description>
+					<LookAt>
+						<longitude>100.7010379964641</longitude>
+						<latitude>5.483447973062452</latitude>
+						<altitude>0</altitude>
+						<heading>-3.378741007205536e-10</heading>
+						<tilt>0</tilt>
+						<range>22163.7035110229</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>100.7010379964641,5.483447973062452,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus eismannii</name>
+				<Placemark>
+					<name>Vietnam, Hon Son 4</name>
+					<open>1</open>
+					<description>Vietnam, Hon Son 3</description>
+					<LookAt>
+						<longitude>104.4992469898295</longitude>
+						<latitude>10.10720047107076</latitude>
+						<altitude>0</altitude>
+						<heading>-0.04976034691565821</heading>
+						<tilt>0</tilt>
+						<range>4464.018226985464</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>104.4992469898295,10.10720047107077,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus elok</name>
+				<Placemark>
+					<name>Cameron Highlands, Malaysia 12</name>
+					<description>Cameron Highlands, Malaysia 12</description>
+					<LookAt>
+						<longitude>101.4793500056768</longitude>
+						<latitude>4.512017002877085</latitude>
+						<altitude>0</altitude>
+						<heading>4.465924171963423e-10</heading>
+						<tilt>0</tilt>
+						<range>23285.4592580065</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>101.4793500056768,4.512017002877085,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus grismeri</name>
+				<Placemark>
+					<name>Vietnam, Tuc Dup Hill 5</name>
+					<description>Vietnam, Tuc Dup Hill 5</description>
+					<LookAt>
+						<longitude>106.5875127231629</longitude>
+						<latitude>10.84351715872047</latitude>
+						<altitude>0</altitude>
+						<heading>0.5743522588241036</heading>
+						<tilt>0</tilt>
+						<range>637515.468670026</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>106.5875127231629,10.84351715872047,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus gubaot</name>
+				<Placemark>
+					<name>Leyte 7</name>
+					<description>Leyte; Leyte Province; Municipality of Baybay; Visayas State University Campus 7</description>
+					<LookAt>
+						<longitude>124.8042833</longitude>
+						<latitude>10.7451667</latitude>
+						<altitude>0</altitude>
+						<heading>0.5743522588241036</heading>
+						<tilt>0</tilt>
+						<range>637515</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>124.8042833,10.7451667,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus hontreensis</name>
+				<Placemark>
+					<name>Hon Tre Island, Vietnam 16</name>
+					<description>Hon Tre Island, Kien Hai District, Kien Giang Biosphere Reserve, Kien Giang province, southwestern Vietnam (09°57.922’N 104°50.678’E), 100 m elevation 16</description>
+					<LookAt>
+						<longitude>104.844633</longitude>
+						<latitude>9.965367000000001</latitude>
+						<altitude>0</altitude>
+						<heading>3.862901420674522e-08</heading>
+						<tilt>0</tilt>
+						<range>509237</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>104.844633,9.965367000000001,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus intermedius</name>
+				<Placemark>
+					<name>Vietnam, Phu Quoc Island 5</name>
+					<description>Vietnam, Phu Quoc Island, Suoi Tranh stream 5</description>
+					<LookAt>
+						<longitude>103.9708420219389</longitude>
+						<latitude>10.22091658179378</latitude>
+						<altitude>0</altitude>
+						<heading>2.666249950453828e-05</heading>
+						<tilt>0</tilt>
+						<range>57796.90099591078</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>103.9708420219389,10.22091658179378,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Cambodia, Pursat 6</name>
+					<description>Cambodia, Pursat Province, near O&quot;Som 6</description>
+					<LookAt>
+						<longitude>103.636271055251</longitude>
+						<latitude>12.36632093432277</latitude>
+						<altitude>0</altitude>
+						<heading>1.18326128106167e-08</heading>
+						<tilt>0</tilt>
+						<range>173136.0083509004</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>103.636271055251,12.36632093432277,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus jambangan</name>
+				<Placemark>
+					<name>Mindanao, Pasonanca Natural Park 55</name>
+					<description>Mindanao; Zamboanga City &quot;Province&quot;; Municipality of Pasonanca; Pasonanca Natural Park, Barangay Baluno, Sitio km 24; 55</description>
+					<LookAt>
+						<longitude>122.02885</longitude>
+						<latitude>7.01759</latitude>
+						<altitude>0</altitude>
+						<heading>1.18326128106167e-08</heading>
+						<tilt>0</tilt>
+						<range>173136</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>122.02885,7.01759,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus leegrismeri</name>
+				<Placemark>
+					<name>Pulau Tenggol, Terengganu, Malaysia 8</name>
+					<description>Pulau Tenggol, Terengganu, Malaysia 8</description>
+					<LookAt>
+						<longitude>103.6796910013832</longitude>
+						<latitude>4.803334000023971</latitude>
+						<altitude>0</altitude>
+						<heading>1.158326209442198e-10</heading>
+						<tilt>0</tilt>
+						<range>3255.138584940256</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>103.6796910013832,4.803334000023971,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus lekaguli</name>
+				<Placemark>
+					<name>Thailand, Krabi Province, Krabi 4</name>
+					<description>Thailand, Krabi Province, Krabi 4</description>
+					<LookAt>
+						<longitude>99.10134998486465</longitude>
+						<latitude>8.119180966143816</latitude>
+						<altitude>0</altitude>
+						<heading>-2.137590370872681e-09</heading>
+						<tilt>0</tilt>
+						<range>150712.6714246795</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>99.10134998486464,8.119180966143817,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus majula</name>
+				<Placemark>
+					<name>Singapore, Nee Soon Swamp 8</name>
+					<description>Singapore, Nee Soon Swamp 8</description>
+					<LookAt>
+						<longitude>103.8016027962023</longitude>
+						<latitude>1.363268268581077</latitude>
+						<altitude>0</altitude>
+						<heading>-0.002022537796223458</heading>
+						<tilt>0</tilt>
+						<range>44739.72413427143</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>103.8016027962023,1.363268268581077,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus mamanwa</name>
+				<Placemark>
+					<name>Dinagat, Sitio Cambinlia 19</name>
+					<description>Dinagat, Dinagat Islands Province; Municipality of Loreto; Barangay Santiago, sitio Cambinlia (Sudlon) 19</description>
+					<LookAt>
+						<longitude>125.6181167</longitude>
+						<latitude>10.3436833</latitude>
+						<altitude>0</altitude>
+						<heading>-0.002022537796223458</heading>
+						<tilt>0</tilt>
+						<range>44740</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>125.6181167,10.3436833,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus oldhami</name>
+				<Placemark>
+					<name>Thailand, Chumphon, Pathio 4</name>
+					<description>Thailand, Chumphon, Pathio 4</description>
+					<LookAt>
+						<longitude>99.35874000098303</longitude>
+						<latitude>10.71480599991903</latitude>
+						<altitude>0</altitude>
+						<heading>1.827733577556473e-10</heading>
+						<tilt>0</tilt>
+						<range>3358.469069748067</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>99.35874000098305,10.71480599991903,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus pantiensis</name>
+				<Placemark>
+					<name>West Malaysia, Johor 10</name>
+					<open>1</open>
+					<description>West Malaysia, Johor, Bunker Trail 10</description>
+					<LookAt>
+						<longitude>103.861822</longitude>
+						<latitude>1.833412</latitude>
+						<altitude>0</altitude>
+						<heading>-1.476346343613885e-09</heading>
+						<tilt>0</tilt>
+						<range>173101.3417318531</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>103.861822,1.833412,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus philippinicus</name>
+				<Placemark>
+					<name>Babuyan Claro, 3</name>
+					<description>Cagayan Province; Municipality of Calayan; Barangay Babuyan Claro, Local Name &quot;Asked&quot; 3</description>
+					<LookAt>
+						<longitude>121.9400005532362</longitude>
+						<latitude>19.52333321198062</latitude>
+						<altitude>0</altitude>
+						<heading>1.848864117374298e-07</heading>
+						<tilt>0</tilt>
+						<range>173033.1385740622</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>121.9400005532362,19.52333321198063,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Camiguin Norte 12</name>
+					<description>Camiguin Norte; Cagayan Province; Municipality of Calayan; Barangay Balatabat, Local Name &quot;Limandok&quot; 12</description>
+					<LookAt>
+						<longitude>121.89881</longitude>
+						<latitude>18.92927</latitude>
+						<altitude>0</altitude>
+						<heading>1.848864117374298e-07</heading>
+						<tilt>0</tilt>
+						<range>173033</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>121.89881,18.92927,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Lubang 28</name>
+					<description>Lubang; Occidental Mindoro Province; Municipality of Lubang; Barangay Vigo; 28</description>
+					<LookAt>
+						<longitude>120.1820219869174</longitude>
+						<latitude>13.79147196967594</latitude>
+						<altitude>0</altitude>
+						<heading>-3.118739806090602e-09</heading>
+						<tilt>0</tilt>
+						<range>86884.59089701819</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>120.1820219869174,13.79147196967594,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Albay Province, Sitio Kumagingking 5</name>
+					<description>Luzon; Albay Province; Municipality of Malinao; Barangay Sugcad, Sitio Kumagingking, &quot;Sugcad Plaza&quot; 5</description>
+					<LookAt>
+						<longitude>123.63882</longitude>
+						<latitude>13.40508</latitude>
+						<altitude>0</altitude>
+						<heading>-3.118739806090602e-09</heading>
+						<tilt>0</tilt>
+						<range>86885</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>123.63882,13.40508,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Aurora Province, Sitio Minoli 9</name>
+					<description>Luzon; Aurora Province; Municipality of San Luis; Barangay Real, Sitio Minoli, limestone forest 9</description>
+					<LookAt>
+						<longitude>121.529</longitude>
+						<latitude>15.68</latitude>
+						<altitude>0</altitude>
+						<heading>-1.334490851652966e-08</heading>
+						<tilt>0</tilt>
+						<range>87097</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>121.529,15.68,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Bulacan Prvince, Sitio Langud 13</name>
+					<description>Bulacan Province; Municipality of Dona Remedios Trinidad; Barangay Kabayunan, Sitio Langud, Langud River, Angat Watershed 13</description>
+					<LookAt>
+						<longitude>121.2032</longitude>
+						<latitude>15.0333</latitude>
+						<altitude>0</altitude>
+						<heading>-1.756936577221505e-08</heading>
+						<tilt>0</tilt>
+						<range>87063</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>121.2032,15.0333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Cagayan Province, Mt. Cagua 19</name>
+					<description>Luzon; Cagayan Province; Municipality of Gonzaga; Barangay Magrafil, Site 2, Mt. Cagua 19</description>
+					<LookAt>
+						<longitude>122.104</longitude>
+						<latitude>18.236</latitude>
+						<altitude>0</altitude>
+						<heading>-2.867247304373388e-08</heading>
+						<tilt>0</tilt>
+						<range>87043</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>122.104,18.236,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Camarines Norte Province, Mt. Labo 12</name>
+					<description>Luzon; Camarines Norte Province; Municipality of Labo; Barangay Tulay Na Lupa, Mt. Labo camp 1; 12</description>
+					<LookAt>
+						<longitude>122.47193</longitude>
+						<latitude>14.02362</latitude>
+						<altitude>0</altitude>
+						<heading>-3.676465018092233e-08</heading>
+						<tilt>0</tilt>
+						<range>87308</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>122.47193,14.02362,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Ilocos Norte Province, Mt. Pao 5</name>
+					<description>Luzon; Ilocos Norte Province; Municipality of Adams; Barangay Adams, Site 1, Mt. Pao 5</description>
+					<LookAt>
+						<longitude>120.878</longitude>
+						<latitude>18.438</latitude>
+						<altitude>0</altitude>
+						<heading>-4.671767206017864e-08</heading>
+						<tilt>0</tilt>
+						<range>87306</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>120.878,18.438,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Laguna Province, Camp Malaboo 13</name>
+					<description>Luzon; Laguna Province; Municipality of Los Banos; Barangay Bagong Silang, Mt. Makiling Forest Reserve, Camp Malaboo 13</description>
+					<LookAt>
+						<longitude>121.20447</longitude>
+						<latitude>14.13356</latitude>
+						<altitude>0</altitude>
+						<heading>0.03666293902244489</heading>
+						<tilt>0</tilt>
+						<range>123620</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>121.20447,14.13356,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Laguna Province, Sitio Purok Tres 10</name>
+					<description>Luzon; Laguna Province; Municipality of Los Banos; Barangay Bagong Silang, Mt. Makiling Forest Reserve, Sitio Purok Tres 10</description>
+					<LookAt>
+						<longitude>121.21694</longitude>
+						<latitude>14.13044</latitude>
+						<altitude>0</altitude>
+						<heading>0.03666292223094793</heading>
+						<tilt>0</tilt>
+						<range>123920</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>121.21694,14.13044,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Nueva Vizcaya Province, Sitio Upper Dayog 4</name>
+					<description>Luzon; Nueva Vizcaya Province; Municipality of Quezon; Barangay Maddiangat, Sitio Upper Dayog 4</description>
+					<LookAt>
+						<longitude>121.22</longitude>
+						<latitude>16.462</latitude>
+						<altitude>0</altitude>
+						<heading>0.03666293373080869</heading>
+						<tilt>0</tilt>
+						<range>123992</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>121.22,16.462,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Quezon Province, Municipality of Atimonan 5</name>
+					<description>Luzon; Quezon Province; Municipality of Atimonan; Exact locality unknown (coordinates at center of municipality) 5</description>
+					<LookAt>
+						<longitude>121.905</longitude>
+						<latitude>13.99583</latitude>
+						<altitude>0</altitude>
+						<heading>0.03666296924495155</heading>
+						<tilt>0</tilt>
+						<range>123967</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>121.905,13.99583,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mindoro, Sablayan 5</name>
+					<description>Mindoro; Occidental Mindoro Province; Municipality of Sablayan; Barangay Batong Buhay 5</description>
+					<LookAt>
+						<longitude>120.8929040011586</longitude>
+						<latitude>12.86350500004645</latitude>
+						<altitude>0</altitude>
+						<heading>2.57955706885417e-10</heading>
+						<tilt>0</tilt>
+						<range>1444.656349940553</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>120.8929040011586,12.86350500004645,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Negros, Mt. Bungol 4</name>
+					<description>Negros; Negros Occidental Province; ; Barangay Patag; city of Silay; Mt. Bungol 4</description>
+					<LookAt>
+						<longitude>123.18777</longitude>
+						<latitude>10.67599</latitude>
+						<altitude>0</altitude>
+						<heading>2.57955706885417e-10</heading>
+						<tilt>0</tilt>
+						<range>1445</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>123.18777,10.67599,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Panay, Duyong 10</name>
+					<description>Panay; Antique Province; Municipality of Pandan; Barangay Duyong 10</description>
+					<LookAt>
+						<longitude>122.0411833</longitude>
+						<latitude>11.7609167</latitude>
+						<altitude>0</altitude>
+						<heading>0.02161999802767488</heading>
+						<tilt>0</tilt>
+						<range>181752</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>122.0411833,11.7609167,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Polillo, Malinao 1</name>
+					<description>Polillo; Quezon Province; Municipality of Burdeos; Barangay Aluyon; Sitio Malinao 1</description>
+					<LookAt>
+						<longitude>121.9437833</longitude>
+						<latitude>14.8671</latitude>
+						<altitude>0</altitude>
+						<heading>0.021620019451457</heading>
+						<tilt>0</tilt>
+						<range>181758</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin000</styleUrl>
+					<Point>
+						<coordinates>121.9437833,14.8671,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sibuyan, Mount Guiting 3</name>
+					<description>Sibuyan; Romblon Province; Municipaity of Magdiwang; Barangay Talaba, Mount Guiting-Guiting Natural Park 3</description>
+					<LookAt>
+						<longitude>122.66435</longitude>
+						<latitude>12.461217</latitude>
+						<altitude>0</altitude>
+						<heading>0.02162001626951379</heading>
+						<tilt>0</tilt>
+						<range>181888.7925172672</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>122.66435,12.4612167,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Tablas, Sitio Piqueno 5</name>
+					<description>Tablas; Romblon Province; Municipality of Calatrava; Barangay Balogo: Sitio Piqueno 5</description>
+					<LookAt>
+						<longitude>122.04552</longitude>
+						<latitude>12.60523</latitude>
+						<altitude>0</altitude>
+						<heading>0.02161996200406912</heading>
+						<tilt>0</tilt>
+						<range>181892</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>122.04552,12.60523,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus pulchellus</name>
+				<Placemark>
+					<name>Cameron Highlands, Malaysia 10</name>
+					<open>1</open>
+					<description>Cameron Highlands, Malaysia 10</description>
+					<LookAt>
+						<longitude>101.4793500056768</longitude>
+						<latitude>4.512017002877085</latitude>
+						<altitude>0</altitude>
+						<heading>4.465924171963423e-10</heading>
+						<tilt>0</tilt>
+						<range>23285.4592580065</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>101.4793500056768,4.512017002877085,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Langkawi, Gunung Raya 10</name>
+					<description>Malaysia, Kedah, Pulau Langkawi, at bridge on rd. to Gunung Raya 10</description>
+					<LookAt>
+						<longitude>99.81048459213322</longitude>
+						<latitude>6.384866102001349</latitude>
+						<altitude>0</altitude>
+						<heading>2.459273631419014</heading>
+						<tilt>0</tilt>
+						<range>5948.132347089969</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>99.81048459213322,6.38486610200135,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Langkawi, Lubuk Semilang 2</name>
+					<description>Malaysia, Kedah, Pulau Langkawi, Lubuk Semilang 2</description>
+					<LookAt>
+						<longitude>99.79202471602163</longitude>
+						<latitude>6.364006170806519</latitude>
+						<altitude>0</altitude>
+						<heading>0.0001033032811515728</heading>
+						<tilt>0</tilt>
+						<range>741.4644822060224</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>99.79202471602163,6.36400617080652,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Langkawi 8</name>
+					<description>Pulau Langkawi, Malaysia 8</description>
+					<LookAt>
+						<longitude>99.77837584800815</longitude>
+						<latitude>6.369872092974586</latitude>
+						<altitude>0</altitude>
+						<heading>0.0001032602300833799</heading>
+						<tilt>0</tilt>
+						<range>9633.894524390527</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>99.77837584800814,6.369872092974586,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Palau Pinang, Air Terjun Titi Kerawang 3</name>
+					<description>Malaysia, Pulau Pinang, Air Terjun Titi Kerawang 3</description>
+					<LookAt>
+						<longitude>100.2235000007547</longitude>
+						<latitude>5.403832999126355</latitude>
+						<altitude>0</altitude>
+						<heading>7.108798133138828e-11</heading>
+						<tilt>0</tilt>
+						<range>3311.786711436776</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>100.2235000007547,5.403832999126355,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Pinang, Botanical Garden 1</name>
+					<description>Malaysia, Penang, Pulau Pinang, Botanical Gardens 1</description>
+					<LookAt>
+						<longitude>100.2887589967902</longitude>
+						<latitude>5.439910000746324</latitude>
+						<altitude>0</altitude>
+						<heading>-3.042874432842988e-10</heading>
+						<tilt>0</tilt>
+						<range>3290.744658504991</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>100.2887589967902,5.439910000746323,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Malaysia, Perak, Bukit Larut 12</name>
+					<description>Malaysia, Perak, Bukit Larut 12</description>
+					<LookAt>
+						<longitude>100.7931209999352</longitude>
+						<latitude>4.861857998305452</latitude>
+						<altitude>0</altitude>
+						<heading>-5.483673840178286e-12</heading>
+						<tilt>0</tilt>
+						<range>6354.235559736364</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>100.7931209999352,4.861857998305452,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus quadrivirgatus</name>
+				<Placemark>
+					<name>Cameron Highlands, Malaysia 6</name>
+					<open>1</open>
+					<description>Cameron Highlands, Malaysia 6</description>
+					<LookAt>
+						<longitude>101.4793500056768</longitude>
+						<latitude>4.512017002877085</latitude>
+						<altitude>0</altitude>
+						<heading>4.465924171963423e-10</heading>
+						<tilt>0</tilt>
+						<range>23285.4592580065</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>101.4793500056768,4.512017002877085,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Malaysia, Pahang, Fraser&apos;s Hill 9</name>
+					<description>Malaysia, Pahang, Fraser&apos;s Hill 9</description>
+					<LookAt>
+						<longitude>101.741797241658</longitude>
+						<latitude>3.715179261041369</latitude>
+						<altitude>0</altitude>
+						<heading>-3.655278119739986e-06</heading>
+						<tilt>0</tilt>
+						<range>39425.7415386073</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>101.741797241658,3.715179261041369,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus semenanjungensis</name>
+				<Placemark>
+					<name>Malaysia, Johor, Gunung Panti 11</name>
+					<description>Malaysia, Johor, Gunung Panti 11</description>
+					<LookAt>
+						<longitude>103.861822491471</longitude>
+						<latitude>1.833412</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0001767602475468832</heading>
+						<tilt>0</tilt>
+						<range>18577.74527659712</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>103.861822,1.833412,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus seribuatensis</name>
+				<Placemark>
+					<name>Malaysia, Johor, Pulau Mentigi 6</name>
+					<description>Malaysia, Johor, Pulau Mentigi 6</description>
+					<LookAt>
+						<longitude>104.1161894501288</longitude>
+						<latitude>2.272206755282342</latitude>
+						<altitude>0</altitude>
+						<heading>0.06897114297860547</heading>
+						<tilt>0</tilt>
+						<range>3576.898592313484</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<coordinates>104.1161894501288,2.272206755282342,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Malaysia, Johor, Pulau Nangka Kecil 2</name>
+					<description>Malaysia, Johor, Pulau Nangka Kecil 2</description>
+					<LookAt>
+						<longitude>104.1218992290975</longitude>
+						<latitude>2.271396899645677</latitude>
+						<altitude>0</altitude>
+						<heading>0.06897283253930692</heading>
+						<tilt>0</tilt>
+						<range>319.2765578541721</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<coordinates>104.1218992290975,2.271396899645677,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus sp.</name>
+				<Placemark>
+					<name>Hon Tre Island, Vietnam 5</name>
+					<open>1</open>
+					<description>Hon Tre Island, Kien Hai District, Kien Giang Biosphere Reserve, Kien Giang province, southwestern Vietnam (09°57.922’N 104°50.678’E), 100 m elevation 5</description>
+					<LookAt>
+						<longitude>104.844633</longitude>
+						<latitude>9.965367000000001</latitude>
+						<altitude>0</altitude>
+						<heading>3.862901420674522e-08</heading>
+						<tilt>0</tilt>
+						<range>509237</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>104.844633,9.965367000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Vietnam, Hon Son 11</name>
+					<open>1</open>
+					<description>Vietnam, Hon Son 11</description>
+					<LookAt>
+						<longitude>104.4992469898295</longitude>
+						<latitude>10.10720047107076</latitude>
+						<altitude>0</altitude>
+						<heading>-0.04976034691565821</heading>
+						<tilt>0</tilt>
+						<range>4464.018226985464</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>104.4992469898295,10.10720047107077,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Cambodia, Kampot Prov., Phnom Laang 6</name>
+					<description>Cambodia, Kampot Prov., Phnom Laang 6</description>
+					<LookAt>
+						<longitude>104.0816331124087</longitude>
+						<latitude>10.75039787926745</latitude>
+						<altitude>0</altitude>
+						<heading>-0.05078817607080706</heading>
+						<tilt>0</tilt>
+						<range>44773.7243302889</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>104.0816331124087,10.75039787926745,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Vietnam, Hon Dat 2</name>
+					<description>Vietnam, Hon Dat 2</description>
+					<LookAt>
+						<longitude>104.9213639985063</longitude>
+						<latitude>10.19845199966792</latitude>
+						<altitude>0</altitude>
+						<heading>-2.644603387783451e-10</heading>
+						<tilt>0</tilt>
+						<range>10865.14035779133</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>104.9213639985063,10.198452,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus sumuroi</name>
+				<Placemark>
+					<name>Samar, San Rafael 2</name>
+					<description>Samar; Eastern Samar Province; Municipality of Taft; Barangay San Rafael 2</description>
+					<LookAt>
+						<longitude>125.27905</longitude>
+						<latitude>11.8312</latitude>
+						<altitude>0</altitude>
+						<heading>-2.644603387783451e-10</heading>
+						<tilt>0</tilt>
+						<range>10865</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>125.27905,11.8312,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Samar, San Rafael, Taft Forest 1</name>
+					<description>Samar; Eastern Samar Province; Municipality of Taft; Barangay San Rafael, Taft Forest 1</description>
+					<LookAt>
+						<longitude>125.2790499976426</longitude>
+						<latitude>11.829</latitude>
+						<altitude>0</altitude>
+						<heading>-7.477937285162837e-10</heading>
+						<tilt>0</tilt>
+						<range>10865.00868687681</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>125.27319,11.829,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Samar, San Rafael 5</name>
+					<description>Samar; Eastern Samar Province; Municipality of Taft; Barangay San Rafael 5</description>
+					<LookAt>
+						<longitude>125.29276</longitude>
+						<latitude>11.80255</latitude>
+						<altitude>0</altitude>
+						<heading>-2.899441355942364e-10</heading>
+						<tilt>0</tilt>
+						<range>10865</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>125.29276,11.80255,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus sworderi</name>
+				<Placemark>
+					<name>West Malaysia, Johor, Kota Tinggi Waterfall 5</name>
+					<open>1</open>
+					<description>West Malaysia, Johor, Kota Tinggi Waterfall 5</description>
+					<LookAt>
+						<longitude>103.861822</longitude>
+						<latitude>1.833412</latitude>
+						<altitude>0</altitude>
+						<heading>-1.476346343613885e-09</heading>
+						<tilt>0</tilt>
+						<range>173101.3417318531</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>103.861822,1.833412,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus tautbatorum</name>
+				<Placemark>
+					<name>Palawan, Mainit 8</name>
+					<description>Palawan; Palawan Province; Municipality of Brooke&apos;s Point; Barangay Mainit, Mainit Falls 8</description>
+					<LookAt>
+						<longitude>118.6416167</longitude>
+						<latitude>9.836733300000001</latitude>
+						<altitude>0</altitude>
+						<heading>-1.11338816725665e-08</heading>
+						<tilt>0</tilt>
+						<range>10135</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>118.6416167,9.836733300000001,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus tiomanensis</name>
+				<Placemark>
+					<name>Pulau Tioman 20</name>
+					<description>Malaysia, Pulau Tioman 20</description>
+					<LookAt>
+						<longitude>104.1775890789157</longitude>
+						<latitude>2.809778568823789</latitude>
+						<altitude>0</altitude>
+						<heading>4.759163698153743e-07</heading>
+						<tilt>0</tilt>
+						<range>1967.698216348876</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>104.177589,2.809779,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Cyrtodactylus redimiculus</name>
+				<Placemark>
+					<name>Palwan, Mt. Mantalingahan 5</name>
+					<description>Palawan; Palawan Province; Municipality of Brooke&apos;s Point; Barangay Samarinana (Border with Barangay Saulog), Mt. Mantalingahan Range, Area &quot;Pitang&quot; 5</description>
+					<LookAt>
+						<longitude>117.6896</longitude>
+						<latitude>8.750299999999999</latitude>
+						<altitude>0</altitude>
+						<heading>-0.1255681003665985</heading>
+						<tilt>0</tilt>
+						<range>1678829.628462433</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<coordinates>117.6896,8.750299999999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Palawan, Mt. Mantalingahan 1</name>
+					<description>Palawan Province; Municipality of Brooke&apos;s Point; Boundary of Barangay Samarinana and Saubg: Mt. Mantalingahan: Area &quot;Pitang&quot; 1</description>
+					<LookAt>
+						<longitude>117.6867</longitude>
+						<latitude>8.7637167</latitude>
+						<altitude>0</altitude>
+						<heading>-0.1255677486597918</heading>
+						<tilt>0</tilt>
+						<range>1678979.508960882</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<coordinates>117.6867,8.7637167,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Cyrtopodion</name>
+			<Folder>
+				<name>Cyrtopodion elongatus</name>
+				<Placemark>
+					<name>Mongolia, Shinejinst 1</name>
+					<description>Mongolia; Bayankhongor; ; Suuj Bulag, Tsagaan Bogd UUL, Shinejinst 1</description>
+					<LookAt>
+						<longitude>98.81833330000001</longitude>
+						<latitude>42.8822222</latitude>
+						<altitude>0</altitude>
+						<heading>-6.33699236321966e-05</heading>
+						<tilt>0</tilt>
+						<range>320506</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>98.81833330000002,42.8822222,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mongolia, Gurvantes Soum 4</name>
+					<description>Mongolia; Omnogovi; ; Gurvantes Soum 4</description>
+					<LookAt>
+						<longitude>100.066</longitude>
+						<latitude>43.584</latitude>
+						<altitude>0</altitude>
+						<heading>-6.35430854402757e-05</heading>
+						<tilt>0</tilt>
+						<range>320512</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>100.066,43.584,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Gehyra</name>
+			<Folder>
+				<name>Gehyra mutilata</name>
+				<open>1</open>
+				<Placemark>
+					<name>Luzon, Aurora Province, Aurora State College 6</name>
+					<description>Luzon; Aurora Province; Municipality of Baler; Barangay Zabali, Aurora State College of Technology (ASCOT) 6</description>
+					<LookAt>
+						<longitude>121.576</longitude>
+						<latitude>15.742</latitude>
+						<altitude>0</altitude>
+						<heading>4.950996822249667</heading>
+						<tilt>0</tilt>
+						<range>4445047.800499137</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>121.576,15.742,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Aurora Province, Aurora Memorial National Park 2</name>
+					<description>Luzon; Aurora Province; Municipality of Maria Aurora; Barangay Villa Aurora, Sitio Dimani, Aurora Memorial National Park (town proper) 2</description>
+					<LookAt>
+						<longitude>121.336</longitude>
+						<latitude>15.68</latitude>
+						<altitude>0</altitude>
+						<heading>4.950996957027623</heading>
+						<tilt>0</tilt>
+						<range>4459755.818007248</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>121.336,15.68,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Gekko</name>
+			<open>1</open>
+			<Folder>
+				<name>Gekko athymus</name>
+				<Placemark>
+					<name>Palawan, Mainit Falls 1</name>
+					<description>Palawan; Palawan Province; Municipality of Brooke&apos;s Point; Barangay Mainit, Mainit Falls 1</description>
+					<LookAt>
+						<longitude>118.6416167</longitude>
+						<latitude>9.836733300000001</latitude>
+						<altitude>0</altitude>
+						<heading>4.950995971323317</heading>
+						<tilt>0</tilt>
+						<range>96524</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>118.6416167,9.836733300000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Palawan, Mt. Mantalinghan 4</name>
+					<description>Palawan; Palawan Province; Municipality of Brooke&apos;s Point; Barangay Samarinana (Border with Barangay Saulog), Mt. Mantalingahan Range, Area &quot;Pitang&quot; 4</description>
+					<LookAt>
+						<longitude>117.6896</longitude>
+						<latitude>8.750299999999999</latitude>
+						<altitude>0</altitude>
+						<heading>4.950995990439735</heading>
+						<tilt>0</tilt>
+						<range>96543.25618063218</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>117.6896,8.750299999999999,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko carusadensis</name>
+				<Placemark>
+					<name>Luzon, Laguna Province, UPLB Forestry Campus 5</name>
+					<description>Luzon; Laguna Province; Municipality of Los Banos; Barangay Batong Malake, UPLB Forrestry Campus 5</description>
+					<LookAt>
+						<longitude>121.2322</longitude>
+						<latitude>14.1534333</latitude>
+						<altitude>0</altitude>
+						<heading>4.950996800798754</heading>
+						<tilt>0</tilt>
+						<range>501203</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>121.2322,14.1534333,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko chinensis</name>
+				<Placemark>
+					<name>China, Guangxi, Nanning City, People&apos;s Park 6</name>
+					<description>Guangxi; ; Nanning City, People&apos;s Park 6</description>
+					<LookAt>
+						<longitude>108.3314198716087</longitude>
+						<latitude>22.82777134573632</latitude>
+						<altitude>0</altitude>
+						<heading>3.001254560982509e-06</heading>
+						<tilt>0</tilt>
+						<range>9062.287167918297</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>108.3314198716087,22.82777134573632,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>China, Guangxi, Shiwan Dashang Nature Reserve 1</name>
+					<description>China; Guangxi; ; Shiwan Dashang Nature Reserve (Near town of Fulong) 1</description>
+					<LookAt>
+						<longitude>107.8891333</longitude>
+						<latitude>21.8462333</latitude>
+						<altitude>0</altitude>
+						<heading>0.0001107441945628135</heading>
+						<tilt>0</tilt>
+						<range>803696.3324901501</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>107.8891333,21.8462333,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko crombota</name>
+				<Placemark>
+					<name>Babuyan Claro, 16</name>
+					<open>1</open>
+					<description>Cagayan Province; Municipality of Calayan; Barangay Babuyan Claro, Local Name &quot;Asked&quot; 16</description>
+					<LookAt>
+						<longitude>121.9400005532362</longitude>
+						<latitude>19.52333321198062</latitude>
+						<altitude>0</altitude>
+						<heading>1.848864117374298e-07</heading>
+						<tilt>0</tilt>
+						<range>173033.1385740622</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>121.9400005532362,19.52333321198063,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko ernstkelleri</name>
+				<Placemark>
+					<name>Panay, Duyong 10</name>
+					<description>Panay; Antique Province; Municipality of Pandan; Barangay Duyong 10</description>
+					<LookAt>
+						<longitude>122.0411833</longitude>
+						<latitude>11.7609167</latitude>
+						<altitude>0</altitude>
+						<heading>-1.240274791087446e-08</heading>
+						<tilt>0</tilt>
+						<range>172657</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<coordinates>122.0411833,11.7609167,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko gigante</name>
+				<Placemark>
+					<name>North Gigante 5</name>
+					<description>North Gigante 5</description>
+					<LookAt>
+						<longitude>123.3514199999667</longitude>
+						<latitude>11.62533000157525</latitude>
+						<altitude>0</altitude>
+						<heading>-6.714150932569484e-12</heading>
+						<tilt>0</tilt>
+						<range>2304.367653749227</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>123.35142,11.62533,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>South Gigante 2</name>
+					<description>South Gigante; Iloilo Province; Muncipality of Carles; Sitio Antonia, Barangay Gabi 2</description>
+					<LookAt>
+						<longitude>123.3375197382622</longitude>
+						<latitude>11.58948438313589</latitude>
+						<altitude>0</altitude>
+						<heading>-0.003219130408746967</heading>
+						<tilt>0</tilt>
+						<range>7627.767092297241</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>123.33752,11.589484,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko mindorensis</name>
+				<open>1</open>
+				<Placemark>
+					<name>Caluya 5</name>
+					<description>Caluya Island; Antique Province; Municipality of Caluya; Barangay Poblacion 5</description>
+					<LookAt>
+						<longitude>121.5534395644966</longitude>
+						<latitude>11.92944881597622</latitude>
+						<altitude>0</altitude>
+						<heading>8.534628505585389e-06</heading>
+						<tilt>0</tilt>
+						<range>42599.50783095966</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.5534395644966,11.92944881597622,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Camiguin Sur 4</name>
+					<description>Camiguin Sur; Camiguin Province; Municipality of Guinsiliban; Barangay Cabuan 4</description>
+					<LookAt>
+						<longitude>124.717409940634</longitude>
+						<latitude>9.180029767477956</latitude>
+						<altitude>0</altitude>
+						<heading>-0.002205368457286196</heading>
+						<tilt>0</tilt>
+						<range>12175.33738530634</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>124.717409940634,9.180029767477958,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Lubang, Dangay 35</name>
+					<description>Occidental Mindoro Province; Municipality of Lubang; Barangay Vigo, Sitio Dangay 35</description>
+					<LookAt>
+						<longitude>120.16393</longitude>
+						<latitude>13.79995</latitude>
+						<altitude>0</altitude>
+						<heading>-0.002206098262246433</heading>
+						<tilt>0</tilt>
+						<range>23015.43065166513</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>120.16393,13.79995,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Laguna Province, UPLB Forestry Campus 13</name>
+					<description>Luzon; Laguna Province; Municipality of Los Banos; UPLB Forrestry Campus, Flat Rocks Site (coordinates at Los Banos) 13</description>
+					<LookAt>
+						<longitude>121.243</longitude>
+						<latitude>14.166</latitude>
+						<altitude>0</altitude>
+						<heading>-0.002206103614016314</heading>
+						<tilt>0</tilt>
+						<range>23010.94380700523</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.243,14.166,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Luzon, Quezon Province, Atimonan 9</name>
+					<description>Luzon; Quezon Province; Municipality of Atimonan; Exact locality unknown (coordinates at center of municipality) 9</description>
+					<LookAt>
+						<longitude>121.905</longitude>
+						<latitude>13.99583</latitude>
+						<altitude>0</altitude>
+						<heading>-0.00220610452363905</heading>
+						<tilt>0</tilt>
+						<range>23011</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.905,13.99583,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Maestre de Campo 4</name>
+					<description>Maestre de Campo; Romblon Province; Municipality of Concepcion; Barangay San Vicente 4</description>
+					<LookAt>
+						<longitude>121.7248833</longitude>
+						<latitude>12.9155833</latitude>
+						<altitude>0</altitude>
+						<heading>-0.002206104041457419</heading>
+						<tilt>0</tilt>
+						<range>23008</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.7248833,12.9155833,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Masbate, Mandaon 4</name>
+					<description>Masbate; Masbate Province; Municipality of Mandaon; Barangay Poblacion 4</description>
+					<LookAt>
+						<longitude>123.2833330025656</longitude>
+						<latitude>12.23333299835759</latitude>
+						<altitude>0</altitude>
+						<heading>5.436434651771848e-10</heading>
+						<tilt>0</tilt>
+						<range>43452.11817585261</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>123.2833330025656,12.23333299835759,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mindoro, Ulasan 3</name>
+					<description>Mindoro; Occidental Mindoro Province; Municipality of Paluan; Barangay Harrison, Sitio Ulasan 3</description>
+					<LookAt>
+						<longitude>120.4241667</longitude>
+						<latitude>13.4491667</latitude>
+						<altitude>0</altitude>
+						<heading>5.436434651771848e-10</heading>
+						<tilt>0</tilt>
+						<range>43452.11817585261</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>120.4241667,13.4491667,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mindoro, Ulasan 1</name>
+					<description>Mindoro; Occidental Mindoro Province; Municipality of Paluan; Barangay Harrison, Sitio Ulasan 1</description>
+					<LookAt>
+						<longitude>120.4259</longitude>
+						<latitude>13.4466</latitude>
+						<altitude>0</altitude>
+						<heading>-1.712613480374767e-08</heading>
+						<tilt>0</tilt>
+						<range>43354.71145059416</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>120.4259,13.4466,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mindoro, Ulasan 5</name>
+					<description>Mindoro; Occidental Mindoro Province; Municipality of Paluan; Barangay Harrison, Sitio Ulasan, Local Name &quot; Matingaram&quot; 5</description>
+					<LookAt>
+						<longitude>120.4122222</longitude>
+						<latitude>13.4630556</latitude>
+						<altitude>0</altitude>
+						<heading>-1.113667961645902e-08</heading>
+						<tilt>0</tilt>
+						<range>43173.69436727425</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>120.4122222,13.4630556,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mindoro; Mt. Siburan 10</name>
+					<description>Mindoro; Occidental Mindoro Province; Municipality of Sablayan; Barangay Batong Buhay, Batulai, Mt. Siburan 10</description>
+					<LookAt>
+						<longitude>120.15965</longitude>
+						<latitude>13.7955</latitude>
+						<altitude>0</altitude>
+						<heading>2.379375342618868e-09</heading>
+						<tilt>0</tilt>
+						<range>43078.80814934467</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>120.15965,13.7955,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mindoro, Formon 8</name>
+					<description>Mindoro; Oriental Mindoro Province; Municipality of Bongabong; Barangay Formon, Sitio Balogbog, Cueba Simbahan 8</description>
+					<LookAt>
+						<longitude>121.3824167</longitude>
+						<latitude>12.72105</latitude>
+						<altitude>0</altitude>
+						<heading>3.635649914031415e-09</heading>
+						<tilt>0</tilt>
+						<range>43078.91357710704</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.3824167,12.72105,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mindoro, Formon 1</name>
+					<description>Mindoro; Oriental Mindoro Province; Municipality of Bongabong; Barangay Formon 1</description>
+					<LookAt>
+						<longitude>121.37785</longitude>
+						<latitude>12.720883</latitude>
+						<altitude>0</altitude>
+						<heading>6.120583890834706e-09</heading>
+						<tilt>0</tilt>
+						<range>43079.03443090012</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.37785,12.7208833,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Negros, Camalanda-an 3</name>
+					<description>Negros; Negros Occidental Province; Municipality of Cauayan; Barangay Camalanda-an 3</description>
+					<LookAt>
+						<longitude>122.505367</longitude>
+						<latitude>9.837866699999999</latitude>
+						<altitude>0</altitude>
+						<heading>1.718935627942847e-08</heading>
+						<tilt>0</tilt>
+						<range>43079.06340414019</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>122.5053667,9.837866699999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Negros, Camindangan 3</name>
+					<description>Negros; Occidental; Sipalay City; Camindangan; 9deg47.182N, 122deg30.640E</description>
+					<LookAt>
+						<longitude>122.510667</longitude>
+						<latitude>9.786367</latitude>
+						<altitude>0</altitude>
+						<heading>2.288268274254479e-08</heading>
+						<tilt>0</tilt>
+						<range>43079.25019486</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>122.510667,9.786367,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Panay, Aningalan 8</name>
+					<description>Panay; Antique Province; Municipality of San Remigio; Barangay Aningalan 8</description>
+					<LookAt>
+						<longitude>122.1013</longitude>
+						<latitude>10.8088</latitude>
+						<altitude>0</altitude>
+						<heading>-1.819468327355738e-06</heading>
+						<tilt>0</tilt>
+						<range>244665.0711069738</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>122.1013,10.8088,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Panay, Pilar 4</name>
+					<description>Panay; Capiz Province; Municipality of Pilar; Barangay Natividad 4</description>
+					<LookAt>
+						<longitude>123.0000000037972</longitude>
+						<latitude>11.48300000625116</latitude>
+						<altitude>0</altitude>
+						<heading>7.559343582234896e-10</heading>
+						<tilt>0</tilt>
+						<range>21788.79991906054</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>123.0000000037972,11.48300000625116,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Semirara, Caluya 6</name>
+					<description>Semirara; Antique Province; Municipality of Caluya; Barangay Poblacion 6</description>
+					<LookAt>
+						<longitude>121.3884669507888</longitude>
+						<latitude>12.03189712311456</latitude>
+						<altitude>0</altitude>
+						<heading>-1.025838693422362e-08</heading>
+						<tilt>0</tilt>
+						<range>86788.29989992869</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.3884669507888,12.03189712311456,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko monarchus</name>
+				<Placemark>
+					<name>Pulau Tioman 3</name>
+					<open>1</open>
+					<description>Malaysia, Pulau Tioman 3</description>
+					<LookAt>
+						<longitude>104.1775890789157</longitude>
+						<latitude>2.809778568823789</latitude>
+						<altitude>0</altitude>
+						<heading>4.759163698153743e-07</heading>
+						<tilt>0</tilt>
+						<range>1967.698216348876</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>104.177589,2.809779,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Aur 5</name>
+					<open>1</open>
+					<description>Pulau Aur 5</description>
+					<LookAt>
+						<longitude>104.5196510391832</longitude>
+						<latitude>2.44861901747043</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0002581249690888306</heading>
+						<tilt>0</tilt>
+						<range>5380.977150307056</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>104.5196510391832,2.44861901747043,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Palawan, Irawan Watershed 1</name>
+					<description>Palawan; Palawan Province; Municipality of Puerto Princessa; Barangay Irawan: Irawan Watershed 1</description>
+					<LookAt>
+						<longitude>118.64125</longitude>
+						<latitude>9.8368</latitude>
+						<altitude>0</altitude>
+						<heading>-4.13583791828189</heading>
+						<tilt>0</tilt>
+						<range>18936.89514846046</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>118.64125,9.8368,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Palawan, Irawan Watershed 4</name>
+					<description>Palawan; Palawan Province; Municipality of Puerto Princessa; Barangay Irawan: Irawan Watershed 4</description>
+					<LookAt>
+						<longitude>118.6425333</longitude>
+						<latitude>9.8371833</latitude>
+						<altitude>0</altitude>
+						<heading>-4.135837918772052</heading>
+						<tilt>0</tilt>
+						<range>18913</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>118.6425333,9.8371833,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Palawan, Irawan Watershed 1</name>
+					<description>Palawan; Palawan Province; Municipality of Puerto Princessa; Barangay Irawan: Irawan Watershed 1</description>
+					<LookAt>
+						<longitude>118.6524667</longitude>
+						<latitude>9.835733299999999</latitude>
+						<altitude>0</altitude>
+						<heading>-4.135837924277905</heading>
+						<tilt>0</tilt>
+						<range>18896.88256367965</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>118.6524667,9.835733299999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Mertang Timur 8</name>
+					<description>Malaysia, Johor, Pulau Mertang Timur 8</description>
+					<LookAt>
+						<longitude>103.8875776097678</longitude>
+						<latitude>2.645041467563739</latitude>
+						<altitude>0</altitude>
+						<heading>0.003267998413499624</heading>
+						<tilt>0</tilt>
+						<range>825.5240686471259</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>103.8875776097678,2.645041467563738,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko palmatus</name>
+				<Placemark>
+					<name>Vietnam, Tom Dao 3</name>
+					<description>Vietnam, Tom Dao 3</description>
+					<LookAt>
+						<longitude>105.6154890865869</longitude>
+						<latitude>21.50713107483257</latitude>
+						<altitude>0</altitude>
+						<heading>2.598056697572117e-06</heading>
+						<tilt>0</tilt>
+						<range>369700.8681085946</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>105.6154890865869,21.50713107483257,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko porosus</name>
+				<Placemark>
+					<name>Sabtang 6</name>
+					<description>Batanes Province; Municipality of Sabtang; Barangay Chavayan 6</description>
+					<LookAt>
+						<longitude>121.8676459844573</longitude>
+						<latitude>20.30083501325027</latitude>
+						<altitude>0</altitude>
+						<heading>-5.392490518015409e-09</heading>
+						<tilt>0</tilt>
+						<range>21716.53778644466</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.8676459844573,20.30083501325027,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Batan 7</name>
+					<description>Batan; Batanes Province; Municipality of Ivana; Barangay Salagao, Sitio Imnadyed 7</description>
+					<LookAt>
+						<longitude>121.93287953</longitude>
+						<latitude>20.37268378910565</latitude>
+						<altitude>0</altitude>
+						<heading>0.01580752581445245</heading>
+						<tilt>0</tilt>
+						<range>5474.185734633104</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.93287953,20.37268378910565,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko romblon</name>
+				<Placemark>
+					<name>Romblon, Li-o 7</name>
+					<description>Romblon; Romblon Province; Municipality of Romblon; Barangay Li-o 7</description>
+					<LookAt>
+						<longitude>122.294</longitude>
+						<latitude>12.5741</latitude>
+						<altitude>0</altitude>
+						<heading>-0.05869101965519916</heading>
+						<tilt>0</tilt>
+						<range>434388</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>122.294,12.5741,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Romblon, Lunas 2</name>
+					<description>Romblon; Romblon Province; Municipality of Romblon; Barangay Lunas, Watershed 2</description>
+					<LookAt>
+						<longitude>122.282783</longitude>
+						<latitude>12.5157667</latitude>
+						<altitude>0</altitude>
+						<heading>-0.05869101514270771</heading>
+						<tilt>0</tilt>
+						<range>108977.4598202857</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>122.2827833,12.5157667,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Tablas 3</name>
+					<description>Tablas; Romblon Province; Municipality of Calatrava; Barangay Balogo: Sitio Piqueno 3</description>
+					<LookAt>
+						<longitude>122.04552</longitude>
+						<latitude>12.60523</latitude>
+						<altitude>0</altitude>
+						<heading>-0.05869100565537606</heading>
+						<tilt>0</tilt>
+						<range>108979.8798590598</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>122.04552,12.60523,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko rossi</name>
+				<Placemark>
+					<name>Calayan, Macarra 3</name>
+					<description>Calayan; Cagayan Province; Municipality of Calayan; Barangay Magsidel, Local Name &quot;Macarra&quot; 3</description>
+					<LookAt>
+						<longitude>121.409</longitude>
+						<latitude>19.294</latitude>
+						<altitude>0</altitude>
+						<heading>-0.05869103336462871</heading>
+						<tilt>0</tilt>
+						<range>108981</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.409,19.294,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Calayan, Longog 14</name>
+					<description>Calayan; Cagayan Valley Province; ; Barangay Magsidel, Sitio Longog 14</description>
+					<LookAt>
+						<longitude>121.439</longitude>
+						<latitude>19.331</latitude>
+						<altitude>0</altitude>
+						<heading>-0.05869100599245301</heading>
+						<tilt>0</tilt>
+						<range>109002.5553129833</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.439,19.331,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko smithii</name>
+				<open>1</open>
+				<Placemark>
+					<name>Pulau Tioman 4</name>
+					<open>1</open>
+					<description>Malaysia, Pulau Tioman 4</description>
+					<LookAt>
+						<longitude>104.1775890789157</longitude>
+						<latitude>2.809778568823789</latitude>
+						<altitude>0</altitude>
+						<heading>4.759163698153743e-07</heading>
+						<tilt>0</tilt>
+						<range>1967.698216348876</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>104.177589,2.809779,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Perhentian Besar 8</name>
+					<description>Malaysia, Terengganu, Pulau Perhentian Besar 8</description>
+					<LookAt>
+						<longitude>102.7568143838341</longitude>
+						<latitude>5.901893859963372</latitude>
+						<altitude>0</altitude>
+						<heading>-3.374036567075686e-06</heading>
+						<tilt>0</tilt>
+						<range>931.2368118725697</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>102.7568143838341,5.901893859963371,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Tulai 4</name>
+					<description>Malaysia, Johor, Pulau Tulai 4</description>
+					<LookAt>
+						<longitude>104.1073929982614</longitude>
+						<latitude>2.910951001452371</latitude>
+						<altitude>0</altitude>
+						<heading>-8.828325264738561e-11</heading>
+						<tilt>0</tilt>
+						<range>5432.298579195275</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>104.1073929982614,2.910951001452371,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Malaysia, Pahang, Tasik Chini 6</name>
+					<description>West Malaysia, Pahang, Tasik Chini 6</description>
+					<LookAt>
+						<longitude>102.9097379984538</longitude>
+						<latitude>3.432407001858178</latitude>
+						<altitude>0</altitude>
+						<heading>-9.257083914266602e-11</heading>
+						<tilt>0</tilt>
+						<range>5581.725265960214</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>102.9097379984538,3.432407001858178,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko sp.</name>
+				<Placemark>
+					<name>Vietnam, Ninh Thaun, Can Na 19</name>
+					<open>1</open>
+					<description>Vietnam, Ninh Thaun, Can Na 19</description>
+					<LookAt>
+						<longitude>108.8375745934458</longitude>
+						<latitude>11.37749519788788</latitude>
+						<altitude>0</altitude>
+						<heading>1.637196031401623e-06</heading>
+						<tilt>0</tilt>
+						<range>33326.62414471517</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>108.8375745934458,11.37749519788788,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko sp. a</name>
+				<Placemark>
+					<name>Dalupiri, Visita 18</name>
+					<description>Dalupiri; Cagayan Province; ; Municipality of Calayan, Visita? 18</description>
+					<LookAt>
+						<longitude>121.223</longitude>
+						<latitude>19.102</latitude>
+						<altitude>0</altitude>
+						<heading>-2.956533676137453e-07</heading>
+						<tilt>0</tilt>
+						<range>329582.5227088163</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.223,19.102,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Dalupiri, Manolong Creek 5</name>
+					<description>Dalupiri; Cagayan Province; Municipality of Calayan; Manolong Creek 5</description>
+					<LookAt>
+						<longitude>121.241</longitude>
+						<latitude>19.085</latitude>
+						<altitude>0</altitude>
+						<heading>-2.341320525875848e-06</heading>
+						<tilt>0</tilt>
+						<range>329706.0042741029</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.241,19.085,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Dalupiri, Nipa Creek 13</name>
+					<description>Dalupiri; Cagayan Province; Municipality of Calayan; Nipa Creek 13</description>
+					<LookAt>
+						<longitude>121.223</longitude>
+						<latitude>19.102</latitude>
+						<altitude>0</altitude>
+						<heading>-2.381574723215815e-06</heading>
+						<tilt>0</tilt>
+						<range>329774.9793794648</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.223,19.102,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko sp. aa</name>
+				<Placemark>
+					<name>Vietnam, Ta Ku 7</name>
+					<description>Vietnam, Ta Ku 7</description>
+					<LookAt>
+						<longitude>107.8888320026823</longitude>
+						<latitude>10.81467500172218</latitude>
+						<altitude>0</altitude>
+						<heading>5.033028998748423e-10</heading>
+						<tilt>0</tilt>
+						<range>2773.192545035164</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>107.8888320026823,10.81467500172218,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko sp. b</name>
+				<Placemark>
+					<name>Camiguin Norte, Balatabat 22</name>
+					<description>Camiguin Norte; Cagayan Province; Municipality of Calayan; Barangay Balatabat, Local Name &quot;Limandok&quot; 22</description>
+					<LookAt>
+						<longitude>121.89881</longitude>
+						<latitude>18.92927</latitude>
+						<altitude>0</altitude>
+						<heading>5.033028998748423e-10</heading>
+						<tilt>0</tilt>
+						<range>2773.192545035164</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.89881,18.92927,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gekko sp. bb</name>
+				<Placemark>
+					<name>Vietnam, Ca Na 20</name>
+					<description>Vietnam, Ca Na 20</description>
+					<LookAt>
+						<longitude>108.8375745934458</longitude>
+						<latitude>11.37749519788788</latitude>
+						<altitude>0</altitude>
+						<heading>1.637196031401623e-06</heading>
+						<tilt>0</tilt>
+						<range>33326.62414471517</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>108.8375745934458,11.37749519788788,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Hemidactylus</name>
+			<Folder>
+				<name>Hemidactylus frenatus</name>
+				<open>1</open>
+				<Placemark>
+					<name>Luzon, Nueva Vizcaya Province, Maddiangat 7</name>
+					<description>Luzon; Nueva Vizcaya Province; Municipality of Quezon; Barangay Maddiangat, in and around barangay proper 7</description>
+					<LookAt>
+						<longitude>121.209</longitude>
+						<latitude>16.497</latitude>
+						<altitude>0</altitude>
+						<heading>1.611344917096402e-06</heading>
+						<tilt>0</tilt>
+						<range>62594.3653511974</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.209,16.497,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Hemidactylus platyurus</name>
+				<open>1</open>
+				<Placemark>
+					<name>Negros, Mt. Bungol 7</name>
+					<description>Negros; Negros Occidental Province; ; Barangay Patag; city of Silay; Mt. Bungol 7</description>
+					<LookAt>
+						<longitude>123.18777</longitude>
+						<latitude>10.67599</latitude>
+						<altitude>0</altitude>
+						<heading>1.614541321674551e-06</heading>
+						<tilt>0</tilt>
+						<range>62354.46529692624</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>123.18777,10.67599,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Hemiphyllodactylus</name>
+			<Folder>
+				<name>Hemiphyllodactylus typus</name>
+				<open>1</open>
+				<Placemark>
+					<name>Mindanao 2</name>
+					<description>Mindanao; Agusan del Sur Province; Municipality of San Francisco; Barangay Kaimpugan, Agusan Marsh 2</description>
+					<LookAt>
+						<longitude>125.8777778</longitude>
+						<latitude>8.403611099999999</latitude>
+						<altitude>0</altitude>
+						<heading>1.615188093034997e-06</heading>
+						<tilt>0</tilt>
+						<range>62448.73655364504</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>125.8777778,8.403611099999999,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Lepidodactylus</name>
+			<Folder>
+				<name>Lepidodactylus balioburius</name>
+				<open>1</open>
+				<Placemark>
+					<name>Sabtang 10</name>
+					<open>1</open>
+					<description>Batanes Province; Municipality of Sabtang; Barangay Chavayan 10</description>
+					<LookAt>
+						<longitude>121.8676459844573</longitude>
+						<latitude>20.30083501325027</latitude>
+						<altitude>0</altitude>
+						<heading>-5.392490518015409e-09</heading>
+						<tilt>0</tilt>
+						<range>21716.53778644466</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.8676459844573,20.30083501325027,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Batan 9</name>
+					<description>Batan; Batanes Province; Municipality of Basco; Barangay San Antonio, Sitio Chadpidan 9</description>
+					<LookAt>
+						<longitude>121.991</longitude>
+						<latitude>20.47</latitude>
+						<altitude>0</altitude>
+						<heading>1.616129262897869e-06</heading>
+						<tilt>0</tilt>
+						<range>62453.13096802444</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.991,20.47,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Lepidodactylus lugubris</name>
+				<open>1</open>
+				<Placemark>
+					<name>Luzon 3</name>
+					<description>Luzon; Albay Province; Municipality of Malinao; Barangay Tanawan 3</description>
+					<LookAt>
+						<longitude>123.67683</longitude>
+						<latitude>13.40534</latitude>
+						<altitude>0</altitude>
+						<heading>1.622840239636867e-06</heading>
+						<tilt>0</tilt>
+						<range>62442.43397359806</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>123.67683,13.40534,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Luperosaurus</name>
+			<Folder>
+				<name>Luperosaurus browni</name>
+				<open>1</open>
+				<Placemark>
+					<name>Cameron Highlands, Malaysia 3</name>
+					<open>1</open>
+					<description>Cameron Highlands, Malaysia 3</description>
+					<LookAt>
+						<longitude>101.4793500056768</longitude>
+						<latitude>4.512017002877085</latitude>
+						<altitude>0</altitude>
+						<heading>4.465924171963423e-10</heading>
+						<tilt>0</tilt>
+						<range>23285.4592580065</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>101.4793500056768,4.512017002877085,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>West Malaysia, Selangor, Tapah 15</name>
+					<description>West Malaysia, Selangor, Tapah 15</description>
+					<LookAt>
+						<longitude>101.2609729988133</longitude>
+						<latitude>4.203994000914949</latitude>
+						<altitude>0</altitude>
+						<heading>-8.698916446136513e-11</heading>
+						<tilt>0</tilt>
+						<range>11546.52872600492</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>101.2609729988133,4.203994000914949,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Luperosaurus macgregori</name>
+				<open>1</open>
+				<Placemark>
+					<name>Babuyan Claro, 23</name>
+					<open>1</open>
+					<description>Cagayan Province; Municipality of Calayan; Barangay Babuyan Claro 23</description>
+					<LookAt>
+						<longitude>121.9400005532362</longitude>
+						<latitude>19.52333321198062</latitude>
+						<altitude>0</altitude>
+						<heading>1.848864117374298e-07</heading>
+						<tilt>0</tilt>
+						<range>173033.1385740622</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.9400005532362,19.52333321198063,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Pseudogekko</name>
+			<Folder>
+				<name>Pseudogekko smaragdinus</name>
+				<open>1</open>
+				<Placemark>
+					<name>Polillo 7</name>
+					<description>Polillo; Quezon Province; Municipality of Polillo; Barangay Salipsip, Sitio Kapilijan 7</description>
+					<LookAt>
+						<longitude>121.9193</longitude>
+						<latitude>14.8447333</latitude>
+						<altitude>0</altitude>
+						<heading>8.20594303370066e-08</heading>
+						<tilt>0</tilt>
+						<range>174215.077861548</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>121.9193,14.8447333,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Ptychozoon</name>
+			<Folder>
+				<name>Ptychozoon kuhli</name>
+				<open>1</open>
+				<Placemark>
+					<name>Malaysia, Sarawak, Matang, 4</name>
+					<open>1</open>
+					<description>Malaysia, Sarawak, Matang, 4</description>
+					<LookAt>
+						<longitude>110.2755185044542</longitude>
+						<latitude>1.556790735877692</latitude>
+						<altitude>0</altitude>
+						<heading>-1.259929599174042e-05</heading>
+						<tilt>0</tilt>
+						<range>49981.46604216146</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin3</styleUrl>
+					<Point>
+						<coordinates>110.2755185044542,1.556790735877692,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Tioman 3-6</name>
+					<open>1</open>
+					<description>Malaysia, Pulau Tioman 3-6</description>
+					<LookAt>
+						<longitude>104.1775890789157</longitude>
+						<latitude>2.809778568823789</latitude>
+						<altitude>0</altitude>
+						<heading>4.759163698153743e-07</heading>
+						<tilt>0</tilt>
+						<range>1967.698216348876</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>104.177589,2.809779,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Perhentian Besar 3</name>
+					<open>1</open>
+					<description>Malaysia, Terengganu, Pulau Perhentian Besar 3</description>
+					<LookAt>
+						<longitude>102.7568143838341</longitude>
+						<latitude>5.901893859963372</latitude>
+						<altitude>0</altitude>
+						<heading>-3.374036567075686e-06</heading>
+						<tilt>0</tilt>
+						<range>931.2368118725697</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>102.7568143838341,5.901893859963371,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Langkawi 35</name>
+					<open>1</open>
+					<description>Pulau Langkawi, Malaysia 35</description>
+					<LookAt>
+						<longitude>99.77837584800815</longitude>
+						<latitude>6.369872092974586</latitude>
+						<altitude>0</altitude>
+						<heading>0.0001032602300833799</heading>
+						<tilt>0</tilt>
+						<range>9633.894524390527</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>99.77837584800814,6.369872092974586,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Babi Besar 1</name>
+					<description>West Malaysia, Johor, Pulau Babi Besar 1</description>
+					<LookAt>
+						<longitude>103.9811179973261</longitude>
+						<latitude>2.438029997495692</latitude>
+						<altitude>0</altitude>
+						<heading>-1.137490594508598e-10</heading>
+						<tilt>0</tilt>
+						<range>21731.75839071899</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<coordinates>103.9811179973261,2.438029997495692,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>West Malaysia, Terengganu, Hutan Lipur Sekayo 4</name>
+					<description>West Malaysia, Terengganu, Hutan Lipur Sekayo 4</description>
+					<LookAt>
+						<longitude>102.9546790033753</longitude>
+						<latitude>4.965950002487705</latitude>
+						<altitude>0</altitude>
+						<heading>2.921856315059978e-10</heading>
+						<tilt>0</tilt>
+						<range>6120.791144513692</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin3</styleUrl>
+					<Point>
+						<coordinates>102.9546790033753,4.965950002487705,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Ptychozoon lionotum</name>
+				<open>1</open>
+				<Placemark>
+					<name>Pulau Tioman 2-3</name>
+					<open>1</open>
+					<description>Malaysia, Pulau Tioman 2-3</description>
+					<LookAt>
+						<longitude>104.1775890789157</longitude>
+						<latitude>2.809778568823789</latitude>
+						<altitude>0</altitude>
+						<heading>4.759163698153743e-07</heading>
+						<tilt>0</tilt>
+						<range>1967.698216348876</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<Point>
+						<coordinates>104.177589,2.809779,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Pinang, Botanical Garden 4</name>
+					<open>1</open>
+					<description>Malaysia, Penang, Pulau Pinang, Botanical Gardens 4</description>
+					<LookAt>
+						<longitude>100.2887589967902</longitude>
+						<latitude>5.439910000746324</latitude>
+						<altitude>0</altitude>
+						<heading>-3.042874432842988e-10</heading>
+						<tilt>0</tilt>
+						<range>3290.744658504991</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<Point>
+						<coordinates>100.2887589967902,5.439910000746323,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pulau Perhentian Besar 6</name>
+					<open>1</open>
+					<description>Malaysia, Terengganu, Pulau Perhentian Besar 6</description>
+					<LookAt>
+						<longitude>102.7568143838341</longitude>
+						<latitude>5.901893859963372</latitude>
+						<altitude>0</altitude>
+						<heading>-3.374036567075686e-06</heading>
+						<tilt>0</tilt>
+						<range>931.2368118725697</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<Point>
+						<coordinates>102.7568143838341,5.901893859963371,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>West Malaysia, Terengganu, Pulau Redang 2</name>
+					<description>West Malaysia, Terengganu, Pulau Redang 2</description>
+					<LookAt>
+						<longitude>103.0184038001422</longitude>
+						<latitude>5.778028934084817</latitude>
+						<altitude>0</altitude>
+						<heading>0.06328235333359794</heading>
+						<tilt>0</tilt>
+						<range>2918.267016113464</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<Point>
+						<coordinates>103.0184038001422,5.778028934084817,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>West Malaysia, Johor, Pulau Sibu 4</name>
+					<description>West Malaysia, Johor, Pulau Sibu 4</description>
+					<LookAt>
+						<longitude>104.0623849990161</longitude>
+						<latitude>2.226345998834393</latitude>
+						<altitude>0</altitude>
+						<heading>-3.820969305809576e-11</heading>
+						<tilt>0</tilt>
+						<range>10916.96603959609</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<Point>
+						<coordinates>104.0623849990161,2.226345998834393,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
