@@ -1,0 +1,139 @@
+Digesting seq gi|296149317|gb|CM000949.1| with recognition seq CATATG...
+
+Molecule id: gi|296149317|gb|CM000949.1|
+Molecule name: gi|296149317|gb|CM000949.1|
+Molecule description: gi|296149317|gb|CM000949.1| Anolis carolinensis linkage group h, whole genome shotgun sequence
+Molecule length: 248369
+	total fragments: 46
+	fragments of length 200-400: 4
+	fragment length distribution written to NdeI_digests1/gi|296149317|gb|CM000949.1|.txt
+Digesting seq gi|296149318|gb|CM000948.1| with recognition seq CATATG...
+
+Molecule id: gi|296149318|gb|CM000948.1|
+Molecule name: gi|296149318|gb|CM000948.1|
+Molecule description: gi|296149318|gb|CM000948.1| Anolis carolinensis linkage group g, whole genome shotgun sequence
+Molecule length: 424765
+	total fragments: 63
+	fragments of length 200-400: 6
+	fragment length distribution written to NdeI_digests1/gi|296149318|gb|CM000948.1|.txt
+Digesting seq gi|296149319|gb|CM000947.1| with recognition seq CATATG...
+
+Molecule id: gi|296149319|gb|CM000947.1|
+Molecule name: gi|296149319|gb|CM000947.1|
+Molecule description: gi|296149319|gb|CM000947.1| Anolis carolinensis linkage group f, whole genome shotgun sequence
+Molecule length: 4257874
+	total fragments: 935
+	fragments of length 200-400: 56
+	fragment length distribution written to NdeI_digests1/gi|296149319|gb|CM000947.1|.txt
+Digesting seq gi|296149320|gb|CM000946.1| with recognition seq CATATG...
+
+Molecule id: gi|296149320|gb|CM000946.1|
+Molecule name: gi|296149320|gb|CM000946.1|
+Molecule description: gi|296149320|gb|CM000946.1| Anolis carolinensis linkage group d, whole genome shotgun sequence
+Molecule length: 1094478
+	total fragments: 313
+	fragments of length 200-400: 14
+	fragment length distribution written to NdeI_digests1/gi|296149320|gb|CM000946.1|.txt
+Digesting seq gi|296149321|gb|CM000945.1| with recognition seq CATATG...
+
+Molecule id: gi|296149321|gb|CM000945.1|
+Molecule name: gi|296149321|gb|CM000945.1|
+Molecule description: gi|296149321|gb|CM000945.1| Anolis carolinensis linkage group c, whole genome shotgun sequence
+Molecule length: 9478905
+	total fragments: 2370
+	fragments of length 200-400: 136
+	fragment length distribution written to NdeI_digests1/gi|296149321|gb|CM000945.1|.txt
+Digesting seq gi|296149322|gb|CM000944.1| with recognition seq CATATG...
+
+Molecule id: gi|296149322|gb|CM000944.1|
+Molecule name: gi|296149322|gb|CM000944.1|
+Molecule description: gi|296149322|gb|CM000944.1| Anolis carolinensis linkage group b, whole genome shotgun sequence
+Molecule length: 3271537
+	total fragments: 758
+	fragments of length 200-400: 42
+	fragment length distribution written to NdeI_digests1/gi|296149322|gb|CM000944.1|.txt
+Digesting seq gi|296149323|gb|CM000943.1| with recognition seq CATATG...
+
+Molecule id: gi|296149323|gb|CM000943.1|
+Molecule name: gi|296149323|gb|CM000943.1|
+Molecule description: gi|296149323|gb|CM000943.1| Anolis carolinensis linkage group a, whole genome shotgun sequence
+Molecule length: 7025928
+	total fragments: 828
+	fragments of length 200-400: 55
+	fragment length distribution written to NdeI_digests1/gi|296149323|gb|CM000943.1|.txt
+Digesting seq gi|296149324|gb|CM000942.1| with recognition seq CATATG...
+
+Molecule id: gi|296149324|gb|CM000942.1|
+Molecule name: gi|296149324|gb|CM000942.1|
+Molecule description: gi|296149324|gb|CM000942.1| Anolis carolinensis chromosome 6, whole genome shotgun sequence
+Molecule length: 80741955
+	total fragments: 22180
+	fragments of length 200-400: 1389
+	fragment length distribution written to NdeI_digests1/gi|296149324|gb|CM000942.1|.txt
+Digesting seq gi|296149325|gb|CM000941.1| with recognition seq CATATG...
+
+Molecule id: gi|296149325|gb|CM000941.1|
+Molecule name: gi|296149325|gb|CM000941.1|
+Molecule description: gi|296149325|gb|CM000941.1| Anolis carolinensis chromosome 5, whole genome shotgun sequence
+Molecule length: 150641573
+	total fragments: 44045
+	fragments of length 200-400: 2888
+	fragment length distribution written to NdeI_digests1/gi|296149325|gb|CM000941.1|.txt
+Digesting seq gi|296149326|gb|CM000940.1| with recognition seq CATATG...
+
+Molecule id: gi|296149326|gb|CM000940.1|
+Molecule name: gi|296149326|gb|CM000940.1|
+Molecule description: gi|296149326|gb|CM000940.1| Anolis carolinensis chromosome 4, whole genome shotgun sequence
+Molecule length: 156502444
+	total fragments: 44754
+	fragments of length 200-400: 3057
+	fragment length distribution written to NdeI_digests1/gi|296149326|gb|CM000940.1|.txt
+Digesting seq gi|296149327|gb|CM000939.1| with recognition seq CATATG...
+
+Molecule id: gi|296149327|gb|CM000939.1|
+Molecule name: gi|296149327|gb|CM000939.1|
+Molecule description: gi|296149327|gb|CM000939.1| Anolis carolinensis chromosome 3, whole genome shotgun sequence
+Molecule length: 204416410
+	total fragments: 59252
+	fragments of length 200-400: 3843
+	fragment length distribution written to NdeI_digests1/gi|296149327|gb|CM000939.1|.txt
+Digesting seq gi|296149328|gb|CM000938.1| with recognition seq CATATG...
+
+Molecule id: gi|296149328|gb|CM000938.1|
+Molecule name: gi|296149328|gb|CM000938.1|
+Molecule description: gi|296149328|gb|CM000938.1| Anolis carolinensis chromosome 2, whole genome shotgun sequence
+Molecule length: 199619895
+	total fragments: 56071
+	fragments of length 200-400: 3596
+	fragment length distribution written to NdeI_digests1/gi|296149328|gb|CM000938.1|.txt
+Digesting seq gi|296149329|gb|CM000937.1| with recognition seq CATATG...
+
+Molecule id: gi|296149329|gb|CM000937.1|
+Molecule name: gi|296149329|gb|CM000937.1|
+Molecule description: gi|296149329|gb|CM000937.1| Anolis carolinensis chromosome 1, whole genome shotgun sequence
+Molecule length: 263920458
+	total fragments: 75555
+	fragments of length 200-400: 4813
+	fragment length distribution written to NdeI_digests1/gi|296149329|gb|CM000937.1|.txt
+Digesting seq gi|317185859|gb|EU747728.2| with recognition seq CATATG...
+
+Molecule id: gi|317185859|gb|EU747728.2|
+Molecule name: gi|317185859|gb|EU747728.2|
+Molecule description: gi|317185859|gb|EU747728.2| Anolis carolinensis mitochondrion, complete genome
+Molecule length: 17223
+	total fragments: 2
+	fragments of length 200-400: 0
+	fragment length distribution written to NdeI_digests1/gi|317185859|gb|EU747728.2|.txt
+Finished digests!
+
+Summary over ALL molecules:
+	total length: 1081661814
+	total fragments: 307172
+	fragments of length 200-400: 19899
+	fragment length distribution written to NdeI_digests1/combined.txt
+
+start time: 2012-06-25 00:40:54.943041
+end time: 2012-06-25 00:43:01.196032
+run time: 0:02:06.252991
+
+max memory (MB): 711.703125

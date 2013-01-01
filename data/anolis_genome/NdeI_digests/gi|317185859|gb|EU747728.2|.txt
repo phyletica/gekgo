@@ -1,0 +1,3 @@
+fragment_length	frequency
+1292	1
+8205	1
