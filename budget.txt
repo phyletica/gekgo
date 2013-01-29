@@ -1,0 +1,10 @@
+date			item	source	confirmed
+2010-06-01	14886		DDIG	NSF	1
+2012-12-12		82.98	qubit tubes	Life Technologies	1
+2012-12-07		92	Nde I enzyme	New England Biolabs	1
+2012-12-07		213.22	qubit assay kit	Life Technologies	0
+2012-11-06		5056	truseq library prep and 100 cycle PE lane	KU Med Genome Sequencing Facility	1
+2013-01-25		105	QIAquick gel extraction kit	Qiagen	0
+2013-01-25		294	AMPure XP beads	Agencourt	0
+2013-01-29		88.1	Paired-end FC1 primer	IDT	1
+balance			8954.7		
