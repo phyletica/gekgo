@@ -145,6 +145,13 @@ class SampleDatabase(dict):
                            'tissue_sample.notes',
                            'extraction.protocol',
                            'extraction.rnase',
+                           'extraction.qubit',
+                           'extraction.notes',
+                           'extraction.gel_lane',
+                           'extraction.plate',
+                           'extraction.row',
+                           'extraction.column',
+                           'extraction.dilution',
                            'cam_extract',
                            'cam_extract_cell',
                            'date',
@@ -184,6 +191,11 @@ class DnaExtraction(Tissue):
         self.nanodrop_260_230 = kwargs.pop('nanodrop_260_230', None)
         self.qubit = kwargs.pop('qubit', None)
         self.notes = kwargs.pop('notes', None)
+        self.gel_lane = kwargs.pop('gel_lane', None)
+        self.plate = kwargs.pop('plate', None)
+        self.row = kwargs.pop('row', None)
+        self.column = kwargs.pop('column', None)
+        self.dilution = kwargs.pop('dilution', None)
 
     def __nonzero__(self):
         return self.extracted
