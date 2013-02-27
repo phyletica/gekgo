@@ -71,7 +71,7 @@ def get_samples_with_dna(sample_db):
     dna_samples = SampleDatabase()
     for k, sample in sample_db.iteritems():
         if sample.tissue_sample:
-            assert sample.extraction
+            assert sample.extraction, '{0} not extracted'.format(k)
             new_sample = copy.deepcopy(sample)
             dna_samples.add(new_sample)
     return dna_samples
