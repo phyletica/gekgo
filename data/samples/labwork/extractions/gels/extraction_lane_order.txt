@@ -200,7 +200,7 @@ RMB	13591	KU	328374	Gekko	carusadensis	Philippines	Luzon	Luzon	Laguna Province; 
 KU-FS	13	KU	311493	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park			K-165-D8/F7	False	2005-04-11	ku_gekkonid_tissues.txt
 KU-FS	14	KU	311494	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park			K-165-G1	False	2005-04-11	ku_gekkonid_tissues.txt
 KU-FS	15	KU	311495	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park			K-165-G2	False	2005-04-11	ku_gekkonid_tissues.txt
-KU-FS	18	KU	311498	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park			K-165-F8	False	2005-04-11	ku_gekkonid_tissues.txt
+KU-FS	16	KU	311496	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park			K-165-F8	False	2005-04-11	ku_gekkonid_tissues.txt
 KU-FS	17	KU	311497	Gekko	chinensis	China			Guangxi; ; Nanning City, People's Park			K-165-G3	False	2005-04-11	ku_gekkonid_tissues.txt
 RMB	5953	KU	304832	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group	Cagayan Province; Municipality of Calayan; Barangay Babuyan Claro			H-111-F5	False	2006-03-13	ku_freezer.txt/ku_gekkonid_tissues.txt
 RMB	5954	KU	304833	Gekko	crombota	Philippines	Babuyan Claro	Babuyan Island Group	Cagayan Province; Municipality of Calayan; Barangay Babuyan Claro			H-111-F6	False	2006-03-13	ku_freezer.txt/ku_gekkonid_tissues.txt
