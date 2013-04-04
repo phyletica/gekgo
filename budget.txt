@@ -15,4 +15,5 @@ BI ACCOUNT
 date	credit	expense	item	source	confirmed
 2012-06-19	6000		establishing BI sub-account	NSF DDIG	1
 2013-03-10		279	T4 DNA ligase	New England Biolabs	1
-balance			5721		
+2013-04-04		273	T4 DNA ligase and buffer	New England Biolabs	0
+balance			5448		
