@@ -151,6 +151,7 @@ class SampleDatabase(dict):
                            'extraction.plate',
                            'extraction.row',
                            'extraction.column',
+                           'extraction.msg_barcode',
                            'extraction.dilution',
                            'cam_extract',
                            'cam_extract_cell',
@@ -195,6 +196,7 @@ class DnaExtraction(Tissue):
         self.plate = kwargs.pop('plate', None)
         self.row = kwargs.pop('row', None)
         self.column = kwargs.pop('column', None)
+        self.msg_barcode = kwargs.pop('msg_barcode', None)
         self.dilution = kwargs.pop('dilution', None)
 
     def __nonzero__(self):
