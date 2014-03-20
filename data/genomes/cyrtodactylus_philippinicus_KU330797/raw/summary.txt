@@ -1,0 +1,4 @@
+[summary]
+total_pairs = 184224544
+total_reads = 368449088
+
