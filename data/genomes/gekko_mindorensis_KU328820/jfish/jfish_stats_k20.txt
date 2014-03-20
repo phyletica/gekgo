@@ -1,0 +1,8 @@
+k-mer length (bases): 20
+value length (bytes): 4
+max reprobe         : 1953
+hash size           : 1073741824
+Unique:    279183047
+Distinct:  2040225300
+Total:     27508371018
+Max_count: 1060479

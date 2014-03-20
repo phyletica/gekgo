@@ -1,0 +1,5 @@
+[gamma_fit_characteristics]
+shape = 3.16775
+rate = 0.25774
+mean = 12.29049
+variance = 47.68559
