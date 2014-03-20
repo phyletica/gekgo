@@ -1,0 +1,71 @@
+number of threads 16
+reads 379569908
+long reads 0
+extra reads 0
+read_length 100
+kmer 30
+kmers 2028955796 2045026680
+merge bubble 498923
+contigs: 14436113 n50: 434 max: 9553 mean: 121 total length: 1757617986 n80: 59
+aligned 174537483 reads
+confirmed bases: 932382416 correct reads: 52124731 bases: 38325594
+distance mean 305.951 sd 31.3472
+seed contigs 2069994 local contigs 28872226
+kmer 40
+kmers 1860360482 1870220768
+merge bubble 138394
+contigs: 10418504 n50: 723 max: 19509 mean: 186 total length: 1946659830 n80: 108
+aligned 215971369 reads
+confirmed bases: 1156010062 correct reads: 64411809 bases: 9432180
+distance mean 306.659 sd 30.3882
+seed contigs 1873287 local contigs 20837008
+kmer 50
+kmers 1879720700 1885214439
+merge bubble 86876
+contigs: 7642359 n50: 970 max: 20835 mean: 263 total length: 2015964264 n80: 212
+aligned 245159411 reads
+confirmed bases: 1305309212 correct reads: 72424946 bases: 6735451
+distance mean 306.803 sd 29.9829
+seed contigs 1784924 local contigs 15284718
+kmer 60
+kmers 1877324860 1880193394
+merge bubble 61092
+contigs: 5535657 n50: 1236 max: 29172 mean: 366 total length: 2026379377 n80: 375
+aligned 264845682 reads
+confirmed bases: 1405484280 correct reads: 78039090 bases: 5314606
+distance mean 306.97 sd 29.7519
+seed contigs 1656707 local contigs 11071314
+kmer 70
+kmers 1860899105 1862132822
+merge bubble 43946
+contigs: 3924797 n50: 1515 max: 29435 mean: 509 total length: 2001039886 n80: 561
+aligned 274395077 reads
+confirmed bases: 1465137273 correct reads: 81086619 bases: 3785365
+distance mean 307.084 sd 29.6083
+seed contigs 1516979 local contigs 7849594
+kmer 80
+kmers 1828853596 1829034715
+merge bubble 31417
+contigs: 2467713 n50: 1843 max: 29455 mean: 782 total length: 1930937603 n80: 783
+aligned 278394402 reads
+confirmed bases: 1494193499 correct reads: 82803166 bases: 2676027
+distance mean 307.115 sd 29.4949
+seed contigs 1345157 local contigs 4935426
+kmer 90
+kmers 1798567390 1798059851
+merge bubble 22980
+contigs: 1653917 n50: 2119 max: 29478 mean: 1140 total length: 1885729150 n80: 966
+aligned 279667004 reads
+confirmed bases: 1503989296 correct reads: 83641656 bases: 1782225
+distance mean 306.759 sd 30.455
+seed contigs 1201851 local contigs 3307834
+kmer 100
+kmers 1773696384 1772875234
+merge bubble 17258
+contigs: 1263772 n50: 2321 max: 31560 mean: 1476 total length: 1865627135 n80: 1091
+reads 379569908
+aligned 280093343 reads
+distance mean 306.787 sd 30.4172
+expected coverage 0.161047
+edgs 322058
+contigs: 965213 n50: 3479 max: 59627 mean: 1926 total length: 1859784645 n80: 1518

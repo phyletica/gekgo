@@ -1,5 +1,4 @@
 .DS_Store
 *.pyc
 *.swp
-*.fastq.gz
-*.fasta.gz
+*.gz
