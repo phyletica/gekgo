@@ -217,6 +217,10 @@ class Sample(object):
     month_letter_pattern = re.compile(r'^([a-zA-Z]{3})[a-zA-Z]*$')
     months = {'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6,
               'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12}
+    field_series_label_conversions = [
+            ('PNM/CMNH', 'PNM.CMNH'),
+            ('KU-FS', 'KUFS'),
+            ]
 
     def __init__(self, **kwargs):
         self._field_series = None
@@ -400,6 +404,27 @@ class Sample(object):
             return None
 
     field_id = property(_get_field_id)
+
+    def _get_seq_label(self):
+        series = ''
+        for s, l in self.field_series_label_conversions:
+            series = series.replace(s, l)
+        num = ''
+        if self._field_number:
+            num = self._field_number
+        return '{0}_{1}'.format(series, num)
+    
+    seq_label = property(_get_seq_label)
+
+    def get_field_id_from_seq_label(seq_label):
+        elements = seq_label.strip().split('_')
+        if len(elements) < 2:
+            raise Exception("invalid seq label {0}".format(seq_label))
+        series = elements[0]
+        for s, l in self.field_series_label_conversions:
+            series = series.replace(l, s)
+        num = elements[1]
+        return '{0} {1}'.format(series, num).strip()
 
     def _get_catalog_series(self):
         if self._catalog_series:
