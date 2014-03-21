@@ -218,7 +218,7 @@ class Sample(object):
     months = {'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6,
               'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12}
     field_series_label_conversions = [
-            ('PNM/CMNH', 'PNM.CMNH'),
+            ('PNM/CMNH H', 'PNM.CMNH'),
             ('KU-FS', 'KUFS'),
             ]
 
@@ -407,8 +407,10 @@ class Sample(object):
 
     def _get_seq_label(self):
         series = ''
-        for s, l in self.field_series_label_conversions:
-            series = series.replace(s, l)
+        if self._field_series:
+            series = self._field_series
+            for s, l in self.field_series_label_conversions:
+                series = series.replace(s, l)
         num = ''
         if self._field_number:
             num = self._field_number
