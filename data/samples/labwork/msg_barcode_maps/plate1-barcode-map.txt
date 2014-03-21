@@ -1,96 +1,96 @@
-RMB 9223	CAGGTG
-RMB 14180	ATCACG
-RMB 8232	ATCTTG
-RMB 9748	TTATAG
-RMB 9745	TAGTCG
-RMB 9740	GACCAG
-RMB 13664	GTCTAG
-RMB 14956	GTAAGG
-RMB 13669	TTCGAG
-RMB 13654	ATTAGG
-RMB 11746	TTACGG
-RMB 14453	GATGAG
-RMB 13652	GTATCG
-RMB 13651	AAGCAG
-CDS 3932	CTTGCG
-RMB 13719	AACTCG
-RMB 13713	GATCTG
-CDS 1768	TAATTG
-PNM/CMNH H 1293	ATTCTG
-RMB 12834	GAGTAG
-RMB 12835	CTAACG
-RMB 12836	TTAGCG
-RMB 12837	CTCAAG
-PNM/CMNH H 1289	CAGCCG
-CWL 90	TACGTG
-RMB 11229	CAATCG
-CDS 4485	AAATAG
-RMB 11591	GATTCG
-RMB 8931	TAGGAG
-RMB 8933	CTTCGG
-RMB 8934	ATCCAG
-RMB 8937	TAACAG
-RMB 5754	TTTGTG
-RMB 5755	GTCCGG
-RMB 11309	CACATG
-CDS 5823	TTCAGG
-CDS 5822	GTTACG
-CDS 5727	CTATTG
-CDS 5724	CAGTGG
-CWL 88	CATACG
-RMB 12838	CTCGTG
-RMB 5811	CATCAG
-CDS 4660	AACGAG
-RMB 8043	TAGCTG
-RMB 14249	GTGAAG
-PNM/CMNH H 1298	TTCTCG
-RMB 15211	GTCGCG
-SP 6891	TATTAG
-SP 6892	GACACG
-RMB 15212	GAAGTG
-RMB 13902	CAAGAG
-RMB 13670	AAACGG
-RMB 8416	ATTGAG
-RMB 8417	TTCCTG
-CDS 3751	GACTTG
-CDS 3752	TAGAGG
-RMB 15052	TTTAAG
-CWL 89	TACAAG
-RMB 7716	GAGCGG
-CDS 5627	AACCTG
-RMB 9749	CTTATG
-SP 6906	CAGAAG
-RMB 7722	TTTCCG
-PNM/CMNH H 1292	CTACAG
-RMB 13510	AATGTG
-RMB 11670	AACAGG
-RMB 13964	TACTGG
-RMB 11302	GATAGG
-RMB 8220	GTTCAG
-RMB 9207	GAGATG
-RMB 7724	CTCTGG
-RMB 13367	AATAAG
-RMB 13366	ATGATG
-CDS 3869	ATAGTG
-ELR 681	TTGACG
-RMB 13966	AAGTTG
-RMB 5907	GTAGAG
-CDS 4658	TATATG
-RMB 13961	AATCCG
-RMB 8445	CACTAG
-RMB 8444	AATTGG
-RMB 8201	ATATGG
-RMB 9693	TATCGG
-RMB 8932	ATACCG
-RMB 8418	CAACTG
-RMB 15119	GTCATG
-CDS 3793	TTAATG
-RMB 7720	GTACTG
-RMB 13571	CACCGG
-RMB 7725	GAATGG
-RMB 11714	CACGCG
-CDS 4659	TATGCG
-RMB 5906	GAGGCG
-RMB 5905	AAGACG
-RMB 5757	GAACCG
-RMB 14310	AAAGCG
+RMB_9223_Cyrtodactylus_jambangan_Mindanao	CAGGTG
+RMB_14180_Cyrtodactylus_philippinicus_Luzon	ATCACG
+RMB_8232_Cyrtodactylus_annulatus_CamiguinSur	ATCTTG
+RMB_9748_Cyrtodactylus_philippinicus_Luzon	TTATAG
+RMB_9745_Cyrtodactylus_philippinicus_Luzon	TAGTCG
+RMB_9740_Cyrtodactylus_philippinicus_Luzon	GACCAG
+RMB_13664_Cyrtodactylus_philippinicus_Luzon	GTCTAG
+RMB_14956_Cyrtodactylus_philippinicus_Luzon	GTAAGG
+RMB_13669_Cyrtodactylus_philippinicus_Luzon	TTCGAG
+RMB_13654_Cyrtodactylus_philippinicus_Luzon	ATTAGG
+RMB_11746_Cyrtodactylus_jambangan_Mindanao	TTACGG
+RMB_14453_Cyrtodactylus_philippinicus_Luzon	GATGAG
+RMB_13652_Cyrtodactylus_philippinicus_Luzon	GTATCG
+RMB_13651_Cyrtodactylus_philippinicus_Luzon	AAGCAG
+CDS_3932_Cyrtodactylus_philippinicus_Lubang	CTTGCG
+RMB_13719_Cyrtodactylus_philippinicus_Luzon	AACTCG
+RMB_13713_Cyrtodactylus_philippinicus_Luzon	GATCTG
+CDS_1768_Cyrtodactylus_annulatus_Cebu	TAATTG
+PNM.CMNH_1293_Cyrtodactylus_annulatus_Mindanao	ATTCTG
+RMB_12834_Cyrtodactylus_philippinicus_Luzon	GAGTAG
+RMB_12835_Cyrtodactylus_philippinicus_Luzon	CTAACG
+RMB_12836_Cyrtodactylus_philippinicus_Luzon	TTAGCG
+RMB_12837_Cyrtodactylus_philippinicus_Luzon	CTCAAG
+PNM.CMNH_1289_Cyrtodactylus_annulatus_Mindanao	CAGCCG
+CWL_90_Cyrtodactylus_annulatus_Cebu	TACGTG
+RMB_11229_Cyrtodactylus_annulatus_Mindanao	CAATCG
+CDS_4485_Cyrtodactylus_annulatus_Bohol	AAATAG
+RMB_11591_Cyrtodactylus_jambangan_Mindanao	GATTCG
+RMB_8931_Cyrtodactylus_gubaot_Leyte	TAGGAG
+RMB_8933_Cyrtodactylus_gubaot_Leyte	CTTCGG
+RMB_8934_Cyrtodactylus_gubaot_Leyte	ATCCAG
+RMB_8937_Cyrtodactylus_gubaot_Leyte	TAACAG
+RMB_5754_Cyrtodactylus_philippinicus_CamiguinNorte	TTTGTG
+RMB_5755_Cyrtodactylus_philippinicus_CamiguinNorte	GTCCGG
+RMB_11309_Cyrtodactylus_annulatus_Mindanao	CACATG
+CDS_5823_Cyrtodactylus_philippinicus_Luzon	TTCAGG
+CDS_5822_Cyrtodactylus_philippinicus_Luzon	GTTACG
+CDS_5727_Cyrtodactylus_philippinicus_Luzon	CTATTG
+CDS_5724_Cyrtodactylus_philippinicus_Luzon	CAGTGG
+CWL_88_Cyrtodactylus_annulatus_Cebu	CATACG
+RMB_12838_Cyrtodactylus_philippinicus_Luzon	CTCGTG
+RMB_5811_Cyrtodactylus_philippinicus_CamiguinNorte	CATCAG
+CDS_4660_Cyrtodactylus_annulatus_Bohol	AACGAG
+RMB_8043_Cyrtodactylus_annulatus_CamiguinSur	TAGCTG
+RMB_14249_Cyrtodactylus_philippinicus_Luzon	GTGAAG
+PNM.CMNH_1298_Cyrtodactylus_annulatus_Mindanao	TTCTCG
+RMB_15211_Cyrtodactylus_philippinicus_Luzon	GTCGCG
+SP_6891_Cyrtodactylus_baluensis_Kinabalu	TATTAG
+SP_6892_Cyrtodactylus_baluensis_Kinabalu	GACACG
+RMB_15212_Cyrtodactylus_philippinicus_Luzon	GAAGTG
+RMB_13902_Cyrtodactylus_philippinicus_Luzon	CAAGAG
+RMB_13670_Cyrtodactylus_philippinicus_Luzon	AAACGG
+RMB_8416_Cyrtodactylus_mamanwa_Dinagat	ATTGAG
+RMB_8417_Cyrtodactylus_mamanwa_Dinagat	TTCCTG
+CDS_3751_Cyrtodactylus_philippinicus_Lubang	GACTTG
+CDS_3752_Cyrtodactylus_philippinicus_Lubang	TAGAGG
+RMB_15052_Cyrtodactylus_philippinicus_Luzon	TTTAAG
+CWL_89_Cyrtodactylus_annulatus_Cebu	TACAAG
+RMB_7716_Cyrtodactylus_annulatus_Palawan	GAGCGG
+CDS_5627_Cyrtodactylus_philippinicus_Luzon	AACCTG
+RMB_9749_Cyrtodactylus_philippinicus_Luzon	CTTATG
+SP_6906_Cyrtodactylus_baluensis_Kinabalu	CAGAAG
+RMB_7722_Cyrtodactylus_annulatus_Palawan	TTTCCG
+PNM.CMNH_1292_Cyrtodactylus_annulatus_Mindanao	CTACAG
+RMB_13510_Cyrtodactylus_philippinicus_Luzon	AATGTG
+RMB_11670_Cyrtodactylus_jambangan_Mindanao	AACAGG
+RMB_13964_Cyrtodactylus_philippinicus_Luzon	TACTGG
+RMB_11302_Cyrtodactylus_annulatus_Mindanao	GATAGG
+RMB_8220_Cyrtodactylus_annulatus_CamiguinSur	GTTCAG
+RMB_9207_Cyrtodactylus_jambangan_Mindanao	GAGATG
+RMB_7724_Cyrtodactylus_annulatus_Palawan	CTCTGG
+RMB_13367_Cyrtodactylus_philippinicus_Luzon	AATAAG
+RMB_13366_Cyrtodactylus_philippinicus_Luzon	ATGATG
+CDS_3869_Cyrtodactylus_philippinicus_Lubang	ATAGTG
+ELR_681_Cyrtodactylus_philippinicus_Mindoro	TTGACG
+RMB_13966_Cyrtodactylus_philippinicus_Luzon	AAGTTG
+RMB_5907_Cyrtodactylus_philippinicus_BabuyanClaro	GTAGAG
+CDS_4658_Cyrtodactylus_annulatus_Bohol	TATATG
+RMB_13961_Cyrtodactylus_philippinicus_Luzon	AATCCG
+RMB_8445_Cyrtodactylus_mamanwa_Dinagat	CACTAG
+RMB_8444_Cyrtodactylus_mamanwa_Dinagat	AATTGG
+RMB_8201_Cyrtodactylus_annulatus_CamiguinSur	ATATGG
+RMB_9693_Cyrtodactylus_philippinicus_Luzon	TATCGG
+RMB_8932_Cyrtodactylus_gubaot_Leyte	ATACCG
+RMB_8418_Cyrtodactylus_mamanwa_Dinagat	CAACTG
+RMB_15119_Cyrtodactylus_philippinicus_Luzon	GTCATG
+CDS_3793_Cyrtodactylus_philippinicus_Lubang	TTAATG
+RMB_7720_Cyrtodactylus_annulatus_Palawan	GTACTG
+RMB_13571_Cyrtodactylus_philippinicus_Luzon	CACCGG
+RMB_7725_Cyrtodactylus_annulatus_Palawan	GAATGG
+RMB_11714_Cyrtodactylus_annulatus_Mindanao	CACGCG
+CDS_4659_Cyrtodactylus_annulatus_Bohol	TATGCG
+RMB_5906_Cyrtodactylus_philippinicus_BabuyanClaro	GAGGCG
+RMB_5905_Cyrtodactylus_philippinicus_BabuyanClaro	AAGACG
+RMB_5757_Cyrtodactylus_philippinicus_CamiguinNorte	GAACCG
+RMB_14310_Cyrtodactylus_philippinicus_Luzon	AAAGCG
