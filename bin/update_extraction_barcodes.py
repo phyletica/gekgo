@@ -60,8 +60,19 @@ def write_barcode_maps(db, out_dir):
                     sample.extraction.plate))
             fs = open(p, 'w')
             file_streams[sample.extraction.plate] = fs
+        sp = ''
+        if sample.epithet:
+            sp = sample.epithet
+        isl = ''
+        if sample.island:
+            isl = sample.island
+        elif sample.country:
+            isl = sample.country
+        sp = sp.replace(' ', '').replace('/', '.')
+        isl = isl.replace(' ', '').replace('/', '.')
+        name = '{0}_{1}_{2}_{3}'.format(sample.seq_label, sample.genus, sp, isl)
         file_streams[sample.extraction.plate].write('{0}\t{1}\n'.format(
-                k, sample.extraction.msg_barcode))
+                name, sample.extraction.msg_barcode))
     for k, v in file_streams.iteritems():
         v.close()
 
