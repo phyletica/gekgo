@@ -11,7 +11,7 @@ else
 fi
 
 BASE_DIR=`dirname "$BIN_DIR"`
-DATA_DIR=$BIN_DIR/data
+DATA_DIR=$BASE_DIR/data
 GENOME_DIR=$DATA_DIR/genomes
 CYRT_GENOME_DIR=$GENOME_DIR/cyrtodactylus_philippinicus_KU330797
 GEKKO_GENOME_DIR=$GEKKO_GENOME_DIR/gekko_mindorensis_KU328820
