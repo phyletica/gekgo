@@ -14,7 +14,7 @@ for gz_file in "$seq_dir"/*.fastq.gz
 do
     fq_file=${gz_file/\.gz/}
     gzip -d "$gz_file"
-    IlluQC_PRLL.pl -se "$fq_file" N A -p 2 -onlyStat -t 2 -o "$out_dir"
+    IlluQC.pl -se "$fq_file" N A -p 2 -onlyStat -t 2 -o "$out_dir"
     gzip "$fq_file"
 done
 
