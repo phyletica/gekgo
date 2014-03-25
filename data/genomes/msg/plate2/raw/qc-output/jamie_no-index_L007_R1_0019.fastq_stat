@@ -1,6 +1,6 @@
 Parameters
 	Library type	Single-end
-	Input file	jamie_no-index_L007_R1_0019.fastq
+	Input file	/Volumes/wdhd/users/joaks1/projects/gekgo/data/genomes/msg/plate2/raw/jamie_no-index_L007_R1_0019.fastq
 	Primer/Adaptor library	NA
 	Cut-off read length for HQ	70%
 	Cut-off quality score	20
