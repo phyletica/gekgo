@@ -10,7 +10,7 @@ then
     mkdir "$out_dir"
 fi
 
-for gz_file in "$seq_dir"/*.fastq.gz
+for gz_file in "$seq_dir"/*.fq.gz
 do
     fq_file=${gz_file/\.gz/}
     gzip -d "$gz_file"
