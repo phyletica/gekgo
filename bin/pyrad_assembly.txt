@@ -5,7 +5,7 @@
 usearch                     ## 4. command (or path) to call usearch v.7             (s3,s6)
 muscle                      ## 5. command (or path) to call muscle                  (s3,s7)
 TATG                        ## 6. restriction overhang (Nde1 CA|TATG -> TATG)     (s1,s2)
-2                           ## 7. N processors to use in parallel                   (all)
+8                           ## 7. N processors to use in parallel                   (all)
 6                           ## 8. Mindepth: minimum dpth of coverage for a cluster  (s4,s5)
 4                           ## 9. NQual: max # sites with qual < 20 (line 20)       (s2)
 .88                         ## 10. Wclust: clustering threshold as a decimal        (s3,s6)
