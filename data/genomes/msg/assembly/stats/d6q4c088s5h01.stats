@@ -1,0 +1,163 @@
+
+
+28551       ## loci with > minsp containing data
+24078       ## loci with > minsp containing data & paralogs removed
+24078       ## loci with > minsp containing data & paralogs removed & final filtering
+
+## number of loci recovered in final data set for each taxon.
+taxon	nloci
+CDSGS_39_Gekko_mindorensis_Negros.trimmed        	12741
+CDSGS_40_Gekko_mindorensis_Negros.trimmed        	16656
+CDSGS_41_Gekko_mindorensis_Negros.trimmed        	1041
+CDS_100_Gekko_mindorensis_CamiguinSur.trimmed    	20109
+CDS_101_Gekko_mindorensis_CamiguinSur.trimmed    	6607
+CDS_102_Gekko_mindorensis_CamiguinSur.trimmed    	19285
+CDS_1230_Gekko_mindorensis_Mindoro.trimmed       	15266
+CDS_1231_Gekko_mindorensis_Mindoro.trimmed       	32
+CDS_1459_Gekko_mindorensis_MaestreDeCampo.trimmed	76
+CDS_1461_Gekko_mindorensis_MaestreDeCampo.trimmed	7744
+CDS_1462_Gekko_mindorensis_MaestreDeCampo.trimmed	13807
+CDS_1463_Gekko_mindorensis_MaestreDeCampo.trimmed	13389
+CDS_277_Gekko_mindorensis_Negros.trimmed         	9426
+CDS_278_Gekko_mindorensis_Negros.trimmed         	371
+CDS_3866_Gekko_mindorensis_Lubang.trimmed        	11301
+CDS_3867_Gekko_mindorensis_Lubang.trimmed        	11642
+CDS_3868_Gekko_mindorensis_Lubang.trimmed        	35
+CDS_3935_Gekko_mindorensis_Lubang.trimmed        	17397
+CDS_3936_Gekko_mindorensis_Lubang.trimmed        	9381
+CDS_590_Gekko_mindorensis_Caluya.trimmed         	13586
+CDS_591_Gekko_mindorensis_Caluya.trimmed         	15088
+CDS_6047_Gekko_mindorensis_Luzon.trimmed         	16277
+CDS_6051_Gekko_mindorensis_Luzon.trimmed         	10927
+CDS_6052_Gekko_mindorensis_Luzon.trimmed         	15692
+CDS_6054_Gekko_mindorensis_Luzon.trimmed         	13230
+CDS_607_Gekko_mindorensis_Caluya.trimmed         	5516
+CDS_609_Gekko_mindorensis_Caluya.trimmed         	18806
+CDS_610_Gekko_mindorensis_Caluya.trimmed         	15761
+CDS_63_Gekko_mindorensis_Panay.trimmed           	16122
+CDS_64_Gekko_mindorensis_Panay.trimmed           	15892
+CDS_65_Gekko_mindorensis_Panay.trimmed           	17565
+CDS_66_Gekko_mindorensis_Panay.trimmed           	12251
+CDS_754_Gekko_mindorensis_Masbate.trimmed        	14
+CDS_755_Gekko_mindorensis_Masbate.trimmed        	16090
+CDS_757_Gekko_mindorensis_Masbate.trimmed        	7842
+CDS_758_Gekko_mindorensis_Masbate.trimmed        	16849
+CDS_99_Gekko_mindorensis_CamiguinSur.trimmed     	19018
+ELR_1007_Gekko_mindorensis_Mindoro.trimmed       	1709
+ELR_1008_Gekko_mindorensis_Mindoro.trimmed       	4283
+ELR_1009_Gekko_mindorensis_Mindoro.trimmed       	119
+ELR_1010_Gekko_mindorensis_Mindoro.trimmed       	6525
+ELR_911_Gekko_mindorensis_Mindoro.trimmed        	120
+RMB_13657_Gekko_mindorensis_Luzon.trimmed        	10797
+RMB_13659_Gekko_mindorensis_Luzon.trimmed        	15845
+RMB_13660_Gekko_mindorensis_Luzon.trimmed        	13774
+RMB_13661_Gekko_mindorensis_Luzon.trimmed        	11565
+RMB_13662_Gekko_mindorensis_Luzon.trimmed        	556
+RMB_5005_Gekko_mindorensis_Mindoro.trimmed       	9211
+RMB_5006_Gekko_mindorensis_Mindoro.trimmed       	7930
+RMB_6425_Gekko_mindorensis_Panay.trimmed         	12811
+RMB_6431_Gekko_mindorensis_Panay.trimmed         	8741
+RMB_6448_Gekko_mindorensis_Panay.trimmed         	15357
+RMB_6449_Gekko_mindorensis_Panay.trimmed         	15135
+RMB_6479_Gekko_mindorensis_Panay.trimmed         	1191
+
+
+## nloci = number of loci with data for exactly ntaxa
+## ntotal = number of loci for which at least ntaxa have data
+ntaxa	nloci	saved	ntotal
+1	-
+2	-		-
+3	-		-
+4	-		-
+5	2459	*	24078
+6	1360	*	21619
+7	853	*	20259
+8	702	*	19406
+9	552	*	18704
+10	652	*	18152
+11	566	*	17500
+12	539	*	16934
+13	454	*	16395
+14	413	*	15941
+15	388	*	15528
+16	360	*	15140
+17	336	*	14780
+18	316	*	14444
+19	319	*	14128
+20	368	*	13809
+21	382	*	13441
+22	376	*	13059
+23	355	*	12683
+24	378	*	12328
+25	350	*	11950
+26	408	*	11600
+27	392	*	11192
+28	414	*	10800
+29	433	*	10386
+30	469	*	9953
+31	464	*	9484
+32	488	*	9020
+33	545	*	8532
+34	606	*	7987
+35	631	*	7381
+36	642	*	6750
+37	651	*	6108
+38	699	*	5457
+39	747	*	4758
+40	829	*	4011
+41	857	*	3182
+42	790	*	2325
+43	680	*	1535
+44	462	*	855
+45	245	*	393
+46	104	*	148
+47	36	*	44
+48	6	*	8
+49	2	*	2
+
+
+## var = number of loci containing n variable sites.
+## pis = number of loci containing n parsimony informative var sites.
+n	var	PIS
+0	14364	11226
+1	12617	6361
+2	5484	3393
+3	2224	1606
+4	1028	736
+5	518	351
+6	227	148
+7	159	101
+8	96	53
+9	74	36
+10	63	29
+11	34	17
+12	15	9
+13	8	5
+14	5	2
+15	4	2
+16	2	1
+17	1	0
+18	1	0
+19	1	0
+20	0	0
+21	2	1
+22	0	0
+23	1	1
+24	0	0
+25	0	0
+26	0	0
+27	0	0
+28	0	0
+29	0	0
+30	0	0
+31	0	0
+32	0	0
+33	1	0
+34	0	0
+35	0	0
+36	0	0
+37	0	0
+38	0	0
+39	1	0
+total var= 42509
+total pis= 25775
