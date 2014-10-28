@@ -35,5 +35,6 @@ d6q4c088s5h01               ## 14. prefix name for final output (no spaces)     
                        ## 33.opt.: keep trimmed reads (def=0). Enter min length.    (s2)
                        ## 34.opt.: max stack size (int), def= max(500,mean+2*SD)    (s3)
                        ## 35.opt.: minDerep: exclude dereps with <= N copies, def=0 (s3)
+                       ## 36.opt.: hierarch. cluster groups (def.=0, 1=yes)         (s6)
 ==== list hierachical cluster groups below this line =====================================
 
