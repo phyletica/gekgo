@@ -26,7 +26,7 @@ reporting_freq=2
 sort_index=0
 seed=845225390
 
-output_dir="../results"
+output_dir="../data/pymsbayes/gekko_mindorensis/results"
 if [ ! -d "$output_dir" ]
 then
     mkdir -p $output_dir
