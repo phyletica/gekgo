@@ -10,6 +10,9 @@ import stat
 BIN_DIR = os.path.abspath(os.path.dirname(__file__))
 PROJECT_DIR = os.path.abspath(os.path.dirname(BIN_DIR))
 DATA_DIR = os.path.abspath(os.path.join(PROJECT_DIR, 'data'))
+GENOME_DIR = os.path.join(DATA_DIR, 'genomes')
+MSG_DIR = os.path.join(GENOME_DIR, 'msg')
+MSG_ASSEMBLY_DIR = os.path.join(MSG_DIR, 'assembly')
 SAMPLE_DIR = os.path.abspath(os.path.join(DATA_DIR, 'samples'))
 SOURCES_DIR = os.path.abspath(os.path.join(SAMPLE_DIR, 'sources'))
 DB_DIR = os.path.abspath(os.path.join(SAMPLE_DIR, 'database'))
@@ -21,6 +24,11 @@ LABWORK_DIR = os.path.abspath(os.path.join(SAMPLE_DIR, 'labwork'))
 LOCI_DIR = os.path.abspath(os.path.join(DATA_DIR, 'loci'))
 CONCAT_DIR = os.path.abspath(os.path.join(DATA_DIR, 'concat'))
 GARLI_DIR = os.path.abspath(os.path.join(DATA_DIR, 'garli'))
+PYMSBAYES_DIR = os.path.join(DATA_DIR, 'pymsbayes')
+PYMSBAYES_GM_DIR = os.path.join(PYMSBAYES_DIR, 'gekko_mindorensis')
+PYMSBAYES_GM_CONFIG_DIR = os.path.join(PYMSBAYES_GM_DIR, 'configs')
+PYMSBAYES_GM_FASTA_DIR = os.path.join(PYMSBAYES_GM_DIR, 'sequences')
+
 LOCI = [os.path.basename(os.path.dirname(x)) for x in glob.glob(
         os.path.join(LOCI_DIR, "*/"))]
 LOCI_ALNS_FASTA = {}
