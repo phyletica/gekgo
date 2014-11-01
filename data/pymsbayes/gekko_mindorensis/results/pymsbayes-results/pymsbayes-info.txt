@@ -1,0 +1,27 @@
+[pymsbayes]
+	version = Version 0.2.4
+	output_directory = /home/jamie/projects/gekgo/data/pymsbayes/gekko_mindorensis/results/pymsbayes-results
+	temp_directory = /tmp/output.CPvrjy9vr/temp-files-Fj0kaW
+	sort_index = 0
+	simulation_reps = 0
+	seed = 845225390
+	num_processors = 8
+	num_prior_samples = 5000000
+	num_standardizing_samples = 200000
+	bandwidth = 0.0002
+	posterior_quantiles = 10000
+	posterior_sample_size = 10000
+	stat_patterns = ^\s*pi\.b\.\d+\s*$
+	num_taxon_pairs = 5
+	dry_run = False
+	[[tool_paths]]
+		dpp_msbayes = /home/jamie/software/dev/PyMsBayes/bin/linux/dpp-msbayes.pl
+		msbayes = /home/jamie/software/dev/PyMsBayes/bin/linux/msbayes.pl
+		eureject = /home/jamie/software/dev/PyMsBayes/bin/linux/eureject
+		abcestimator = /home/jamie/software/dev/PyMsBayes/bin/linux/ABCestimator
+	[[observed_configs]]
+		1 = ../../configs/dpp-simple-200.cfg
+	[[observed_paths]]
+		1 = observed-summary-stats/observed-1.txt
+	[[prior_configs]]
+		1 = ../../configs/dpp-simple-200.cfg
