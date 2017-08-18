@@ -34,7 +34,7 @@ class SampleDatabase(dict):
     """
     A dictionary of Gekkonid Sample instances.
     """
-    def __init__(self, path=None):
+    def __init__(self, path=None, check_path = False):
         self.path = path
         self._species_set = set()
         if path and os.path.exists(self.path):
@@ -43,7 +43,11 @@ class SampleDatabase(dict):
             stream = open(self.path, 'rb')
             db = pickle.load(stream)
             stream.close()
-            assert self.path == db.path
+            if check_path:
+                assert self.path == db.path, (
+                        "Path {0!r} does not match DB path {1!r}".format(
+                                self.path,
+                                db.path))
             dict.__init__(self, db)
             self._species_set = db._species_set
         else:
