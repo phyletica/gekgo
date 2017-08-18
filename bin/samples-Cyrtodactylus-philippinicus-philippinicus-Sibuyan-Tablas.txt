@@ -1,0 +1,8 @@
+CDS_1442_Cyrtodactylus_philippinicus_Sibuyan	Sibuyan
+RMB_5185_Cyrtodactylus_philippinicus_Sibuyan	Sibuyan
+RMB_5184_Cyrtodactylus_philippinicus_Sibuyan	Sibuyan
+RMB_8790_Cyrtodactylus_philippinicus_Tablas	Tablas
+RMB_8761_Cyrtodactylus_philippinicus_Tablas	Tablas
+RMB_8762_Cyrtodactylus_philippinicus_Tablas	Tablas
+
+# Sibuyan:1 Tablas:1

@@ -1,0 +1,12 @@
+RMB_8931_Cyrtodactylus_gubaot_Leyte	Leyte
+RMB_8933_Cyrtodactylus_gubaot_Leyte	Leyte
+RMB_8932_Cyrtodactylus_gubaot_Leyte	Leyte
+RMB_8934_Cyrtodactylus_gubaot_Leyte	Leyte
+RMB_8937_Cyrtodactylus_gubaot_Leyte	Leyte
+CDS_2844_Cyrtodactylus_sumuroi_Samar	Samar
+CDS_3030_Cyrtodactylus_sumuroi_Samar	Samar
+CDS_2967_Cyrtodactylus_sumuroi_Samar	Samar
+CDS_3047_Cyrtodactylus_sumuroi_Samar	Samar
+CDS_2984_Cyrtodactylus_sumuroi_Samar	Samar
+
+# Leyte:1 Samar:1

@@ -1,0 +1,10 @@
+CDS_792_Gekko_romblon_Romblon	Romblon
+CDS_788_Gekko_romblon_Romblon	Romblon
+CDS_789_Gekko_romblon_Romblon	Romblon
+CDS_791_Gekko_romblon_Romblon	Romblon
+CDS_790_Gekko_romblon_Romblon	Romblon
+RMB_8765_Gekko_romblon_Tablas	Tablas
+RMB_8754_Gekko_romblon_Tablas	Tablas
+RMB_8789_Gekko_romblon_Tablas	Tablas
+
+# Romblon:1 Tablas:1

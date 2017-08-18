@@ -1,0 +1,11 @@
+CDS_591_Gekko_mindorensis_Caluya	Caluya
+CDS_590_Gekko_mindorensis_Caluya	Caluya
+CDS_607_Gekko_mindorensis_Caluya	Caluya
+CDS_609_Gekko_mindorensis_Caluya	Caluya
+CDS_610_Gekko_mindorensis_Caluya	Caluya
+CDS_1230_Gekko_mindorensis_Mindoro	Mindoro
+RMB_5006_Gekko_mindorensis_Mindoro	Mindoro
+CDS_1231_Gekko_mindorensis_Mindoro	Mindoro
+RMB_5005_Gekko_mindorensis_Mindoro	Mindoro
+
+# Caluya:1 Mindoro:1

@@ -1,0 +1,12 @@
+RMB_6370_Gekko_sp.a_Dalupiri	Dalupiri
+RMB_6373_Gekko_sp.a_Dalupiri	Dalupiri
+RMB_6372_Gekko_sp.a_Dalupiri	Dalupiri
+RMB_6374_Gekko_sp.a_Dalupiri	Dalupiri
+RMB_6369_Gekko_sp.a_Dalupiri	Dalupiri
+RMB_5793_Gekko_sp.b_CamiguinNorte	CamiguinNorte
+RMB_5737_Gekko_sp.b_CamiguinNorte	CamiguinNorte
+RMB_5730_Gekko_sp.b_CamiguinNorte	CamiguinNorte
+RMB_5729_Gekko_sp.b_CamiguinNorte	CamiguinNorte
+RMB_5728_Gekko_sp.b_CamiguinNorte	CamiguinNorte
+
+# Dalupiri:1 CamiguinNorte:1

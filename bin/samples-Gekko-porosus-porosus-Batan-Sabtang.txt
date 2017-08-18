@@ -1,0 +1,10 @@
+RMB_9575_Gekko_porosus_Batan	Batan
+RMB_9586_Gekko_porosus_Batan	Batan
+RMB_9585_Gekko_porosus_Batan	Batan
+RMB_9584_Gekko_porosus_Batan	Batan
+RMB_9554_Gekko_porosus_Sabtang	Sabtang
+RMB_9555_Gekko_porosus_Sabtang	Sabtang
+RMB_9560_Gekko_porosus_Sabtang	Sabtang
+RMB_9552_Gekko_porosus_Sabtang	Sabtang
+
+# Batan:1 Sabtang:1

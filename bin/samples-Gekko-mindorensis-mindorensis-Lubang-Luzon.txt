@@ -1,0 +1,11 @@
+CDS_3935_Gekko_mindorensis_Lubang	Lubang
+CDS_3936_Gekko_mindorensis_Lubang	Lubang
+CDS_3867_Gekko_mindorensis_Lubang	Lubang
+CDS_3868_Gekko_mindorensis_Lubang	Lubang
+CDS_3866_Gekko_mindorensis_Lubang	Lubang
+CDS_6054_Gekko_mindorensis_Luzon	Luzon
+CDS_6051_Gekko_mindorensis_Luzon	Luzon
+CDS_6047_Gekko_mindorensis_Luzon	Luzon
+CDS_6052_Gekko_mindorensis_Luzon	Luzon
+
+# Lubang:1 Luzon:1
