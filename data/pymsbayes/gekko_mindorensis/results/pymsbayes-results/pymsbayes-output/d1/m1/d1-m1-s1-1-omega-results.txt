@@ -1,2 +1,0 @@
-omega_thresh	prob_less_than	glm_prob_less_than
-0.01	0.2681	nan

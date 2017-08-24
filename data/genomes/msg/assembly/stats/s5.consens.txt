@@ -1,8 +1,0 @@
-taxon               	nloci	f1loci	f2loci	nsites	npoly	poly
-
-    ## nloci = number of loci
-    ## f1loci = number of loci with >N depth coverage
-    ## f2loci = number of loci with >N depth and passed paralog filter
-    ## nsites = number of sites across f loci
-    ## npoly = number of polymorphic sites in nsites
-    ## poly = frequency of polymorphic sites
