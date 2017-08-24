@@ -1,0 +1,19 @@
+
+
+ -------------------------------------------------------------
+  ipyrad [v.0.7.11]
+  Interactive assembly and analysis of RAD-seq data
+ -------------------------------------------------------------
+
+  Merging assemblies: ['params-plate1.txt', 'params-plate2.txt', 'params-plate3.txt']
+  loading Assembly: plate1
+  from saved path: /gpfs01/scratch/jro0014/gekgo/data/genomes/msg/ipyrad/plate1.json
+  loading Assembly: plate2
+  from saved path: /gpfs01/scratch/jro0014/gekgo/data/genomes/msg/ipyrad/plate2.json
+  loading Assembly: plate3
+  from saved path: /gpfs01/scratch/jro0014/gekgo/data/genomes/msg/ipyrad/plate3.json
+
+  Merging succeeded. New params file for merged assembly:
+
+    params-plates123.txt
+
