@@ -21,7 +21,7 @@ def main():
         branch_name = "{g}-{sp1}-{sp2}-{isl1}-{isl2}".format(**d)
         branch_name = branch_name.replace(".", "_")
         params_path = os.path.join(os.curdir, "params-{0}.txt".format(branch_name))
-        tmp_params_path = "tmp-" + params_path
+        tmp_params_path = params_path + ".tmp"
         if not os.path.exists(params_path):
             sys.stderr.out("WARNING: {0!r} does not exist... skipping!\n".format(params_path))
             continue
