@@ -38,6 +38,7 @@ def main():
         d = m.groupdict()
         d["g"] = d["genus"][0]
         branch_name = "{g}-{sp1}-{sp2}-{isl1}-{isl2}".format(**d)
+        branch_name = branch_name.replace(".", "_")
         sh_branch_path = "ipyrad-branch-{0}.sh".format(branch_name)
         sh_branch_out_path = sh_branch_path + ".out"
         cmd = "ipyrad -p \"params-plates123.txt\" -b \"{branch_name}\" \"{pair_path}\" 1>\"{out_path}\" 2>&1".format(
