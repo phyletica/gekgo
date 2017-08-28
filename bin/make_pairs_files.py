@@ -107,7 +107,7 @@ def main():
     
     write_pair_file(
             pop1_samples = cyrt_annulatus_camiguin_sur,
-            pop2_samples = cyrt_annulatus_mindanao_east)
+            pop2_samples = cyrt_annulatus_mindanao_west)
 
     cyrt_gubaot = get_island_samples(msg_samples,
             genus = "Cyrtodactylus",
@@ -165,11 +165,13 @@ def main():
     gekko_mind_negros = get_island_samples(msg_samples,
             genus = "Gekko",
             epithet = "mindorensis",
-            island = "Negros")
+            island = "Negros",
+            locality_name = "Sipalay")
     gekko_mind_panay = get_island_samples(msg_samples,
             genus = "Gekko",
             epithet = "mindorensis",
-            island = "Panay")
+            island = "Panay",
+            locality_name = "Pilar")
 
     write_pair_file(
             pop1_samples = gekko_mind_negros,
