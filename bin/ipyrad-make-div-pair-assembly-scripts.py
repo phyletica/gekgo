@@ -26,7 +26,7 @@ fi
 
 def main():
     ppn = 10
-    hours = 50
+    hours = 2
     pair_file_pattern = re.compile(r"^samples-(?P<genus>[a-zA-Z]+)-(?P<sp1>[a-z\.]+)-(?P<sp2>[a-z\.]+)-(?P<isl1>[a-zA-Z]+)-(?P<isl2>[a-zA-Z]+)\.txt$")
     pair_paths = glob.glob(os.path.join("samples-[CG]*.txt"))
     for path in pair_paths:
