@@ -10,12 +10,14 @@ then
     mkdir -p "$MSG_ALIGNMENTS_DIR"
 fi
 
-for loci_path in ${MSG_IPYRAD_DIR}/*_outfiles/*.loci
+for loci_path in ${MSG_IPYRAD_DIR}/*_outfiles/*.loci.gz
 do
     loci_file_name="$(basename "$loci_path")"
     prefix="${loci_file_name%.*}"
+    prefix="${prefix%.*}"
     nex_path="${MSG_ALIGNMENTS_DIR}/${prefix}.nex"
     biallelic_nex_path="${MSG_ALIGNMENTS_DIR}/${prefix}-polyallelic-sites-removed.nex"
 
     loci2nex "$loci_path" 1>"$nex_path" 2>>"$stderrout"
+    loci2nex --remove-triallelic-sites "$loci_path" 1>"$biallelic_nex_path" 2>>"$stderrout"
 done
