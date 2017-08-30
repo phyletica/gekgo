@@ -1,0 +1,96 @@
+sumcoevolity version 0.1.0 master 41e5e8f8316a 2017-08-30 10:12:33
+
+Command: /home/jro0014/Environment/bin/loci2nex /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/C-annulatus-annulatus-CamiguinSur-Mindanao_outfiles/C-annulatus-annulatus-CamiguinSur-Mindanao.loci
+	Number of taxa:  8
+	Number of loci:  4382
+	Number of sites: 399885
+	Number of triallelic sites found:   45
+	Number of triallelic sites removed: 0
+sumcoevolity version 0.1.0 master 41e5e8f8316a 2017-08-30 10:12:33
+
+Command: /home/jro0014/Environment/bin/loci2nex /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/C-gubaot-sumuroi-Leyte-Samar_outfiles/C-gubaot-sumuroi-Leyte-Samar.loci
+	Number of taxa:  10
+	Number of loci:  19282
+	Number of sites: 1761554
+	Number of triallelic sites found:   387
+	Number of triallelic sites removed: 0
+sumcoevolity version 0.1.0 master 41e5e8f8316a 2017-08-30 10:12:33
+
+Command: /home/jro0014/Environment/bin/loci2nex /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-Luzon-Polillo_outfiles/C-philippinicus-philippinicus-Luzon-Polillo.loci
+	Number of taxa:  10
+	Number of loci:  19879
+	Number of sites: 1814580
+	Number of triallelic sites found:   188
+	Number of triallelic sites removed: 0
+sumcoevolity version 0.1.0 master 41e5e8f8316a 2017-08-30 10:12:33
+
+Command: /home/jro0014/Environment/bin/loci2nex /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-Negros-Panay_outfiles/C-philippinicus-philippinicus-Negros-Panay.loci
+	Number of taxa:  6
+	Number of loci:  8521
+	Number of sites: 776916
+	Number of triallelic sites found:   23
+	Number of triallelic sites removed: 0
+sumcoevolity version 0.1.0 master 41e5e8f8316a 2017-08-30 10:12:33
+
+Command: /home/jro0014/Environment/bin/loci2nex /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-Sibuyan-Tablas_outfiles/C-philippinicus-philippinicus-Sibuyan-Tablas.loci
+	Number of taxa:  6
+	Number of loci:  21698
+	Number of sites: 1979041
+	Number of triallelic sites found:   64
+	Number of triallelic sites removed: 0
+sumcoevolity version 0.1.0 master 41e5e8f8316a 2017-08-30 10:12:33
+
+Command: /home/jro0014/Environment/bin/loci2nex /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Caluya-Mindoro_outfiles/G-mindorensis-mindorensis-Caluya-Mindoro.loci
+	Number of taxa:  9
+	Number of loci:  18719
+	Number of sites: 1707378
+	Number of triallelic sites found:   90
+	Number of triallelic sites removed: 0
+sumcoevolity version 0.1.0 master 41e5e8f8316a 2017-08-30 10:12:33
+
+Command: /home/jro0014/Environment/bin/loci2nex /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Lubang-Luzon_outfiles/G-mindorensis-mindorensis-Lubang-Luzon.loci
+	Number of taxa:  9
+	Number of loci:  18196
+	Number of sites: 1659791
+	Number of triallelic sites found:   74
+	Number of triallelic sites removed: 0
+sumcoevolity version 0.1.0 master 41e5e8f8316a 2017-08-30 10:12:33
+
+Command: /home/jro0014/Environment/bin/loci2nex /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-MaestreDeCampo-Masbate_outfiles/G-mindorensis-mindorensis-MaestreDeCampo-Masbate.loci
+	Number of taxa:  8
+	Number of loci:  16079
+	Number of sites: 1465541
+	Number of triallelic sites found:   36
+	Number of triallelic sites removed: 0
+sumcoevolity version 0.1.0 master 41e5e8f8316a 2017-08-30 10:12:33
+
+Command: /home/jro0014/Environment/bin/loci2nex /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Negros-Panay_outfiles/G-mindorensis-mindorensis-Negros-Panay.loci
+	Number of taxa:  7
+	Number of loci:  19890
+	Number of sites: 1813717
+	Number of triallelic sites found:   31
+	Number of triallelic sites removed: 0
+sumcoevolity version 0.1.0 master 41e5e8f8316a 2017-08-30 10:12:33
+
+Command: /home/jro0014/Environment/bin/loci2nex /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-porosus-porosus-Batan-Sabtang_outfiles/G-porosus-porosus-Batan-Sabtang.loci
+	Number of taxa:  8
+	Number of loci:  16457
+	Number of sites: 1500033
+	Number of triallelic sites found:   35
+	Number of triallelic sites removed: 0
+sumcoevolity version 0.1.0 master 41e5e8f8316a 2017-08-30 10:12:33
+
+Command: /home/jro0014/Environment/bin/loci2nex /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-romblon-romblon-Romblon-Tablas_outfiles/G-romblon-romblon-Romblon-Tablas.loci
+	Number of taxa:  8
+	Number of loci:  7563
+	Number of sites: 689394
+	Number of triallelic sites found:   67
+	Number of triallelic sites removed: 0
+sumcoevolity version 0.1.0 master 41e5e8f8316a 2017-08-30 10:12:33
+
+Command: /home/jro0014/Environment/bin/loci2nex /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-sp_a-sp_b-Dalupiri-CamiguinNorte_outfiles/G-sp_a-sp_b-Dalupiri-CamiguinNorte.loci
+	Number of taxa:  10
+	Number of loci:  15331
+	Number of sites: 1397426
+	Number of triallelic sites found:   34
+	Number of triallelic sites removed: 0
