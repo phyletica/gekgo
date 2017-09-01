@@ -13,4 +13,4 @@ fi
 
 prefix=../../data/genomes/msg/ecoevolity-output/run-2
 
-ecoevolity --seed 939951783 --prefix ../../data/genomes/msg/ecoevolity-output/run-2 --relax-missing-sites --relax-constant-sites ../../data/genomes/msg/ecoevolity-configs/gekko-nopoly-varonly.yml 1>../../data/genomes/msg/ecoevolity-output/run-2-gekko-nopoly-varonly.out 2>&1
+ecoevolity --seed 939951783 --prefix ../../data/genomes/msg/ecoevolity-output/run-2 --relax-missing-sites --relax-constant-sites --relax-triallelic-sites ../../data/genomes/msg/ecoevolity-configs/gekko-nopoly-varonly.yml 1>../../data/genomes/msg/ecoevolity-output/run-2-gekko-nopoly-varonly.out 2>&1

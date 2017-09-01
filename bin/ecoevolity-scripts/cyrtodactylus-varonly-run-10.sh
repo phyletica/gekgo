@@ -13,4 +13,4 @@ fi
 
 prefix=../../data/genomes/msg/ecoevolity-output/run-10
 
-ecoevolity --seed 606065625 --prefix ../../data/genomes/msg/ecoevolity-output/run-10 --relax-missing-sites --relax-constant-sites ../../data/genomes/msg/ecoevolity-configs/cyrtodactylus-varonly.yml 1>../../data/genomes/msg/ecoevolity-output/run-10-cyrtodactylus-varonly.out 2>&1
+ecoevolity --seed 606065625 --prefix ../../data/genomes/msg/ecoevolity-output/run-10 --relax-missing-sites --relax-constant-sites --relax-triallelic-sites ../../data/genomes/msg/ecoevolity-configs/cyrtodactylus-varonly.yml 1>../../data/genomes/msg/ecoevolity-output/run-10-cyrtodactylus-varonly.out 2>&1
