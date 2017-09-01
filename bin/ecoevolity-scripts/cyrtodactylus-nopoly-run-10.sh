@@ -13,4 +13,4 @@ fi
 
 prefix=../../data/genomes/msg/ecoevolity-output/run-10
 
-ecoevolity --seed 836387978 --prefix ../../data/genomes/msg/ecoevolity-output/run-10 --relax-missing-sites --relax-constant-sites ../../data/genomes/msg/ecoevolity-configs/cyrtodactylus-nopoly.yml 1>../../data/genomes/msg/ecoevolity-output/run-10-cyrtodactylus-nopoly.out 2>&1
+ecoevolity --seed 420825337 --prefix ../../data/genomes/msg/ecoevolity-output/run-10 --relax-missing-sites --relax-constant-sites ../../data/genomes/msg/ecoevolity-configs/cyrtodactylus-nopoly.yml 1>../../data/genomes/msg/ecoevolity-output/run-10-cyrtodactylus-nopoly.out 2>&1
