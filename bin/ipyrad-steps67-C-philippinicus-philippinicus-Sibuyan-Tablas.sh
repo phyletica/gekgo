@@ -12,4 +12,4 @@ then
     condaenv
 fi
 
-ipyrad -p "params-C-philippinicus-philippinicus-Sibuyan-Tablas.txt" -s 67 -c 10 1>"ipyrad-steps67-C-philippinicus-philippinicus-Sibuyan-Tablas.sh.out" 2>&1
+ipyrad -f -p "params-C-philippinicus-philippinicus-Sibuyan-Tablas.txt" -s 67 -c 10 1>"ipyrad-steps67-C-philippinicus-philippinicus-Sibuyan-Tablas.sh.out" 2>&1

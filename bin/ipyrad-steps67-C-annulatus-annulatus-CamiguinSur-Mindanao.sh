@@ -12,4 +12,4 @@ then
     condaenv
 fi
 
-ipyrad -p "params-C-annulatus-annulatus-CamiguinSur-Mindanao.txt" -s 67 -c 10 1>"ipyrad-steps67-C-annulatus-annulatus-CamiguinSur-Mindanao.sh.out" 2>&1
+ipyrad -f -p "params-C-annulatus-annulatus-CamiguinSur-Mindanao.txt" -s 67 -c 10 1>"ipyrad-steps67-C-annulatus-annulatus-CamiguinSur-Mindanao.sh.out" 2>&1

@@ -12,4 +12,4 @@ then
     condaenv
 fi
 
-ipyrad -p "params-G-sp_a-sp_b-Dalupiri-CamiguinNorte.txt" -s 67 -c 10 1>"ipyrad-steps67-G-sp_a-sp_b-Dalupiri-CamiguinNorte.sh.out" 2>&1
+ipyrad -f -p "params-G-sp_a-sp_b-Dalupiri-CamiguinNorte.txt" -s 67 -c 10 1>"ipyrad-steps67-G-sp_a-sp_b-Dalupiri-CamiguinNorte.sh.out" 2>&1

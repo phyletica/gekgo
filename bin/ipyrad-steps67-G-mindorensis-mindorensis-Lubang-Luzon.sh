@@ -12,4 +12,4 @@ then
     condaenv
 fi
 
-ipyrad -p "params-G-mindorensis-mindorensis-Lubang-Luzon.txt" -s 67 -c 10 1>"ipyrad-steps67-G-mindorensis-mindorensis-Lubang-Luzon.sh.out" 2>&1
+ipyrad -f -p "params-G-mindorensis-mindorensis-Lubang-Luzon.txt" -s 67 -c 10 1>"ipyrad-steps67-G-mindorensis-mindorensis-Lubang-Luzon.sh.out" 2>&1

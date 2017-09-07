@@ -12,4 +12,4 @@ then
     condaenv
 fi
 
-ipyrad -p "params-G-porosus-porosus-Batan-Sabtang.txt" -s 67 -c 10 1>"ipyrad-steps67-G-porosus-porosus-Batan-Sabtang.sh.out" 2>&1
+ipyrad -f -p "params-G-porosus-porosus-Batan-Sabtang.txt" -s 67 -c 10 1>"ipyrad-steps67-G-porosus-porosus-Batan-Sabtang.sh.out" 2>&1

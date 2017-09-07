@@ -51,7 +51,7 @@ def main():
 
         sh_assemble_path = "ipyrad-steps67-{0}.sh".format(branch_name)
         sh_assemble_out_path = sh_assemble_path + ".out"
-        cmd = "ipyrad -p \"params-{branch_name}.txt\" -s 67 -c {ppn} 1>\"{out_path}\" 2>&1".format(
+        cmd = "ipyrad -f -p \"params-{branch_name}.txt\" -s 67 -c {ppn} 1>\"{out_path}\" 2>&1".format(
                 branch_name = branch_name,
                 ppn = ppn,
                 out_path = sh_assemble_out_path)
