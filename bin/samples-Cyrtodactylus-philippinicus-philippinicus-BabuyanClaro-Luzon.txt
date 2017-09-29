@@ -1,0 +1,6 @@
+RMB_5906_Cyrtodactylus_philippinicus_BabuyanClaro	BabuyanClaro
+RMB_5905_Cyrtodactylus_philippinicus_BabuyanClaro	BabuyanClaro
+RMB_15212_Cyrtodactylus_philippinicus_Luzon	Luzon
+RMB_15119_Cyrtodactylus_philippinicus_Luzon	Luzon
+
+# BabuyanClaro:1 Luzon:1

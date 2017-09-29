@@ -2,7 +2,6 @@
 #PBS -l nodes=1:ppn=20
 #PBS -l walltime=1:00:00
 #PBS -j oe
-#PBS -l jobflags=ADVRES:jro0014_lab.56281
 
 if [ -n "$PBS_JOBNAME" ]
 then

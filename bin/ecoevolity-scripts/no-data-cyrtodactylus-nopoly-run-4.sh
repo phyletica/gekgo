@@ -1,8 +1,7 @@
 #! /bin/sh
 #PBS -l nodes=1:ppn=1
-#PBS -l walltime=10:00:00
+#PBS -l walltime=20:00:00
 #PBS -j oe
-#PBS -l jobflags=ADVRES:jro0014_lab.56281
 
 if [ -n "$PBS_JOBNAME" ]
 then
@@ -13,4 +12,4 @@ fi
 
 prefix=../../data/genomes/msg/ecoevolity-output/no-data-run-4
 
-ecoevolity --seed 883534866 --prefix ../../data/genomes/msg/ecoevolity-output/no-data-run-4 --ignore-data --relax-missing-sites --relax-constant-sites --relax-triallelic-sites ../../data/genomes/msg/ecoevolity-configs/cyrtodactylus-nopoly.yml 1>../../data/genomes/msg/ecoevolity-output/no-data-run-4-cyrtodactylus-nopoly.out 2>&1
+ecoevolity --seed 608292408 --prefix ../../data/genomes/msg/ecoevolity-output/no-data-run-4 --ignore-data --relax-missing-sites --relax-constant-sites --relax-triallelic-sites ../../data/genomes/msg/ecoevolity-configs/cyrtodactylus-nopoly.yml 1>../../data/genomes/msg/ecoevolity-output/no-data-run-4-cyrtodactylus-nopoly.out 2>&1

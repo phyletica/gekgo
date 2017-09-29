@@ -1,0 +1,9 @@
+SP_6891_Cyrtodactylus_baluensis_Kinabalu	Kinabalu
+SP_6906_Cyrtodactylus_baluensis_Kinabalu	Kinabalu
+SP_6892_Cyrtodactylus_baluensis_Kinabalu	Kinabalu
+RMB_7859_Cyrtodactylus_redimiculus_Palawan	Palawan
+RMB_7757_Cyrtodactylus_redimiculus_Palawan	Palawan
+RMB_7842_Cyrtodactylus_redimiculus_Palawan	Palawan
+RMB_7873_Cyrtodactylus_redimiculus_Palawan	Palawan
+
+# Kinabalu:1 Palawan:1

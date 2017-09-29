@@ -6,8 +6,8 @@ event_model_prior:
                 estimate: true
                 prior:
                     gamma_distribution:
-                        shape: 1.5
-                        scale: 12.5
+                        shape: 1.1
+                        scale: 56.1
 
 event_time_prior:
     exponential_distribution:
@@ -23,19 +23,19 @@ operator_settings:
     operators:
         ConcentrationScaler:
             weight: 3.0
-            scale: 0.1
+            scale: 1.5
         ModelOperator:
-            weight: 3.0
-            number_of_auxiliary_categories: 2
+            weight: 6.0
+            number_of_auxiliary_categories: 3
         TimeSizeRateMixer:
             weight: 3.0
-            scale: 0.02
+            scale: 0.04
         TimeSizeRateScaler:
             weight: 0.0
             scale: 0.02
         EventTimeScaler:
             weight: 1.0
-            scale: 0.02
+            scale: 0.04
 
 global_comparison_settings:
     ploidy: 2
@@ -79,9 +79,15 @@ global_comparison_settings:
 
 comparisons:
 - comparison:
-    path: "../alignments/C-annulatus-annulatus-CamiguinSur-Mindanao-polyallelic-sites-removed.nex"
+    path: "../alignments/C-annulatus-annulatus-Bohol-CamiguinSur-polyallelic-sites-removed.nex"
+- comparison:
+    path: "../alignments/C-baluensis-redimiculus-Kinabalu-Palawan-polyallelic-sites-removed.nex"
 - comparison:
     path: "../alignments/C-gubaot-sumuroi-Leyte-Samar-polyallelic-sites-removed.nex"
+- comparison:
+    path: "../alignments/C-philippinicus-philippinicus-BabuyanClaro-Luzon-polyallelic-sites-removed.nex"
+- comparison:
+    path: "../alignments/C-philippinicus-philippinicus-CamiguinNorte-Luzon-polyallelic-sites-removed.nex"
 - comparison:
     path: "../alignments/C-philippinicus-philippinicus-Luzon-Polillo-polyallelic-sites-removed.nex"
 - comparison:

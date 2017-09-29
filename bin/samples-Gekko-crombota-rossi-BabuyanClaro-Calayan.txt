@@ -1,0 +1,12 @@
+RMB_5954_Gekko_crombota_BabuyanClaro	BabuyanClaro
+RMB_5970_Gekko_crombota_BabuyanClaro	BabuyanClaro
+RMB_5969_Gekko_crombota_BabuyanClaro	BabuyanClaro
+RMB_5968_Gekko_crombota_BabuyanClaro	BabuyanClaro
+RMB_5953_Gekko_crombota_BabuyanClaro	BabuyanClaro
+RMB_6058_Gekko_rossi_Calayan	Calayan
+RMB_6059_Gekko_rossi_Calayan	Calayan
+RMB_6052_Gekko_rossi_Calayan	Calayan
+RMB_6056_Gekko_rossi_Calayan	Calayan
+RMB_6060_Gekko_rossi_Calayan	Calayan
+
+# BabuyanClaro:1 Calayan:1

@@ -14,13 +14,11 @@ import gekgo_util
 
 _RNG = random.Random()
 
-def get_pbs_header(restrict_nodes = False, walltime = "5:00:00"):
+def get_pbs_header(walltime = "5:00:00"):
     s = ("#! /bin/sh\n"
          "#PBS -l nodes=1:ppn=1\n"
          "#PBS -l walltime={0}\n"
          "#PBS -j oe\n".format(walltime))
-    if restrict_nodes:
-        s += "#PBS -l jobflags=ADVRES:jro0014_lab.56281\n"
     s += ("\n"
           "if [ -n \"$PBS_JOBNAME\" ]\n"
           "then\n"
@@ -32,7 +30,6 @@ def get_pbs_header(restrict_nodes = False, walltime = "5:00:00"):
 
 def write_qsub(config_path,
         run_number = 1,
-        restrict_nodes = False,
         walltime = "2:00:00",
         rng = _RNG):
     config_name = os.path.basename(config_path)
@@ -53,7 +50,7 @@ def write_qsub(config_path,
     no_data_stdout_path = no_data_prefix + "-" + config_prefix + ".out"
     if not os.path.exists(qsub_path):
         with open(qsub_path, 'w') as out:
-            out.write(get_pbs_header(restrict_nodes, walltime))
+            out.write(get_pbs_header(walltime))
             out.write("prefix={0}\n\n".format(prefix))
             out.write(
                     "ecoevolity --seed {seed} --prefix {prefix} "
@@ -67,7 +64,7 @@ def write_qsub(config_path,
                     stdout_path = stdout_path))
     if not os.path.exists(no_data_qsub_path):
         with open(no_data_qsub_path, 'w') as out:
-            out.write(get_pbs_header(restrict_nodes, walltime))
+            out.write(get_pbs_header(walltime))
             out.write("prefix={0}\n\n".format(no_data_prefix))
             out.write(
                     "ecoevolity --seed {seed} --prefix {prefix} "
@@ -110,7 +107,7 @@ def main_cli(argv = sys.argv):
     parser.add_argument('--walltime',
             action = 'store',
             type = str,
-            default = '10:00:00',
+            default = '20:00:00',
             help = 'Walltime for qsub scripts (Default: 5:00:00).')
 
     if argv == sys.argv:
@@ -133,7 +130,6 @@ def main_cli(argv = sys.argv):
             write_qsub(
                     config_path = rel_config_path,
                     run_number = i + 1,
-                    restrict_nodes = True,
                     walltime = args.walltime)
 
 

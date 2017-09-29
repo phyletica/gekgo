@@ -5,15 +5,11 @@ import sys
 import re
 import glob
 
-def get_pbs_header(ppn = 1, hours = 1, restrict_nodes = False):
-    reservation = ""
-    if restrict_nodes:
-        reservation = "#PBS -l jobflags=ADVRES:jro0014_lab.56281"
+def get_pbs_header(ppn = 1, hours = 1):
     return """#! /bin/sh
 #PBS -l nodes=1:ppn={0}
 #PBS -l walltime={1}:00:00
 #PBS -j oe
-{2}
 
 if [ -n \"$PBS_JOBNAME\" ]
 then
@@ -22,22 +18,29 @@ then
     condaenv on
     condaenv
 fi
-""".format(ppn, hours, reservation)
+""".format(ppn, hours)
 
 def main():
     ppn = 10
-    hours = 2
+    hours = 1
     pair_file_pattern = re.compile(r"^samples-(?P<genus>[a-zA-Z]+)-(?P<sp1>[a-z\.]+)-(?P<sp2>[a-z\.]+)-(?P<isl1>[a-zA-Z]+)-(?P<isl2>[a-zA-Z]+)\.txt$")
+    genus_file_pattern = re.compile(r"^samples-(?P<genus>[a-zA-Z]+)\.txt$")
     pair_paths = glob.glob(os.path.join("samples-[CG]*.txt"))
     for path in pair_paths:
         m = pair_file_pattern.match(path)
+        is_genus_file = False
+        if not m:
+            m = genus_file_pattern.match(path)
+            is_genus_file = True
         if not m:
             sys.stderr.write("WARNING: odd file {0!r}... skipping!\n".format(
                     path))
             continue
         d = m.groupdict()
         d["g"] = d["genus"][0]
-        branch_name = "{g}-{sp1}-{sp2}-{isl1}-{isl2}".format(**d)
+        branch_name = "{genus}".format(**d)
+        if not is_genus_file:
+            branch_name = "{g}-{sp1}-{sp2}-{isl1}-{isl2}".format(**d)
         branch_name = branch_name.replace(".", "_")
         sh_branch_path = "ipyrad-branch-{0}.sh".format(branch_name)
         sh_branch_out_path = sh_branch_path + ".out"
@@ -58,8 +61,7 @@ def main():
         with open(sh_assemble_path, "w") as out:
             out.write("{0}\n".format(get_pbs_header(
                     ppn = ppn,
-                    hours = hours,
-                    restrict_nodes = True)))
+                    hours = hours)))
             out.write("{0}\n".format(cmd))
 
 if __name__ == '__main__':

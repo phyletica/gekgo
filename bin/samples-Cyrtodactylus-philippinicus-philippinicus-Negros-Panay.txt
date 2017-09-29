@@ -1,4 +1,3 @@
-CDS_4342_Cyrtodactylus_philippinicus_Negros	Negros
 CDS_4341_Cyrtodactylus_philippinicus_Negros	Negros
 CDS_4384_Cyrtodactylus_philippinicus_Negros	Negros
 CDS_1550_Cyrtodactylus_philippinicus_Panay	Panay
