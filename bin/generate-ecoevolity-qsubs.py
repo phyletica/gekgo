@@ -64,7 +64,7 @@ def write_qsub(config_path,
                     stdout_path = stdout_path))
     if not os.path.exists(no_data_qsub_path):
         with open(no_data_qsub_path, 'w') as out:
-            out.write(get_pbs_header(walltime))
+            out.write(get_pbs_header(walltime="0:10:00"))
             out.write("prefix={0}\n\n".format(no_data_prefix))
             out.write(
                     "ecoevolity --seed {seed} --prefix {prefix} "
@@ -103,12 +103,12 @@ def main_cli(argv = sys.argv):
             action = 'store',
             type = int,
             default = 10,
-            help = 'Number of qsubs to generate per config (Default: 5).')
+            help = 'Number of qsubs to generate per config (Default: 10).')
     parser.add_argument('--walltime',
             action = 'store',
             type = str,
             default = '20:00:00',
-            help = 'Walltime for qsub scripts (Default: 5:00:00).')
+            help = 'Walltime for qsub scripts (Default: 20:00:00).')
 
     if argv == sys.argv:
         args = parser.parse_args()
@@ -129,7 +129,7 @@ def main_cli(argv = sys.argv):
         for i in range(args.number_of_runs):
             write_qsub(
                     config_path = rel_config_path,
-                    run_number = i + 1,
+                    run_number = i,
                     walltime = args.walltime)
 
 
