@@ -16,16 +16,19 @@ _RNG = random.Random()
 
 def get_pbs_header(walltime = "5:00:00"):
     s = ("#! /bin/sh\n"
+         "#PBS -q gen28\n"
          "#PBS -l nodes=1:ppn=1\n"
          "#PBS -l walltime={0}\n"
-         "#PBS -j oe\n".format(walltime))
-    s += ("\n"
-          "if [ -n \"$PBS_JOBNAME\" ]\n"
-          "then\n"
-          "    source \"${PBS_O_HOME}/.bash_profile\"\n"
-          "    cd \"$PBS_O_WORKDIR\"\n"
-          "    module load gcc/5.3.0\n"
-          "fi\n\n")
+         "#PBS -j oe\n"
+         "#PBS -W group_list=jro0014_lab\n"
+         "#PBS -W x=FLAGS:ADVRES:jro0014_s28.162459\n"
+         "\n"
+         "if [ -n \"$PBS_JOBNAME\" ]\n"
+         "then\n"
+         "    source \"${{PBS_O_HOME}}/.bash_profile\"\n"
+         "    cd \"$PBS_O_WORKDIR\"\n"
+         "    module load gcc/5.3.0\n"
+         "fi\n\n".format(walltime))
     return s
 
 def write_qsub(config_path,
@@ -43,11 +46,11 @@ def write_qsub(config_path,
     seed = rng.randint(1, 999999999)
     prefix_dir = os.path.relpath(gekgo_util.ECOEVOLITY_OUTPUT_DIR,
             gekgo_util.ECOEVOLITY_QSUB_DIR)
-    prefix = os.path.join(prefix_dir, "run-{0}".format(run_number))
+    prefix = os.path.join(prefix_dir, "run-{0}-".format(run_number))
     no_data_prefix = os.path.join(prefix_dir,
-            "no-data-run-{0}".format(run_number))
-    stdout_path = prefix + "-" + config_prefix + ".out"
-    no_data_stdout_path = no_data_prefix + "-" + config_prefix + ".out"
+            "no-data-run-{0}-".format(run_number))
+    stdout_path = prefix + config_prefix + ".out"
+    no_data_stdout_path = no_data_prefix + config_prefix + ".out"
     if not os.path.exists(qsub_path):
         with open(qsub_path, 'w') as out:
             out.write(get_pbs_header(walltime))
