@@ -1,7 +1,6 @@
 #!/bin/bash
-#PBS -l nodes=1:ppn=1
-#PBS -l walltime=1:00:00
-#PBS -j oe 
+
+set -e -x
 
 if [ -n "$PBS_JOBNAME" ]
 then
@@ -108,10 +107,10 @@ for rate in "020" "200"
 do
     for suffix in "-" "-nopoly-"
     do
-        pyco-sumtimes -f -z -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-cyrtodactylus${suffix}rate${rate}-" run-?-cyrtodactylus${suffix}rate${rate}-state-run-1.log
-        pyco-sumsizes -f -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumsizes-cyrtodactylus${suffix}rate${rate}-" run-?-cyrtodactylus${suffix}rate${rate}-state-run-1.log
+        pyco-sumtimes -f --x-limits 0.0 0.011 -x "" -y "" -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-cyrtodactylus${suffix}rate${rate}-" run-?-cyrtodactylus${suffix}rate${rate}-state-run-1.log
+        pyco-sumsizes -f --x-limits 0.0 0.0025 -x "" -y "" -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumsizes-cyrtodactylus${suffix}rate${rate}-" run-?-cyrtodactylus${suffix}rate${rate}-state-run-1.log
         sumcoevolity -b $burnin -n 1000000 -p "${plot_dir}/sumcoevolity-cyrtodactylus${suffix}rate${rate}-" -c "../ecoevolity-configs/cyrtodactylus${suffix}rate${rate}.yml" run-?-cyrtodactylus${suffix}rate${rate}-state-run-1.log
-        pyco-sumevents -p "${plot_dir}/pyco-sumevents-cyrtodactylus${suffix}rate${rate}-" -f --no-legend "${plot_dir}/sumcoevolity-cyrtodactylus${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
+        pyco-sumevents -x "" -y "" -p "${plot_dir}/pyco-sumevents-cyrtodactylus${suffix}rate${rate}-" -f --no-legend "${plot_dir}/sumcoevolity-cyrtodactylus${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
     done
 done
 
@@ -119,10 +118,30 @@ for rate in "020" "200" "2000"
 do
     for suffix in "-" "-nopoly-"
     do
-        pyco-sumtimes -f -z -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-gekko${suffix}rate${rate}-" run-?-gekko${suffix}rate${rate}-state-run-1.log
-        pyco-sumsizes -f -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumsizes-gekko${suffix}rate${rate}-" run-?-gekko${suffix}rate${rate}-state-run-1.log
+        pyco-sumtimes -f -z --x-limits 0.0 0.0011 -x "" -y "" -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-gekko${suffix}rate${rate}-" run-?-gekko${suffix}rate${rate}-state-run-1.log
+        pyco-sumsizes -f --x-limits 0.0 0.001 -x "" -y "" -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumsizes-gekko${suffix}rate${rate}-" run-?-gekko${suffix}rate${rate}-state-run-1.log
         sumcoevolity -b $burnin -n 1000000 -p "${plot_dir}/sumcoevolity-gekko${suffix}rate${rate}-" -c "../ecoevolity-configs/gekko${suffix}rate${rate}.yml" run-?-gekko${suffix}rate${rate}-state-run-1.log
-        pyco-sumevents -p "${plot_dir}/pyco-sumevents-gekko${suffix}rate${rate}-" -f --no-legend "${plot_dir}/sumcoevolity-gekko${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
+        pyco-sumevents -x "" -y "" -p "${plot_dir}/pyco-sumevents-gekko${suffix}rate${rate}-" -f --no-legend "${plot_dir}/sumcoevolity-gekko${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
+    done
+done
+
+for taxon in "cyrtodactylus" "gekko"
+do
+    for suffix in "-conc-" "-conc5-"
+    do
+        rate="200"
+        time_upper="0.011"
+        size_upper="0.0025"
+        if [ "$taxon" = "gekko" ]
+        then
+            rate="2000"
+            time_upper="0.0011"
+            size_upper="0.001"
+        fi
+        pyco-sumtimes -f -z --x-limits 0.0 "$time_upper" -x "" -y "" -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-${taxon}${suffix}rate${rate}-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+        pyco-sumsizes -f --x-limits 0.0 "$size_upper"  -x "" -y "" -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumsizes-${taxon}${suffix}rate${rate}-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+        sumcoevolity -b $burnin -n 1000000 -p "${plot_dir}/sumcoevolity-${taxon}${suffix}rate${rate}-" -c "../ecoevolity-configs/${taxon}${suffix}rate${rate}.yml" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+        pyco-sumevents -x "" -y "" -p "${plot_dir}/pyco-sumevents-${taxon}${suffix}rate${rate}-" -f --no-legend "${plot_dir}/sumcoevolity-${taxon}${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
     done
 done
 
@@ -132,10 +151,10 @@ for rate in "020" "200"
 do
     for suffix in "-" "-nopoly-"
     do
-        pyco-sumtimes -f -z -b $burnin "${label_array[@]}" -p "${plot_dir}/no-data-pyco-sumtimes-cyrtodactylus${suffix}rate${rate}-" no-data-run-?-cyrtodactylus${suffix}rate${rate}-state-run-1.log
-        pyco-sumsizes -f -b $burnin "${label_array[@]}" -p "${plot_dir}/no-data-pyco-sumsizes-cyrtodactylus${suffix}rate${rate}-" no-data-run-?-cyrtodactylus${suffix}rate${rate}-state-run-1.log
+        pyco-sumtimes -f -z -x "" -y "" -b $burnin "${label_array[@]}" -p "${plot_dir}/no-data-pyco-sumtimes-cyrtodactylus${suffix}rate${rate}-" no-data-run-?-cyrtodactylus${suffix}rate${rate}-state-run-1.log
+        pyco-sumsizes -f -x "" -y "" -b $burnin "${label_array[@]}" -p "${plot_dir}/no-data-pyco-sumsizes-cyrtodactylus${suffix}rate${rate}-" no-data-run-?-cyrtodactylus${suffix}rate${rate}-state-run-1.log
         sumcoevolity -b $burnin -n 1000000 -p "${plot_dir}/no-data-sumcoevolity-cyrtodactylus${suffix}rate${rate}-" -c "../ecoevolity-configs/cyrtodactylus${suffix}rate${rate}.yml" no-data-run-?-cyrtodactylus${suffix}rate${rate}-state-run-1.log
-        pyco-sumevents -p "${plot_dir}/no-data-pyco-sumevents-cyrtodactylus${suffix}rate${rate}-" -f --no-legend "${plot_dir}/no-data-sumcoevolity-cyrtodactylus${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
+        pyco-sumevents -x "" -y "" -p "${plot_dir}/no-data-pyco-sumevents-cyrtodactylus${suffix}rate${rate}-" -f --no-legend "${plot_dir}/no-data-sumcoevolity-cyrtodactylus${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
     done
 done
 
@@ -143,11 +162,65 @@ for rate in "020" "200" "2000"
 do
     for suffix in "-" "-nopoly-"
     do
-        pyco-sumtimes -f -z -b $burnin "${label_array[@]}" -p "${plot_dir}/no-data-pyco-sumtimes-gekko${suffix}rate${rate}-" no-data-run-?-gekko${suffix}rate${rate}-state-run-1.log
-        pyco-sumsizes -f -b $burnin "${label_array[@]}" -p "${plot_dir}/no-data-pyco-sumsizes-gekko${suffix}rate${rate}-" no-data-run-?-gekko${suffix}rate${rate}-state-run-1.log
+        pyco-sumtimes -f -z -x "" -y "" -b $burnin "${label_array[@]}" -p "${plot_dir}/no-data-pyco-sumtimes-gekko${suffix}rate${rate}-" no-data-run-?-gekko${suffix}rate${rate}-state-run-1.log
+        pyco-sumsizes -f -x "" -y "" -b $burnin "${label_array[@]}" -p "${plot_dir}/no-data-pyco-sumsizes-gekko${suffix}rate${rate}-" no-data-run-?-gekko${suffix}rate${rate}-state-run-1.log
         sumcoevolity -b $burnin -n 1000000 -p "${plot_dir}/no-data-sumcoevolity-gekko${suffix}rate${rate}-" -c "../ecoevolity-configs/gekko${suffix}rate${rate}.yml" no-data-run-?-gekko${suffix}rate${rate}-state-run-1.log
-        pyco-sumevents -p "${plot_dir}/no-data-pyco-sumevents-gekko${suffix}rate${rate}-" -f --no-legend "${plot_dir}/no-data-sumcoevolity-gekko${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
+        pyco-sumevents -x "" -y "" -p "${plot_dir}/no-data-pyco-sumevents-gekko${suffix}rate${rate}-" -f --no-legend "${plot_dir}/no-data-sumcoevolity-gekko${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
     done
+done
+
+for taxon in "cyrtodactylus" "gekko"
+do
+    for suffix in "-conc-" "-conc5-"
+    do
+        rate="200"
+        if [ "$taxon" = "gekko" ]
+        then
+            rate="2000"
+        fi
+        pyco-sumtimes -f -z -x "" -y "" -b $burnin "${label_array[@]}" -p "${plot_dir}/no-data-pyco-sumtimes-${taxon}${suffix}rate${rate}-" no-data-run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+        pyco-sumsizes -f -x "" -y "" -b $burnin "${label_array[@]}" -p "${plot_dir}/no-data-pyco-sumsizes-${taxon}${suffix}rate${rate}-" no-data-run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+        sumcoevolity -b $burnin -n 1000000 -p "${plot_dir}/no-data-sumcoevolity-${taxon}${suffix}rate${rate}-" -c "../ecoevolity-configs/${taxon}${suffix}rate${rate}.yml" no-data-run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+        pyco-sumevents -x "" -y "" -p "${plot_dir}/no-data-pyco-sumevents-${taxon}${suffix}rate${rate}-" -f --no-legend "${plot_dir}/no-data-sumcoevolity-${taxon}${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
+    done
+done
+
+
+# make pretty single plots
+for taxon in "cyrtodactylus" "gekko"
+do
+    for suffix in "-conc5-"
+    do
+        rate="200"
+        time_ylabel="Cyrtodactylus comparison"
+        size_ylabel="Cyrtodactylus population"
+        if [ "$taxon" = "gekko" ]
+        then
+            rate="2000"
+            time_ylabel="Gekko comparison"
+            size_ylabel="Gekko population"
+        fi
+        pyco-sumtimes -f -z -y "$time_ylabel" -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-${taxon}${suffix}rate${rate}-pretty-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+        pyco-sumsizes -f -y "$size_ylabel" -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumsizes-${taxon}${suffix}rate${rate}-pretty-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+        pyco-sumevents -p "${plot_dir}/pyco-sumevents-${taxon}${suffix}rate${rate}-pretty-" -f "${plot_dir}/sumcoevolity-${taxon}${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
+    done
+done
+
+cd "$plot_dir"
+
+for p in pyco-*.pdf
+do
+    pdfcrop "$p" "$p"
+done
+
+for p in grid-*.tex
+do
+    latexmk -pdf "$p"
+done
+
+for p in grid-*.pdf
+do
+    pdfcrop "$p" "$p"
 done
 
 cd "$current_dir"
