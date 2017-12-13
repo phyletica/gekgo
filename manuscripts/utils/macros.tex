@@ -1,0 +1,51 @@
+\newcommand{\citationNeeded}{\textcolor{magenta}{\textbf{[CITATION NEEDED!]}}\xspace}
+\newcommand{\tableNeeded}{\textcolor{magenta}{\textbf{[TABLE NEEDED!]}}\xspace}
+\newcommand{\figureNeeded}{\textcolor{magenta}{\textbf{[FIGURE NEEDED!]}}\xspace}
+\newcommand{\highLight}[1]{\textcolor{magenta}{\MakeUppercase{#1}}}
+
+\newcommand{\editorialNote}[1]{\textcolor{red}{[\textit{#1}]}}
+\newcommand{\ignore}[1]{}
+\newcommand{\addTail}[1]{\textit{#1}.---}
+\newcommand{\super}[1]{\ensuremath{^{\textrm{#1}}}}
+\newcommand{\sub}[1]{\ensuremath{_{\textrm{#1}}}}
+\newcommand{\dC}{\ensuremath{^\circ{\textrm{C}}}}
+\newcommand{\tb}{\hspace{2em}}
+\newcommand{\tn}{\tabularnewline}
+\newcommand{\spp}[1]{\textit{#1}}
+
+\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+
+\newcommand{\change}[2]{{\color{red} #2}\xspace}
+\newcommand{\thought}[1]{\textcolor{purple}{THOUGHT: #1}}
+
+\newcommand{\widthFigure}[5]{\begin{figure}[htbp]
+\begin{center}
+    \includegraphics[width=#1\textwidth]{#2}
+    \captionsetup{#3}
+    \caption{#4}
+    \label{#5}
+    \end{center}
+    \end{figure}}
+
+\newcommand{\heightFigure}[5]{\begin{figure}[htbp]
+\begin{center}
+    \includegraphics[height=#1]{#2}
+    \captionsetup{#3}
+    \caption{#4}
+    \label{#5}
+    \end{center}
+    \end{figure}}
+
+\newcommand{\smartFigure}[4]{%
+    \begin{figure}[htbp]
+        \begin{center}
+            \includegraphics[width=\textwidth,height=0.95\textheight,keepaspectratio]{#1}
+            \captionsetup{#2}
+            \caption{#3}
+            \label{#4}
+        \end{center}
+    \end{figure}
+}
+
+\newcommand{\mFigure}[3]{\smartFigure{#1}{listformat=figList}{#2}{#3}\clearpage}
+\newcommand{\siFigure}[3]{\smartFigure{#1}{name=Figure S, labelformat=noSpace, listformat=sFigList}{#2}{#3}\clearpage}

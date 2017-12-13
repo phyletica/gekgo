@@ -1,0 +1,17 @@
+% Define tightly formated list environments via enumitem
+\usepackage{enumitem}
+\newenvironment{tightItemize}{%
+\begin{itemize}[noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt]}
+{\end{itemize}}
+
+\newenvironment{veryTightItemize}{%
+\begin{itemize}[noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt, leftmargin=*]}
+{\end{itemize}}
+
+\newenvironment{tightEnumerate}{%
+\begin{enumerate}[noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt]}
+{\end{enumerate}}
+
+\newenvironment{veryTightEnumerate}{%
+\begin{enumerate}[noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt, leftmargin=*]}
+{\end{enumerate}}

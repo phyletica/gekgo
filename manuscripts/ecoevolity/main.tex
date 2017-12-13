@@ -1,0 +1,115 @@
+%&<latex>
+\documentclass[letterpaper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% preamble %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{../utils/preamble.tex}
+\input{../utils/environments.tex}
+\input{../utils/macros.tex}
+\input{../utils/notation.tex}
+
+\usepackage[round]{natbib}
+
+\title{Comparative phylogeography of geckos provides support against vicariant
+    diversification across the Philippine Islands}
+
+\author[1]{Jamie R.\ Oaks \thanks{Corresponding author: \href{mailto:joaks@auburn.edu}{\tt joaks@auburn.edu}}}
+\author[2]{Rafe M.\ Brown}
+\affil[1]{Department of Biological Sciences \& Museum of Natural History,
+    Auburn University, Auburn, Alabama 36849, USA}
+\affil[2]{Biodiversity Institute and Department of Ecology and Evolutionary
+    Biology, University of Kansas, Lawrence, Kansas 66045, USA}
+
+% \date{\today}
+\date{\parbox{\linewidth}{\centering%
+    \today\endgraf\bigskip
+    \textbf{Running head}: Comparative phylogeography of Philippine geckos}}
+
+\makeatletter
+\let\msTitle\@title
+\let\msAuthor\@author
+\let\msDate\@date
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+% \doublespacing
+% \begin{linenumbers}
+
+\maketitle
+
+\begin{abstract}
+    \input{abstract.tex}
+
+    \vspace{12pt}
+    \noindent\textbf{KEY WORDS: phylogeography, biogeography, Philippines,
+        diversification} 
+\end{abstract}
+
+\newpage
+
+\input{body.tex}
+
+\section{Acknowledgments}
+\input{acknowledgments.tex}
+
+\bibliographystyle{../bib/sysbio}
+\bibliography{../bib/references}
+
+%% LIST OF FIGURES %%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\singlespacing
+
+\renewcommand\listfigurename{Figure Captions}
+\cftsetindents{fig}{0cm}{2.2cm}
+\renewcommand\cftdotsep{\cftnodots}
+\setlength\cftbeforefigskip{10pt}
+\cftpagenumbersoff{fig}
+\listoffigures
+
+
+% \end{linenumbers}
+
+%% TABLES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\singlespacing
+
+\input{tables.tex}
+
+\clearpage
+
+%% FIGURES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\input{figures.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SUPPORTING INFO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{page}{1}
+\setcounter{section}{0}
+
+\singlespacing
+
+\section*{Supporting Information}
+% PUT MAIN TEXT CITATION HERE
+\hangindent=1cm
+\noindent Title: \msTitle
+
+\bigskip
+{\noindent Authors: \msAuthor}
+
+\newpage
+\singlespacing
+
+\input{si-body.tex}
+\clearpage
+
+\input{si-tables.tex}
+\clearpage
+
+\input{si-figures.tex}
+
+\end{document}
