@@ -1,0 +1,44 @@
+\documentclass[border=10pt,varwidth=30cm]{standalone}
+\usepackage{graphicx,capt-of}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage[cm]{sfmath}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\newcounter{subfloat}
+\renewcommand{\thesubfloat}{\Alph{subfloat}}
+\newcommand{\image}[2]{%
+    \stepcounter{subfloat}%
+    \begin{tabular}[t]{@{}c@{}}
+    \thesubfloat. #1 \\
+    #2
+    \end{tabular}%
+}
+\newcommand{\insertlabel}{%
+    \small
+    \stepcounter{subfloat}%
+    \thesubfloat}
+\newcommand{\trm}[1]{\ensuremath{\textrm{\sffamily #1}}}
+
+\begin{document}
+
+\begin{figure}
+    \centering
+    \begin{tabular}{@{}llll@{}}
+        & \multicolumn{1}{c}{\large Polyallelic recoded} & \multicolumn{1}{c}{\large Polyallelic removed} & \\
+        \multirow{3}{*}[-4em]{\begin{sideways}\large \textsl{Gekko} comparison\end{sideways}}
+        & \includegraphics[width=0.23\textwidth]{./pyco-sumsizes-gekko-rate020-pycoevolity-sizes.pdf}
+        & \includegraphics[width=0.23\textwidth]{./pyco-sumsizes-gekko-nopoly-rate020-pycoevolity-sizes.pdf}
+        & \multirow{1}{*}[11em]{\begin{rotate}{270}$t\sim\trm{Exp}(\trm{mean} = 0.05)$\end{rotate}} \\
+        & \includegraphics[width=0.23\textwidth]{./pyco-sumsizes-gekko-rate200-pycoevolity-sizes.pdf}
+        & \includegraphics[width=0.23\textwidth]{./pyco-sumsizes-gekko-nopoly-rate200-pycoevolity-sizes.pdf}
+        & \multirow{1}{*}[11em]{\begin{rotate}{270}$t\sim\trm{Exp}(\trm{mean} = 0.005)$\end{rotate}} \\
+        & \includegraphics[width=0.23\textwidth]{./pyco-sumsizes-gekko-rate2000-pycoevolity-sizes.pdf}
+        & \includegraphics[width=0.23\textwidth]{./pyco-sumsizes-gekko-nopoly-rate2000-pycoevolity-sizes.pdf}
+        & \multirow{1}{*}[11em]{\begin{rotate}{270}$t\sim\trm{Exp}(\trm{mean} = 0.0005)$\end{rotate}} \\
+        & \multicolumn{2}{c}{\large Effective population size ($N_e\mu$)} & 
+    \end{tabular}
+\end{figure}
+
+\end{document}

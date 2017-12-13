@@ -1,0 +1,41 @@
+\documentclass[border=10pt,varwidth=30cm]{standalone}
+\usepackage{graphicx,capt-of}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage[cm]{sfmath}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\newcounter{subfloat}
+\renewcommand{\thesubfloat}{\Alph{subfloat}}
+\newcommand{\image}[2]{%
+    \stepcounter{subfloat}%
+    \begin{tabular}[t]{@{}c@{}}
+    \thesubfloat. #1 \\
+    #2
+    \end{tabular}%
+}
+\newcommand{\insertlabel}{%
+    \small
+    \stepcounter{subfloat}%
+    \thesubfloat}
+\newcommand{\trm}[1]{\ensuremath{\textrm{\sffamily #1}}}
+
+\begin{document}
+
+\begin{figure}
+    \centering
+    \begin{tabular}{@{}lll@{}}
+        % & \multicolumn{1}{c}{$\alpha \sim \trm{Gamma}(0.5, 1.31)$} & \multicolumn{1}{c}{$\alpha \sim \trm{Gamma}(1.5, 3.13)$} & \multicolumn{1}{c}{$\alpha \sim \trm{Gamma}(1.1, 56.1)$} \\
+        \multirow{3}{*}[-1em]{\begin{sideways}\large \textsl{Cyrtodactylus} population\end{sideways}}
+        & \includegraphics[width=0.23\textwidth]{./pyco-sumsizes-cyrtodactylus-conc-rate200-pycoevolity-sizes.pdf}
+        & \multirow{1}{*}[11em]{\begin{rotate}{270}$\alpha \sim \trm{Gamma}(0.5, 1.31)$\end{rotate}} \\
+        & \includegraphics[width=0.23\textwidth]{./pyco-sumsizes-cyrtodactylus-conc5-rate200-pycoevolity-sizes.pdf}
+        & \multirow{1}{*}[11em]{\begin{rotate}{270}$\alpha \sim \trm{Gamma}(1.5, 3.13)$\end{rotate}} \\
+        & \includegraphics[width=0.23\textwidth]{./pyco-sumsizes-cyrtodactylus-rate200-pycoevolity-sizes.pdf}
+        & \multirow{1}{*}[11em]{\begin{rotate}{270}$\alpha \sim \trm{Gamma}(1.1, 56.1)$\end{rotate}} \\
+        & \multicolumn{1}{c}{\large Effective population size ($N_e\mu$)} & 
+    \end{tabular}
+\end{figure}
+
+\end{document}
