@@ -1,6 +1,37 @@
 \section{Introduction}
 
+An open question in biogeography is to what extent does the landscape, and
+changes to it, predict diversification.
+
+
 \section{Methods}
+
+\subsection{Genomic library preparation and sequencing}
+
+We extracted DNA from tissue using the guanidine thiocyanate method described
+by Esselstyn et.\ al.\ \citeyear{Esselstyn2008}.
+We diluted the extracted DNA for each individual to a concentration of 5
+ng/$\mu$L based on the initial concentration measured with a Qubit 2.0
+Fluorometer.
+We generated three restriction-site associated DNA sequence (RADseq) libraries,
+each with 96 individuals, using the multiplexed shotgun genotyping (MSG)
+protocol of Andolfatto et.\ al.\ \citep{Andolfatto2011}.
+Following digestion of 50 ng of DNA with the NdeI restriction enzyme, each
+sample was ligated to one of 96 adaptors with a unique six base-pair barcode.
+After pooling the 96 samples together, we selected 250--300bp fragments to
+remain in the library using a Pippen Prep.
+For each pool of 96 size-selected samples, we performed eight separate
+polymerase chain reactions for 14 cycles (PCR) using Phusion High-Fidelity PCR
+Master Mix (NEB Biolabs) and primers that bind to common regions in the
+adaptors.
+Following PCR, we did two rounds of AMPure XP bead cleanup (Beckman Coulter,
+Inc) using a 0.8 bead volume to sample ratio.
+Each library was sequenced in one lane of an Illumina Hiseq 2500 high-output
+run, with single-end 100bp reads.
+
+\subsection{Data assembly}
+We de novo assembled the RADseq reads separately for each pair of populations
+using iPyrad version 0.7.13 \citep{ipyrad0713}.
 
 \section{Results}
 
