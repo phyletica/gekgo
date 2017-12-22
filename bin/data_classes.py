@@ -160,15 +160,67 @@ class SampleDatabase(dict):
                            'cam_extract',
                            'cam_extract_cell',
                            'date',
-                           'source',]):
+                           'source',],
+                   header = True,
+                   keys = None):
         _LOG.info('Writing database flat file to {0!r}'.format(
                 path))
-        out = open(path, 'w')
-        out.write("%s\n" % delimiter.join(fields))
-        for field_id, sample in self.iteritems():
-            out.write("%s\n" % delimiter.join([
-                    my_str(my_getattr(sample, x)) for x in fields]))
-        out.close()  
+        stream = open(path, 'w')
+        self.write_flat_file_to_stream(
+                stream = stream,
+                delimiter = delimiter,
+                fields = fields,
+                header = header,
+                keys = keys)
+        stream.close()
+
+    def write_flat_file_to_stream(self, stream, delimiter='\t',
+                   fields=['catalog_series', 
+                           'catalog_number',
+                           'field_series',
+                           'field_number',
+                           'genus',
+                           'epithet',
+                           'country',
+                           'island',
+                           'paic',
+                           'locality',
+                           'lat',
+                           'long',
+                           'tissue',
+                           'tissue_sample.found',
+                           'tissue_sample.material',
+                           'tissue_sample.preservative',
+                           'tissue_sample.tube_data',
+                           'tissue_sample.notes',
+                           'extraction.protocol',
+                           'extraction.rnase',
+                           'extraction.qubit',
+                           'extraction.notes',
+                           'extraction.gel_lane',
+                           'extraction.plate',
+                           'extraction.row',
+                           'extraction.column',
+                           'extraction.msg_barcode',
+                           'extraction.dilution',
+                           'cam_extract',
+                           'cam_extract_cell',
+                           'date',
+                           'source',],
+                   header = True,
+                   keys = None):
+        if header:
+            stream.write("%s\n" % delimiter.join(fields))
+        if keys:
+            for field_id in keys:
+                sample = self[field_id]
+                stream.write("%s\n" % delimiter.join([
+                        my_str(my_getattr(sample, x)) for x in fields]))
+        else:
+            for field_id, sample in self.iteritems():
+                stream.write("%s\n" % delimiter.join([
+                        my_str(my_getattr(sample, x)) for x in fields]))
+
 
 class Tissue(object):
     def __init__(self, **kwargs):
