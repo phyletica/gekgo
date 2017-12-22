@@ -6,6 +6,29 @@ changes to it, predict diversification.
 
 \section{Methods}
 
+\subsection{Sampling}
+For two genera of geckos, \spp{Cyrtodactylus} and \spp{Gekko}, we sampled
+individuals from pairs of populations that occur on two different islands.
+Because the climate-mediated fragmentation of the islands was a relatively
+recent phenomenon, we selected pairs of populations that were inferred to be
+closely related from previous genetic data.
+The goal was to avoid deeply divergent pairs that we know \emph{a priori} their
+divergence could not have been affected by Late Pliocene and Pleistocene
+glacial cycles.
+We also sought to sample pairs that span islands that were connected and
+fragmented during glacial cycles, and islands that were never connected.
+We included the latter as ``controls;'' because these islands were never
+connected, the divergence between the populations inhabiting them must be
+dispersal mediated, the timing of which is not expected to be clustered across
+pairs.
+Applying these criteria, we ended up with eight pairs of populations for
+\spp{Cyrtodactylus}, four of which, span islands that were connected during
+glacial periods (Table \ref{table:comparisons} \& \highLight{SX}).
+For \spp{Gekko} we also sampled eight pairs of populations, one of which span
+previously connected islands (Table \ref{table:comparisons} \& \highLight{SX}).
+\thought{Is it worth including \spp{Gekko}? With only one ``PAIC'' pair, it
+    cannot address the hypothesis of interest.}
+
 \subsection{Genomic library preparation and sequencing}
 
 We extracted DNA from tissue using the guanidine thiocyanate method described
@@ -28,6 +51,8 @@ Following PCR, we did two rounds of AMPure XP bead cleanup (Beckman Coulter,
 Inc) using a 0.8 bead volume to sample ratio.
 Each library was sequenced in one lane of an Illumina Hiseq 2500 high-output
 run, with single-end 100bp reads.
+We provide information on all of the individuals included in our three RADseq
+libraries in \highLight{Table~SX}.
 
 \subsection{Data assembly}
 We used ipyrad version 0.7.13 \citep{ipyrad0713} to assemble the raw RADseq
@@ -41,7 +66,7 @@ We approach the inference of temporally clustered divergences as a problem of
 model choice.
 Our goal is to treat the number of divergence events shared (or not) among the
 pairs of populations, and the assignment of the pairs to those events, as
-random variables to be estimated by the aligned sequence data.
+random variables to be estimated from the aligned sequence data.
 For eight pairs, there are 4,140 possible divergence models.
 I.e., there are 4,140 ways to partition the eight pairs to $\nevents = 1, 2,
 \ldots, 8$ divergence events \citep{Bell1934,Oaks2014dpp,Oaks2018ecoevolity}.
@@ -77,6 +102,10 @@ and
 $\nevents = 1$
 models, respectively.
 
+\thought{Need blurb about how \ecoevolity assumes unlinked biallelic characters,
+    but that based on simulations we analyzed all the sites and tried both
+    recoding and removing polyallelic sites.}
+
 Based on previous data \citep{Siler2012, Siler2014kikuchii}, we assumed a prior
 of \dexponential{0.0005} on divergence times for our eight pairs of \spp{Gekko}
 populations, in units of substitutions per site.
@@ -104,5 +133,17 @@ generations with the program Tracer version 1.6 \citep{Tracer16}.
 
 
 \section{Results}
+
+Figure~\ref{fig:cyrtdivtimes}
+
+Figure~\ref{fig:gekkodivtimes}
+
+Figure~\ref{fig:cyrtnevents}
+
+Figure~\ref{fig:gekkonevents}
+
+Figure~\ref{fig:cyrtpopsizes}
+
+Figure~\ref{fig:gekkopopsizes}
 
 \section{Discussion}
