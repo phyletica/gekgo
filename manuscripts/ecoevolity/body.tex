@@ -30,8 +30,78 @@ Each library was sequenced in one lane of an Illumina Hiseq 2500 high-output
 run, with single-end 100bp reads.
 
 \subsection{Data assembly}
-We de novo assembled the RADseq reads separately for each pair of populations
-using iPyrad version 0.7.13 \citep{ipyrad0713}.
+We used ipyrad version 0.7.13 \citep{ipyrad0713} to assemble the raw RADseq
+reads into loci.
+To maximize the number of assembled loci, we de novo assembled the reads
+separately for each pair of populations.
+\highLight{Details on ipyrad settings \ldots}
+
+\subsection{Inferring shared divergences}
+We approach the inference of temporally clustered divergences as a problem of
+model choice.
+Our goal is to treat the number of divergence events shared (or not) among the
+pairs of populations, and the assignment of the pairs to those events, as
+random variables to be estimated by the aligned sequence data.
+For eight pairs, there are 4,140 possible divergence models.
+I.e., there are 4,140 ways to partition the eight pairs to $\nevents = 1, 2,
+\ldots, 8$ divergence events \citep{Bell1934,Oaks2014dpp,Oaks2018ecoevolity}.
+
+Given the large number of models, and our goal of making probability statements
+about them, we used a Bayesian model-averaging approach.
+Specifically, we used a Dirichlet process prior on the the assignment of our
+pairs to an unknown number of divergence times.
+We did this using the full-likelihood Bayesian framework implemented in the
+software package \ecoevolity \citep{Oaks2018ecoevolity}.
+The Dirichlet process is specified by a
+(1) concentration parameter, \concentration, which determines how probable it
+is for pairs to share the same divergence event, \emph{a priori}, and
+(2) base distribution, which serves as the prior on the divergence-time
+parameters.
+
+Based on previous data \citep{Welton2010, Welton2010zootaxa, Siler2010} we
+assumed a prior of \dexponential{0.005} on divergence times for our eight pairs
+of \spp{Cyrtodactylus} populations, in units of subsitutions per site.
+To explore the sensitivity of our results to this assumption, we also
+tried a prior of \dexponential{0.05} on the divergence times.
+We also assumed a hyperprior of $\distgamma(1.5, 3.13)$ on the concentration
+parameter of the Dirichlet process, which corresponds to a prior mean number of
+divergence events of five.
+To explore the sensitiviy of our results to this assumption, we also
+tried a hyperprior of
+$\distgamma(1.1, 56.1)$
+and
+$\distgamma(0.5, 1.31)$,
+which place 50\% of the prior probability on the
+$\nevents = 8$
+and
+$\nevents = 1$
+models, respectively.
+
+Based on previous data \citep{Siler2012, Siler2014kikuchii}, we assumed a prior
+of \dexponential{0.0005} on divergence times for our eight pairs of \spp{Gekko}
+populations, in units of substitutions per site.
+To explore the sensitivity of our results to this assumption, we also tried
+priors of \dexponential{0.005}, \dexponential{0.05} on the \spp{Gekko}
+divergence times.
+For the concentration parameter of the Dirichlet process, we explored the same
+three hyperpriors described above.
+
+For all analyses of both the \spp{Cyrtodactylus} and \spp{Gekko} data, we
+assumed equal mutation rates among the pairs, a prior distribution of
+\dgamma{4.0}{0.004} on the effective effective size of the populations, and a
+prior distribution of \dgamma{100}{1} on the relative effective size of the
+ancestral population (relative to the mean size of the two descendant
+populations).
+For each analysis, we ran 10 independent MCMC chains for 150,000 generations,
+sampling every 100th generation.
+
+We assessed convergence and mixing of the chains by inspecting the potential scale
+reduction factor (the square root of Equation 1.1 in Brooks and Gelman
+\citeyear{Brooks1998}) and effective sample size \citep{Gong2014} of the
+likelihood and all parameters using the sumchains tool of \pycoevolity.
+We also visually inspected the trace of the log likelihood and parameters over
+generations with the program Tracer version 1.6 \citep{Tracer16}.
+
 
 \section{Results}
 
