@@ -3,6 +3,14 @@
 An open question in biogeography is to what extent does the landscape, and
 changes to it, predict diversification.
 
+Hypothesis: Repeated fragmentation of islands caused vicariant diversification.
+This predicts that divergences between populations on separate islands that
+were fragmented were temporally clustered and corresponded with interglacial
+rises in sea level.
+
+We finally have the data and method for a powerful evaluation of this
+hypothesis.
+
 
 \section{Methods}
 
@@ -11,12 +19,12 @@ For two genera of geckos, \spp{Cyrtodactylus} and \spp{Gekko}, we sampled
 individuals from pairs of populations that occur on two different islands.
 Because the climate-mediated fragmentation of the islands was a relatively
 recent phenomenon, we selected pairs of populations that were inferred to be
-closely related from previous genetic data.
-The goal was to avoid deeply divergent pairs that we know \emph{a priori} their
-divergence could not have been affected by Late Pliocene and Pleistocene
-glacial cycles.
-We also sought to sample pairs that span islands that were connected and
-fragmented during glacial cycles, and islands that were never connected.
+closely related from previous genetic data \citep{Siler2012, Siler2014kikuchii,
+    Welton2010, Welton2010zootaxa, Siler2010}.
+Our goal was to avoid deeply divergent pairs that we know \emph{a priori} could
+not have been isolated during Late Pliocene and Pleistocene glacial cycles.
+We also sought to sample pairs that span islands that were connected during
+glacial periods, as well as islands that were never connected.
 We included the latter as ``controls;'' because these islands were never
 connected, the divergence between the populations inhabiting them must be
 dispersal mediated, the timing of which is not expected to be clustered across
@@ -39,8 +47,8 @@ Fluorometer.
 We generated three restriction-site associated DNA sequence (RADseq) libraries,
 each with 96 individuals, using the multiplexed shotgun genotyping (MSG)
 protocol of Andolfatto et.\ al.\ \citep{Andolfatto2011}.
-Following digestion of 50 ng of DNA with the NdeI restriction enzyme, each
-sample was ligated to one of 96 adaptors with a unique six base-pair barcode.
+Following digestion of 50 ng of DNA with the NdeI restriction enzyme, we
+ligated each sample to one of 96 adaptors with a unique six base-pair barcode.
 After pooling the 96 samples together, we selected 250--300bp fragments to
 remain in the library using a Pippen Prep.
 For each pool of 96 size-selected samples, we performed eight separate
@@ -52,7 +60,9 @@ Inc) using a 0.8 bead volume to sample ratio.
 Each library was sequenced in one lane of an Illumina Hiseq 2500 high-output
 run, with single-end 100bp reads.
 We provide information on all of the individuals included in our three RADseq
-libraries in \highLight{Table~SX}.
+libraries in \highLight{Table~SX}, a subset of which were included in the
+population pairs we analyzed for this study (Table \ref{table:comparisons} \&
+\highLight{SX}).
 
 \subsection{Data assembly}
 We used ipyrad version 0.7.13 \citep{ipyrad0713} to assemble the raw RADseq
@@ -70,10 +80,14 @@ random variables to be estimated from the aligned sequence data.
 For eight pairs, there are 4,140 possible divergence models.
 I.e., there are 4,140 ways to partition the eight pairs to $\nevents = 1, 2,
 \ldots, 8$ divergence events \citep{Bell1934,Oaks2014dpp,Oaks2018ecoevolity}.
+Whereas divergences caused by sea-level rise would not happen simultaneously,
+we expect that on a timescale of the lizards' mutation rate, treating them as
+simultaneous should be a better explanation of the data than treating them as
+completely independent.
 
 Given the large number of models, and our goal of making probability statements
 about them, we used a Bayesian model-averaging approach.
-Specifically, we used a Dirichlet process prior on the the assignment of our
+Specifically, we used a Dirichlet process prior on the assignment of our
 pairs to an unknown number of divergence times.
 We did this using the full-likelihood Bayesian framework implemented in the
 software package \ecoevolity \citep{Oaks2018ecoevolity}.
@@ -85,7 +99,7 @@ parameters.
 
 Based on previous data \citep{Welton2010, Welton2010zootaxa, Siler2010} we
 assumed a prior of \dexponential{0.005} on divergence times for our eight pairs
-of \spp{Cyrtodactylus} populations, in units of subsitutions per site.
+of \spp{Cyrtodactylus} populations, in units of substitutions per site.
 To explore the sensitivity of our results to this assumption, we also
 tried a prior of \dexponential{0.05} on the divergence times.
 We also assumed a hyperprior of $\distgamma(1.5, 3.13)$ on the concentration
@@ -102,10 +116,6 @@ and
 $\nevents = 1$
 models, respectively.
 
-\thought{Need blurb about how \ecoevolity assumes unlinked biallelic characters,
-    but that based on simulations we analyzed all the sites and tried both
-    recoding and removing polyallelic sites.}
-
 Based on previous data \citep{Siler2012, Siler2014kikuchii}, we assumed a prior
 of \dexponential{0.0005} on divergence times for our eight pairs of \spp{Gekko}
 populations, in units of substitutions per site.
@@ -121,9 +131,22 @@ assumed equal mutation rates among the pairs, a prior distribution of
 prior distribution of \dgamma{100}{1} on the relative effective size of the
 ancestral population (relative to the mean size of the two descendant
 populations).
+The model implemented in \ecoevolity assumes each character is unlinked (i.e.,
+evolved along a gene tree that is independent conditional on the population
+tree).
+However, by analyzing simulated data, Oaks \citeyear{Oaks2018ecoevolity} showed
+the method performs better when all linked sites are used than when data are
+excluded to avoid violating the assumption of unlinked sites.
+Accordingly, we analyzed all of the sites of our RADseq loci.
+The model implemented in \ecoevolity is also restricted to characters with two
+possible states (hereafter referred to as polyallelic sites).
+Thus, for sites with three or more nucleotides, we compared how sensitive our results were to two different strategies:
+(1) removing polyallelic sites, and
+(2) recoding the sites as biallelic by coding each state as either having the
+first nucleotide in the alignment or a different nucleotide.
+
 For each analysis, we ran 10 independent MCMC chains for 150,000 generations,
 sampling every 100th generation.
-
 We assessed convergence and mixing of the chains by inspecting the potential scale
 reduction factor (the square root of Equation 1.1 in Brooks and Gelman
 \citeyear{Brooks1998}) and effective sample size \citep{Gong2014} of the
