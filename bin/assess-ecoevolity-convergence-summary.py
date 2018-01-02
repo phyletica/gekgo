@@ -10,7 +10,7 @@ import pycoevolity
 import gekgo_util
 
 
-def get_worst_values(convergence_table_paths, burnin = 200):
+def get_worst_values(convergence_table_paths, burnin = 100):
     max_psrf = float('-inf')
     min_ess = float('inf')
     for d in pycoevolity.parsing.spreadsheet_iter(
@@ -32,7 +32,7 @@ def main_cli(argv = sys.argv):
             "pyco-sumchains-*-table.txt"))
     max_psrf, min_ess = get_worst_values(
             convergence_table_paths,
-            burnin = 200)
+            burnin = 100)
     sys.stdout.write("Max PSRF: {0}\n".format(max_psrf))
     sys.stdout.write("Min ESS: {0}\n".format(min_ess))
 
@@ -42,7 +42,7 @@ def main_cli(argv = sys.argv):
             "no-data-pyco-sumchains-*-table.txt"))
     max_psrf, min_ess = get_worst_values(
             convergence_table_paths,
-            burnin = 200)
+            burnin = 100)
     sys.stdout.write("Max PSRF: {0}\n".format(max_psrf))
     sys.stdout.write("Min ESS: {0}\n".format(min_ess))
 
