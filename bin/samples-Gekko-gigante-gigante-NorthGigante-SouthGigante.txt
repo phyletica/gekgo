@@ -1,0 +1,9 @@
+CDS_51_Gekko_gigante_NorthGigante	NorthGigante
+CDS_50_Gekko_gigante_NorthGigante	NorthGigante
+CDS_53_Gekko_gigante_NorthGigante	NorthGigante
+CDS_49_Gekko_gigante_NorthGigante	NorthGigante
+CDS_55_Gekko_gigante_SouthGigante	SouthGigante
+CDS_46_Gekko_gigante_SouthGigante	SouthGigante
+CDS_31_Gekko_gigante_SouthGigante	SouthGigante
+
+# NorthGigante:1 SouthGigante:1

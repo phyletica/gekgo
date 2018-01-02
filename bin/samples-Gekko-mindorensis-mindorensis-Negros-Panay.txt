@@ -1,9 +1,10 @@
 CDSGS_40_Gekko_mindorensis_Negros	Negros
 CDSGS_41_Gekko_mindorensis_Negros	Negros
 CDSGS_39_Gekko_mindorensis_Negros	Negros
-CDS_63_Gekko_mindorensis_Panay	Panay
-CDS_64_Gekko_mindorensis_Panay	Panay
-CDS_65_Gekko_mindorensis_Panay	Panay
-CDS_66_Gekko_mindorensis_Panay	Panay
+RMB_6431_Gekko_mindorensis_Panay	Panay
+RMB_6479_Gekko_mindorensis_Panay	Panay
+RMB_6425_Gekko_mindorensis_Panay	Panay
+RMB_6449_Gekko_mindorensis_Panay	Panay
+RMB_6448_Gekko_mindorensis_Panay	Panay
 
 # Negros:1 Panay:1
