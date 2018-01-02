@@ -1,0 +1,78 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              23797              0          23797
+filtered_by_rm_duplicates             140            140          23657
+filtered_by_max_indels                 89             89          23568
+filtered_by_max_snps                   47              0          23568
+filtered_by_max_shared_het            334            325          23243
+filtered_by_min_sample               5569           5521          17722
+filtered_by_max_alleles               417             86          17636
+total_filtered_loci                 17636              0          17636
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                   sample_coverage
+CDSGS_39_Gekko_mindorensis_Negros            16098
+CDSGS_40_Gekko_mindorensis_Negros            17543
+CDSGS_41_Gekko_mindorensis_Negros             1498
+RMB_6425_Gekko_mindorensis_Panay             16062
+RMB_6431_Gekko_mindorensis_Panay             11002
+RMB_6448_Gekko_mindorensis_Panay             17381
+RMB_6449_Gekko_mindorensis_Panay             17397
+RMB_6479_Gekko_mindorensis_Panay              1601
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+   locus_coverage  sum_coverage
+1               0             0
+2               0             0
+3               0             0
+4            2534          2534
+5            4852          7386
+6            7871         15257
+7            2072         17329
+8             307         17636
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+      var  sum_var    pis  sum_pis
+0   13093        0  15268        0
+1    3410     3410   1909     1909
+2     721     4852    309     2527
+3     212     5488     89     2794
+4      97     5876     34     2930
+5      39     6071     13     2995
+6      24     6215      6     3031
+7      12     6299      2     3045
+8      11     6387      1     3053
+9       3     6414      1     3062
+10      3     6444      1     3072
+11      2     6466      1     3083
+12      3     6502      1     3095
+13      3     6541      0     3095
+14      3     6583      1     3109
+
+
+## Final Sample stats summary
+
+                                   state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+CDSGS_39_Gekko_mindorensis_Negros      7     613934               612728           34946             18609    0.006549   0.001429          17817             16098
+CDSGS_40_Gekko_mindorensis_Negros      7    2673060              2667665           70802             26135    0.009441   0.000796          24664             17543
+CDSGS_41_Gekko_mindorensis_Negros      7      49673                49549           13559              1982    0.017828   0.006176           1686              1498
+RMB_6425_Gekko_mindorensis_Panay       7    1296047              1294568           65627             20297    0.013527   0.002106          18470             16062
+RMB_6431_Gekko_mindorensis_Panay       7     892871               892196           66684             14243    0.018589   0.005771          12186             11002
+RMB_6448_Gekko_mindorensis_Panay       7    1811607              1809015           82447             25643    0.021445   0.002471          22261             17381
+RMB_6449_Gekko_mindorensis_Panay       7    1441845              1438637           40586             22927    0.007285   0.000941          21987             17397
+RMB_6479_Gekko_mindorensis_Panay       7     610344               610102           56301              4236    0.048232   0.027977           2041              1601

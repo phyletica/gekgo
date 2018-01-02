@@ -1,0 +1,78 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              22964              0          22964
+filtered_by_rm_duplicates             123            123          22841
+filtered_by_max_indels                 57             57          22784
+filtered_by_max_snps                   36              1          22783
+filtered_by_max_shared_het           1248           1229          21554
+filtered_by_min_sample               5627           5522          16032
+filtered_by_max_alleles              1599            513          15519
+total_filtered_loci                 15519              0          15519
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                                    sample_coverage
+RMB_14180_Cyrtodactylus_philippinicus_Luzon                    4475
+RMB_14310_Cyrtodactylus_philippinicus_Luzon                   12841
+RMB_14453_Cyrtodactylus_philippinicus_Luzon                   15145
+RMB_5754_Cyrtodactylus_philippinicus_CamiguinNorte            15387
+RMB_5755_Cyrtodactylus_philippinicus_CamiguinNorte            13865
+RMB_5757_Cyrtodactylus_philippinicus_CamiguinNorte            14333
+RMB_5811_Cyrtodactylus_philippinicus_CamiguinNorte            15270
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+   locus_coverage  sum_coverage
+1               0             0
+2               0             0
+3               0             0
+4            1668          1668
+5            2592          4260
+6            7129         11389
+7            4130         15519
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+     var  sum_var    pis  sum_pis
+0   8567        0  11999        0
+1   4785     4785   2800     2800
+2   1481     7747    523     3846
+3    433     9046    128     4230
+4    131     9570     33     4362
+5     52     9830     16     4442
+6     18     9938      5     4472
+7     20    10078      6     4514
+8      8    10142      1     4522
+9      6    10196      1     4531
+10     6    10256      4     4571
+11     5    10311      0     4571
+12     3    10347      2     4595
+13     1    10360      0     4595
+14     0    10360      0     4595
+15     1    10375      1     4610
+16     1    10391      0     4610
+17     1    10408      0     4610
+
+
+## Final Sample stats summary
+
+                                                    state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+RMB_14180_Cyrtodactylus_philippinicus_Luzon             7     108867               108751           23937              5938    0.010311   0.005142           5427              4475
+RMB_14310_Cyrtodactylus_philippinicus_Luzon             7     356580               356182           34270             16709    0.008361   0.003767          15862             12841
+RMB_14453_Cyrtodactylus_philippinicus_Luzon             7    1656004              1654896           67466             23907    0.028679   0.005808          20466             15145
+RMB_5754_Cyrtodactylus_philippinicus_CamiguinNorte      7    1009743              1008701           51518             23557    0.008733   0.003404          22410             15387
+RMB_5755_Cyrtodactylus_philippinicus_CamiguinNorte      7     459451               458994           38185             18227    0.008595   0.004094          17346             13865
+RMB_5757_Cyrtodactylus_philippinicus_CamiguinNorte      7     508490               507922           38164             19073    0.008788   0.004041          18188             14333
+RMB_5811_Cyrtodactylus_philippinicus_CamiguinNorte      7    2376338              2374929           79457             29597    0.049945   0.008425          21881             15270

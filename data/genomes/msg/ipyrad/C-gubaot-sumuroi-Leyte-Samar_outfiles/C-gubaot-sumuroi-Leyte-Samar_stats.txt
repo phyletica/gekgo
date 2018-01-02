@@ -1,0 +1,89 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              32754              0          32754
+filtered_by_rm_duplicates             384            384          32370
+filtered_by_max_indels                272            272          32098
+filtered_by_max_snps                  142              4          32094
+filtered_by_max_shared_het           1331           1280          30814
+filtered_by_min_sample              10882          10622          20192
+filtered_by_max_alleles              2679           1433          18759
+total_filtered_loci                 18759              0          18759
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                      sample_coverage
+CDS_2844_Cyrtodactylus_sumuroi_Samar            18113
+CDS_2967_Cyrtodactylus_sumuroi_Samar            12944
+CDS_2984_Cyrtodactylus_sumuroi_Samar            16523
+CDS_3030_Cyrtodactylus_sumuroi_Samar            10557
+CDS_3047_Cyrtodactylus_sumuroi_Samar                3
+RMB_8931_Cyrtodactylus_gubaot_Leyte             14145
+RMB_8932_Cyrtodactylus_gubaot_Leyte             17781
+RMB_8933_Cyrtodactylus_gubaot_Leyte             18010
+RMB_8934_Cyrtodactylus_gubaot_Leyte             14936
+RMB_8937_Cyrtodactylus_gubaot_Leyte             15201
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+    locus_coverage  sum_coverage
+1                0             0
+2                0             0
+3                0             0
+4             1996          1996
+5             1710          3706
+6             1964          5670
+7             2203          7873
+8             3500         11373
+9             7386         18759
+10               0         18759
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+     var  sum_var   pis  sum_pis
+0   3718        0  8773        0
+1   4941     4941  5686     5686
+2   3934    12809  2622    10930
+3   2688    20873  1039    14047
+4   1574    27169   349    15443
+5    892    31629   178    16333
+6    450    34329    68    16741
+7    249    36072    17    16860
+8    133    37136    10    16940
+9     75    37811     7    17003
+10    40    38211     5    17053
+11    22    38453     2    17075
+12    13    38609     0    17075
+13    14    38791     1    17088
+14     8    38903     2    17116
+15     2    38933     0    17116
+16     3    38981     0    17116
+17     1    38998     0    17116
+18     1    39016     0    17116
+19     1    39035     0    17116
+
+
+## Final Sample stats summary
+
+                                      state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+CDS_2844_Cyrtodactylus_sumuroi_Samar      7    6985413              6972682          299338             69145    0.017372   0.001120          63105             18113
+CDS_2967_Cyrtodactylus_sumuroi_Samar      7     422158               421347           41642             18366    0.010779   0.001850          17502             12944
+CDS_2984_Cyrtodactylus_sumuroi_Samar      7    1134685              1131911          106327             26909    0.013615   0.001920          25140             16523
+CDS_3030_Cyrtodactylus_sumuroi_Samar      7     583060               580273           79337             15941    0.014449   0.003204          14709             10557
+CDS_3047_Cyrtodactylus_sumuroi_Samar      7       1003                  980             361                25    0.000654   0.001150             25                 3
+RMB_8931_Cyrtodactylus_gubaot_Leyte       7     822958               822361           48091             20402    0.020861   0.004695          18278             14145
+RMB_8932_Cyrtodactylus_gubaot_Leyte       7    1586940              1585384           55789             27111    0.012199   0.003381          25672             17781
+RMB_8933_Cyrtodactylus_gubaot_Leyte       7    1871679              1869726           74142             28130    0.013243   0.003323          26445             18010
+RMB_8934_Cyrtodactylus_gubaot_Leyte       7     773718               773041           48207             20698    0.013435   0.004072          19449             14936
+RMB_8937_Cyrtodactylus_gubaot_Leyte       7    1418311              1417371           62730             24868    0.041635   0.007705          19865             15201

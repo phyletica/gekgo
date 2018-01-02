@@ -1,0 +1,438 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci             160581              0         160581
+filtered_by_rm_duplicates            2100           2100         158481
+filtered_by_max_indels               4033           4033         154448
+filtered_by_max_snps                 3501           1626         152822
+filtered_by_max_shared_het           2357           2015         150807
+filtered_by_min_sample             152355         144012           6795
+filtered_by_max_alleles              5116             91           6704
+total_filtered_loci                  6704              0           6704
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                           sample_coverage
+CDSGS_39_Gekko_mindorensis_Negros                     6455
+CDSGS_40_Gekko_mindorensis_Negros                     6573
+CDSGS_41_Gekko_mindorensis_Negros                      705
+CDS_100_Gekko_mindorensis_CamiguinSur                 6547
+CDS_101_Gekko_mindorensis_CamiguinSur                 4274
+CDS_102_Gekko_mindorensis_CamiguinSur                 6543
+CDS_1230_Gekko_mindorensis_Mindoro                    6577
+CDS_1231_Gekko_mindorensis_Mindoro                      22
+CDS_1459_Gekko_mindorensis_MaestreDeCampo               91
+CDS_1461_Gekko_mindorensis_MaestreDeCampo             4832
+CDS_1462_Gekko_mindorensis_MaestreDeCampo             6492
+CDS_1463_Gekko_mindorensis_MaestreDeCampo             6484
+CDS_155_Gekko_ernstkelleri_Panay                      1956
+CDS_156_Gekko_ernstkelleri_Panay                         1
+CDS_159_Gekko_ernstkelleri_Panay                      5316
+CDS_161_Gekko_ernstkelleri_Panay                        78
+CDS_212_Gekko_ernstkelleri_Panay                      3444
+CDS_277_Gekko_mindorensis_Negros                      5714
+CDS_278_Gekko_mindorensis_Negros                       293
+CDS_31_Gekko_gigante_SouthGigante                     1698
+CDS_3866_Gekko_mindorensis_Lubang                     6101
+CDS_3867_Gekko_mindorensis_Lubang                     6206
+CDS_3868_Gekko_mindorensis_Lubang                        7
+CDS_3935_Gekko_mindorensis_Lubang                     6512
+CDS_3936_Gekko_mindorensis_Lubang                     5565
+CDS_46_Gekko_gigante_SouthGigante                     6252
+CDS_49_Gekko_gigante_NorthGigante                     6210
+CDS_50_Gekko_gigante_NorthGigante                      495
+CDS_51_Gekko_gigante_NorthGigante                     6306
+CDS_53_Gekko_gigante_NorthGigante                     6271
+CDS_55_Gekko_gigante_SouthGigante                     6161
+CDS_590_Gekko_mindorensis_Caluya                      6507
+CDS_591_Gekko_mindorensis_Caluya                      6554
+CDS_6047_Gekko_mindorensis_Luzon                      6547
+CDS_6051_Gekko_mindorensis_Luzon                      6060
+CDS_6052_Gekko_mindorensis_Luzon                      6547
+CDS_6054_Gekko_mindorensis_Luzon                      6431
+CDS_607_Gekko_mindorensis_Caluya                      3615
+CDS_609_Gekko_mindorensis_Caluya                      6587
+CDS_610_Gekko_mindorensis_Caluya                      6580
+CDS_63_Gekko_mindorensis_Panay                        6600
+CDS_64_Gekko_mindorensis_Panay                        6607
+CDS_65_Gekko_mindorensis_Panay                        6626
+CDS_66_Gekko_mindorensis_Panay                        6412
+CDS_754_Gekko_mindorensis_Masbate                       20
+CDS_755_Gekko_mindorensis_Masbate                     6552
+CDS_757_Gekko_mindorensis_Masbate                     4870
+CDS_758_Gekko_mindorensis_Masbate                     6569
+CDS_788_Gekko_romblon_Romblon                         5723
+CDS_789_Gekko_romblon_Romblon                         4748
+CDS_790_Gekko_romblon_Romblon                         5270
+CDS_791_Gekko_romblon_Romblon                         4789
+CDS_792_Gekko_romblon_Romblon                         3316
+CDS_99_Gekko_mindorensis_CamiguinSur                  6535
+ELR_1007_Gekko_mindorensis_Mindoro                    1259
+ELR_1008_Gekko_mindorensis_Mindoro                    2999
+ELR_1009_Gekko_mindorensis_Mindoro                      84
+ELR_1010_Gekko_mindorensis_Mindoro                    4268
+ELR_911_Gekko_mindorensis_Mindoro                       96
+KUFS_13_Gekko_chinensis_China                         2294
+KUFS_14_Gekko_chinensis_China                         2354
+KUFS_16_Gekko_chinensis_China                         2373
+KUFS_17_Gekko_chinensis_China                         2387
+LSUHC_7289_Gekko_monarchus_PulauAur                   2707
+RMB_13588_Gekko_carusadensis_Luzon                      36
+RMB_13589_Gekko_carusadensis_Luzon                    6242
+RMB_13590_Gekko_carusadensis_Luzon                     174
+RMB_13591_Gekko_carusadensis_Luzon                    4461
+RMB_13657_Gekko_mindorensis_Luzon                     6002
+RMB_13659_Gekko_mindorensis_Luzon                     6539
+RMB_13660_Gekko_mindorensis_Luzon                     6484
+RMB_13661_Gekko_mindorensis_Luzon                     6234
+RMB_13662_Gekko_mindorensis_Luzon                      403
+RMB_13764_Gekko_gecko_Luzon                           2473
+RMB_13766_Gekko_gecko_Luzon                           2292
+RMB_13767_Gekko_gecko_Luzon                           2189
+RMB_13768_Gekko_gecko_Luzon                           1284
+RMB_13770_Gekko_gecko_Luzon                           2400
+RMB_3118_Gekko_athymus_Palawan                        4597
+RMB_5005_Gekko_mindorensis_Mindoro                    5475
+RMB_5006_Gekko_mindorensis_Mindoro                    5147
+RMB_5728_Gekko_sp.b_CamiguinNorte                     6213
+RMB_5729_Gekko_sp.b_CamiguinNorte                      212
+RMB_5730_Gekko_sp.b_CamiguinNorte                     5894
+RMB_5737_Gekko_sp.b_CamiguinNorte                     5736
+RMB_5793_Gekko_sp.b_CamiguinNorte                     6306
+RMB_5953_Gekko_crombota_BabuyanClaro                  6130
+RMB_5954_Gekko_crombota_BabuyanClaro                  6205
+RMB_5968_Gekko_crombota_BabuyanClaro                  2102
+RMB_5969_Gekko_crombota_BabuyanClaro                  6295
+RMB_5970_Gekko_crombota_BabuyanClaro                  4279
+RMB_6052_Gekko_rossi_Calayan                          4247
+RMB_6056_Gekko_rossi_Calayan                          6294
+RMB_6058_Gekko_rossi_Calayan                          3903
+RMB_6059_Gekko_rossi_Calayan                          5987
+RMB_6060_Gekko_rossi_Calayan                          2679
+RMB_6369_Gekko_sp.a_Dalupiri                          1281
+RMB_6370_Gekko_sp.a_Dalupiri                          5536
+RMB_6372_Gekko_sp.a_Dalupiri                           273
+RMB_6373_Gekko_sp.a_Dalupiri                          2992
+RMB_6374_Gekko_sp.a_Dalupiri                          6147
+RMB_6425_Gekko_mindorensis_Panay                      6483
+RMB_6431_Gekko_mindorensis_Panay                      5250
+RMB_6448_Gekko_mindorensis_Panay                      6582
+RMB_6449_Gekko_mindorensis_Panay                      6585
+RMB_6479_Gekko_mindorensis_Panay                       900
+RMB_7798_Gekko_athymus_Palawan                        4285
+RMB_7828_Gekko_athymus_Palawan                        4646
+RMB_7830_Gekko_athymus_Palawan                        1948
+RMB_7831_Gekko_athymus_Palawan                        4602
+RMB_7922_Gekko_monarchus_Palawan                      4677
+RMB_7923_Gekko_monarchus_Palawan                       795
+RMB_7924_Gekko_monarchus_Palawan                       318
+RMB_7937_Gekko_monarchus_Palawan                      1723
+RMB_7938_Gekko_monarchus_Palawan                      5708
+RMB_8754_Gekko_romblon_Tablas                          932
+RMB_8765_Gekko_romblon_Tablas                          582
+RMB_8789_Gekko_romblon_Tablas                         3875
+RMB_9552_Gekko_porosus_Sabtang                        6306
+RMB_9554_Gekko_porosus_Sabtang                        3287
+RMB_9555_Gekko_porosus_Sabtang                        6097
+RMB_9560_Gekko_porosus_Sabtang                        6249
+RMB_9575_Gekko_porosus_Batan                          6313
+RMB_9584_Gekko_porosus_Batan                          5827
+RMB_9585_Gekko_porosus_Batan                          4571
+RMB_9586_Gekko_porosus_Batan                           765
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+     locus_coverage  sum_coverage
+1                 0             0
+2                 0             0
+3                 0             0
+4                 0             0
+5                 0             0
+6                 0             0
+7                 0             0
+8                 0             0
+9                 0             0
+10                0             0
+11                0             0
+12                0             0
+13                0             0
+14                0             0
+15                0             0
+16                0             0
+17                0             0
+18                0             0
+19                0             0
+20                0             0
+21                0             0
+22                0             0
+23                0             0
+24                0             0
+25                0             0
+26                0             0
+27                0             0
+28                0             0
+29                0             0
+30                0             0
+31                0             0
+32                0             0
+33                0             0
+34                0             0
+35                0             0
+36                0             0
+37                0             0
+38                0             0
+39                0             0
+40                0             0
+41                0             0
+42                0             0
+43                0             0
+44                0             0
+45                0             0
+46                0             0
+47                0             0
+48                0             0
+49                0             0
+50                0             0
+51                0             0
+52                0             0
+53                0             0
+54                0             0
+55                0             0
+56                0             0
+57                0             0
+58                0             0
+59                0             0
+60                0             0
+61                0             0
+62                0             0
+63              207           207
+64              196           403
+65              184           587
+66              183           770
+67              218           988
+68              203          1191
+69              211          1402
+70              195          1597
+71              197          1794
+72              191          1985
+73              220          2205
+74              252          2457
+75              197          2654
+76              203          2857
+77              216          3073
+78              191          3264
+79              227          3491
+80              263          3754
+81              212          3966
+82              214          4180
+83              225          4405
+84              197          4602
+85              232          4834
+86              206          5040
+87              161          5201
+88              189          5390
+89              179          5569
+90              137          5706
+91              158          5864
+92              103          5967
+93              119          6086
+94               84          6170
+95               75          6245
+96               70          6315
+97               64          6379
+98               58          6437
+99               48          6485
+100              50          6535
+101              36          6571
+102              26          6597
+103              28          6625
+104              26          6651
+105              16          6667
+106              14          6681
+107               7          6688
+108               5          6693
+109               6          6699
+110               3          6702
+111               1          6703
+112               1          6704
+113               0          6704
+114               0          6704
+115               0          6704
+116               0          6704
+117               0          6704
+118               0          6704
+119               0          6704
+120               0          6704
+121               0          6704
+122               0          6704
+123               0          6704
+124               0          6704
+125               0          6704
+126               0          6704
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+    var  sum_var  pis  sum_pis
+0     8        0   36        0
+1    35       35  104      104
+2    77      189  165      434
+3   130      579  267     1235
+4   186     1323  378     2747
+5   286     2753  498     5237
+6   377     5015  534     8441
+7   454     8193  654    13019
+8   521    12361  602    17835
+9   506    16915  574    23001
+10  521    22125  600    29001
+11  549    28164  493    34424
+12  538    34620  428    39560
+13  478    40834  365    44305
+14  428    46826  281    48239
+15  354    52136  245    51914
+16  345    57656  209    55258
+17  292    62620  132    57502
+18  263    67354   89    59104
+19  177    70717   40    59864
+20  179    74297   10    60064
+
+
+## Final Sample stats summary
+
+                                           state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+CDSGS_39_Gekko_mindorensis_Negros              7     613934               612728           34946             18609    0.006549   0.001429          17817              6455
+CDSGS_40_Gekko_mindorensis_Negros              7    2673060              2667665           70802             26135    0.009441   0.000796          24664              6573
+CDSGS_41_Gekko_mindorensis_Negros              7      49673                49549           13559              1982    0.017828   0.006176           1686               705
+CDS_100_Gekko_mindorensis_CamiguinSur          7   18189306             18133871          299700            117849    0.011141   0.000828         109339              6547
+CDS_101_Gekko_mindorensis_CamiguinSur          7     447263               444102           55750             11130    0.011219   0.003570          10225              4274
+CDS_102_Gekko_mindorensis_CamiguinSur          7    6476127              6457336          184989             53794    0.011845   0.001056          49715              6543
+CDS_1230_Gekko_mindorensis_Mindoro             7    1587880              1584122           55164             23868    0.009606   0.001005          22589              6577
+CDS_1231_Gekko_mindorensis_Mindoro             7      10094                10052            4774               117    0.051424   0.015486             67                22
+CDS_1459_Gekko_mindorensis_MaestreDeCampo      7     362249               362098           44966              4616    0.032840   0.016800           3238                91
+CDS_1461_Gekko_mindorensis_MaestreDeCampo      7     243349               242746           26892             11869    0.008366   0.002447          11217              4832
+CDS_1462_Gekko_mindorensis_MaestreDeCampo      7     974702               972552           45743             21269    0.007933   0.001057          20306              6492
+CDS_1463_Gekko_mindorensis_MaestreDeCampo      7     921557               919171           38236             20812    0.007517   0.001125          19901              6484
+CDS_155_Gekko_ernstkelleri_Panay               7     166199               164632           31688              5594    0.011190   0.004334           5094              1956
+CDS_156_Gekko_ernstkelleri_Panay               7       4313                 4236            2219                34    0.032174   0.005457             25                 1
+CDS_159_Gekko_ernstkelleri_Panay               7     877061               873902          103912             21580    0.012154   0.002292          19978              5316
+CDS_161_Gekko_ernstkelleri_Panay               7      27310                27154           11137               377    0.033131   0.008705            271                78
+CDS_212_Gekko_ernstkelleri_Panay               7     188146               187352           32733              9931    0.008626   0.003093           9307              3444
+CDS_277_Gekko_mindorensis_Negros               7     385296               384651           34795             13864    0.007978   0.002064          13139              5714
+CDS_278_Gekko_mindorensis_Negros               7      28734                28674           10211               746    0.018882   0.008336            623               293
+CDS_31_Gekko_gigante_SouthGigante              7      95290                94882           24266              4402    0.013110   0.005133           3936              1698
+CDS_3866_Gekko_mindorensis_Lubang              7     575934               572016           64421             18706    0.009412   0.002281          17519              6101
+CDS_3867_Gekko_mindorensis_Lubang              7     632924               630937           77870             18807    0.010493   0.002452          17481              6206
+CDS_3868_Gekko_mindorensis_Lubang              7      19120                19029            8880               317    0.035554   0.005681            224                 7
+CDS_3935_Gekko_mindorensis_Lubang              7    2709331              2697331          100352             34753    0.010509   0.001244          32469              6512
+CDS_3936_Gekko_mindorensis_Lubang              7     461071               458769           58113             15312    0.009861   0.002801          14235              5565
+CDS_46_Gekko_gigante_SouthGigante              7    1016469              1012777           90340             24205    0.011115   0.001934          22500              6252
+CDS_49_Gekko_gigante_NorthGigante              7     811607               804768           64896             22338    0.008893   0.001776          21021              6210
+CDS_50_Gekko_gigante_NorthGigante              7      91984                91485           23317              1612    0.021246   0.009224           1331               495
+CDS_51_Gekko_gigante_NorthGigante              7    2139064              2131596          156705             31516    0.015217   0.001802          28597              6306
+CDS_53_Gekko_gigante_NorthGigante              7    1630744              1624842          171476             27949    0.020639   0.003232          23921              6271
+CDS_55_Gekko_gigante_SouthGigante              7     722616               712876           68884             21241    0.009557   0.002157          19905              6161
+CDS_590_Gekko_mindorensis_Caluya               7     828518               824817           70160             22288    0.009826   0.002054          20891              6507
+CDS_591_Gekko_mindorensis_Caluya               7    1257517              1252922           97438             26103    0.012392   0.001754          24204              6554
+CDS_6047_Gekko_mindorensis_Luzon               7    2037742              2031930          185129             31103    0.018911   0.002293          27296              6547
+CDS_6051_Gekko_mindorensis_Luzon               7     518840               516601           56576             17141    0.009426   0.002430          16070              6060
+CDS_6052_Gekko_mindorensis_Luzon               7    1606252              1602143           83235             27320    0.010429   0.001572          25599              6547
+CDS_6054_Gekko_mindorensis_Luzon               7     812286               805863           72810             22003    0.010086   0.002269          20566              6431
+CDS_607_Gekko_mindorensis_Caluya               7     628993               626758          105870             10715    0.025072   0.009674           8420              3615
+CDS_609_Gekko_mindorensis_Caluya               7    3805511              3794393          185249             42212    0.014235   0.001298          38536              6587
+CDS_610_Gekko_mindorensis_Caluya               7    1580009              1574836           90816             28393    0.010814   0.001607          26469              6580
+CDS_63_Gekko_mindorensis_Panay                 7    2059491              2056233           76341             25832    0.015747   0.001396          23546              6600
+CDS_64_Gekko_mindorensis_Panay                 7    1867862              1863348           47360             24442    0.008329   0.000808          23355              6607
+CDS_65_Gekko_mindorensis_Panay                 7    3400071              3393543           59191             27724    0.008747   0.000683          26420              6626
+CDS_66_Gekko_mindorensis_Panay                 7     867783               866402           54394             18425    0.011503   0.002202          17046              6412
+CDS_754_Gekko_mindorensis_Masbate              7     699414               699219           60124              3917    0.053035   0.039559           1177                20
+CDS_755_Gekko_mindorensis_Masbate              7    2335641              2331718           65295             25759    0.010551   0.000837          24207              6552
+CDS_757_Gekko_mindorensis_Masbate              7     285698               285107           33785             11687    0.008957   0.002565          10958              4870
+CDS_758_Gekko_mindorensis_Masbate              7    3166734              3159795           73984             27568    0.011350   0.000773          25713              6569
+CDS_788_Gekko_romblon_Romblon                  7     401154               400053           33392             15918    0.009159   0.001764          15151              5723
+CDS_789_Gekko_romblon_Romblon                  7     240787               240227           31566             11966    0.009532   0.002209          11333              4748
+CDS_790_Gekko_romblon_Romblon                  7     307299               306317           28239             13859    0.009329   0.001819          13188              5270
+CDS_791_Gekko_romblon_Romblon                  7     501020               500463           54631             13150    0.016035   0.004088          11667              4789
+CDS_792_Gekko_romblon_Romblon                  7     208819               208378           30656              7967    0.012651   0.002561           7373              3316
+CDS_99_Gekko_mindorensis_CamiguinSur           7    5260072              5244180          243420             52007    0.014736   0.001301          47169              6535
+ELR_1007_Gekko_mindorensis_Mindoro             7     631353               631043           66660              5147    0.039581   0.024494           2937              1259
+ELR_1008_Gekko_mindorensis_Mindoro             7     141862               141520           28256              6799    0.011092   0.003275           6284              2999
+ELR_1009_Gekko_mindorensis_Mindoro             7      46235                46126           25083               447    0.049693   0.016605            235                84
+ELR_1010_Gekko_mindorensis_Mindoro             7     671536               671050           90986             11794    0.023533   0.008158           9578              4268
+ELR_911_Gekko_mindorensis_Mindoro              7      26121                26081            8875               322    0.031701   0.012877            230                96
+KUFS_13_Gekko_chinensis_China                  7    1236139              1233212           83650             24161    0.010952   0.002154          22520              2294
+KUFS_14_Gekko_chinensis_China                  7    2457783              2452074          143266             32625    0.014419   0.001742          29868              2354
+KUFS_16_Gekko_chinensis_China                  7    4631683              4621453          167873             43611    0.014177   0.001311          39893              2373
+KUFS_17_Gekko_chinensis_China                  7    3355456              3344516          161311             37491    0.014288   0.001558          34348              2387
+LSUHC_7289_Gekko_monarchus_PulauAur            7     265313               264624           28835              6757    0.012444   0.003590           6172              2707
+RMB_13588_Gekko_carusadensis_Luzon             7      18386                18232            7717               366    0.023350   0.007887            292                36
+RMB_13589_Gekko_carusadensis_Luzon             7    1144607              1139675          121947             24026    0.013960   0.002664          21873              6242
+RMB_13590_Gekko_carusadensis_Luzon             7      56252                55318           19380              1329    0.021782   0.007977           1083               174
+RMB_13591_Gekko_carusadensis_Luzon             7     235892               235043           43013             11689    0.009780   0.003173          10862              4461
+RMB_13657_Gekko_mindorensis_Luzon              7     470424               468744           54363             17052    0.009389   0.002400          15964              6002
+RMB_13659_Gekko_mindorensis_Luzon              7    2028824              2022183          306106             33451    0.024502   0.003056          28024              6539
+RMB_13660_Gekko_mindorensis_Luzon              7    1195979              1191526          128433             23838    0.013589   0.002352          21744              6484
+RMB_13661_Gekko_mindorensis_Luzon              7     674273               672294          102994             20022    0.013606   0.002788          18088              6234
+RMB_13662_Gekko_mindorensis_Luzon              7     689173               688773          128627              4664    0.062976   0.035513           1390               403
+RMB_13764_Gekko_gecko_Luzon                    7    4656515              4645608          222971             52893    0.015201   0.001374          47943              2473
+RMB_13766_Gekko_gecko_Luzon                    7     696347               694708           74747             22553    0.010928   0.002580          20909              2292
+RMB_13767_Gekko_gecko_Luzon                    7     828979               826443          106074             21633    0.013944   0.003474          19581              2189
+RMB_13768_Gekko_gecko_Luzon                    7     214470               213932           37013             10262    0.011384   0.003482           9440              1284
+RMB_13770_Gekko_gecko_Luzon                    7    1465616              1460264          116791             30876    0.012473   0.001982          28395              2400
+RMB_3118_Gekko_athymus_Palawan                 7    1305582              1301645           88117             27344    0.010189   0.001595          25606              4597
+RMB_5005_Gekko_mindorensis_Mindoro             7     351669               350670           42736             13780    0.009530   0.002037          12974              5475
+RMB_5006_Gekko_mindorensis_Mindoro             7    1260313              1259429          111877             15926    0.029575   0.011896          11715              5147
+RMB_5728_Gekko_sp.b_CamiguinNorte              7    1282478              1280816           80179             22124    0.021612   0.003691          18932              6213
+RMB_5729_Gekko_sp.b_CamiguinNorte              7      27171                27072           10233               660    0.024964   0.008256            519               212
+RMB_5730_Gekko_sp.b_CamiguinNorte              7     808754               807635           55245             17174    0.012463   0.002805          15679              5894
+RMB_5737_Gekko_sp.b_CamiguinNorte              7     426862               425742           35641             15455    0.008292   0.002027          14635              5736
+RMB_5793_Gekko_sp.b_CamiguinNorte              7    2619518              2614776           92286             27372    0.021446   0.001427          24029              6306
+RMB_5953_Gekko_crombota_BabuyanClaro           7     853249               850212           93704             21211    0.011172   0.002599          19550              6130
+RMB_5954_Gekko_crombota_BabuyanClaro           7     987586               984260           85167             22566    0.010753   0.002142          20943              6205
+RMB_5968_Gekko_crombota_BabuyanClaro           7     297248               296193          102838              8332    0.028792   0.008958           6327              2102
+RMB_5969_Gekko_crombota_BabuyanClaro           7    4403000              4387386          171666             47051    0.012359   0.001312          43268              6295
+RMB_5970_Gekko_crombota_BabuyanClaro           7     303459               295862           45263             11351    0.010052   0.003381          10468              4279
+RMB_6052_Gekko_rossi_Calayan                   7     199354               198825           23525             10329    0.008260   0.002447           9752              4247
+RMB_6056_Gekko_rossi_Calayan                   7    1286922              1283524           42286             23331    0.007538   0.000998          22288              6294
+RMB_6058_Gekko_rossi_Calayan                   7     496228               494850           38806              9634    0.011493   0.003540           8795              3903
+RMB_6059_Gekko_rossi_Calayan                   7     543658               542464           38762             17069    0.007811   0.001890          16188              5987
+RMB_6060_Gekko_rossi_Calayan                   7     123127               122720           21082              6519    0.010126   0.003372           6038              2679
+RMB_6369_Gekko_sp.a_Dalupiri                   7     295141               294948           31629              3610    0.023090   0.008949           2872              1281
+RMB_6370_Gekko_sp.a_Dalupiri                   7     420721               419594           33244             14876    0.007587   0.001967          14159              5536
+RMB_6372_Gekko_sp.a_Dalupiri                   7      29428                29330           10219               834    0.021082   0.007782            692               273
+RMB_6373_Gekko_sp.a_Dalupiri                   7    1611362              1610658          102507             15148    0.038515   0.023325           8305              2992
+RMB_6374_Gekko_sp.a_Dalupiri                   7     601890               600306           35704             18696    0.007452   0.001662          17841              6147
+RMB_6425_Gekko_mindorensis_Panay               7    1296047              1294568           65627             20297    0.013527   0.002106          18470              6483
+RMB_6431_Gekko_mindorensis_Panay               7     892871               892196           66684             14243    0.018589   0.005771          12186              5250
+RMB_6448_Gekko_mindorensis_Panay               7    1811607              1809015           82447             25643    0.021445   0.002471          22261              6582
+RMB_6449_Gekko_mindorensis_Panay               7    1441845              1438637           40586             22927    0.007285   0.000941          21987              6585
+RMB_6479_Gekko_mindorensis_Panay               7     610344               610102           56301              4236    0.048232   0.027977           2041               900
+RMB_7798_Gekko_athymus_Palawan                 7     532772               530939           60559             18898    0.009894   0.002200          17691              4285
+RMB_7828_Gekko_athymus_Palawan                 7    3814332              3802762          147211             43829    0.011946   0.001216          40679              4646
+RMB_7830_Gekko_athymus_Palawan                 7     503399               499690           86010              7914    0.021205   0.008065           6592              1948
+RMB_7831_Gekko_athymus_Palawan                 7    1599067              1594516          147711             28900    0.014449   0.001942          26339              4602
+RMB_7922_Gekko_monarchus_Palawan               7    1124054              1123157           97876             15435    0.031188   0.011563          11377              4677
+RMB_7923_Gekko_monarchus_Palawan               7      70333                70144           18767              1948    0.017825   0.006075           1682               795
+RMB_7924_Gekko_monarchus_Palawan               7     536380               535835           43298              1734    0.049734   0.027845            743               318
+RMB_7937_Gekko_monarchus_Palawan               7     123678               123464           22527              3941    0.013763   0.003863           3579              1723
+RMB_7938_Gekko_monarchus_Palawan               7     410167               409166           30795             15742    0.009197   0.001369          14986              5708
+RMB_8754_Gekko_romblon_Tablas                  7     975814               975225           71552              4961    0.039370   0.029137           2390               932
+RMB_8765_Gekko_romblon_Tablas                  7    1378015              1377093           99440             25225    0.017324   0.002104          22614               582
+RMB_8789_Gekko_romblon_Tablas                  7     376105               375558           44752             10086    0.016854   0.004248           8890              3875
+RMB_9552_Gekko_porosus_Sabtang                 7    2340820              2336689           93746             27228    0.021516   0.001654          23723              6306
+RMB_9554_Gekko_porosus_Sabtang                 7     154528               154125           25467              8045    0.009309   0.003111           7503              3287
+RMB_9555_Gekko_porosus_Sabtang                 7     528281               526929           32615             17587    0.006935   0.001585          16835              6097
+RMB_9560_Gekko_porosus_Sabtang                 7    1494257              1492504           80861             21898    0.020892   0.003028          19085              6249
+RMB_9575_Gekko_porosus_Batan                   7    2449849              2445451           92808             26806    0.018328   0.001343          23977              6313
+RMB_9584_Gekko_porosus_Batan                   7     405567               404658           32213             16097    0.007457   0.001773          15354              5827
+RMB_9585_Gekko_porosus_Batan                   7     298766               298093           33982             11738    0.008999   0.002560          11030              4571
+RMB_9586_Gekko_porosus_Batan                   7     535350               534947           57463              3829    0.039513   0.022213           2188               765

@@ -1,0 +1,88 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              25291              0          25291
+filtered_by_rm_duplicates             263            263          25028
+filtered_by_max_indels                 65             65          24963
+filtered_by_max_snps                   83              1          24962
+filtered_by_max_shared_het            204            188          24774
+filtered_by_min_sample               7932           7793          16981
+filtered_by_max_alleles               429             80          16901
+total_filtered_loci                 16901              0          16901
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                      sample_coverage
+RMB_5953_Gekko_crombota_BabuyanClaro            15726
+RMB_5954_Gekko_crombota_BabuyanClaro            16138
+RMB_5968_Gekko_crombota_BabuyanClaro             4205
+RMB_5969_Gekko_crombota_BabuyanClaro            16791
+RMB_5970_Gekko_crombota_BabuyanClaro             9180
+RMB_6052_Gekko_rossi_Calayan                     8947
+RMB_6056_Gekko_rossi_Calayan                    16737
+RMB_6058_Gekko_rossi_Calayan                     8057
+RMB_6059_Gekko_rossi_Calayan                    14465
+RMB_6060_Gekko_rossi_Calayan                     5576
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+    locus_coverage  sum_coverage
+1                0             0
+2                0             0
+3                0             0
+4             2389          2389
+5             2634          5023
+6             2627          7650
+7             2581         10231
+8             2542         12773
+9             2349         15122
+10            1779         16901
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+      var  sum_var    pis  sum_pis
+0   13068        0  14380        0
+1    2878     2878   2014     2014
+2     584     4046    350     2714
+3     166     4544     89     2981
+4      66     4808     34     3117
+5      53     5073     22     3227
+6      27     5235      4     3251
+7      19     5368      1     3258
+8       8     5432      3     3282
+9      10     5522      2     3300
+10      4     5562      0     3300
+11      5     5617      1     3311
+12      3     5653      0     3311
+13      2     5679      1     3324
+14      4     5735      0     3324
+15      2     5765      0     3324
+16      0     5765      0     3324
+17      1     5782      0     3324
+18      1     5800      0     3324
+
+
+## Final Sample stats summary
+
+                                      state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+RMB_5953_Gekko_crombota_BabuyanClaro      7     853249               850212           93704             21211    0.011172   0.002599          19550             15726
+RMB_5954_Gekko_crombota_BabuyanClaro      7     987586               984260           85167             22566    0.010753   0.002142          20943             16138
+RMB_5968_Gekko_crombota_BabuyanClaro      7     297248               296193          102838              8332    0.028792   0.008958           6327              4205
+RMB_5969_Gekko_crombota_BabuyanClaro      7    4403000              4387386          171666             47051    0.012359   0.001312          43268             16791
+RMB_5970_Gekko_crombota_BabuyanClaro      7     303459               295862           45263             11351    0.010052   0.003381          10468              9180
+RMB_6052_Gekko_rossi_Calayan              7     199354               198825           23525             10329    0.008260   0.002447           9752              8947
+RMB_6056_Gekko_rossi_Calayan              7    1286922              1283524           42286             23331    0.007538   0.000998          22288             16737
+RMB_6058_Gekko_rossi_Calayan              7     496228               494850           38806              9634    0.011493   0.003540           8795              8057
+RMB_6059_Gekko_rossi_Calayan              7     543658               542464           38762             17069    0.007811   0.001890          16188             14465
+RMB_6060_Gekko_rossi_Calayan              7     123127               122720           21082              6519    0.010126   0.003372           6038              5576

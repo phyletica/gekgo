@@ -1,0 +1,87 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              21262              0          21262
+filtered_by_rm_duplicates             136            136          21126
+filtered_by_max_indels                 64             64          21062
+filtered_by_max_snps                   50              0          21062
+filtered_by_max_shared_het            303            289          20773
+filtered_by_min_sample               5552           5495          15278
+filtered_by_max_alleles               413             79          15199
+total_filtered_loci                 15199              0          15199
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                   sample_coverage
+RMB_5728_Gekko_sp.b_CamiguinNorte            14696
+RMB_5729_Gekko_sp.b_CamiguinNorte              441
+RMB_5730_Gekko_sp.b_CamiguinNorte            13474
+RMB_5737_Gekko_sp.b_CamiguinNorte            12939
+RMB_5793_Gekko_sp.b_CamiguinNorte            15084
+RMB_6369_Gekko_sp.a_Dalupiri                  2572
+RMB_6370_Gekko_sp.a_Dalupiri                 12628
+RMB_6372_Gekko_sp.a_Dalupiri                   584
+RMB_6373_Gekko_sp.a_Dalupiri                  6339
+RMB_6374_Gekko_sp.a_Dalupiri                 14765
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+    locus_coverage  sum_coverage
+1                0             0
+2                0             0
+3                0             0
+4             1860          1860
+5             2448          4308
+6             4719          9027
+7             4183         13210
+8             1697         14907
+9              249         15156
+10              43         15199
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+      var  sum_var    pis  sum_pis
+0   11228        0  13047        0
+1    3026     3026   1766     1766
+2     615     4256    265     2296
+3     174     4778     70     2506
+4      68     5050     28     2618
+5      40     5250     17     2703
+6      16     5346      1     2709
+7      10     5416      2     2723
+8       3     5440      3     2747
+9       4     5476      0     2747
+10      3     5506      0     2747
+11      5     5561      0     2747
+12      2     5585      0     2747
+13      3     5624      0     2747
+14      0     5624      0     2747
+15      1     5639      0     2747
+16      0     5639      0     2747
+17      1     5656      0     2747
+
+
+## Final Sample stats summary
+
+                                   state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+RMB_5728_Gekko_sp.b_CamiguinNorte      7    1282478              1280816           80179             22124    0.021612   0.003691          18932             14696
+RMB_5729_Gekko_sp.b_CamiguinNorte      7      27171                27072           10233               660    0.024964   0.008256            519               441
+RMB_5730_Gekko_sp.b_CamiguinNorte      7     808754               807635           55245             17174    0.012463   0.002805          15679             13474
+RMB_5737_Gekko_sp.b_CamiguinNorte      7     426862               425742           35641             15455    0.008292   0.002027          14635             12939
+RMB_5793_Gekko_sp.b_CamiguinNorte      7    2619518              2614776           92286             27372    0.021446   0.001427          24029             15084
+RMB_6369_Gekko_sp.a_Dalupiri           7     295141               294948           31629              3610    0.023090   0.008949           2872              2572
+RMB_6370_Gekko_sp.a_Dalupiri           7     420721               419594           33244             14876    0.007587   0.001967          14159             12628
+RMB_6372_Gekko_sp.a_Dalupiri           7      29428                29330           10219               834    0.021082   0.007782            692               584
+RMB_6373_Gekko_sp.a_Dalupiri           7    1611362              1610658          102507             15148    0.038515   0.023325           8305              6339
+RMB_6374_Gekko_sp.a_Dalupiri           7     601890               600306           35704             18696    0.007452   0.001662          17841             14765

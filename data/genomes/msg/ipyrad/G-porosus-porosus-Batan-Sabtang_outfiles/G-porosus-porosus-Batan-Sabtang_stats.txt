@@ -1,0 +1,81 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              23040              0          23040
+filtered_by_rm_duplicates             164            164          22876
+filtered_by_max_indels                 59             59          22817
+filtered_by_max_snps                   60              0          22817
+filtered_by_max_shared_het            307            294          22523
+filtered_by_min_sample               6157           6099          16424
+filtered_by_max_alleles               426             79          16345
+total_filtered_loci                 16345              0          16345
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                sample_coverage
+RMB_9552_Gekko_porosus_Sabtang            16241
+RMB_9554_Gekko_porosus_Sabtang             6963
+RMB_9555_Gekko_porosus_Sabtang            15071
+RMB_9560_Gekko_porosus_Sabtang            15825
+RMB_9575_Gekko_porosus_Batan              16205
+RMB_9584_Gekko_porosus_Batan              13929
+RMB_9585_Gekko_porosus_Batan              10077
+RMB_9586_Gekko_porosus_Batan               1575
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+   locus_coverage  sum_coverage
+1               0             0
+2               0             0
+3               0             0
+4            2668          2668
+5            3591          6259
+6            4356         10615
+7            4717         15332
+8            1013         16345
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+      var  sum_var    pis  sum_pis
+0   12537        0  14504        0
+1    2871     2871   1532     1532
+2     636     4143    227     1986
+3     171     4656     46     2124
+4      56     4880     18     2196
+5      30     5030      9     2241
+6      10     5090      3     2259
+7      10     5160      4     2287
+8       8     5224      1     2295
+9       1     5233      0     2295
+10      5     5283      0     2295
+11      2     5305      0     2295
+12      1     5317      0     2295
+13      3     5356      0     2295
+14      2     5384      1     2309
+15      0     5384      0     2309
+16      0     5384      0     2309
+17      2     5418      0     2309
+
+
+## Final Sample stats summary
+
+                                state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+RMB_9552_Gekko_porosus_Sabtang      7    2340820              2336689           93746             27228    0.021516   0.001654          23723             16241
+RMB_9554_Gekko_porosus_Sabtang      7     154528               154125           25467              8045    0.009309   0.003111           7503              6963
+RMB_9555_Gekko_porosus_Sabtang      7     528281               526929           32615             17587    0.006935   0.001585          16835             15071
+RMB_9560_Gekko_porosus_Sabtang      7    1494257              1492504           80861             21898    0.020892   0.003028          19085             15825
+RMB_9575_Gekko_porosus_Batan        7    2449849              2445451           92808             26806    0.018328   0.001343          23977             16205
+RMB_9584_Gekko_porosus_Batan        7     405567               404658           32213             16097    0.007457   0.001773          15354             13929
+RMB_9585_Gekko_porosus_Batan        7     298766               298093           33982             11738    0.008999   0.002560          11030             10077
+RMB_9586_Gekko_porosus_Batan        7     535350               534947           57463              3829    0.039513   0.022213           2188              1575

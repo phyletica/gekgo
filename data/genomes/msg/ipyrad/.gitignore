@@ -1,0 +1,8 @@
+*.json
+*_across/
+*.hdf5
+*.nex
+*_edits/
+*_consens/
+*_fastqs/
+*_clust_*/
