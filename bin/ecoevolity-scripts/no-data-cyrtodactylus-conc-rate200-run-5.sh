@@ -1,10 +1,4 @@
 #! /bin/sh
-#PBS -q gen28
-#PBS -l nodes=1:ppn=1
-#PBS -l walltime=0:10:00
-#PBS -j oe
-#PBS -W group_list=jro0014_lab
-#PBS -W x=FLAGS:ADVRES:jro0014_s28.162459
 
 if [ -n "$PBS_JOBNAME" ]
 then
@@ -15,4 +9,4 @@ fi
 
 prefix=../../data/genomes/msg/ecoevolity-output/no-data-run-5-
 
-ecoevolity --seed 739418561 --prefix ../../data/genomes/msg/ecoevolity-output/no-data-run-5- --ignore-data --relax-missing-sites --relax-constant-sites --relax-triallelic-sites ../../data/genomes/msg/ecoevolity-configs/cyrtodactylus-conc-rate200.yml 1>../../data/genomes/msg/ecoevolity-output/no-data-run-5-cyrtodactylus-conc-rate200.out 2>&1
+ecoevolity --seed 334958665 --prefix "$prefix" --ignore-data --relax-missing-sites --relax-constant-sites --relax-triallelic-sites ../../data/genomes/msg/ecoevolity-configs/cyrtodactylus-conc-rate200.yml 1>../../data/genomes/msg/ecoevolity-output/no-data-run-5-cyrtodactylus-conc-rate200.out 2>&1

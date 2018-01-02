@@ -81,11 +81,11 @@ comparisons:
 - comparison:
     path: "../alignments/G-crombota-rossi-BabuyanClaro-Calayan-polyallelic-sites-removed.nex"
 - comparison:
-    path: "../alignments/G-mindorensis-mindorensis-Caluya-Mindoro-polyallelic-sites-removed.nex"
+    path: "../alignments/G-gigante-gigante-NorthGigante-SouthGigante-polyallelic-sites-removed.nex"
 - comparison:
     path: "../alignments/G-mindorensis-mindorensis-Lubang-Luzon-polyallelic-sites-removed.nex"
 - comparison:
-    path: "../alignments/G-mindorensis-mindorensis-MaestreDeCampo-Masbate-polyallelic-sites-removed.nex"
+    path: "../alignments/G-mindorensis-mindorensis-Masbate-Panay-polyallelic-sites-removed.nex"
 - comparison:
     path: "../alignments/G-mindorensis-mindorensis-Negros-Panay-polyallelic-sites-removed.nex"
 - comparison:

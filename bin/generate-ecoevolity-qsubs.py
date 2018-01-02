@@ -14,26 +14,19 @@ import gekgo_util
 
 _RNG = random.Random()
 
-def get_pbs_header(walltime = "5:00:00"):
+def get_pbs_header():
     s = ("#! /bin/sh\n"
-         "#PBS -q gen28\n"
-         "#PBS -l nodes=1:ppn=1\n"
-         "#PBS -l walltime={0}\n"
-         "#PBS -j oe\n"
-         "#PBS -W group_list=jro0014_lab\n"
-         "#PBS -W x=FLAGS:ADVRES:jro0014_s28.162459\n"
          "\n"
          "if [ -n \"$PBS_JOBNAME\" ]\n"
          "then\n"
-         "    source \"${{PBS_O_HOME}}/.bash_profile\"\n"
+         "    source \"${PBS_O_HOME}/.bash_profile\"\n"
          "    cd \"$PBS_O_WORKDIR\"\n"
          "    module load gcc/5.3.0\n"
-         "fi\n\n".format(walltime))
+         "fi\n\n")
     return s
 
 def write_qsub(config_path,
         run_number = 1,
-        walltime = "2:00:00",
         rng = _RNG):
     config_name = os.path.basename(config_path)
     config_prefix = os.path.splitext(config_name)[0]
@@ -53,10 +46,10 @@ def write_qsub(config_path,
     no_data_stdout_path = no_data_prefix + config_prefix + ".out"
     if not os.path.exists(qsub_path):
         with open(qsub_path, 'w') as out:
-            out.write(get_pbs_header(walltime))
+            out.write(get_pbs_header())
             out.write("prefix={0}\n\n".format(prefix))
             out.write(
-                    "ecoevolity --seed {seed} --prefix {prefix} "
+                    "ecoevolity --seed {seed} --prefix \"$prefix\" "
                     "--relax-missing-sites "
                     "--relax-constant-sites "
                     "--relax-triallelic-sites "
@@ -67,10 +60,10 @@ def write_qsub(config_path,
                     stdout_path = stdout_path))
     if not os.path.exists(no_data_qsub_path):
         with open(no_data_qsub_path, 'w') as out:
-            out.write(get_pbs_header(walltime="0:10:00"))
+            out.write(get_pbs_header())
             out.write("prefix={0}\n\n".format(no_data_prefix))
             out.write(
-                    "ecoevolity --seed {seed} --prefix {prefix} "
+                    "ecoevolity --seed {seed} --prefix \"$prefix\" "
                     "--ignore-data "
                     "--relax-missing-sites "
                     "--relax-constant-sites "
@@ -107,11 +100,6 @@ def main_cli(argv = sys.argv):
             type = int,
             default = 10,
             help = 'Number of qsubs to generate per config (Default: 10).')
-    parser.add_argument('--walltime',
-            action = 'store',
-            type = str,
-            default = '20:00:00',
-            help = 'Walltime for qsub scripts (Default: 20:00:00).')
 
     if argv == sys.argv:
         args = parser.parse_args()
@@ -132,8 +120,7 @@ def main_cli(argv = sys.argv):
         for i in range(args.number_of_runs):
             write_qsub(
                     config_path = rel_config_path,
-                    run_number = i,
-                    walltime = args.walltime)
+                    run_number = i)
 
 
 if __name__ == "__main__":

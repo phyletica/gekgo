@@ -81,11 +81,11 @@ comparisons:
 - comparison:
     path: "../alignments/G-crombota-rossi-BabuyanClaro-Calayan.nex"
 - comparison:
-    path: "../alignments/G-mindorensis-mindorensis-Caluya-Mindoro.nex"
+    path: "../alignments/G-gigante-gigante-NorthGigante-SouthGigante.nex"
 - comparison:
     path: "../alignments/G-mindorensis-mindorensis-Lubang-Luzon.nex"
 - comparison:
-    path: "../alignments/G-mindorensis-mindorensis-MaestreDeCampo-Masbate.nex"
+    path: "../alignments/G-mindorensis-mindorensis-Masbate-Panay.nex"
 - comparison:
     path: "../alignments/G-mindorensis-mindorensis-Negros-Panay.nex"
 - comparison:

@@ -1,7 +1,4 @@
 #! /bin/sh
-#PBS -l nodes=1:ppn=1
-#PBS -l walltime=20:00:00
-#PBS -j oe
 
 if [ -n "$PBS_JOBNAME" ]
 then
@@ -10,6 +7,6 @@ then
     module load gcc/5.3.0
 fi
 
-prefix=../../data/genomes/msg/ecoevolity-output/run-0
+prefix=../../data/genomes/msg/ecoevolity-output/run-0-
 
-ecoevolity --seed 912311346 --prefix ../../data/genomes/msg/ecoevolity-output/run-0 --relax-missing-sites --relax-constant-sites --relax-triallelic-sites ../../data/genomes/msg/ecoevolity-configs/gekko-nopoly-rate200.yml 1>../../data/genomes/msg/ecoevolity-output/run-0-gekko-nopoly-rate200.out 2>&1
+ecoevolity --seed 696744370 --prefix "$prefix" --relax-missing-sites --relax-constant-sites --relax-triallelic-sites ../../data/genomes/msg/ecoevolity-configs/gekko-nopoly-rate200.yml 1>../../data/genomes/msg/ecoevolity-output/run-0-gekko-nopoly-rate200.out 2>&1
