@@ -1,0 +1,86 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              28243              0          28243
+filtered_by_rm_duplicates             233            233          28010
+filtered_by_max_indels                114            114          27896
+filtered_by_max_snps                  100              2          27894
+filtered_by_max_shared_het            450            427          27467
+filtered_by_min_sample               8928           8808          18659
+filtered_by_max_alleles               545            119          18540
+total_filtered_loci                 18540              0          18540
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                    sample_coverage
+CDS_1230_Gekko_mindorensis_Mindoro            18309
+CDS_1231_Gekko_mindorensis_Mindoro               43
+CDS_590_Gekko_mindorensis_Caluya              16488
+CDS_591_Gekko_mindorensis_Caluya              17531
+CDS_607_Gekko_mindorensis_Caluya               6989
+CDS_609_Gekko_mindorensis_Caluya              18291
+CDS_610_Gekko_mindorensis_Caluya              17970
+RMB_5005_Gekko_mindorensis_Mindoro            11685
+RMB_5006_Gekko_mindorensis_Mindoro            10221
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+   locus_coverage  sum_coverage
+1               0             0
+2               0             0
+3               0             0
+4            2107          2107
+5            3545          5652
+6            3669          9321
+7            4415         13736
+8            4781         18517
+9              23         18540
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+      var  sum_var    pis  sum_pis
+0   11862        0  14419        0
+1    4458     4458   3060     3060
+2    1359     7176    733     4526
+3     470     8586    197     5117
+4     171     9270     70     5397
+5     106     9800     29     5542
+6      39    10034      9     5596
+7      28    10230     11     5673
+8      14    10342      5     5713
+9       8    10414      2     5731
+10      4    10454      1     5741
+11      7    10531      0     5741
+12      1    10543      0     5741
+13      5    10608      2     5767
+14      4    10664      1     5781
+15      1    10679      1     5796
+16      1    10695      0     5796
+17      0    10695      0     5796
+18      1    10713      0     5796
+19      1    10732      0     5796
+
+
+## Final Sample stats summary
+
+                                    state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+CDS_1230_Gekko_mindorensis_Mindoro      7    1587880              1584122           55164             23868    0.009606   0.001005          22589             18309
+CDS_1231_Gekko_mindorensis_Mindoro      7      10094                10052            4774               117    0.051424   0.015486             67                43
+CDS_590_Gekko_mindorensis_Caluya        7     828518               824817           70160             22288    0.009826   0.002054          20891             16488
+CDS_591_Gekko_mindorensis_Caluya        7    1257517              1252922           97438             26103    0.012392   0.001754          24204             17531
+CDS_607_Gekko_mindorensis_Caluya        7     628993               626758          105870             10715    0.025072   0.009674           8420              6989
+CDS_609_Gekko_mindorensis_Caluya        7    3805511              3794393          185249             42212    0.014235   0.001298          38536             18291
+CDS_610_Gekko_mindorensis_Caluya        7    1580009              1574836           90816             28393    0.010814   0.001607          26469             17970
+RMB_5005_Gekko_mindorensis_Mindoro      7     351669               350670           42736             13780    0.009530   0.002037          12974             11685
+RMB_5006_Gekko_mindorensis_Mindoro      7    1260313              1259429          111877             15926    0.029575   0.011896          11715             10221

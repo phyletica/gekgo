@@ -1,0 +1,76 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              25366              0          25366
+filtered_by_rm_duplicates             185            185          25181
+filtered_by_max_indels                115            115          25066
+filtered_by_max_snps                   61              1          25065
+filtered_by_max_shared_het            207            198          24867
+filtered_by_min_sample               8852           8783          16084
+filtered_by_max_alleles               349             91          15993
+total_filtered_loci                 15993              0          15993
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                           sample_coverage
+CDS_1461_Gekko_mindorensis_MaestreDeCampo             9549
+CDS_1462_Gekko_mindorensis_MaestreDeCampo            15776
+CDS_1463_Gekko_mindorensis_MaestreDeCampo            15698
+CDS_755_Gekko_mindorensis_Masbate                    15871
+CDS_757_Gekko_mindorensis_Masbate                     9403
+CDS_758_Gekko_mindorensis_Masbate                    15893
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+   locus_coverage  sum_coverage
+1               0             0
+2               0             0
+3               0             0
+4            4668          4668
+5            4432          9100
+6            6893         15993
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+     var  sum_var    pis  sum_pis
+0   8697        0  10218        0
+1   4664     4664   4040     4040
+2   1633     7930   1166     6372
+3    577     9661    347     7413
+4    212    10509    116     7877
+5     75    10884     43     8092
+6     62    11256     26     8248
+7     24    11424     16     8360
+8     16    11552      6     8408
+9     14    11678      6     8462
+10     4    11718      5     8512
+11     5    11773      1     8523
+12     2    11797      0     8523
+13     4    11849      1     8536
+14     3    11891      2     8564
+15     0    11891      0     8564
+16     0    11891      0     8564
+17     0    11891      0     8564
+18     1    11909      0     8564
+
+
+## Final Sample stats summary
+
+                                           state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+CDS_1461_Gekko_mindorensis_MaestreDeCampo      7     243349               242746           26892             11869    0.008366   0.002447          11217              9549
+CDS_1462_Gekko_mindorensis_MaestreDeCampo      7     974702               972552           45743             21269    0.007933   0.001057          20306             15776
+CDS_1463_Gekko_mindorensis_MaestreDeCampo      7     921557               919171           38236             20812    0.007517   0.001125          19901             15698
+CDS_755_Gekko_mindorensis_Masbate              7    2335641              2331718           65295             25759    0.010551   0.000837          24207             15871
+CDS_757_Gekko_mindorensis_Masbate              7     285698               285107           33785             11687    0.008957   0.002565          10958              9403
+CDS_758_Gekko_mindorensis_Masbate              7    3166734              3159795           73984             27568    0.011350   0.000773          25713             15893

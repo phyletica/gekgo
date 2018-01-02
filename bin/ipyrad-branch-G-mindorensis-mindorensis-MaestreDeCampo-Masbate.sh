@@ -1,7 +1,4 @@
 #! /bin/sh
-#PBS -l nodes=1:ppn=1
-#PBS -l walltime=1:00:00
-#PBS -j oe
 
 if [ -n "$PBS_JOBNAME" ]
 then
@@ -11,4 +8,4 @@ then
     condaenv
 fi
 
-ipyrad -p "params-plates123.txt" -b "G-mindorensis-mindorensis-MaestreDeCampo-Masbate" "samples-Gekko-mindorensis-mindorensis-MaestreDeCampo-Masbate.txt" 1>"ipyrad-branch-G-mindorensis-mindorensis-MaestreDeCampo-Masbate.sh.out" 2>&1
+ipyrad -f -p "params-plates123.txt" -b "G-mindorensis-mindorensis-MaestreDeCampo-Masbate" "samples-Gekko-mindorensis-mindorensis-MaestreDeCampo-Masbate.txt" 1>"ipyrad-branch-G-mindorensis-mindorensis-MaestreDeCampo-Masbate.sh.out" 2>&1

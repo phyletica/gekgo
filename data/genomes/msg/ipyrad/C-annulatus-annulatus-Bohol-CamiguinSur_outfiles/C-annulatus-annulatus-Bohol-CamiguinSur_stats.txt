@@ -1,0 +1,78 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              22882              0          22882
+filtered_by_rm_duplicates             153            153          22729
+filtered_by_max_indels                 64             64          22665
+filtered_by_max_snps                   40              0          22665
+filtered_by_max_shared_het           1079           1060          21605
+filtered_by_min_sample               5571           5467          16138
+filtered_by_max_alleles              1692            638          15500
+total_filtered_loci                 15500              0          15500
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                              sample_coverage
+CDS_4485_Cyrtodactylus_annulatus_Bohol                  14648
+CDS_4658_Cyrtodactylus_annulatus_Bohol                   7195
+CDS_4659_Cyrtodactylus_annulatus_Bohol                  14368
+CDS_4660_Cyrtodactylus_annulatus_Bohol                  13204
+RMB_8043_Cyrtodactylus_annulatus_CamiguinSur            15207
+RMB_8201_Cyrtodactylus_annulatus_CamiguinSur             6633
+RMB_8220_Cyrtodactylus_annulatus_CamiguinSur            14361
+RMB_8232_Cyrtodactylus_annulatus_CamiguinSur            14000
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+   locus_coverage  sum_coverage
+1               0             0
+2               0             0
+3               0             0
+4            1791          1791
+5            2057          3848
+6            3670          7518
+7            3709         11227
+8            4273         15500
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+     var  sum_var    pis  sum_pis
+0   7856        0  11540        0
+1   4796     4796   2901     2901
+2   1760     8316    674     4249
+3    622    10182    230     4939
+4    258    11214     91     5303
+5     97    11699     39     5498
+6     47    11981     10     5558
+7     15    12086      4     5586
+8      8    12150      5     5626
+9     15    12285      2     5644
+10     8    12365      2     5664
+11     4    12409      0     5664
+12     4    12457      0     5664
+13     6    12535      2     5690
+14     4    12591      0     5690
+
+
+## Final Sample stats summary
+
+                                              state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+CDS_4485_Cyrtodactylus_annulatus_Bohol            7     935026               934043           57564             23012    0.029138   0.006153          19568             14648
+CDS_4658_Cyrtodactylus_annulatus_Bohol            7     466676               466255           39193             11079    0.033636   0.012402           8791              7195
+CDS_4659_Cyrtodactylus_annulatus_Bohol            7     514671               513865           36674             19725    0.008836   0.003428          18753             14368
+CDS_4660_Cyrtodactylus_annulatus_Bohol            7     605882               605084           43044             17544    0.011473   0.004263          16401             13204
+RMB_8043_Cyrtodactylus_annulatus_CamiguinSur      7    1025019              1023752           48613             23935    0.009483   0.003297          22743             15207
+RMB_8201_Cyrtodactylus_annulatus_CamiguinSur      7    1851967              1851015           61757             17785    0.071962   0.035780           8402              6633
+RMB_8220_Cyrtodactylus_annulatus_CamiguinSur      7     901156               900397           50079             20240    0.015443   0.004533          18610             14361
+RMB_8232_Cyrtodactylus_annulatus_CamiguinSur      7     921631               920853           57324             21051    0.027070   0.006239          18035             14000

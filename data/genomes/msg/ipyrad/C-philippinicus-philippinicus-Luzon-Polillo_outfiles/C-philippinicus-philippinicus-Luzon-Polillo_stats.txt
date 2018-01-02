@@ -1,0 +1,90 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              30517              0          30517
+filtered_by_rm_duplicates             262            262          30255
+filtered_by_max_indels                198            198          30057
+filtered_by_max_snps                  121              4          30053
+filtered_by_max_shared_het            723            691          29362
+filtered_by_min_sample               8616           8462          20900
+filtered_by_max_alleles              1985           1339          19561
+total_filtered_loci                 19561              0          19561
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                              sample_coverage
+CDS_1112_Cyrtodactylus_philippinicus_Polillo            17857
+CDS_5627_Cyrtodactylus_philippinicus_Luzon               9642
+CDS_5724_Cyrtodactylus_philippinicus_Luzon              18074
+CDS_5727_Cyrtodactylus_philippinicus_Luzon                714
+CDS_5822_Cyrtodactylus_philippinicus_Luzon              15695
+CDS_5823_Cyrtodactylus_philippinicus_Luzon              18541
+RMB_6259_Cyrtodactylus_philippinicus_Polillo            18733
+RMB_6260_Cyrtodactylus_philippinicus_Polillo            14476
+RMB_6261_Cyrtodactylus_philippinicus_Polillo            18513
+RMB_6332_Cyrtodactylus_philippinicus_Polillo            11319
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+    locus_coverage  sum_coverage
+1                0             0
+2                0             0
+3                0             0
+4             1699          1699
+5             1980          3679
+6             2341          6020
+7             2891          8911
+8             3758         12669
+9             6399         19068
+10             493         19561
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+     var  sum_var    pis  sum_pis
+0   6250        0  11429        0
+1   5965     5965   5137     5137
+2   3717    13399   1898     8933
+3   1918    19153    644    10865
+4    852    22561    265    11925
+5    392    24521    110    12475
+6    202    25733     30    12655
+7    114    26531     22    12809
+8     61    27019      6    12857
+9     27    27262      6    12911
+10    18    27442      4    12951
+11    10    27552      2    12973
+12    10    27672      5    13033
+13    12    27828      2    13059
+14     5    27898      0    13059
+15     3    27943      1    13074
+16     1    27959      0    13074
+17     2    27993      0    13074
+18     1    28011      0    13074
+19     0    28011      0    13074
+20     1    28031      0    13074
+
+
+## Final Sample stats summary
+
+                                              state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+CDS_1112_Cyrtodactylus_philippinicus_Polillo      7    1291039              1288138          120787             28097    0.013065   0.001851          26102             17857
+CDS_5627_Cyrtodactylus_philippinicus_Luzon        7     271078               270728           36783             12572    0.011217   0.004522          11742              9642
+CDS_5724_Cyrtodactylus_philippinicus_Luzon        7    1039092              1038098           54778             24741    0.011253   0.003380          23334             18074
+CDS_5727_Cyrtodactylus_philippinicus_Luzon        7     499945               499690           33117              3766    0.085543   0.037570           1227               714
+CDS_5822_Cyrtodactylus_philippinicus_Luzon        7     569988               569296           43225             20275    0.011002   0.004188          19209             15695
+CDS_5823_Cyrtodactylus_philippinicus_Luzon        7    1571639              1569744           65724             26358    0.014021   0.003771          24521             18541
+RMB_6259_Cyrtodactylus_philippinicus_Polillo      7    2112805              2109121          112075             34912    0.011200   0.001327          32880             18733
+RMB_6260_Cyrtodactylus_philippinicus_Polillo      7     552076               550996           59067             19860    0.009815   0.002062          18817             14476
+RMB_6261_Cyrtodactylus_philippinicus_Polillo      7    1733548              1730008          140817             31387    0.013297   0.001645          29147             18513
+RMB_6332_Cyrtodactylus_philippinicus_Polillo      7     340284               339334           50535             15260    0.010115   0.002427          14392             11319

@@ -1,0 +1,80 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              27692              0          27692
+filtered_by_rm_duplicates             271            271          27421
+filtered_by_max_indels                154            154          27267
+filtered_by_max_snps                   60              1          27266
+filtered_by_max_shared_het            296            286          26980
+filtered_by_min_sample              17939          17598           9382
+filtered_by_max_alleles               956            393           8989
+total_filtered_loci                  8989              0           8989
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                            sample_coverage
+RMB_7757_Cyrtodactylus_redimiculus_Palawan             6174
+RMB_7842_Cyrtodactylus_redimiculus_Palawan             8866
+RMB_7859_Cyrtodactylus_redimiculus_Palawan             8901
+RMB_7873_Cyrtodactylus_redimiculus_Palawan             7214
+SP_6891_Cyrtodactylus_baluensis_Kinabalu               2796
+SP_6892_Cyrtodactylus_baluensis_Kinabalu               6424
+SP_6906_Cyrtodactylus_baluensis_Kinabalu               8381
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+   locus_coverage  sum_coverage
+1               0             0
+2               0             0
+3               0             0
+4            2104          2104
+5            2585          4689
+6            2685          7374
+7            1615          8989
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+     var  sum_var   pis  sum_pis
+0    980        0  3592        0
+1   1745     1745  2084     2084
+2   1844     5433  1503     5090
+3   1544    10065   821     7553
+4   1121    14549   502     9561
+5    730    18199   248    10801
+6    432    20791   107    11443
+7    253    22562    56    11835
+8    141    23690    26    12043
+9     68    24302    17    12196
+10    49    24792     8    12276
+11    27    25089     6    12342
+12    15    25269     8    12438
+13    13    25438     5    12503
+14    18    25690     6    12587
+15     5    25765     0    12587
+16     2    25797     0    12587
+17     1    25814     0    12587
+18     0    25814     0    12587
+19     1    25833     0    12587
+
+
+## Final Sample stats summary
+
+                                            state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+RMB_7757_Cyrtodactylus_redimiculus_Palawan      7     322688               321183           48014             12462    0.010816   0.002818          11611              6174
+RMB_7842_Cyrtodactylus_redimiculus_Palawan      7    1083043              1080655           85070             26741    0.010056   0.001656          25186              8866
+RMB_7859_Cyrtodactylus_redimiculus_Palawan      7    3966622              3957116          210871             50339    0.012378   0.001228          46593              8901
+RMB_7873_Cyrtodactylus_redimiculus_Palawan      7     589398               585749          106818             16567    0.014810   0.003446          14898              7214
+SP_6891_Cyrtodactylus_baluensis_Kinabalu        7    1736112              1735231           53343             14326    0.085336   0.042383           5201              2796
+SP_6892_Cyrtodactylus_baluensis_Kinabalu        7     212515               212253           30347             12174    0.012498   0.004132          11365              6424
+SP_6906_Cyrtodactylus_baluensis_Kinabalu        7    1618335              1617413           66084             24293    0.047604   0.014673          16921              8381

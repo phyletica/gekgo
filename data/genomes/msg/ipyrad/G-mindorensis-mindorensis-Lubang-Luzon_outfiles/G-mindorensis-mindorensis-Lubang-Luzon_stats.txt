@@ -1,0 +1,86 @@
+
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                            total_filters  applied_order  retained_loci
+total_prefiltered_loci              28563              0          28563
+filtered_by_rm_duplicates             223            223          28340
+filtered_by_max_indels                135            135          28205
+filtered_by_max_snps                   91              2          28203
+filtered_by_max_shared_het            315            295          27908
+filtered_by_min_sample               9769           9646          18262
+filtered_by_max_alleles               501            125          18137
+total_filtered_loci                 18137              0          18137
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                   sample_coverage
+CDS_3866_Gekko_mindorensis_Lubang            14096
+CDS_3867_Gekko_mindorensis_Lubang            14489
+CDS_3868_Gekko_mindorensis_Lubang               33
+CDS_3935_Gekko_mindorensis_Lubang            17901
+CDS_3936_Gekko_mindorensis_Lubang            11776
+CDS_6047_Gekko_mindorensis_Luzon             17672
+CDS_6051_Gekko_mindorensis_Luzon             13447
+CDS_6052_Gekko_mindorensis_Luzon             17558
+CDS_6054_Gekko_mindorensis_Luzon             16116
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+   locus_coverage  sum_coverage
+1               0             0
+2               0             0
+3               0             0
+4            2055          2055
+5            2097          4152
+6            2224          6376
+7            3056          9432
+8            8698         18130
+9               7         18137
+
+
+## The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+
+      var  sum_var    pis  sum_pis
+0   10901        0  12879        0
+1    4671     4671   3728     3728
+2    1537     7745    996     5720
+3     502     9251    316     6668
+4     243    10223    112     7116
+5     123    10838     54     7386
+6      53    11156     18     7494
+7      31    11373      8     7550
+8      24    11565     10     7630
+9      12    11673      5     7675
+10      9    11763      4     7715
+11      6    11829      1     7726
+12      9    11937      2     7750
+13      8    12041      2     7776
+14      3    12083      2     7804
+15      3    12128      0     7804
+16      0    12128      0     7804
+17      1    12145      0     7804
+18      0    12145      0     7804
+19      1    12164      0     7804
+
+
+## Final Sample stats summary
+
+                                   state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+CDS_3866_Gekko_mindorensis_Lubang      7     575934               572016           64421             18706    0.009412   0.002281          17519             14096
+CDS_3867_Gekko_mindorensis_Lubang      7     632924               630937           77870             18807    0.010493   0.002452          17481             14489
+CDS_3868_Gekko_mindorensis_Lubang      7      19120                19029            8880               317    0.035554   0.005681            224                33
+CDS_3935_Gekko_mindorensis_Lubang      7    2709331              2697331          100352             34753    0.010509   0.001244          32469             17901
+CDS_3936_Gekko_mindorensis_Lubang      7     461071               458769           58113             15312    0.009861   0.002801          14235             11776
+CDS_6047_Gekko_mindorensis_Luzon       7    2037742              2031930          185129             31103    0.018911   0.002293          27296             17672
+CDS_6051_Gekko_mindorensis_Luzon       7     518840               516601           56576             17141    0.009426   0.002430          16070             13447
+CDS_6052_Gekko_mindorensis_Luzon       7    1606252              1602143           83235             27320    0.010429   0.001572          25599             17558
+CDS_6054_Gekko_mindorensis_Luzon       7     812286               805863           72810             22003    0.010086   0.002269          20566             16116

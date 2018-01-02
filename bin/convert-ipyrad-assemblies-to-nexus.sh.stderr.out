@@ -1,10 +1,10 @@
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -15,12 +15,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 0 /scratch/jro0014/gekg
 	Number of triallelic sites found:   61
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -31,12 +31,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 0 --remove-triallelic-s
 	Number of triallelic sites found:   61
 	Number of triallelic sites removed: 61
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -47,12 +47,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 1 /scratch/jro0014/gekg
 	Number of triallelic sites found:   239
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -63,12 +63,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 1 --remove-triallelic-s
 	Number of triallelic sites found:   239
 	Number of triallelic sites removed: 239
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -79,12 +79,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 2 /scratch/jro0014/gekg
 	Number of triallelic sites found:   347
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -95,12 +95,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 2 --remove-triallelic-s
 	Number of triallelic sites found:   347
 	Number of triallelic sites removed: 347
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -111,12 +111,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 3 /scratch/jro0014/gekg
 	Number of triallelic sites found:   4
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -127,12 +127,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 3 --remove-triallelic-s
 	Number of triallelic sites found:   4
 	Number of triallelic sites removed: 4
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -143,12 +143,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 4 /scratch/jro0014/gekg
 	Number of triallelic sites found:   35
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -159,12 +159,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 4 --remove-triallelic-s
 	Number of triallelic sites found:   35
 	Number of triallelic sites removed: 35
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -175,12 +175,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 5 /scratch/jro0014/gekg
 	Number of triallelic sites found:   171
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -191,12 +191,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 5 --remove-triallelic-s
 	Number of triallelic sites found:   171
 	Number of triallelic sites removed: 171
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -207,12 +207,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 6 /scratch/jro0014/gekg
 	Number of triallelic sites found:   20
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -223,12 +223,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 6 --remove-triallelic-s
 	Number of triallelic sites found:   20
 	Number of triallelic sites removed: 20
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -239,12 +239,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 7 /scratch/jro0014/gekg
 	Number of triallelic sites found:   54
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -255,12 +255,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 7 --remove-triallelic-s
 	Number of triallelic sites found:   54
 	Number of triallelic sites removed: 54
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -271,12 +271,12 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 8 /scratch/jro0014/gekg
 	Number of triallelic sites found:   50
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -287,236 +287,300 @@ Command: /home/jro0014/Environment/bin/loci2nex --suffix 8 --remove-triallelic-s
 	Number of triallelic sites found:   50
 	Number of triallelic sites removed: 50
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 9 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Caluya-Mindoro_outfiles/G-mindorensis-mindorensis-Caluya-Mindoro.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 9 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-gigante-gigante-NorthGigante-SouthGigante_outfiles/G-gigante-gigante-NorthGigante-SouthGigante.loci
+	Number of taxa:  7
+	Number of loci:  17393
+	Number of sites: 1585030
+	Number of triallelic sites found:   21
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 9 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-gigante-gigante-NorthGigante-SouthGigante_outfiles/G-gigante-gigante-NorthGigante-SouthGigante.loci
+	Number of taxa:  7
+	Number of loci:  17393
+	Number of sites: 1585009
+	Number of triallelic sites found:   21
+	Number of triallelic sites removed: 21
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 10 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Caluya-Mindoro_outfiles/G-mindorensis-mindorensis-Caluya-Mindoro.loci
 	Number of taxa:  9
 	Number of loci:  18540
 	Number of sites: 1690984
 	Number of triallelic sites found:   80
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 9 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Caluya-Mindoro_outfiles/G-mindorensis-mindorensis-Caluya-Mindoro.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 10 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Caluya-Mindoro_outfiles/G-mindorensis-mindorensis-Caluya-Mindoro.loci
 	Number of taxa:  9
 	Number of loci:  18540
 	Number of sites: 1690904
 	Number of triallelic sites found:   80
 	Number of triallelic sites removed: 80
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 10 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Lubang-Luzon_outfiles/G-mindorensis-mindorensis-Lubang-Luzon.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 11 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Lubang-Luzon_outfiles/G-mindorensis-mindorensis-Lubang-Luzon.loci
 	Number of taxa:  9
 	Number of loci:  18137
 	Number of sites: 1654333
 	Number of triallelic sites found:   68
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 10 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Lubang-Luzon_outfiles/G-mindorensis-mindorensis-Lubang-Luzon.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 11 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Lubang-Luzon_outfiles/G-mindorensis-mindorensis-Lubang-Luzon.loci
 	Number of taxa:  9
 	Number of loci:  18137
 	Number of sites: 1654265
 	Number of triallelic sites found:   68
 	Number of triallelic sites removed: 68
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 11 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-MaestreDeCampo-Masbate_outfiles/G-mindorensis-mindorensis-MaestreDeCampo-Masbate.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 12 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-MaestreDeCampo-Masbate_outfiles/G-mindorensis-mindorensis-MaestreDeCampo-Masbate.loci
 	Number of taxa:  6
 	Number of loci:  15993
 	Number of sites: 1457606
 	Number of triallelic sites found:   27
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 11 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-MaestreDeCampo-Masbate_outfiles/G-mindorensis-mindorensis-MaestreDeCampo-Masbate.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 12 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-MaestreDeCampo-Masbate_outfiles/G-mindorensis-mindorensis-MaestreDeCampo-Masbate.loci
 	Number of taxa:  6
 	Number of loci:  15993
 	Number of sites: 1457579
 	Number of triallelic sites found:   27
 	Number of triallelic sites removed: 27
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 12 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Negros-Panay_outfiles/G-mindorensis-mindorensis-Negros-Panay.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 13 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Masbate-Panay_outfiles/G-mindorensis-mindorensis-Masbate-Panay.loci
 	Number of taxa:  7
-	Number of loci:  19785
-	Number of sites: 1804205
-	Number of triallelic sites found:   31
+	Number of loci:  20570
+	Number of sites: 1876351
+	Number of triallelic sites found:   49
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 12 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Negros-Panay_outfiles/G-mindorensis-mindorensis-Negros-Panay.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 13 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Masbate-Panay_outfiles/G-mindorensis-mindorensis-Masbate-Panay.loci
 	Number of taxa:  7
-	Number of loci:  19785
-	Number of sites: 1804174
-	Number of triallelic sites found:   31
-	Number of triallelic sites removed: 31
+	Number of loci:  20570
+	Number of sites: 1876302
+	Number of triallelic sites found:   49
+	Number of triallelic sites removed: 49
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 13 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-porosus-porosus-Batan-Sabtang_outfiles/G-porosus-porosus-Batan-Sabtang.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 14 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Negros-Panay_outfiles/G-mindorensis-mindorensis-Negros-Panay.loci
+	Number of taxa:  8
+	Number of loci:  17636
+	Number of sites: 1607610
+	Number of triallelic sites found:   30
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 14 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Negros-Panay_outfiles/G-mindorensis-mindorensis-Negros-Panay.loci
+	Number of taxa:  8
+	Number of loci:  17636
+	Number of sites: 1607580
+	Number of triallelic sites found:   30
+	Number of triallelic sites removed: 30
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 15 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-porosus-porosus-Batan-Sabtang_outfiles/G-porosus-porosus-Batan-Sabtang.loci
 	Number of taxa:  8
 	Number of loci:  16345
 	Number of sites: 1489737
 	Number of triallelic sites found:   31
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 13 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-porosus-porosus-Batan-Sabtang_outfiles/G-porosus-porosus-Batan-Sabtang.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 15 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-porosus-porosus-Batan-Sabtang_outfiles/G-porosus-porosus-Batan-Sabtang.loci
 	Number of taxa:  8
 	Number of loci:  16345
 	Number of sites: 1489706
 	Number of triallelic sites found:   31
 	Number of triallelic sites removed: 31
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 14 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-romblon-romblon-Romblon-Tablas_outfiles/G-romblon-romblon-Romblon-Tablas.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 16 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-romblon-romblon-Romblon-Tablas_outfiles/G-romblon-romblon-Romblon-Tablas.loci
 	Number of taxa:  7
 	Number of loci:  7074
 	Number of sites: 644564
 	Number of triallelic sites found:   34
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 14 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-romblon-romblon-Romblon-Tablas_outfiles/G-romblon-romblon-Romblon-Tablas.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 16 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-romblon-romblon-Romblon-Tablas_outfiles/G-romblon-romblon-Romblon-Tablas.loci
 	Number of taxa:  7
 	Number of loci:  7074
 	Number of sites: 644530
 	Number of triallelic sites found:   34
 	Number of triallelic sites removed: 34
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 15 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-sp_a-sp_b-Dalupiri-CamiguinNorte_outfiles/G-sp_a-sp_b-Dalupiri-CamiguinNorte.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 17 /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-sp_a-sp_b-Dalupiri-CamiguinNorte_outfiles/G-sp_a-sp_b-Dalupiri-CamiguinNorte.loci
 	Number of taxa:  10
 	Number of loci:  15199
 	Number of sites: 1385281
 	Number of triallelic sites found:   31
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /home/jro0014/Environment/bin/loci2nex --suffix 15 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-sp_a-sp_b-Dalupiri-CamiguinNorte_outfiles/G-sp_a-sp_b-Dalupiri-CamiguinNorte.loci
+Command: /home/jro0014/Environment/bin/loci2nex --suffix 17 --remove-triallelic-sites /scratch/jro0014/gekgo/data/genomes/msg/ipyrad/G-sp_a-sp_b-Dalupiri-CamiguinNorte_outfiles/G-sp_a-sp_b-Dalupiri-CamiguinNorte.loci
 	Number of taxa:  10
 	Number of loci:  15199
 	Number of sites: 1385250
 	Number of triallelic sites found:   31
 	Number of triallelic sites removed: 31
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -527,12 +591,12 @@ Command: /home/jro0014/Environment/bin/loci2phy /scratch/jro0014/gekgo/data/geno
 	Number of triallelic sites found:   3592
 	Number of triallelic sites removed: 0
 ========================================================================
-                              Sumcoevolity                              
+                              Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-          Version 0.1.0 (master 1634b86: 2017-09-29 08:14:19)           
+          Version 0.1.0 (master 5441dc1: 2017-11-09 11:41:34)           
 
              License: GNU General Public License Version 3              
 ========================================================================

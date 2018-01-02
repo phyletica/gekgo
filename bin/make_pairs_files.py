@@ -373,11 +373,41 @@ def main():
             genus = "Gekko",
             epithet = "mindorensis",
             island = "Panay",
+            locality_name = "San Remigio",
+            omit = omit)
+    gekko_mind_masbate = get_island_samples(msg_samples,
+            genus = "Gekko",
+            epithet = "mindorensis",
+            island = "Masbate",
+            omit = omit)
+    gekko_mind_panay_pilar = get_island_samples(msg_samples,
+            genus = "Gekko",
+            epithet = "mindorensis",
+            island = "Panay",
             locality_name = "Pilar",
             omit = omit)
     write_pair_file(
             pop1_samples = gekko_mind_negros,
             pop2_samples = gekko_mind_panay,
+            min_pop_sample_func = get_one)
+    write_pair_file(
+            pop1_samples = gekko_mind_masbate,
+            pop2_samples = gekko_mind_panay_pilar,
+            min_pop_sample_func = get_one)
+
+    gekko_gigante_north = get_island_samples(msg_samples,
+            genus = "Gekko",
+            epithet = "gigante",
+            island = "North Gigante",
+            omit = omit)
+    gekko_gigante_south = get_island_samples(msg_samples,
+            genus = "Gekko",
+            epithet = "gigante",
+            island = "South Gigante",
+            omit = omit)
+    write_pair_file(
+            pop1_samples = gekko_gigante_north,
+            pop2_samples = gekko_gigante_south,
             min_pop_sample_func = get_one)
 
 
