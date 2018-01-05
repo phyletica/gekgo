@@ -32,13 +32,10 @@ The divergence between these populations was either due to that
 dispersal, or an earlier intra-island divergence.
 Either way, the timing of divergences across islands that were never connected
 are not expected to be clustered across pairs.
-Applying these criteria, we ended up with eight pairs of populations for
-\spp{Cyrtodactylus}, four of which, span islands that were connected during
-glacial periods (Table \ref{table:comparisons} \& \highLight{SX}).
-For \spp{Gekko} we also sampled eight pairs of populations, one of which span
-previously connected islands (Table \ref{table:comparisons} \& \highLight{SX}).
-\thought{Is it worth including \spp{Gekko}? With only one ``PAIC'' pair, it
-    cannot address the hypothesis of interest.}
+Applying these criteria, for both genera we ended up with eight pairs of
+populations, of which three span islands that were never connected, four span
+islands that were connected, and one spans islands that were possibly connected
+(Table \ref{table:comparisons} \& \highLight{SX}).
 
 \subsection{Genomic library preparation and sequencing}
 
@@ -100,33 +97,45 @@ is for pairs to share the same divergence event, \emph{a priori}, and
 (2) base distribution, which serves as the prior on the divergence-time
 parameters.
 
+Because the pairs of populations are modeled as disconnected ``species'' or
+``population'' trees, the relative rates of mutation among the pairs is not
+identifiable.
+Accordingly, we analyze the two genera separately and make the simplifying
+assumption that mutation rate is equal across the eight pairs of each genus.
+Given the species within each genus are closely related \citep{Welton2010,
+    Welton2010zootaxa, Siler2010, Siler2012, Siler2014kikuchii}, this
+assumption is biologically reasonable.
+Given the deep divergence between the two genera, and lack of information about
+their relative rates of mutation, we did not have the prior information
+necessary to meaningfully analyze both generat together.
+
 Based on previous data \citep{Welton2010, Welton2010zootaxa, Siler2010} we
 assumed a prior of \dexponential{0.005} on divergence times for our eight pairs
 of \spp{Cyrtodactylus} populations, in units of substitutions per site.
 To explore the sensitivity of our results to this assumption, we also
 tried a prior of \dexponential{0.05} on the divergence times.
-We also assumed a hyperprior of $\distgamma(1.5, 3.13)$ on the concentration
-parameter of the Dirichlet process, which corresponds to a prior mean number of
-divergence events of five.
-To explore the sensitiviy of our results to this assumption, we also
-tried a hyperprior of
-$\distgamma(1.1, 56.1)$
-and
-$\distgamma(0.5, 1.31)$,
-which place 50\% of the prior probability on the
-$\nevents = 8$
-and
-$\nevents = 1$
-models, respectively.
-
 Based on previous data \citep{Siler2012, Siler2014kikuchii}, we assumed a prior
 of \dexponential{0.0005} on divergence times for our eight pairs of \spp{Gekko}
 populations, in units of substitutions per site.
 To explore the sensitivity of our results to this assumption, we also tried
 priors of \dexponential{0.005}, \dexponential{0.05} on the \spp{Gekko}
 divergence times.
-For the concentration parameter of the Dirichlet process, we explored the same
-three hyperpriors described above.
+
+For the concenration parameter of the Dirichlet process, we assumed
+a hyperprior of $\distgamma(1.1, 56.1)$ for both genera.
+This places approximately half of the prior probability on the model
+with no shared divergences ($\nevents = \ncomparisons = 8$).
+By placing most of the prior probability on the independent divergences model,
+if we find posterior support for shared divergences, we can more confident it
+is being driven by the data.
+To explore the sensitiviy of our results to this assumption, we also
+tried a hyperprior of
+$\distgamma(1.5, 3.13)$
+and
+$\distgamma(0.5, 1.31)$.
+The former corresponds with a prior mean number of divergence events of five,
+whereas the latter places 50\% of the prior probability on the single
+divergence ($\nevents = 1$) model.
 
 For all analyses of both the \spp{Cyrtodactylus} and \spp{Gekko} data, we
 assumed equal mutation rates among the pairs, a prior distribution of
