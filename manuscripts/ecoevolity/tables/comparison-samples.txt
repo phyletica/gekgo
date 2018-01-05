@@ -66,15 +66,13 @@ KU	304935	RMB	6056	Gekko	rossi	Philippines	Calayan	Cagayan Valley Province; ; Ba
 KU	304937	RMB	6058	Gekko	rossi	Philippines	Calayan	Cagayan Valley Province; ; Barangay Magsidel, Sitio Longog	19.3310000	121.4390000	2006-03-21	AAACGG
 KU	304938	RMB	6059	Gekko	rossi	Philippines	Calayan	Cagayan Valley Province; ; Barangay Magsidel, Sitio Longog	19.3310000	121.4390000	2006-03-21	GATCTG
 KU	304939	RMB	6060	Gekko	rossi	Philippines	Calayan	Cagayan Valley Province; ; Barangay Magsidel, Sitio Longog	19.3310000	121.4390000	2006-03-21	AACTCG
-KU	302669	CDS	1230	Gekko	mindorensis	Philippines	Mindoro	Oriental Mindoro Province; Municipality of Bongabong; Barangay Formon	12.7210500	121.3824167	2001-03-11	ATTCTG
-KU	302670	CDS	1231	Gekko	mindorensis	Philippines	Mindoro	Oriental Mindoro Province; Municipality of Bongabong; Barangay Formon	12.7210500	121.3824167	2001-03-11	TTCTCG
-KU	302672	CDS	590	Gekko	mindorensis	Philippines	Caluya	Antique Province; Municipality of Caluya; Barangay Poblacion			2000-11-14	GACCAG
-KU	302673	CDS	591	Gekko	mindorensis	Philippines	Caluya	Antique Province; Municipality of Caluya; Barangay Poblacion			2000-11-14	TAGTCG
-KU	302677	CDS	607	Gekko	mindorensis	Philippines	Caluya	Antique Province; Municipality of Caluya; Barangay Poblacion			2000-11-14	TTATAG
-KU	302679	CDS	609	Gekko	mindorensis	Philippines	Caluya	Antique Province; Municipality of Caluya; Barangay Poblacion			2000-11-14	CTTATG
-KU	302680	CDS	610	Gekko	mindorensis	Philippines	Caluya	Antique Province; Municipality of Caluya; Barangay Poblacion			2000-11-14	ATCACG
-KU	303911	RMB	5005	Gekko	mindorensis	Philippines	Mindoro	Oriental Mindoro Province; Municipality of Bongabong; Barangay Formon, Sitio Balogbog, Cueba Simbahan	12.7210500	121.3824167	2005-03-12	CAATCG
-KU	303912	RMB	5006	Gekko	mindorensis	Philippines	Mindoro	Oriental Mindoro Province; Municipality of Bongabong; Barangay Formon, Sitio Balogbog, Cueba Simbahan	12.7210500	121.3824167	2005-03-12	GATAGG
+KU	305138	CDS	31	Gekko	gigante	Philippines	South Gigante	Iloilo Province; Muncipality of Carles; Barangay Asluman			2004-09-06	GTCGCG
+KU	302718	CDS	46	Gekko	gigante	Philippines	South Gigante	Iloilo Province; Muncipality of Carles; Sitio Antonia, Barangay Gabi			2000-09-06	GAAGTG
+KU	305139	CDS	49	Gekko	gigante	Philippines	North Gigante	Iloilo Province; Muncipality of Carles; Barangay Granada			2004-09-09	GTCATG
+KU	305140	CDS	50	Gekko	gigante	Philippines	North Gigante	Iloilo Province; Muncipality of Carles; Barangay Asluman			2004-09-08	AAGTTG
+KU	302716	CDS	51	Gekko	gigante	Philippines	North Gigante	Iloilo Province; Muncipality of Carles; Barangay Asluman			2000-09-07	GTAAGG
+KU	302717	CDS	53	Gekko	gigante	Philippines	North Gigante	Iloilo Province; Muncipality of Carles; Barangay Asluman			2000-09-07	TTTAAG
+KU	302719	CDS	55	Gekko	gigante	Philippines	South Gigante	Iloilo Province; Muncipality of Carles; Sitio Antonia, Barangay Gabi			2000-09-06	TATCGG
 KU	320390	CDS	3866	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro Province; Municipality of Lubang; Barangay Vigo, Sitio Dangay	13.7999500	120.1639300		CAGTGG
 KU	320391	CDS	3867	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro Province; Municipality of Lubang; Barangay Vigo, Sitio Dangay	13.7999500	120.1639300		CTATTG
 KU	320392	CDS	3868	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro Province; Municipality of Lubang; Barangay Vigo, Sitio Dangay	13.7999500	120.1639300		GTTACG
@@ -84,19 +82,21 @@ KU	330781	CDS	6047	Gekko	mindorensis	Philippines	Luzon	Laguna Province; Municipa
 KU	330784	CDS	6051	Gekko	mindorensis	Philippines	Luzon	Laguna Province; Municipality of Los Banos; UPLB Forrestry Campus, Flat Rocks Site (coordinates at Los Banos)	14.1660000	121.2430000	2011-05-16	AATGTG
 KU	330785	CDS	6052	Gekko	mindorensis	Philippines	Luzon	Laguna Province; Municipality of Los Banos; UPLB Forrestry Campus, Flat Rocks Site (coordinates at Los Banos)	14.1660000	121.2430000	2011-05-16	CACCGG
 KU	330787	CDS	6054	Gekko	mindorensis	Philippines	Luzon	Laguna Province; Municipality of Los Banos; UPLB Forrestry Campus, Flat Rocks Site (coordinates at Los Banos)	14.1660000	121.2430000	2011-05-16	AAGCAG
-KU	302733	CDS	1461	Gekko	mindorensis	Philippines	Maestre De Campo	Romblon Province; Municipality of Concepcion; Barangay San Vicente	12.9155833	121.7248833	2001-03-27	TATGCG
-KU	302734	CDS	1462	Gekko	mindorensis	Philippines	Maestre De Campo	Romblon Province; Municipality of Concepcion; Barangay San Vicente	12.9155833	121.7248833	2001-03-27	AACGAG
-KU	302735	CDS	1463	Gekko	mindorensis	Philippines	Maestre De Campo	Romblon Province; Municipality of Concepcion; Barangay San Vicente	12.9155833	121.7248833	2001-03-27	TAGCTG
+KU	302729	CDS	63	Gekko	mindorensis	Philippines	Panay	Capiz Province; Municipality of Pilar; Barangay Natividad			2000-09-10	TAGGAG
+KU	302730	CDS	64	Gekko	mindorensis	Philippines	Panay	Capiz Province; Municipality of Pilar; Barangay Natividad			2000-09-10	ATACCG
+KU	302731	CDS	65	Gekko	mindorensis	Philippines	Panay	Capiz Province; Municipality of Pilar; Barangay Natividad			2000-09-10	CTTCGG
+KU	302732	CDS	66	Gekko	mindorensis	Philippines	Panay	Capiz Province; Municipality of Pilar; Barangay Natividad			2000-09-10	ATCCAG
 KU	302726	CDS	755	Gekko	mindorensis	Philippines	Masbate	Masbate Province; Municipality of Mandaon; Barangay Poblacion			2001-01-24	GTTCAG
 KU	302727	CDS	757	Gekko	mindorensis	Philippines	Masbate	Masbate Province; Municipality of Mandaon; Barangay Poblacion			2001-01-24	ATCTTG
 KU	302728	CDS	758	Gekko	mindorensis	Philippines	Masbate	Masbate Province; Municipality of Mandaon; Barangay Poblacion			2001-01-24	TAATTG
 		CDSGS	39	Gekko	mindorensis	Philippines	Negros	Occidental; Sipalay City; Camindangan; 9deg47.182N, 122deg30.640E				GAGCGG
 		CDSGS	40	Gekko	mindorensis	Philippines	Negros	Occidental; Sipalay City; Camindangan; 9deg47.182N, 122deg30.640E				GTACTG
 		CDSGS	41	Gekko	mindorensis	Philippines	Negros	Occidental; Sipalay City; Camindangan; 9deg47.182N, 122deg30.640E				TTTCCG
-KU	302729	CDS	63	Gekko	mindorensis	Philippines	Panay	Capiz Province; Municipality of Pilar; Barangay Natividad			2000-09-10	TAGGAG
-KU	302730	CDS	64	Gekko	mindorensis	Philippines	Panay	Capiz Province; Municipality of Pilar; Barangay Natividad			2000-09-10	ATACCG
-KU	302731	CDS	65	Gekko	mindorensis	Philippines	Panay	Capiz Province; Municipality of Pilar; Barangay Natividad			2000-09-10	CTTCGG
-KU	302732	CDS	66	Gekko	mindorensis	Philippines	Panay	Capiz Province; Municipality of Pilar; Barangay Natividad			2000-09-10	ATCCAG
+KU	307059	RMB	6425	Gekko	mindorensis	Philippines	Panay	Antique Province; Municipality of San Remigio; Barangay Aningalan	10.8088000	122.1013000	2006-09-29	CTCTGG
+KU	307062	RMB	6431	Gekko	mindorensis	Philippines	Panay	Antique Province; Municipality of San Remigio; Barangay Aningalan	10.8088000	122.1013000	2006-09-30	GAATGG
+KU	307063	RMB	6448	Gekko	mindorensis	Philippines	Panay	Antique Province; Municipality of San Remigio; Barangay Aningalan	10.8088000	122.1013000	2006-10-02	TATTAG
+KU	307064	RMB	6449	Gekko	mindorensis	Philippines	Panay	Antique Province; Municipality of San Remigio; Barangay Aningalan	10.8088000	122.1013000	2006-10-02	GACACG
+KU	307065	RMB	6479	Gekko	mindorensis	Philippines	Panay	Antique Province; Municipality of San Remigio; Barangay Aningalan	10.8088000	122.1013000	2006-10-06	CAGAAG
 KU	313977	RMB	9552	Gekko	porosus	Philippines	Sabtang	Batanes Province; Municipality of Sabtang; Barangay Chavayan			2008-06-05	CACTAG
 KU	313978	RMB	9554	Gekko	porosus	Philippines	Sabtang	Batanes Province; Municipality of Sabtang; Barangay Chavayan			2008-06-05	AAGACG
 KU	313979	RMB	9555	Gekko	porosus	Philippines	Sabtang	Batanes Province; Municipality of Sabtang; Barangay Chavayan			2008-06-05	GAGGCG

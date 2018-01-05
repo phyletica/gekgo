@@ -11,8 +11,10 @@ from data_classes import Sample, SampleDatabase, Tissue, DnaExtraction
 def get_ecoevolity_alignment_paths():
     paths = []
     for file_name in os.listdir(gekgo_util.ECOEVOLITY_ALIGNMENT_DIR):
-        if ((file_name.endswith(".nex")) and (
-                not file_name.endswith("removed.nex"))):
+        if ((file_name.endswith(".nex")) and
+                (not file_name.endswith("removed.nex")) and
+                (not "mindorensis-MaestreDeCampo-Masbate" in file_name) and
+                (not "mindorensis-Caluya-Mindoro" in file_name)):
             paths.append(os.path.join(
                     gekgo_util.ECOEVOLITY_ALIGNMENT_DIR,
                     file_name))
