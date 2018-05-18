@@ -11,8 +11,7 @@ then
 fi
 
 i=0
-# for loci_path in ${MSG_IPYRAD_DIR}/*_outfiles/*.loci.gz
-for loci_path in ${MSG_IPYRAD_DIR}/[CG]-*_outfiles/*.loci
+for loci_path in ${MSG_IPYRAD_DIR}/[CG]-*_outfiles/*.loci.gz
 do
     loci_file_name="$(basename "$loci_path")"
     prefix="${loci_file_name%.*}"
@@ -25,7 +24,7 @@ do
     i=$(expr $i + 1)
 done
 
-for loci_path in ${MSG_IPYRAD_DIR}/Cyrtodactylus_outfiles/Cyrtodactylus.loci ${MSG_IPYRAD_DIR}/Gekko_outfiles/Gekko.loci
+for loci_path in ${MSG_IPYRAD_DIR}/Cyrtodactylus_outfiles/Cyrtodactylus.loci.gz ${MSG_IPYRAD_DIR}/Gekko_outfiles/Gekko.loci.gz
 do
     loci_file_name="$(basename "$loci_path")"
     prefix="${loci_file_name%.*}"
