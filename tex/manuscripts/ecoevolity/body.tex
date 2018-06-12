@@ -1,15 +1,67 @@
 \section{Introduction}
 
-An open question in biogeography is to what extent does the landscape, and
-changes to it, predict diversification.
+Understanding how environmental changes affect diversification is an important
+goal in evolutionary biology \citationNeeded.
+Environmental processes that operate at or above the level of communities can
+cause speciation or extinction across multiple evolutionary lineages, and thus
+have a large affect on the diversity and distribution of species across an
+area.
+The Philippine Islands offer a model system for studying such processes.
+The 7100+ islands in the archipelago arguably harbor the highest concentration
+of terrestrial biodiversity on Earth \citep{RafeDiesmos2009, Heaney1998}, and
+have experienced repeated cycles of landscape connectivity and fragmentation
+\citep{Voris2000}.
+During lower sea levels of glacial periods, islands coalesced into seven main
+landmasses referred to as Pleistocene Aggregate Island Complexes
+\citep[PAICs;][]{RafeDiesmos2001}.
+During interglacial periods, rising sea levels split these complexes back into
+individual islands.
+These climate-driven cycles have occurred at least six times during the last
+500,000 years \citep{Rohling1998, Siddall2003}, with additional cycles
+occurring in the late Pliocene and early Pleistocene
+\citep{Haq1987, Miller2005}.
 
-Hypothesis: Repeated fragmentation of islands caused vicariant diversification.
-This predicts that divergences between populations on separate islands that
-were fragmented were temporally clustered and corresponded with interglacial
-rises in sea level.
+The repeated formation and fragmentation of PAICs has been used to predict
+areas of endemism
+and has been proposed as a model of diversification
+\citep{Rafe2013AREES,RafeDiesmos2009, Heaney1986, Esselstyn2009MPE, Linkem2010,
+    Siler2010, Siler2012, Roberts2006, Roberts2006MolEcol,Heaney1986,
+    RafeDiesmos2001, RafeDiesmos2009}.
+If repeated vicariance was an important process of speciation across the
+islands,
+it predicts divergences across taxa that occur on previously connected islands
+should tend to be temporally clustered around times when rising sea levels
+fragmented the islands.
+That is, if we compare the divergence times of multiple pairs of populations or
+closely related species that occur on two islands that were connected during
+glacial lowstands, at least some of them should be comtemporaneous with
+interglacial fragmentation events.
+Such patterns of shared divergences would be difficult to explain by other
+mechanisms, such as over-water dispersal.
 
-We finally have the data and method for a powerful evaluation of this
-hypothesis.
+\citet{Oaks2012} tried to test this prediction by inferring how many unique
+divergence times best explained mitochondrial sequence data from 22 pairs of
+populations from across the Philippines, using a model choice method based on
+approximate-likelihood Bayesian computation (ABC).
+However, using simulations they found the ABC approach was very sensitive to
+prior assumptions and tended to over cluster divergence times, both of which
+rendered the results difficult to interpret.
+\citet{Oaks2014dpp} reanalyzed these data with an ABC method that alleviated
+these issues, but found that reducing the genetic data to a small number of
+summary statistics left ABC methods with little information to update prior
+assumptions.
+
+Here we use comparative genomic data and a new full-likelihood Bayesian method
+to test the hypothesis that repeated fragmentation of islands caused vicariant
+diversification.
+By using the all the information in thousands of loci from 16 inter-island
+pairs of gecko populations, the new method finally allows us to robustly
+evaluate this hypothesis.
+Our results support that these pairs of gecko populations diverged
+independently, providing evidence against the PAIC paradigm of diversification
+for these taxa.
+% The results show that by using all of the information in genomic
+% data, we are finally able to robustly evaluate this hypothesis.
 
 
 \section{Methods}
@@ -34,24 +86,27 @@ The divergence between these populations was either due to that
 dispersal, or an earlier intra-island divergence.
 Either way, the timing of divergences across islands that were never connected
 are not expected to be clustered across pairs.
-These controls are important given the tendancy of previous methods for this
-inference problem that can easily be biased toward over-estimating shared
-divergences \citep{Oaks2012,Oaks2014reply}.
+These controls are important given the tendency of previous approaches to this
+inference problem to over-estimate shared divergences
+\citep{Oaks2012,Oaks2014reply}.
 Finding shared shared divergence times among pairs for which there is no
 tenable mechanism for shared divergences will indicate a problem and prevent us
-for misinterpreting shared divergences among pairs spanning islands that were
-fragmented as evidence of shared vicariant diversification.
+from misinterpreting shared divergences among pairs spanning islands that were
+fragmented as evidence for the PAIC model of vicariant diversification.
 Applying these criteria, for both genera we ended up with eight pairs of
 populations, of which three span islands that were never connected, four span
 islands that were connected, and one spans islands that were possibly connected
 (Table \ref{table:comparisons} \& \highLight{SX}).
-
+The Islands of Sibuyan and Tablas, and Sabtang and Batan are not believed to
+have been fully joined during glacial periods.
+However, these pairs of islands would have come very close to be connected, and
+thus gene flow between the islands may have been possible.
 \thought{Need more text here about the geology of the ``maybe'' island pairs}
 
 \subsection{Genomic library preparation and sequencing}
 
 We extracted DNA from tissue using the guanidine thiocyanate method described
-by Esselstyn et.\ al.\ \citeyear{Esselstyn2008}.
+by \citet{Esselstyn2008}.
 We diluted the extracted DNA for each individual to a concentration of 5
 ng/$\mu$L based on the initial concentration measured with a Qubit 2.0
 Fluorometer.
@@ -80,7 +135,9 @@ We used ipyrad version 0.7.13 \citep{ipyrad0713} to assemble the raw RADseq
 reads into loci.
 To maximize the number of assembled loci, we de novo assembled the reads
 separately for each pair of populations.
-\highLight{Details on ipyrad settings \ldots}
+All of the scripts and ipyrad parameters files we used to assemble the data are available
+in our project repository, and the ipyrad settings are listed in
+Table~S\ref{table:ipyradsettings}.
 
 \subsection{Inferring shared divergences}
 We approach the inference of temporally clustered divergences as a problem of
@@ -93,17 +150,17 @@ I.e., there are 4,140 ways to partition the eight pairs to $\nevents = 1, 2,
 \ldots, 8$ divergence events \citep{Bell1934,Oaks2014dpp,Oaks2018ecoevolity}.
 Whereas divergences caused by sea-level rise would not happen simultaneously,
 we expect that on a timescale of the lizards' mutation rate, treating them as
-simultaneous should be a better explanation of the data generated by such a
+simultaneous should be a better explanation of data generated by such a
 process than treating them as independent.
 
 Given the large number of models, and our goal of making probability statements
 about them, we used a Bayesian model-averaging approach.
 Specifically, we used the full-likelihood Bayesian comparative biogeography
-method implemented in the software package \ecoevolity version 0.1 (commit
+method implemented in the software package \ecoevolity version 0.1.0 (commit
 b9f34c8) \citep{Oaks2018ecoevolity}.
-This method models each pair of populations as a two-tipped ``species'' or
-``population'' tree, with an unknown, constant population size along each of
-the three branches, and an unknown time of divergence.
+This method models each pair of populations as a two-tipped ``species'' tree,
+with an unknown, constant population size along each of the three branches, and
+an unknown time of divergence.
 This method can directly estimate the likelihood of values of these unknown
 parameters from orthologous biallalic characters by analytically integrating
 over all possible gene trees and mutational histories \citep{Bryant2012,
@@ -117,11 +174,10 @@ is for pairs to share the same divergence event, \emph{a priori}, and
 times.
 
 Importantly, because the pairs of populations are modeled as disconnected
-``species'' or ``population'' trees, the relative rates of mutation among the
-pairs is not identifiable.
+species trees, the relative rates of mutation among the pairs is not
+identifiable.
 This requires us to make informative prior assumptions about the relative rates
-of mutation among the pairs by either constraining them or placing informative
-prior probability distributions on them.
+of mutation among the pairs.
 Because \spp{Cyrtodactylus} and \spp{Gekko} are deeply divergent
 \citationNeeded, and we know very little about their relative rates of
 mutation, we analyzed the two genera separately.
@@ -139,16 +195,16 @@ Based on previous data \citep{Siler2012, Siler2014kikuchii}, we assumed a prior
 of \dexponential{0.0005} on divergence times for our eight pairs of \spp{Gekko}
 populations, in units of substitutions per site.
 To explore the sensitivity of our results to this assumption, we also tried
-priors of \dexponential{0.005}, \dexponential{0.05} on the \spp{Gekko}
+priors of \dexponential{0.005} and \dexponential{0.05} on the \spp{Gekko}
 divergence times.
 
-For the concenration parameter of the Dirichlet process, we assumed
+For the concentration parameter of the Dirichlet process, we assumed
 a hyperprior of $\distgamma(1.1, 56.1)$ for both genera.
 This places approximately half of the prior probability on the model
 with no shared divergences ($\nevents = 8$).
-By placing most of the prior probability on the independent divergences model,
-if we find posterior support for shared divergences, we can be more confident
-it is being driven by the data.
+By placing most of the prior probability on the model of independent
+divergences, if we find posterior support for shared divergences, we can be
+more confident it is being driven by the data.
 To explore the sensitivity of our results to this assumption, we also
 tried a hyperprior of
 $\distgamma(1.5, 3.13)$
@@ -160,45 +216,47 @@ divergence ($\nevents = 1$) model.
 
 For all analyses of both the \spp{Cyrtodactylus} and \spp{Gekko} data, we
 assumed equal mutation rates among the pairs, a prior distribution of
-\dgamma{4.0}{0.004} on the effective effective size of the populations, and a
+\dgamma{4.0}{0.004} on the effective effective size of the populations scaled
+by the mutation rate ($\epopsize{}\murate{}$), and a
 prior distribution of \dgamma{100}{1} on the relative effective size of the
 ancestral population (relative to the mean size of the two descendant
 populations).
 The model implemented in \ecoevolity assumes each character is unlinked (i.e.,
 evolved along a gene tree that is independent conditional on the population
 tree).
-However, by analyzing simulated data, Oaks \citeyear{Oaks2018ecoevolity} showed
+However, by analyzing simulated data, \citet{Oaks2018ecoevolity} showed
 the method performs better when all linked sites are used than when data are
 excluded to avoid violating the assumption of unlinked sites.
 Accordingly, we analyzed all of the sites of our RADseq loci.
 The model implemented in \ecoevolity is also restricted to characters with two
-possible states (hereafter referred to as polyallelic sites).
-Thus, for sites with three or more nucleotides, we compared how sensitive our
+possible states (biallelic).
+Thus, for sites with three or more nucleotides (hereafter referred to as
+polyallelic sites), we compared how sensitive our
 results were to two different strategies:
-(1) removing polyallelic sites, and
+(1) Removing polyallelic sites, and
 (2) recoding the sites as biallelic by coding each state as either having the
 first nucleotide in the alignment or a different nucleotide.
 We assumed the biallelic equivalent of a Jukes-Cantor model of character
 substitution \citep{JC1969} so that our results are not sensitive to how
-nucleotides are coded as binary.
+nucleotides are coded as binary
+\citep{Oaks2018ecoevolity}.
 
 For each analysis, we ran 10 independent MCMC chains for 150,000 generations,
 sampling every 100th generation.
 We assessed convergence and mixing of the chains by inspecting the potential
-scale reduction factor (the square root of Equation 1.1 in Brooks and Gelman
-\citeyear{Brooks1998}) and effective sample size \citep{Gong2014} of the log
-likelihood and all continuous parameters using the sumchains tool of
-\pycoevolity.
+scale reduction factor \citet[the square root of Equation 1.1 in][]{Brooks1998}
+and effective sample size \citep{Gong2014} of the log likelihood and all
+continuous parameters using the \texttt{pyco-sumchains} tool of \pycoevolity.
 We also visually inspected the trace of the log likelihood and parameters over
 generations with the program Tracer version 1.6 \citep{Tracer16}.
 
 
 \section{Results}
 
+\subsection{Data collection and MCMC convergence}
 Table~\ref{table:comparisons} summarize the number of individuals sampled for
 each pair of islands, along with the number of assembled loci, and the number
 of total, variable, and polyallelic characters.
-
 The 10 independent MCMC chains of all our \ecoevolity analyses appeared to have
 converged almost immediately.
 We conservatively removed the first 101 samples, leaving 1400 samples from each
@@ -206,37 +264,47 @@ chain (14,000 samples for each analysis).
 With the first 101 samples removed, across all our analyses, all ESS values
 were greater than 2000, and all PSRF values were less than 1.005.
 
-\subsection{\spp{Cyrtodactylus}}
-Support for no shared divergences
-(Figures \ref{fig:cyrtdivtimes} \& \ref{fig:cyrtnevents}).
+\subsection{Inferring diverence models for \spp{Cyrtodactlus}}
+For \spp{Cyrtodactylus}, our \ecoevolity results support the model of no shared
+divergences, i.e., all eight pairs of populations diverged independently
+(Figures \ref{fig:cyrtnevents} \& \ref{fig:cyrtdivtimes}).
 This support is consistent across all three priors on the concentration
 parameter of the Dirichlet process
-(Figures S\ref{fig:cyrtdivtimesbyconcentration} \& S\ref{fig:cyrtneventsbyconcentration}).
+(Figures
+S\ref{fig:cyrtneventsbyconcentration}
+\&
+S\ref{fig:cyrtdivtimesbyconcentration}).
 The support is also consistent across both priors on divergence times
 and whether polyallelic sites are recoded or removed
-(Figures S\ref{fig:cyrtdivtimesbytimeprior} \& S\ref{fig:cyrtneventsbytimeprior}).
-Estimates of effective population sizes are very robust to
+(Figures
+S\ref{fig:cyrtneventsbytimeprior}
+\&
+S\ref{fig:cyrtdivtimesbytimeprior}).
+Estimates of effective population sizes are also very robust to
 priors on \concentration and \divtime, and whether polyallelic sites
 are recoded or removed
-(Figures S\ref{fig:cyrtpopsizesbyconcentration} \& S\ref{fig:cyrtpopsizesbytimeprior}).
+(Figures
+S\ref{fig:cyrtpopsizesbyconcentration}
+\&
+S\ref{fig:cyrtpopsizesbytimeprior}).
 
-\subsection{\spp{Gekko}}
-Posterior probability weakly supports no shared divergences
-(Figure~\ref{fig:gekkonevents}), but Bayes factors weakly seven divergence event
-across the eight pairs (Figure~\ref{fig:gekkonevents}), suggesting a shared
-divergence between
+\subsection{Inferring diverence models for \spp{Gekko}}
+For \spp{Gekko}, posterior probabilities weakly support no shared divergences,
+but Bayes factors weakly support seven divergence events across the eight pairs
+(Figure~\ref{fig:gekkonevents}),
+suggesting a possible shared divergence between
 \spp{G.\ mindorensis} on the Islands of Panay and Masbate
 and
 \spp{G.\ porosus} on the Islands of Sabtang and Batan
 (Figure~\ref{fig:gekkodivtimes}).
-Under the intermediate prior on the concentration parameter, the support
-increases for seven events and a shared divergence between
-\spp{G.\ mindorensis} on the Islands of Panay and Masbate
-and
-\spp{G.\ porosus} on the Islands of Sabtang and Batan
-(Figures S\ref{fig:gekkoneventsbyconcentration} \& S\ref{fig:gekkodivtimesbyconcentration}).
+Under the intermediate prior on the concentration parameter, support
+increases for this shared divergence increases 
+(Figures
+S\ref{fig:gekkoneventsbyconcentration}
+\&
+S\ref{fig:gekkodivtimesbyconcentration}).
 Under the prior that puts most of the probability on one shared event,
-there the posterior probability prefers six divergences
+posterior probabilities prefer six divergences
 (Figures S\ref{fig:gekkoneventsbyconcentration})
 with another shared divergence between
 \spp{G.\ mindorensis} on the Islands of Babuyan Claro and Calayan
@@ -244,13 +312,15 @@ and
 \spp{G.\ porosus} on the Islands of Romblon and Tablas
 (Figures S\ref{fig:gekkodivtimesbyconcentration}), however,
 Bayes factors still prefer seven divergences.
-
 Similarly, as the prior on divergence times becomes more diffuse,
 the results shift from ambiguity between seven or eight divergence
 events, to ambiguity between six or seven events, to strong
 support for six events, with the same island pairs sharing
 divergences
-(Figures S\ref{fig:gekkoneventsbytimeprior} \& S\ref{fig:gekkodivtimesbytimeprior}).
+(Figures
+S\ref{fig:gekkoneventsbytimeprior}
+\&
+S\ref{fig:gekkodivtimesbytimeprior}).
 
 As with \spp{Cyrtodactylus}, the estimates of divergence times
 are robust to whether polyallelic sites are recoded or removed
@@ -258,40 +328,61 @@ are robust to whether polyallelic sites are recoded or removed
 and population size estimates are robust to 
 priors on \concentration and \divtime, and whether polyallelic sites
 are recoded or removed
-(Figures S\ref{fig:gekkopopsizesbyconcentration} \& S\ref{fig:gekkopopsizesbytimeprior}).
+(Figures
+S\ref{fig:gekkopopsizesbyconcentration}
+\&
+S\ref{fig:gekkopopsizesbytimeprior}).
 
-The Islands of Babuyan Claro and Calayan were never connected,
-so the support for the shared divergence between
+\section{Discussion}
+
+\subsection{Is there evidence for shared divergences among \spp{Gekko} pairs?}
+
+Under some of the priors we explored, there is support for two possible shared
+divergences among the pairs of \spp{Gekko} populations:
+(1)
+\spp{G.\ mindorensis} on the Islands of Panay and Masbate
+and
+\spp{G.\ porosus} on the Islands of Sabtang and Batan,
+and (2)
 \spp{G.\ mindorensis} on the Islands of Babuyan Claro and Calayan
 and
-\spp{G.\ porosus} on the Islands of Romblon and Tablas
-are likely an artifact under the most extreme priors on 
-\concentration and \divtime 
-(Figures S\ref{fig:gekkodivtimesbyconcentration} \& S\ref{fig:gekkodivtimesbytimeprior}).
+\spp{G.\ porosus} on the Islands of Romblon and Tablas.
+The Islands of Babuyan Claro and Calayan were never connected,
+and we only see support for the second shared divergence
+under the most extreme priors on \concentration and
+\divtime that are expected to favor shared divergences
+(Figures
+S\ref{fig:gekkoneventsbyconcentration},
+S\ref{fig:gekkodivtimesbyconcentration},
+S\ref{fig:gekkoneventsbytimeprior},
+\&
+S\ref{fig:gekkodivtimesbytimeprior}).
+Thus, the support for the second shared divergence scenario is likely an
+artifact of prior sensitivity.
 However, the weak support for a shared divergence between
 \spp{G.\ mindorensis} on the Islands of Panay and Masbate
 and
 \spp{G.\ porosus} on the Islands of Sabtang and Batan
-under more reasonable priors is interesting because
-both pairs of islands were potentially connected during
-glacial cycles.
+under more reasonable priors is interesting because both pairs of islands were
+connected or close enough during glacial periods to potentially allow gene
+flow.
 
 Under the priors we initially chose as appropriate (as opposed to those used to
 assess prior sensitivity), the posterior probability that the Panay-Masbate and
 Sabtang-Batan pairs co-diverged is 0.385.
-We could calculate a Bayes factor by using the fact that under the Dirichlet
-process and given the concentration parameter, the prior probability that any
-two pairs share the same divergence time is $\frac{1}{1 + \concentration}$.
-However, this would not be appropriate, because we did not identify
-the Panay-Masbate and
-Sabtang-Batan pairs of interest
-\emph{a priori}, but rather were drawn to these pairs based
-on the posterior sample.
+To evaluate support for this co-divergence, we could calculate a Bayes factor
+using the prior probability that any two pairs share the same divergence time,
+which is approximately 1.66 in favor of the co-divergence
+(Figure~\ref{fig:gekkonevents}).
+However, this would not be appropriate, because we did not identify the
+Panay-Masbate and Sabtang-Batan pairs of interest \emph{a priori},
+but rather our attention was drawn to these pairs based on the posterior
+results.
 Thus, the probability that \emph{any} two pairs share the same divergence
 is no longer the appropriate prior probability for our Bayes factor calculation.
 Rather, we need to consider the prior probability that the two pairs with
 the most similar divergence times share the same divergence.
-To get this prior probability, wee can take advantage of the fact that this
+To get this prior probability, we can take advantage of the fact that this
 condition is met anytime the number of divergence events is less than eight.
 Thus, the prior probability that the two pairs with the most similar divergence
 times share the same divergence is equal to one minus the prior probability
@@ -299,26 +390,56 @@ that all eight pairs diverge independently.
 Under our prior on the concentration parameter of $\distgamma(1.1, 56.1)$,
 this prior probability is approximately 0.5.
 Thus, our posterior probability for the co-divergence between the Panay-Masbate
-and Sabtang-Batan pairs actually \emph{less} than the prior probability,
+and Sabtang-Batan pairs is actually \emph{less} than the prior probability,
 resulting in a weak Bayes factor of approximately 1.6 in support \emph{against}
 the co-divergence.
-Thus, as Bayesians, we should favor the explanation that this co-divergence is
-due chance.
+Thus, based on probability theory, we should favor the explanation that all
+eight pairs of \spp{Gekko} populations diverged independently.
 
-Also, it's interesting to note that in analyses of both genera we see
-support for shared divergences increase as the prior on divergence times
-becomes more diffuse.
-This is the same pattern seen in approximate-likelihood Bayesian approaches to
-this problem \citep{Oaks2012,Hickerson2013,Oaks2014reply}.
-Hickerson et al.\ \citeyear{Hickerson2013} proposed this pattern was
-called by numerical problems, whereas Oaks et al.\ \citeyear{Oaks2014reply}
-found support for the problem being more fundamental:
+\subsection{Sensitivity to the prior on divergence times}
+
+It is interesting that in analyses of both genera we see support for shared
+divergences increase as the prior on divergence times becomes more diffuse
+(Figures
+S\ref{fig:cyrtneventsbytimeprior}
+\&
+S\ref{fig:gekkoneventsbytimeprior}).
+While less extreme here, this is the same pattern seen in
+approximate-likelihood Bayesian approaches to this problem
+\citep{Oaks2012,Hickerson2013,Oaks2014reply}.
+\citet{Hickerson2013} proposed this pattern was caused by numerical problems,
+whereas \citet{Oaks2014reply} found support for the problem being more
+fundamental:
 as more prior density is placed in regions of divergence-time space where the
-likelihoods tend to be low, models that have fewer divergence-time parameters
-have greater marginal likelihoods, because their likelihood is ``averaged''
-over less space with low likelihood and substantive prior weight.
-Our results clearly support the latter explanation, as the
-MCMC approach used here did not suffer from the insufficient posterior sampling
-proposed by Hickerson et al.\ \citeyear{Hickerson2013}.
+likelihood tends to be low, models that have fewer divergence-time parameters
+have greater marginal likelihoods because their likelihood is ``averaged''
+over less space with low likelihood and substantial prior weight.
+Our results clearly support the latter explanation, as the MCMC approach used
+here does not suffer from the insufficient prior sampling proposed
+\citet{Hickerson2013}.
 
-\section{Discussion}
+Whereas the full-likelihood Bayesian approach used here is much more robust to
+prior assumptions than the ABC approaches, our results demonstrate that is
+still important to assess sensitivity of the results to the priors.
+This is especially true for the posterior probabilities of divergence models or
+the number of divergence events.
+The marginal likelihoods of the divergence models are what update our prior
+probabilities to give use theses posterior probabilities, and
+the marginal likelihood of a model is averaged over the entire parameter space,
+and weighted by the prior.
+As a result, they can be sensitive to the priors regardless of the
+informativeness the data \citep{Oaks2018marginal}.
+
+\subsection{Conclusions}
+Climate-driven fragmentation of the Philippine Islands has been invoked as
+a model of speciation across the islands.
+This model predicts that population divergences between fragmented islands
+should be temporally clustered around interglacial rises in sea levels.
+We analyzed comparative genomic data from 16 pairs of insular gecko populations
+within a full-likelihood, Bayesian model-choice framework to test for shared
+divergence events.
+Our results support independent divergences among the pairs of gecko
+populations.
+While genomic data from more taxa are needed, the results suggest the repeated
+cycles of climate-driven island fragmentation has not been an important
+mechanism of speciation for gekkonid lizards on the Philippine Islands.

@@ -1,0 +1,36 @@
+\begin{table}[htbp]
+\sffamily
+\captionsetup{name=Table S, labelformat=noSpace}
+\caption{
+    Settings used for assembling loci for each pair of gekkonid populations.
+}
+\centering
+\begin{tabular}{ l l }
+    \textbf{ipyrad setting} & \textbf{Value} \\
+    \hline
+    assembly\_method & denovo \\
+    datatype & rad \\
+    restriction\_overhang & TATG, \\
+    max\_low\_qual\_bases & 4 \\
+    phred\_Qscore\_offset & 33 \\
+    mindepth\_statistical & 6 \\
+    mindepth\_majrule & 6 \\
+    maxdepth & 10000 \\
+    clust\_threshold & 0.85 \\
+    max\_barcode\_mismatch & 0 \\
+    filter\_adapters & 1 \\
+    filter\_min\_trim\_len & 35 \\
+    max\_alleles\_consens & 2 \\
+    max\_Ns\_consens & 4 \\
+    max\_Hs\_consens & 5 \\
+    min\_samples\_locus & 4 \\
+    max\_SNPs\_locus & 20 \\
+    max\_Indels\_locus & 8 \\
+    max\_shared\_Hs\_locus & 0.5 \\
+    trim\_reads & 0, 0, 0, 0 \\
+    trim\_loci & 0, 0, 0, 0 \\
+    \hline
+\end{tabular}
+\label{table:ipyradsettings}
+\end{table}
+
