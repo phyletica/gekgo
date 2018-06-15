@@ -1,7 +1,7 @@
 \section{Introduction}
 
 Understanding how environmental changes affect diversification is an important
-goal in evolutionary biology \citationNeeded.
+goal in evolutionary biology.
 Environmental processes that operate at or above the level of communities can
 cause speciation or extinction across multiple evolutionary lineages, and thus
 have a large affect on the diversity and distribution of species.
@@ -98,8 +98,9 @@ islands that were connected, and one spans islands that were possibly connected
 (Table \ref{table:comparisons} \& \highLight{SX}).
 The Islands of Sibuyan and Tablas, and Sabtang and Batan are not believed to
 have been fully joined during glacial periods.
-However, these pairs of islands would have come very close to be connected, and
-thus gene flow between the islands may have been possible.
+However, even if these pairs of islands did not have a complete land
+connection, they may have been close enough to permit gene flow between the
+islands.
 \thought{Need more text here about the geology of the ``maybe'' island pairs}
 
 \subsection{Genomic library preparation and sequencing}
@@ -138,7 +139,7 @@ All of the scripts and ipyrad parameters files we used to assemble the data are 
 in our project repository, and the ipyrad settings are listed in
 Table~S\ref{table:ipyradsettings}.
 
-\subsection{Inferring shared divergences}
+\subsection{Testing for shared divergences}
 We approach the inference of temporally clustered divergences as a problem of
 model choice.
 Our goal is to treat the number of divergence events shared (or not) among the
@@ -178,7 +179,7 @@ identifiable.
 This requires us to make informative prior assumptions about the relative rates
 of mutation among the pairs.
 Because \spp{Cyrtodactylus} and \spp{Gekko} are deeply divergent
-\citationNeeded, and we know very little about their relative rates of
+\citep[$>$80mya;][]{Gamble2011}, and we know very little about their relative rates of
 mutation, we analyzed the two genera separately.
 Within each genus, the populations are all closely related \citep{Welton2010,
     Welton2010zootaxa, Siler2010, Siler2012, Siler2014kikuchii} allowing us to
@@ -263,7 +264,9 @@ chain (14,000 samples for each analysis).
 With the first 101 samples removed, across all our analyses, all ESS values
 were greater than 2000, and all PSRF values were less than 1.005.
 
-\subsection{Inferring diverence models for \spp{Cyrtodactlus}}
+\subsection{Testing for shared divergences}
+
+\subsubsection{\spp{Cyrtodactlus} population pairs}
 For \spp{Cyrtodactylus}, our \ecoevolity results support the model of no shared
 divergences, i.e., all eight pairs of populations diverged independently
 (Figures \ref{fig:cyrtnevents} \& \ref{fig:cyrtdivtimes}).
@@ -287,7 +290,7 @@ S\ref{fig:cyrtpopsizesbyconcentration}
 \&
 S\ref{fig:cyrtpopsizesbytimeprior}).
 
-\subsection{Inferring diverence models for \spp{Gekko}}
+\subsubsection{\spp{Gekko} population pairs}
 For \spp{Gekko}, posterior probabilities weakly support no shared divergences,
 but Bayes factors weakly support seven divergence events across the eight pairs
 (Figure~\ref{fig:gekkonevents}),
@@ -304,12 +307,12 @@ S\ref{fig:gekkoneventsbyconcentration}
 S\ref{fig:gekkodivtimesbyconcentration}).
 Under the prior that puts most of the probability on one shared event,
 posterior probabilities prefer six divergences
-(Figures S\ref{fig:gekkoneventsbyconcentration})
+(Figure~S\ref{fig:gekkoneventsbyconcentration})
 with another shared divergence between
 \spp{G.\ mindorensis} on the Islands of Babuyan Claro and Calayan
 and
 \spp{G.\ porosus} on the Islands of Romblon and Tablas
-(Figures S\ref{fig:gekkodivtimesbyconcentration}), however,
+(Figure~S\ref{fig:gekkodivtimesbyconcentration}), however,
 Bayes factors still prefer seven divergences.
 Similarly, as the prior on divergence times becomes more diffuse,
 the results shift from ambiguity between seven or eight divergence
@@ -323,7 +326,7 @@ S\ref{fig:gekkodivtimesbytimeprior}).
 
 As with \spp{Cyrtodactylus}, the estimates of divergence times
 are robust to whether polyallelic sites are recoded or removed
-(Figure S\ref{fig:gekkodivtimesbytimeprior}),
+(Figure~S\ref{fig:gekkodivtimesbytimeprior}),
 and population size estimates are robust to 
 priors on \concentration and \divtime, and whether polyallelic sites
 are recoded or removed
@@ -363,8 +366,8 @@ However, the weak support for a shared divergence between
 and
 \spp{G.\ porosus} on the Islands of Sabtang and Batan
 under more reasonable priors is interesting because both pairs of islands were
-connected or close enough during glacial periods to potentially allow gene
-flow.
+either connected or potentially close enough during glacial periods to allow
+gene flow.
 
 Under the priors we initially chose as appropriate (as opposed to those used to
 assess prior sensitivity), the posterior probability that the Panay-Masbate and
@@ -397,42 +400,51 @@ eight pairs of \spp{Gekko} populations diverged independently.
 
 \subsection{Implications for the PAIC diversification model}
 
-For each genus we have four or five pairs of populations that span two islands
-that were fragmented by glacial cycles.
+For each genus we have four pairs of populations that span two islands
+that were fragmented by glacial cycles, and a fifth pair that spans
+islands that may have been affected by glacial cycles.
 These islands were likely fragmented by rising sea levels six or more times
-over the past three million years
-Given that we have fewer pairs than the number of island fragmentation events,
-the support for independent divergence times among the pairs we analyzed does
-not rule out the PAIC diversification model; our pairs could have diverged
-at different fragmentation events.
+over the past three million years.
+Given that we have fewer pairs than the number of times the islands were
+fragmented,
+the support we found for independent divergence times among the pairs we
+analyzed does not rule out the PAIC diversification model; our pairs could have
+diverged at different fragmentation events.
 Comparative genomic data from more pairs of populations is needed to explore
 this possibility.
 
 Another possibility is that some of our pairs of populations diverged during
 the same interglacial period, but the time when gene flow was cut off by rising
-sea levels was different enough to be estimated as separate divergences by our
-method.
-To evaluate this possibility, we can look at the  difference in divergence
-times between \spp{G.\ mindorensis} on the Islands of Babuyan Claro and Calayan
-and \spp{G.\ porosus} on the Islands of Romblon and Tablas appears to be close
-to the minimum resolution of \ecoevolity given our data.
-These pairs are estimated to have diverged separately under our initial priors,
-but together under some of the other priors we explored.
-Thus, the difference between their divergence times (posterior mean difference
-= 3.642\e{-5} substitutions per site) is likely close to the minimum resolution
-of \ecovolity given our data.
-To get a conservative estimate for the maximum divergence time difference
-expected within an interglacial period, we can assume a mutation rate an order
-of magnitude faster than that estimated for Philippine \spp{Gekko} for the
-phosducin gene (1.18\e{-9} substitutions per site per year) and an interglacial
-interval of 10,000 years.
-Assuming this rate and interval, we would not expect to see a difference in
-divergence times between two pairs that diverged during the same interglacial
-greater than 1.18\e{-5}.
-Based on these numbers, it seems unlikely that \ecoevolity would have the
-resolution given our data to separate the divergence times of two pairs that
-diverged during the same island fragmentation event.
-
+sea levels was different enough to be estimated as separate divergences by
+\ecoevolity.
+Based on estimates of rates of interglacial sea-level rise in Southeast Asia
+\citep{Hanebuth2000,Sathiamurthy2006}, it seems unlikely that the timing of
+island fragmentation across the Philippines would have differed more than 5,000
+years.
+If we assume a rate of mutation an order of magnitude faster than that
+estimated by \citet{Siler2012} for the phosducin gene of Philippine \spp{Gekko}
+(1.18\e{-9} substitutions per site per year),
+we would not expect to see a difference in divergence times greater than
+5.9\e{-6}
+between two pairs that diverged during the same interglacial.
+It seems reasonable to assume that the difference in divergence times between
+\spp{G.\ mindorensis} on the Islands of Panay and Masbate and
+\spp{G.\ porosus} on the Islands of Sabtang and Batan
+is close to the minimum resolution of \ecoevolity given our data;
+there is little posterior variance in the divergence times for these pairs
+(Figure~\ref{fig:gekkodivtimes}),
+and there is posterior uncertainty in whether these pairs co-diverged or not 
+(Figure~\ref{fig:gekkonevents}).
+The posterior mean absolute difference in divergence time between these pairs,
+conditional on them not co-diverging, is
+9.66\e{-6}.
+These numbers are similar enough to suggest that it might be possible that
+\ecoevolity would have the temporal resolution given our data to 
+separate the divergence times of two pairs that diverged during the same
+interglacial fragmentation event.
+However, it does not seem very likely, especially when we consider
+the strong support we see for distinct divergences among all but
+two of the pairs of populations we analyzed. 
 
 \subsection{Sensitivity to the prior on divergence times}
 
