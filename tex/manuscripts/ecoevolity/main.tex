@@ -8,6 +8,15 @@
 \input{../../utils/macros.tex}
 \input{../../utils/notation.tex}
 
+\newcommand{\ifembed}[2]{#1}
+% \newcommand{\ifembed}[2]{#2}
+% \newcommand{\ifdoublespacing}[2]{#1}
+\newcommand{\ifdoublespacing}[2]{#2}
+% \newcommand{\iflinenumbers}[2]{#1}
+\newcommand{\iflinenumbers}[2]{#2}
+% \newcommand{\ifragged}[2]{#1}
+\newcommand{\ifragged}[2]{#2}
+
 \usepackage[round]{natbib}
 
 \title{Full Bayesian comparative biogeography of geckos provides support
@@ -24,10 +33,10 @@
 \affil[3]{Biodiversity Institute and Department of Ecology and Evolutionary
     Biology, University of Kansas, Lawrence, Kansas 66045, USA}
 
-% \date{\today}
-\date{\parbox{\linewidth}{\centering%
-    \today\endgraf\bigskip
-    \textbf{Running head}: Comparative biogeography of Philippine geckos}}
+\date{\today}
+% \date{\parbox{\linewidth}{\centering%
+%     \today\endgraf\bigskip
+%     \textbf{Running head}: Comparative biogeography of Philippine geckos}}
 
 \makeatletter
 \let\msTitle\@title
@@ -38,10 +47,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-% \doublespacing
-% \begin{linenumbers}
 
-\maketitle
+\ifdoublespacing{
+\doublespacing
+}{}
+
+\ifragged{
+\raggedright
+}{}
+
+\iflinenumbers{
+\begin{linenumbers}
+}{}
+
+\textbf{Running head}: Comparative biogeography of Philippine geckos
+
+{\let\newpage\relax\maketitle}
 
 \begin{abstract}
     \input{abstract.tex}
@@ -62,6 +83,7 @@
 \bibliography{../../bib/references}
 
 %% LIST OF FIGURES %%%%%%%%%%%%%%%%%%%%%%%%%%
+\ifembed{}{
 \newpage
 \singlespacing
 
@@ -71,25 +93,33 @@
 \setlength\cftbeforefigskip{10pt}
 \cftpagenumbersoff{fig}
 \listoffigures
+}
 
 
-% \end{linenumbers}
+\iflinenumbers{
+\end{linenumbers}
+}{}
 
 %% TABLES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ifembed{}{
 \newpage
 \singlespacing
 
 \input{tables.tex}
 
 \clearpage
+}
 
 %% FIGURES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ifembed{}{
 \newpage
 
 \input{figures.tex}
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% SUPPORTING INFO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \setcounter{figure}{0}
 \setcounter{table}{0}
 \setcounter{page}{1}
