@@ -1,0 +1,17 @@
+genus,species1,species2,island1,island2,lat1,long1,lat2,long2,hjust1,vjust1,nudge_x1,nudge_y1,hjust2,vjust2,nudge_x2,nudge_y2
+Cyrtodactylus,Cyrtodactylus annulatus,Cyrtodactylus annulatus,Bohol,Camiguin Sur,9.7055100,124.1234400,9.215179,124.717879,"right","center",-0.2,0.0,"right","top",-0.2,0.0
+Cyrtodactylus,Cyrtodactylus redimiculus,Cyrtodactylus baluensis,Palawan,Borneo,8.7503000,117.6896000,6.206187,116.640950,"left","center",0.2,0.0,"left","center",0.2,0.0
+Cyrtodactylus,Cyrtodactylus sumuroi,Cyrtodactylus gubaot,Samar,Leyte,11.8025500,125.2927600,10.7451667,124.8042833,"middle","bottom",0.0,0.1,"left","center",0.2,0.0
+Cyrtodactylus,Cyrtodactylus philippinicus,Cyrtodactylus philippinicus,Luzon 1,Babuyan Claro,18.2360000,122.1040000,19.523232,121.950172,"left","top",0.2,0.0,"left","bottom",0.2,0.0
+Cyrtodactylus,Cyrtodactylus philippinicus,Cyrtodactylus philippinicus,Luzon 2,Camiguin Norte,18.4380000,120.8780000,18.9292700,121.8988100,"right","center",-0.2,0.0,"right","bottom",-0.2,0.0
+Cyrtodactylus,Cyrtodactylus philippinicus,Cyrtodactylus philippinicus,Polillo,Luzon 3,14.7525500,121.9683167,14.1335600,121.2044700,"left","center",0.2,0.0,"right","center",-0.2,0.0
+Cyrtodactylus,Cyrtodactylus philippinicus,Cyrtodactylus philippinicus,Panay,Negros,11.7608100,122.0397400,10.6759900,123.1877700,"right","center",-0.2,0.0,"right","top",-0.2,0.0
+Cyrtodactylus,Cyrtodactylus philippinicus,Cyrtodactylus philippinicus,Sibuyan,Tablas,12.4612167,122.6643500,12.6052300,122.0455200,"left","center",0.2,0.0,"right","center",-0.2,0.0
+Gekko,Gekko crombota,Gekko rossi,Babuyan Claro,Calayan,19.523232,121.950172,19.3310000,121.4390000,"left","center",0.2,0.0,"right","bottom",-0.2,0.0
+Gekko,Gekko gigante,Gekko gigante,North Gigante,South Gigante,11.623529,123.348433,11.589394,123.339871,"left","bottom",0.2,0.0,"left","top",0.2,-0.1
+Gekko,Gekko mindorensis,Gekko mindorensis,Lubang,Luzon,13.7999500,120.1639300,14.1660000,121.2430000,"right","top",-0.2,0.0,"left","bottom",0.2,0.0
+Gekko,Gekko mindorensis,Gekko mindorensis,Masbate,Panay 1,12.284720,123.306082,11.465325,123.026489,"left","center",0.2,0.0,"right","center",-0.2,0.0
+Gekko,Gekko mindorensis,Gekko mindorensis,Negros,Panay 2,9.78636666666667,122.51066666666667,10.8088000,122.1013000,"left","center",0.2,0.0,"right","center",-0.2,0.0
+Gekko,Gekko porosus,Gekko porosus,Sabtang,Batan,20.300703,121.868969,20.385511,121.931676,"right","top",-0.1,0.0,"left","bottom",0.2,0.0
+Gekko,Gekko romblon,Gekko romblon,Romblon,Tablas,12.5741000,122.2940000,12.6052300,122.0455200,"left","bottom",0.2,0.0,"right","center",-0.2,0.0
+Gekko,Gekko sp. B,Gekko sp. A,Camiguin Norte,Dalupiri,18.9292700,121.8988100,19.1020000,121.2230000,"left","center",0.2,0.0,"right","top",-0.2,0.0
