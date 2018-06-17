@@ -4,7 +4,38 @@ library(maps)
 library(mapdata)
 library(ggplot2)
 
+point_size = 2.0
+legend_point_size = 4.0
+legend_point_shape = 15
+legend_title_font_size = 14.0
+legend_label_font_size = 14.0
+line_size = 1.1
+pgreen = rgb(50, 162, 81, max = 255)
+porange = rgb(255, 127, 15, max = 255)
+pblue = rgb(60, 183, 204, max = 255)
+pyellow = rgb(255, 217, 74, max = 255)
+pteal = rgb(57, 115, 124, max = 255)
+pauburn = rgb(184, 90, 13, max = 255)
+
+connected_color = pauburn
+not_connected_color = pteal
+maybe_connected_color = pgreen
+
+get_color = function(x) {
+    if (x == "yes") {
+        return(connected_color)
+    }
+    else if (x == "no") {
+        return(not_connected_color)
+    }
+    else {
+        return(maybe_connected_color)
+    }
+}
+
 points = read.delim("localities.csv", sep = ",", header = TRUE)
+points$color = mapply(get_color, points$connected)
+
 gekko_points = subset(points, genus == "Gekko")
 cyrt_points = subset(points, genus == "Cyrtodactylus")
 
@@ -22,17 +53,19 @@ p = ggplot() +
     labs(y = "Latitude") +
     geom_point(data = cyrt_points,
                aes(x = long1, y = lat1),
-               color = "black",
-               size = 1.5,
+               color = cyrt_points$color,
+               size = point_size,
                show.legend = FALSE) +
     geom_point(data = cyrt_points,
                aes(x = long2, y = lat2),
-               color = "black",
-               size = 1.5,
+               color = cyrt_points$color,
+               size = point_size,
                show.legend = FALSE) +
     geom_segment(data = cyrt_points,
                  aes(x = long1, y = lat1,
                      xend = long2, yend=lat2),
+                 color = cyrt_points$color,
+                 size = line_size,
                  show.legend = FALSE) +
     geom_text(data = cyrt_points,
               aes(x = long1, y = lat1,
@@ -68,17 +101,19 @@ p = ggplot() +
     labs(y = "") +
     geom_point(data = cyrt_points,
                aes(x = long1, y = lat1),
-               color = "black",
-               size = 1.5,
+               color = cyrt_points$color,
+               size = point_size,
                show.legend = FALSE) +
     geom_point(data = cyrt_points,
                aes(x = long2, y = lat2),
-               color = "black",
-               size = 1.5,
+               color = cyrt_points$color,
+               size = point_size,
                show.legend = FALSE) +
     geom_segment(data = cyrt_points,
                  aes(x = long1, y = lat1,
                      xend = long2, yend=lat2),
+                 color = cyrt_points$color,
+                 size = line_size,
                  show.legend = FALSE) +
     geom_text(data = cyrt_points,
               aes(x = long1, y = lat1,
@@ -95,7 +130,55 @@ p = ggplot() +
                   vjust = as.character(vjust2)),
               nudge_x = cyrt_points$nudge_x2,
               nudge_y = cyrt_points$nudge_y2,
-              show.legend = FALSE)
+              show.legend = FALSE) +
+    geom_polygon(aes(x = c(116.4, 119.3, 119.3, 116.4),
+                     y = c(15.0, 15.0, 17.5, 17.5)),
+                 fill = "gray94",
+                 color = "gray60",
+                 show.legend = FALSE) +
+    geom_text(aes(x = 116.6, y = 17.15,
+                  label = "Connected?",
+                  size = legend_title_font_size,
+                  hjust = "left",
+                  vjust = "center"),
+              fontface = "bold",
+              show.legend = FALSE) +
+    geom_point(aes(x = 116.8, y = 16.60),
+               color = connected_color,
+               size = legend_point_size,
+               shape = legend_point_shape,
+               show.legend = FALSE) +
+    geom_text(aes(x = 116.8, y = 16.60,
+                  label = "Yes",
+                  size = legend_label_font_size,
+                  hjust = "left",
+                  vjust = "center"),
+              show.legend = FALSE,
+              nudge_x = 0.3) +
+    geom_point(aes(x = 116.8, y = 16.05),
+               color = not_connected_color,
+               size = legend_point_size,
+               shape = legend_point_shape,
+               show.legend = FALSE) +
+    geom_text(aes(x = 116.8, y = 16.05,
+                  label = "No",
+                  size = legend_label_font_size,
+                  hjust = "left",
+                  vjust = "center"),
+              show.legend = FALSE,
+              nudge_x = 0.3) +
+    geom_point(aes(x = 116.8, y = 15.5),
+               color = maybe_connected_color,
+               size = legend_point_size,
+               shape = legend_point_shape,
+               show.legend = FALSE) +
+    geom_text(aes(x = 116.8, y = 15.5,
+                  label = "Maybe",
+                  size = legend_label_font_size,
+                  hjust = "left",
+                  vjust = "center"),
+              show.legend = FALSE,
+              nudge_x = 0.3)
 
 ggsave("../images/map-cyrt-no-labels.pdf", width = 5.0, height = 7.0, units = "in")
 
@@ -112,17 +195,19 @@ p = ggplot() +
     labs(y = "Latitude") +
     geom_point(data = gekko_points,
                aes(x = long1, y = lat1),
-               color = "black",
-               size = 1.5,
+               color = gekko_points$color,
+               size = point_size,
                show.legend = FALSE) +
     geom_point(data = gekko_points,
                aes(x = long2, y = lat2),
-               color = "black",
-               size = 1.5,
+               color = gekko_points$color,
+               size = point_size,
                show.legend = FALSE) +
     geom_segment(data = gekko_points,
                  aes(x = long1, y = lat1,
                      xend = long2, yend=lat2),
+                 color = gekko_points$color,
+                 size = line_size,
                  show.legend = FALSE) +
     geom_text(data = gekko_points,
               aes(x = long1, y = lat1,
@@ -158,17 +243,19 @@ p = ggplot() +
     labs(y = "") +
     geom_point(data = gekko_points,
                aes(x = long1, y = lat1),
-               color = "black",
-               size = 1.5,
+               color = gekko_points$color,
+               size = point_size,
                show.legend = FALSE) +
     geom_point(data = gekko_points,
                aes(x = long2, y = lat2),
-               color = "black",
-               size = 1.5,
+               color = gekko_points$color,
+               size = point_size,
                show.legend = FALSE) +
     geom_segment(data = gekko_points,
                  aes(x = long1, y = lat1,
                      xend = long2, yend=lat2),
+                 color = gekko_points$color,
+                 size = line_size,
                  show.legend = FALSE) +
     geom_text(data = gekko_points,
               aes(x = long1, y = lat1,
