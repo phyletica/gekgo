@@ -190,6 +190,9 @@ done
 
 
 # make pretty single plots
+cyrt_colors="#B85A0D #39737C #B85A0D #39737C #39737C #B85A0D #B85A0D #32A251"
+gekko_colors="#39737C #B85A0D #39737C #B85A0D #B85A0D #32A251 #B85A0D #39737C"
+
 for taxon in "cyrtodactylus" "gekko"
 do
     for suffix in "-"
@@ -197,13 +200,15 @@ do
         rate="200"
         time_ylabel="Cyrtodactylus comparison"
         size_ylabel="Cyrtodactylus population"
+        comparison_colors="$cyrt_colors"
         if [ "$taxon" = "gekko" ]
         then
             rate="2000"
             time_ylabel="Gekko comparison"
             size_ylabel="Gekko population"
+            comparison_colors="$gekko_colors"
         fi
-        pyco-sumtimes -f -z -y "$time_ylabel" -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-${taxon}${suffix}rate${rate}-pretty-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+        pyco-sumtimes -f -z -y "$time_ylabel" -b $burnin --colors $comparison_colors "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-${taxon}${suffix}rate${rate}-pretty-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
         pyco-sumsizes -f -y "$size_ylabel" -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumsizes-${taxon}${suffix}rate${rate}-pretty-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
         pyco-sumevents -p "${plot_dir}/pyco-sumevents-${taxon}${suffix}rate${rate}-pretty-" -f "${plot_dir}/sumcoevolity-${taxon}${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
     done
