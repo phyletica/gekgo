@@ -4,12 +4,12 @@ library(maps)
 library(mapdata)
 library(ggplot2)
 
-point_size = 2.0
+point_size = 2.7
 legend_point_size = 4.0
 legend_point_shape = 15
 legend_title_font_size = 14.0
 legend_label_font_size = 14.0
-line_size = 1.1
+line_size = 1.9
 pgreen = rgb(50, 162, 81, max = 255)
 porange = rgb(255, 127, 15, max = 255)
 pblue = rgb(60, 183, 204, max = 255)
@@ -17,9 +17,23 @@ pyellow = rgb(255, 217, 74, max = 255)
 pteal = rgb(57, 115, 124, max = 255)
 pauburn = rgb(184, 90, 13, max = 255)
 
-connected_color = pauburn
-not_connected_color = pteal
-maybe_connected_color = pgreen
+# How I got these colors from matplotlib:
+# import matplotlib
+# v = matplotlib.cm.get_cmap("viridis")
+# v(0.0, bytes = True)
+viridis00 = rgb(68, 1, 84, max = 255)
+# v(0.5, bytes = True)
+viridis05 = rgb(32, 144, 140, max = 255)
+# v(1.0, bytes = True)
+viridis10 = rgb(253, 231, 36, max = 255)
+
+
+# connected_color = pauburn
+# maybe_connected_color = pgreen
+# not_connected_color = pteal
+connected_color = viridis00
+maybe_connected_color = viridis05 
+not_connected_color = viridis10
 
 get_color = function(x) {
     if (x == "yes") {
@@ -156,24 +170,24 @@ p = ggplot() +
               show.legend = FALSE,
               nudge_x = 0.3) +
     geom_point(aes(x = 116.8, y = 16.05),
-               color = not_connected_color,
+               color = maybe_connected_color,
                size = legend_point_size,
                shape = legend_point_shape,
                show.legend = FALSE) +
     geom_text(aes(x = 116.8, y = 16.05,
-                  label = "No",
+                  label = "Maybe",
                   size = legend_label_font_size,
                   hjust = "left",
                   vjust = "center"),
               show.legend = FALSE,
               nudge_x = 0.3) +
     geom_point(aes(x = 116.8, y = 15.5),
-               color = maybe_connected_color,
+               color = not_connected_color,
                size = legend_point_size,
                shape = legend_point_shape,
                show.legend = FALSE) +
     geom_text(aes(x = 116.8, y = 15.5,
-                  label = "Maybe",
+                  label = "No",
                   size = legend_label_font_size,
                   hjust = "left",
                   vjust = "center"),

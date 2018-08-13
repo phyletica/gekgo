@@ -190,8 +190,18 @@ done
 
 
 # make pretty single plots
-cyrt_colors="#B85A0D #39737C #B85A0D #39737C #39737C #B85A0D #B85A0D #32A251"
-gekko_colors="#39737C #B85A0D #39737C #B85A0D #B85A0D #32A251 #B85A0D #39737C"
+# How I got these colors from matplotlib:
+# import matplotlib
+# v = matplotlib.cm.get_cmap("viridis")
+# matplotlib.colors.rgb2hex(v(0.0))
+connected_color="#440154"
+# matplotlib.colors.rgb2hex(v(0.5))
+maybe_color="#21918c"
+# matplotlib.colors.rgb2hex(v(1.0))
+not_color="#fde725"
+
+cyrt_colors="$maybe_color $maybe_color $connected_color $not_color $not_color $connected_color $connected_color $maybe_color"
+gekko_colors="$not_color $connected_color $not_color $connected_color $connected_color $maybe_color $connected_color $not_color"
 
 for taxon in "cyrtodactylus" "gekko"
 do
