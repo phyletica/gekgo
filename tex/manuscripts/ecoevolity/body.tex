@@ -124,7 +124,7 @@ fragmented as evidence for the PAIC model of vicariant diversification.
 Applying these criteria, for both genera, we identified eight pairs of
 populations, including a mix of pairs spanning islands that were never
 connected, islands that were connected, and islands that were possibly
-connected during glacial lowstands.
+connected during glacial lowstands
 (Figure~\ref{fig:map};
 Table \ref{table:comparisons} \& S\ref{table:reftosampledata}).
 The Islands of
@@ -173,18 +173,25 @@ Following PCR, we did two rounds of AMPure XP bead cleanup (Beckman Coulter,
 Inc.) using a 0.8 bead volume to sample ratio.
 Each library was sequenced in one lane of an Illumina Hiseq 2500 high-output
 run, with single-end 100bp reads.
-We provide information on all of the individuals included in our three RADseq
+We provide information on all of the individuals included in the three RADseq
 libraries in Table~S\ref{table:reftosampledata}, a subset of which were
 included in the population pairs we analyzed for this study (Table
-\ref{table:comparisons} \& S\ref{table:reftosampledata}).
+\ref{table:comparisons} \& S\ref{table:reftopairsampledata}).
+We deposited the demultiplexed, raw sequence reads into the NCBI Sequence Read
+Archive
+(Bioproject PRJNA486413, SRA Study SRP158258),
+and the assembled data matrices are available in our project repository
+(\url{https://github.com/phyletica/gekgo}).
+
 
 \subsection{Data assembly}
-We used ipyrad version 0.7.13 \citep{ipyrad0713} to assemble the raw RADseq
-reads into loci.
+We used ipyrad version 0.7.13 \citep{ipyrad0713} to demultiplex and assemble
+the raw RADseq reads into loci.
 To maximize the number of assembled loci, we de novo assembled the reads
 separately for each pair of populations.
-All of the scripts and ipyrad parameters files we used to assemble the data are available
-in our project repository, and the ipyrad settings are listed in
+All of the scripts and ipyrad parameters files we used to assemble the data are
+available in our project repository (\url{https://github.com/phyletica/gekgo}),
+and the ipyrad settings are listed in
 Table~S\ref{table:ipyradsettings}.
 
 \subsection{Testing for shared divergences}
