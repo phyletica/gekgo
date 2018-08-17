@@ -474,6 +474,22 @@ class Sample(object):
     
     seq_label = property(_get_seq_label)
 
+    def _get_long_seq_label(self):
+        sp = ''
+        if self.epithet:
+            sp = self.epithet
+        isl = ''
+        if self.island:
+            isl = self.island
+        elif self.country:
+            isl = self.country
+        sp = sp.replace(' ', '').replace('/', '.')
+        isl = isl.replace(' ', '').replace('/', '.')
+        name = '{0}_{1}_{2}_{3}'.format(self.seq_label, self.genus, sp, isl)
+        return name
+    
+    long_seq_label = property(_get_long_seq_label)
+
     def get_field_id_from_seq_label(seq_label):
         elements = seq_label.strip().split('_')
         if len(elements) < 2:
@@ -698,6 +714,13 @@ class Sample(object):
             self._long = str(long)
             
     long = property(_get_long, _set_long)
+
+    def _get_lat_long(self):
+        if self._lat and self._long:
+            return " ".join([self.lat, self.long])
+        return None
+
+    lat_long = property(_get_lat_long)
 
     def _get_cam_extract_cell(self):
         if self._cam_extract_cell:
