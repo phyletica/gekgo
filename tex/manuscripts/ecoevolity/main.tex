@@ -10,12 +10,14 @@
 
 \newcommand{\ifembed}[2]{#1}
 % \newcommand{\ifembed}[2]{#2}
-% \newcommand{\ifdoublespacing}[2]{#1}
-\newcommand{\ifdoublespacing}[2]{#2}
-% \newcommand{\iflinenumbers}[2]{#1}
-\newcommand{\iflinenumbers}[2]{#2}
+\newcommand{\ifdoublespacing}[2]{#1}
+% \newcommand{\ifdoublespacing}[2]{#2}
+\newcommand{\iflinenumbers}[2]{#1}
+% \newcommand{\iflinenumbers}[2]{#2}
 % \newcommand{\ifragged}[2]{#1}
 \newcommand{\ifragged}[2]{#2}
+% \newcommand{\ifblind}[2]{#1}
+\newcommand{\ifblind}[2]{#2}
 
 \usepackage[round]{natbib}
 
@@ -24,6 +26,7 @@
     a paradigm of climate-driven vicariant diversification across an
     island archipelago}
 
+\ifblind{\author{}}{
 \author[1]{Jamie R.\ Oaks \thanks{Corresponding author: \href{mailto:joaks@auburn.edu}{\tt joaks@auburn.edu}}}
 \author[2]{Cameron D.\ Siler}
 \author[3]{Rafe M.\ Brown}
@@ -33,6 +36,7 @@
     Biology, University of Oklahoma, Norman, Oklahoma 73072}
 \affil[3]{Biodiversity Institute and Department of Ecology and Evolutionary
     Biology, University of Kansas, Lawrence, Kansas 66045, USA}
+}
 
 \date{\today}
 % \date{\parbox{\linewidth}{\centering%
@@ -49,10 +53,6 @@
 
 \begin{document}
 
-\ifdoublespacing{
-\doublespacing
-}{}
-
 \ifragged{
 \raggedright
 }{}
@@ -64,6 +64,10 @@
 \textbf{Running head}: Comparative biogeography of Philippine geckos
 
 {\let\newpage\relax\maketitle}
+
+\ifdoublespacing{
+\doublespacing
+}{}
 
 \begin{abstract}
     \input{abstract.tex}
