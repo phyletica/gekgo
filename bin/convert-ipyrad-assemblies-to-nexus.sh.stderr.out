@@ -606,3 +606,579 @@ Command: /home/jro0014/Environment/bin/loci2phy /scratch/jro0014/gekgo/data/geno
 	Number of sites: 623369
 	Number of triallelic sites found:   3202
 	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 0 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-annulatus-annulatus-Bohol-CamiguinSur_outfiles/C-annulatus-annulatus-Bohol-CamiguinSur.loci.gz
+	Number of taxa:  8
+	Number of loci:  15500
+	Number of sites: 1413754
+	Number of triallelic sites found:   61
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 0 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-annulatus-annulatus-Bohol-CamiguinSur_outfiles/C-annulatus-annulatus-Bohol-CamiguinSur.loci.gz
+	Number of taxa:  8
+	Number of loci:  15500
+	Number of sites: 1413693
+	Number of triallelic sites found:   61
+	Number of triallelic sites removed: 61
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 1 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-baluensis-redimiculus-Kinabalu-Palawan_outfiles/C-baluensis-redimiculus-Kinabalu-Palawan.loci.gz
+	Number of taxa:  7
+	Number of loci:  8989
+	Number of sites: 820518
+	Number of triallelic sites found:   239
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 1 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-baluensis-redimiculus-Kinabalu-Palawan_outfiles/C-baluensis-redimiculus-Kinabalu-Palawan.loci.gz
+	Number of taxa:  7
+	Number of loci:  8989
+	Number of sites: 820279
+	Number of triallelic sites found:   239
+	Number of triallelic sites removed: 239
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 2 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-gubaot-sumuroi-Leyte-Samar_outfiles/C-gubaot-sumuroi-Leyte-Samar.loci.gz
+	Number of taxa:  10
+	Number of loci:  18759
+	Number of sites: 1713679
+	Number of triallelic sites found:   347
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 2 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-gubaot-sumuroi-Leyte-Samar_outfiles/C-gubaot-sumuroi-Leyte-Samar.loci.gz
+	Number of taxa:  10
+	Number of loci:  18759
+	Number of sites: 1713332
+	Number of triallelic sites found:   347
+	Number of triallelic sites removed: 347
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 3 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-BabuyanClaro-Luzon_outfiles/C-philippinicus-philippinicus-BabuyanClaro-Luzon.loci.gz
+	Number of taxa:  4
+	Number of loci:  3855
+	Number of sites: 351195
+	Number of triallelic sites found:   4
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 3 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-BabuyanClaro-Luzon_outfiles/C-philippinicus-philippinicus-BabuyanClaro-Luzon.loci.gz
+	Number of taxa:  4
+	Number of loci:  3855
+	Number of sites: 351191
+	Number of triallelic sites found:   4
+	Number of triallelic sites removed: 4
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 4 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-CamiguinNorte-Luzon_outfiles/C-philippinicus-philippinicus-CamiguinNorte-Luzon.loci.gz
+	Number of taxa:  7
+	Number of loci:  15519
+	Number of sites: 1415006
+	Number of triallelic sites found:   35
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 4 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-CamiguinNorte-Luzon_outfiles/C-philippinicus-philippinicus-CamiguinNorte-Luzon.loci.gz
+	Number of taxa:  7
+	Number of loci:  15519
+	Number of sites: 1414971
+	Number of triallelic sites found:   35
+	Number of triallelic sites removed: 35
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 5 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-Luzon-Polillo_outfiles/C-philippinicus-philippinicus-Luzon-Polillo.loci.gz
+	Number of taxa:  10
+	Number of loci:  19561
+	Number of sites: 1785540
+	Number of triallelic sites found:   171
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 5 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-Luzon-Polillo_outfiles/C-philippinicus-philippinicus-Luzon-Polillo.loci.gz
+	Number of taxa:  10
+	Number of loci:  19561
+	Number of sites: 1785369
+	Number of triallelic sites found:   171
+	Number of triallelic sites removed: 171
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 6 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-Negros-Panay_outfiles/C-philippinicus-philippinicus-Negros-Panay.loci.gz
+	Number of taxa:  5
+	Number of loci:  8256
+	Number of sites: 752780
+	Number of triallelic sites found:   20
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 6 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-Negros-Panay_outfiles/C-philippinicus-philippinicus-Negros-Panay.loci.gz
+	Number of taxa:  5
+	Number of loci:  8256
+	Number of sites: 752760
+	Number of triallelic sites found:   20
+	Number of triallelic sites removed: 20
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 7 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-Sibuyan-Tablas_outfiles/C-philippinicus-philippinicus-Sibuyan-Tablas.loci.gz
+	Number of taxa:  6
+	Number of loci:  21426
+	Number of sites: 1954255
+	Number of triallelic sites found:   54
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 7 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-Sibuyan-Tablas_outfiles/C-philippinicus-philippinicus-Sibuyan-Tablas.loci.gz
+	Number of taxa:  6
+	Number of loci:  21426
+	Number of sites: 1954201
+	Number of triallelic sites found:   54
+	Number of triallelic sites removed: 54
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 8 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-crombota-rossi-BabuyanClaro-Calayan_outfiles/G-crombota-rossi-BabuyanClaro-Calayan.loci.gz
+	Number of taxa:  10
+	Number of loci:  16901
+	Number of sites: 1540695
+	Number of triallelic sites found:   50
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 8 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-crombota-rossi-BabuyanClaro-Calayan_outfiles/G-crombota-rossi-BabuyanClaro-Calayan.loci.gz
+	Number of taxa:  10
+	Number of loci:  16901
+	Number of sites: 1540645
+	Number of triallelic sites found:   50
+	Number of triallelic sites removed: 50
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 9 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-gigante-gigante-NorthGigante-SouthGigante_outfiles/G-gigante-gigante-NorthGigante-SouthGigante.loci.gz
+	Number of taxa:  7
+	Number of loci:  17393
+	Number of sites: 1585030
+	Number of triallelic sites found:   21
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 9 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-gigante-gigante-NorthGigante-SouthGigante_outfiles/G-gigante-gigante-NorthGigante-SouthGigante.loci.gz
+	Number of taxa:  7
+	Number of loci:  17393
+	Number of sites: 1585009
+	Number of triallelic sites found:   21
+	Number of triallelic sites removed: 21
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 10 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Caluya-Mindoro_outfiles/G-mindorensis-mindorensis-Caluya-Mindoro.loci.gz
+	Number of taxa:  9
+	Number of loci:  18540
+	Number of sites: 1690984
+	Number of triallelic sites found:   80
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 10 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Caluya-Mindoro_outfiles/G-mindorensis-mindorensis-Caluya-Mindoro.loci.gz
+	Number of taxa:  9
+	Number of loci:  18540
+	Number of sites: 1690904
+	Number of triallelic sites found:   80
+	Number of triallelic sites removed: 80
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 11 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Lubang-Luzon_outfiles/G-mindorensis-mindorensis-Lubang-Luzon.loci.gz
+	Number of taxa:  9
+	Number of loci:  18137
+	Number of sites: 1654333
+	Number of triallelic sites found:   68
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 11 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Lubang-Luzon_outfiles/G-mindorensis-mindorensis-Lubang-Luzon.loci.gz
+	Number of taxa:  9
+	Number of loci:  18137
+	Number of sites: 1654265
+	Number of triallelic sites found:   68
+	Number of triallelic sites removed: 68
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 12 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-MaestreDeCampo-Masbate_outfiles/G-mindorensis-mindorensis-MaestreDeCampo-Masbate.loci.gz
+	Number of taxa:  6
+	Number of loci:  15993
+	Number of sites: 1457606
+	Number of triallelic sites found:   27
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 12 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-MaestreDeCampo-Masbate_outfiles/G-mindorensis-mindorensis-MaestreDeCampo-Masbate.loci.gz
+	Number of taxa:  6
+	Number of loci:  15993
+	Number of sites: 1457579
+	Number of triallelic sites found:   27
+	Number of triallelic sites removed: 27
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 13 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Masbate-Panay_outfiles/G-mindorensis-mindorensis-Masbate-Panay.loci.gz
+	Number of taxa:  7
+	Number of loci:  20570
+	Number of sites: 1876351
+	Number of triallelic sites found:   49
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 13 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Masbate-Panay_outfiles/G-mindorensis-mindorensis-Masbate-Panay.loci.gz
+	Number of taxa:  7
+	Number of loci:  20570
+	Number of sites: 1876302
+	Number of triallelic sites found:   49
+	Number of triallelic sites removed: 49
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 14 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Negros-Panay_outfiles/G-mindorensis-mindorensis-Negros-Panay.loci.gz
+	Number of taxa:  8
+	Number of loci:  17636
+	Number of sites: 1607610
+	Number of triallelic sites found:   30
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 14 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Negros-Panay_outfiles/G-mindorensis-mindorensis-Negros-Panay.loci.gz
+	Number of taxa:  8
+	Number of loci:  17636
+	Number of sites: 1607580
+	Number of triallelic sites found:   30
+	Number of triallelic sites removed: 30
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 15 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-porosus-porosus-Batan-Sabtang_outfiles/G-porosus-porosus-Batan-Sabtang.loci.gz
+	Number of taxa:  8
+	Number of loci:  16345
+	Number of sites: 1489737
+	Number of triallelic sites found:   31
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 15 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-porosus-porosus-Batan-Sabtang_outfiles/G-porosus-porosus-Batan-Sabtang.loci.gz
+	Number of taxa:  8
+	Number of loci:  16345
+	Number of sites: 1489706
+	Number of triallelic sites found:   31
+	Number of triallelic sites removed: 31
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 16 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-romblon-romblon-Romblon-Tablas_outfiles/G-romblon-romblon-Romblon-Tablas.loci.gz
+	Number of taxa:  7
+	Number of loci:  7074
+	Number of sites: 644564
+	Number of triallelic sites found:   34
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 16 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-romblon-romblon-Romblon-Tablas_outfiles/G-romblon-romblon-Romblon-Tablas.loci.gz
+	Number of taxa:  7
+	Number of loci:  7074
+	Number of sites: 644530
+	Number of triallelic sites found:   34
+	Number of triallelic sites removed: 34
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 17 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-sp_a-sp_b-Dalupiri-CamiguinNorte_outfiles/G-sp_a-sp_b-Dalupiri-CamiguinNorte.loci.gz
+	Number of taxa:  10
+	Number of loci:  15199
+	Number of sites: 1385281
+	Number of triallelic sites found:   31
+	Number of triallelic sites removed: 0
+========================================================================
+                              Pycoevolity                               
+                   Summarizing evolutionary coevality                   
+
+        A Python package for analyzing the output of Ecoevolity         
+
+            Version 0.1.1 (dev 691809e: 2018-11-16 22:18:55)            
+
+             License: GNU General Public License Version 3              
+========================================================================
+Command: /usr/local/bin/loci2nex --charsets --suffix 17 --remove-triallelic-sites /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-sp_a-sp_b-Dalupiri-CamiguinNorte_outfiles/G-sp_a-sp_b-Dalupiri-CamiguinNorte.loci.gz
+	Number of taxa:  10
+	Number of loci:  15199
+	Number of sites: 1385250
+	Number of triallelic sites found:   31
+	Number of triallelic sites removed: 31
