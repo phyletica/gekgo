@@ -24,24 +24,45 @@ def line_count(path):
             count += 1
     return count
 
-def get_parameter_names(number_of_comparisons, dpp = True):
+def get_parameter_names(dpp = True, cyrt = True):
     p = ["ln_likelihood"]
     if dpp:
         p.append("concentration")
     else:
         p.append("split_weight")
     p.append("number_of_events")
-    for i in range(number_of_comparisons):
-        p.append("ln_likelihood_c{0}sp1".format(i + 1))
-        p.append("root_height_c{0}sp1".format(i + 1))
-        p.append("mutation_rate_c{0}sp1".format(i + 1))
-        p.append("freq_1_c{0}sp1".format(i + 1))
-        p.append("pop_size_c{0}sp1".format(i + 1))
-        p.append("pop_size_c{0}sp2".format(i + 1))
-        p.append("pop_size_root_c{0}sp1".format(i + 1))
+    comparison_labels = [
+            ("Bohol0", "CamiguinSur0"),
+            ("Palawan1", "Kinabalu1"),
+            ("Samar2", "Leyte2"),
+            ("Luzon3", "BabuyanClaro3"),
+            ("Luzon4", "CamiguinNorte4"),
+            ("Polillo5", "Luzon5"),
+            ("Panay6", "Negros6"),
+            ("Sibuyan7", "Tablas7"),
+            ]
+    if not cyrt:
+        comparison_labels = [
+                ("BabuyanClaro8", "Calayan8"),
+                ("SouthGigante9", "NorthGigante9"),
+                ("Lubang11", "Luzon11"),
+                ("Panay13", "Masbate13"),
+                ("Negros14", "Panay14"),
+                ("Sabtang15", "Batan15"),
+                ("Romblon16", "Tablas16"),
+                ("CamiguinNorte17", "Dalupiri17"),
+                ]
+    for l1, l2 in comparison_labels:
+        p.append("ln_likelihood_{0}".format(l1))
+        p.append("root_height_{0}".format(l1))
+        p.append("mutation_rate_{0}".format(l1))
+        p.append("freq_1_{0}".format(l1))
+        p.append("pop_size_{0}".format(l1))
+        p.append("pop_size_{0}".format(l2))
+        p.append("pop_size_root_{0}".format(l1))
     return p
 
-def get_results_header(number_of_comparisons, dpp = True):
+def get_results_header(number_of_comparisons = 8, dpp = True, cyrt = True):
     h = [
             "batch",
             "sim",
@@ -64,7 +85,7 @@ def get_results_header(number_of_comparisons, dpp = True):
     for i in range(number_of_comparisons):
         h.append("n_var_sites_c{0}".format(i+1))
 
-    for p in get_parameter_names(number_of_comparisons, dpp = dpp):
+    for p in get_parameter_names(dpp = dpp, cyrt = cyrt):
         h.append("true_{0}".format(p))
         h.append("true_{0}_rank".format(p))
         h.append("mean_{0}".format(p))
@@ -79,8 +100,8 @@ def get_results_header(number_of_comparisons, dpp = True):
         h.append("psrf_{0}".format(p))
     return h
 
-def get_empty_results_dict(number_of_comparisons, dpp = True):
-    h = get_results_header(number_of_comparisons, dpp = dpp)
+def get_empty_results_dict(number_of_comparisons = 8, dpp = True, cyrt = True):
+    h = get_results_header(number_of_comparisons, dpp = dpp, cyrt = cyrt)
     return dict(zip(h, ([] for i in range(len(h)))))
 
 def get_results_from_sim_rep(
@@ -88,9 +109,9 @@ def get_results_from_sim_rep(
         stdout_paths,
         true_path,
         parameter_names,
-        number_of_comparisons,
         batch_number,
         sim_number,
+        number_of_comparisons = 8,
         expected_number_of_samples = 1501,
         burnin = 301):
     posterior_paths = sorted(posterior_paths)
@@ -204,9 +225,12 @@ def parse_simulation_results(
     for val_sim_dir in sorted(val_sim_dirs):
         dpp = True
         sim_name = os.path.basename(val_sim_dir)
+        cyrt = True
+        if not sim_name.startswith("cyrt"):
+            cyrt = False
         number_of_comparisons = 8
-        parameter_names = get_parameter_names(number_of_comparisons, dpp = dpp)
-        header = get_results_header(number_of_comparisons, dpp = dpp)
+        parameter_names = get_parameter_names(dpp = dpp, cyrt = cyrt)
+        header = get_results_header(number_of_comparisons, dpp = dpp, cyrt = cyrt)
 
         batch_dirs = glob.glob(os.path.join(val_sim_dir, "batch*"))
         for batch_dir in sorted(batch_dirs):
@@ -222,7 +246,7 @@ def parse_simulation_results(
                         results_path))
                 continue
 
-            results = get_empty_results_dict(number_of_comparisons, dpp = dpp)
+            results = get_empty_results_dict(number_of_comparisons, dpp = dpp, cyrt = cyrt)
 
             posterior_paths = glob.glob(os.path.join(batch_dir,
                     "run-1-simcoevolity-sim-*-config-state-run-1.log*"))
@@ -256,9 +280,9 @@ def parse_simulation_results(
                         stdout_paths = stdout_paths,
                         true_path = true_path,
                         parameter_names = parameter_names,
-                        number_of_comparisons = number_of_comparisons,
                         batch_number = batch_number,
                         sim_number = sim_number,
+                        number_of_comparisons = number_of_comparisons,
                         expected_number_of_samples = expected_number_of_samples,
                         burnin = burnin)
                 for k, v in rep_results.items():
