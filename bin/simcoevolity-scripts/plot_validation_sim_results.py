@@ -7,7 +7,7 @@ import math
 import glob
 import logging
 
-logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
+logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.INFO)
 _LOG = logging.getLogger(os.path.basename(__file__))
 
 import pycoevolity
@@ -1785,29 +1785,29 @@ def main_cli(argv = sys.argv):
                     "cyrtodactylus-rate200",
                     "batch*",
                     "results.csv.gz")))
-    # cyrt_snp_results = parse_results(glob.glob(
-    #         os.path.join(project_util.ECOEVOLITY_SIM_DIR,
-    #                 "cyrtodactylus-rate200-unlinked-snps",
-    #                 "batch*",
-    #                 "results.csv.gz")))
-    # gekko_results = parse_results(glob.glob(
-    #         os.path.join(project_util.ECOEVOLITY_SIM_DIR,
-    #                 "gekko-rate200",
-    #                 "batch*",
-    #                 "results.csv.gz")))
-    # gekko_snp_results = parse_results(glob.glob(
-    #         os.path.join(project_util.ECOEVOLITY_SIM_DIR,
-    #                 "gekko-rate200-unlinked-snps",
-    #                 "batch*",
-    #                 "results.csv.gz")))
+    cyrt_snp_results = parse_results(glob.glob(
+            os.path.join(project_util.ECOEVOLITY_SIM_DIR,
+                    "cyrtodactylus-rate200-unlinked-snps",
+                    "batch*",
+                    "results.csv.gz")))
+    gekko_results = parse_results(glob.glob(
+            os.path.join(project_util.ECOEVOLITY_SIM_DIR,
+                    "gekko-rate2000",
+                    "batch*",
+                    "results.csv.gz")))
+    gekko_snp_results = parse_results(glob.glob(
+            os.path.join(project_util.ECOEVOLITY_SIM_DIR,
+                    "gekko-rate2000-unlinked-snps",
+                    "batch*",
+                    "results.csv.gz")))
 
     row_labels = [
             "All sites",
-            # "Unlinked SNPs",
+            "Unlinked SNPs",
             ]
     column_labels = [
             "\\textit{{Cyrtodactylus}}",
-            # "\\textit{{Gekko}}",
+            "\\textit{{Gekko}}",
             ]
     cyrt_comparison_labels = [
             ("Bohol0", "CamiguinSur0"),
@@ -1887,18 +1887,18 @@ def main_cli(argv = sys.argv):
                 p_info["cyrt-headers"],
                 highlight_parameter_prefix = "psrf",
                 highlight_threshold = 1.1)
-        # cyrt_snp_data = ScatterData.init(cyrt_snp_results,
-        #         p_info["cyrt-headers"],
-        #         highlight_parameter_prefix = "psrf",
-        #         highlight_threshold = 1.1)
-        # gekko_data = ScatterData.init(gekko_results,
-        #         p_info["gekko-headers"],
-        #         highlight_parameter_prefix = "psrf",
-        #         highlight_threshold = 1.1)
-        # gekko_snp_data = ScatterData.init(gekko_snp_results,
-        #         p_info["gekko-headers"],
-        #         highlight_parameter_prefix = "psrf",
-        #         highlight_threshold = 1.1)
+        cyrt_snp_data = ScatterData.init(cyrt_snp_results,
+                p_info["cyrt-headers"],
+                highlight_parameter_prefix = "psrf",
+                highlight_threshold = 1.1)
+        gekko_data = ScatterData.init(gekko_results,
+                p_info["gekko-headers"],
+                highlight_parameter_prefix = "psrf",
+                highlight_threshold = 1.1)
+        gekko_snp_data = ScatterData.init(gekko_snp_results,
+                p_info["gekko-headers"],
+                highlight_parameter_prefix = "psrf",
+                highlight_threshold = 1.1)
         
         x_label = "True {0} (${1}$)".format(
                 p_info["label"],
@@ -1907,12 +1907,9 @@ def main_cli(argv = sys.argv):
                 p_info["label"],
                 p_info["symbol"])
 
-        # data_grid = [
-        #         [cyrt_data, gekko_data],
-        #         [cyrt_snp_data, gekko_snp_data],
-        #         ]
         data_grid = [
-                [cyrt_data],
+                [cyrt_data, gekko_data],
+                [cyrt_snp_data, gekko_snp_data],
                 ]
 
         generate_scatter_plots(
@@ -1941,12 +1938,9 @@ def main_cli(argv = sys.argv):
                 include_error_bars = True)
 
 
-    # results_grid = [
-    #         [cyrt_results, gekko_results],
-    #         [cyrt_snp_results, gekko_snp_results],
-    #         ]
     results_grid = [
-            [cyrt_results],
+            [cyrt_results, gekko_results],
+            [cyrt_snp_results, gekko_snp_results],
             ]
     generate_model_plots(
             results_grid = results_grid,
@@ -1997,15 +1991,11 @@ def main_cli(argv = sys.argv):
             "n_var_sites_c8",
             ]
     cyrt_data = HistogramData.init(cyrt_results, parameters, True)
-    # gekko_data = HistogramData.init(gekko_results, parameters, True)
-    #
-    # data_grid = [
-    #         [cyrt_data, gekko_data],
-    #         ]
+    gekko_data = HistogramData.init(gekko_results, parameters, True)
+    
     data_grid = [
-            [cyrt_data],
+            [cyrt_data, gekko_data],
             ]
-
 
     generate_histograms(
             data_grid = data_grid,
@@ -2064,16 +2054,13 @@ def main_cli(argv = sys.argv):
 
     for parameter, p_info in histograms_to_plot.items():
         cyrt_data = HistogramData.init(cyrt_results, p_info["cyrt-headers"], False)
-        # cyrt_snp_data = HistogramData.init(cyrt_snp_results, p_info["cyrt-headers"], False)
-        # gekko_data = HistogramData.init(gekko_results, p_info["gekko-headers"], False)
-        # gekko_snp_data = HistogramData.init(gekko_snp_results, p_info["gekko-headers"], False)
+        cyrt_snp_data = HistogramData.init(cyrt_snp_results, p_info["cyrt-headers"], False)
+        gekko_data = HistogramData.init(gekko_results, p_info["gekko-headers"], False)
+        gekko_snp_data = HistogramData.init(gekko_snp_results, p_info["gekko-headers"], False)
 
-        # data_grid = [
-        #         [cyrt_data, gekko_data],
-        #         [cyrt_snp_data, gekko_snp_data],
-        #         ]
         data_grid = [
-                [cyrt_data],
+                [cyrt_data, gekko_data],
+                [cyrt_snp_data, gekko_snp_data],
                 ]
 
         generate_histograms(
