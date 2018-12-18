@@ -791,7 +791,7 @@ def generate_scatter_plots(
         include_rmse = True,
         include_identity_line = True,
         include_error_bars = True):
-    if force_shared_spines or force_shared_xy_ranges:
+    if force_shared_spines:
         force_shared_x_range = True
         force_shared_y_range = True
 
@@ -820,10 +820,10 @@ def generate_scatter_plots(
         y_min = mn
         x_max = mx
         y_max = mx
-    x_buffer = math.fabs(x_max - x_min) * 0.05
+    x_buffer = math.fabs(x_max - x_min) * 0.025
     x_axis_min = x_min - x_buffer
     x_axis_max = x_max + x_buffer
-    y_buffer = math.fabs(y_max - y_min) * 0.05
+    y_buffer = math.fabs(y_max - y_min) * 0.025
     y_axis_min = y_min - y_buffer
     y_axis_max = y_max + y_buffer
 
@@ -921,14 +921,23 @@ def generate_scatter_plots(
                             markersize = 2.5,
                             zorder = 200,
                             rasterized = True)
+            plot_min = min(min(data.x), min(data.y))
+            plot_max = max(max(data.x), max(data.y))
+            plot_axis_buffer = (plot_max - plot_min) * 0.025
             if force_shared_x_range:
                 ax.set_xlim(x_axis_min, x_axis_max)
+            elif force_shared_xy_ranges:
+                ax.set_xlim(plot_min - plot_axis_buffer, plot_max + plot_axis_buffer)
             else:
-                ax.set_xlim(min(data.x), max(data.x))
+                x_buffer = (max(data.x) - min(data.x)) * 0.025
+                ax.set_xlim(min(data.x) - x_buffer, max(data.x) + x_buffer)
             if force_shared_y_range:
                 ax.set_ylim(y_axis_min, y_axis_max)
+            elif force_shared_xy_ranges:
+                ax.set_ylim(plot_min - plot_axis_buffer, plot_max + plot_axis_buffer)
             else:
-                ax.set_ylim(min(data.y), max(data.y))
+                y_buffer = (max(data.y) - min(data.y)) * 0.025
+                ay.set_ylim(min(data.y) - y_buffer, max(data.y) + y_buffer)
             if include_identity_line:
                 identity_line, = ax.plot(
                         [x_axis_min, x_axis_max],
@@ -1012,6 +1021,8 @@ def generate_scatter_plots(
                 ax.spines['right'].set_visible(True)
             else:
                 ax.spines['right'].set_visible(True)
+    else:
+        fig.tight_layout()
 
     if x_label:
         fig.text(0.5, 0.001,
@@ -1865,6 +1876,7 @@ def main_cli(argv = sys.argv):
                     "label": "event time",
                     "short_label": "time",
                     "symbol": "t",
+                    "shared_axes": False,
             },
             "ancestor-size": {
                     "cyrt-headers": cyrt_root_size_parameters,
@@ -1872,6 +1884,7 @@ def main_cli(argv = sys.argv):
                     "label": "ancestor population size",
                     "short_label": "size",
                     "symbol": "N_e\\mu",
+                    "shared_axes": True,
             },
             "descendant-size": {
                     "cyrt-headers": cyrt_leaf_size_parameters,
@@ -1879,6 +1892,7 @@ def main_cli(argv = sys.argv):
                     "label": "descendant population size",
                     "short_label": "size",
                     "symbol": "N_e\\mu",
+                    "shared_axes": True,
             },
     }
 
@@ -1904,7 +1918,7 @@ def main_cli(argv = sys.argv):
                 p_info["label"],
                 p_info["symbol"])
         y_label = "Estimated {0} ($\\hat{{{1}}}$)".format(
-                p_info["label"],
+                p_info["short_label"],
                 p_info["symbol"])
 
         data_grid = [
@@ -1918,25 +1932,26 @@ def main_cli(argv = sys.argv):
                 parameter_symbol = p_info["symbol"],
                 column_labels = column_labels,
                 row_labels = row_labels,
-                plot_width = 1.9,
+                plot_width = 2.2,
                 plot_height = 1.8,
-                pad_left = 0.08,
-                pad_right = 0.98,
+                pad_left = 0.175,
+                pad_right = 0.95,
                 pad_bottom = 0.14,
-                pad_top = 0.94,
+                pad_top = 0.95,
                 x_label = x_label,
                 x_label_size = 18.0,
                 y_label = y_label,
                 y_label_size = 18.0,
-                force_shared_x_range = True,
-                force_shared_y_range = True,
+                force_shared_x_range = p_info["shared_axes"],
+                force_shared_y_range = p_info["shared_axes"],
                 force_shared_xy_ranges = True,
-                force_shared_spines = True,
+                force_shared_spines = p_info["shared_axes"],
                 include_coverage = True,
                 include_rmse = True,
                 include_identity_line = True,
                 include_error_bars = True)
 
+    return
 
     results_grid = [
             [cyrt_results, gekko_results],
@@ -1958,26 +1973,26 @@ def main_cli(argv = sys.argv):
             number_font_size = 12.0,
             plot_file_prefix = "")
 
-    generate_specific_model_plots(
-            results = cyrt_results,
-            number_of_comparisons = 8,
-            plot_title = None,
-            include_x_label = False,
-            include_y_label = False,
-            include_median = True,
-            include_cs = True,
-            include_prop_correct = True,
-            plot_width = 3.5,
-            plot_height = 3.3,
-            xy_label_size = 16.0,
-            title_size = 16.0,
-            pad_left = 0.16,
-            pad_right = 0.99,
-            pad_bottom = 0.165,
-            pad_top = 0.915,
-            lower_annotation_y = 0.01,
-            upper_annotation_y = 0.915,
-            plot_file_prefix = "nevents-cyrt")
+    # generate_specific_model_plots(
+    #         results = cyrt_results,
+    #         number_of_comparisons = 8,
+    #         plot_title = None,
+    #         include_x_label = False,
+    #         include_y_label = False,
+    #         include_median = True,
+    #         include_cs = True,
+    #         include_prop_correct = True,
+    #         plot_width = 3.5,
+    #         plot_height = 3.3,
+    #         xy_label_size = 16.0,
+    #         title_size = 16.0,
+    #         pad_left = 0.16,
+    #         pad_right = 0.99,
+    #         pad_bottom = 0.165,
+    #         pad_top = 0.915,
+    #         lower_annotation_y = 0.01,
+    #         upper_annotation_y = 0.915,
+    #         plot_file_prefix = "nevents-cyrt")
 
     # Generate histograms for the number of variable sites
     parameters = [
