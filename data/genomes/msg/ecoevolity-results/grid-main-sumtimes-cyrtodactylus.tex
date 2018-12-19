@@ -1,0 +1,36 @@
+\documentclass[border=10pt,varwidth=30cm]{standalone}
+\usepackage{graphicx,capt-of}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage[cm]{sfmath}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\newcounter{subfloat}
+\renewcommand{\thesubfloat}{\Alph{subfloat}}
+\newcommand{\image}[2]{%
+    \stepcounter{subfloat}%
+    \begin{tabular}[t]{@{}c@{}}
+    \thesubfloat. #1 \\
+    #2
+    \end{tabular}%
+}
+\newcommand{\insertlabel}{%
+    \small
+    \stepcounter{subfloat}%
+    \thesubfloat}
+\newcommand{\trm}[1]{\ensuremath{\textrm{\sffamily #1}}}
+
+\begin{document}
+
+\begin{figure}
+    \centering
+    \begin{tabular}{@{}ll@{}}
+        \multirow{2}{*}[2em]{\begin{sideways}\textsl{Cyrtodactylus} comparison\end{sideways}}
+        & \includegraphics[width=0.23\textwidth]{./pyco-sumtimes-cyrtodactylus-rate200-pretty-pycoevolity-times.pdf} \\
+        & \includegraphics[width=0.23\textwidth]{./pyco-sumtimes-cyrtodactylus-rate200-pretty-dropped-pycoevolity-times.pdf} \\
+        & \multicolumn{1}{c}{\hspace{6em}Divergence time ($t$)} \\
+    \end{tabular}
+\end{figure}
+
+\end{document}
