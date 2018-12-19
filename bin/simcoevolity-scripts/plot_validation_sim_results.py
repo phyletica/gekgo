@@ -127,18 +127,22 @@ class ScatterData(object):
 
     def _get_x(self):
         return self._x
+        # return [self._x[i] for i in range(len(self._x)) if i not in self._highlight_indices]
     x = property(_get_x)
 
     def _get_y(self):
         return self._y
+        # return [self._y[i] for i in range(len(self._y)) if i not in self._highlight_indices]
     y = property(_get_y)
 
     def _get_y_lower(self):
         return self._y_lower
+        # return [self._y_lower[i] for i in range(len(self._y_lower)) if i not in self._highlight_indices]
     y_lower = property(_get_y_lower)
 
     def _get_y_upper(self):
         return self._y_upper
+        # return [self._y_upper[i] for i in range(len(self._y_upper)) if i not in self._highlight_indices]
     y_upper = property(_get_y_upper)
 
     def _get_highlight_indices(self):
@@ -1396,6 +1400,8 @@ def generate_histograms(
                 ax.spines['right'].set_visible(True)
             else:
                 ax.spines['right'].set_visible(True)
+    else:
+        fig.tight_layout()
 
     fig.text(0.5, 0.001,
             parameter_label,
@@ -1438,6 +1444,11 @@ def generate_model_plots(
         y_label_size = 18.0,
         y_label = None,
         number_font_size = 12.0,
+        include_median = True,
+        include_cs = True,
+        include_prop_correct = True,
+        filter_parameter_prefix = None,
+        filter_threshold = None,
         plot_file_prefix = None):
     _LOG.info("Generating model plots...")
 
@@ -1463,26 +1474,41 @@ def generate_model_plots(
 
     for row_index, results_grid_row in enumerate(results_grid):
         for column_index, results in enumerate(results_grid_row):
+            indices_to_plot = range(len(results["true_num_events"]))
+            if filter_parameter_prefix:
+                for i in range(len(results["true_num_events"])):
+                    for k, v in results.items():
+                        if k.startswith(filter_parameter_prefix) and (float(results[k][i]) > filter_threshold):
+                            indices_to_plot.remove(i)
+                            break
+                _LOG.info("{0} sim reps removed for {1}-row{2}-col{3} due to {4}".format(
+                        len(results["true_num_events"]) - len(indices_to_plot),
+                        plot_file_prefix,
+                        row_index,
+                        column_index,
+                        filter_parameter_prefix))
+
             true_map_nevents = []
             true_map_nevents_probs = []
             for i in range(number_of_comparisons):
                 true_map_nevents.append([0 for i in range(number_of_comparisons)])
                 true_map_nevents_probs.append([[] for i in range(number_of_comparisons)])
-            true_nevents = tuple(int(x) for x in results["true_num_events"])
-            map_nevents = tuple(int(x) for x in results["map_num_events"])
-            true_nevents_cred_levels = tuple(float(x) for x in results["true_num_events_cred_level"])
+            true_nevents = tuple(int(results["true_num_events"][i]) for i in indices_to_plot)
+            map_nevents = tuple(int(results["map_num_events"][i]) for i in indices_to_plot)
+            true_nevents_cred_levels = tuple(float(results["true_num_events_cred_level"][i]) for i in indices_to_plot)
             # true_model_cred_levels = tuple(float(x) for x in results["true_model_cred_level"])
+            assert(len(true_nevents) == len(indices_to_plot))
             assert(len(true_nevents) == len(map_nevents))
             assert(len(true_nevents) == len(true_nevents_cred_levels))
             # assert(len(true_nevents) == len(true_model_cred_levels))
 
             true_nevents_probs = []
             map_nevents_probs = []
-            for i in range(len(true_nevents)):
+            for i in range(len(indices_to_plot)):
                 true_nevents_probs.append(float(
-                    results["num_events_{0}_p".format(true_nevents[i])][i]))
+                    results["num_events_{0}_p".format(true_nevents[i])][indices_to_plot[i]]))
                 map_nevents_probs.append(float(
-                    results["num_events_{0}_p".format(map_nevents[i])][i]))
+                    results["num_events_{0}_p".format(map_nevents[i])][indices_to_plot[i]]))
             assert(len(true_nevents) == len(true_nevents_probs))
             assert(len(true_nevents) == len(map_nevents_probs))
 
@@ -1523,24 +1549,27 @@ def generate_model_plots(
                             horizontalalignment = "center",
                             verticalalignment = "center",
                             size = number_font_size)
-            ax.text(0.98, 0.02,
-                    "\\scriptsize$p(k \\in \\textrm{{\\sffamily CS}}) = {0:.3f}$".format(
-                            p_nevents_within_95_cred),
-                    horizontalalignment = "right",
-                    verticalalignment = "bottom",
-                    transform = ax.transAxes)
-            ax.text(0.02, 0.98,
-                    "\\scriptsize$p(\\hat{{k}} = k) = {0:.3f}$".format(
-                            p_correct),
-                    horizontalalignment = "left",
-                    verticalalignment = "top",
-                    transform = ax.transAxes)
-            ax.text(0.98, 0.98,
-                    "\\scriptsize$\\widetilde{{p(k|\\mathbf{{D}})}} = {0:.3f}$".format(
-                            median_true_nevents_prob),
-                    horizontalalignment = "right",
-                    verticalalignment = "top",
-                    transform = ax.transAxes)
+            if include_cs:
+                ax.text(0.98, 0.02,
+                        "\\scriptsize$p(k \\in \\textrm{{\\sffamily CS}}) = {0:.3f}$".format(
+                                p_nevents_within_95_cred),
+                        horizontalalignment = "right",
+                        verticalalignment = "bottom",
+                        transform = ax.transAxes)
+            if include_prop_correct:
+                ax.text(0.02, 0.98,
+                        "\\scriptsize$p(\\hat{{k}} = k) = {0:.3f}$".format(
+                                p_correct),
+                        horizontalalignment = "left",
+                        verticalalignment = "top",
+                        transform = ax.transAxes)
+            if include_median:
+                ax.text(0.98, 0.98,
+                        "\\scriptsize$\\widetilde{{p(k|\\mathbf{{D}})}} = {0:.3f}$".format(
+                                median_true_nevents_prob),
+                        horizontalalignment = "right",
+                        verticalalignment = "top",
+                        transform = ax.transAxes)
             if column_labels and (row_index == 0):
                 col_header = column_labels[column_index]
                 ax.text(0.5, 1.015,
@@ -1881,7 +1910,7 @@ def main_cli(argv = sys.argv):
             "ancestor-size": {
                     "cyrt-headers": cyrt_root_size_parameters,
                     "gekko-headers": gekko_root_size_parameters,
-                    "label": "ancestor population size",
+                    "label": "ancestral population size",
                     "short_label": "size",
                     "symbol": "N_e\\mu",
                     "shared_axes": True,
@@ -1951,7 +1980,6 @@ def main_cli(argv = sys.argv):
                 include_identity_line = True,
                 include_error_bars = True)
 
-    return
 
     results_grid = [
             [cyrt_results, gekko_results],
@@ -1962,15 +1990,20 @@ def main_cli(argv = sys.argv):
             column_labels = column_labels,
             row_labels = row_labels,
             number_of_comparisons = 8,
-            plot_width = 1.9,
+            plot_width = 2.0,
             plot_height = 1.8,
-            pad_left = 0.08,
-            pad_right = 0.98,
+            pad_left = 0.14,
+            pad_right = 0.95,
             pad_bottom = 0.14,
             pad_top = 0.94,
             y_label_size = 18.0,
             y_label = None,
-            number_font_size = 12.0,
+            number_font_size = 8.0,
+            include_median = False,
+            include_cs = False,
+            include_prop_correct = False,
+            # filter_parameter_prefix = "psrf_pop_size",
+            # filter_threshold = 1.02,
             plot_file_prefix = "")
 
     # generate_specific_model_plots(
@@ -2033,6 +2066,33 @@ def main_cli(argv = sys.argv):
             )
 
     histograms_to_plot = {
+            "number-of-variable-sites": {
+                    "cyrt-headers": [
+                            "n_var_sites_c1",
+                            "n_var_sites_c2",
+                            "n_var_sites_c3",
+                            "n_var_sites_c4",
+                            "n_var_sites_c5",
+                            "n_var_sites_c6",
+                            "n_var_sites_c7",
+                            "n_var_sites_c8",
+                    ],
+                    "gekko-headers": [
+                            "n_var_sites_c1",
+                            "n_var_sites_c2",
+                            "n_var_sites_c3",
+                            "n_var_sites_c4",
+                            "n_var_sites_c5",
+                            "n_var_sites_c6",
+                            "n_var_sites_c7",
+                            "n_var_sites_c8",
+                    ],
+                    "label": "Number of variable sites",
+                    "short_label": "No. variable sites",
+                    "shared_axes": False,
+                    "ndigits": 0,
+
+            },
             "ess-ln-likelihood": {
                     "cyrt-headers": [
                             "ess_sum_ln_likelihood",
@@ -2042,12 +2102,16 @@ def main_cli(argv = sys.argv):
                     ],
                     "label": "Effective sample size of log likelihood",
                     "short_label": "ESS of lnL",
+                    "shared_axes": True,
+                    "ndigits": 0,
             },
             "ess-event-time": {
                     "cyrt-headers": cyrt_height_ess_parameters,
                     "gekko-headers": gekko_height_ess_parameters,
                     "label": "Effective sample size of event time",
                     "short_label": "ESS of time",
+                    "shared_axes": True,
+                    "ndigits": 0,
             },
             "psrf-ln-likelihood": {
                     "cyrt-headers": [
@@ -2058,12 +2122,16 @@ def main_cli(argv = sys.argv):
                     ],
                     "label": "PSRF of log likelihood",
                     "short_label": "PSRF of lnL",
+                    "shared_axes": False,
+                    "ndigits": 3,
             },
             "psrf-event-time": {
                     "cyrt-headers": cyrt_height_psrf_parameters,
                     "gekko-headers": gekko_height_psrf_parameters,
                     "label": "PSRF of event time",
                     "short_label": "PSRF of time",
+                    "shared_axes": False,
+                    "ndigits": 3,
             },
     }
 
@@ -2085,17 +2153,17 @@ def main_cli(argv = sys.argv):
                 row_labels = row_labels,
                 parameter_label = p_info["label"],
                 range_key = "range",
-                number_of_digits = 2,
-                plot_width = 1.9,
+                number_of_digits = p_info["ndigits"],
+                plot_width = 2.2,
                 plot_height = 1.9,
-                pad_left = 0.08,
-                pad_right = 0.98,
+                pad_left = 0.15,
+                pad_right = 0.95,
                 pad_bottom = 0.14,
                 pad_top = 0.94,
-                force_shared_x_range = False,
+                force_shared_x_range = p_info["shared_axes"],
                 force_shared_bins = False,
                 force_shared_y_range = True,
-                force_shared_spines = False,
+                force_shared_spines = p_info["shared_axes"],
                 )
 
 
