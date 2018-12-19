@@ -201,6 +201,7 @@ maybe_color="#21918c"
 not_color="#fde725"
 
 cyrt_colors="$maybe_color $maybe_color $connected_color $not_color $not_color $connected_color $connected_color $maybe_color"
+cyrt_drop_colors="$maybe_color $connected_color $not_color $not_color $connected_color $connected_color $maybe_color"
 gekko_colors="$not_color $connected_color $not_color $connected_color $connected_color $maybe_color $connected_color $not_color"
 
 for taxon in "cyrtodactylus" "gekko"
@@ -208,17 +209,22 @@ do
     for suffix in "-"
     do
         rate="200"
-        time_ylabel="Cyrtodactylus comparison"
+        time_ylabel=""
         size_ylabel="Cyrtodactylus population"
         comparison_colors="$cyrt_colors"
+        ignore_arg="-i Palawan1"
         if [ "$taxon" = "gekko" ]
         then
             rate="2000"
-            time_ylabel="Gekko comparison"
             size_ylabel="Gekko population"
             comparison_colors="$gekko_colors"
+            ignore_arg=""
         fi
-        pyco-sumtimes -f -z -y "$time_ylabel" -b $burnin --colors $comparison_colors "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-${taxon}${suffix}rate${rate}-pretty-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+        pyco-sumtimes -f -z -x "" -y "$time_ylabel" -b $burnin --colors $comparison_colors "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-${taxon}${suffix}rate${rate}-pretty-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+        if [ -n "$ignore_arg" ]
+        then
+            pyco-sumtimes -f -z -x "" -y "$time_ylabel" -b $burnin $ignore_arg --colors $cyrt_drop_colors "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-${taxon}${suffix}rate${rate}-pretty-dropped-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+        fi
         pyco-sumsizes -f -y "$size_ylabel" -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumsizes-${taxon}${suffix}rate${rate}-pretty-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
         pyco-sumevents -p "${plot_dir}/pyco-sumevents-${taxon}${suffix}rate${rate}-pretty-" -f "${plot_dir}/sumcoevolity-${taxon}${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
     done
