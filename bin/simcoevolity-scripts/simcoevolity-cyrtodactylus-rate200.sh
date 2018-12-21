@@ -14,11 +14,11 @@ then
     module load gcc/5.3.0
 fi
 
-simname="cyrtodactylus-rate200"
+simname="cyrtodactylus-conc5-rate200"
 cfgpath="../../data/genomes/msg/ecoevolity-configs/${simname}.yml"
 outputdir="../../data/genomes/msg/ecoevolity-simulations/${simname}/batch001"
 rngseed=16351804
-nreps=500
+nreps=100
 
 mkdir -p "$outputdir"
 

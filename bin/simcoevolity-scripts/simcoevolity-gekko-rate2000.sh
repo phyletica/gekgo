@@ -14,11 +14,11 @@ then
     module load gcc/5.3.0
 fi
 
-simname="gekko-rate2000"
+simname="gekko-conc5-rate2000"
 cfgpath="../../data/genomes/msg/ecoevolity-configs/${simname}.yml"
 outputdir="../../data/genomes/msg/ecoevolity-simulations/${simname}/batch001"
 rngseed=285034733
-nreps=500
+nreps=100
 
 mkdir -p "$outputdir"
 
