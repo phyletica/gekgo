@@ -1822,22 +1822,22 @@ def main_cli(argv = sys.argv):
 
     cyrt_results = parse_results(glob.glob(
             os.path.join(project_util.ECOEVOLITY_SIM_DIR,
-                    "cyrtodactylus-rate200",
+                    "cyrtodactylus-conc5-rate200",
                     "batch*",
                     "results.csv.gz")))
     cyrt_snp_results = parse_results(glob.glob(
             os.path.join(project_util.ECOEVOLITY_SIM_DIR,
-                    "cyrtodactylus-rate200-unlinked-snps",
+                    "cyrtodactylus-conc5-rate200-unlinked-snps",
                     "batch*",
                     "results.csv.gz")))
     gekko_results = parse_results(glob.glob(
             os.path.join(project_util.ECOEVOLITY_SIM_DIR,
-                    "gekko-rate2000",
+                    "gekko-conc5-rate2000",
                     "batch*",
                     "results.csv.gz")))
     gekko_snp_results = parse_results(glob.glob(
             os.path.join(project_util.ECOEVOLITY_SIM_DIR,
-                    "gekko-rate2000-unlinked-snps",
+                    "gekko-conc5-rate2000-unlinked-snps",
                     "batch*",
                     "results.csv.gz")))
 
