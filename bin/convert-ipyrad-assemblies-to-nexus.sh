@@ -24,6 +24,16 @@ do
     i=$(expr $i + 1)
 done
 
+for loci_path in ${MSG_IPYRAD_DIR}/C-annulatus-annulatus-Bohol-CamiguinSur_outfiles/C-annulatus-annulatus-Bohol-CamiguinSur.loci.gz ${MSG_IPYRAD_DIR}/G-gigante-gigante-NorthGigante-SouthGigante_outfiles/G-gigante-gigante-NorthGigante-SouthGigante.loci.gz
+do
+    loci_file_name="$(basename "$loci_path")"
+    prefix="${loci_file_name%.*}"
+    prefix="${prefix%.*}"
+    nex_path="${MSG_ALIGNMENTS_DIR}/${prefix}-split.nex"
+
+    loci2nex --charsets --split --seed 1529375 "$loci_path" 1>"$nex_path" 2>>"$stderrout"
+done
+
 # for loci_path in ${MSG_IPYRAD_DIR}/Cyrtodactylus_outfiles/Cyrtodactylus.loci.gz ${MSG_IPYRAD_DIR}/Gekko_outfiles/Gekko.loci.gz
 # do
 #     loci_file_name="$(basename "$loci_path")"
