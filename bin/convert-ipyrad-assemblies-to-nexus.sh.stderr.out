@@ -4,7 +4,7 @@
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -20,7 +20,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 0 /home/jamie/Dropbox/proje
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -36,7 +36,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 0 --remove-triallelic-sites
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -52,7 +52,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 1 /home/jamie/Dropbox/proje
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -68,7 +68,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 1 --remove-triallelic-sites
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -84,7 +84,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 2 /home/jamie/Dropbox/proje
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -100,7 +100,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 2 --remove-triallelic-sites
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -116,7 +116,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 3 /home/jamie/Dropbox/proje
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -132,7 +132,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 3 --remove-triallelic-sites
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -148,7 +148,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 4 /home/jamie/Dropbox/proje
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -164,7 +164,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 4 --remove-triallelic-sites
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -180,7 +180,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 5 /home/jamie/Dropbox/proje
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -196,7 +196,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 5 --remove-triallelic-sites
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -212,7 +212,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 6 /home/jamie/Dropbox/proje
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -228,7 +228,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 6 --remove-triallelic-sites
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -244,7 +244,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 7 /home/jamie/Dropbox/proje
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -260,7 +260,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 7 --remove-triallelic-sites
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -276,7 +276,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 8 /home/jamie/Dropbox/proje
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -292,7 +292,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 8 --remove-triallelic-sites
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -308,7 +308,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 9 /home/jamie/Dropbox/proje
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -324,7 +324,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 9 --remove-triallelic-sites
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -340,7 +340,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 10 /home/jamie/Dropbox/proj
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -356,7 +356,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 10 --remove-triallelic-site
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -372,7 +372,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 11 /home/jamie/Dropbox/proj
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -388,7 +388,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 11 --remove-triallelic-site
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -404,7 +404,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 12 /home/jamie/Dropbox/proj
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -420,7 +420,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 12 --remove-triallelic-site
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -436,7 +436,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 13 /home/jamie/Dropbox/proj
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -452,7 +452,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 13 --remove-triallelic-site
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -468,7 +468,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 14 /home/jamie/Dropbox/proj
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -484,7 +484,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 14 --remove-triallelic-site
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -500,7 +500,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 15 /home/jamie/Dropbox/proj
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -516,7 +516,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 15 --remove-triallelic-site
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -532,7 +532,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 16 /home/jamie/Dropbox/proj
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -548,7 +548,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 16 --remove-triallelic-site
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -564,7 +564,7 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 17 /home/jamie/Dropbox/proj
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
@@ -580,33 +580,33 @@ Command: /usr/local/bin/loci2nex --charsets --suffix 17 --remove-triallelic-site
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /usr/local/bin/loci2nex --charsets --split --seed 1529375 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-annulatus-annulatus-Bohol-CamiguinSur_outfiles/C-annulatus-annulatus-Bohol-CamiguinSur.loci.gz
-	Number of taxa:  8
-	Number of loci:  15500
-	Number of sites: 1413754
-	Number of triallelic sites found:   61
+Command: /usr/local/bin/loci2nex --charsets --split --seed 1529375 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/C-philippinicus-philippinicus-Sibuyan-Tablas_outfiles/C-philippinicus-philippinicus-Sibuyan-Tablas.loci.gz
+	Number of taxa:  6
+	Number of loci:  21426
+	Number of sites: 1954255
+	Number of triallelic sites found:   54
 	Number of triallelic sites removed: 0
-	Number of loci in set 1: 7750
-	Number of loci in set 2: 7750
+	Number of loci in set 1: 10713
+	Number of loci in set 2: 10713
 ========================================================================
                               Pycoevolity                               
                    Summarizing evolutionary coevality                   
 
         A Python package for analyzing the output of Ecoevolity         
 
-            Version 0.1.2 (dev 9cbce54: 2018-12-28 14:27:21)            
+            Version 0.1.2 (dev 153c9d6: 2018-12-28 15:32:46)            
 
              License: GNU General Public License Version 3              
 ========================================================================
-Command: /usr/local/bin/loci2nex --charsets --split --seed 1529375 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-gigante-gigante-NorthGigante-SouthGigante_outfiles/G-gigante-gigante-NorthGigante-SouthGigante.loci.gz
+Command: /usr/local/bin/loci2nex --charsets --split --seed 1529375 /home/jamie/Dropbox/projects/gekgo/data/genomes/msg/ipyrad/G-mindorensis-mindorensis-Masbate-Panay_outfiles/G-mindorensis-mindorensis-Masbate-Panay.loci.gz
 	Number of taxa:  7
-	Number of loci:  17393
-	Number of sites: 1585030
-	Number of triallelic sites found:   21
+	Number of loci:  20570
+	Number of sites: 1876351
+	Number of triallelic sites found:   49
 	Number of triallelic sites removed: 0
-	Number of loci in set 1: 8697
-	Number of loci in set 2: 8696
+	Number of loci in set 1: 10285
+	Number of loci in set 2: 10285

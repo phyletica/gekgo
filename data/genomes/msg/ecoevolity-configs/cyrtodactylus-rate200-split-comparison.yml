@@ -7,7 +7,7 @@ event_model_prior:
                 prior:
                     gamma_distribution:
                         shape: 1.1
-                        scale: 74.0
+                        scale: 56.1
 
 event_time_prior:
     exponential_distribution:
@@ -79,9 +79,7 @@ global_comparison_settings:
 
 comparisons:
 - comparison:
-    path: "../alignments/C-annulatus-annulatus-Bohol-CamiguinSur-split-1.nex"
-- comparison:
-    path: "../alignments/C-annulatus-annulatus-Bohol-CamiguinSur-split-2.nex"
+    path: "../alignments/C-annulatus-annulatus-Bohol-CamiguinSur.nex"
 - comparison:
     path: "../alignments/C-baluensis-redimiculus-Kinabalu-Palawan.nex"
 - comparison:
@@ -95,4 +93,6 @@ comparisons:
 - comparison:
     path: "../alignments/C-philippinicus-philippinicus-Negros-Panay.nex"
 - comparison:
-    path: "../alignments/C-philippinicus-philippinicus-Sibuyan-Tablas.nex"
+    path: "../alignments/C-philippinicus-philippinicus-Sibuyan-Tablas-split-1.nex"
+- comparison:
+    path: "../alignments/C-philippinicus-philippinicus-Sibuyan-Tablas-split-2.nex"

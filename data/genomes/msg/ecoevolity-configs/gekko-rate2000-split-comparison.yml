@@ -7,7 +7,7 @@ event_model_prior:
                 prior:
                     gamma_distribution:
                         shape: 1.1
-                        scale: 74.0
+                        scale: 56.1
 
 event_time_prior:
     exponential_distribution:
@@ -81,13 +81,13 @@ comparisons:
 - comparison:
     path: "../alignments/G-crombota-rossi-BabuyanClaro-Calayan.nex"
 - comparison:
-    path: "../alignments/G-gigante-gigante-NorthGigante-SouthGigante-split-1.nex"
-- comparison:
-    path: "../alignments/G-gigante-gigante-NorthGigante-SouthGigante-split-2.nex"
+    path: "../alignments/G-gigante-gigante-NorthGigante-SouthGigante.nex"
 - comparison:
     path: "../alignments/G-mindorensis-mindorensis-Lubang-Luzon.nex"
 - comparison:
-    path: "../alignments/G-mindorensis-mindorensis-Masbate-Panay.nex"
+    path: "../alignments/G-mindorensis-mindorensis-Masbate-Panay-split-1.nex"
+- comparison:
+    path: "../alignments/G-mindorensis-mindorensis-Masbate-Panay-split-2.nex"
 - comparison:
     path: "../alignments/G-mindorensis-mindorensis-Negros-Panay.nex"
 - comparison:
