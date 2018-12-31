@@ -11,7 +11,7 @@ event_model_prior:
 
 event_time_prior:
     exponential_distribution:
-        rate: 200.0
+        rate: 20.0
 
 mcmc_settings:
     chain_length: 150000

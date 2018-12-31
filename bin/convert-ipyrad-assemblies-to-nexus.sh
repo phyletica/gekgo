@@ -24,7 +24,7 @@ do
     i=$(expr $i + 1)
 done
 
-for loci_path in ${MSG_IPYRAD_DIR}/C-philippinicus-philippinicus-Sibuyan-Tablas_outfiles/C-philippinicus-philippinicus-Sibuyan-Tablas.loci.gz ${MSG_IPYRAD_DIR}/G-mindorensis-mindorensis-Masbate-Panay_outfiles/G-mindorensis-mindorensis-Masbate-Panay.loci.gz
+for loci_path in ${MSG_IPYRAD_DIR}/C-philippinicus-philippinicus-Sibuyan-Tablas_outfiles/C-philippinicus-philippinicus-Sibuyan-Tablas.loci.gz
 do
     loci_file_name="$(basename "$loci_path")"
     prefix="${loci_file_name%.*}"
