@@ -139,8 +139,10 @@ However, even if these pairs of islands did not have a complete land
 connection, they may have been close enough to permit some limited gene flow
 given their immediate proximity and the relative dispersal ability of gekkonid
 lizards.
-As a result, we leave their connection status during glacial lowstands as
-ambiguous 
+\jroedit{As a result, we}{To maximize the number of pairs and thus increase our
+    chances of detecting shared divergences if they occured, we include these
+    populations in our analyses, but}
+leave their connection status during glacial lowstands as ambiguous 
 (Figure~\ref{fig:map} \& Table~\ref{table:comparisons}).
 
 \ifembed{
@@ -218,7 +220,7 @@ This method models each pair of populations as a two-tipped ``species'' tree,
 with an unknown, constant population size along each of the three branches, and
 an unknown time of divergence.
 This method can directly estimate the likelihood of values of these unknown
-parameters from orthologous biallalic characters by analytically integrating
+parameters from orthologous \jroedit{biallalic}{biallelic} characters by analytically integrating
 over all possible gene trees and mutational histories \citep{Bryant2012,
     Oaks2018ecoevolity}.
 Within this full-likelihood framework, this method uses a Dirichlet process
@@ -310,6 +312,85 @@ continuous parameters using the \texttt{pyco-sumchains} tool of \pycoevolity.
 We also visually inspected the trace of the log likelihood and parameters over
 generations with the program Tracer version 1.6 \citep{Tracer16}.
 
+
+\jroedit{}{
+\subsection{Assessing our study design and methodology}
+}
+
+\jroedit{}{
+\subsubsection{Simulation-based assessment of our sampling design and methods}
+}
+
+\jroedit{}{
+    \citet{Oaks2018ecoevolity} tested the method implemented in \ecoevolity
+    using simulated data.
+    However, our gekkonid RADseq data differ from the simulation conditions
+    used by \citet{Oaks2018ecoevolity} in a number of ways.
+    For example, we have fewer individuals sampled from most of our populations
+    than the five simulated by \citet{Oaks2018ecoevolity},
+    and the number of loci and sites varies dramatically among our
+    pairs of populations
+    (Table~\ref{table:comparisons}).
+}
+
+\jroedit{}{
+    To assess how well \ecoevolity is able to infer shared divergences
+    based on our sampling design, we implemented new simulation
+    options in the \simcoevolity tool within the \ecoevolity software package.
+    Our modifications allow us to simulate \datasets that exactly match the
+    sampling scheme of our gekkonid data.
+    Specifically, we simulate \datasets that match our empirical dataset
+    in terms of
+    \begin{enumerate}
+        \item the number of loci for each pair of populations,
+        \item the number of sites within each locus, and
+        \item the missing data patterns within each locus.
+    \end{enumerate}
+    We assume all loci are effectively unlinked with no intralocus
+    recombination (i.e., all the sites of a locus evolved along the same gene
+    tree that is independent of the other loci, conditional on the population
+    history).
+    Our simulator allows us to sample all sites from each locus, or only a
+    maximum of one variable site per locus.
+    The former violates the assumption of the model implemented in \ecoevolity
+    that all sites are effectively unlinked, whereas the latter avoids this
+    model violation at the cost of excluding data.
+}
+
+\jroedit{}{
+    For each genus, we simulated 500 fully sampled \datasets and
+    500 \datasets with, at most, one SNP sampled per locus. 
+    For each simulation, the divergence model and all parameter values were
+    drawn from the same distributions we used as priors in our empirical
+    analyses described above.
+    Specifically, the concentration parameter of the Dirichlet process was drawn
+    from a gamma distribution of $\distgamma(1.5, 3.13)$,
+    and the time of each divergence event was distributed as
+    \dexponential{0.005} and \dexponential{0.0005} for \spp{Cyrtodactylus} and
+    \spp{Gekko}, respectively.
+    When analyzing each simulated dataset with \ecoevolity, we used these same
+    distributions as priors and ran 4 independent MCMC chains for 150,000
+    generations, sampling every 100th generation.
+    After ignoring the first 501 samples from each chain (including the initial
+    state), we collected 4000 samples for each analysis.
+}
+
+\jroedit{}{
+\subsubsection{Data partitioning to assess \ecoevolity}
+}
+
+\jroedit{}{
+    To assess how well \ecoevolity would infer a true shared divergence
+    given our RADseq data, we randomly split the loci from our population
+    pair with the largest number of sampled loci
+    (\spp{C.\ philippinicus} from Sibuyan and Tablas)
+    into two subsets.
+    We then reanalyzed the data with \ecoevolity using the methods described
+    above, but treating the two subsets of loci as separate population pairs.
+    If \ecoevolity can reliably detect a shared divergence event, it
+    should infer that the two sets of loci from the same two populations
+    did indeed co-diverge.
+}
 
 \section{Results}
 
@@ -410,6 +491,66 @@ are recoded or removed
 S\ref{fig:gekkopopsizesbyconcentration}
 \&
 S\ref{fig:gekkopopsizesbytimeprior}).
+
+
+\jroedit{}{
+\subsection{Assessing our study design and methodology}
+}
+
+
+\jroedit{}{
+\subsubsection{Simulation-based assessment of our sampling design and methods}
+}
+
+\jroedit{}{
+Simulations show our data are sufficient to accurately estimate
+the timing
+(Figure~\ref{fig:simsdivtimes})
+and number 
+(Figure~\ref{fig:simsnevents})
+of divergence events,
+and the effective sizes of the ancestral
+(Figure~S\ref{fig:simsancestralsizes})
+and descendant populations
+(Figure~S\ref{fig:simsdescendantsizes}).
+They also clearly show that estimation accuracy and precision are much better
+when all sites are analyzed rather than only unlinked SNPs.
+}
+
+\ifembed{
+\input{fig-sims-div-times.tex}
+}{}
+
+\ifembed{
+\input{fig-sims-nevents.tex}
+}{}
+
+
+\jroedit{}{
+\subsubsection{Data partitioning to assess \ecoevolity}
+When we reanalyzed our \spp{Cyrtodactylus} data with the
+loci from the pair of \spp{C.\ philippinicus}
+populations for Sibuyan and Tablas randomly split
+and treated as separate comparisons,
+the Bayes factors approximated by
+\ecoevolity strongly supported
+\citep{Jeffreys1961}
+that the two subsets of loci codiverged.
+The posterior odds of them codiverging
+was
+72.83 (posterior probability 0.963)
+and
+144.81 (posterior prorbability 0.889)
+times greater than the prior odds
+when the hyerprior on the concentration parameter
+of the Dirichlet process was
+$\distgamma(1.5, 3.13)$
+and
+$\distgamma(1.1, 56.1)$,
+respectively.
+The prior odds were approximated using one million simulations under the
+Dirichlet process.
+}
 
 \section{Discussion}
 
