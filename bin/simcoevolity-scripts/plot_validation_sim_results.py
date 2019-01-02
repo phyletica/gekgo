@@ -1820,6 +1820,8 @@ def parse_results(paths):
 
 def main_cli(argv = sys.argv):
 
+    brooks_gelman_1998_recommended_psrf = 1.2
+
     cyrt_results = parse_results(glob.glob(
             os.path.join(project_util.ECOEVOLITY_SIM_DIR,
                     "cyrtodactylus-conc5-rate200",
@@ -1929,19 +1931,19 @@ def main_cli(argv = sys.argv):
         cyrt_data = ScatterData.init(cyrt_results,
                 p_info["cyrt-headers"],
                 highlight_parameter_prefix = "psrf",
-                highlight_threshold = 1.1)
+                highlight_threshold = brooks_gelman_1998_recommended_psrf)
         cyrt_snp_data = ScatterData.init(cyrt_snp_results,
                 p_info["cyrt-headers"],
                 highlight_parameter_prefix = "psrf",
-                highlight_threshold = 1.1)
+                highlight_threshold = brooks_gelman_1998_recommended_psrf)
         gekko_data = ScatterData.init(gekko_results,
                 p_info["gekko-headers"],
                 highlight_parameter_prefix = "psrf",
-                highlight_threshold = 1.1)
+                highlight_threshold = brooks_gelman_1998_recommended_psrf)
         gekko_snp_data = ScatterData.init(gekko_snp_results,
                 p_info["gekko-headers"],
                 highlight_parameter_prefix = "psrf",
-                highlight_threshold = 1.1)
+                highlight_threshold = brooks_gelman_1998_recommended_psrf)
         
         x_label = "True {0} (${1}$)".format(
                 p_info["label"],
