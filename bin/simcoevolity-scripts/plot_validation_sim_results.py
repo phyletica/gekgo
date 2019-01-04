@@ -1982,6 +1982,63 @@ def main_cli(argv = sys.argv):
                 include_identity_line = True,
                 include_error_bars = True)
 
+    # Compare sampling disparity
+    cyrt_smallest_data = ScatterData.init(cyrt_results,
+            ["root_height_Luzon3"],
+            highlight_parameter_prefix = "psrf",
+            highlight_threshold = brooks_gelman_1998_recommended_psrf)
+    cyrt_smallest_snp = ScatterData.init(cyrt_snp_results,
+            ["root_height_Luzon3"],
+            highlight_parameter_prefix = "psrf",
+            highlight_threshold = brooks_gelman_1998_recommended_psrf)
+    cyrt_largest_data = ScatterData.init(cyrt_results,
+            ["root_height_Polillo5"],
+            highlight_parameter_prefix = "psrf",
+            highlight_threshold = brooks_gelman_1998_recommended_psrf)
+    cyrt_largest_snp = ScatterData.init(cyrt_snp_results,
+            ["root_height_Polillo5"],
+            highlight_parameter_prefix = "psrf",
+            highlight_threshold = brooks_gelman_1998_recommended_psrf)
+    
+    x_label = "True event time ($t$)"
+    y_label = "Estimated time ($\\hat{{t}}$)"
+
+    data_grid = [
+            [cyrt_smallest_data, cyrt_largest_data],
+            [cyrt_smallest_snp, cyrt_largest_snp],
+            ]
+    disparity_column_labels = [
+            """Luzon (2) | Babuyan Claro (2)
+3855 loci""",
+            """Polillo (5) | Luzon (5)
+19,561 loci""",
+            ]
+
+    generate_scatter_plots(
+            data_grid = data_grid,
+            plot_file_prefix = "cyrt-event-time-sampling-disparity",
+            parameter_symbol = "t",
+            column_labels = disparity_column_labels,
+            row_labels = row_labels,
+            plot_width = 2.4,
+            plot_height = 2.0,
+            pad_left = 0.165,
+            pad_right = 0.95,
+            pad_bottom = 0.14,
+            pad_top = 0.92,
+            x_label = x_label,
+            x_label_size = 18.0,
+            y_label = y_label,
+            y_label_size = 18.0,
+            force_shared_x_range = True,
+            force_shared_y_range = True,
+            force_shared_xy_ranges = True,
+            force_shared_spines = True,
+            include_coverage = True,
+            include_rmse = True,
+            include_identity_line = True,
+            include_error_bars = True)
+
 
     results_grid = [
             [cyrt_results, gekko_results],
