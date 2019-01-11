@@ -168,3 +168,34 @@
     \weusedmatplotlib
     }
 }{fig:simsdescendantsizes}
+
+\siFigure{../../../data/genomes/msg/ecoevolity-simulations/plots/cyrt-event-time-sampling-disparity-scatter.pdf}{
+    \jroeditnote{New figure.}
+    \jroedit{}{
+    The accuracy and precision of \ecoevolity divergence-time estimates (in
+    units of expected subsitutions per site) from data simulated to match our
+    pairs of \spp{Cyrtodactylus philippinicus} populations from the Islands of
+    (left) Luzon and Babuyan Claro and (right) Polillo and Luzon. 
+    The number of individuals sampled from each island population is indicated
+    in parantheses at the top of each column of plots.
+    Results are shown when all sites (top) or only one SNP per locus (bottom)
+    is sampled and analyzed.
+    These are a subset of the data plotted in Figure~\ref{fig:simsdivtimes};
+    they are plotted separately here to compare two pairs of populations with
+    large differences in the number of sampled individuals and loci.
+    Each circle and associated error bars represent the posterior mean and 95\%
+    credible interval for the time that a pair of populations diverged.
+    Estimates for which the potential-scale reduction factor
+    % Details of the PSRF calculation are in the main text, so we
+    % don't need this
+    % \citep[PSRF; the square root of Equation 1.1 in][]{Brooks1998}
+    was greater than 1.2
+    \citep{Brooks1998} are highlighted in orange.
+    Each plot consists of 500 estimates---one from each of the 500 simulated
+    \datasets.
+    For each plot, the root-mean-square error (RMSE) and the proportion of
+    estimates for which the 95\% credible interval contained the true
+    value---$p(\comparisondivtime{} \in \textrm{CI})$---is given.
+    \weusedmatplotlib
+    }
+}{fig:sampledisparitydivtimes}
