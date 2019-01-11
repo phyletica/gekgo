@@ -1,0 +1,19 @@
+Species & Island 1 & Island 2 & $\pi_1$ & $\pi_2$ & $\pi_{between}$ \\
+\hline
+\textit{C.\ annulatus} & Bohol & Camiguin Sur & 0.00118 (4) & 0.00136 (4) & 0.00303 \\
+\textit{C.\ baluensis-redimiculus} & Palawan & Kinabalu & 0.00135 (4) & 0.00432 (3) & 0.02475 \\
+\textit{C.\ gubaot-sumuroi} & Samar & Leyte & 0.00573 (5) & 0.00223 (5) & 0.00653 \\
+\textit{C.\ philippinicus} & Luzon & Babuyan Claro & 0.00131 (2) & 0.00028 (2) & 0.00226 \\
+\textit{C.\ philippinicus} & Luzon & Camiguin Norte & 0.00102 (3) & 0.00068 (4) & 0.00349 \\
+\textit{C.\ philippinicus} & Polillo & Luzon & 0.00226 (5) & 0.00211 (5) & 0.00429 \\
+\textit{C.\ philippinicus} & Panay & Negros & 0.00177 (3) & 0.00095 (2) & 0.00335 \\
+\textit{C.\ philippinicus} & Sibuyan & Tablas & 0.00136 (3) & 0.00209 (3) & 0.00319 \\
+\textit{G.\ crombota-rossi} & Babuyan Claro & Calayan & 0.00101 (5) & 0.00111 (5) & 0.00340 \\
+\textit{G.\ gigante} & South Gigante & North Gigante & 0.00167 (3) & 0.00127 (4) & 0.00149 \\
+\textit{G.\ mindorensis} & Lubang & Luzon & 0.00183 (5) & 0.00119 (4) & 0.00851 \\
+\textit{G.\ mindorensis} & Panay & Masbate & 0.00137 (4) & 0.00130 (3) & 0.00407 \\
+\textit{G.\ mindorensis} & Negros & Panay & 0.00103 (3) & 0.00177 (5) & 0.00259 \\
+\textit{G.\ porosus} & Sabtang & Batan & 0.00092 (4) & 0.00115 (4) & 0.00172 \\
+\textit{G.\ romblon} & Romblon & Tablas & 0.00178 (5) & 0.00218 (2) & 0.00349 \\
+\textit{G.\ sp.\ a-sp.\ b} & Camiguin Norte & Dalupiri & 0.00096 (5) & 0.00111 (5) & 0.00262 \\
+\hline

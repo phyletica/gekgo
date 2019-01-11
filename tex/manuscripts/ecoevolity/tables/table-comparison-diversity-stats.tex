@@ -1,0 +1,23 @@
+% \begin{landscape}
+\begin{table}[htbp]
+\sffamily
+\small
+\captionsetup{name=Table S, labelformat=noSpace}
+\caption{
+    Per-site nucleotide diversity within ($\pi_1$ and $\pi_2$) and between
+    ($\pi_{between}$) pairs of \spp{Cyrtodactylus} and \spp{Gekko} populations,
+    calculated from the RADseq data using the SeqSift Python package
+    (\url{https://github.com/joaks1/SeqSift}),
+    which relies on Biopython
+    (\url{https://biopython.org/}).
+    The within-population nucleotide diversity ($\pi_1$ and $\pi_2$) is
+    followed by the number of individuals sampled from the population in
+    parentheses.
+}
+\centering
+\begin{tabular}{ l l l l l l }
+\input{tables/comparison-diversity-stats.txt}
+\end{tabular}
+\label{table:comparisondiversity}
+\end{table}
+% \end{landscape}
