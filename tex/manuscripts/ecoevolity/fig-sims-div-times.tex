@@ -1,11 +1,11 @@
 \embedWidthFigure{1.0}{../../../data/genomes/msg/ecoevolity-simulations/plots/event-time-scatter.pdf}{
     \jroeditnote{New figure.}
-    \jroedit{}{
+    \jroedit{}{%
     The accuracy and precision of \ecoevolity divergence-time estimates (in
     units of expected subsitutions per site) when applied to data simulated to
     match our \spp{Cyrtodactylus} (left) and \spp{Gekko} (right) RADseq
     \datasets with all sites (top) or only one SNP per locus (bottom).
-    Each circle and associated error bars represent the posterior mean
+    Each circle and associated error bars represents the posterior mean
     and 95\% credible interval for the time that a pair of populations
     diverged.
     Estimates for which the potential-scale reduction factor
@@ -14,11 +14,10 @@
     % \citep[PSRF; the square root of Equation 1.1 in][]{Brooks1998}
     was greater than 1.2
     \citep{Brooks1998} are highlighted in orange.
-    Each plot consists of 4000 estimates---500 simulated \datasets, each with
+    Each plot consists of 4,000 estimates---500 simulated \datasets, each with
     eight pairs of populations.
     For each plot, the root-mean-square error (RMSE) and the proportion of
     estimates for which the 95\% credible interval contained the true
     value---$p(\comparisondivtime{} \in \textrm{CI})$---is given.
-    \weusedmatplotlib
-    }
+    \weusedmatplotlib}
 }{fig:simsdivtimes}
