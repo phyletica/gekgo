@@ -8,16 +8,16 @@
 \input{../../utils/macros.tex}
 \input{../../utils/notation.tex}
 
-\newcommand{\ifembed}[2]{#1}
-% \newcommand{\ifembed}[2]{#2}
+% \newcommand{\ifembed}[2]{#1}
+\newcommand{\ifembed}[2]{#2}
 \newcommand{\ifdoublespacing}[2]{#1}
 % \newcommand{\ifdoublespacing}[2]{#2}
 \newcommand{\iflinenumbers}[2]{#1}
 % \newcommand{\iflinenumbers}[2]{#2}
 % \newcommand{\ifragged}[2]{#1}
 \newcommand{\ifragged}[2]{#2}
-% \newcommand{\ifblind}[2]{#1}
-\newcommand{\ifblind}[2]{#2}
+\newcommand{\ifblind}[2]{#1}
+% \newcommand{\ifblind}[2]{#2}
 
 \usepackage[round]{natbib}
 
@@ -29,10 +29,12 @@
 % \newcommand{\jroedithighlight}[1]{#1}
 \newcommand{\jrocomment}[1]{({\color{pgreen}{JRO's comment:}} \textbf{\color{pgreen}{#1}})}
 
-\title{The comparative biogeography of \jroedit{}{Philippine} geckos
+\newcommand{\mstitle}{The comparative biogeography of \jroedit{}{Philippine} geckos
     challenges predictions from
     a paradigm of climate-driven vicariant diversification across an
     island archipelago}
+
+\title{\mstitle}
 
 \ifblind{\author{}}{
 \author[1]{Jamie R.\ Oaks \thanks{Corresponding author: \href{mailto:joaks@auburn.edu}{\tt joaks@auburn.edu}}}
@@ -71,11 +73,33 @@
 
 \textbf{Running head}: Comparative biogeography of Philippine geckos
 
+\vspace{-1.3cm}
 {\let\newpage\relax\maketitle}
+
+\vspace{-1.5cm}
+\section*{Author contributions}
+\vspace{-4mm}
+\input{author-contributions.tex}
+
+\vspace{-7mm}
+\section*{Acknowledgments}
+\vspace{-4mm}
+\input{acknowledgments.tex}
+
+\vspace{-7mm}
+\section*{Data Accessibility}
+\vspace{-4mm}
+\input{data-accessibility.tex}
+
+\newpage
 
 \ifdoublespacing{
 \doublespacing
 }{}
+
+\begin{center}
+    {\Large \mstitle}
+\end{center}
 
 \begin{abstract}
     \input{abstract.tex}
@@ -93,6 +117,9 @@
 
 \section{Acknowledgments}
 \input{acknowledgments.tex}
+
+\section{Author contributions}
+\input{author-contributions.tex}
 
 \bibliographystyle{../../bib/evolution}
 \bibliography{../../bib/references}
