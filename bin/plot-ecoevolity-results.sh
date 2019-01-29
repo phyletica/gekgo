@@ -221,9 +221,11 @@ do
             ignore_arg=""
         fi
         pyco-sumtimes -f -z -x "" -y "$time_ylabel" -b $burnin --colors $comparison_colors "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-${taxon}${suffix}rate${rate}-pretty-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+        pyco-sumtimes -f -z -x "Divergence time (subsitutions/site)" -y "Island pair" -b $burnin --colors $comparison_colors "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-${taxon}${suffix}rate${rate}-slides-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
         if [ -n "$ignore_arg" ]
         then
             pyco-sumtimes -f -z -x "" -y "$time_ylabel" -b $burnin $ignore_arg --colors $cyrt_drop_colors "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-${taxon}${suffix}rate${rate}-pretty-dropped-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
+            pyco-sumtimes -f -z -x "Divergence time (substitutions/site)" -y "Island pair" -b $burnin $ignore_arg --colors $cyrt_drop_colors "${label_array[@]}" -p "${plot_dir}/pyco-sumtimes-${taxon}${suffix}rate${rate}-slides-dropped-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
         fi
         pyco-sumsizes -f -y "$size_ylabel" -b $burnin "${label_array[@]}" -p "${plot_dir}/pyco-sumsizes-${taxon}${suffix}rate${rate}-pretty-" run-?-${taxon}${suffix}rate${rate}-state-run-1.log
         pyco-sumevents -p "${plot_dir}/pyco-sumevents-${taxon}${suffix}rate${rate}-pretty-" -f "${plot_dir}/sumcoevolity-${taxon}${suffix}rate${rate}-sumcoevolity-results-nevents.txt"
