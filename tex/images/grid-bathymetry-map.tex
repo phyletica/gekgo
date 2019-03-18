@@ -1,0 +1,39 @@
+\documentclass[border=20pt,varwidth=30cm]{standalone}
+\usepackage{graphicx,capt-of}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage[cm]{sfmath}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\newcounter{subfloat}
+\renewcommand{\thesubfloat}{\Alph{subfloat}}
+\newcommand{\image}[2]{%
+    \stepcounter{subfloat}%
+    \begin{tabular}[t]{@{}c@{}}
+    \thesubfloat. #1 \\
+    #2
+    \end{tabular}%
+}
+\newcommand{\insertlabel}{%
+    \small
+    \stepcounter{subfloat}%
+    \thesubfloat}
+\newcommand{\trm}[1]{\ensuremath{\textrm{\sffamily #1}}}
+
+\begin{document}
+
+\begin{figure}
+    \centering
+    \begin{tabular}{@{}ccc@{}}
+        \multirow{2}{*}[16em]{\begin{rotate}{90}\Huge Latitude\end{rotate}} &
+        \includegraphics[width=0.49\textwidth]{./bathymetry-maps/depth-005m.pdf} &
+        \includegraphics[width=0.49\textwidth]{./bathymetry-maps/depth-010m.pdf} \\
+        &
+        \includegraphics[width=0.49\textwidth]{./bathymetry-maps/depth-015m.pdf} &
+        \includegraphics[width=0.49\textwidth]{./bathymetry-maps/depth-020m.pdf} \\
+        & \multicolumn{2}{c}{\Huge Longitude}
+    \end{tabular}
+\end{figure}
+
+\end{document}
