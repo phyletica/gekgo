@@ -6,6 +6,7 @@ library(ggplot2)
 library(marmap)
 library(viridis)
 
+bathy_line_width = 0.5
 point_size = 2.7
 legend_point_size = 4.0
 legend_point_shape = 15
@@ -92,7 +93,7 @@ for (depth in seq(0, min(sea_levels), -5)) {
         #         na.value = "white") +
         geom_contour(data = bathy_data, aes(x = x, y = y, z = z),
                      breaks = c(depth),
-                     size = c(0.3),
+                     size = c(bathy_line_width),
                      colour = "black") +
         geom_polygon(data = d, aes(x = long, y = lat, group = group),
                      fill = "gray",
@@ -151,7 +152,7 @@ for (depth in seq(0, min(sea_levels), -5)) {
             "../images/bathymetry-maps/",
             "depth-",
             formatC(abs(depth), format = "d", width = 3, flag = 0),
-            "m.pdf",
+            "m.png",
             sep = "")
     
     ggsave(plot_path, width = 5.0, height = 7.0, units = "in")
