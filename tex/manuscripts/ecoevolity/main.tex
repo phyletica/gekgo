@@ -8,6 +8,8 @@
 \input{../../utils/macros.tex}
 \input{../../utils/notation.tex}
 
+\usepackage{media9}
+
 % \newcommand{\ifembed}[2]{#1}
 \newcommand{\ifembed}[2]{#2}
 \newcommand{\ifdoublespacing}[2]{#1}
@@ -16,17 +18,21 @@
 % \newcommand{\iflinenumbers}[2]{#2}
 % \newcommand{\ifragged}[2]{#1}
 \newcommand{\ifragged}[2]{#2}
-\newcommand{\ifblind}[2]{#1}
-% \newcommand{\ifblind}[2]{#2}
+% \newcommand{\ifblind}[2]{#1}
+\newcommand{\ifblind}[2]{#2}
 
 \usepackage[round]{natbib}
 
-\newcommand{\jroedit}[2]{\sout{#1}{\color{pauburn}{#2}}}
-% \newcommand{\jroedit}[2]{#2}
-\newcommand{\jroeditnote}[1]{[{\color{pauburn}{EDIT NOTE:}} \textbf{\color{pauburn}{#1}}]}
-% \newcommand{\jroeditnote}[1]{}
-\newcommand{\jroedithighlight}[1]{\color{pauburn}{#1}}
-% \newcommand{\jroedithighlight}[1]{#1}
+% \newcommand{\jroedit}[2]{\sout{#1}{\color{pauburn}{#2}}}
+\newcommand{\jroedit}[2]{#2}
+\newcommand{\jroeditb}[2]{\sout{#1}{\color{pauburn}{#2}}}
+% \newcommand{\jroeditb}[2]{#2}
+% \newcommand{\jroeditnote}[1]{[{\color{pauburn}{EDIT NOTE:}} \textbf{\color{pauburn}{#1}}]}
+\newcommand{\jroeditnote}[1]{}
+\newcommand{\jroeditnoteb}[1]{[{\color{pauburn}{EDIT NOTE:}} \textbf{\color{pauburn}{#1}}]}
+% \newcommand{\jroeditnoteb}[1]{}
+% \newcommand{\jroedithighlight}[1]{\color{pauburn}{#1}}
+\newcommand{\jroedithighlight}[1]{#1}
 \newcommand{\jrocomment}[1]{({\color{pgreen}{JRO's comment:}} \textbf{\color{pgreen}{#1}})}
 
 \newcommand{\mstitle}{The comparative biogeography of \jroedit{}{Philippine} geckos
@@ -112,13 +118,13 @@
 
 \input{body.tex}
 
-\section{Data Accessibility}
+\mysection{Data Accessibility}
 \input{data-accessibility.tex}
 
-\section{Acknowledgments}
+\mysection{Acknowledgments}
 \input{acknowledgments.tex}
 
-\section{Author contributions}
+\mysection{Author contributions}
 \input{author-contributions.tex}
 
 \bibliographystyle{../../bib/evolution}

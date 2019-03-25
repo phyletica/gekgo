@@ -1,4 +1,4 @@
-\section{Introduction}
+\mysection{Introduction}
 
 Understanding how environmental changes affect diversification is an important
 goal in evolutionary biology, biogeography, and global change biology.
@@ -32,7 +32,7 @@ During lower sea levels of glacial periods, islands coalesced into seven major
 landmasses (PAICs) that were fragmented into individual islands during
 interglacial periods.
 These climate-driven cycles have occurred at least six times during the last
-500,000 years \citep{Rohling1998,Siddall2003}, with additional cycles
+500,000 years \citep{Rohling1998,Siddall2003,Spratt2016}, with additional cycles
 occurring in the late Pliocene and early Pleistocene
 \citep{Haq1987,Miller2005}.
 
@@ -124,14 +124,14 @@ Philippines.
 % data, we are finally able to robustly evaluate this hypothesis.
 
 
-\section{Methods}
+\mysection{Methods}
 
-\subsection{Sampling}
+\mysubsection{Sampling}
 For two genera of geckos, \spp{Cyrtodactylus} and \spp{Gekko}, we sampled
 individuals from pairs of populations that occur on two different islands.
 Because the climate-mediated fragmentation of the islands was a relatively
 recent phenomenon, we selected \jroedit{}{samples from} pairs of
-\jroedit{populations}{localities} that were inferred to be closely related
+\jroedit{populations}{localities} that were inferred to be closely related\jroeditb{}{, but not necessarily sister,}
 from previous\jroedit{}{, independent} genetic data
 \citep{Siler2012, Siler2014kikuchii, Welton2010, Welton2010zootaxa, Siler2010}.
 In other words, we avoided pairs that we knew \emph{a priori} diverged well
@@ -143,11 +143,12 @@ structure, we only used localities where previous genetic data were
 consistent with the samples being from a single population.
 We also selected pairs of populations that are independent based on previous
 phylogenetic estimates
-\citep[i.e., they do not overlap each other on previously estimated phylogenies;][]{Siler2012, Siler2014kikuchii, Welton2010, Welton2010zootaxa, Siler2010}.}
+\citep[i.e., they do not \jroeditb{overlap each other on}{share any branches in} previously estimated phylogenies;][]{Siler2012, Siler2014kikuchii, Welton2010, Welton2010zootaxa, Siler2010}.}
 
 
 We also sought to sample pairs that spanned islands connected during glacial
-periods, as well as islands that were never connected.
+periods, as well as islands that were never connected
+\jroeditb{}{\citep[Figure S\ref{fig:bathycontours} \& S\ref{fig:bathyanimation};][]{Amante2009,Rafe2013AREES,Spratt2016}}.
 We included the latter as ``controls.''
 Because these islands were never connected, the distribution of \jroedit{the}{closely-related} populations
 inhabiting them can only be explained by inter-island dispersal.
@@ -188,7 +189,7 @@ leave their connection status during glacial lowstands as ambiguous
 (Figure~\ref{fig:map}; Table~\ref{table:comparisons}).
 
 \jroedit{}{%
-Some of our pairs are currently recognized as different species, whereas other
+Some of our pairs are currently recognized as different species, whereas \jroeditb{other}{others}
 are not 
 (Table~\ref{table:comparisons}).
 Recent taxonomic work on both of these genera of lizards suggests they comprise
@@ -198,13 +199,13 @@ with more revisions necessary
 % \jrocomment{More citations here. I'm sure there are more from the Philippines,
 %     but should we also include recently described gekkonid species from
 %     elsewhere (i.e., Grismer)?}
-Over-water dispersal events are necessary to explain the existance of these
+Over-water dispersal events are necessary to explain the \jroeditb{existance}{existence} of these
 populations on oceanic islands.
 However, these events are likely too random and rare to contribute meaningful
 levels of gene flow between islands.
 Therefore, given the insularity of these populations, we assume that none of
 them are experiencing migration during interglacial periods, like today.
-Thus, all of the populations we sampled can be considered independent
+Thus, all of the populations we sampled \jroeditb{can be considered}{are likely} independent
 evolutionary lineages, regardless of whether they are currently recognized by
 taxonomists as distinct species.}
 
@@ -216,7 +217,7 @@ taxonomists as distinct species.}
 \input{tables/table-comparison-summary.tex}
 }{}
 
-\subsection{Genomic library preparation and sequencing}
+\mysubsection{Genomic library preparation and sequencing}
 
 We extracted DNA from tissue using the guanidine thiocyanate method described
 by \citet{Esselstyn2008}.
@@ -249,7 +250,7 @@ and the assembled data matrices are available in our project repository
 (\ifblind{REDACTED}{\url{https://github.com/phyletica/gekgo}}).
 
 
-\subsection{Data assembly}
+\mysubsection{Data assembly}
 We used ipyrad version 0.7.13 \citep{ipyrad0713} to demultiplex and assemble
 the raw RADseq reads into loci.
 To maximize the number of assembled loci, we de novo assembled the reads
@@ -260,7 +261,7 @@ available in our project repository
 and the ipyrad settings are listed in
 Table~S\ref{table:ipyradsettings}.
 
-\subsection{Testing for shared divergences}
+\mysubsection{Testing for shared divergences}
 We approach the inference of temporally clustered divergences as a problem of
 model choice.
 Our goal is to treat the number of divergence events shared (or not) among the
@@ -312,19 +313,26 @@ pairs \emph{within} each genus}{all pairs \emph{within} each genus share the sam
     and thus time is in expected substitutions per site.}
 
 Based on previous data \citep{Welton2010, Welton2010zootaxa, Siler2010} we
-assumed a prior of \dexponential{0.005} on divergence times for our eight pairs
-of \spp{Cyrtodactylus} populations, in units of substitutions per site.
+assumed a prior \jroeditb{}{on divergence times} of
+$\divtime \sim \dexponential{0.005}$
+\jroeditb{on divergence times}{} for
+our eight pairs of \spp{Cyrtodactylus} populations, in units of substitutions
+per site.
 To explore the sensitivity of our results to this assumption, we also
-tried a prior of \dexponential{0.05} on the divergence times.
-Based on previous data \citep{Siler2012, Siler2014kikuchii}, we assumed a prior
-of \dexponential{0.0005} on divergence times for our eight pairs of \spp{Gekko}
+tried a prior \jroeditb{}{on divergence times} of
+$\divtime \sim \dexponential{0.05}$
+\jroeditb{on the divergence times}{}.
+Based on previous data \citep{Siler2012, Siler2014kikuchii}, we assumed a
+\jroeditb{}{divergence-time} prior of
+$\divtime \sim \dexponential{0.0005}$ \jroeditb{on divergence times}{}
+for our eight pairs of \spp{Gekko}
 populations, in units of substitutions per site.
 To explore the sensitivity of our results to this assumption, we also tried
 priors of \dexponential{0.005} and \dexponential{0.05} on the \spp{Gekko}
 divergence times.
 
 For the concentration parameter of the Dirichlet process, we assumed
-a hyperprior of $\distgamma(1.1, 56.1)$ for both genera.
+a hyperprior of $\concentration \sim \distgamma(1.1, 56.1)$ for both genera.
 This places approximately half of the prior probability on the model
 with no shared divergences ($\nevents = 8$).
 By placing most of the prior probability on the model of independent
@@ -335,9 +343,9 @@ divergence-time parameters
 \citep{Jeffreys1939,Lindley1957,Oaks2012,Oaks2014reply}.
 To explore the sensitivity of our results to this assumption, we also
 tried a hyperprior of
-$\distgamma(1.5, 3.13)$
+$\concentration \sim \distgamma(1.5, 3.13)$
 and
-$\distgamma(0.5, 1.31)$.
+$\concentration \sim \distgamma(0.5, 1.31)$.
 The former corresponds \jroedit{with}{to} a prior mean number of divergence events of five,
 whereas the latter places 50\% of the prior probability on the single
 divergence ($\nevents = 1$) model.
@@ -401,7 +409,7 @@ Markov chain Monte Carlo \citep[MCMC;][]{Metropolis1953,Hastings1970}}
 chains for 150,000 generations,
 sampling every 100th generation.
 We assessed convergence and mixing of the chains by inspecting the potential
-scale reduction factor \citet[the square root of Equation 1.1 in][]{Brooks1998}
+scale reduction factor \citep[\jroeditb{}{PSRF;} the square root of Equation 1.1 in][]{Brooks1998}
 and effective sample size \citep{Gong2014} of the log likelihood and all
 continuous parameters using the \texttt{pyco-sumchains} tool of \pycoevolity.
 We also visually inspected the trace of the log likelihood and parameters over
@@ -409,10 +417,10 @@ generations with the program Tracer version 1.6 \citep{Tracer16}.
 
 
 \jroedit{}{%
-\subsection{Vetting our sampling and methodology}}
+\mysubsection{Vetting our sampling and methodology}}
 
 \jroedit{}{%
-\subsubsection{Simulation-based assessment of \ecoevolity conditional on our sampling}}
+\mysubsubsection{Simulation-based assessment of \ecoevolity conditional on our sampling}}
 
 \jroedit{}{%
 \citet{Oaks2018ecoevolity} tested the method implemented in \ecoevolity
@@ -436,7 +444,7 @@ in terms of
 \begin{enumerate}
     \item the number of loci for each pair of populations,
     \item the number of sites within each locus, and
-    \item the number gene copies sampled for each site (i.e., the same
+    \item the number \jroeditb{}{of} gene copies sampled for each site (i.e., the same
         patterns of missing data).
 \end{enumerate}
 We assume all loci are effectively unlinked with no intralocus
@@ -467,13 +475,13 @@ After ignoring the first 501 ``burn-in'' samples from each chain (including
 the initial state), we collected 4,000 MCMC samples for each analysis.}
 
 \jroedit{}{%
-\subsubsection{Data partitioning to evaluate performance of \ecoevolity}}
+\mysubsubsection{Data partitioning to evaluate performance of \ecoevolity}}
 
 \jroedit{}{%
 With our simulations, we can assess how well \ecoevolity infers shared
 divergences we know to be true.
 However, the simulated \datasets are undoubtedly simpler than our
-empirical data, without any model violations introducing variation.
+empirical data, without any model violations \jroeditb{}{(barring the linked sites within loci)} introducing variation.
 Thus, we took another approach using our gekkonid RADseq data directly.
 We split the 21,426 loci randomly from our population
 pair with the largest number of sampled loci
@@ -485,9 +493,9 @@ If \ecoevolity can reliably detect a shared divergence event, it should
 infer that the two sets of loci from the same pair of populations did
 indeed co-diverge.}
 
-\section{Results}
+\mysection{Results}
 
-\subsection{Data collection and MCMC convergence}
+\mysubsection{Data collection and MCMC convergence}
 Table~\ref{table:comparisons} \jroedit{summarize}{summarizes} the number of individuals sampled for
 each pair of islands, along with the number of assembled loci, and the number
 of total, variable, and polyallelic characters.
@@ -502,9 +510,9 @@ chain (14,000 samples for each analysis).
 With the first 101 samples removed, across all our analyses, all ESS values
 were greater than 2,000, and all PSRF values were less than 1.005.
 
-\subsection{Testing for shared divergences}
+\mysubsection{Testing for shared divergences}
 
-\subsubsection{\spp{Cyrtodactylus} population pairs}
+\mysubsubsection{\spp{Cyrtodactylus} population pairs}
 For \spp{Cyrtodactylus}, our \ecoevolity results support the model of no shared
 divergences, i.e., all eight pairs of populations diverged independently
 (Figures \ref{fig:cyrtnevents} \& \ref{fig:cyrtdivtimes}).
@@ -536,7 +544,7 @@ S\ref{fig:cyrtpopsizesbytimeprior}).
 \input{fig-cyrt-div-times.tex}
 }{}
 
-\subsubsection{\spp{Gekko} population pairs}
+\mysubsubsection{\spp{Gekko} population pairs}
 For \spp{Gekko}, posterior probabilities weakly support no shared divergences,
 but Bayes factors weakly support seven divergence events across the eight pairs
 (Figure~\ref{fig:gekkonevents}),
@@ -555,9 +563,10 @@ Under the prior that puts most of the probability on one shared event,
 posterior probabilities prefer six divergences
 (Figure~S\ref{fig:gekkoneventsbyconcentration})
 with another shared divergence between
-\spp{G.\ mindorensis} on the islands of Babuyan Claro and Calayan
+\jroeditb{\spp{G.\ mindorensis}}{\spp{G.\ crombota} and \spp{G.\ rossi}}
+on the islands of Babuyan Claro and Calayan
 and
-\spp{G.\ porosus} on the islands of Romblon and Tablas
+\spp{G.\ \jroeditb{porosus}{romblon}} on the islands of Romblon and Tablas
 (Figure~S\ref{fig:gekkodivtimesbyconcentration});
 however, Bayes factors still prefer seven divergences.
 Similarly, as the prior on divergence times becomes more diffuse,
@@ -590,7 +599,7 @@ S\ref{fig:gekkopopsizesbyconcentration}
 S\ref{fig:gekkopopsizesbytimeprior}).
 
 \jroedit{}{%
-\subsection{Simulation results}}
+\mysubsection{Simulation results}}
 
 \jroedit{}{%
 The results from analyses of the simulated \datasets show our gekkonid RADseq
@@ -617,7 +626,7 @@ sites are analyzed rather than only unlinked SNPs.}
 
 
 \jroedit{}{%
-\subsection{Data partitioning to vet \ecoevolity}}
+\mysubsection{Data partitioning to vet \ecoevolity}}
 
 \jroedit{}{%
 When we reanalyzed our \spp{Cyrtodactylus} data with the loci from the pair of
@@ -633,7 +642,7 @@ was
 and
 144.81 (posterior prorbability 0.889)
 times greater than the prior odds
-when the hyerprior on the concentration parameter
+when the \jroeditb{hyerprior}{hyperprior} on the concentration parameter
 of the Dirichlet process was
 $\distgamma(1.5, 3.13)$
 and
@@ -643,9 +652,9 @@ We performed these calcuations with the \sumcoevolity tool of the \ecoevolity
 software package, using one million simulations under the Dirichlet process to
 approximate the prior odds.}
 
-\section{Discussion}
+\mysection{Discussion}
 
-\subsection{Is there evidence for shared divergences among \spp{Gekko} pairs?}
+\mysubsection{Is there evidence for shared divergences among \spp{Gekko} pairs?}
 
 Under some of the priors we explored, there is support for two possible shared
 divergences among the pairs of \spp{Gekko} populations:
@@ -654,9 +663,10 @@ divergences among the pairs of \spp{Gekko} populations:
 and
 \spp{G.\ porosus} on the islands of Sabtang and Batan,
 and (2)
-\spp{G.\ mindorensis} on the islands of Babuyan Claro and Calayan
+\jroeditb{\spp{G.\ mindorensis}}{\spp{G.\ crombota} and \spp{G.\ rossi}}
+on the islands of Babuyan Claro and Calayan
 and
-\spp{G.\ porosus} on the islands of Romblon and Tablas.
+\spp{G.\ \jroeditb{porosus}{romblon}} on the islands of Romblon and Tablas.
 The islands of Babuyan Claro and Calayan were never connected,
 and we only inferred support for the second shared divergence
 under the most extreme priors on \concentration and
@@ -706,10 +716,10 @@ the co-divergence.
 \jroedit{Thus, b}{B}ased on probability theory, we should favor the explanation that all
 eight pairs of \spp{Gekko} populations diverged independently.
 
-\subsection{\jroedithighlight{Caveats and} implications for the PAIC diversification model}
+\mysubsection{\jroedithighlight{Caveats and} implications for the PAIC diversification model}
 
 \jroedit{}{%
-\subsubsection{Limited numbers of comparisons}}
+\mysubsubsection{Limited numbers of comparisons}}
 
 For each genus we \jroedit{}{sampled} \jroedit{5--6}{5 or 6} pairs of populations that span two
 islands that were connected (or nearly so) by terrestrial dry land bridges
@@ -718,7 +728,7 @@ during Pleistocene glacial periods
 \jroedit{}{\citep{RafeDiesmos2009,Rafe2013AREES}}.
 The connectivity between each pair of islands was likely fragmented by rising
 sea levels six or more times over the past three million years
-\citep{Rohling1998,Siddall2003}.
+\jroeditb{}{\citep[Figures S\ref{fig:bathycontours} \& S\ref{fig:bathyanimation};][]{Rohling1998,Siddall2003,Spratt2016,Amante2009}}.
 Given that, for each genus, we have fewer pairs than the number of times the
 islands were fragmented,
 the support we found for independent divergence times among the pairs we
@@ -733,22 +743,32 @@ climate-mediated vicariance is not the primary mode of population divergence in
 these insular gekkonids.}
 
 \jroedit{}{%
-\subsubsection{Variation in fragmentation times among island pairs}}
+\mysubsubsection{Variation in fragmentation times among island pairs}}
 
 Another possibility is that some of our pairs of populations diverged during
 the same interglacial period, but the time when gene flow was cut off by rising
 sea levels was different enough to be estimated as separate divergences in
 \ecoevolity.
-Based on \jroedit{}{bathymetry and} estimates of rates of interglacial
-sea-level rise in Southeast Asia \citep{Hanebuth2000,Sathiamurthy2006}, it is
-unlikely that the timing of island fragmentation across the Philippines would
-have differed more than 5,000 years \jroedit{}{within the same intergrlacial
-    period}.
+% Based on \jroedit{}{bathymetry and} estimates of rates of interglacial
+% sea-level rise in Southeast Asia \citep{Hanebuth2000,Sathiamurthy2006}, it is
+% unlikely that the timing of island fragmentation across the Philippines would
+% have differed more than 5,000 years \jroedit{}{within the same intergrlacial
+% period}.
+\jroeditb{}{%
+Based on bathymetry data \citep{Amante2009}, all of the previously connected
+pairs of islands we sampled (Figure~\ref{fig:map}) were connected when sea
+levels were 5--15m below current levels
+(Figure~S\ref{fig:bathycontours}).
+Based on these bathymetry data and the sea level projections of
+\citet{Spratt2016}, the timing of fragmentation among these pairs of islands
+would have differed by less than 3,000 years during the last two interglacial
+periods
+(Figure~S\ref{fig:bathyanimation}).}
 If we assume a rate of mutation an order of magnitude faster than that
 estimated by \citet{Siler2012} for the phosducin gene of Philippine \spp{Gekko}
 (1.18\e{-9} substitutions per site per year),
 we would not expect to see a difference in divergence times greater than
-5.9\e{-6} \jroedit{}{substitutions per site}
+\jroeditb{5.9}{3.5}\e{-6} \jroedit{}{substitutions per site}
 between two pairs that diverged during the same interglacial.
 \jroedit{}{%
 This is likely an over-estimate, given that both the number of years between
@@ -766,9 +786,9 @@ The posterior mean absolute difference in divergence time between these pairs,
 conditional on them not co-diverging, is
 9.66\e{-6} \jroedit{}{substitutions per site}.
 \jroedit{}{%
-This is 64\% larger than our maximum expected divergence within an interglacial
-cycle of 
-5.9\e{-6} \jroedit{}{substitutions per site},
+This is \jroeditb{64\%}{more than 2.7 times} larger than our maximum expected
+divergence within an interglacial cycle of 
+\jroeditb{5.9}{3.5}\e{-6} \jroedit{}{substitutions per site},
 suggesting that \ecoevolity would not have the temporal resolution given our
 data to distinguish the divergence times of two pairs that diverged during the
 same interglacial fragmentation event.
@@ -778,29 +798,30 @@ Thus, it seems unlikely that variation in island separation times within
 interglacial periods explains the variation in divergence times we see
 across the pairs of gekkonid populations.}
 
-\jroedit{}{%
+\jroeditb{}{%
 Nonetheless, it would be ideal to sample pairs of populations that are
 co-distributed across the same pair of islands so that we know the
 fragmentation occurred at the same time.
-However, to do this, we would be forced to sample more distantly related taxa.
+However, doing so comes with the inherent trade-off of having to compare more
+distantly related taxa.
 For example, we could sample pairs of \spp{Cyrtodactylus} and \spp{Gekko}
 populations that span the same islands, but not multiple pairs within each
 genus.
 This is important, because to compare divergence times among taxa, we need to
 make strong assumptions about their relative rates of mutation.
 Without information about mutation rates, we can assume equal rates
-across the comparisons, as we did here.
-However, this assumption becomes much more questionable as the taxa we wish to
+across the comparisons, as we did here,
+but this assumption becomes much more questionable as the taxa we wish to
 compare are more distantly related from one another.
-Thus, there is an inherent trade-off between sampling distantly related taxa
-that span the same pair of islands versus closely related taxa that span
-different pairs of islands.
-The former avoids variation in the timing of landscape fragmentation, but
-introduces more uncertainty about relative mutation rates, whereas the latter
-introduces variation in fragmentation times among islands, but makes a
-simplifying assumption about equal mutation rates much more tenable.
-Given the variation among island fragmentation times is small (< 5,000 years)
-relative to evolutionary timescales, we feel this tradeoff is more desirable
+% Thus, there is an inherent trade-off between sampling distantly related taxa
+% that span the same pair of islands versus closely related taxa that span
+% different pairs of islands.
+% The former avoids variation in the timing of landscape fragmentation, but
+% introduces more uncertainty about relative mutation rates, whereas the latter
+% introduces variation in fragmentation times among islands, but makes a
+% simplifying assumption about equal mutation rates much more tenable.
+Given the variation among island fragmentation times is small (< 3,000 years)
+relative to evolutionary timescales, we feel this trade-off is more desirable
 than making simplifying assumptions about relative mutation rates among
 distantly related taxa.
 % We are not aware of any taxonomic groups in the Philippines where
@@ -812,7 +833,7 @@ provide a strong and complementry empirical test of the PAIC model.}
 
 
 \jroedit{}{%
-\subsubsection{Assumptions about mutation rates}}
+\mysubsubsection{Assumptions about mutation rates}}
 
 \jroedit{}{%
 As discussed above, we made the simplifying assumption that mutation rates were
@@ -850,7 +871,7 @@ estimating co-divergences.}
 
 
 \jroedit{}{%
-\subsubsection{Assumptions about migration}}
+\mysubsubsection{Assumptions about migration}}
 
 \jroedit{}{%
 We also assumed there was no migration between the populations of each pair
@@ -874,26 +895,39 @@ full-likelihood method that exhibits much more desirable statistical behavior
 than approximate alternatives.}
 
 \jroedit{}{%
-The second reason for assuming no migration is biological;
-given our system of insular geckos, we do not expect contemporary migration
-between pairs of islands to be an important process.
+The second reason for assuming no migration is biological; given \jroeditb{our
+system of insular}{the insularity and natural history of these} geckos, we
+do not expect contemporary migration between pairs of islands to be an
+important process.
 Undoubtedly, these geckos have dispersed among islands of the Philippines, but
 such over-water dispersal events are likely too rare to meaningfully contribute
 to contemporary gene flow.
 Nonetheless, gene flow among connected islands during glacial periods certainly
 could have been significant.
-Howeer, trying to model the timing and magnitude of repeated bouts of migration
-would be very challenging, and the data would likely lack information about
-processes back beyond the most recent bout of migration.
+\jroeditb{}{%
+A biologically inspired model of migration would thus require assumptions about
+(1) periods of time when island exposure was conducive for migration,
+(2) divergences pre-dating these periods to allow migration during them, and
+(3) \emph{absolute} rates of mutation to ensure the molecular evolution of both
+genera is on the same timescale as the divergence and subsequent periods of
+potential migration.}
+\jroeditb{Howeer, trying to model}{As a result, modeling} the timing and
+magnitude of repeated bouts of migration would be \jroeditb{very
+challenging}{challenging and would necessarily ignore a lot of uncertainty, especially
+regarding absolute mutation rates}. \jroedit{and}{Also,} the data would likely lack
+information about processes back beyond the most recent bout of migration.
 Instead, we can more simply estimate the last time each pair of populations
 experienced significant gene flow (i.e., the divergence time modeled by
 \ecoevolity).
-This is an easier inference problem, and the climate-driven PAIC model of
-vicariant divergence would still predict clustering among the most recent time
-the population pairs diverged.}
+This is \jroeditb{an easier}{a simpler} inference problem, and the climate-driven
+PAIC model of vicariant divergence would still predict clustering among the
+most recent time the population pairs diverged.
+Furthermore, it seems unlikely that migration during glacial periods would bias
+our approach toward recovering independent divergences.}
+
 
 \jroedit{}{%
-\subsubsection{Assumptions about population sizes}}
+\mysubsubsection{Assumptions about population sizes}}
 
 \jroedit{}{%
 Although we allowed the ancestral and descendant populations to have different
@@ -903,7 +937,7 @@ between the pairs of populations we sampled were due to over-water dispersal.
 Such events would likely have a strong founder effect on the effective size of
 one of the descendant populations.
 These demographic changes could affect our estimates of divergence times,
-however, based on coalescent theory, there are two reasons these affects should
+however, based on coalescent theory, there are two reasons these \jroeditb{a}{e}ffects should
 not be very large.
 First, the effective size of (the rate of coalescence within) the ancestral
 population is the most influential on the divergence time, because it
@@ -922,7 +956,7 @@ the additional model complexity.}
 
 
 \jroedit{}{%
-\subsection{Performance of \ecoevolity with empirical RADseq data?}}
+\mysubsection{Performance of \ecoevolity with empirical RADseq data?}}
 
 \jroedit{}{%
 Given the caveats discussed above, and those associated with any model-based
@@ -930,7 +964,7 @@ inference,
 it is important to evaluate how well the method implemented in \ecoevolity can
 estimate divergence times conditional on the RADseq data we sampled from the
 gekkonid populations.
-Perhaps with so many genomic data, \ecoevolity fails to accurately estimate
+Perhaps, with so many genomic data, \ecoevolity fails to accurately estimate
 uncertainty in divergence times, and thus is biased toward finding differences
 between comparisons that do not exist.
 However, when we included two comparisons that represented random subsets of
@@ -976,7 +1010,7 @@ unlinked characters,
 especially methods that use information about site linkage patterns.}
 
 \jroedit{}{%
-Our simulation results show that \ecoevolity is robust to large
+Our simulation results \jroeditb{}{also} show that \ecoevolity is robust to large
 disparities in the number of sampled individuals and loci
 (Table \ref{table:comparisons}, Figures \ref{fig:simsdivtimes} \& \ref{fig:simsnevents}).
 This is not surprising given
@@ -998,8 +1032,27 @@ are very similar, especially when all sites are included
 in the analyses
 (Figure~S\ref{fig:sampledisparitydivtimes}).}
 
+\jroeditb{}{%
+Perhaps most importantly, our simulation results also allow us to better
+interpret our empirical findings.
+There are two patterns worth highlighting in this regard.
+(1) When applied to datasets that were simulated
+with all eight pairs diverging independently
+(the rightmost column of the plots in Figure~\ref{fig:simsnevents}),
+\ecoevolity has only moderate success in preferring a model with
+eight divergence events.
+(2) When the true number of divergences is less than eight, \ecoevolity almost
+never estimates eight divergences (only 3 out of almost 2,000 simulations;
+Figure~\ref{fig:simsnevents}).
+Taken together, these observations demonstrate that \ecoevolity is unlikely to
+spuriously support the model where all pairs of populations diverge
+independently.
+Thus, the empirical support we found for all eight pairs of \spp{Cyrtodactylus}
+and \spp{Gekko} populations diverging independently is likely robust.
+}
 
-\subsection{Sensitivity to the prior on divergence times}
+
+\mysubsection{Sensitivity to the prior on divergence times}
 
 It is interesting that in analyses of both genera we see support for shared
 divergences increase as the prior on divergence times becomes more diffuse
@@ -1022,19 +1075,42 @@ here does not suffer from the insufficient prior sampling proposed by
 \citet{Hickerson2013}.
 
 Whereas the full-likelihood Bayesian approach used here is much more robust to
-prior assumptions than the ABC approaches, our results demonstrate that is
+prior assumptions than the ABC approaches, our results demonstrate that \jroeditb{}{it} is
 still important to assess sensitivity of the results to the priors
 \citep{Oaks2012}.
 This is especially true for the posterior probabilities of divergence models or
-the number of divergence events.
-The marginal likelihoods of the divergence models are what update our prior
+the number of divergence events\jroeditb{. The}{, which are the result of
+    the prior probabilities being updated by the}
+marginal likelihoods of the divergence models. \jroeditb{are what update our prior
 probabilities to give use these posterior probabilities, and the marginal
 likelihood is averaged over the entire parameter space of a model, and weighted
-by the prior.
-As a result, they can be sensitive to the priors regardless of the
+by the prior.}{}
+\jroeditb{As a result}{Because the marginal likelihoods are averaged with respect to the priors on all the parameters of the model}, they can be sensitive to \jroeditb{the}{those} priors regardless of the
 informativeness the data \citep{Oaks2018marginal}.
 
-\subsection{Conclusions}
+\jroeditb{}{%
+\mysubsection{Gekkonid diversification in the Philippines}}
+
+\jroeditb{}{%
+\jrocomment{I'm outside my expertise here, so please correct me if I am off!}
+Philippine \spp{Gekko} and \spp{Cyrtodactylus} are nocturnal insectivores \ldots
+\jrocomment{A bit about natural history here.}
+Our findings make sense in light of their natural history.
+The habitat connecting the islands during glacial periods may have been
+unsuitable for these forest lizards.
+The environmental heterogeneity within islands is likely important for
+creating spatial genetic structure across the distribution of these lizards,
+as evidenced by multiple divergent lineages often inhabiting an
+island
+\citep{Siler2012, Siler2014kikuchii, Welton2010, Welton2010zootaxa, Siler2010}.
+Furthermore, rare, long-distance dispersal events among islands might actually
+be more likely to occur via rafting across marine barriers following typhoons
+than dispersal across exposed land bridges during glacial periods.
+Both intra-island processes of isolation and inter-island rafting would predict
+our results of idiosyncratic divergences across inter-island pairs of
+populations.}
+
+\mysubsection{Conclusions}
 Climate-driven fragmentation of the Philippine Islands has been invoked as a
 model of pulsed co-speciation throughout the archipelago.
 This model predicts that population divergences between fragmented islands

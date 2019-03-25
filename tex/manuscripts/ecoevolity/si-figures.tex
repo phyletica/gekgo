@@ -1,3 +1,49 @@
+\siFigure{../../images/grid-bathymetry-map.pdf}{
+    \jroeditnoteb{New figure.}
+    \jroeditb{}{%
+    Bathymetry contours around the Philippine Islands at varying depths.
+    Black lines show the contour associated with the depth indicated
+    in the upper right of each plot.
+    Contours are based on data from the ETOPO1 1-arc-minute global relief model
+    \citep{Amante2009}.
+    Figure generated with marmap version 1.0.2 \citep{Pante2013} and ggplot2
+    Version 2.2.1 \citep{ggplot2}.}
+}{fig:bathycontours}
+
+\begin{figure}[htbp]
+\begin{center}
+    \includemedia[
+        % width=0.8\linewidth,
+        height=0.8\textheight,
+        activate=pagevisible,
+        deactivate=pageinvisible,
+        passcontext,
+        transparent=false,
+        addresource=../../images/bathymetry-maps/animated-bathymetry.mp4,
+        flashvars={source=../../images/bathymetry-maps/animated-bathymetry.mp4}
+    ]{\includegraphics[height=0.8\textheight]{../../images/bathymetry-maps/animated-bathymetry-last-frame.png}}{VPlayer.swf}
+    \captionsetup{name=Figure S, labelformat=noSpace, listformat=sFigList}
+    \caption{
+        \jroeditnoteb{New figure.}
+        \jroeditb{}{%
+        Animation of approximate sea-level changes in the Philippine Islands
+        over the last 430,000 years.
+        Sea-level estimates are from the projection of \citet{Spratt2016} based
+        on seven reconstructions.
+        Bathymetry data are from the ETOPO1 1-arc-minute global relief model
+        \citep{Amante2009}.
+        Animation generated using marmap version 1.0.2 \citep{Pante2013},
+        ggplot2
+        Version 2.2.1 \citep{ggplot2},
+        \href{https://imagemagick.org/index.php}{ImageMagick}
+        Version 6.9.10-8 Q16 x86\_64 20180723,
+        and \href{https://ffmpeg.org/}{FFmpeg}
+        Version 4.0.2-2.}.
+    }
+    \label{fig:bathyanimation}
+\end{center}
+\end{figure}
+
 \siFigure{../../../data/genomes/msg/ecoevolity-results/grid-cyrtodactylus-sumevents.pdf}{
     Approximate prior (light bars) and posterior (dark bars) probabilities
     of numbers of divergence events across pairs of \spp{Cyrtodactylus}
@@ -177,7 +223,7 @@
     Results are shown for \ecoevolity analyses of \datasets that contain all
     sites (top), or only one SNP per locus (bottom).
     The number of individuals sampled from each island population is indicated
-    in parantheses at the top of each column of plots.
+    in \jroeditb{parantheses}{parentheses} at the top of each column of plots.
     Results for these two pairs of populations are plotted separately here to
     compare divergence-times estimated from \datasets with large differences in
     the number of sampled individuals and loci.
