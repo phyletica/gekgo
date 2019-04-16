@@ -1,0 +1,35 @@
+\begin{frame}[t]
+    \frametitle{Previous tests of ``species-pump''}
+
+    \vspace{-6mm}
+    \begin{minipage}[t][0.38\textheight][t]{\linewidth}
+    \begin{itemize}
+        \item<1-> Oaks et al.\ (\citeyear{Oaks2012})\footnotemark[1]{}
+            collected mitochondrial DNA sequences from 22 pairs of populations
+            (including bats, shrews, skinks, geckos, snakes, and frogs)
+        \begin{itemize}
+            \item<2-> Analyzed these data with ABC 
+                method \msbayes\footnotemark[2]{}
+            \item<3-> Found strong support for shared divergences across taxa
+                (results below for 9 pairs from islands of Negros and Panay)
+            % \item Posterior probability of 0.982 that all 9 pairs from the
+            %     islands of Negros and Panay co-diverged
+            \item<4-> But, method was very sensitive to prior assumptions
+                and often biased toward estimating co-divergences
+        \end{itemize}
+    \end{itemize}
+    \end{minipage}
+
+    \begin{minipage}[t][0.45\textheight][t]{\linewidth}
+    \begin{center}
+    \includegraphics<3->[height=0.45\textheight]{../images/old-paic-results/negros-panay-msbayes.pdf}
+    \end{center}
+    \end{minipage}
+
+    \vspace{-4mm}
+    % \footnotetext[1]{\tiny\shortfullcite{Oaks2012}}
+    % \footnotetext[2]{\tiny\shortfullcite{Huang2011}}
+    \barefootnote{\tiny
+    $^1$\shortfullcite{Oaks2012}.
+    $^2$\shortfullcite{Huang2011}.}
+\end{frame}

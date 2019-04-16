@@ -1,0 +1,162 @@
+\begin{frame}<handout:0|beamer:0>[t,noframenumbering,label=divmodelchoice]
+    % \frametitle{Divergence-model choice}
+    % \frametitle{Inferring co-diversification}
+
+    % \vspace{-3.5mm}
+
+    \begin{minipage}[t][0.35\textheight][t]{\linewidth}
+        \centerline{
+            % \only<1-2>{
+            \only<1->{
+            \begin{tabu} to 1.05\linewidth { X[c] X[c] X[c] X[c] X[c] }
+                $\divModel{1}$ & 
+                $\divModel{2}$ & 
+                $\divModel{3}$ & 
+                $\divModel{4}$ & 
+                $\divModel{5}$ \\
+            \end{tabu}
+            }
+            % \only<3->{
+            % \hspace{-4mm}
+            % \begin{tabu} to 1.05\linewidth { X[c] X[c] X[c] X[c] X[c] }
+            %     $p(\divModel{1} \given \alignmentVector)$ & 
+            %     $p(\divModel{2} \given \alignmentVector)$ & 
+            %     $p(\divModel{3} \given \alignmentVector)$ & 
+            %     $p(\divModel{4} \given \alignmentVector)$ & 
+            %     $p(\divModel{5} \given \alignmentVector)$ \\
+            % \end{tabu}
+            % }
+        }
+        % \hspace{0mm}
+
+        \centerline{
+        \includegraphics<1->[width=0.18\linewidth]{../images/from-ecoevolity-tikz-repo/div-model-111-lines-small.pdf}
+        % \hspace{12.0mm}
+        \hspace{1.3mm}
+        \includegraphics<1->[width=0.18\linewidth]{../images/from-ecoevolity-tikz-repo/div-model-311-lines-small.pdf}
+        % \hspace{5.6mm}
+        \hspace{1.3mm}
+        \includegraphics<1->[width=0.18\linewidth]{../images/from-ecoevolity-tikz-repo/div-model-131-lines-small.pdf}
+        % \hspace{5.6mm}
+        \hspace{1.3mm}
+        \includegraphics<1->[width=0.18\linewidth]{../images/from-ecoevolity-tikz-repo/div-model-113-lines-small.pdf}
+        % \hspace{5.6mm}
+        \hspace{1.3mm}
+        \includegraphics<1->[width=0.18\linewidth]{../images/from-ecoevolity-tikz-repo/div-model-213-lines-small.pdf}
+        }
+    \end{minipage}
+
+    \vspace{-1mm}
+
+    \begin{minipage}[t][0.45\textheight][t]{\linewidth}
+        \begin{onlyenv}<2->
+            \begin{center}
+                We want to infer the model and divergence times given genetic data
+            \end{center}
+        \end{onlyenv}
+
+        \begin{onlyenv}<3->
+            \begin{itemize}
+                \item Analyzed RADseq data with full-likelihood Bayesian comparative phylogeographic method
+            \end{itemize}
+
+            \begin{center}
+                \LARGE
+                \href{https://github.com/phyletica/ecoevolity}{
+                    \textbf{\textcolor{pgreen}{E}\textcolor{pteal}{co\textcolor{pauburn}{evo}lity}}}:
+                \textcolor{pgreen}{\bf E}stimating \textcolor{pauburn}{\bf evo}lutionary \textcolor{pteal}{\bf coevality}
+            \end{center}
+
+            \begin{itemize}
+                \item<4-> Used simulations to assess how well \ecoevolity works given
+                    the gekkonid RADseq \datasets
+            \end{itemize}
+        \end{onlyenv}
+
+%         \vspace{-3mm}
+%         \begin{onlyenv}<4->
+%             \begin{displaybox}[0.60\linewidth]
+%                 \vspace{-1.3mm}
+%                 \only<4->{
+%                     \[
+%                         p(\divModel{i} \given \alignmentVector) \propto
+%                         % \frac{
+%                             p(\alignmentVector \given \divModel{i})
+%                             p(\divModel{i})
+%                         % }{
+%                             % \sum_{i} p(\alignmentVector \given \divModel{i})
+%                             % p(\divModel{i})
+%                         % }
+%                     \]\vspace{0mm}
+%                 }
+
+%                 \vspace{-5mm}
+
+%             \end{displaybox}
+%         \end{onlyenv}
+
+%         \vspace{0.5mm}
+%         \begin{onlyenv}<5->
+%             \begin{displaybox}[0.60\linewidth]
+%                 \vspace{-4.1mm}
+%                 \only<5->{
+%                     \[
+%                         p(\alignmentVector \given \divModel{i}) = 
+%                         \int_{\allParameters{}}
+%                         p(\alignmentVector \given \allParameters{}, \divModel{i})
+%                         p(\allParameters{} \given \divModel{i})
+%                         d\allParameters{}
+%                     \]%\vspace{1mm}
+%                 }
+
+%                 %\vspace{-4mm}
+
+%             \end{displaybox}
+%         \end{onlyenv}
+
+%         \vspace{-1.5mm}
+%         \begin{onlyenv}<6->
+%             \begin{columns}
+
+%                 \column{0.42\linewidth}
+
+%                 \begin{itemize}
+%                     \small
+%                     \item Divergence times
+%                     \item Gene trees
+%                 \end{itemize}
+
+%                 \column{0.42\linewidth}
+
+%                 \begin{itemize}
+%                     \small
+%                     \item Substitution parameters
+%                     \item Demographic parameters
+%                 \end{itemize}
+%             \end{columns}
+%         \end{onlyenv}
+        
+        % \begin{onlyenv}<7->
+        %     \vspace{3.0mm}
+        %     \textbf{Challenges:} \\
+        %     \vspace{-6mm}
+        %     \begin{enumerate}
+        %         % \item<8-> Cannot solve all the integrals analytically
+        %         \item<8-> Likelihood is tractable, but difficult 
+        %         % \begin{itemize}
+        %         %     \item<10-> Numerical approximation via approximate-likelihood Bayesian computation (ABC)
+        %         % \end{itemize}
+        %         \item<9-> Sampling over all possible models
+        %         \begin{itemize}
+        %             \item<10-> 5 taxa = 52 models
+        %             \item<11-> 10 taxa = 115,975 models
+        %             \item<12-> 20 taxa = 51,724,158,235,372 models!!
+        %             % \item<15-> A ``diffuse'' Dirichlet process prior (DPP)
+        %         \end{itemize}
+        %     \end{enumerate}
+        % \end{onlyenv}
+    \end{minipage}
+    % \vspace{-0.5cm}
+    % \barefootnote{\tiny \shortfullcite{Oaks2012}, \shortfullcite{Oaks2014dpp}}
+\end{frame}
+

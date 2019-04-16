@@ -1,0 +1,110 @@
+\newcommand\mybullet{\leavevmode%
+\usebeamertemplate{itemize item}\hspace{.5em}}
+
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+\newcommand{\blankslide}{{\setbeamercolor{background canvas}{bg=black}
+\setbeamercolor{whitetext}{fg=white}
+\begin{frame}<handout:0>[plain]
+\end{frame}}}
+
+\newcommand{\whiteslide}{
+\begin{frame}<handout:0>[plain]
+\end{frame}}
+
+
+\newcommand{\ifTwoArgs}[3]{\ifthenelse{\equal{#1}{}\or\equal{#2}{}}{}{#3}\xspace}
+\newcommand{\divModel}[1]{\ensuremath{m_{#1}}\xspace}
+\newcommand{\divTimeMap}[1]{\ensuremath{T_{#1}}\xspace}
+\newcommand{\alignment}[2]{\ensuremath{X_{#1\protect\ifTwoArgs{#1}{#2}{,}#2}}\xspace}
+\newcommand{\divTimeMapVector}{\ensuremath{\mathbf{\divTimeMap{}}}\xspace}
+\newcommand{\alignmentVector}{\ensuremath{\mathbf{\alignment{}{}}}\xspace}
+\newcommand{\allParameters}[1]{\ensuremath{\theta_{#1}}\xspace}
+\newcommand{\flipdata}{\ensuremath{D}\xspace}
+\newcommand{\coinmodel}[1][]{\ensuremath{M_{#1}}\xspace}
+\newcommand{\probheads}[1][]{\ensuremath{\theta_{#1}}\xspace}
+\newcommand{\nmodels}{\ensuremath{N}\xspace}
+
+
+\newcommand{\nucleotideformat}[1]
+{\tiny
+    \begin{minipage}[c][1.1ex][c]{1.1ex}
+        % \vspace{-0.9ex}
+        % \begin{center}
+            % \hspace{-0.7ex}
+            \centering{#1}
+        % \end{center}
+    \end{minipage}
+}
+
+% \newcommand{\nA}{\textcolor{red}{A}}
+% \newcommand{\nC}{\textcolor{green}{C}}
+% \newcommand{\nG}{\textcolor{yellow}{G}}
+% \newcommand{\nT}{\textcolor{blue}{T}}
+\newcommand{\nA}{\nucleotideformat{A}}
+\newcommand{\nC}{\nucleotideformat{C}}
+\newcommand{\nG}{\nucleotideformat{G}}
+\newcommand{\nT}{\nucleotideformat{T}}
+
+%% Dimensions and macros to calc frame content width and height
+\newif\ifsidebartheme
+\sidebarthemetrue
+
+\newlength\frametextheight
+\newlength\headlessframetextheight
+\setlength{\frametextheight}{0.88\textheight}
+\setlength{\headlessframetextheight}{1\textheight}
+
+\newdimen\smarttextheight
+\newdimen\contentheight
+\newdimen\contentwidth
+\newdimen\contentleft
+\newdimen\contentbottom
+\makeatletter
+\newcommand*{\calculatespace}{%
+\contentheight=\paperheight%
+\ifx\beamer@frametitle\@empty%
+    \setbox\@tempboxa=\box\voidb@x%
+  \else%
+    \setbox\@tempboxa=\vbox{%
+      \vbox{}%
+      {\parskip0pt\usebeamertemplate***{frametitle}}%
+    }%
+    \ifsidebartheme%
+      \advance\contentheight by-1em%
+    \fi%
+  \fi%
+\advance\contentheight by-\ht\@tempboxa%
+\advance\contentheight by-\dp\@tempboxa%
+\advance\contentheight by-\beamer@frametopskip%
+\ifbeamer@plainframe%
+\contentbottom=0pt%
+\else%
+\advance\contentheight by-\headheight%
+\advance\contentheight by\headdp%
+\advance\contentheight by-\footheight%
+\advance\contentheight by4pt%
+\contentbottom=\footheight%
+\advance\contentbottom by-4pt%
+\fi%
+\contentwidth=\paperwidth%
+\ifbeamer@plainframe%
+\contentleft=0pt%
+\else%
+\advance\contentwidth by-\beamer@rightsidebar%
+\advance\contentwidth by-\beamer@leftsidebar\relax%
+\contentleft=\beamer@leftsidebar%
+\fi%
+\smarttextheight=\contentheight%
+\advance\smarttextheight by-4mm%
+\ifx\beamer@frametitle\@empty%
+    \advance\smarttextheight by-3mm%
+\fi%
+}
+\makeatother
+
+\newcommand{\smartgraphic}[3][\frametextheight]{%
+\includegraphics#2[width=\linewidth,height=#1,keepaspectratio]{#3}%
+}

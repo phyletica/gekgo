@@ -1,0 +1,60 @@
+\usepackage{pgf}
+\usepackage{tikz}
+\usetikzlibrary{trees,calc,backgrounds,arrows,positioning,automata}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The `conc` macro is the concentration parameter of the Dirichlet process.
+% Set it to the desired value here. Delete (or comment out) the `conc` macro to
+% leave probability values blank.
+\pgfmathsetmacro\conc{0.5}
+\pgfmathsetmacro\cconc{10.0}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\pclass}[3]{%
+    \ifthenelse{\equal{#1}{}}%
+        {}%
+        {\fcolorbox{blue!90}{blue!15}{\catformat{#1}}}%
+    \ifthenelse{\equal{#2}{}}%
+        {}%
+        {\fcolorbox{red!90}{red!15}{\catformat{#2}}}%
+    \ifthenelse{\equal{#3}{}}%
+        {}%
+        {\fcolorbox{gray!90}{gray!15}{\catformat{#3}}}%
+}
+\newcommand{\catformat}[1]{\textsf{\textbf{#1}}}
+\newcommand{\pcat}[3]{%
+    \textcolor{blue}{\catformat{#1}}%
+    \textcolor{red}{\catformat{#2}}%
+    \textcolor{black}{\catformat{#3}}%
+}
+\newcommand{\branchlabel}[1]{\normalsize #1}
+\newcommand{\tiplabel}[1]{\hspace{-0.5em}\normalsize #1}
+
+\newcommand{\calcprob}[2]{%
+    \ifthenelse{\isundefined{\conc}}%
+        {}%
+        {\pgfmathparse{(#1/(\conc+1))*(#2/(\conc+2))}\pgfmathprintnumber{\pgfmathresult}}%
+}
+\newcommand{\ccalcprob}[2]{%
+    \ifthenelse{\isundefined{\cconc}}%
+        {}%
+        {\pgfmathparse{(#1/(\cconc+1))*(#2/(\cconc+2))}\pgfmathprintnumber{\pgfmathresult}}%
+}
+
+\newcommand{\getconc}[1]{%
+    \ifthenelse{\isundefined{\conc}}%
+        {}%
+        {\conc}%
+}
+
+% \tikzset{hide on/.code={\only<#1>{\color{fg!20}}}}
+\tikzset{hide on/.code={\only<#1>{\color{white}}}}
+\tikzset{
+    invisible/.style={opacity=0},
+    visible on/.style={alt={#1{}{invisible}}},
+    alt/.code args={<#1>#2#3}{%
+        \alt<#1>{\pgfkeysalso{#2}}{\pgfkeysalso{#3}}
+        % \pgfkeysalso doesn't change the path
+    },
+}
+

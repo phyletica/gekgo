@@ -1,0 +1,129 @@
+\documentclass[]{beamer}
+% \documentclass[table,aspectratio=169]{beamer}
+\usepackage{beamerthemesplit}
+\usetheme{boxes}
+\usecolortheme{seahorse}
+% \useinnertheme{myboxes}
+% \usepackage{amsmath}
+% \usepackage[fleqn]{amsmath}
+\usepackage{ifthen}
+\usepackage{xspace}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{changepage}
+\usepackage{tabu}
+\usepackage[compatibility=false]{caption}
+\captionsetup[figure]{font=scriptsize, labelformat=empty, textformat=simple, justification=centering, skip=2pt}
+
+\usepackage{hyperref}
+% \hypersetup{pdfborder={0 0 0}, colorlinks=true, urlcolor=black, linkcolor=black, citecolor=black}
+\hypersetup{pdfborder={0 0 0}, colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=blue}
+
+\usepackage[bibstyle=../bib/joaks-slides,maxnames=1,firstinits=true,uniquename=init,backend=biber,bibencoding=utf8]{biblatex}
+
+\newrobustcmd*{\shortfullcite}{\AtNextCite{\renewbibmacro{title}{}\renewbibmacro{in:}{}\renewbibmacro{number}{}}\fullcite}
+
+\newrobustcmd*{\footlessfullcite}{\AtNextCite{\renewbibmacro{title}{}\renewbibmacro{in:}{}}\footfullcite}
+
+
+% Make all footnotes smaller
+%\renewcommand{\footnotesize}{\scriptsize}
+
+\setbeamertemplate{blocks}[rounded][shadow=true]
+
+\setbeamercolor{defaultcolor}{bg=structure!30!normal text.bg,fg=black}
+\setbeamercolor{block body}{bg=structure!30!normal text.bg,fg=black}
+\setbeamercolor{block title}{bg=structure!50!normal text.bg,fg=black}
+
+% Beamer doesn't play well with enumitem, so hacking some list environments
+\newenvironment{mydescription}{
+    \begin{description}
+        \setlength{\leftskip}{-1.5cm}}
+    {\end{description}}
+
+\newenvironment{myitemize}[1][]{
+    \begin{itemize}[#1]
+        \setlength{\leftskip}{-2.5mm}}
+    {\end{itemize}}
+
+\newenvironment{tightitemize}[1][]{
+    \begin{itemize}[#1]
+        \setlength{\leftskip}{-0.9em}
+        \setlength{\itemsep}{-0.3ex}}
+    {\end{itemize}}
+
+\newenvironment{myenumerate}{
+    \begin{enumerate}
+        \setlength{\leftskip}{-2.5mm}}
+    {\end{enumerate}}
+
+
+\newenvironment<>{varblock}[2][\textwidth]{%
+  \setlength{\textwidth}{#1}
+  \begin{actionenv}#3%
+    \def\insertblocktitle{#2}%
+    \par%
+    \usebeamertemplate{block begin}}
+  {\par%
+    \usebeamertemplate{block end}%
+  \end{actionenv}}
+
+\newenvironment{displaybox}[1][\textwidth]
+{
+    \centerline\bgroup\hfill
+    \begin{beamerboxesrounded}[lower=defaultcolor,shadow=true,width=#1]{}
+}
+{
+    \end{beamerboxesrounded}\hfill\egroup
+}
+
+\newenvironment{onlinebox}[1][4cm]
+{
+    \newbox\mybox
+    \newdimen\myboxht
+    \setbox\mybox\hbox\bgroup%
+        \begin{beamerboxesrounded}[lower=defaultcolor,shadow=true,width=#1]{}
+    \centering
+}
+{
+    \end{beamerboxesrounded}\egroup
+    \myboxht\ht\mybox
+    \raisebox{-0.25\myboxht}{\usebox\mybox}\hspace{2pt}
+}
+
+% footnote without a marker
+\newcommand\barefootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+% define formatting for footer
+\newcommand{\myfootline}{%
+    {\it
+    \insertshorttitle
+    \hspace*{\fill} 
+    % \insertshortauthor\ -- \insertshortinstitute
+    % \ifx\insertsubtitle\@empty\else, \insertshortsubtitle\fi
+    \insertshortauthor\
+    \hspace*{\fill}
+    \insertframenumber/\inserttotalframenumber}}
+
+% set up footer
+\setbeamertemplate{footline}{%
+    \usebeamerfont{structure}
+    \begin{beamercolorbox}[wd=\paperwidth,ht=2.25ex,dp=1ex]{frametitle}%
+        \Tiny\hspace*{4mm}\myfootline\hspace{4mm}
+    \end{beamercolorbox}}
+
+% remove navigation bar
+\beamertemplatenavigationsymbolsempty
+
+\makeatletter
+    \newenvironment{noheadline}{
+        \setbeamertemplate{headline}[default]
+        \def\beamer@entrycode{\vspace*{-\headheight}}
+    }{}
+\makeatother

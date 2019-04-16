@@ -1,0 +1,108 @@
+\ProvidesFile{joaks-cv.bbx}
+[\abx@bbxid]
+
+\RequireBibliographyStyle{authoryear}
+
+% Alter settings that carry through from biblatex
+\ExecuteBibliographyOptions{
+    sorting=ydnt,
+    defernumbers=true,
+    maxnames=20,
+    firstinits=true,
+    uniquename=init,
+    dashed=false,
+    doi=true,
+    isbn=false
+}
+
+\DeclareFieldFormat[article]{pages}{#1}
+\DeclareFieldFormat[inproceedings]{pages}{\lowercase{pp.}#1}
+\DeclareFieldFormat[incollection]{pages}{\lowercase{pp.}#1}
+% \DeclareFieldFormat[article]{volume}{\mkbibbold{#1}:}
+\DeclareFieldFormat[article]{volume}{#1:}
+\DeclareFieldFormat[article]{number}{}
+\DeclareFieldFormat[article]{title}{\MakeCapital{#1}}
+\DeclareFieldFormat[inproceedings]{title}{#1}
+\DeclareFieldFormat{shorthandwidth}{#1}
+\DeclareFieldFormat{extrayear}{}
+%% create link using doi or url
+\DeclareFieldFormat{doi}{%
+    \ifboolexpr{
+        not test {\iffieldundef{doi}}
+    }%
+    {\href{http://dx.doi.org/#1}{link.}}%
+    {}%
+}
+\DeclareFieldFormat{url}{%
+    \ifboolexpr{
+        test {\iffieldundef{doi}}
+        and
+        not test {\iffieldundef{url}}
+    }{\href{#1}{link.}}%
+    {}%
+}
+
+% macro to href to doi
+\newbibmacro{string+doi}[1]{%
+    \iffieldundef{doi}{#1}{\href{http://dx.doi.org/\thefield{doi}}{#1}}}
+
+% make the journal title a link to the doi
+\DeclareFieldFormat{journaltitle}{\usebibmacro{string+doi}{\mkbibemph{#1}}}
+
+\renewbibmacro{journal+issuetitle}{%
+  \usebibmacro{journal}%
+  \setunit*{\addspace}%
+  \iffieldundef{series}
+    {}
+    {\newunit
+     \printfield{series}%
+     \setunit{\addspace}}%
+  \usebibmacro{volume+number+eid}%
+  \setunit{\addspace}%
+  \setunit{\addcolon\space}%
+  \newunit}
+
+\renewbibmacro*{volume+number+eid}{%
+    \iffieldundef{volume}
+        {\space{}doi:\thefield{doi}}
+        {\printfield{volume}}%
+}
+
+
+\DeclareBibliographyDriver{article}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{author/translator+others}%
+  \setunit{\labelnamepunct}\newblock
+  \usebibmacro{title}%
+  \newunit
+  \printlist{language}%
+  \newunit\newblock
+  \usebibmacro{byauthor}%
+  \newunit\newblock
+  \usebibmacro{bytranslator+others}%
+  \newunit\newblock
+  \printfield{version}%
+  \newunit\newblock
+  \usebibmacro{journal+issuetitle}%
+  \newunit
+  \usebibmacro{byeditor+others}%
+  \newunit
+  \printfield{pages}%
+  \newunit\newblock
+  \iftoggle{bbx:isbn}
+    {\printfield{issn}}
+    {}%
+  \newunit\newblock
+  \usebibmacro{addendum+pubstate}%
+  \setunit{\bibpagerefpunct}\newblock
+  \usebibmacro{pageref}%
+  \newunit\newblock
+  \iftoggle{bbx:related}
+    {\usebibmacro{related:init}%
+     \usebibmacro{related}}
+    {}%
+  \usebibmacro{finentry}%
+}
+
+\endinput

@@ -1,0 +1,38 @@
+\begin{frame}[t]
+    \frametitle{Previous tests of ``species-pump''}
+
+    \vspace{-6mm}
+    \begin{minipage}[t][0.25\textheight][t]{\linewidth}
+    \begin{itemize}
+        \item<1-> Oaks (\citeyear{Oaks2014dpp})\footnotemark[1]{}
+            reanalyzed the data from
+            Oaks et al.\ (\citeyear{Oaks2012})\footnotemark[2]{}
+                with a modified ABC method \dppmsbayes
+        \begin{itemize}
+            \item<2-> New method was less biased, but little information in summary statistics to inform
+                divergence times
+        \end{itemize}
+    \end{itemize}
+    \end{minipage}
+
+    \begin{minipage}[t][0.42\textheight][t]{\linewidth}
+    \centerline{
+    \includegraphics<2->[height=0.42\textheight]{../images/old-paic-results/negros-panay-dpp-msbayes.pdf}
+    \includegraphics<2->[height=0.42\textheight]{../images/old-paic-results/negros-panay-dpp-msbayes-sumtimes.pdf}}
+    \end{minipage}
+
+    \vspace{-3mm}
+    \begin{minipage}[t][0.1\textheight][t]{\linewidth}
+    \uncover<3->{
+    What now? We need \textbf{more data} and/or an \textbf{improved method}
+    that better utilizes the information in those data.} \uncover<4->{\bf Our goal
+    is to do both.}
+    \end{minipage}
+
+    \vspace{-2mm}
+    % \footnotetext[1]{\tiny\shortfullcite{Oaks2014dpp}}
+    % \footnotetext[2]{\tiny\shortfullcite{Oaks2012}}
+    \barefootnote{\tiny
+    $^1$\shortfullcite{Oaks2014dpp}.
+    $^2$\shortfullcite{Oaks2012}.}
+\end{frame}
