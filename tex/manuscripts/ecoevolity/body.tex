@@ -93,7 +93,7 @@ other mechanisms, such as over-water dispersal.
 
 \citet{Oaks2012} \jroedit{initially}{} tested this prediction \jroedit{}{initially} by inferring how many unique
 divergence times best explained mitochondrial sequence data from 22 pairs of
-populations from across the Philippines, using a model choice method based on
+populations from across the Philippines, using a model-choice method based on
 approximate-likelihood Bayesian computation (ABC).
 However, using simulations, they found that this popular ABC approach was
 demonstrably sensitive to prior assumptions, with a bias toward over-clustering
@@ -204,7 +204,7 @@ populations on oceanic islands.
 However, these events are likely too random and rare to contribute meaningful
 levels of gene flow between islands.
 Therefore, given the insularity of these populations, we assume that none of
-them are experiencing migration during interglacial periods, like today.
+them experienced migration during interglacial periods, like today.
 Thus, all of the populations we sampled \jroeditb{can be considered}{are likely} independent
 evolutionary lineages, regardless of whether they are currently recognized by
 taxonomists as distinct species.}
@@ -255,7 +255,7 @@ We used ipyrad version 0.7.13 \citep{ipyrad0713} to demultiplex and assemble
 the raw RADseq reads into loci.
 To maximize the number of assembled loci, we de novo assembled the reads
 separately for each pair of populations.
-All of the scripts and ipyrad parameters files we used to assemble the data are
+All of the scripts and ipyrad parameter files we used to assemble the data are
 available in our project repository
 (\ifblind{REDACTED}{\url{https://github.com/phyletica/gekgo}}),
 and the ipyrad settings are listed in
@@ -371,7 +371,7 @@ excluded to avoid violating the assumption of unlinked sites.
 \jroedit{}{%
 We simulate \datasets based on our gekkonid data to confirm these results
 hold for our sampling design (see below).
-Furthermore, when analyzing the RADseq from three of the \spp{Gekko} population
+Furthermore, when analyzing the RADseq data from three of the \spp{Gekko} population
 pairs we are analyzing here, \citet{Oaks2018ecoevolity} found biologically
 unrealistic estimates of divergence times and population sizes when only
 unlinked variable sites (i.e., SNPs) were
@@ -649,7 +649,7 @@ $\distgamma(1.5, 3.13)$
 and
 $\distgamma(1.1, 56.1)$,
 respectively.
-We performed these calcuations with the \sumcoevolity tool of the \ecoevolity
+We performed these calculations with the \sumcoevolity tool of the \ecoevolity
 software package, using one million simulations under the Dirichlet process to
 approximate the prior odds.}
 
