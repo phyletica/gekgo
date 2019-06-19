@@ -1982,6 +1982,37 @@ def main_cli(argv = sys.argv):
                 include_identity_line = True,
                 include_error_bars = True)
 
+        if p_info["label"] == "event time":
+            x_label = "True divergence time (${0}$)".format(
+                    p_info["symbol"])
+        data_grid = [
+                [cyrt_data, gekko_data]
+                ]
+        generate_scatter_plots(
+                data_grid = data_grid,
+                plot_file_prefix = parameter + "-allsites",
+                parameter_symbol = p_info["symbol"],
+                column_labels = column_labels,
+                row_labels = None,
+                plot_width = 2.5,
+                plot_height = 2.2,
+                pad_left = 0.17,
+                pad_right = 0.98,
+                pad_bottom = 0.24,
+                pad_top = 0.91,
+                x_label = x_label,
+                x_label_size = 18.0,
+                y_label = y_label,
+                y_label_size = 18.0,
+                force_shared_x_range = p_info["shared_axes"],
+                force_shared_y_range = p_info["shared_axes"],
+                force_shared_xy_ranges = True,
+                force_shared_spines = p_info["shared_axes"],
+                include_coverage = True,
+                include_rmse = True,
+                include_identity_line = True,
+                include_error_bars = True)
+
     # Compare sampling disparity
     cyrt_smallest_data = ScatterData.init(cyrt_results,
             ["root_height_Luzon3"],
@@ -2064,6 +2095,30 @@ def main_cli(argv = sys.argv):
             # filter_parameter_prefix = "psrf_pop_size",
             # filter_threshold = 1.02,
             plot_file_prefix = "")
+
+    results_grid = [
+            [cyrt_results, gekko_results]
+            ]
+    generate_model_plots(
+            results_grid = results_grid,
+            column_labels = column_labels,
+            row_labels = None,
+            number_of_comparisons = 8,
+            plot_width = 2.1,
+            plot_height = 2.4,
+            pad_left = 0.13,
+            pad_right = 0.99,
+            pad_bottom = 0.22,
+            pad_top = 0.91,
+            y_label_size = 18.0,
+            y_label = "Estimated number",
+            number_font_size = 8.0,
+            include_median = False,
+            include_cs = False,
+            include_prop_correct = False,
+            # filter_parameter_prefix = "psrf_pop_size",
+            # filter_threshold = 1.02,
+            plot_file_prefix = "allsites")
 
     # generate_specific_model_plots(
     #         results = cyrt_results,

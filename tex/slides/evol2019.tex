@@ -1,0 +1,710 @@
+\input{../utils/slide-doc-class-wide-screen.tex}
+\input{../utils/slide-preamble.tex}
+\input{../utils/color-palettes.tex}
+\input{../utils/dpp-preamble.tex}
+\input{../utils/macros.tex}
+\input{../utils/notation.tex}
+\input{../utils/slide-macros.tex}
+\bibliography{../bib/references}
+
+\title[Comparative biogeography of geckos]{Full Bayesian comparative
+    biogeography of Philippine geckos challenges predictions of climate-driven
+    vicariant speciation}
+
+\author[\href{https://doi.org/10.1111/evo.13754}{{@}jamoaks}]{
+    Jamie R.\ Oaks\inst{1}
+    \and Cameron D.\ Siler\inst{2}
+    \and Rafe M.\ Brown\inst{3}}
+\institute[\href{http://phyletica.org}{phyletica.org}]{
+    \inst{1}%
+    Department of Biological Sciences \& Museum of Natural History,
+    Auburn University
+    \and
+    \inst{2}%
+    Sam Noble Oklahoma Museum of Natural History and Department of Biology,
+    University of Oklahoma
+    \and
+    \inst{3}%
+    Biodiversity Institute and Department of Ecology and Evolutionary
+    Biology, University of Kansas
+}
+
+\setbeamersize{text margin left=3mm, text margin right=3mm}
+
+\begin{document}
+
+% \input{title.tex}
+\begin{frame}[t]
+    \vspace{4ex}
+    \begin{displaybox}[0.95\linewidth]
+    \begin{center}
+        \begin{minipage}[c][0.15\textheight][c]{0.95\linewidth}
+            \begin{center}
+                \Large Full Bayesian comparative biogeography of Philippine
+                geckos challenges predictions of climate-driven vicariant
+                speciation
+            \end{center}
+        \end{minipage}
+    \end{center}
+    \end{displaybox}
+
+    \vspace{1ex}
+    \begin{center}
+        {\Large\bf Jamie Oaks} \\
+        Auburn University \\
+        \begin{tabular}{@{}ll@{}}
+            Web: & \href{http://phyletica.org}{phyletica.org} \\
+            GitHub: & \href{https://github.com/joaks1}{joaks1} \& \href{https://github.com/phyletica}{phyletica} \\
+            Twitter: & \href{https://twitter.com/jamoaks}{{@}jamoaks} \\
+            Slides: & \href{http://phyletica.org/slides/evol2019.pdf}{phyletica.org/slides/evol2019.pdf} 
+        \end{tabular}
+
+        \vspace{4ex}
+        \begin{tabular}{@{}c@{\hskip 8em}c@{}}
+        {\Large\bf Cameron Siler} & {\Large\bf Rafe Brown} \\
+        University of Oklahoma & University of Kansas
+        \end{tabular}
+    \end{center}
+\end{frame}
+
+% \input{se-asia-fragmentation.tex}
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/se-asia-present-widescreen.png}}
+% \usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/se-asia-present.png}}
+\begin{frame}
+    % \frametitle{Empirical applications}    
+\end{frame}
+}
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/se-asia-120-widescreen.png}}
+% \usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/se-asia-120.png}}
+\begin{frame}
+    % \frametitle{Empirical applications}    
+    \begin{columns}
+        \column{0.56\textwidth}
+
+        \vspace{6.7cm}
+
+        \begin{uncoverenv}<3->
+        \colorbox{white}{
+            \begin{minipage}[t]{0.45\textwidth}
+                \raggedright
+                \href{https://youtu.be/mLNLRdbu5W8}{Click here for a sea-level animation of SE Asia youtu.be/mLNLRdbu5W8}
+            \end{minipage}
+        }
+        \end{uncoverenv}
+
+        \ \\
+
+        \column{0.4\textwidth}
+
+        \vspace{-2cm}
+
+        \begin{uncoverenv}<2->
+        \colorbox{white}{
+            \begin{minipage}[t]{1.0\textwidth}
+                \raggedright
+                \textbf{Did fragmentation of islands promote diversification?}
+            \end{minipage}
+        }
+        \end{uncoverenv}
+    \end{columns}
+\end{frame}
+}
+
+% \input{hypothesis.tex}
+
+\input{shared-div-example-very-short.tex}
+
+% \input{div-model-cartoons.tex}
+    
+% \input{div-model-choice.tex}
+\begin{frame}<handout:0|beamer:0>[t,noframenumbering,label=divmodelchoice]
+    % \frametitle{Divergence-model choice}
+    % \frametitle{Inferring co-diversification}
+
+    % \vspace{-3.5mm}
+
+    \begin{minipage}[t][0.35\textheight][t]{\linewidth}
+        \centerline{
+            % \only<1-2>{
+            \only<1->{
+            \begin{tabu} to 1.02\linewidth { X[c] X[c] X[c] X[c] X[c] }
+                $\divModel{1}$ & 
+                $\divModel{2}$ & 
+                $\divModel{3}$ & 
+                $\divModel{4}$ & 
+                $\divModel{5}$ \\
+            \end{tabu}
+            }
+            % \only<3->{
+            % \hspace{-4mm}
+            % \begin{tabu} to 1.05\linewidth { X[c] X[c] X[c] X[c] X[c] }
+            %     $p(\divModel{1} \given \alignmentVector)$ & 
+            %     $p(\divModel{2} \given \alignmentVector)$ & 
+            %     $p(\divModel{3} \given \alignmentVector)$ & 
+            %     $p(\divModel{4} \given \alignmentVector)$ & 
+            %     $p(\divModel{5} \given \alignmentVector)$ \\
+            % \end{tabu}
+            % }
+        }
+        % \hspace{0mm}
+
+        \centerline{
+        \includegraphics<1->[width=0.18\linewidth]{../images/from-ecoevolity-tikz-repo/div-model-111-lines-small.pdf}
+        % \hspace{12.0mm}
+        \hspace{1.3mm}
+        \includegraphics<1->[width=0.18\linewidth]{../images/from-ecoevolity-tikz-repo/div-model-311-lines-small.pdf}
+        % \hspace{5.6mm}
+        \hspace{1.3mm}
+        \includegraphics<1->[width=0.18\linewidth]{../images/from-ecoevolity-tikz-repo/div-model-131-lines-small.pdf}
+        % \hspace{5.6mm}
+        \hspace{1.3mm}
+        \includegraphics<1->[width=0.18\linewidth]{../images/from-ecoevolity-tikz-repo/div-model-113-lines-small.pdf}
+        % \hspace{5.6mm}
+        \hspace{1.3mm}
+        \includegraphics<1->[width=0.18\linewidth]{../images/from-ecoevolity-tikz-repo/div-model-213-lines-small.pdf}
+        }
+    \end{minipage}
+
+    \vspace{-1mm}
+
+    \begin{minipage}[t][0.45\textheight][t]{\linewidth}
+        \begin{onlyenv}<2->
+            \begin{center}
+                We want to infer the model and divergence times given genetic data
+            \end{center}
+        \end{onlyenv}
+
+        \begin{onlyenv}<3->
+            \begin{itemize}
+                \item Analyzed RADseq data with full-likelihood Bayesian comparative phylogeographic method
+            \end{itemize}
+
+            \begin{center}
+                \LARGE
+                \href{https://github.com/phyletica/ecoevolity}{
+                    \textbf{\textcolor{pgreen}{E}\textcolor{pteal}{co\textcolor{pauburn}{evo}lity}}}:
+                \textcolor{pgreen}{\bf E}stimating \textcolor{pauburn}{\bf evo}lutionary \textcolor{pteal}{\bf coevality}
+            \end{center}
+
+            \begin{itemize}
+                \item<4-> Used simulations to assess how well \ecoevolity works given
+                    the gekkonid RADseq \datasets
+            \end{itemize}
+        \end{onlyenv}
+
+%         \vspace{-3mm}
+%         \begin{onlyenv}<4->
+%             \begin{displaybox}[0.60\linewidth]
+%                 \vspace{-1.3mm}
+%                 \only<4->{
+%                     \[
+%                         p(\divModel{i} \given \alignmentVector) \propto
+%                         % \frac{
+%                             p(\alignmentVector \given \divModel{i})
+%                             p(\divModel{i})
+%                         % }{
+%                             % \sum_{i} p(\alignmentVector \given \divModel{i})
+%                             % p(\divModel{i})
+%                         % }
+%                     \]\vspace{0mm}
+%                 }
+
+%                 \vspace{-5mm}
+
+%             \end{displaybox}
+%         \end{onlyenv}
+
+%         \vspace{0.5mm}
+%         \begin{onlyenv}<5->
+%             \begin{displaybox}[0.60\linewidth]
+%                 \vspace{-4.1mm}
+%                 \only<5->{
+%                     \[
+%                         p(\alignmentVector \given \divModel{i}) = 
+%                         \int_{\allParameters{}}
+%                         p(\alignmentVector \given \allParameters{}, \divModel{i})
+%                         p(\allParameters{} \given \divModel{i})
+%                         d\allParameters{}
+%                     \]%\vspace{1mm}
+%                 }
+
+%                 %\vspace{-4mm}
+
+%             \end{displaybox}
+%         \end{onlyenv}
+
+%         \vspace{-1.5mm}
+%         \begin{onlyenv}<6->
+%             \begin{columns}
+
+%                 \column{0.42\linewidth}
+
+%                 \begin{itemize}
+%                     \small
+%                     \item Divergence times
+%                     \item Gene trees
+%                 \end{itemize}
+
+%                 \column{0.42\linewidth}
+
+%                 \begin{itemize}
+%                     \small
+%                     \item Substitution parameters
+%                     \item Demographic parameters
+%                 \end{itemize}
+%             \end{columns}
+%         \end{onlyenv}
+        
+        % \begin{onlyenv}<7->
+        %     \vspace{3.0mm}
+        %     \textbf{Challenges:} \\
+        %     \vspace{-6mm}
+        %     \begin{enumerate}
+        %         % \item<8-> Cannot solve all the integrals analytically
+        %         \item<8-> Likelihood is tractable, but difficult 
+        %         % \begin{itemize}
+        %         %     \item<10-> Numerical approximation via approximate-likelihood Bayesian computation (ABC)
+        %         % \end{itemize}
+        %         \item<9-> Sampling over all possible models
+        %         \begin{itemize}
+        %             \item<10-> 5 taxa = 52 models
+        %             \item<11-> 10 taxa = 115,975 models
+        %             \item<12-> 20 taxa = 51,724,158,235,372 models!!
+        %             % \item<15-> A ``diffuse'' Dirichlet process prior (DPP)
+        %         \end{itemize}
+        %     \end{enumerate}
+        % \end{onlyenv}
+    \end{minipage}
+    % \vspace{-0.5cm}
+    % \barefootnote{\tiny \shortfullcite{Oaks2012}, \shortfullcite{Oaks2014dpp}}
+\end{frame}
+
+\againframe<1-2>{divmodelchoice}
+
+
+% \input{approach-1.tex}
+\begin{frame}[t]
+    \frametitle{Test 1 of ``species-pump''}
+
+    \begin{columns}
+        \column{0.45\linewidth}
+
+        % \vspace{0.05\textheight}
+        \begin{minipage}[t][0.9\textheight][t]{\linewidth}
+        \begin{itemize}
+            \item<1-> We analyzed mitochondrial DNA sequences from 22 pairs of
+                populations\footnotemark[1]{}
+            \begin{itemize}
+                \item<1-> Including bats, shrews, skinks, geckos, snakes, and frogs
+            \end{itemize}
+            \item<2-> Used ABC method \msbayes\footnotemark[2]{}
+            \item<3-> Found strong support for shared divergences across taxa
+                    % (results below for 9 pairs from islands of Negros and Panay)
+                % \item Posterior probability of 0.982 that all 9 pairs from the
+                %     islands of Negros and Panay co-diverged
+            \item<4-> But, method was very sensitive to prior assumptions
+                    and often biased toward estimating co-divergences
+        \end{itemize}
+        \end{minipage}
+
+        \column{0.54\linewidth}
+
+        \begin{minipage}[t][0.9\textheight][t]{\linewidth}
+        \vspace{0.05\textheight}
+        \begin{center}
+        \includegraphics<3->[width=1.0\linewidth]{../images/old-paic-results/negros-panay-msbayes.pdf}
+        \end{center}
+        \end{minipage}
+    \end{columns}
+
+    \vspace{-0.2\textheight}
+    % \footnotetext[1]{\tiny\shortfullcite{Oaks2012}}
+    % \footnotetext[2]{\tiny\shortfullcite{Huang2011}}
+    \barefootnote{\tiny
+    $^1$\shortfullcite{Oaks2012}.
+    $^2$\shortfullcite{Huang2011}.}
+\end{frame}
+
+% \input{approach-2.tex}
+\begin{frame}[t]
+    \frametitle{Test 2 of ``species-pump''}
+
+    \begin{columns}
+        \column{0.45\linewidth}
+
+        % \vspace{0.05\textheight}
+        \begin{minipage}[t][\textheight][t]{\linewidth}
+            % \vspace{0.02\textheight}
+            \begin{itemize}
+                \item<1-> We reanalyzed these data from with a modified ABC
+                    method \dppmsbayes \footnotemark[1]{}
+                \item<2-> After mitigating bias, little information in summary
+                    statistics to inform divergence times
+            \end{itemize}
+
+            {\raggedright
+            \bigskip
+            \uncover<4->{
+            What now?}
+
+            \bigskip
+            \uncover<5->{
+            We need \textbf{more data} and/or a \textbf{more efficient method}}
+        
+            \bigskip
+            \uncover<6->{\bf Our goal is to do both.}
+            }
+        \end{minipage}
+
+        \column{0.54\linewidth}
+
+        \begin{minipage}[t][\textheight][t]{\linewidth}
+            \vspace{-0.09\textheight}
+            \begin{center}
+                \includegraphics<2->[height=0.44\textheight]{../images/old-paic-results/negros-panay-dpp-msbayes.pdf}
+                \includegraphics<3->[height=0.44\textheight]{../images/old-paic-results/negros-panay-dpp-msbayes-sumtimes-italics.pdf}
+            \end{center}
+        \end{minipage}
+    \end{columns}
+
+    \vspace{-0.3\textheight}
+    % \footnotetext[1]{\tiny\shortfullcite{Oaks2014dpp}}
+    % \footnotetext[2]{\tiny\shortfullcite{Oaks2012}}
+    \barefootnote{\tiny
+    $^1$\shortfullcite{Oaks2014dpp}}
+\end{frame}
+
+% \againframe<2>{divmodelchoice}
+
+% \input{gekkonids.tex}
+\begin{frame}
+    \frametitle{\spp{Cyrtodactylus} (Gekkonidae)}
+
+    \begin{columns}[c]
+
+        \column{.48\textwidth}
+        \begin{minipage}[c][\frametextheight][c]{\columnwidth}
+            \begin{itemize}
+                \item 265+ species across Asia
+                \item 10+ species across Philippines
+                \item Nocturnal, scansorial lizards that eat terrestrial invertebrates
+                \item Specialized bent toes for climbing
+            \end{itemize}
+        \end{minipage}
+
+        \column{.51\textwidth}
+        \begin{minipage}[c][\frametextheight][c]{\columnwidth}
+            \centering
+            \includegraphics<1->[width=0.74\columnwidth]{../images/photos/cyrt-agusanensis-small.jpg}
+            \includegraphics<1->[width=0.74\columnwidth]{../images/photos/cyrt-annulatus-cds.jpg}
+        \end{minipage}
+
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{\spp{Gekko} (Gekkonidae)}
+
+    \begin{columns}[c]
+
+        \column{.51\textwidth}
+        \begin{minipage}[c][\frametextheight][c]{\columnwidth}
+            \begin{itemize}
+                \item 60+ species across Southeast Asia
+                \item 14+ species across Philippines
+                \item Nocturnal, scansorial lizards that eat terrestrial invertebrates
+                \item Subdigital lamellae for climbing
+            \end{itemize}
+            \centerline{
+            \includegraphics<1->[height=0.5\textheight]{../images/photos/gekko-mindorensis-small.jpg}}
+        \end{minipage}
+
+        \column{.48\textwidth}
+        \begin{minipage}[c][\frametextheight][c]{\columnwidth}
+            \centering
+            % \includegraphics<1->[width=\columnwidth]{../images/photos/gekko-mindorensis-small.jpg}
+            \includegraphics<1->[height=0.88\textheight]{../images/photos/Gekko-mindorensis-Sorsogon3-small.jpg}
+        \end{minipage}
+
+    \end{columns}
+\end{frame}
+
+% \input{localities.tex}
+\begin{frame}[t]
+    \frametitle{Methods}
+
+    \vspace{-0.03\textheight}
+    \begin{minipage}[t][0.65\textheight][t]{\linewidth}
+        \centerline{
+        \raisebox{-0.5\height}{\includegraphics<1->[height=0.65\textheight]{../images/photos/Cyrt-philippinicus-small.jpg}}
+        % \hspace{1.0mm}
+        \raisebox{-0.5\height}{\includegraphics<1->[height=0.65\textheight]{../images/grid-map-philippines.pdf}}
+        % \hspace{1.0mm}
+        \raisebox{-0.5\height}{\includegraphics<1->[height=0.65\textheight]{../images/photos/Gekko-mindorensis-RMB-22859-small.jpg}}}
+    \end{minipage}
+
+    \begin{minipage}[t][0.35\textheight][t]{\linewidth}
+    \vspace{0.04\textheight}
+    \begin{itemize}
+        \item Sampled 2--5 individuals from 8 pairs of populations for both
+            \spp{Cyrtodactylus} and \spp{Gekko}
+        \item Collected short DNA sequences (RADseq) from across genome of each
+            individual
+    \end{itemize}
+    \end{minipage}
+
+    \vspace{-0.3\textheight}
+    \barefootnote{
+    \shortfullcite{Oaks2018paic}}
+\end{frame}
+
+% \againframe<2->{divmodelchoice}
+
+% \input{ecoevolity.tex}
+\begin{frame}
+
+    Analyzed RADseq data with full-likelihood Bayesian comparative phylogeographic method\footnote{\tiny\shortfullcite{Oaks2018ecoevolity}}:
+
+    \begin{center}
+        \LARGE
+        \href{https://github.com/phyletica/ecoevolity}{
+            \textbf{\textcolor{pgreen}{E}\textcolor{pteal}{co\textcolor{pauburn}{evo}lity}}}:
+        \textcolor{pgreen}{\bf E}stimating \textcolor{pauburn}{\bf evo}lutionary \textcolor{pteal}{\bf coevality}
+    \end{center}
+
+    \begin{itemize}
+        \item<2-> CTMC model of characters evolving along genealogies
+        % \item<2-> Coalescent model of genealogies branching within populations
+        \item<2-> Analytically integrate over coalescent genealogies and
+            mutational histories\footnote{\tiny\shortfullcite{Bryant2012}}
+        \item<2-> Dirichlet-process prior across divergence models
+        % \item<2-> Gibbs sampling\footnote{\tiny\shortfullcite{Neal2000}}
+        %           to numerically sample models
+
+        \bigskip
+        \item<3-> \textsl{Goal: Fast, full-likelihood Bayesian method to infer
+                patterns of co-diversification from genome-scale data}
+        \item<4-> Used simulations to assess how well \ecoevolity works given
+            the gekkonid RADseq \datasets
+    \end{itemize}
+\end{frame}
+
+% \input{results-short.tex}
+% \input{results.tex}
+\begin{frame}
+    \frametitle{Results: \spp{Cyrtodactylus}}
+
+    \begin{center}
+        \centerline{
+        \uncover<1->{\includegraphics[width=0.49\linewidth]{../images/pyco-sumevents-cyrtodactylus-rate200-pretty-pycoevolity-nevents.pdf}}
+        % \hspace{1.0mm}
+        \uncover<2->{\includegraphics[width=0.49\linewidth]{../../data/genomes/msg/ecoevolity-results/pyco-sumtimes-cyrtodactylus-rate200-slides-dropped-pycoevolity-times.pdf}}}
+
+        \smallskip
+        \uncover<3->{
+        Strong support for independent divergences}
+    \end{center}
+
+    \barefootnote{
+    \shortfullcite{Oaks2018paic}}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Results: \spp{Gekko}}
+
+    \begin{center}
+        \centerline{
+        \uncover<1->{\includegraphics[width=0.49\linewidth]{../images/pyco-sumevents-gekko-rate2000-pretty-pycoevolity-nevents.pdf}}
+        % \hspace{1.0mm}
+        \uncover<2->{\includegraphics[width=0.49\linewidth]{../../data/genomes/msg/ecoevolity-results/pyco-sumtimes-gekko-rate2000-slides-pycoevolity-times.pdf}}}
+
+        \smallskip
+        \uncover<3->{
+        Weak support for independent divergences}
+    \end{center}
+
+    \barefootnote{
+    \shortfullcite{Oaks2018paic}}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Results: Simulations}
+
+    \begin{center}
+        \centerline{
+        \includegraphics<1>[height=0.7\textheight]{../../data/genomes/msg/ecoevolity-simulations/plots/event-time-allsites-scatter.pdf}
+        % \hspace{1.0mm}
+        \includegraphics<2>[height=0.7\textheight]{../images/allsites-nevents-compressed.pdf}}
+
+        % \smallskip
+        \uncover<3->{
+        Method performs well on simulated data}
+    \end{center}
+
+    \barefootnote{
+    \shortfullcite{Oaks2018paic}}
+\end{frame}
+
+% \input{conclusions.tex}
+\begin{frame}
+    \frametitle{Key findings}
+    \begin{itemize}
+        \item<1-> Strong support that all 8 pairs of \spp{Cyrtodactylus}
+            populations diverged independently
+        \item<1-> Weak support that all 8 pairs of \spp{Gekko} populations
+            diverged independently
+        \item<1-> Simulation results suggest \ecoevolity can accurately
+            estimate the timing and number of divergences given the gekkonid
+            RADseq data
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Caveats}
+    \begin{itemize}
+        \item Too few island pairs to rule out climate-driven vicariant
+            speciation
+        \item Differences in divergence times could be due to variation in
+            fragmentation times among island pairs
+        \item Differences in divergence could also be due to variation
+            in mutation rates
+    \end{itemize}
+
+    \vspace{1cm}
+    \begin{itemize}
+        \item<2-> Seems safe to conclude that the ``species-pump'' is not the
+            rule for gekkonids, but maybe the exception
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Take home points}
+    \begin{itemize}
+        \item<1-> Support against the ``species-pump'' hypothesis
+        \item<2-> Rare over-water dispersal via rafting on vegetation is likely
+            an important mechanism responsible for the distribution of gekkonid
+            lizards in the Philippines
+    \end{itemize}
+\end{frame}
+
+% \input{open-science.tex}
+\begin{frame}
+    \frametitle{Everything is on GitHub\ldots}
+    Software:\\
+    \begin{itemize}
+        \item Ecoevolity:
+            \url{http://phyletica.org/ecoevolity}
+    \end{itemize}
+
+    \medskip
+    Open-Science Notebook:\\
+    \begin{itemize}
+        \item Gecko RADseq:
+            \url{https://github.com/phyletica/gekgo}
+    \end{itemize}
+\end{frame}
+
+% \input{end-slides.tex}
+\begin{frame}
+    \frametitle{Acknowledgments}
+    \begin{columns}[t]
+        \column{.49\textwidth}
+            {\bf Ideas and feedback:}
+            \begin{myitemize}
+                \item Phyletica Lab (the Phyleticians)
+                \item Constructive feedback from Editor-in-Chief Mohamed Noor,
+                    Associate Editor David Weisrock, and four anonymous
+                    reviewers greatly improved this work
+            \end{myitemize}
+            
+            \smallskip
+            {\bf Lab work:}
+            \begin{myitemize}
+                \item Patrick Monnahan and John Kelly for their help with the
+                    MSG libraries
+            \end{myitemize}
+
+        \column{.49\textwidth}
+            {\bf Computation:}\\
+            % \includegraphics<1->[height={8mm}]{../images/au.pdf}
+            \begin{myitemize}
+                \item Alabama Supercomputer Authority
+                \item Auburn University Hopper Cluster
+            \end{myitemize}
+
+            \smallskip
+            {\bf Funding:}\\
+            \includegraphics<1->[height={8mm}]{../images/nsf.jpg}
+
+            \smallskip
+            {\bf Photo credits:}
+            \begin{myitemize}
+                \item Rafe Brown and Cam Siler
+                % \item FMNH Philippine Mammal Website:
+                %     \begin{myitemize}
+                %         \item D.S.\ Balete, M.R.M.\ Duya, \& J.\ Holden
+                %     \end{myitemize}
+                \item \href{http://phylopic.org/}{PhyloPic!}
+            \end{myitemize}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Questions?}    
+    \begin{columns}[c]
+        \column{.51\textwidth}
+
+        \begin{minipage}[c][\frametextheight][c]{\columnwidth}
+        \begin{center}
+            {
+            \Large
+            \href{mailto:joaks@auburn.edu}{joaks@auburn.edu}
+
+            \bigskip
+            \href{http://phyletica.org/}{phyletica.org}
+            }
+        \end{center}
+        \end{minipage}
+
+        \column{.47\textwidth}
+
+        \begin{minipage}[t][\frametextheight][b]{\columnwidth}
+            \begin{figure}
+                \begin{center}
+                    \smartgraphic{}{../images/darwin-tol-copyright-boris-kulikov-2007.jpg}
+                \vspace{-2.0mm}
+                \caption{\tiny \copyright~2007 Boris Kulikov \href{http://boris-kulikov.blogspot.com/}{boris-kulikov.blogspot.com}}
+                \end{center}
+            \end{figure}
+        \end{minipage}
+
+    \end{columns}
+\end{frame}
+
+% \input{extra-slides.tex}
+
+% Extra slides
+
+% \begin{frame}[noframenumbering]
+%     \frametitle{Results: \spp{Cyrtodactylus}}
+
+%     \begin{center}
+%         \smartgraphic{<1>}{../../data/genomes/msg/ecoevolity-results/pyco-sumtimes-cyrtodactylus-rate200-slides-pycoevolity-times.pdf}
+%         \smartgraphic{<2>}{../../data/genomes/msg/ecoevolity-results/pyco-sumtimes-cyrtodactylus-rate200-slides-dropped-pycoevolity-times.pdf}
+%     \end{center}
+
+% \end{frame}
+
+% \begin{frame}[noframenumbering]
+%     \frametitle{Results: \spp{Gekko}}
+
+%     \begin{center}
+%         \smartgraphic{<1>}{../../data/genomes/msg/ecoevolity-results/pyco-sumtimes-gekko-rate2000-slides-pycoevolity-times.pdf}
+%     \end{center}
+
+% \end{frame}
+
+
+\end{document}
