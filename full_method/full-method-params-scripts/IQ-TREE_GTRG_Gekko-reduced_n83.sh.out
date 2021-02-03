@@ -1,0 +1,217 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    m8-17-2.rc.byu.edu (AVX2, FMA3, 62 GB RAM)
+Command: iqtree2 -s Gekko-reduced_n83.phy -m GTR+G -nt AUTO -alrt 1000 -B 1000
+Seed:    227765 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Feb  3 13:07:03 2021
+Kernel:  AVX+FMA - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file Gekko-reduced_n83.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 88 sequences with 97839 columns, 13307 distinct patterns
+6504 parsimony-informative, 845 singleton sites, 90490 constant sites
+                                           Gap/Ambiguity  Composition  p-value
+   1  CDSGS_39_Gekko_mindorensis_Negros            1.64%    passed     99.71%
+   2  CDSGS_40_Gekko_mindorensis_Negros            1.98%    passed     99.78%
+   3  CDS_100_Gekko_mindorensis_CamiguinSur        2.00%    passed     99.53%
+   4  CDS_101_Gekko_mindorensis_CamiguinSur       12.16%    passed     92.99%
+   5  CDS_102_Gekko_mindorensis_CamiguinSur        1.72%    passed     99.21%
+   6  CDS_1230_Gekko_mindorensis_Mindoro           1.84%    passed     99.96%
+   7  CDS_1461_Gekko_mindorensis_MaestreDeCampo    5.09%    passed     98.00%
+   8  CDS_1462_Gekko_mindorensis_MaestreDeCampo    2.41%    passed     97.91%
+   9  CDS_1463_Gekko_mindorensis_MaestreDeCampo    2.60%    passed     98.94%
+  10  CDS_159_Gekko_ernstkelleri_Panay             9.77%    passed     96.20%
+  11  CDS_212_Gekko_ernstkelleri_Panay            18.80%    passed     95.53%
+  12  CDS_277_Gekko_mindorensis_Negros             1.77%    passed     99.74%
+  13  CDS_3866_Gekko_mindorensis_Lubang            1.98%    passed     99.56%
+  14  CDS_3867_Gekko_mindorensis_Lubang            1.93%    passed     99.54%
+  15  CDS_3935_Gekko_mindorensis_Lubang            1.65%    passed     99.48%
+  16  CDS_3936_Gekko_mindorensis_Lubang            2.72%    passed     98.21%
+  17  CDS_46_Gekko_gigante_SouthGigante            1.95%    passed     99.49%
+  18  CDS_49_Gekko_gigante_NorthGigante            1.61%    passed     99.74%
+  19  CDS_51_Gekko_gigante_NorthGigante            1.74%    passed     99.90%
+  20  CDS_53_Gekko_gigante_NorthGigante            1.64%    passed     99.24%
+  21  CDS_55_Gekko_gigante_SouthGigante            1.72%    passed     99.73%
+  22  CDS_590_Gekko_mindorensis_Caluya             1.66%    passed     99.80%
+  23  CDS_591_Gekko_mindorensis_Caluya             1.61%    passed     99.61%
+  24  CDS_6047_Gekko_mindorensis_Luzon             1.75%    passed     99.22%
+  25  CDS_6051_Gekko_mindorensis_Luzon             2.00%    passed     99.47%
+  26  CDS_6052_Gekko_mindorensis_Luzon             1.55%    passed     99.96%
+  27  CDS_6054_Gekko_mindorensis_Luzon             1.57%    passed     99.84%
+  28  CDS_607_Gekko_mindorensis_Caluya            17.84%    passed     72.84%
+  29  CDS_609_Gekko_mindorensis_Caluya             1.92%    passed     99.20%
+  30  CDS_610_Gekko_mindorensis_Caluya             1.58%    passed     99.45%
+  31  CDS_63_Gekko_mindorensis_Panay               1.54%    passed     99.78%
+  32  CDS_64_Gekko_mindorensis_Panay               2.01%    passed     99.28%
+  33  CDS_65_Gekko_mindorensis_Panay               1.58%    passed     99.91%
+  34  CDS_66_Gekko_mindorensis_Panay               1.54%    passed     99.88%
+  35  CDS_755_Gekko_mindorensis_Masbate            2.64%    passed     99.62%
+  36  CDS_757_Gekko_mindorensis_Masbate            5.06%    passed     99.07%
+  37  CDS_758_Gekko_mindorensis_Masbate            2.67%    passed     99.53%
+  38  CDS_788_Gekko_romblon_Romblon                2.19%    passed     99.45%
+  39  CDS_789_Gekko_romblon_Romblon                5.91%    passed     94.36%
+  40  CDS_790_Gekko_romblon_Romblon                2.79%    passed     98.45%
+  41  CDS_791_Gekko_romblon_Romblon                5.18%    passed     93.36%
+  42  CDS_792_Gekko_romblon_Romblon               13.76%    passed     86.82%
+  43  CDS_99_Gekko_mindorensis_CamiguinSur         1.66%    passed     99.26%
+  44  ELR_1008_Gekko_mindorensis_Mindoro          21.17%    passed     91.04%
+  45  ELR_1010_Gekko_mindorensis_Mindoro           8.06%    passed     97.56%
+  46  RMB_13589_Gekko_carusadensis_Luzon           4.93%    passed     99.60%
+  47  RMB_13591_Gekko_carusadensis_Luzon          10.57%    passed     93.38%
+  48  RMB_13657_Gekko_mindorensis_Luzon            2.27%    passed     99.92%
+  49  RMB_13659_Gekko_mindorensis_Luzon            1.79%    passed     99.72%
+  50  RMB_13660_Gekko_mindorensis_Luzon            1.51%    passed     99.92%
+  51  RMB_13661_Gekko_mindorensis_Luzon            1.55%    passed     99.87%
+  52  RMB_3118_Gekko_athymus_Palawan               5.34%    passed     63.04%
+  53  RMB_5005_Gekko_mindorensis_Mindoro           3.06%    passed     96.35%
+  54  RMB_5006_Gekko_mindorensis_Mindoro           4.42%    passed     97.89%
+  55  RMB_5728_Gekko_sp.b_CamiguinNorte            1.58%    passed     99.96%
+  56  RMB_5730_Gekko_sp.b_CamiguinNorte            1.70%    passed     99.83%
+  57  RMB_5737_Gekko_sp.b_CamiguinNorte            1.82%    passed     99.37%
+  58  RMB_5793_Gekko_sp.b_CamiguinNorte            1.59%    passed     99.94%
+  59  RMB_5953_Gekko_crombota_BabuyanClaro         1.53%    passed     99.81%
+  60  RMB_5954_Gekko_crombota_BabuyanClaro         1.43%    passed     99.68%
+  61  RMB_5969_Gekko_crombota_BabuyanClaro         1.68%    passed     99.87%
+  62  RMB_5970_Gekko_crombota_BabuyanClaro         6.93%    passed     83.58%
+  63  RMB_6052_Gekko_rossi_Calayan                 6.40%    passed     99.99%
+  64  RMB_6056_Gekko_rossi_Calayan                 2.00%    passed     99.77%
+  65  RMB_6058_Gekko_rossi_Calayan                 9.79%    passed     93.28%
+  66  RMB_6059_Gekko_rossi_Calayan                 2.23%    passed     99.18%
+  67  RMB_6060_Gekko_rossi_Calayan                21.52%    passed     54.29%
+  68  RMB_6370_Gekko_sp.a_Dalupiri                 2.09%    passed     99.42%
+  69  RMB_6373_Gekko_sp.a_Dalupiri                24.78%    passed     37.46%
+  70  RMB_6374_Gekko_sp.a_Dalupiri                 1.62%    passed     99.75%
+  71  RMB_6425_Gekko_mindorensis_Panay             2.72%    passed     99.75%
+  72  RMB_6431_Gekko_mindorensis_Panay             3.49%    passed     99.36%
+  73  RMB_6448_Gekko_mindorensis_Panay             1.62%    passed     99.87%
+  74  RMB_6449_Gekko_mindorensis_Panay             1.78%    passed     99.21%
+  75  RMB_7798_Gekko_athymus_Palawan               6.00%    passed     58.61%
+  76  RMB_7828_Gekko_athymus_Palawan               5.04%    passed     71.08%
+  77  RMB_7830_Gekko_athymus_Palawan              33.21%    passed     73.10%
+  78  RMB_7831_Gekko_athymus_Palawan               5.67%    passed     59.57%
+  79  RMB_7922_Gekko_monarchus_Palawan             8.29%    passed     87.32%
+  80  RMB_7938_Gekko_monarchus_Palawan             5.94%    passed     92.73%
+  81  RMB_8789_Gekko_romblon_Tablas                8.85%    passed     97.50%
+  82  RMB_9552_Gekko_porosus_Sabtang               1.70%    passed     99.86%
+  83  RMB_9554_Gekko_porosus_Sabtang              14.05%    passed     34.79%
+  84  RMB_9555_Gekko_porosus_Sabtang               1.63%    passed     99.59%
+  85  RMB_9560_Gekko_porosus_Sabtang               1.61%    passed     99.94%
+  86  RMB_9575_Gekko_porosus_Batan                 1.68%    passed     99.56%
+  87  RMB_9584_Gekko_porosus_Batan                 1.73%    passed     99.90%
+  88  RMB_9585_Gekko_porosus_Batan                 5.68%    passed     98.87%
+****  TOTAL                                        4.80%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.078 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 227765)...
+
+NOTE: 202 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+6 trees examined
+Threads: 1 / Time: 11.003 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -491594
+Threads: 2 / Time: 5.655 sec / Speedup: 1.946 / Efficiency: 97% / LogL: -491594
+Threads: 3 / Time: 3.852 sec / Speedup: 2.856 / Efficiency: 95% / LogL: -491594
+Threads: 4 / Time: 2.999 sec / Speedup: 3.670 / Efficiency: 92% / LogL: -491594
+Threads: 5 / Time: 2.504 sec / Speedup: 4.393 / Efficiency: 88% / LogL: -491594
+Threads: 6 / Time: 2.144 sec / Speedup: 5.131 / Efficiency: 86% / LogL: -491594
+Threads: 7 / Time: 1.919 sec / Speedup: 5.735 / Efficiency: 82% / LogL: -491594
+Threads: 8 / Time: 1.774 sec / Speedup: 6.202 / Efficiency: 78% / LogL: -491594
+Threads: 9 / Time: 1.541 sec / Speedup: 7.138 / Efficiency: 79% / LogL: -491594
+Threads: 10 / Time: 1.413 sec / Speedup: 7.787 / Efficiency: 78% / LogL: -491594
+BEST NUMBER OF THREADS: 10
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -204798.722
+2. Current log-likelihood: -201401.400
+3. Current log-likelihood: -201397.825
+4. Current log-likelihood: -201397.714
+Optimal log-likelihood: -201397.685
+Rate parameters:  A-C: 0.93510  A-G: 4.15521  A-T: 0.61879  C-G: 0.77627  C-T: 4.08964  G-T: 1.00000
+Base frequencies:  A: 0.296  C: 0.203  G: 0.205  T: 0.297
+Gamma shape alpha: 0.020
+Parameters optimization took 4 rounds (2.154 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.054216 sec (of wall-clock time) 0.524367 sec(of CPU time)
+Computing RapidNJ tree took 0.008330 sec (of wall-clock time) 0.033249 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -201687.845
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 8.937 second
+Computing log-likelihood of 98 initial trees ... 3.783 seconds
+Current best score: -201392.399
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -201388.334
+Iteration 10 / LogL: -201389.260 / Time: 0h:0m:57s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 18: -201387.962
+Iteration 20 / LogL: -201389.262 / Time: 0h:1m:2s
+Finish initializing candidate tree set (4)
+Current best tree score: -201387.962 / CPU time: 23.097
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -201388.927 / Time: 0h:1m:9s (0h:3m:30s left)
+Iteration 40 / LogL: -201393.391 / Time: 0h:1m:16s (0h:2m:32s left)
+Iteration 50 / LogL: -201390.228 / Time: 0h:1m:23s (0h:1m:55s left)
+Log-likelihood cutoff on original alignment: -201447.165
+Iteration 60 / LogL: -201395.592 / Time: 0h:1m:30s (0h:1m:28s left)
+Iteration 70 / LogL: -201392.668 / Time: 0h:1m:37s (0h:1m:7s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -201387.917
+Iteration 80 / LogL: -201393.193 / Time: 0h:1m:43s (0h:0m:49s left)
+Iteration 90 / LogL: -201391.512 / Time: 0h:1m:50s (0h:0m:34s left)
+Iteration 100 / LogL: -201388.625 / Time: 0h:1m:57s (0h:0m:21s left)
+Log-likelihood cutoff on original alignment: -201447.165
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 110 / LogL: -201388.334 / Time: 0h:2m:5s (0h:1m:43s left)
+TREE SEARCH COMPLETED AFTER 119 ITERATIONS / Time: 0h:2m:11s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -201387.917
+Optimal log-likelihood: -201387.910
+Rate parameters:  A-C: 0.93752  A-G: 4.16656  A-T: 0.61965  C-G: 0.77688  C-T: 4.10613  G-T: 1.00000
+Base frequencies:  A: 0.296  C: 0.203  G: 0.205  T: 0.297
+Gamma shape alpha: 0.020
+Parameters optimization took 1 rounds (0.254 sec)
+BEST SCORE FOUND : -201387.910
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+13.574 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file Gekko-reduced_n83.phy.splits.nex
+Total tree length: 0.097
+
+Total number of iterations: 119
+CPU time used for tree search: 893.720 sec (0h:14m:53s)
+Wall-clock time used for tree search: 92.419 sec (0h:1m:32s)
+Total CPU time used: 1184.407 sec (0h:19m:44s)
+Total wall-clock time used: 145.697 sec (0h:2m:25s)
+
+Computing bootstrap consensus tree...
+Reading input file Gekko-reduced_n83.phy.splits.nex...
+88 taxa and 281 splits.
+Consensus tree written to Gekko-reduced_n83.phy.contree
+Reading input trees file Gekko-reduced_n83.phy.contree
+Log-likelihood of consensus tree: -201388.446
+
+Analysis results written to: 
+  IQ-TREE report:                Gekko-reduced_n83.phy.iqtree
+  Maximum-likelihood tree:       Gekko-reduced_n83.phy.treefile
+  Likelihood distances:          Gekko-reduced_n83.phy.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Gekko-reduced_n83.phy.splits.nex
+  Consensus tree:                Gekko-reduced_n83.phy.contree
+  Screen log file:               Gekko-reduced_n83.phy.log
+
+Date and Time: Wed Feb  3 13:09:30 2021

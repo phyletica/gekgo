@@ -1,0 +1,211 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    m8-16-16.rc.byu.edu (AVX2, FMA3, 62 GB RAM)
+Command: iqtree2 -s Cyrtodactylus-reduced2_n83.phy -m GTR+G -nt AUTO -alrt 1000 -B 1000
+Seed:    77522 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Feb  2 10:15:17 2021
+Kernel:  AVX+FMA - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file Cyrtodactylus-reduced2_n83.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 85 sequences with 47859 columns, 7357 distinct patterns
+2727 parsimony-informative, 697 singleton sites, 44435 constant sites
+                                                    Gap/Ambiguity  Composition  p-value
+   1  CDS_1112_Cyrtodactylus_philippinicus_Polillo          1.42%    passed     99.66%
+   2  CDS_1442_Cyrtodactylus_philippinicus_Sibuyan          1.39%    passed     99.33%
+   3  CDS_1550_Cyrtodactylus_philippinicus_Panay            1.40%    passed     99.36%
+   4  CDS_173_Cyrtodactylus_philippinicus_Panay             1.58%    passed     98.49%
+   5  CDS_2844_Cyrtodactylus_sumuroi_Samar                  2.45%    passed     99.47%
+   6  CDS_2967_Cyrtodactylus_sumuroi_Samar                  1.86%    passed     98.77%
+   7  CDS_2984_Cyrtodactylus_sumuroi_Samar                  1.96%    passed     99.29%
+   8  CDS_3030_Cyrtodactylus_sumuroi_Samar                  4.30%    passed     99.67%
+   9  CDS_3751_Cyrtodactylus_philippinicus_Lubang           1.72%    passed     98.67%
+  10  CDS_3793_Cyrtodactylus_philippinicus_Lubang           1.72%    passed     98.25%
+  11  CDS_3932_Cyrtodactylus_philippinicus_Lubang           1.49%    passed     98.83%
+  12  CDS_4341_Cyrtodactylus_philippinicus_Negros           1.53%    passed     99.27%
+  13  CDS_4384_Cyrtodactylus_philippinicus_Negros          18.13%    passed     81.22%
+  14  CDS_4485_Cyrtodactylus_annulatus_Bohol                1.41%    passed     99.77%
+  15  CDS_4659_Cyrtodactylus_annulatus_Bohol                1.62%    passed     99.72%
+  16  CDS_4660_Cyrtodactylus_annulatus_Bohol                1.51%    passed     99.94%
+  17  CDS_5627_Cyrtodactylus_philippinicus_Luzon            3.60%    passed     99.66%
+  18  CDS_5724_Cyrtodactylus_philippinicus_Luzon            1.50%    passed     99.93%
+  19  CDS_5822_Cyrtodactylus_philippinicus_Luzon            1.71%    passed     98.82%
+  20  CDS_5823_Cyrtodactylus_philippinicus_Luzon            1.79%    passed     99.97%
+  21  CWL_89_Cyrtodactylus_annulatus_Cebu                   1.78%    passed     98.67%
+  22  CWL_90_Cyrtodactylus_annulatus_Cebu                   5.62%    passed     95.00%
+  23  ELR_681_Cyrtodactylus_philippinicus_Mindoro           2.30%    passed     99.70%
+  24  ELR_682_Cyrtodactylus_philippinicus_Mindoro           1.58%    passed     98.89%
+  25  RMB_11670_Cyrtodactylus_jambangan_Mindanao            2.39%    passed     98.69%
+  26  RMB_11746_Cyrtodactylus_jambangan_Mindanao            7.66%    passed     95.07%
+  27  RMB_12834_Cyrtodactylus_philippinicus_Luzon           2.11%    passed     99.16%
+  28  RMB_12835_Cyrtodactylus_philippinicus_Luzon           3.71%    passed     92.83%
+  29  RMB_12836_Cyrtodactylus_philippinicus_Luzon           1.40%    passed     99.99%
+  30  RMB_12837_Cyrtodactylus_philippinicus_Luzon           1.39%    passed     99.87%
+  31  RMB_12838_Cyrtodactylus_philippinicus_Luzon           3.23%    passed     96.22%
+  32  RMB_13366_Cyrtodactylus_philippinicus_Luzon           1.90%    passed     99.89%
+  33  RMB_13510_Cyrtodactylus_philippinicus_Luzon           3.86%    passed     99.49%
+  34  RMB_13669_Cyrtodactylus_philippinicus_Luzon           1.82%    passed     98.67%
+  35  RMB_13670_Cyrtodactylus_philippinicus_Luzon           3.78%    passed     99.05%
+  36  RMB_13902_Cyrtodactylus_philippinicus_Luzon           1.98%    passed     99.11%
+  37  RMB_13961_Cyrtodactylus_philippinicus_Luzon           1.36%    passed     99.96%
+  38  RMB_13964_Cyrtodactylus_philippinicus_Luzon           1.61%    passed     99.75%
+  39  RMB_13966_Cyrtodactylus_philippinicus_Luzon           7.09%    passed     88.45%
+  40  RMB_14310_Cyrtodactylus_philippinicus_Luzon           1.31%    passed     99.73%
+  41  RMB_14453_Cyrtodactylus_philippinicus_Luzon           1.88%    passed     99.22%
+  42  RMB_15119_Cyrtodactylus_philippinicus_Luzon           2.10%    passed     91.17%
+  43  RMB_15212_Cyrtodactylus_philippinicus_Luzon           1.96%    passed     91.24%
+  44  RMB_5184_Cyrtodactylus_philippinicus_Sibuyan          1.68%    passed     98.18%
+  45  RMB_5185_Cyrtodactylus_philippinicus_Sibuyan          1.69%    passed     98.93%
+  46  RMB_5754_Cyrtodactylus_philippinicus_CamiguinNorte    1.80%    passed     99.92%
+  47  RMB_5755_Cyrtodactylus_philippinicus_CamiguinNorte    1.39%    passed     98.25%
+  48  RMB_5757_Cyrtodactylus_philippinicus_CamiguinNorte    1.58%    passed     97.79%
+  49  RMB_5811_Cyrtodactylus_philippinicus_CamiguinNorte    1.39%    passed     99.98%
+  50  RMB_5905_Cyrtodactylus_philippinicus_BabuyanClaro     2.11%    passed     96.63%
+  51  RMB_6259_Cyrtodactylus_philippinicus_Polillo          1.26%    passed     99.16%
+  52  RMB_6260_Cyrtodactylus_philippinicus_Polillo          1.64%    passed     99.15%
+  53  RMB_6261_Cyrtodactylus_philippinicus_Polillo          1.67%    passed     99.16%
+  54  RMB_6332_Cyrtodactylus_philippinicus_Polillo          2.41%    passed     97.95%
+  55  RMB_6447_Cyrtodactylus_philippinicus_Mindoro          1.60%    passed     99.37%
+  56  RMB_6455_Cyrtodactylus_philippinicus_Mindoro          1.72%    passed     99.29%
+  57  RMB_6628_Cyrtodactylus_philippinicus_Mindoro          1.36%    passed     99.80%
+  58  RMB_7646_Cyrtodactylus_tautbatorum_Palawan            1.65%    passed     95.17%
+  59  RMB_7647_Cyrtodactylus_tautbatorum_Palawan            2.39%    passed     92.37%
+  60  RMB_7649_Cyrtodactylus_tautbatorum_Palawan            2.34%    passed     90.81%
+  61  RMB_7724_Cyrtodactylus_annulatus_Palawan              3.03%    passed     98.09%
+  62  RMB_7757_Cyrtodactylus_redimiculus_Palawan            7.94%    passed     38.63%
+  63  RMB_7842_Cyrtodactylus_redimiculus_Palawan            1.25%    passed     94.80%
+  64  RMB_7859_Cyrtodactylus_redimiculus_Palawan            1.84%    passed     95.95%
+  65  RMB_7873_Cyrtodactylus_redimiculus_Palawan            3.46%    passed     95.20%
+  66  RMB_8043_Cyrtodactylus_annulatus_CamiguinSur          1.43%    passed     99.95%
+  67  RMB_8201_Cyrtodactylus_annulatus_CamiguinSur         11.15%    passed     98.79%
+  68  RMB_8220_Cyrtodactylus_annulatus_CamiguinSur          1.55%    passed     99.35%
+  69  RMB_8232_Cyrtodactylus_annulatus_CamiguinSur          1.70%    passed     99.73%
+  70  RMB_8416_Cyrtodactylus_mamanwa_Dinagat                2.65%    passed     99.96%
+  71  RMB_8418_Cyrtodactylus_mamanwa_Dinagat                2.38%    passed     98.28%
+  72  RMB_8444_Cyrtodactylus_mamanwa_Dinagat                2.76%    passed     99.65%
+  73  RMB_8445_Cyrtodactylus_mamanwa_Dinagat                2.90%    passed     99.22%
+  74  RMB_8761_Cyrtodactylus_philippinicus_Tablas           1.58%    passed     99.01%
+  75  RMB_8790_Cyrtodactylus_philippinicus_Tablas           1.35%    passed     98.04%
+  76  RMB_8931_Cyrtodactylus_gubaot_Leyte                   1.76%    passed     99.82%
+  77  RMB_8932_Cyrtodactylus_gubaot_Leyte                   1.97%    passed     98.93%
+  78  RMB_8933_Cyrtodactylus_gubaot_Leyte                   1.57%    passed     99.54%
+  79  RMB_8934_Cyrtodactylus_gubaot_Leyte                   1.62%    passed     99.85%
+  80  RMB_8937_Cyrtodactylus_gubaot_Leyte                   1.93%    passed     99.36%
+  81  RMB_9207_Cyrtodactylus_jambangan_Mindanao             2.00%    passed     99.76%
+  82  RMB_9693_Cyrtodactylus_philippinicus_Luzon           13.39%    passed     74.21%
+  83  RMB_9740_Cyrtodactylus_philippinicus_Luzon            2.26%    passed     99.40%
+  84  RMB_9745_Cyrtodactylus_philippinicus_Luzon            1.95%    passed     99.62%
+  85  RMB_9748_Cyrtodactylus_philippinicus_Luzon            1.82%    passed     96.56%
+****  TOTAL                                                 2.64%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.042 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 77522)...
+
+NOTE: 109 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 10.572 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -199538
+Threads: 2 / Time: 5.623 sec / Speedup: 1.880 / Efficiency: 94% / LogL: -199538
+Threads: 3 / Time: 3.985 sec / Speedup: 2.653 / Efficiency: 88% / LogL: -199538
+Threads: 4 / Time: 3.174 sec / Speedup: 3.330 / Efficiency: 83% / LogL: -199538
+Threads: 5 / Time: 2.558 sec / Speedup: 4.133 / Efficiency: 83% / LogL: -199538
+Threads: 6 / Time: 2.242 sec / Speedup: 4.715 / Efficiency: 79% / LogL: -199538
+Threads: 7 / Time: 1.998 sec / Speedup: 5.291 / Efficiency: 76% / LogL: -199538
+Threads: 8 / Time: 1.830 sec / Speedup: 5.777 / Efficiency: 72% / LogL: -199538
+Threads: 9 / Time: 1.753 sec / Speedup: 6.030 / Efficiency: 67% / LogL: -199538
+Threads: 10 / Time: 1.601 sec / Speedup: 6.605 / Efficiency: 66% / LogL: -199538
+BEST NUMBER OF THREADS: 10
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -101312.988
+2. Current log-likelihood: -99508.081
+3. Current log-likelihood: -99506.526
+4. Current log-likelihood: -99506.386
+Optimal log-likelihood: -99506.339
+Rate parameters:  A-C: 1.06768  A-G: 4.95414  A-T: 0.76957  C-G: 0.83470  C-T: 4.88989  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.200  G: 0.197  T: 0.303
+Gamma shape alpha: 0.020
+Parameters optimization took 4 rounds (1.244 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.039181 sec (of wall-clock time) 0.382663 sec(of CPU time)
+Computing RapidNJ tree took 0.006726 sec (of wall-clock time) 0.022253 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -99638.288
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 4.979 second
+Computing log-likelihood of 98 initial trees ... 2.209 seconds
+Current best score: -99488.499
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -99483.094
+Iteration 10 / LogL: -99483.854 / Time: 0h:0m:47s
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -99483.071
+Iteration 20 / LogL: -99483.177 / Time: 0h:0m:51s
+Finish initializing candidate tree set (13)
+Current best tree score: -99483.071 / CPU time: 13.663
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -99488.718 / Time: 0h:0m:55s (0h:2m:15s left)
+Iteration 40 / LogL: -99590.520 / Time: 0h:0m:59s (0h:1m:32s left)
+Iteration 50 / LogL: -99483.910 / Time: 0h:1m:3s (0h:1m:5s left)
+Log-likelihood cutoff on original alignment: -99549.994
+Iteration 60 / LogL: -99483.151 / Time: 0h:1m:6s (0h:0m:46s left)
+Iteration 70 / LogL: -99484.067 / Time: 0h:1m:10s (0h:0m:31s left)
+Iteration 80 / LogL: -99483.911 / Time: 0h:1m:14s (0h:0m:19s left)
+Iteration 90 / LogL: -99502.682 / Time: 0h:1m:18s (0h:0m:9s left)
+Iteration 100 / LogL: -99483.119 / Time: 0h:1m:22s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -99549.994
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:1m:23s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -99483.071
+Optimal log-likelihood: -99483.068
+Rate parameters:  A-C: 1.05851  A-G: 4.94484  A-T: 0.76275  C-G: 0.82592  C-T: 4.89020  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.200  G: 0.197  T: 0.303
+Gamma shape alpha: 0.020
+Parameters optimization took 1 rounds (0.183 sec)
+BEST SCORE FOUND : -99483.068
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+6.041 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file Cyrtodactylus-reduced2_n83.phy.splits.nex
+Total tree length: 0.092
+
+Total number of iterations: 102
+CPU time used for tree search: 406.258 sec (0h:6m:46s)
+Wall-clock time used for tree search: 45.621 sec (0h:0m:45s)
+Total CPU time used: 616.509 sec (0h:10m:16s)
+Total wall-clock time used: 89.685 sec (0h:1m:29s)
+
+Computing bootstrap consensus tree...
+Reading input file Cyrtodactylus-reduced2_n83.phy.splits.nex...
+85 taxa and 281 splits.
+Consensus tree written to Cyrtodactylus-reduced2_n83.phy.contree
+Reading input trees file Cyrtodactylus-reduced2_n83.phy.contree
+Log-likelihood of consensus tree: -99483.402
+
+Analysis results written to: 
+  IQ-TREE report:                Cyrtodactylus-reduced2_n83.phy.iqtree
+  Maximum-likelihood tree:       Cyrtodactylus-reduced2_n83.phy.treefile
+  Likelihood distances:          Cyrtodactylus-reduced2_n83.phy.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Cyrtodactylus-reduced2_n83.phy.splits.nex
+  Consensus tree:                Cyrtodactylus-reduced2_n83.phy.contree
+  Screen log file:               Cyrtodactylus-reduced2_n83.phy.log
+
+Date and Time: Tue Feb  2 10:16:47 2021
