@@ -1,0 +1,154 @@
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                           total_filters applied_order retained_loci
+total_prefiltered_loci                 0             0         85439
+filtered_by_rm_duplicates            707           707         84732
+filtered_by_max_indels                96            96         84636
+filtered_by_max_SNPs                  89            86         84550
+filtered_by_max_shared_het            24            23         84527
+filtered_by_min_sample             83082         83082          1445
+total_filtered_loci                83998         83994          1445
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                                    sample_coverage
+CDS_1112_Cyrtodactylus_philippinicus_Polillo                   1445
+CDS_1442_Cyrtodactylus_philippinicus_Sibuyan                   1445
+CDS_173_Cyrtodactylus_philippinicus_Panay                      1445
+CDS_2844_Cyrtodactylus_sumuroi_Samar                           1445
+CDS_3932_Cyrtodactylus_philippinicus_Lubang                    1445
+CDS_4341_Cyrtodactylus_philippinicus_Negros                    1445
+CDS_4485_Cyrtodactylus_annulatus_Bohol                         1445
+CDS_5823_Cyrtodactylus_philippinicus_Luzon                     1445
+CWL_89_Cyrtodactylus_annulatus_Cebu                            1445
+ELR_682_Cyrtodactylus_philippinicus_Mindoro                    1445
+RMB_11670_Cyrtodactylus_jambangan_Mindanao                     1445
+RMB_12836_Cyrtodactylus_philippinicus_Luzon                    1445
+RMB_13366_Cyrtodactylus_philippinicus_Luzon                    1445
+RMB_13669_Cyrtodactylus_philippinicus_Luzon                    1445
+RMB_13964_Cyrtodactylus_philippinicus_Luzon                    1445
+RMB_14453_Cyrtodactylus_philippinicus_Luzon                    1445
+RMB_15119_Cyrtodactylus_philippinicus_Luzon                    1445
+RMB_5185_Cyrtodactylus_philippinicus_Sibuyan                   1445
+RMB_5754_Cyrtodactylus_philippinicus_CamiguinNorte             1445
+RMB_5905_Cyrtodactylus_philippinicus_BabuyanClaro              1445
+RMB_6259_Cyrtodactylus_philippinicus_Polillo                   1445
+RMB_6455_Cyrtodactylus_philippinicus_Mindoro                   1445
+RMB_7647_Cyrtodactylus_tautbatorum_Palawan                     1445
+RMB_7859_Cyrtodactylus_redimiculus_Palawan                     1445
+RMB_8043_Cyrtodactylus_annulatus_CamiguinSur                   1445
+RMB_8444_Cyrtodactylus_mamanwa_Dinagat                         1445
+RMB_8761_Cyrtodactylus_philippinicus_Tablas                    1445
+RMB_8933_Cyrtodactylus_gubaot_Leyte                            1445
+RMB_9207_Cyrtodactylus_jambangan_Mindanao                      1445
+RMB_9748_Cyrtodactylus_philippinicus_Luzon                     1445
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+    locus_coverage  sum_coverage
+1                0             0
+2                0             0
+3                0             0
+4                0             0
+5                0             0
+6                0             0
+7                0             0
+8                0             0
+9                0             0
+10               0             0
+11               0             0
+12               0             0
+13               0             0
+14               0             0
+15               0             0
+16               0             0
+17               0             0
+18               0             0
+19               0             0
+20               0             0
+21               0             0
+22               0             0
+23               0             0
+24               0             0
+25               0             0
+26               0             0
+27               0             0
+28               0             0
+29               0             0
+30            1445          1445
+
+
+The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+## The "reference" sample is included if present unless 'exclude_reference=True'
+
+    var  sum_var  pis  sum_pis
+0    16        0   98        0
+1    22       22  156      156
+2    22       66  197      550
+3    57      237  205     1165
+4    61      481  209     2001
+5    65      806  193     2966
+6    88     1334  148     3854
+7   103     2055  100     4554
+8   108     2919   62     5050
+9   114     3945   46     5464
+10  126     5205   18     5644
+11  132     6657    8     5732
+12  112     8001    2     5756
+13  101     9314    3     5795
+14   93    10616    0     5795
+15   85    11891    0     5795
+16   57    12803    0     5795
+17   42    13517    0     5795
+18   36    14165    0     5795
+19    4    14241    0     5795
+20    0    14241    0     5795
+21    1    14262    0     5795
+
+
+## Final Sample stats summary
+                                                    state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+CDS_1112_Cyrtodactylus_philippinicus_Polillo            7    1291039              1288189          112757             27168    0.014730   0.001510          25497              1445
+CDS_1442_Cyrtodactylus_philippinicus_Sibuyan            7    3005198              2999320          136610             37907    0.012188   0.001067          35703              1445
+CDS_173_Cyrtodactylus_philippinicus_Panay               7    7343094              7329648          231455             66700    0.014334   0.000838          62649              1445
+CDS_2844_Cyrtodactylus_sumuroi_Samar                    7    6985413              6973036          274939             65676    0.017503   0.000905          60667              1445
+CDS_3932_Cyrtodactylus_philippinicus_Lubang             7     752346               751647           40934             21543    0.009151   0.003241          20434              1445
+CDS_4341_Cyrtodactylus_philippinicus_Negros             7     729585               727979           57494             22438    0.010741   0.001661          21326              1445
+CDS_4485_Cyrtodactylus_annulatus_Bohol                  7     935026               934067           41692             20044    0.009262   0.003457          18948              1445
+CDS_5823_Cyrtodactylus_philippinicus_Luzon              7    1571639              1569785           54907             25102    0.011370   0.003292          23645              1445
+CWL_89_Cyrtodactylus_annulatus_Cebu                     7    2427482              2426014           39081             17921    0.007880   0.003506          16952              1445
+ELR_682_Cyrtodactylus_philippinicus_Mindoro             7    1611789              1608484          132005             29528    0.014012   0.001545          27497              1445
+RMB_11670_Cyrtodactylus_jambangan_Mindanao              7    1738420              1736943           43827             20232    0.014230   0.003717          18788              1445
+RMB_12836_Cyrtodactylus_philippinicus_Luzon             7     996510               995474           44027             23944    0.011672   0.003166          22517              1445
+RMB_13366_Cyrtodactylus_philippinicus_Luzon             7    1253760              1253012           38576             18592    0.009119   0.003445          17603              1445
+RMB_13669_Cyrtodactylus_philippinicus_Luzon             7     980437               979330           48361             23767    0.010990   0.003636          22413              1445
+RMB_13964_Cyrtodactylus_philippinicus_Luzon             7    1577796              1576679           46777             19890    0.012049   0.003601          18602              1445
+RMB_14453_Cyrtodactylus_philippinicus_Luzon             7    1656004              1654933           46542             20981    0.009096   0.003554          19875              1445
+RMB_15119_Cyrtodactylus_philippinicus_Luzon             7     412909               412621           32429             14897    0.010933   0.004038          13951              1445
+RMB_5185_Cyrtodactylus_philippinicus_Sibuyan            7    2124177              2118079          188158             35956    0.015278   0.001385          33312              1445
+RMB_5754_Cyrtodactylus_philippinicus_CamiguinNorte      7    1009743              1008730           48541             22910    0.008052   0.003159          21765              1445
+RMB_5905_Cyrtodactylus_philippinicus_BabuyanClaro       7     582194               581658           40929             19678    0.008634   0.003544          18648              1445
+RMB_6259_Cyrtodactylus_philippinicus_Polillo            7    2112805              2109225          109420             33896    0.012937   0.001239          31900              1445
+RMB_6455_Cyrtodactylus_philippinicus_Mindoro            7    3156894              3150898          129244             39418    0.011396   0.000961          37324              1445
+RMB_7647_Cyrtodactylus_tautbatorum_Palawan              7    3965710              3953085          178645             48447    0.014279   0.001012          45365              1445
+RMB_7859_Cyrtodactylus_redimiculus_Palawan              7    3966622              3957292          203008             48449    0.014476   0.001092          44951              1445
+RMB_8043_Cyrtodactylus_annulatus_CamiguinSur            7    1025019              1023786           47276             23387    0.009514   0.003021          22113              1445
+RMB_8444_Cyrtodactylus_mamanwa_Dinagat                  7    2715807              2713848           57158             25762    0.012763   0.003170          24172              1445
+RMB_8761_Cyrtodactylus_philippinicus_Tablas             7    3790474              3784180          170480             43926    0.012873   0.000964          41368              1445
+RMB_8933_Cyrtodactylus_gubaot_Leyte                     7    1871679              1869770           65988             27035    0.011843   0.003038          25435              1445
+RMB_9207_Cyrtodactylus_jambangan_Mindanao               7     504722               504297           34229             14665    0.014847   0.003562          13545              1445
+RMB_9748_Cyrtodactylus_philippinicus_Luzon              7    3426655              3424228           61003             25873    0.010796   0.003164          24294              1445
+
+
+## Alignment matrix statistics:
+snps matrix size: (30, 14262), 0.75% missing sites.
+sequence matrix size: (30, 132866), 1.04% missing sites.
