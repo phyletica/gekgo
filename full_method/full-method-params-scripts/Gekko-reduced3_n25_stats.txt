@@ -1,0 +1,149 @@
+
+## The number of loci caught by each filter.
+## ipyrad API location: [assembly].stats_dfs.s7_filters
+
+                           total_filters applied_order retained_loci
+total_prefiltered_loci                 0             0         81434
+filtered_by_rm_duplicates            663           663         80771
+filtered_by_max_indels               347           347         80424
+filtered_by_max_SNPs                  89            82         80342
+filtered_by_max_shared_het            16            15         80327
+filtered_by_min_sample             74212         74212          6115
+total_filtered_loci                75327         75319          6115
+
+
+## The number of loci recovered for each Sample.
+## ipyrad API location: [assembly].stats_dfs.s7_samples
+
+                                           sample_coverage
+CDSGS_40_Gekko_mindorensis_Negros                     6044
+CDS_100_Gekko_mindorensis_CamiguinSur                 6031
+CDS_1230_Gekko_mindorensis_Mindoro                    6051
+CDS_1462_Gekko_mindorensis_MaestreDeCampo             5991
+CDS_159_Gekko_ernstkelleri_Panay                      5159
+CDS_3935_Gekko_mindorensis_Lubang                     6008
+CDS_46_Gekko_gigante_SouthGigante                     5881
+CDS_51_Gekko_gigante_NorthGigante                     5909
+CDS_6047_Gekko_mindorensis_Luzon                      6041
+CDS_609_Gekko_mindorensis_Caluya                      6067
+CDS_65_Gekko_mindorensis_Panay                        6067
+CDS_755_Gekko_mindorensis_Masbate                     6070
+CDS_757_Gekko_mindorensis_Masbate                     4705
+CDS_758_Gekko_mindorensis_Masbate                     6071
+CDS_788_Gekko_romblon_Romblon                         5437
+ELR_1010_Gekko_mindorensis_Mindoro                    4086
+RMB_13589_Gekko_carusadensis_Luzon                    5798
+RMB_13659_Gekko_mindorensis_Luzon                     6014
+RMB_3118_Gekko_athymus_Palawan                        4728
+RMB_5793_Gekko_sp.b_CamiguinNorte                     5939
+RMB_5969_Gekko_crombota_BabuyanClaro                  5952
+RMB_6056_Gekko_rossi_Calayan                          5960
+RMB_6374_Gekko_sp.a_Dalupiri                          5831
+RMB_6449_Gekko_mindorensis_Panay                      6058
+RMB_7828_Gekko_athymus_Palawan                        4768
+RMB_7938_Gekko_monarchus_Palawan                      5324
+RMB_8789_Gekko_romblon_Tablas                         3788
+RMB_9552_Gekko_porosus_Sabtang                        5955
+RMB_9575_Gekko_porosus_Batan                          5960
+
+
+## The number of loci for which N taxa have data.
+## ipyrad API location: [assembly].stats_dfs.s7_loci
+
+    locus_coverage  sum_coverage
+1                0             0
+2                0             0
+3                0             0
+4                0             0
+5                0             0
+6                0             0
+7                0             0
+8                0             0
+9                0             0
+10               0             0
+11               0             0
+12               0             0
+13               0             0
+14               0             0
+15               0             0
+16               0             0
+17               0             0
+18               0             0
+19               0             0
+20               0             0
+21               0             0
+22               0             0
+23               0             0
+24               0             0
+25            1387          1387
+26            1429          2816
+27            1406          4222
+28             995          5217
+29             898          6115
+
+
+The distribution of SNPs (var and pis) per locus.
+## var = Number of loci with n variable sites (pis + autapomorphies)
+## pis = Number of loci with n parsimony informative site (minor allele in >1 sample)
+## ipyrad API location: [assembly].stats_dfs.s7_snps
+## The "reference" sample is included if present unless 'exclude_reference=True'
+
+    var  sum_var  pis  sum_pis
+0    53        0  210        0
+1   120      120  452      452
+2   220      560  730     1912
+3   307     1481  904     4624
+4   464     3337  898     8216
+5   570     6187  828    12356
+6   629     9961  679    16430
+7   716    14973  480    19790
+8   626    19981  351    22598
+9   548    24913  228    24650
+10  486    29773  165    26300
+11  358    33711   83    27213
+12  295    37251   54    27861
+13  255    40566   28    28225
+14  181    43100   11    28379
+15  101    44615    9    28514
+16   90    46055    3    28562
+17   51    46922    2    28596
+18   39    47624    0    28596
+19    6    47738    0    28596
+
+
+## Final Sample stats summary
+                                           state  reads_raw  reads_passed_filter  clusters_total  clusters_hidepth  hetero_est  error_est  reads_consens  loci_in_assembly
+CDSGS_40_Gekko_mindorensis_Negros              7    2673060              2667726           55748             25108    0.008705   0.000722          23995              6044
+CDS_100_Gekko_mindorensis_CamiguinSur          7   18189306             18134806          288793            113176    0.012981   0.000660         105367              6031
+CDS_1230_Gekko_mindorensis_Mindoro             7    1587880              1584167           42825             23016    0.010031   0.000798          22006              6051
+CDS_1462_Gekko_mindorensis_MaestreDeCampo      7     974702               972576           39009             20708    0.009933   0.001146          19856              5991
+CDS_159_Gekko_ernstkelleri_Panay               7     877061               873932           95487             20890    0.015469   0.002108          19458              5159
+CDS_3935_Gekko_mindorensis_Lubang              7    2709331              2697475           97021             33482    0.012204   0.001058          31414              6008
+CDS_46_Gekko_gigante_SouthGigante              7    1016469              1012826           86136             23485    0.014264   0.001817          21872              5881
+CDS_51_Gekko_gigante_NorthGigante              7    2139064              2131686          138069             30027    0.015054   0.001485          27648              5909
+CDS_6047_Gekko_mindorensis_Luzon               7    2037742              2032025          160498             29193    0.018753   0.001575          26304              6041
+CDS_609_Gekko_mindorensis_Caluya               7    3805511              3794572          171089             40210    0.015333   0.001028          37090              6067
+CDS_65_Gekko_mindorensis_Panay                 7    3400071              3393630           53806             26846    0.008806   0.000589          25617              6067
+CDS_755_Gekko_mindorensis_Masbate              7    2335641              2331781           48637             24597    0.009414   0.000745          23550              6070
+CDS_757_Gekko_mindorensis_Masbate              7     285698               285116           26599             11395    0.008113   0.001598          10794              4705
+CDS_758_Gekko_mindorensis_Masbate              7    3166734              3159878           55414             26121    0.009162   0.000648          24946              6071
+CDS_788_Gekko_romblon_Romblon                  7     401154               400061           31348             15563    0.012750   0.001457          14845              5437
+ELR_1010_Gekko_mindorensis_Mindoro             7     671536               671063           56771             10114    0.012685   0.002315           9208              4086
+RMB_13589_Gekko_carusadensis_Luzon             7    1144607              1139729          114648             23160    0.016125   0.002142          21307              5798
+RMB_13659_Gekko_mindorensis_Luzon              7    2028824              2022267          281228             32061    0.033898   0.002305          26858              6014
+RMB_3118_Gekko_athymus_Palawan                 7    1305582              1301711           85743             26462    0.011977   0.001286          24857              4728
+RMB_5793_Gekko_sp.b_CamiguinNorte              7    2619518              2614827           44812             24174    0.009492   0.000760          23119              5939
+RMB_5969_Gekko_crombota_BabuyanClaro           7    4403000              4387611          166211             44996    0.013541   0.001114          41556              5952
+RMB_6056_Gekko_rossi_Calayan                   7    1286922              1283556           38714             22688    0.008993   0.000889          21722              5960
+RMB_6374_Gekko_sp.a_Dalupiri                   7     601890               600319           34643             18306    0.011052   0.001807          17473              5831
+RMB_6449_Gekko_mindorensis_Panay               7    1441845              1438684           39452             22407    0.008790   0.000765          21516              6058
+RMB_7828_Gekko_athymus_Palawan                 7    3814332              3802968          142322             41919    0.013446   0.001004          39119              4768
+RMB_7938_Gekko_monarchus_Palawan               7     410167               409174           29386             15458    0.012923   0.001512          14693              5324
+RMB_8789_Gekko_romblon_Tablas                  7     376105               375564           26252              9277    0.010169   0.001573           8677              3788
+RMB_9552_Gekko_porosus_Sabtang                 7    2340820              2336738           46638             23878    0.009750   0.000828          22787              5955
+RMB_9575_Gekko_porosus_Batan                   7    2449849              2445502           51095             24179    0.009286   0.000771          23099              5960
+
+
+## Alignment matrix statistics:
+snps matrix size: (29, 47738), 8.34% missing sites.
+sequence matrix size: (29, 562138), 8.55% missing sites.
