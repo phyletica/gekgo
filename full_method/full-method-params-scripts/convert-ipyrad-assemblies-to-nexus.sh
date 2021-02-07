@@ -15,7 +15,9 @@ fi
 
 loci_paths=( \
     Cyrtodactylus-reduced3_n80.loci.gz \
-    Gekko-reduced2_n81.loci.gz
+    Cyrtodactylus-reduced5_n27.loci.gz \
+    Gekko-reduced2_n81.loci.gz \
+    Gekko-reduced4_n26.loci.gz
 )
 cyrt_label_csv_path="cyrtodactylus-id-changes.csv"
 gekko_label_csv_path="gekko-id-changes.csv"
