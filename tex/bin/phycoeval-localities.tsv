@@ -1,0 +1,54 @@
+catalog_series	catalog_number	field_series	field_number	genus	epithet	country	island	locality	lat	long	date	extraction.msg_barcode
+KU	302635	CDS	1442	Cyrtodactylus	philippinicus	Philippines	Sibuyan	Romblon Province; Municipaity of Magdiwang; Barangay Talaba, Mount Guiting-Guiting Natural Park	12.4612167	122.66435	2001-03-24	TTCTCG
+KU	302639	CDS	173	Cyrtodactylus	philippinicus	Philippines	Panay	Antique Province; Municipality of Pandan; Barangay Duyong	11.7609167	122.0411833	2000-10-16	ATCTTG
+KU	310798	CDS	2844	Cyrtodactylus	sumuroi	Philippines	Samar	Eastern Samar Province; Municipality of Taft; Barangay San Rafael	11.80255	125.29276	2007-10-17	TATTAG
+KU	320351	CDS	3932	Cyrtodactylus	philippinicus	Philippines	Lubang	Occidental Mindoro Province; Municipality of Lubang; Barangay Vigo, Sitio Dangay	13.79995	120.16393		CTTGCG
+KU	324376	CDS	4341	Cyrtodactylus	philippinicus	Philippines	Negros	Negros Occidental Province; ; Barangay Patag; city of Silay; Mt. Bungol	10.67599	123.18777	2009-07-21	TAGCTG
+KU	324366	CDS	4485	Cyrtodactylus	annulatus	Philippines	Bohol	Bohol Province; Municipality of Bilar; Barangay Riverside; Magsaysay Park; Raja Sikatuna Natural Park	9.70551	124.12344	2009-08-01	AAATAG
+KU	330798	CDS	5823	Cyrtodactylus	philippinicus	Philippines	Luzon	Laguna Province; Municipality of Los Banos; Barangay Bagong Silang, Mt. Makiling Forest Reserve, Camp Malaboo	14.13356	121.20447	2011-05-11	TTCAGG
+KU	305569	CWL	89	Cyrtodactylus	annulatus	Philippines	Cebu	Cebu Province; Municipality of Alcoy; Barangay Nug-as, CBCF field station	9.71368	123.44672	2006-06-11	TACAAG
+KU	305431	ELR	682	Cyrtodactylus	philippinicus	Philippines	Mindoro	Occidental Mindoro Province; Municipality of Sablayan; Barangay Batong Buhay	12.8189	120.8644	2006-09-18	AAATAG
+KU	319844	RMB	11670	Cyrtodactylus	jambangan	Philippines	Mindanao	"Zamboanga City ""Province""; Municipality of Pasonanca; Pasonanca Natural Park, Barangay Tulosa, Sitio Santa Clara, Cabo Negro Outpost"	7.108	122.119	2009-04-09	AACAGG
+KU	323191	RMB	12836	Cyrtodactylus	philippinicus	Philippines	Luzon	Aurora Province; Municipality of San Luis; Barangay Real, Sitio Minoli, limestone forest	15.68	121.529	2009-06-13	TTAGCG
+KU	325814	RMB	13366	Cyrtodactylus	philippinicus	Philippines	Luzon	Nueva Vizcaya Province; Municipality of Quezon; Barangay Maddiangat, Sitio Upper Dayog	16.462	121.22	2010-01-10	ATGATG
+KU	328804	RMB	13669	Cyrtodactylus	philippinicus	Philippines	Luzon	"Albay Province; Municipality of Malinao; Barangay Sugcad, Sitio Kumagingking, ""Sugcad Plaza"""	13.40508	123.63882	2011-01-05	TTCGAG
+KU	329351	RMB	13964	Cyrtodactylus	philippinicus	Philippines	Luzon	Bulacan Province; Municipality of Dona Remedios Trinidad; Barangay Kabayunan, Sitio Langud, Langud River, Angat Watershed	15.0333	121.2032	2011-06-10	TACTGG
+KU	329534	RMB	14453	Cyrtodactylus	philippinicus	Philippines	Luzon	Ilocos Norte Province; Municipality of Adams; Barangay Adams, Site 3, Mt. Pao	-18.449	120.894	2011-06-27	GATGAG
+KU	330195	RMB	15119	Cyrtodactylus	philippinicus	Philippines	Luzon	Cagayan Province; Municipality of Gonzaga; Barangay Magrafil, Site 2, Mt. Cagua	18.236	122.104	2011-07-26	GTCATG
+KU	304634	RMB	5754	Cyrtodactylus	philippinicus	Philippines	Camiguin Norte	"Cagayan Province; Municipality of Calayan; Barangay Balatabat, Local Name ""Limandok"""	18.92927	121.89881	2006-03-07	TTTGTG
+KU	304784	RMB	5905	Cyrtodactylus	philippinicus	Philippines	Babuyan Claro	"Cagayan Province; Municipality of Calayan; Barangay Babuyan Claro, Local Name ""Asked"""	19.5237	121.9589	2006-03-12	AAGACG
+KU	307451	RMB	6259	Cyrtodactylus	philippinicus	Philippines	Polillo	Quezon Province; Municipality of Polillo; Barangay Pinaglubayan	14.75255	121.9683167	2006-07-22	TACGTG
+KU	306612	RMB	6455	Cyrtodactylus	philippinicus	Philippines	Mindoro	Occidental Mindoro Province; Municipality of Sablayan; Barangay Batong Buhay	12.8189	120.8644	2006-10-03	TATGCG
+KU	309320	RMB	7647	Cyrtodactylus	tautbatorum	Philippines	Palawan	Palawan Province; Municipality of Brooke's Point; Barangay Mainit, Mainit Falls	9.8367333	118.6416167	2007-03-23	ATCCAG
+KU	309330	RMB	7859	Cyrtodactylus	redimiculus	Philippines	Palawan	"Palawan Province; Municipality of Brooke's Point; Barangay Samarinana (Border with Barangay Saulog), Mt. Mantalingahan Range, Area ""Pitang"""	8.7503	117.6896	2007-03-31	CTCTGG
+KU	309365	RMB	8043	Cyrtodactylus	annulatus	Philippines	Camiguin Sur	Camiguin Province; Municipality of Mambajao; Barangay Pandan, Sito Pamahawan	9.24016	124.723675	2007-06-03	TAGCTG
+KU	310102	RMB	8444	Cyrtodactylus	mamanwa	Philippines	Dinagat	Dinagat Islands Province; Municipality of Loreto; Barangay Santiago, sitio Cambinlia (Sudlon)	10.3436833	125.6181167	2007-08-04	AATTGG
+KU	315340	RMB	8761	Cyrtodactylus	philippinicus	Philippines	Tablas	Romblon Province; Municipality of Calatrava; Barangay Balogo: Sitio Piqueno	12.60523	122.04552	2008-01-07	CACATG
+KU	326522	RMB	8933	Cyrtodactylus	gubaot	Philippines	Leyte	Leyte Province; Municipality of Baybay; Visayas State University Campus	10.7451667	124.8042833	2008-04-16	CTTCGG
+KU	313820	RMB	9748	Cyrtodactylus	philippinicus	Philippines	Luzon	Camarines Norte Province; Municipality of Labo; Barangay Tulay Na Lupa, Mt. Labo camp 1	14.02381	122.47294	2008-06-24	TTATAG
+		CDSGS	40	Gekko	mindorensis	Philippines	Negros	Occidental; Sipalay City; Camindangan; 9deg47.182N, 122deg30.640E	9.786367	122.510667		GTACTG
+KU	302684	CDS	100	Gekko	mindorensis	Philippines	Camiguin Sur	Camiguin Province; Municipality of Guinsiliban; Barangay Cabuan	9.127494	124.768558	2000-10-05	AAAGCG
+KU	302669	CDS	1230	Gekko	mindorensis	Philippines	Mindoro	Oriental Mindoro Province; Municipality of Bongabong; Barangay Formon	12.72105	121.3824167	2001-03-11	ATTCTG
+KU	302734	CDS	1462	Gekko	mindorensis	Philippines	Maestre De Campo	Romblon Province; Municipality of Concepcion; Barangay San Vicente	12.9155833	121.7248833	2001-03-27	AACGAG
+KU	300200	CDS	159	Gekko	ernstkelleri	Philippines	Panay	Antique Province; Municipality of Pandan; N/A	11.7609167	122.0411833	2004-10-15	GAGTAG
+KU	320395	CDS	3935	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro Province; Municipality of Lubang; Barangay Vigo, Sitio Dangay	13.79995	120.16393		TTCAGG
+KU	302718	CDS	46	Gekko	gigante	Philippines	South Gigante	Iloilo Province; Muncipality of Carles; Sitio Antonia, Barangay Gabi	11.589378	123.340467	2000-09-06	GAAGTG
+KU	302716	CDS	51	Gekko	gigante	Philippines	North Gigante	Iloilo Province; Muncipality of Carles; Barangay Asluman	11.62435	123.349116	2000-09-07	GTAAGG
+KU	330781	CDS	6047	Gekko	mindorensis	Philippines	Luzon	Laguna Province; Municipality of Los Banos; UPLB Forrestry Campus, Flat Rocks Site (coordinates at Los Banos)	14.166	121.243	2011-05-16	AATAAG
+KU	302679	CDS	609	Gekko	mindorensis	Philippines	Caluya	Antique Province; Municipality of Caluya; Barangay Poblacion	11.927286	121.553726	2000-11-14	CTTATG
+KU	302731	CDS	65	Gekko	mindorensis	Philippines	Panay	Capiz Province; Municipality of Pilar; Barangay Natividad	11.481667	123.011733	2000-09-10	CTTCGG
+KU	302728	CDS	758	Gekko	mindorensis	Philippines	Masbate	Masbate Province; Municipality of Mandaon; Barangay Poblacion	12.233484	123.284187	2001-01-24	TAATTG
+KU	302738	CDS	788	Gekko	romblon	Philippines	Romblon	Romblon Province; Municipality of Romblon; Barangay Li-o	12.5741	122.294	2001-01-27	TTTGTG
+KU	308552	ELR	1010	Gekko	mindorensis	Philippines	Mindoro	"Occidental Mindoro Province; Municipality of Paluan; Barangay Harrison, Sitio Ulasan, Local Name "" Matingaram"""	13.4630556	120.4122222	2007-01-08	CTACAG
+KU	328372	RMB	13589	Gekko	carusadensis	Philippines	Luzon	Laguna Province; Municipality of Los Banos; Barangay Batong Malake, UPLB Forrestry Campus	14.1534333	121.2322		GTAGAG
+KU	328822	RMB	13659	Gekko	mindorensis	Philippines	Luzon	Quezon Province; Municipality of Atimonan; Exact locality unknown (coordinates at center of municipality)	13.99583	121.905	2011-01-02	ATTAGG
+KU	304673	RMB	5793	Gekko	sp. b	Philippines	Camiguin Norte	"Cagayan Province; Municipality of Calayan; Barangay Balatabat, Local Name ""Limandok"""	18.92927	121.89881	2006-03-08	GTAAGG
+KU	304848	RMB	5969	Gekko	crombota	Philippines	Babuyan Claro	Cagayan Province; Municipality of Calayan; Barangay Babuyan Claro	19.5237	121.9589	2006-03-14	TTCGAG
+KU	304935	RMB	6056	Gekko	rossi	Philippines	Calayan	Cagayan Valley Province; ; Barangay Magsidel, Sitio Longog	19.331	121.439	2006-03-21	TTCGAG
+KU	307051	RMB	6374	Gekko	sp. a	Philippines	Dalupiri	Cagayan Province; Municipality of Calayan; Nipa Creek	19.102	121.223	2006-09-13	CTCGTG
+KU	307064	RMB	6449	Gekko	mindorensis	Philippines	Panay	Antique Province; Municipality of San Remigio; Barangay Aningalan	10.8088	122.1013	2006-10-02	GACACG
+KU	309331	RMB	7828	Gekko	athymus	Philippines	Palawan	"Palawan Province; Municipality of Brooke's Point; Barangay Samarinana (Border with Barangay Saulog), Mt. Mantalingahan Range, Area ""Pitang"""	8.7503	117.6896	2007-03-30	CAACTG
+KU	309295	RMB	7938	Gekko	monarchus	Philippines	Palawan	Palawan Province; Municipality of Quezon; Poblacion Quezon: National Museum Complex	9.2310667	117.99375	2007-04-04	CAGGTG
+KU	315348	RMB	8789	Gekko	romblon	Philippines	Tablas	Romblon Province; Municipality of Calatrava; Barangay Balogo: Sitio Piqueno	12.60523	122.04552	2008-01-08	ATAGTG
+KU	313977	RMB	9552	Gekko	porosus	Philippines	Sabtang	Batanes Province; Municipality of Sabtang; Barangay Chavayan	20.284567	121.871467	2008-06-05	CACTAG
+KU	313983	RMB	9575	Gekko	porosus	Philippines	Batan	Batanes Province; Municipality of Ivana; Barangay Salagao, Sitio Imnadyed	20.387638	121.93162	2008-06-08	ATTGAG
