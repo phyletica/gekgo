@@ -1,12 +1,12 @@
 nexus_label	catalog_series	catalog_number	field_series	field_number	genus	epithet	country	island	locality	Latitude	Longitude	date	extraction.msg_barcode	Geo_referenced	figure_label
-athymusPalawan	KU	309331	RMB	7828	Gekko	athymus	Philippines	Palawan	"Palawan Province; Municipality of Brooke's Point; Barangay Samarinana (Border with Barangay Saulog), Mt. Mantalingahan Range, Area ""Pitang"""	8.7503	117.6896	3/30/07	CAACTG	FALSE	1
+athymusPalawan	KU	309331	RMB	7828	Gekko	athymus	Philippines	Palawan	Palawan Province; Municipality of Brooke's Point; Barangay Samarinana (Border with Barangay Saulog), Mt. Mantalingahan Range, Area Pitang	8.7503	117.6896	3/30/07	CAACTG	FALSE	1
 ernstkelleriPanay	KU	300200	CDS	159	Gekko	ernstkelleri	Philippines	Panay	Antique Province; Municipality of Pandan; N/A	11.7609167	122.0411833	10/15/04	GAGTAG	FALSE	2
 romblonTablas	KU	315348	RMB	8789	Gekko	romblon	Philippines	Tablas	Romblon Province; Municipality of Calatrava; Barangay Balogo: Sitio Piqueno	12.60523	122.04552	1/8/08	ATAGTG	FALSE	3
 romblonRomblon	KU	302738	CDS	788	Gekko	romblon	Philippines	Romblon	Romblon Province; Municipality of Romblon; Barangay Li-o	12.5741	122.294	1/27/01	TTTGTG	FALSE	4
 carusadensisLuzon	KU	328372	RMB	13589	Gekko	carusadensis	Philippines	Luzon	Laguna Province; Municipality of Los Banos; Barangay Batong Malake, UPLB Forrestry Campus	14.1534333	121.2322		GTAGAG	FALSE	5
 giganteSouthGigante	KU	302718	CDS	46	Gekko	gigante	Philippines	South Gigante	Iloilo Province; Muncipality of Carles; Sitio Antonia, Barangay Gabi	11.58612	123.339217	9/6/00	GAAGTG	TRUE	6
 giganteNorthGigante	KU	302716	CDS	51	Gekko	gigante	Philippines	North Gigante	Iloilo Province; Muncipality of Carles; Barangay Asluman	11.623021	123.348448	9/7/00	GTAAGG	TRUE	7
-spbCamiguinNorte	KU	304673	RMB	5793	Gekko	sp. b	Philippines	Camiguin Norte	"Cagayan Province; Municipality of Calayan; Barangay Balatabat, Local Name ""Limandok"""	18.92927	121.89881	3/8/06	GTAAGG	FALSE	8
+spbCamiguinNorte	KU	304673	RMB	5793	Gekko	sp. b	Philippines	Camiguin Norte	Cagayan Province; Municipality of Calayan; Barangay Balatabat, Local Name Limandok	18.92927	121.89881	3/8/06	GTAAGG	FALSE	8
 spaDalupiri	KU	307051	RMB	6374	Gekko	sp. a	Philippines	Dalupiri	Cagayan Province; Municipality of Calayan; Nipa Creek	19.102	121.223	9/13/06	CTCGTG	FALSE	9
 rossiCalayan	KU	304935	RMB	6056	Gekko	rossi	Philippines	Calayan	Cagayan Valley Province; ; Barangay Magsidel, Sitio Longog	19.331	121.439	3/21/06	TTCGAG	FALSE	10
 crombotaBabuyanClaro	KU	304848	RMB	5969	Gekko	crombota	Philippines	Babuyan Claro	Cagayan Province; Municipality of Calayan; Barangay Babuyan Claro	19.525447	121.92949	3/14/06	TTCGAG	TRUE	11
@@ -15,7 +15,7 @@ porosusBatan	KU	313983	RMB	9575	Gekko	porosus	Philippines	Batan	Batanes Province
 monarchusPalawan	KU	309295	RMB	7938	Gekko	monarchus	Philippines	Palawan	Palawan Province; Municipality of Quezon; Poblacion Quezon: National Museum Complex	9.2310667	117.99375	4/4/07	CAGGTG	FALSE	14
 mindorensisMaestreDeCampo	KU	302734	CDS	1462	Gekko	mindorensis	Philippines	Maestre De Campo	Romblon Province; Municipality of Concepcion; Barangay San Vicente	12.9155833	121.7248833	3/27/01	AACGAG	FALSE	15
 mindorensisLubang	KU	320395	CDS	3935	Gekko	mindorensis	Philippines	Lubang	Occidental Mindoro Province; Municipality of Lubang; Barangay Vigo, Sitio Dangay	13.79995	120.16393		TTCAGG	FALSE	16
-mindorensisMindoroOccidental	KU	308552	ELR	1010	Gekko	mindorensis	Philippines	Mindoro	"Occidental Mindoro Province; Municipality of Paluan; Barangay Harrison, Sitio Ulasan, Local Name ""Matingaram"""	13.4630556	120.4122222	1/8/07	CTACAG	FALSE	17
+mindorensisMindoroOccidental	KU	308552	ELR	1010	Gekko	mindorensis	Philippines	Mindoro	Occidental Mindoro Province; Municipality of Paluan; Barangay Harrison, Sitio Ulasan, Local Name Matingaram	13.4630556	120.4122222	1/8/07	CTACAG	FALSE	17
 mindorensisLuzonQuezon	KU	328822	RMB	13659	Gekko	mindorensis	Philippines	Luzon	Quezon Province; Municipality of Atimonan; Exact locality unknown (coordinates at center of municipality)	13.99583	121.905	1/2/11	ATTAGG	FALSE	18
 mindorensisLuzonLaguna	KU	330781	CDS	6047	Gekko	mindorensis	Philippines	Luzon	Laguna Province; Municipality of Los Banos; UPLB Forrestry Campus, Flat Rocks Site (coordinates at Los Banos)	14.166	121.243	5/16/11	AATAAG	FALSE	19
 mindorensisCamiguinSur	KU	302684	CDS	100	Gekko	mindorensis	Philippines	Camiguin Sur	Camiguin Province; Municipality of Guinsiliban; Barangay Cabuan	9.116751	124.786168	10/5/00	AAAGCG	TRUE	20
