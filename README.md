@@ -9,14 +9,21 @@ Table of Contents
 Overview
 ========
 
-This project is archived on [zenodo](https://dx.doi.org/10.5281/zenodo.2642461):
-
-[![DOI](https://zenodo.org/badge/81459282.svg)](https://zenodo.org/badge/latestdoi/81459282)
-
 This repository serves as an [open-science
 notebook](http://en.wikipedia.org/wiki/Open_notebook_science) for research
 conducted by the [Phyletica Lab](http://phyletica.org) to investigate the
 comparative phylogenetics of Philippine gekkonids.
+
+
+Zenodo archives
+===============
+
+Multiple versions of this project are archived on [zenodo](https://doi.org/10.5281/zenodo.5162085):
+
+Version 1: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2642461.svg)](https://doi.org/10.5281/zenodo.2642461)
+
+Version 2: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5162085.svg)](https://doi.org/10.5281/zenodo.5162085)
+
 
 
 Acknowledgements
